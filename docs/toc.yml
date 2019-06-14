@@ -43,7 +43,7 @@
       href: install/update-visual-studio.md
     - name: Изменение Visual Studio
       href: install/modify-visual-studio.md
-    - name: Восстановите Visual Studio.
+    - name: Восстановление Visual Studio
       href: install/repair-visual-studio.md
     - name: Удаление Visual Studio
       href: install/uninstall-visual-studio.md
@@ -99,7 +99,7 @@
               href: help-viewer/command-line-arguments.md
             - name: Переопределение диспетчера содержимого справки
               href: help-viewer/behavior-overrides.md
-        - name: Ссылка
+        - name: Справочник
           items:
             - name: Идентификаторы рабочих нагрузок и компонентов Visual Studio
               items:
@@ -724,7 +724,7 @@
           href: ide/reference/accessibility-tips-and-tricks.md
         - name: 'Продукты и службы корпорации Майкрософт, поддерживающие специальные возможности'
           href: ide/reference/accessibility-products-and-services-from-microsoft.md
-- name: Ссылка
+- name: Справочник
   items:
     - name: Общие элементы пользовательского интерфейса
       displayName: Windows and dialogs
@@ -735,7 +735,7 @@
           href: ide/preview-changes.md
         - name: 'Выбор элементов панели элементов, компоненты WPF'
           href: ide/reference/choose-toolbox-items-wpf-components.md
-        - name: выбор фрагмента кода
+        - name: Выбор фрагмента кода
           href: ide/reference/code-snippet-picker.md
         - name: Командное окно
           href: ide/reference/command-window.md
@@ -747,7 +747,7 @@
           href: ide/reference/file-properties-javascript.md
         - name: Переход к строке
           href: ide/reference/go-to-line.md
-        - name: окно интерпретации
+        - name: Окно интерпретации
           href: ide/reference/immediate-window.md
         - name: Прочие файлы
           href: ide/reference/miscellaneous-files.md
@@ -881,12 +881,12 @@
           href: ide/reference/output-window.md
         - name: Свойства проекта
           items:
-            - name: Ссылка
+            - name: Справочник
               displayName: Project properties
               href: ide/reference/project-properties-reference.md
             - name: Страница "Приложение" в конструкторе проектов (UWP)
               href: ide/reference/application-page-project-designer-uwp.md
-            - name: 'Application Page, Project Designer (Visual Basic)'
+            - name: 'Страница "Приложение" в конструкторе проектов (Visual Basic)'
               items:
                 - name: Страница приложения
                   href: ide/reference/application-page-project-designer-visual-basic.md
@@ -946,13 +946,13 @@
               href: ide/reference/signing-page-project-designer.md
         - name: Страницы свойств (JavaScript)
           href: ide/reference/property-pages-javascript.md
-        - name: Окно \"Свойства\"
+        - name: Окно "Свойства"
           href: ide/reference/properties-window.md
         - name: Справка по Team Explorer
           href: ide/reference/team-explorer-reference.md
         - name: Панель элементов
           items:
-            - name: Ссылка
+            - name: Справочник
               displayName: Toolbox
               href: ide/reference/toolbox.md
             - name: 'Вкладка "Компоненты", панель элементов'
@@ -963,7 +963,7 @@
               href: ide/reference/toolbox-html-tab.md
     - name: Параметры командной строки для команды Devenv
       items:
-        - name: Ссылка
+        - name: Справочник
           displayName: devenv command-line switches
           href: ide/reference/devenv-command-line-switches.md
         - name: '-? (devenv.exe)'
@@ -1012,7 +1012,7 @@
           href: ide/reference/useenv-devenv-exe.md
     - name: Команды Visual Studio
       items:
-        - name: Ссылка
+        - name: Справочник
           displayName: Visual Studio commands
           href: ide/reference/visual-studio-commands.md
         - name: Visual Studio Command Aliases
