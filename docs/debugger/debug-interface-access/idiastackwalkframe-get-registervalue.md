@@ -1,5 +1,5 @@
 ---
-title: 'Идиастакквалкфраме:: get_registerValue | Документация Майкрософт'
+title: 'IDiaStackWalkFrame:: get_registerValue | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: Идиастакквалкфраме::p ut_registerValue | Документация Майкрософт
+title: IDiaStackWalkFrame::p ut_registerValue | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

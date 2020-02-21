@@ -33,7 +33,7 @@ HRESULT execute ( 
 #### <a name="parameters"></a>Параметры
  `frame`
 
-окне Объект [идиастакквалкфраме](../../debugger/debug-interface-access/idiastackwalkframe.md) , содержащий состояние регистров кадров.
+окне Объект [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) , содержащий состояние регистров кадров.
 
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK`; в противном случае возвращает код ошибки. В следующей таблице показаны возможные возвращаемые значения для этого метода.
@@ -46,7 +46,7 @@ HRESULT execute ( 
 |E_DIA_VALUE|Ошибка при вычислении значения (например, деление на ноль).|
 
 ## <a name="remarks"></a>Заметки
- Этот метод вызывается во время отладки для очистки стека. Объект [идиастакквалкфраме](../../debugger/debug-interface-access/idiastackwalkframe.md) реализуется клиентским приложением для получения обновлений регистров и для предоставления методов, используемых методом `execute`.
+ Этот метод вызывается во время отладки для очистки стека. Объект [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) реализуется клиентским приложением для получения обновлений регистров и для предоставления методов, используемых методом `execute`.
 
 ## <a name="see-also"></a>См. также
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
