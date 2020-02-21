@@ -34,7 +34,7 @@ HRESULT getEnumFrames( 
 #### <a name="parameters"></a>Параметры
  `pHelper`
 
-окне Вспомогательный объект [идиастакквалкхелпер](../../debugger/debug-interface-access/idiastackwalkhelper.md) .
+окне Вспомогательный объект [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md) .
 
  `ppEnum`
 

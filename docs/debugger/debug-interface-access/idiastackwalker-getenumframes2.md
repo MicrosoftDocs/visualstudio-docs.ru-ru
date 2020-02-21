@@ -40,7 +40,7 @@ ms.locfileid: "72741534"
 
  `pHelper`
 
-окне Вспомогательный объект [идиастакквалкхелпер](../../debugger/debug-interface-access/idiastackwalkhelper.md) .
+окне Вспомогательный объект [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md) .
 
  `ppEnum`
 

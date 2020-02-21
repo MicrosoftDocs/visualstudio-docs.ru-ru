@@ -43,7 +43,7 @@ enum MemoryTypeEnum {
 `MemTypeAny` обращается к любому типу памяти.
 
 ## <a name="remarks"></a>Заметки
-Значения в этом перечислении передаются методу [идиастакквалкхелпер:: readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) , чтобы ограничить доступ к различным типам памяти.
+Значения в этом перечислении передаются методу [IDiaStackWalkHelper:: readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) , чтобы ограничить доступ к различным типам памяти.
 
 ## <a name="requirements"></a>Требования
 Заголовок: квконст. h

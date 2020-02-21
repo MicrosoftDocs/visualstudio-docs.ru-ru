@@ -1,5 +1,5 @@
 ---
-title: 'Идиастакквалкхелпер:: Фрамефорва | Документация Майкрософт'
+title: 'IDiaStackWalkHelper:: Фрамефорва | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

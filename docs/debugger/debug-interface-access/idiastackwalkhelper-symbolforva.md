@@ -1,5 +1,5 @@
 ---
-title: 'Идиастакквалкхелпер:: Симболфорва | Документация Майкрософт'
+title: 'IDiaStackWalkHelper:: Симболфорва | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
