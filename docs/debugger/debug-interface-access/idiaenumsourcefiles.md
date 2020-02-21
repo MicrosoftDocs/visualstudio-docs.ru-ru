@@ -82,7 +82,7 @@ IDiaEnumSourceFiles* GetEnumSourceFiles(IDiaSession *pSession)
 ## <a name="requirements"></a>Требования
 Заголовок: Dia2. h
 
-Библиотека: диагуидс. lib
+Библиотека: diaguids. lib
 
 DLL: msdia80.dll
 

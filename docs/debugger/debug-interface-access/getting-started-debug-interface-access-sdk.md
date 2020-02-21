@@ -35,7 +35,7 @@ ms.locfileid: "72745108"
 
   Заголовок: include\dia2.h
 
-  Библиотека: либ\диагуидс.либ
+  Библиотека: lib\diaguids.lib
 
   DLL: bin\msdia80.dll
 

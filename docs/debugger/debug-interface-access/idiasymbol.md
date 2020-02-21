@@ -338,7 +338,7 @@ void DumpLocalVars( DWORD rva, IDiaSession *pSession )
 ## <a name="requirements"></a>Требования
 `Header:` Dia2. h
 
-Библиотека: диагуидс. lib
+Библиотека: diaguids. lib
 
 DLL: msdia80.dll
 
