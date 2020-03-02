@@ -132,13 +132,13 @@ Visual Studio предоставляет некоторые файлы *natvis* 
 
 ::: moniker range="vs-2017"
 
-4. Каталог Natvis конкретного пользователя (например, *%UserProfile%\Documents\Visual Studio 2017 \ визуализаторы*).
+4. Каталог Natvis конкретного пользователя (например, *%UserProfile%\Documents\Visual Studio 2017\Visualizers*).
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-4. Каталог Natvis конкретного пользователя (например, *%UserProfile%\Documents\Visual Studio 2019 \ визуализаторы*).
+4. Каталог Natvis конкретного пользователя (например, *%UserProfile%\Documents\Visual Studio 2019\Visualizers*).
 
 ::: moniker-end
 
