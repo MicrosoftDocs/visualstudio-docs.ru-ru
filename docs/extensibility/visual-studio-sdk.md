@@ -21,77 +21,77 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/06/2020
 ms.locfileid: "80698078"
 ---
-# <a name="visual-studio-sdk"></a>SDK для Visual Studio
-Visual Studio SDK поможет вам расширить функции Visual Studio или интегрировать новые функции в Visual Studio. Вы можете распространять свои расширения среди других пользователей, а также на Visual Studio Marketplace. Ниже перечислены некоторые из способов расширения Visual Studio:
+# <a name="visual-studio-sdk"></a>Пакет SDK для Visual Studio
+Пакет SDK для Visual Studio помогает расширить возможности Visual Studio или интегрировать новые функции в Visual Studio. Вы можете распространять ваши расширения среди других пользователей, а также в Visual Studio Marketplace. Некоторые способы расширения Visual Studio:
 
-- Добавление команд, кнопок, меню и других элементов uI в IDE
+- Добавление команд, кнопок, меню и других элементов пользовательского интерфейса в среду IDE.
 
-- Добавление окон инструментов для новой функциональности
+- Добавление окон инструментов для новых функций.
 
-- Расширить IntelliSense для данного языка или предоставить IntelliSense для новых языков программирования
+- Расширение IntelliSense для данного языка или предоставление IntelliSense для новых языков программирования.
 
-- Используйте лампочки, чтобы предоставить подсказки и предложения, которые помогают разработчикам писать лучший код
+- Использование лампочек для подсказок и предложений, которые помогают разработчикам улучшить код.
 
-- Включить поддержку нового языка
+- Добавление поддержки нового языка.
 
-- Добавление пользовательского типа проекта
+- Добавление настраиваемого типа проекта.
 
-- Охватить миллионы разработчиков через Visual Studio Marketplace
+- Охват миллионов разработчиков в Visual Studio Marketplace.
 
-  Если вы никогда не писали расширение Visual Studio раньше, вы должны найти более подробную информацию об этих функциях и на [начало разработки визуальных расширений studio.](../extensibility/starting-to-develop-visual-studio-extensions.md)
+  Если ранее вы не писали расширений Visual Studio, вы найдете дополнительные сведения об этих функциях в разделе [Приступая к разработке расширений Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md).
 
 ## <a name="install-the-visual-studio-sdk"></a>Установка пакета SDK для Visual Studio
- Визуальная студия SDK является дополнительной функцией в visual Studio установки. Вы также можете установить VS SDK позже. Для получения дополнительной информации, [см.](../extensibility/installing-the-visual-studio-sdk.md)
+ Пакет SDK для Visual Studio является дополнительной функцией в установке Visual Studio. Вы можете установить пакет SDK для VS позже. Дополнительные сведения см. в разделе [Установка пакета SDK для Visual Studio](../extensibility/installing-the-visual-studio-sdk.md).
 
-## <a name="whats-new-in-the-visual-studio-2017-sdk"></a>Что нового в Визуальной студии 2017 SDK
- Визуальная студия SDK имеет некоторые новые функции, такие как формат VSIX v3, а также нарушение изменений, которые могут потребовать от вас обновить расширение. Для получения дополнительной информации, смотрите [Что нового в Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
+## <a name="whats-new-in-the-visual-studio-2017-sdk"></a>Новые возможности пакета SDK для Visual Studio 2017
+ Пакет SDK для Visual Studio имеет несколько новых функций, например, VSIX вер. 3, а также критические изменения, которые могут потребовать обновления расширения. Дополнительные сведения см. в разделе [Новые возможности пакета SDK для Visual Studio 2017](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
 
-## <a name="visual-studio-user-experience-guidelines"></a>Рекомендации по пользовательскому опыту Visual Studio
- Получите отличные советы по разработке пользовательского интерфейса для вашего расширения в [руководстве visual Studio пользовательского опыта.](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md)
+## <a name="visual-studio-user-experience-guidelines"></a>Рекомендации по взаимодействию с пользователями Visual Studio
+ Получите советы по разработке пользовательского интерфейса для расширений в разделе [Рекомендации по взаимодействию с пользователями Visual Studio](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).
 
- Вы также можете узнать, как сделать ваше расширение отлично выглядеть на устройствах с высоким DPI с [адресом DPI вопросы](../extensibility/addressing-dpi-issues2.md) статьи.
+ Узнайте, как улучшить внешний вид расширения на устройствах с высоким DPI в разделе [Решение проблем с DPI](../extensibility/addressing-dpi-issues2.md).
 
- Воспользуйтесь [сервисом и каталогом Image](../extensibility/image-service-and-catalog.md) для отличного управления изображениями и поддержки высокого DPI и тефеи.
+ В разделе [Службы и каталог изображений](../extensibility/image-service-and-catalog.md) получите сведения о возможностях управления изображениями, поддержки высокого DPI и использования тем.
 
-## <a name="find-and-install-existing-visual-studio-extensions"></a>Найти и установить существующие расширения Visual Studio
- Расширения Visual Studio можно найти в диалоге **расширений и обновлений** в меню **«Инструменты».** Для получения дополнительной информации смотрите [Поиск и использование визуальных расширений студии](../ide/finding-and-using-visual-studio-extensions.md). Вы также можете найти расширения в [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
+## <a name="find-and-install-existing-visual-studio-extensions"></a>Поиск и установка существующих расширений Visual Studio
+ Расширения Visual Studio можно найти в диалоговом окне **Управление расширениями** в меню **Расширения**. Дополнительные сведения см. в разделе [Управление расширениями для Visual Studio](../ide/finding-and-using-visual-studio-extensions.md). Расширения также можно найти в [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
-## <a name="visual-studio-sdk-reference"></a>Визуальная студия SDK ссылка
- Вы можете найти Visual Studio SDK API ссылку на [Visual Studio SDK Ссылка](../extensibility/visual-studio-sdk-reference.md).
+## <a name="visual-studio-sdk-reference"></a>Справочник по пакету SDK для Visual Studio
+ Справочник по API пакета SDK для Visual Studio можно найти в разделе [Справочник по пакету SDK для Visual Studio](../extensibility/visual-studio-sdk-reference.md).
 
-## <a name="visual-studio-sdk-samples"></a>Образцы Визуальной студии SDK
- Вы можете найти примеры с открытым исходным кодом расширения VS SDK на GitHub в [Visual Studio Samples.](https://github.com/Microsoft/VSSDK-Extensibility-Samples) Это репо GitHub содержит образцы, которые иллюстрируют различные расширяемые функции в Visual Studio.
+## <a name="visual-studio-sdk-samples"></a>Примеры расширений Visual Studio
+ Примеры расширений для Visual Studio с открытым исходным кодом можно найти на GitHub в [Visual Studio Samples.](https://github.com/Microsoft/VSSDK-Extensibility-Samples). Репозиторий GitHub содержит примеры, иллюстрирующие различные расширяемые функции Visual Studio.
 
-## <a name="other-visual-studio-sdk-resources"></a>Другие ресурсы Визуальной студии SDK
- Если у вас есть вопросы о VSSDK или вы хотите поделиться своим опытом разработки расширений, вы можете использовать [Visual Studio Расширение форума](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) или [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).
+## <a name="other-visual-studio-sdk-resources"></a>Другие ресурсы пакета SDK для Visual Studio
+ Задать вопросы о пакете SDK для VS или поделиться опытом разработки расширений можно на форуме [Visual Studio Integrate](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) или в чате [ExtendVS Gitter](https://gitter.im/Microsoft/extendvs).
 
- Вы можете найти более подробную информацию в [блоге VSX Arcana](https://blogs.msdn.microsoft.com/vsx/) и ряд блогов, написанных Microsoft MVPs:
+ Дополнительную информацию можно найти в блоге [VSX Arcana](https://blogs.msdn.microsoft.com/vsx/) и ряде блогов, написанных специалистами Microsoft MVP:
 
-- [Любимые расширения визуальной студии](https://scottdorman.blog/2014/10/05/favorite-visual-studio-extensions/)
+- [Favorite Visual Studio Extensions](https://scottdorman.blog/2014/10/05/favorite-visual-studio-extensions/).
 
-- [Расширяемость визуальной студии](http://www.visualstudioextensibility.com/overview/vs/)
+- [Visual Studio Extensibility](http://www.visualstudioextensibility.com/overview/vs/).
 
-- [Расширение визуальной студии](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
+- [Extending Visual Studio 2013](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/).
 
 ## <a name="see-also"></a>См. также
 
-- [Создание расширения с командой меню](../extensibility/creating-an-extension-with-a-menu-command.md)
-- [Как: Миграция расширяемости проектов Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
-- [Часто задаваемые вопросы: Преобразование надстроек в расширения VSPackage](/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions?view=vs-2015)
+- [Создание расширения с помощью команды меню](../extensibility/creating-an-extension-with-a-menu-command.md)
+- [Практическое руководство: Перенос проектов расширяемости в Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
+- [Вопросы и ответы: Преобразование надстроек в расширения VSPackage](/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions?view=vs-2015)
 - [Управление несколькими потоками в управляемом коде](../extensibility/managing-multiple-threads-in-managed-code.md)
-- [Расширить меню и команды](../extensibility/extending-menus-and-commands.md)
-- [Добавление команд в панели инструментов](../extensibility/adding-commands-to-toolbars.md)
+- [Расширение меню и команд](../extensibility/extending-menus-and-commands.md)
+- [Добавление команд на панели инструментов](../extensibility/adding-commands-to-toolbars.md)
 - [Расширение и настройка окон инструментов](../extensibility/extending-and-customizing-tool-windows.md)
-- [Расширение службы редактора и языка](../extensibility/editor-and-language-service-extensions.md)
+- [Расширения службы редактора и языковой службы](../extensibility/editor-and-language-service-extensions.md)
 - [Расширение проектов](../extensibility/extending-projects.md)
 - [Расширение настроек и параметров пользователя](../extensibility/extending-user-settings-and-options.md)
-- [Создание пользовательских шаблонов проектов и элементов](../extensibility/creating-custom-project-and-item-templates.md)
-- [Расширить свойства и окно свойства](../extensibility/extending-properties-and-the-property-window.md)
-- [Расширить другие части Визуальной студии](../extensibility/extending-other-parts-of-visual-studio.md)
-- [Использование и предоставление услуг](../extensibility/using-and-providing-services.md)
+- [Создание настраиваемых шаблонов проектов и элементов](../extensibility/creating-custom-project-and-item-templates.md)
+- [Расширение свойств и окна свойств](../extensibility/extending-properties-and-the-property-window.md)
+- [Расширение других элементов Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Использование и предоставление служб](../extensibility/using-and-providing-services.md)
 - [Управление пакетами VSPackage](../extensibility/managing-vspackages.md)
-- [Визуальная студия изолированной оболочки](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
-- [Расширение визуальной студии ship](../extensibility/shipping-visual-studio-extensions.md)
+- [Изолированная оболочка Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
+- [Поставка расширений Visual Studio](../extensibility/shipping-visual-studio-extensions.md)
 - [Компоненты пакета SDK для Visual Studio](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Поддержка пакета SDK для Visual Studio](../extensibility/support-for-the-visual-studio-sdk.md)
-- [Визуальная студия SDK ссылка](../extensibility/visual-studio-sdk-reference.md)
+- [Справочник по пакету SDK для Visual Studio](../extensibility/visual-studio-sdk-reference.md)
