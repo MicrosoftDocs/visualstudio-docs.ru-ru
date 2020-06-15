@@ -646,7 +646,7 @@ class MyClass4
 Func<int, int> fibonacci = null;
 fibonacci = (int n) =>
 {
-    return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+    return n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2);
 };
 
 // Use local function
@@ -654,7 +654,7 @@ fibonacci = (int n) =>
 // After
 int fibonacci(int n)
 {
-    return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
+    return n <= 1 ? n : fibonacci(n-1) + fibonacci(n-2);
 }
 ```
 
