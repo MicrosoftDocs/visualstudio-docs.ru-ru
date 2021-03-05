@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет объект массива.
 title: Идебугаррайобжект | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 83d6a37a5b83cd71123521db70920fd3d454e059
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 16162cee8a02bf02b192336425101ec4bb579106
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99870068"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102158531"
 ---
 # <a name="idebugarrayobject"></a>IDebugArrayObject
 > [!IMPORTANT]
@@ -48,7 +49,7 @@ IDebugArrayObject : IDebugObject
 |[GetRank](../../../extensibility/debugger/reference/idebugarrayobject-getrank.md)|Возвращает ранг массива.|
 |[GetDimensions](../../../extensibility/debugger/reference/idebugarrayobject-getdimensions.md)|Возвращает размеры массива.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Средство оценки выражений использует этот интерфейс для представления массивов в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования

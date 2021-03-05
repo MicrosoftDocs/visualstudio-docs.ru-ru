@@ -1,4 +1,5 @@
 ---
+description: Этот метод явно отключает функцию "изменить и продолжить" для этого процесса (и всех содержащихся в нем программ).
 title: IDebugProcess3::D Исаблинк | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5cfd425e6b992d8d933edd45f27d6fb4c8161a1a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ffedebd14f720e006c0bec2044afe80901762b52
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891050"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102158492"
 ---
 # <a name="idebugprocess3disableenc"></a>IDebugProcess3::DisableENC
 Этот метод явно отключает функцию "изменить и продолжить" для этого процесса (и всех содержащихся в нем программ). Пользовательский поставщик порта всегда должен возвращать значение `E_NOTIMPL` .
@@ -48,7 +49,7 @@ HRESULT DisableENC(
 > [!NOTE]
 > Пользовательский поставщик порта всегда должен возвращать значение `E_NOTIMPL` .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если для процесса отключена возможность "изменить и продолжить", ее можно включить заново, только перезапустив процесс.
 
 ## <a name="see-also"></a>См. также раздел

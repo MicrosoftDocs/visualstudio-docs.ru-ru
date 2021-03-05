@@ -1,4 +1,5 @@
 ---
+description: Указывает состояние исключения.
 title: EXCEPTION_STATE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f804f9a47314bfd239e6904286122776977e92e7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8ff9edf1ef12d219b865815585035151e664e67a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99936929"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102158752"
 ---
 # <a name="exception_state"></a>EXCEPTION_STATE
 Указывает состояние исключения.
@@ -122,7 +123,7 @@ public enum enum_EXCEPTION_STATE {
 `EXCEPTION_STOP_USER_SECOND_CHANCE_USE_PARENT`\
 УСТАРЕЛО, НЕ ИСПОЛЬЗУЙТЕ.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Используется в качестве `dwState` члена структуры [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) для указания состояния исключения и того, что может быть сделано.
 
 Эти значения также передаются методу [сеталлексцептионс](../../../extensibility/debugger/reference/idebugengine3-setallexceptions.md) для установки состояния всех исключений.

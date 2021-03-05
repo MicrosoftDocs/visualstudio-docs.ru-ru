@@ -1,4 +1,5 @@
 ---
+description: Возвращает тип точки останова, представленной этим разрешением.
 title: 'IDebugBreakpointResolution2:: Жетбреакпоинттипе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5410cbf6147e0c8c6f4cba97b0214c4503f9790b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cca069871c99c623119853f37d1c422125b985ff
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893000"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102158518"
 ---
 # <a name="idebugbreakpointresolution2getbreakpointtype"></a>IDebugBreakpointResolution2::GetBreakpointType
 Возвращает тип точки останова, представленной этим разрешением.
@@ -46,7 +47,7 @@ int GetBreakpointType(
 ## <a name="return-value"></a>Возвращаемое значение
 В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки. Возвращает E_FAIL, если `bpResLocation` поле в связанной структуре [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) является недопустимым.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Точка останова может быть кодом или точкой останова по данным, например.
 
 ## <a name="example"></a>Пример
