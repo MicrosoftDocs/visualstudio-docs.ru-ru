@@ -1,4 +1,5 @@
 ---
+description: Извлекает интерфейс управляемого кода, представляющий значение, связанное с этим псевдонимом.
 title: 'Идебугалиас:: Жетикордебугвалуе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2ba5456ba3beabb1d5418d739be2aa74838daa41
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b809e16fefb9306da842f39d93bdb3dd0f7b404f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947181"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143939"
 ---
 # <a name="idebugaliasgeticordebugvalue"></a>IDebugAlias::GetICorDebugValue
 Извлекает интерфейс управляемого кода, представляющий значение, связанное с этим псевдонимом.
@@ -46,7 +47,7 @@ int GetICorDebugValue(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод применяется только к управляемым значениям ( `ICorDebugValue` интерфейс доступен в платформа .NET Framework и определен в платформа .NET Framework SDK в файле CorDebug. IDL).
 
 ## <a name="see-also"></a>См. также раздел

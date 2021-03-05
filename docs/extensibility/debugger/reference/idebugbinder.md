@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс Привязывает поле символа, обычно возвращаемое поставщиком символов, к контексту памяти или объекту, который содержит текущее значение символа.
 title: Идебугбиндер | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3cf4f418cf02f08f95d0192e99c0b02d0f74e3ad
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: febe22338ddeaf275b37ae09c76921c91ec509da
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925122"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143627"
 ---
 # <a name="idebugbinder"></a>IDebugBinder
 > [!IMPORTANT]
@@ -48,7 +49,7 @@ IDebugBinder : IUnknown
 |[GetFunctionObject](../../../extensibility/debugger/reference/idebugbinder-getfunctionobject.md)|Возвращает объект [идебугфунктионобжект](../../../extensibility/debugger/reference/idebugfunctionobject.md) , используемый для создания параметров функции.|
 |[ResolveDynamicType](../../../extensibility/debugger/reference/idebugbinder-resolvedynamictype.md)|Возвращает точный тип для переменной.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс возвращает объекты, используемые средством оценки выражений в деревьях синтаксического анализа. Средство оценки выражений анализирует выражение с помощью поставщика символов для преобразования символов в выражении в экземпляры [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md), которые описывают каждый символ в терминах его типа и расположения в исходном коде. Метод [BIND](../../../extensibility/debugger/reference/idebugbinder-bind.md) преобразует `IDebugField` объекты в объекты [идебугобжект](../../../extensibility/debugger/reference/idebugobject.md) , которые соединяют или привязывают тип символа к фактическому значению в памяти. `IDebugObject`Затем эти объекты сохраняются в дереве синтаксического анализа для последующей оценки.
 
 ## <a name="requirements"></a>Требования

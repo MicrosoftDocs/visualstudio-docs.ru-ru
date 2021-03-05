@@ -1,4 +1,5 @@
 ---
+description: Описывает положение смещения точки останова в функции в коде.
 title: BP_LOCATION_CODE_FUNC_OFFSET | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 - vssdk
 dev_langs:
 - CPP
-ms.openlocfilehash: 93296770597e8809c5b739b46d8eaefdc8fe5daf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 83a5a27601ab6d7498394d6723b86ad3e66aceb5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99870289"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144368"
 ---
 # <a name="bp_location_code_func_offset"></a>BP_LOCATION_CODE_FUNC_OFFSET
 Описывает положение смещения точки останова в функции в коде.
@@ -40,7 +41,7 @@ typedef struct _BP_LOCATION_CODE_FUNC_OFFSET {
 `pFuncPos`\
 Объект [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md) , описывающий имя функции и относительное расположение от начала функции.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура является членом структуры [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) в составе объединения.
 
 `pFuncPos`Элемент указывает, где следует задать точку останова функции.

@@ -1,4 +1,5 @@
 ---
+description: Указывает тип структуры, используемой для описания расположения точки останова.
 title: BP_LOCATION | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 15f52f9b71bcb18131e03a7d7fbdd9f56ac4fa6b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 472dc7b2e642608691ea2adb2ad1a7dce170729f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902129"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144186"
 ---
 # <a name="bp_location"></a>BP_LOCATION
 Указывает тип структуры, используемой для описания расположения точки останова.
@@ -90,7 +91,7 @@ public struct BP_LOCATION {
 `unionmember4`\
 [Только C#] См. раздел Примечания о том, как интерпретировать.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура является членом структур [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) и [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) .
 
  [Только C#] Элементы обрабатываются в `unionmemberX` соответствии со следующей таблицей. Взгляните на левый столбец для `bpLocationType` значения, затем взгляните на другие столбцы, чтобы определить, что каждый `unionmemberX` элемент представляет и маршалировать `unionmemberX` соответствующим образом. См. пример для интерпретации части этой структуры в C#.

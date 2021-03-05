@@ -1,4 +1,5 @@
 ---
+description: Отменяет регистрацию программы, которая может быть отлаживаться из порта, на котором она выполняется.
 title: 'IDebugPortNotify2:: Ремовепрограмноде | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 61ee3b8222ed85605958bc467822c495cb0b16e9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 90918aed8652328a8aa02edac3517ec524a6cfa0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99919852"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102142652"
 ---
 # <a name="idebugportnotify2removeprogramnode"></a>IDebugPortNotify2::RemoveProgramNode
 Отменяет регистрацию программы, которая может быть отлаживаться из порта, на котором она выполняется.
@@ -46,7 +47,7 @@ int RemoveProgramNode(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод удаляет узел программы, добавленный с помощью вызова метода [аддпрограмноде](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) .
 
 ## <a name="see-also"></a>См. также раздел

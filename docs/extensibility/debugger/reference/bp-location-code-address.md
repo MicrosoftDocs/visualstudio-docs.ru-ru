@@ -1,4 +1,5 @@
 ---
+description: Описывает расположение точки останова по адресу в коде.
 title: BP_LOCATION_CODE_ADDRESS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 - vssdk
 dev_langs:
 - CPP
-ms.openlocfilehash: a438e3e30d541b641b0f9ae74160ee4e22b131b1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 961a62284b841d56ae73a29df0e83810ff9d7d20
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99948404"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144446"
 ---
 # <a name="bp_location_code_address"></a>BP_LOCATION_CODE_ADDRESS
 Описывает расположение точки останова по адресу в коде.
@@ -48,7 +49,7 @@ URL-адрес модуля, содержащего точку останова.
 `bstrAddress`\
 Адрес точки останова, который анализируется средством оценки выражений для привязки его к объекту [идебугаддресс](../../../extensibility/debugger/reference/idebugaddress.md) .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура является членом структуры [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) в составе объединения.
 
 ## <a name="requirements"></a>Требования

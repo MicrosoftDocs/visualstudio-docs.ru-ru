@@ -1,4 +1,5 @@
 ---
+description: Используется для задания точек останова в коде на основе строки, которую пользователь может вводить из интегрированной среды разработки (IDE).
 title: BP_LOCATION_CODE_STRING | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 - vssdk
 dev_langs:
 - CPP
-ms.openlocfilehash: 98b85a1b27255902f4cfba9923beda4305ca03d5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9508a4a83894757fb47e35d8db7334bfb144ff59
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923218"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144381"
 ---
 # <a name="bp_location_code_string"></a>BP_LOCATION_CODE_STRING
 Используется для задания точек останова в коде на основе строки, которую пользователь может вводить из интегрированной среды разработки (IDE).
@@ -40,7 +41,7 @@ typedef struct _BP_LOCATION_CODE_STRING {
 `bstrCodeExpr`\
 Строка, которую пользователь вводит в для описания точки останова в коде.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура является членом структуры [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) в составе объединения.
 
 ## <a name="requirements"></a>Требования

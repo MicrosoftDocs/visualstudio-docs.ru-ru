@@ -1,4 +1,5 @@
 ---
+description: Представляет числовой псевдоним для переменной и позволяет средству оценки выражений (EE) получить домен приложения для псевдонима.
 title: IDebugAlias2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 171e9da3b25aa33ad3921f4ec5f841429490be72
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f383e31f43e1e6422892547d66af533c2f4ab87f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99944619"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143861"
 ---
 # <a name="idebugalias2"></a>IDebugAlias2
 > [!IMPORTANT]
@@ -39,7 +40,7 @@ IDebugAlias2 : IDebugAlias
 |------------|-----------------|
 |[GetAppDomainId](../../../extensibility/debugger/reference/idebugalias2-getappdomainid.md)|Возвращает идентификатор для домена приложения.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Псевдоним представляет собой десятичное число в виде строки, за которым следует символ #, например, 1001 #.
 
 ## <a name="requirements"></a>Требования

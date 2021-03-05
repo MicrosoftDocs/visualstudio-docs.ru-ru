@@ -1,4 +1,5 @@
 ---
+description: Представляет числовой псевдоним для переменной.
 title: Идебугалиас | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5ad298d83efd16112a0cf1be3171601b93342a55
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6fd5639c510ba5a4a346c7a6f2630e7f14ddf036
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99944723"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143887"
 ---
 # <a name="idebugalias"></a>IDebugAlias
 > [!IMPORTANT]
@@ -47,7 +48,7 @@ IDebugAlias : IUnknown
 |[GetICorDebugValue](../../../extensibility/debugger/reference/idebugalias-geticordebugvalue.md)|Извлекает `ICorDebugValue` интерфейс, предоставляющий доступ к информации управляемого кода об этом объекте (только управляемый код).|
 |[Dispose](../../../extensibility/debugger/reference/idebugalias-dispose.md)|Помечает этот псевдоним как более не используемый.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Псевдоним представляет собой десятичное число в виде строки, за которым следует символ #, например, 1001 #.
 
 ## <a name="requirements"></a>Требования

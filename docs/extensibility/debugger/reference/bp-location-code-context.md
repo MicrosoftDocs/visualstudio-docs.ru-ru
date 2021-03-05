@@ -1,4 +1,5 @@
 ---
+description: Описывает расположение точки останова, привязанной непосредственно к адресу в отлаживаемой программе.
 title: BP_LOCATION_CODE_CONTEXT | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 - vssdk
 dev_langs:
 - CPP
-ms.openlocfilehash: a51665a22a01c17256c41d45d2970bea0f617140
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8b84e71c3102071dcdd0bcb5be9b539144c19047
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99948391"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144407"
 ---
 # <a name="bp_location_code_context"></a>BP_LOCATION_CODE_CONTEXT
 Описывает расположение точки останова, привязанной непосредственно к адресу в отлаживаемой программе.
@@ -36,7 +37,7 @@ typedef struct _BP_LOCATION_CODE_CONTEXT {
 `pCodeContext`\
 Объект [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) , определяющий расположение точки останова в коде.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура является членом структуры [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) в составе объединения.
 
 ## <a name="requirements"></a>Требования

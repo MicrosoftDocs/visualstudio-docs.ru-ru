@@ -1,4 +1,5 @@
 ---
+description: Этот метод вычисляет проанализированное выражение и при необходимости приводит результат к другому типу данных.
 title: 'Идебугпарседекспрессион:: Евалуатесинк | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ff14c10f5563053ce704982455eee6d9dc81b742
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 99760fb35975834186beddf2962ea8402543d088
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953257"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143108"
 ---
 # <a name="idebugparsedexpressionevaluatesync"></a>IDebugParsedExpression::EvaluateSync
 Этот метод вычисляет проанализированное выражение и при необходимости приводит результат к другому типу данных.
@@ -76,7 +77,7 @@ int EvaluateSync(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Контекст вычисления выражения предоставляется методом `pAddress` , который позволяет определить содержащий метод, а затем использовать правила определения области языка, чтобы определить значение символов в выражении.
 
 ## <a name="see-also"></a>См. также раздел

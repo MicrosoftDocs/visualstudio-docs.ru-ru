@@ -1,4 +1,5 @@
 ---
+description: Проверяет, может ли поставщик порта добавлять новые порты.
 title: 'IDebugPortSupplier2:: Канаддпорт | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ebd90baebc859f340bfb06df3fdbdc6012588183
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5c53abba81b02aa6125d4fa25ce16db85579ce5c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904567"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102142665"
 ---
 # <a name="idebugportsupplier2canaddport"></a>IDebugPortSupplier2::CanAddPort
 Проверяет, может ли поставщик порта добавлять новые порты.
@@ -40,7 +41,7 @@ int CanAddPort();
 ## <a name="return-value"></a>Возвращаемое значение
  Если порт можно добавить, возвращает значение `S_OK` ; в противном случае возвращается значение, `S_FALSE` указывающее, что порты не могут быть добавлены к этому поставщику портов.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Вызовите этот метод перед вызовом метода [аддпорт](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md) , так как последний метод создает порт, а также добавляет его, что может занять много времени.
 
 ## <a name="see-also"></a>См. также раздел

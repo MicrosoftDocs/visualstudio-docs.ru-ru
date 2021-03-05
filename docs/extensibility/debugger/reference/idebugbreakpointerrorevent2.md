@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс сообщает диспетчеру отладки сеансов (SDM), что незавершенная точка останова не может быть привязана к загруженной программе из-за предупреждения или ошибки.
 title: IDebugBreakpointErrorEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 033c997f3bd1038c2103a6c0ef3ad9ddbd74c249
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 89342f5d26c5aeec41222bba12a29f534798782b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99901865"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143366"
 ---
 # <a name="idebugbreakpointerrorevent2"></a>IDebugBreakpointErrorEvent2
 Этот интерфейс сообщает диспетчеру отладки сеансов (SDM), что незавершенная точка останова не может быть привязана к загруженной программе из-за предупреждения или ошибки.
@@ -41,7 +42,7 @@ IDebugBreakpointErrorEvent2 : IUnknown
 |------------|-----------------|
 |[GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)|Возвращает интерфейс [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) , описывающий предупреждение или ошибку.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  При каждом связывании точки останова в SDM отправляется событие. Если точка останова не может быть привязана, `IDebugBreakpointErrorEvent2` отправляется; в противном случае отправляется [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md) .
 
  Например, если условие, связанное с ожидающей точкой останова, не удается проанализировать или вычислить, будет отправлено предупреждение о том, что в данный момент не может быть привязана ожидающая точка останова. Это может произойти, если код точки останова еще не загружен.

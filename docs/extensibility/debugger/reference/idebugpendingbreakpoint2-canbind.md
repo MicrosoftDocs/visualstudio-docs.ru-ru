@@ -1,4 +1,5 @@
 ---
+description: Определяет, может ли отложенная точка останова быть привязана к расположению кода.
 title: 'IDebugPendingBreakpoint2:: Канбинд | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 89781298dc9134f80f8f57cc0e008068fa47bad3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 55b51049929941e868803242af8ef12bca368dd8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953205"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102143094"
 ---
 # <a name="idebugpendingbreakpoint2canbind"></a>IDebugPendingBreakpoint2::CanBind
 Определяет, может ли отложенная точка останова быть привязана к расположению кода.
@@ -47,7 +48,7 @@ int CanBind (
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает значение, `S_OK.` `S_FALSE` Если точка останова не может выполнить привязку, в этом случае ошибки возвращаются `ppErrorEnum` параметром. В противном случае возвращается код ошибки. Возвращает значение `E_BP_DELETED` , если точка останова была удалена.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод вызывается для определения того, что произойдет, если была выполнена привязка ожидающей точки останова. Вызовите метод [BIND](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md) для фактической привязки ожидающей точки останова.
 
 ## <a name="example"></a>Пример

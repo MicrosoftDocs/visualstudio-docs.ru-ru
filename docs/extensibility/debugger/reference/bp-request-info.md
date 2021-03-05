@@ -1,4 +1,5 @@
 ---
+description: Содержит сведения, необходимые для реализации точки останова.
 title: BP_REQUEST_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c806687b9948be693ca25868aaf7211d9ccf6b97
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 941c8302fa52d579c2fbefc62ccd962d26e2cf13
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902024"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144135"
 ---
 # <a name="bp_request_info"></a>BP_REQUEST_INFO
 Содержит сведения, необходимые для реализации точки останова.
@@ -88,7 +89,7 @@ GUID языка.
 `dwFlags`\
 Сочетание флагов из перечисления [BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md) , которое указывает флаги для запрошенной точки останова.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура возвращается методом [жетрекуестинфо](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md) .
 
 Если необходимо получить GUID поставщика модуля отладки, ограничение точки останова или точку трассировки, см. структуру [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) .

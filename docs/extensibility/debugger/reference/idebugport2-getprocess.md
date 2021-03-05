@@ -1,4 +1,5 @@
 ---
+description: Возвращает указанный процесс, выполняемый в порте.
 title: 'IDebugPort2:: выполнить процесс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1b31108b73707cdd45e4f38adf4417b60caf9270
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5f3cf42e4f1316951ee50d110fe79b1191e4dc8e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99918293"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102142860"
 ---
 # <a name="idebugport2getprocess"></a>IDebugPort2::GetProcess
 Возвращает указанный процесс, выполняемый в порте.

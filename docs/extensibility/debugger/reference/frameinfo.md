@@ -1,4 +1,5 @@
 ---
+description: Описывает кадр стека.
 title: ФРАМЕИНФО | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e1d52989d5687e922e0cb0ab306efc5321ffecef
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8830e3917198cda10d9e4e0fb8919b1b56e84e9e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904750"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144095"
 ---
 # <a name="frameinfo"></a>FRAMEINFO
 Описывает кадр стека.
@@ -103,7 +104,7 @@ public struct FRAMEINFO {
 `m_fAnnotatedFrame`\
 Ненулевое значение ( `TRUE` ), если кадр стека снабжен заметками диспетчером отладки сеансов (SDM).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура передается в метод " [info](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) ", который должен быть заполнен. Эта структура также содержится в списке, который содержится в интерфейсе [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) , который, в свою очередь, возвращается из вызова метода [енумфрамеинфо](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) .
 
 ## <a name="requirements"></a>Требования
