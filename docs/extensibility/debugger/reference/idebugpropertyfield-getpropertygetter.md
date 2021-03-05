@@ -1,4 +1,5 @@
 ---
+description: Возвращает метод, который получает свойство.
 title: 'Идебугпропертифиелд:: Жетпропертижеттер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 30ddc04eca7fb3932ae0797aaa18b1e665ce85e8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4b86315d7991e8ca76a4d08ec38292a9157bbdb1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897250"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167988"
 ---
 # <a name="idebugpropertyfieldgetpropertygetter"></a>IDebugPropertyField::GetPropertyGetter
 Возвращает метод, который получает свойство.
@@ -46,7 +47,7 @@ int GetPropertyGetter(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Чтобы получить метод, который задает свойство, [жетпропертисеттер](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md) вызовите метод.
 
 ## <a name="see-also"></a>См. также раздел

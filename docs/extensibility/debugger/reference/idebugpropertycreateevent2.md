@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при создании свойства, связанного с конкретным документом.
 title: IDebugPropertyCreateEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 08ef46275d9c7365cfcc837b8e4dfc73f0b48b41
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0a8a4317ec3e1c2c83becf0bffb5274ae5a44cf4
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99876060"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168053"
 ---
 # <a name="idebugpropertycreateevent2"></a>IDebugPropertyCreateEvent2
 Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при создании свойства, связанного с конкретным документом.
@@ -41,7 +42,7 @@ IDebugPropertyCreateEvent2 : IUnknown
 |------------|-----------------|
 |[GetDebugProperty](../../../extensibility/debugger/reference/idebugpropertycreateevent2-getdebugproperty.md)|Возвращает новое свойство.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если с свойством связан конкретный документ или сценарий, то параметр DE может отправить это событие в SDM, чтобы обновить окно « **документы скрипта** » с именем документа. SDM будет вызывать [жетекстендединфо](../../../extensibility/debugger/reference/idebugproperty2-getextendedinfo.md) с аргументом `guidDocument` для получения объекта, `VARIANT` содержащего указатель [IUnknown](/cpp/atl/iunknown) . SDM будет вызывать [QueryInterface](/cpp/atl/queryinterface) на этом указателе для получения интерфейса [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) , используемого для обновления окна " **документы скрипта** ".
 
 ## <a name="requirements"></a>Требования
