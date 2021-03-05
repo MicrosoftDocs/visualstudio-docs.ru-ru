@@ -1,4 +1,5 @@
 ---
+description: Содержит сведения о состоянии точки останова, готовой к привязке к расположению кода.
 title: PENDING_BP_STATE_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f7c1e2b8b537607f6dc57d807d276c5b72ccb144
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: edd4bbdde1c241d90329343be1fd5570129c675a
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968571"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223931"
 ---
 # <a name="pending_bp_state_info"></a>PENDING_BP_STATE_INFO
 Содержит сведения о состоянии точки останова, готовой к привязке к расположению кода.
@@ -48,7 +49,7 @@ public struct PENDING_BP_STATE_INFO {
  `flags`\
  Сочетание флагов из перечисления [PENDING_BP_STATE_FLAGS](../../../extensibility/debugger/reference/pending-bp-state-flags.md) , которое указывает, является ли точка останова виртуализированной.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура передается в [метод WebMethod](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getstate.md) , где он заполнен.
 
 ## <a name="requirements"></a>Требования

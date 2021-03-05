@@ -1,4 +1,5 @@
 ---
+description: Следующий доступный идентификатор для объекта System. Threading. Tasks. Task.
 title: s_taskIdCounter поле | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c7ee7c76e02d08f0893fedee2530a74ef235e66a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7f57a69061912297bb1c09b02828d3cbba75a808
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961031"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223360"
 ---
 # <a name="s_taskidcounter-field"></a>Поле s_taskIdCounter
 Следующий доступный идентификатор для <xref:System.Threading.Tasks.Task> объекта.

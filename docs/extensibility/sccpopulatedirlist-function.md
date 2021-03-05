@@ -1,4 +1,5 @@
 ---
+description: Эта функция определяет, какие каталоги и (при необходимости) файлы хранятся в системе управления версиями с учетом списка каталогов для проверки.
 title: Функция Сккпопулатедирлист | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: eac3973bf28a14340b720a51fc291b914822f3d1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 991803511e48e72012c868eaa4b0afbd889b2380
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836921"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221513"
 ---
 # <a name="sccpopulatedirlist-function"></a>Функция SccPopulateDirList
 Эта функция определяет, какие каталоги и (при необходимости) файлы хранятся в системе управления версиями с учетом списка каталогов для проверки.
@@ -68,7 +69,7 @@ SCCRTN SccPopulateDirList(
 |SCC_OK|Операция успешно завершена.|
 |SCC_E_UNKNOWNERROR|Произошла ошибка.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Функция обратного вызова передается только этим каталогам и (необязательно) именам файлов, фактически находящиеся в репозитории системы управления версиями.
 
 ## <a name="see-also"></a>См. также раздел

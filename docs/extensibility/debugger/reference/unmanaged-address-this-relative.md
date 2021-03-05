@@ -1,4 +1,5 @@
 ---
+description: Эта структура представляет адрес относительно данного указателя (я в Visual Basic).
 title: UNMANAGED_ADDRESS_THIS_RELATIVE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5c19109215a9e8824f1648860c39ccb33836ca93
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cc3e72a536af25c3c62d953a0e5cfb75b5200c69
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99879999"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223371"
 ---
 # <a name="unmanaged_address_this_relative"></a>UNMANAGED_ADDRESS_THIS_RELATIVE
 Эта структура представляет адрес относительно `this` указателя ( `Me` в Visual Basic).
@@ -53,7 +54,7 @@ public struct UNMANAGED_THIS_RELATIVE {
  `dwBitLength`\
  Число битов, представляющих адрес (всегда 0, если не ссылается на битовое поле).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура является частью объединения в структуре [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , если `dwKind` поле `DEBUG_ADDRESS_UNION` структуры имеет `ADDRESS_KIND_UNMANAGED_THIS_RELATIVE` значение (Value из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) ).
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Эта функция переименовывает файл в системе управления версиями.
 title: Функция Сккренаме | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4b4579644b04002ae9da3361ba35c63472eef637
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dcfb68518f42e969b7c9d52acfb37723e9774f97
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836752"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221344"
 ---
 # <a name="sccrename-function"></a>Функция SccRename
 Эта функция переименовывает файл в системе управления версиями.
@@ -64,7 +65,7 @@ SCCRTN SccRename(
 |SCC_E_OPNOTPERFORMED|Операция не была выполнена.|
 |SCC_E_NONSPECIFICERROR|Произошла неопределенная или общая ошибка.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта функция может использоваться для переименования файла или перемещения его из одного расположения в другое в системе управления версиями. Подключаемый модуль системы управления версиями не должен пытаться получить доступ к файлу на диске. Переименование локального файла является обязанностью интегрированной среды разработки.
 
 ## <a name="see-also"></a>См. также раздел

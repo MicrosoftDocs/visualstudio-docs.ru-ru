@@ -1,4 +1,5 @@
 ---
+description: Элемент Ентрипоинтсколлектион пространства имен vstav3 содержит все элементы entryPoint, связанные с решениями Office.
 title: '&lt;&gt;элемент ентрипоинтсколлектион (разработка решений Office в Visual Studio)'
 titleSuffix: ''
 ms.custom: seodec18
@@ -16,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 6e7c7d7c32c538345adb246369b791cd6b2b41b3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: da689b71f50d43d60d78cf702a28eb5ba7ae0bb1
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910425"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223606"
 ---
 # <a name="ltentrypointscollectiongt-element-office-development-in-visual-studio"></a>&lt;&gt;элемент ентрипоинтсколлектион (разработка решений Office в Visual Studio)
   Элемент `entryPointsCollection` пространства имен `vstav3` содержит все элементы `entryPoints` , связанные с решениями Office.
@@ -49,7 +50,7 @@ ms.locfileid: "99910425"
  У элемента`entryPointsCollection` имеются перечисленные ниже элементы.
 
 ### <a name="entrypoints"></a>entryPoints
- Обязательный элемент. Роль `entryPoints` элемента в `vstav3` пространстве имен определяется в [&#60;entrypoint&#62; элемент &#40;разработке решений Office в&#41;Visual Studio ](../vsto/entrypoints-element-office-development-in-visual-studio.md).
+ Обязательный. Роль `entryPoints` элемента в `vstav3` пространстве имен определяется в [&#60;entrypoint&#62; элемент &#40;разработке решений Office в&#41;Visual Studio ](../vsto/entrypoints-element-office-development-in-visual-studio.md).
 
 ## <a name="document-level-customization-example"></a>Пример настройки на уровне документа
 

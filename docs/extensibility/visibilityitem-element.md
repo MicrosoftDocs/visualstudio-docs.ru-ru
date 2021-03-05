@@ -13,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16615dfdbfd7e9762046e37899ecf23619837ae2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3fa4c2910a1f694a822d2a31b5ad537c8104f99c
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926018"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221305"
 ---
 # <a name="visibilityitem-element"></a>Висибилититем, элемент
 `VisibilityItem`Элемент определяет статическую видимость команд и панелей инструментов. Каждая запись определяет команду или меню, а также связанный контекст пользовательского интерфейса команды. Visual Studio обнаруживает команды, меню и панели инструментов, а также их видимость, не загружая пакеты VSPackage, которые их определяют. Интегрированная среда разработки использует <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> метод, чтобы определить, активен ли контекст пользовательского интерфейса команды.
@@ -33,8 +33,8 @@ ms.locfileid: "99926018"
 
 ```xml
 <VisibilityItem
-  guid ="="cmdGuidMyProductCommands"
-  id=="cmdidAddWidget"
+  guid="cmdGuidMyProductCommands"
+  id="cmdidAddWidget"
   context="guidNotViewSourceMode"/>
 ```
 
@@ -45,10 +45,10 @@ ms.locfileid: "99926018"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|guid|Обязательный элемент. Идентификатор GUID идентификатора команды GUID/ID.|
-|идентификатор|Обязательный элемент. Идентификатор идентификатора команды GUID/ID.|
-|контекст|Обязательный элемент. Контекст пользовательского интерфейса, в котором отображается команда.|
-|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|guid|Обязательный. Идентификатор GUID идентификатора команды GUID/ID.|
+|идентификатор|Обязательный. Идентификатор идентификатора команды GUID/ID.|
+|контекст|Обязательный. Контекст пользовательского интерфейса, в котором отображается команда.|
+|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
  Нет
@@ -59,7 +59,7 @@ ms.locfileid: "99926018"
 |-------------|-----------------|
 |[Висибилитиконстраинтс, элемент](../extensibility/visibilityconstraints-element.md)|`VisibilityConstraints`Элемент определяет статическую видимость групп команд и панелей инструментов.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Стандартные контексты пользовательского интерфейса Visual Studio определяются в файле \Висуалстудиоинтегратион\коммон\инк\всшлидс.х *пути установки пакета SDK для Visual Studio*, а также в <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids> <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> классах и. Более полный набор контекстов пользовательского интерфейса определяется в <xref:Microsoft.VisualStudio.VSConstants> классе.
 
 ## <a name="example"></a>Пример

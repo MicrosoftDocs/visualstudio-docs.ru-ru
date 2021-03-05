@@ -1,4 +1,5 @@
 ---
+description: Эта функция получает сведения о состоянии для набора выбранных файлов в системе управления версиями.
 title: Функция Скккуеринфо | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2794e915efe35c2fee593d677ffd228c055a565a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 880cb2cf7db5c7a988d6549865de1864cb799e53
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836739"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221500"
 ---
 # <a name="sccqueryinfo-function"></a>Функция SccQueryInfo
 Эта функция получает сведения о состоянии для набора выбранных файлов в системе управления версиями.
@@ -60,7 +61,7 @@ SCCRTN SccQueryInfo(
 |SCC_E_PROJNOTOPEN|Проект не открыт в системе управления версиями.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если `lpFileName` является пустой строкой, в настоящее время нет сведений о состоянии для обновления. В противном случае это полный путь к файлу, сведения о состоянии которого могли измениться.
 
  Возвращаемый массив может быть битовой маской `SCC_STATUS_xxxx` битов. Дополнительные сведения см. в разделе [код состояния файла](../extensibility/file-status-code-enumerator.md). Система управления версиями может не поддерживать все типы битов. Например, если `SCC_STATUS_OUTOFDATE` не предложено, бит просто не задан.

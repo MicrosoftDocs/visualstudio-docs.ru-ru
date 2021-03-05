@@ -1,4 +1,5 @@
 ---
+description: Этот метод возвращает количество элементов в перечислении Addresses.
 title: 'Иенумдебугаддрессес:: NOCOUNT | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b4a2d6fab85b392a517cc8275462bd8a01bb4316
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 092cba3ce0def2f416a4676e86df89bd56fd87e4
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923073"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222683"
 ---
 # <a name="ienumdebugaddressesgetcount"></a>IEnumDebugAddresses::GetCount
 Этот метод возвращает количество элементов в перечислении.
@@ -46,7 +47,7 @@ int GetCount(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод не является частью пользовательского интерфейса перечисления COM, который указывает, что необходимо реализовать только следующие методы: "только следующий", "клонировать", "пропустить" и "Сброс".
 
 ## <a name="see-also"></a>См. также раздел

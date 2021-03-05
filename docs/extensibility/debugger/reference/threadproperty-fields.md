@@ -1,4 +1,5 @@
 ---
+description: Указывает, какие сведения о потоке необходимо получить.
 title: THREADPROPERTY_FIELDS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3efe97518b0952c1207eac97fe9151f36c686f43
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 698c803304cf5efd3375b6d49e4dedbc4622f4c1
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846560"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221838"
 ---
 # <a name="threadproperty_fields"></a>THREADPROPERTY_FIELDS
 Указывает, какие сведения о потоке необходимо получить.
@@ -74,7 +75,7 @@ public enum enum_THREADPROPERTY_FIELDS {
  `TPF_ALLFIELDS`\
  Задает все поля.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эти значения передаются в качестве аргумента в метод [жетсреадпропертиес](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) , чтобы указать, какие поля структуры [среадпропертиес](../../../extensibility/debugger/reference/threadproperties.md) должны быть инициализированы.
 
  Эти значения также используются в `dwFields` члене `THREADPROPERTIES` структуры для указания того, какие поля используются и являются допустимыми.

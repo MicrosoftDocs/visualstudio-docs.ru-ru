@@ -1,4 +1,5 @@
 ---
+description: Эта функция закрывает проект, помечая конец конкретного сеанса.
 title: Функция Сккклосепрожект | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a4a54193b23015135b6112655fe48d79d3de74e4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f3fb9208619639a8f1c767cbf12a2de0ed24768f
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943157"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220876"
 ---
 # <a name="scccloseproject-function"></a>Функция Сккклосепрожект
 Эта функция закрывает проект, помечая конец конкретного сеанса.
@@ -43,7 +44,7 @@ SCCRTN SccCloseProject (
 |SCC_E_NOTAUTHORIZED|Пользователю не разрешено выполнять эту операцию.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  [Сккопенпрожект](../extensibility/sccopenproject-function.md) всегда вызывается перед этой функцией. После вызова этой функции следует вызов `SccOpenProject` функции или [сккунинитиализе](../extensibility/sccuninitialize-function.md), который полностью завершает подключение к системе управления версиями.
 
 ## <a name="see-also"></a>См. также раздел

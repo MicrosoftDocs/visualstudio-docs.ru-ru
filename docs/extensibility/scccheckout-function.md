@@ -1,4 +1,5 @@
 ---
+description: При наличии списка полных имен файлов Эта функция проверяет их на локальном диске.
 title: Функция Сккчеккаут | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4112190e145242da591fa3d8e4db7d054bd07466
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5ed6b494957374244d98f0cca59a063e5a6648c4
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943144"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221631"
 ---
 # <a name="scccheckout-function"></a>Функция Сккчеккаут
 При наличии списка полных имен файлов Эта функция проверяет их на локальном диске. Комментарий применяется ко всем извлеченным файлам. Аргумент комментария может быть `null` строкой.

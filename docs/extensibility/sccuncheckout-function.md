@@ -1,4 +1,5 @@
 ---
+description: Эта функция отменяет предыдущую операцию извлечения, тем самым восстанавливая содержимое выбранного файла или файлов в состояние до извлечения.
 title: Функция Сккунчеккаут | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3fdcd8cd94914763d103a6232c4f87c3ec93f216
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 33e0c4904a92d71e000d8c911d551eb8d0aab621
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836674"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221357"
 ---
 # <a name="sccuncheckout-function"></a>Функция SccUncheckout
 Эта функция отменяет предыдущую операцию извлечения, тем самым восстанавливая содержимое выбранного файла или файлов в состояние до извлечения. Все изменения, внесенные в файл с момента извлечения, теряются.
@@ -74,7 +75,7 @@ SCCRTN SccUncheckout (
 |SCC_E_PROJNOTOPEN|Проект не был открыт из системы управления версиями.|
 |SCC_I_OPERATIONCANCELED|Операция была отменена до завершения.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  После выполнения этой операции `SCC_STATUS_CHECKEDOUT` `SCC_STATUS_MODIFIED` флаги и будут сброшены для файлов, для которых было выполнено отмену извлечения.
 
 ## <a name="see-also"></a>См. также раздел

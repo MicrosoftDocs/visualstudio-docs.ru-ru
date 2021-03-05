@@ -1,4 +1,5 @@
 ---
+description: Эта функция добавляет новые файлы в систему управления версиями.
 title: Функция Сккадд | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e7fc3a2a6fbf362d58ddd1bfe25c905354d1ebdb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f654429f8c3faefe05a6410a3c732a6a4b1d083b
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926864"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221732"
 ---
 # <a name="sccadd-function"></a>Функция Сккадд
 Эта функция добавляет новые файлы в систему управления версиями.
@@ -81,7 +82,7 @@ SCCRTN SccAdd(
 |SCC_I_RELOADFILE|Необходимо перезагрузить файл или проект.|
 |SCC_E_FILENOTEXIST|Локальный файл не найден.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Обычно `fOptions` они заменяются массивом, `pfOptions` с одной `LONG` спецификацией параметров для каждого файла. Это связано с тем, что тип файла может различаться в зависимости от файла.
 
 > [!NOTE]

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет программы, запущенные в текущем сеансе отладки.
 title: IEnumDebugPrograms2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 04566b4a8dae7f25f799d08780c93936009adef8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2b0a593d6168b7d34f97802a0b3b1b0a5c141821
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890751"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224230"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 Этот интерфейс перечисляет программы, запущенные в текущем сеансе отладки.
@@ -45,7 +46,7 @@ IEnumDebugPrograms2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugprograms2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugprograms2-getcount.md)|Возвращает количество программ в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio использует этот интерфейс для:
 
 - Заполните окно " **модули** " (вызвав [енумпрограмс](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) , а затем вызвав [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) для каждой программы).

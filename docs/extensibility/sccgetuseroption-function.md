@@ -1,4 +1,5 @@
 ---
+description: Эта функция получает разнообразные параметры, относящиеся к пользователю.
 title: Функция Сккжетусероптион | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e4bc3e4bf6acef8ff8de1cdcecb2596dcf6d86e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c137630e4a29fc534e9bfced16cffe862e07a046
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99844558"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220629"
 ---
 # <a name="sccgetuseroption-function"></a>Функция SccGetUserOption
 Эта функция получает разнообразные параметры, относящиеся к пользователю.
@@ -54,7 +55,7 @@ SCCRTN SccGetUserOption(
 |SCC_E_OPNOTSUPPORTED|Параметр не поддерживается.|
 |SCC_E_NONSPECIFICERROR|Произошла неизвестная ошибка.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта команда поддерживает следующие параметры:
 
 |Параметр пользователя|Описание|

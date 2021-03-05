@@ -1,4 +1,5 @@
 ---
+description: Содержит сведения о процессе.
 title: PROCESS_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 76b8e36b6a6792b51552cb4203adebdc101cd808
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f5557e4171bdeb51ae1ac954870a85227a8c4c92
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963020"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222098"
 ---
 # <a name="process_info"></a>PROCESS_INFO
 Содержит сведения о процессе.
@@ -83,7 +84,7 @@ public struct PROCESS_INFO {
  `Flags`\
  Сочетание флагов из перечисления [PROCESS_INFO_FLAGS](../../../extensibility/debugger/reference/process-info-flags.md) , определяющих свойства процесса.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура передается в метод " [info](../../../extensibility/debugger/reference/idebugprocess2-getinfo.md) ", где он заполняется.
 
 ## <a name="requirements"></a>Требования

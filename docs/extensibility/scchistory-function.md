@@ -1,4 +1,5 @@
 ---
+description: Эта функция отображает журнал указанных файлов.
 title: Функция Скчистори | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 61ca9071373cd25a4a8bd0d367a97654dfdefb3e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5b7e1cd6fa6d5b9b3a5ab42cd1b4cafec215deca
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893572"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220577"
 ---
 # <a name="scchistory-function"></a>Функция SccHistory
 Эта функция отображает журнал указанных файлов.
@@ -74,7 +75,7 @@ SCCRTN SccHistory(
 |SCC_E_PROJNOTOPEN|Проект не был открыт.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой. Не удалось получить журнал файлов.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  В подключаемом модуле системы управления версиями может отображаться собственное диалоговое окно для отображения журнала каждого файла с использованием в `hWnd` качестве родительского окна. Кроме того, можно использовать необязательную функцию обратного вызова текстового вывода, предоставляемую для [сккопенпрожект](../extensibility/sccopenproject-function.md) , если она поддерживается.
 
  Обратите внимание, что при определенных обстоятельствах анализируемый файл может измениться во время выполнения этого вызова. Например, [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] команда History дает пользователю возможность получить старую версию файла. В этом случае подключаемый модуль системы управления версиями возвращает, `SCC_I_RELOAD` чтобы предупредить интегрированную среду разработки о необходимости перезагрузки файла.

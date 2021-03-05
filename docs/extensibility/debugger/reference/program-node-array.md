@@ -1,4 +1,5 @@
 ---
+description: Содержит массив объектов, описывающих интересующие программы.
 title: PROGRAM_NODE_ARRAY | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4803698aba910bc910fa36bf5c4f7e23ab82d247
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 282d96a221c0422da14427b71f1727c65b826fd7
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912718"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222059"
 ---
 # <a name="program_node_array"></a>PROGRAM_NODE_ARRAY
 Содержит массив объектов, описывающих интересующие программы.
@@ -48,7 +49,7 @@ public struct tagPROGRAM_NODE_ARRAY {
  `Members`\
  Массив объектов [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) , описывающих запрошенные программы.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура является частью структуры [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) , которая, в свою очередь, заполняется вызовом метода [жетпровидерпроцессдата](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) .
 
 ## <a name="requirements"></a>Требования

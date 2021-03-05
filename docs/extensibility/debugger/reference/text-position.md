@@ -1,4 +1,5 @@
 ---
+description: Описывает положение строк и столбцов в заданном тексте.
 title: TEXT_POSITION | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ebb3b16504a76c516408f997486279f52256294f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7793870c91279b219a450463c921339b76565a62
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850717"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221851"
 ---
 # <a name="text_position"></a>TEXT_POSITION
 Описывает положение строк и столбцов в заданном тексте.
@@ -49,7 +50,7 @@ public struct TEXT_POSITION {
 `dwColumn`\
 Смещение символа в строке.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Эта структура используется в структурах [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) и [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) .
 

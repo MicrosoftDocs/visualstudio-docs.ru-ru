@@ -1,4 +1,5 @@
 ---
+description: Этот метод сбрасывает перечисление адресов к первому элементу.
 title: 'Иенумдебугаддрессес:: Reset | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a29620fe97079c865aa18d354a88cc6bd12e6893
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 90ccbb3be28f676133756d5d07fcaca7e0aca3ec
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897096"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222670"
 ---
 # <a name="ienumdebugaddressesreset"></a>IEnumDebugAddresses::Reset
 Этот метод сбрасывает перечисление к первому элементу.
@@ -36,12 +37,12 @@ int Reset();
 ```
 
 ## <a name="parameters"></a>Параметры
- Отсутствуют
+ None
 
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  После вызова этого метода следующий вызов [Next](../../../extensibility/debugger/reference/ienumdebugaddresses-next.md) возвращает первый элемент перечисления.
 
 ## <a name="see-also"></a>См. также раздел

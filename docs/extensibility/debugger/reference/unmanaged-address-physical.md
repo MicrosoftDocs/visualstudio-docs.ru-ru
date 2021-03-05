@@ -1,4 +1,5 @@
 ---
+description: Эта структура представляет физический адрес.
 title: UNMANAGED_ADDRESS_PHYSICAL | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 736ef56a67247bac53f1f27f84c994a1bf117b9e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9da1aadd9767dd8dff17f520212a8e67a012dbd6
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880077"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223398"
 ---
 # <a name="unmanaged_address_physical"></a>UNMANAGED_ADDRESS_PHYSICAL
 Эта структура представляет физический адрес.
@@ -43,7 +44,7 @@ public struct UNMANAGED_ADDRESS_PHYSICAL {
  `offset`\
  64-битное смещение в физическом адресном пространстве.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура является частью объединения в структуре [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , если `dwKind` поле `DEBUG_ADDRESS_UNION` структуры имеет `ADDRESS_KIND_UNMANAGED_PHYSICAL` значение (Value из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) ).
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Указывает состояние ожидающей точки останова (точка останова, которая еще не привязана).
 title: PENDING_BP_STATE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 12a1dfd610c86966aa22444924098051c4b50d21
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ce0ceedd50fbdf6345b49143c4634f49dec308f7
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934094"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222124"
 ---
 # <a name="pending_bp_state"></a>PENDING_BP_STATE
 Указывает состояние ожидающей точки останова (точка останова, которая еще не привязана).
@@ -59,7 +60,7 @@ public enum enum_PENDING_BP_STATE {
  `PBPS_ENABLED`\
  Указывает, что ожидание точки останова включено.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Используйте в качестве `state` члена структуры [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md) .
 
 ## <a name="requirements"></a>Требования

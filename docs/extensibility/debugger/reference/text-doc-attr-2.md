@@ -1,4 +1,5 @@
 ---
+description: Описывает атрибуты документа.
 title: TEXT_DOC_ATTR_2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e7113cfead52348a1d1a85973b90014ca53226ed
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c8351753c5e8da9a320bd93c17e8138dedaff03d
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850730"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221864"
 ---
 # <a name="text_doc_attr_2"></a>TEXT_DOC_ATTR_2
 Описывает атрибуты документа.
@@ -40,7 +41,7 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
  `TEXT_DOC_ATTR_READONLY_2`\
  Указывает, что документ доступен только для чтения.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 > [!NOTE]
 > Это значение фактически не определено в сборке для C#. Вместо этого необходимо скопировать определение в исходный файл.

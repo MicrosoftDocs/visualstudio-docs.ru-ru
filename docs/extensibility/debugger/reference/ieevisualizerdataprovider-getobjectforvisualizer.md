@@ -1,4 +1,5 @@
 ---
+description: Этот метод получает объект, представляемый этим визуализатором.
 title: 'Иивисуализердатапровидер:: Жетобжектфорвисуализер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f7ac35b3bd3757e804840478c586100a3f56e656
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ec4cef6cf7a0715ee31ce5a88736581a0abd610b
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890933"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222917"
 ---
 # <a name="ieevisualizerdataprovidergetobjectforvisualizer"></a>IEEVisualizerDataProvider::GetObjectForVisualizer
 Этот метод получает объект, представляемый этим визуализатором.
@@ -46,7 +47,7 @@ int GetObjectForVisualizer(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `GetObjectForVisualizer` может возвращать кэшированную версию объекта. Если вызывающий объект хочет обеспечить актуальность объекта, он будет вызывать [жетневобжектфорвисуализер](../../../extensibility/debugger/reference/ieevisualizerdataprovider-getnewobjectforvisualizer.md).
 
 ## <a name="see-also"></a>См. также раздел

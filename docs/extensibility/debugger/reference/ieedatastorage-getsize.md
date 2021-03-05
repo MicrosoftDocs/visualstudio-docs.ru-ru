@@ -1,4 +1,5 @@
 ---
+description: Возвращает число байтов, содержащихся в этом объекте.
 title: 'Иидатастораже:: DataSize | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2a18ae08500bd457f6e9ab316514836a30538a42
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 46051ae73859213b3206e27fb83d40c0561d0c0b
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965516"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222930"
 ---
 # <a name="ieedatastoragegetsize"></a>IEEDataStorage::GetSize
 Возвращает число байтов, содержащихся в этом объекте.
@@ -46,7 +47,7 @@ int GetSize(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Используйте метод [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md) для получения фактических байтов данных.
 
 ## <a name="see-also"></a>См. также раздел

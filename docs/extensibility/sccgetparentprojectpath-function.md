@@ -1,4 +1,5 @@
 ---
+description: Эта функция определяет родительский путь к проекту для указанного проекта.
 title: Функция Сккжетпарентпрожектпас | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 825586ed29152bddf0f5dd909f71f96c96db8624
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e624d8765da65dc6231c0128e87ffd9d6cdf848d
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99958405"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220616"
 ---
 # <a name="sccgetparentprojectpath-function"></a>Функция Сккжетпарентпрожектпас
 Эта функция определяет родительский путь к проекту для указанного проекта. Эта функция вызывается, когда пользователь добавляет проект Visual Studio в систему управления версиями.
@@ -76,7 +77,7 @@ SCCRTN SccGetParentProjectPath(
 |SCC_E_CONNECTIONFAILURE|Проблема с подключением к хранилищу.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта функция возвращает код успешного или неуспешного выполнения, и в случае успеха заполняет переменную `lpParentProjPath` полным путем к указанному проекту.
 
  Эта функция возвращает путь к родительскому проекту существующего проекта. Для корневого проекта функция возвращает путь к переданному проекту (то есть тот же корневой путь проекта). Обратите внимание, что путь проекта — это строка, которая имеет смысл только для подключаемого модуля системы управления версиями.

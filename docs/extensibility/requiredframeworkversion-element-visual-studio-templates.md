@@ -1,4 +1,5 @@
 ---
+description: Указывает минимальную версию платформа .NET Framework, необходимую для шаблона.
 title: Элемент RequiredFrameworkVersion (шаблоны Visual Studio)
 titleSuffix: ''
 ms.custom: SEO-VS-2020
@@ -14,12 +15,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 211393ea65f7ca31f80134c48863b0092478b3f3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3700735f987da7320d569b2cee020f0d8a072bdc
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836986"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221800"
 ---
 # <a name="requiredframeworkversion-element-visual-studio-templates"></a>Элемент Рекуиредфрамеворкверсион (шаблоны Visual Studio)
 
@@ -57,7 +58,7 @@ ms.locfileid: "99836986"
 
  Текст должен быть минимальным номером версии платформа .NET Framework, который необходим для шаблона.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Параметр `RequiredFrameworkVersion` является необязательным элементом. Используйте этот элемент, только если шаблон поддерживает определенную минимальную версию (и более поздние версии, если таковые имеются) платформа .NET Framework. Если указать элемент, `RequiredFrameworkVersion` а шаблон не поддерживает определенную минимальную версию платформа .NET Framework, раскрывающийся список **Версия целевой платформы** будет отображаться, если он неприменим.
 

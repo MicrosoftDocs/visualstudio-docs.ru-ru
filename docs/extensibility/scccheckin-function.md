@@ -1,4 +1,5 @@
 ---
+description: Эта функция возвращает ранее извлеченные файлы в систему управления версиями, сохраняет изменения и создает новую версию.
 title: Функция Сккчеккин | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a68b03f594ad686f2b3e23aab52cabfe4fa5d92a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a835ead5fb0404b78d9e9c9ecc92ee0c73eaf252
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952113"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220863"
 ---
 # <a name="scccheckin-function"></a>Функция Сккчеккин
 Эта функция возвращает ранее извлеченные файлы в систему управления версиями, сохраняет изменения и создает новую версию. Эта функция вызывается с количеством и массивом имен файлов для возврата.
@@ -83,7 +84,7 @@ SCCRTN SccCheckin (
 |SCC_I_RELOADFILE|Необходимо перезагрузить файл или проект.|
 |SCC_E_FILENOTEXIST|Локальный файл не найден.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Комментарий применяется ко всем возвращаемым файлам. Аргумент комментария может быть `null` строкой, в этом случае подключаемый модуль системы управления версиями может запрашивать у пользователя строку комментария для каждого файла.
 
  `fOptions`Аргументу можно присвоить значение `SCC_KEEP_CHECKEDOUT` флага, чтобы указать намерение пользователя проверить файл и снова его проверить.

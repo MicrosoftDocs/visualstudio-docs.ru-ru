@@ -1,4 +1,5 @@
 ---
+description: Этот метод определяет, может ли визуализатор иметь обновленный объект данных, который он представляет.
 title: 'Иивисуализердатапровидер:: Кансетобжектфорвисуализер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3b6f3b3ebf41ebd3fd4c04b0cb7451f57a41fa73
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a0a7f69ea57e14e7a1960712631f03a3becc8b80
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890998"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222943"
 ---
 # <a name="ieevisualizerdataprovidercansetobjectforvisualizer"></a>IEEVisualizerDataProvider::CanSetObjectForVisualizer
 Этот метод определяет, может ли визуализатор иметь обновленный объект данных, который он представляет.
@@ -46,7 +47,7 @@ int CanSetObjectForVisualizer(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Объект может быть неизменяемым, если он привязан к памяти только для чтения, например.
 
 ## <a name="see-also"></a>См. также раздел
