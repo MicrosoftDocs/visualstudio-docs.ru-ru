@@ -1,4 +1,5 @@
 ---
+description: Загружает (при необходимости) символы для всех модулей, отлаживаемых с помощью этого модуля отладки.
 title: 'IDebugEngine3:: Лоадсимболс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f823f0087ee612a7850e000469271e0c2a778b62
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f4b4f210ef07ad10b35251582dd8a3c0fe3b0685
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887306"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153811"
 ---
 # <a name="idebugengine3loadsymbols"></a>IDebugEngine3::LoadSymbols
 Загружает (при необходимости) символы для всех модулей, отлаживаемых с помощью этого модуля отладки.
@@ -41,7 +42,7 @@ int LoadSymbols();
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  При этом загружаются отладочные символы для всех модулей, на которые ссылается этот модуль отладки. Символы загружаются, только если они еще не загружены. Поиск символов выполняется по путям, заданным путем вызова [сетсимболпас](../../../extensibility/debugger/reference/idebugengine3-setsymbolpath.md).
 
 ## <a name="see-also"></a>См. также раздел

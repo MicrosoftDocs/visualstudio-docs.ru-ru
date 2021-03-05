@@ -1,4 +1,5 @@
 ---
+description: Извлекает настраиваемый атрибут по его имени.
 title: 'Идебугкустоматтрибутекуери:: Жеткустоматтрибутебинаме | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9717c16ba40cfb0b0d637f86da134a3864e2d05e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7168eea4ddefa85ded7ab3b3c18b9d647a054b99
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99903255"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154487"
 ---
 # <a name="idebugcustomattributequerygetcustomattributebyname"></a>IDebugCustomAttributeQuery::GetCustomAttributeByName
 Извлекает настраиваемый атрибут по его имени.

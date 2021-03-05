@@ -1,4 +1,5 @@
 ---
+description: Используется ядром отладки (DE) для запуска и завершения программ.
 title: IDebugEngineLaunch2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e4485001341399d3830864a30b64fec24a77c5a8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f03b4754d1648dc8a184d59e5e8b0f038a000bf2
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892727"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153473"
 ---
 # <a name="idebugenginelaunch2"></a>IDebugEngineLaunch2
 Используется ядром отладки (DE) для запуска и завершения программ.

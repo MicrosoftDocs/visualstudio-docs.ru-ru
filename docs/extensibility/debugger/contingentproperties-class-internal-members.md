@@ -1,4 +1,5 @@
 ---
+description: Содержит дополнительные свойства для объекта System. Threading. Tasks. Task.
 title: Класс Континжентпропертиес — внутренние элементы | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -11,12 +12,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3f332c715c8a182b30191cd96c8f1d1438cbdefd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2303318c7a5f36027ce7709c5b09b5846fc6fab6
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930490"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154981"
 ---
 # <a name="contingentproperties-class---internal-members"></a>Класс Континжентпропертиес — внутренние элементы
 Содержит дополнительные свойства <xref:System.Threading.Tasks.Task> объекта.
@@ -42,7 +43,7 @@ ms.locfileid: "99930490"
 |----------|-----------------|
 |[m_children](../../extensibility/debugger/m-children-field.md)|Список дочерних задач, зарегистрированных в этой задаче.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Платформа .NET Framework инициализирует поля этого класса только в том случае, если они необходимы.
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: 'IDebugEngineLaunch2:: Терминатепроцесс завершает процесс.'
 title: 'IDebugEngineLaunch2:: Терминатепроцесс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 19222c3cc6ec7e3b09cfa16bdb82820ecc702451
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 761e3c35e6f433f4bbaa280026e5879413231334
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892805"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153525"
 ---
 # <a name="idebugenginelaunch2terminateprocess"></a>IDebugEngineLaunch2::TerminateProcess
 Завершает процесс.
@@ -46,7 +47,7 @@ int TerminateProcess (
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Перед вызовом этого метода вызовите метод [кантерминатепроцесс](../../../extensibility/debugger/reference/idebugenginelaunch2-canterminateprocess.md) .
 
 ## <a name="see-also"></a>См. также раздел

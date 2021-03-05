@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет несколько методов для доступа к серверу и средствам уведомления на порту.
 title: IDebugDefaultPort2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fca0b999f4c5878debbdee556431d56b7977c719
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a5ec637daa197574710978af7cb22195c969f48b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99901853"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154422"
 ---
 # <a name="idebugdefaultport2"></a>IDebugDefaultPort2
 Этот интерфейс предоставляет несколько методов для доступа к серверу и средствам уведомления на порту.
@@ -43,7 +44,7 @@ IDebugDefaultPort2 : IDebugPort2
 |[GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)|Возвращает интерфейс для сервера, на котором размещен этот порт.|
 |[QueryIsLocal](../../../extensibility/debugger/reference/idebugdefaultport2-queryislocal.md)|Определяет, работает ли этот порт на локальном компьютере.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Имя " `IDebugDefaultPort2` " является битом атрибутаDurableService, так как оно не представляет порт по умолчанию. Его можно назвать «IDebugPort3».
 
 ## <a name="requirements"></a>Требования

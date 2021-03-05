@@ -1,4 +1,5 @@
 ---
+description: Этот метод сообщает модулю отладки о сведениях о состоянии Жустмикоде.
 title: 'IDebugEngine3:: Сетжустмикодестате | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2e706d0fd23bc0c5388ee3bd6bb82323309725c1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a81fa4bda506cf1be27f658b071910e7c8ccd8a7
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887189"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153707"
 ---
 # <a name="idebugengine3setjustmycodestate"></a>IDebugEngine3::SetJustMyCodeState
 Этот метод сообщает модулю отладки о сведениях о состоянии Жустмикоде.
@@ -56,7 +57,7 @@ int SetJustMyCodeState(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Жустмикоде — это концепция отладки только кода, относящегося к пользователю, и игнорирования всех промежуточных кодов, таких как системный код, даже если исходный код доступен для этого системного кода.
 
 ## <a name="see-also"></a>См. также раздел

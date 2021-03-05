@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет пользовательский атрибут и может предоставить имя, родительский объект и тип класса атрибута.
 title: Идебугкустоматтрибуте | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a1baa46cd9be53134d42c71e8c2bd88e3e2c38d4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 724aedb41a11607f89193b51f41e403a6da7dd45
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99907953"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154500"
 ---
 # <a name="idebugcustomattribute"></a>IDebugCustomAttribute
 Этот интерфейс представляет пользовательский атрибут и может предоставить имя, родительский объект и тип класса атрибута.
@@ -44,7 +45,7 @@ IDebugCustomAttribute : IUnknown
 |[GetName](../../../extensibility/debugger/reference/idebugcustomattribute-getname.md)|Возвращает имя настраиваемого атрибута.|
 |[GetAttributeBytes](../../../extensibility/debugger/reference/idebugcustomattribute-getattributebytes.md)|Возвращает сведения об атрибуте в виде большого двоичного объекта в байтах.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Настраиваемый атрибут — это структура C#, которая предоставляет пользовательские метаданные, связанные с определенным классом или методом.
 
 ## <a name="requirements"></a>Требования

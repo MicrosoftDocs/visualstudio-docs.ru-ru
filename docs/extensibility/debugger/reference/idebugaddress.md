@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет адрес элемента.
 title: Идебугаддресс | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e069a822cc2394769d256c93a1decf01b451b643
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4f49107e4d06fa828d059ebd9916ca254882ff0a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99944860"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154968"
 ---
 # <a name="idebugaddress"></a>IDebugAddress
 Этот интерфейс представляет адрес элемента. Он возвращается обработчиком символов.
@@ -41,7 +42,7 @@ IDebugAddress : IUnknown
 |------------|-----------------|
 |[GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)|Возвращает структуру [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) , описывающую объект и его расположение.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Поставщик символов возвращает этот интерфейс для представления объекта и его расположения в определенной области (например, функции, метода или класса). Этот интерфейс возвращается из и передается различным методам поставщика символов и средства оценки выражений. Как правило, поставщик символов является единственной сущностью, которой необходимо интерпретировать содержимое этого интерфейса.
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Отключает автоматическое присоединение для всех модулей отладки, связанных с этим сервером.
 title: IDebugCoreServer3::D Исаблеаутоаттач | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f2af960c9efdd0732d950f16e7f83dd4d8a54fb4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1ad02efc68fe0bdd7a64ae0df02fe934a2044abc
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99908036"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154721"
 ---
 # <a name="idebugcoreserver3disableautoattach"></a>IDebugCoreServer3::DisableAutoAttach
 Отключает автоматическое присоединение для всех модулей отладки, связанных с этим сервером.

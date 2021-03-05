@@ -1,4 +1,5 @@
 ---
+description: Возвращает идентификатор расположения кода, представляющий текущее расположение кода.
 title: 'IDebugDisassemblyStream2:: Жеткуррентлокатион | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 25570442402db11c4f8eb499ecf33ea3ae82b54b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 75687f0ad229ae1e2284b18dcc864e17d5b734d3
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896218"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154435"
 ---
 # <a name="idebugdisassemblystream2getcurrentlocation"></a>IDebugDisassemblyStream2::GetCurrentLocation
 Возвращает идентификатор расположения кода, представляющий текущее расположение кода.
@@ -46,7 +47,7 @@ int GetCurrentLocation(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Идентификатор расположения кода можно преобразовать в контекст кода, вызвав метод [жеткодеконтекст](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodecontext.md) .
 
 ## <a name="see-also"></a>См. также раздел

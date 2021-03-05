@@ -1,4 +1,5 @@
 ---
+description: Наблюдает за выполнением (или останавливает наблюдение за выполнением) в заданном потоке.
 title: 'IDebugEngineProgram2:: Ватчфорсреадстеп | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8168b0813eb99f4f70c8a5d8ffbdae4f6fce2094
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: eaf02e07bebbbfd711d99ef7605befbdce1f9376
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892623"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153421"
 ---
 # <a name="idebugengineprogram2watchforthreadstep"></a>IDebugEngineProgram2::WatchForThreadStep
 Наблюдает за выполнением (или останавливает наблюдение за выполнением) в заданном потоке.
@@ -61,7 +62,7 @@ int WatchForThreadStep(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Когда диспетчер отладки сеансов (SDM) выводит программу, определяемую `pOriginatingProgram` параметром, она уведомляет все другие подключенные программы, вызывая этот метод.
 
  Этот метод применим только к степпингу одного потока.

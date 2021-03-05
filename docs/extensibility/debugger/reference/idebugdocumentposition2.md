@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет абстрактное расположение в исходном файле.
 title: IDebugDocumentPosition2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7dc8537fc943e84e37d47dc02cf6264b16dd7fb3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a6ebbe0a1101c146bf5d7e8c5fe7a096777f372c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874313"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154253"
 ---
 # <a name="idebugdocumentposition2"></a>IDebugDocumentPosition2
 Этот интерфейс представляет абстрактное расположение в исходном файле.
