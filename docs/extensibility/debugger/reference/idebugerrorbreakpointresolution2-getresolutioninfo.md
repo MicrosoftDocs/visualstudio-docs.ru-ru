@@ -1,4 +1,5 @@
 ---
+description: Возвращает сведения о разрешении ошибки точки останова.
 title: 'IDebugErrorBreakpointResolution2:: Жетресолутионинфо | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9e43488966017150e5d7e03d7616185e0b619eb4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c6c6f6f2c90958e1dc1ebeb3cc1dec4b41ed7de0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927032"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153148"
 ---
 # <a name="idebugerrorbreakpointresolution2getresolutioninfo"></a>IDebugErrorBreakpointResolution2::GetResolutionInfo
 Возвращает сведения о разрешении ошибки точки останова.

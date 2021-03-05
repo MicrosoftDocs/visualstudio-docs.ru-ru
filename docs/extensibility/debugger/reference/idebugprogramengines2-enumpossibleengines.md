@@ -1,4 +1,5 @@
 ---
+description: Возвращает идентификаторы GUID для всех возможных модулей отладки (DE), которые могут отлаживать эту программу.
 title: 'IDebugProgramEngines2:: Енумпоссиблингинес | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: aa404f713a8982177cb28c48ddc83f332e5c5e56
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e5719728637f26ed61283578565470b39fc60455
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899000"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151588"
 ---
 # <a name="idebugprogramengines2enumpossibleengines"></a>IDebugProgramEngines2::EnumPossibleEngines
 Возвращает идентификаторы GUID для всех возможных модулей отладки (DE), которые могут отлаживать эту программу.
@@ -56,7 +57,7 @@ int EnumPossibleEngines(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Возвращает [C++] `HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)` или [C#] 0x8007007A, если буфер недостаточно велик.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Чтобы определить, сколько ядер существует, вызовите этот метод один раз, указав `celtBuffer` для параметра значение 0, а для `rgguidEngines` параметра задается NULL. Этот метод возвращает `HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)` (0x8007007A для C#), а `pceltEngines` параметр возвращает необходимый размер буфера.
 
 ## <a name="see-also"></a>См. также раздел

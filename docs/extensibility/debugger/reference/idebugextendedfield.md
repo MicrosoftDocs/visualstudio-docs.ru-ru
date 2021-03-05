@@ -1,4 +1,5 @@
 ---
+description: Расширяет типы полей, доступных для поддержки универсальных типов управляемого кода.
 title: Идебужекстендедфиелд | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1287af4b1afb328e3b843bae0ae93284fe8386c1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5da66ddab0f485587ac5779187384a749459419e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915507"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152108"
 ---
 # <a name="idebugextendedfield"></a>IDebugExtendedField
 Расширяет типы полей, доступных для поддержки универсальных типов управляемого кода.

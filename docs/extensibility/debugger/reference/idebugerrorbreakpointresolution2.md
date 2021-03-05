@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет разрешение ошибки точки останова.
 title: IDebugErrorBreakpointResolution2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1581e9f00e4a2dcb0a7bdab67cfe601b1c9dd05f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c2825f35b4acad62b0134e3d02bbdb51be122ec5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888385"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153109"
 ---
 # <a name="idebugerrorbreakpointresolution2"></a>IDebugErrorBreakpointResolution2
 Этот интерфейс представляет разрешение ошибки точки останова.

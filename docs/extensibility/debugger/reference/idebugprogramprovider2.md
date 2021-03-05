@@ -1,4 +1,5 @@
 ---
+description: Этот зарегистрированный интерфейс позволяет диспетчеру отладки сеансов (SDM) получать сведения о программах, опубликованных с помощью интерфейса IDebugProgramPublisher2.
 title: IDebugProgramProvider2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 788c4add42b70107ea2960ae5682a2e2cc815d59
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d0102aa650d9739ae862f1357a1560842ae2fa59
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959627"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151445"
 ---
 # <a name="idebugprogramprovider2"></a>IDebugProgramProvider2
 Этот зарегистрированный интерфейс позволяет диспетчеру отладки сеансов (SDM) получать сведения о программах, опубликованных через интерфейс [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) .
@@ -43,7 +44,7 @@ IDebugProgramProvider2 : IUnknown
 |[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)|Устанавливает обратный вызов для отслеживания событий поставщика, связанных с определенными видами процессов.|
 |[Pragma](../../../extensibility/debugger/reference/idebugprogramprovider2-setlocale.md)|Устанавливает языковой стандарт для всех зависящих от языка ресурсов, необходимых для DE.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Как правило, процесс использует этот интерфейс, чтобы узнать о программах, выполняющихся в этом процессе.
 
 ## <a name="requirements"></a>Требования

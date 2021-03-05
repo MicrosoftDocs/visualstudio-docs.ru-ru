@@ -1,4 +1,5 @@
 ---
+description: Возвращает тип точки останова.
 title: 'IDebugErrorBreakpointResolution2:: Жетбреакпоинттипе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8ddcab108891526b64a101a471aaff2370d072f6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 30317369437b010950a3252960ebab68c565c73a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846859"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153135"
 ---
 # <a name="idebugerrorbreakpointresolution2getbreakpointtype"></a>IDebugErrorBreakpointResolution2::GetBreakpointType
 Возвращает тип точки останова.
@@ -46,7 +47,7 @@ int GetBreakpointType(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Этот метод возвращает тип точки останова, для которой не удалось выполнить привязку, поэтому требуется событие точки останова.
 
 ## <a name="example"></a>Пример

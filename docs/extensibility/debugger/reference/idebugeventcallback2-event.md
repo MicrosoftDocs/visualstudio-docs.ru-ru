@@ -1,4 +1,5 @@
 ---
+description: Отправляет уведомление о событиях отладки.
 title: 'IDebugEventCallback2:: Event | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 54f53132f0a1f4769386874118d24f7e77a95f71
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: afa0cfd8f96d21a510370a4fc526a3cae053c77b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99933314"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152927"
 ---
 # <a name="idebugeventcallback2event"></a>IDebugEventCallback2::Event
 Отправляет уведомление о событиях отладки.
@@ -76,7 +77,7 @@ int Event(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  При вызове этого метода `dwAttrib` параметр должен соответствовать значению, возвращенному методом [OutAttribute](../../../extensibility/debugger/reference/idebugevent2-getattributes.md) , как вызвано для объекта события, переданного в `pEvent` параметре.
 
  Все события отладки публикуются асинхронно, независимо от того, является ли событие асинхронным или нет. Когда DE вызывает этот метод, возвращаемое значение не указывает, было ли событие обработано, только было ли получено событие. Фактически, в большинстве случаев событие не было обработано при возврате из этого метода.

@@ -1,4 +1,5 @@
 ---
+description: Включает средство оценки выражений (EE) для указания интерфейса обратного вызова, который подсистема отладчика (DE) будет использовать для считывания параметров метрик.
 title: 'IDebugExpressionEvaluator2:: Сеткаллбакк | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c9411bc7c3963636c8ad80e5a2bf94dd49bf3e5b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fc858ab5d26ccffe33d26296e033ac577ddba440
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926275"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152394"
 ---
 # <a name="idebugexpressionevaluator2setcallback"></a>IDebugExpressionEvaluator2::SetCallback
 Включает средство оценки выражений (EE) для указания интерфейса обратного вызова, который подсистема отладчика (DE) будет использовать для считывания параметров метрик.
@@ -45,7 +46,7 @@ int SetCallback (
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Этот метод предоставляет интерфейс диспетчеру отладки сеанса, который средство оценки выражений может использовать для чтения параметров метрики. Для чтения метрик на компьютере полезно использовать удаленную отладку [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] .
 
 ## <a name="example"></a>Пример

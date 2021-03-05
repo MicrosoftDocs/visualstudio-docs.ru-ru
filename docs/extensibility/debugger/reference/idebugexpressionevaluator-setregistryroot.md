@@ -1,4 +1,5 @@
 ---
+description: Этот метод задает корень реестра.
 title: 'Идебужекспрессионевалуатор:: Сетрегистрирут | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b5151d337618409970b61e515cd4428467a7fe25
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3b900817a5025b0d523f8d3bb3237a1b10cc3a6a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930347"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152407"
 ---
 # <a name="idebugexpressionevaluatorsetregistryroot"></a>IDebugExpressionEvaluator::SetRegistryRoot
 Этот метод задает корень реестра. Используется для параллельной отладки.
@@ -46,7 +47,7 @@ int SetRegistryRoot(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Указанный корень реестра обычно задается при первом создании экземпляра средства оценки выражений и указывает на раздел реестра для конкретной версии Visual Studio (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\ *X. y*, где *X. y* — номер версии).
 
 ## <a name="see-also"></a>См. также раздел

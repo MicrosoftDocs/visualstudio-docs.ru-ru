@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс указывает сообщение об ошибке, которое будет сообщено пользователю.
 title: IDebugErrorEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1af67a00b9a692e5156ec7a6a14ef3fadcc3ac32
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bf249e8568c3ae70bc8d881d72b491cf7fa3576b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888346"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153044"
 ---
 # <a name="idebugerrorevent2"></a>IDebugErrorEvent2
 Этот интерфейс указывает сообщение об ошибке, которое будет сообщено пользователю.
@@ -41,7 +42,7 @@ IDebugErrorEvent2 : IUnknown
 |------------|-----------------|
 |`GetErrorMessage`|Возвращает ошибку как удобочитаемую строку.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если модуль отладки обнаруживает ошибку, он может использовать этот интерфейс для передачи сообщения пользователю в Visual Studio.
 
 ## <a name="requirements"></a>Требования

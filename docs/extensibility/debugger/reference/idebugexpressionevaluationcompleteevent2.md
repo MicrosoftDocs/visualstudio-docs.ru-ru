@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) после завершения асинхронного вычисления выражения.
 title: IDebugExpressionEvaluationCompleteEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 74e31339b48e49869ce76ce9a3b20a14dcb0acf5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8a56cb564470263c9ae98fb0adda84881f25209c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930464"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152602"
 ---
 # <a name="idebugexpressionevaluationcompleteevent2"></a>IDebugExpressionEvaluationCompleteEvent2
 Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) после завершения асинхронного вычисления выражения.
@@ -42,7 +43,7 @@ IDebugExpressionEvaluationCompleteEvent2 : IUnknown
 |[GetExpression](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getexpression.md)|Возвращает исходное выражение.|
 |[GetResult](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md)|Возвращает результат вычисления выражения.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Значение DE должно отсылать это событие, независимо от успешности оценки.
 
  Если вычисление не прошло успешно, `DEBUG_PROPINFO_VALUE` `DEBUG_PROPINFO_ATTRIB` флаги и не будут заданы в структуре [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) , возвращаемой функцией [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) (объект [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) создается методом de и возвращается в случае `IDebugExpressionEvaluationCompleteEvent2` сбоя вычисления).

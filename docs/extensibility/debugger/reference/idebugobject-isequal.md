@@ -1,4 +1,5 @@
 ---
+description: Сравнивает объект с этим объектом.
 title: 'Идебугобжект:: Equals | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 406e93456f1bd6d92a42f1584d19aeb52dd5ff93
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0907b72f2a0647fc6ff6181ecdc5c7fd8c2134cb
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846781"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151666"
 ---
 # <a name="idebugobjectisequal"></a>IDebugObject::IsEqual
 Сравнивает объект с этим объектом.
@@ -51,7 +52,7 @@ int IsEqual(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Как правило, этот метод может сравнивать адреса значений, представленных `pObject` параметром, и этого объекта [идебугобжект](../../../extensibility/debugger/reference/idebugobject.md) . Если адреса равны, объекты можно считать равными.
 
 ## <a name="see-also"></a>См. также раздел

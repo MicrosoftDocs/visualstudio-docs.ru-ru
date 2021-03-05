@@ -1,4 +1,5 @@
 ---
+description: Этот метод преобразует строку выражения в проанализированное выражение.
 title: Идебужекспрессионевалуатор::P Арсе | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: abcc66eb8a0f1419d447dfbd0081b39583e2941e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f6a586c7e7cac1a4ef034b7941840db59d376180
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930295"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152498"
 ---
 # <a name="idebugexpressionevaluatorparse"></a>IDebugExpressionEvaluator::Parse
 Этот метод преобразует строку выражения в проанализированное выражение.
@@ -71,7 +72,7 @@ int Parse(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод создает проанализированное выражение, а не фактическое значение. Проанализированное выражение готово к вычислению, то есть преобразованному в значение.
 
 ## <a name="see-also"></a>См. также раздел

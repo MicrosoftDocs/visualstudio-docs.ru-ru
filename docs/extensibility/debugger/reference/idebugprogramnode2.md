@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет программу, которую можно отладить.
 title: IDebugProgramNode2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1e6460653795720f10dca7f304035c49e4d8e035
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d697ce389a7672f4f97efc17547e79173da3e2dd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898527"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151575"
 ---
 # <a name="idebugprogramnode2"></a>IDebugProgramNode2
 Этот интерфейс представляет программу, которую можно отладить.
@@ -47,7 +48,7 @@ IDebugProgramNode2 : IUnknown
 |[GetEngineInfo](../../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md)|Возвращает имя и идентификатор для отмены выполнения этой программы.|
 |[DetachDebugger_V7](../../../extensibility/debugger/reference/idebugprogramnode2-detachdebugger-v7.md)|Не рекомендуется. НЕ ИСПОЛЬЗУЙТЕ.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Диспетчер отладки сеансов (SDM) обычно вызывает [жетпровидерпрограмноде](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md) для получения этого интерфейса.
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при присоединении программы к.
 title: IDebugProgramCreateEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5b73deab28f08ed9268033e941b64b753f64adf5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 535d54e0c7cdd4b175cd76c9d1fbe9ce240b5ccf
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891024"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151627"
 ---
 # <a name="idebugprogramcreateevent2"></a>IDebugProgramCreateEvent2
 Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при присоединении программы к.
@@ -34,7 +35,7 @@ IDebugProgramCreateEvent2 : IUnknown
 ## <a name="notes-for-callers"></a>Примечания для вызывающих объектов
  Поставщик DE или пользовательский порт создает и отправляет этот объект события для сообщения о создании программы. Метод DE отправляет это событие с помощью функции обратного вызова [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) , предоставляемой SDM при присоединении к отлаживаемой программе. Поставщик пользовательского порта отправляет это событие с помощью интерфейса [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Поставщик DE или пользовательского порта публикует новый интерфейс [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) , вызывая [публишпрограмноде](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md).
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Возвращает результат вычисления выражения.
 title: IDebugExpressionEvaluationCompleteEvent2::/результат | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9abc7ce472543b6d2fd6e82fbd5a01f97e4d1784
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 00200c9aaa23249eefc4b1b6d0876065ce1ed4ad
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930451"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152615"
 ---
 # <a name="idebugexpressionevaluationcompleteevent2getresult"></a>IDebugExpressionEvaluationCompleteEvent2::GetResult
 Возвращает результат вычисления выражения.
@@ -45,7 +46,7 @@ int GetResult(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Возвращаемый объект [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) содержит значение вычисленного выражения. Обратите внимание, что это значение может быть сложным значением, таким как массив, но окончательный результат должен быть числовым или строковым значением, отображаемым пользователю.
 
 ## <a name="see-also"></a>См. также раздел

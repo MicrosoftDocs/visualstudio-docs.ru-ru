@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс используется модулем отладки (DE) для отправки событий отладки в Диспетчер отладки сеансов (SDM).
 title: IDebugEventCallback2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe81a7d8a07a80f38e771e2cfbac3ec23da54b62
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cb33bcbdff14b0f95aab5d8f300473c13d4c342f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99933366"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102152914"
 ---
 # <a name="idebugeventcallback2"></a>IDebugEventCallback2
 Этот интерфейс используется модулем отладки (DE) для отправки событий отладки в Диспетчер отладки сеансов (SDM).
@@ -41,7 +42,7 @@ IDebugEventCallback2 : IUnknown
 |------------|-----------------|
 |[Событие](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)|Отправляет уведомление о событиях отладки в SDM.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Хотя [евалуатесинк](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) и [евалуатеасинк](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) указывают, что они принимают `IDebugEventCallback2` интерфейс, это не так, а указатель интерфейса всегда будет иметь значение null. Вместо этого модуль отладки должен использовать интерфейс, `IDebugEventCallback2` полученный в вызове для [присоединения](../../../extensibility/debugger/reference/idebugprogram2-attach.md), [присоединения](../../../extensibility/debugger/reference/idebugengine2-attach.md)или [лаунчсуспендед](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md).
 
  Если пакет реализует [идебужевенткаллбакк](../../../extensibility/debugger/reference/idebugeventcallback2.md) в управляемом коде, настоятельно рекомендуется <xref:System.Runtime.InteropServices.Marshal.ReleaseComObject%2A> вызывать его для различных интерфейсов, передаваемых в [событие](../../../extensibility/debugger/reference/idebugeventcallback2-event.md).
