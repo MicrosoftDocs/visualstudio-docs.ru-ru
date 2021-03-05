@@ -1,4 +1,5 @@
 ---
+description: Определяет существование пользовательского атрибута для этого поля и, если он существует, возвращает сведения об атрибуте.
 title: IDebugCustomAttributeQuery2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 331fba87de68b3cf5e135e0b6f633874236bec38
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 62461cbdbfe373f6c3d45569564e611efdd6f452
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842411"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102160229"
 ---
 # <a name="idebugcustomattributequery2"></a>IDebugCustomAttributeQuery2
 Определяет существование пользовательского атрибута для этого поля и, если он существует, возвращает сведения об атрибуте.
@@ -49,7 +50,7 @@ IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery
 |------------|-----------------|
 |[EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)|Возвращает перечислитель для всех настраиваемых атрибутов, прикрепленных к этому полю.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Метод [иенумдебугкустоматтрибутес](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) может возвращать перечислитель для всех пользовательских атрибутов, определенных для этого поля.
 
 ## <a name="requirements"></a>Требования

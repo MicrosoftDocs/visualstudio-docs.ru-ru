@@ -1,4 +1,5 @@
 ---
+description: Делает узел программы доступным для использования механизмами отладки (DEs) и диспетчером отладки сеансов (SDM).
 title: IDebugProgramPublisher2::P Ублишпрограмноде | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c93ce91b664a1d0ccb13534eb6109538df46f35b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 56d407e22aabb396b331c14047f5a1753a5adf09
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959549"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102161330"
 ---
 # <a name="idebugprogrampublisher2publishprogramnode"></a>IDebugProgramPublisher2::PublishProgramNode
 Делает узел программы доступным для использования механизмами отладки (DEs) и диспетчером отладки сеансов (SDM).
@@ -46,7 +47,7 @@ int PublishProgramNode(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод позволяет программам запрашивать информацию, прежде чем выбирать и запускать их для отладки.
 
  Чтобы удалить узел программы из уровня доступности, вызовите метод [унпублишпрограмноде](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogramnode.md) .

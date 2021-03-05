@@ -1,4 +1,5 @@
 ---
+description: Возвращает описание свойств кадра стека.
 title: 'IDebugStackFrame2:: Жетдебугпроперти | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4d1a38b6c6b519b28f6094bced51a84a4b730f9b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 658da43471f483e80a1e77bd61f69dbc454a141e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837545"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102159891"
 ---
 # <a name="idebugstackframe2getdebugproperty"></a>IDebugStackFrame2::GetDebugProperty
 Возвращает описание свойств кадра стека.
@@ -46,7 +47,7 @@ int GetDebugProperty (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Вызов метода [енумчилдрен](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) с соответствующими фильтрами может получить локальные переменные, параметры метода, регистры и указатель "this", связанный с кадром стека.
 
 ## <a name="see-also"></a>См. также раздел

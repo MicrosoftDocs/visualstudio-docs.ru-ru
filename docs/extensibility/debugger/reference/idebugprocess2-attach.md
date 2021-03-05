@@ -1,4 +1,5 @@
 ---
+description: Присоединяет диспетчер отладки сеансов (SDM) к процессу.
 title: 'IDebugProcess2:: Attach | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 462b2299a658359e81fc3641e590b95ab183a24e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 73dbe76a32e67794736fd26595378485879b00b8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874182"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102161448"
 ---
 # <a name="idebugprocess2attach"></a>IDebugProcess2::Attach
 Присоединяет диспетчер отладки сеансов (SDM) к процессу.
@@ -67,7 +68,7 @@ int Attach(
 |`E_ATTACH_DEBUGGEE_PROCESS_SECURITY_VIOLATION`|Во время процедуры подключения возникло нарушение безопасности.|
 |`E_ATTACH_CANNOT_ATTACH_TO_DESKTOP`|Рабочий процесс не может быть присоединен к отладчику.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Присоединение к процессу прикрепляет SDM ко всем программам, выполняемым в этом процессе, которые могут быть отлажены модулями отладки (DE), указанными в `rgguidSpecificEngines` массиве. Задайте `rgguidSpecificEngines` для параметра значение null или включите `GUID_NULL` в массив, чтобы присоединить его ко всем программам в процессе.
 
  Все события отладки, происходящие в процессе, отправляются в указанный объект [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) . Этот `IDebugEventCallback2` объект предоставляется, когда SDM вызывает этот метод.

@@ -1,4 +1,5 @@
 ---
+description: Создает отложенную точку останова в модуле отладки (DE).
 title: 'IDebugEngine2:: Креатепендингбреакпоинт | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 93534a40d523c7b67a769ebea319463cf59e4b7a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c364778fa857049139c058f144651edc28bb4692
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99879024"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102160165"
 ---
 # <a name="idebugengine2creatependingbreakpoint"></a>IDebugEngine2::CreatePendingBreakpoint
 Создает отложенную точку останова в модуле отладки (DE).
@@ -51,7 +52,7 @@ int CreatePendingBreakpoint(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Обычно возвращает значение `E_FAIL` , если `pBPRequest` параметр не соответствует ни одному из языков, поддерживаемых de, если `pBPRequest` параметр является недопустимым или неполным.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Ожидающая точка останова по сути является коллекцией всех сведений, необходимых для привязки точки останова к коду. Ожидающая точка останова, возвращенная этим методом, не привязана к коду до вызова метода [BIND](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md) .
 
 Для каждой ожидающей точки останова, заданной пользователем, диспетчер отладки сеансов (SDM) вызывает этот метод в каждом присоединенном DE. Чтобы убедиться в том, что точка останова является допустимой для программ, запущенных в этой сети.

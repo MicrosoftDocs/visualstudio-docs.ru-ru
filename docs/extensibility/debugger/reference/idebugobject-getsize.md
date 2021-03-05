@@ -1,4 +1,5 @@
 ---
+description: Возвращает размер объекта в байтах.
 title: 'Идебугобжект:: DataSize | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a475b4d6d9b0af8b4c55a3d949fdc4ed172aa337
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 69d644cb86c0df592218a5f6c90b8c2b62339718
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846833"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102159982"
 ---
 # <a name="idebugobjectgetsize"></a>IDebugObject::GetSize
 Возвращает размер объекта в байтах.
@@ -46,7 +47,7 @@ int GetSize(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Используйте метод [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md) , чтобы получить значение в виде последовательности байтов.
 
 ## <a name="see-also"></a>См. также раздел

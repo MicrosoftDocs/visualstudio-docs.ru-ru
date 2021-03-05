@@ -1,4 +1,5 @@
 ---
+description: Возвращает поток дизассемблированного кода для этой программы или части программы.
 title: 'IDebugProgram2:: Жетдисассемблистреам | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e499d7b655cb79873b1cd3ef2954f054bba84f60
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e000ada618c21af865743bfb2bd9fd6b60a80a4b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99844701"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102159930"
 ---
 # <a name="idebugprogram2getdisassemblystream"></a>IDebugProgram2::GetDisassemblyStream
 Возвращает поток дизассемблированного кода для этой программы или части программы.
@@ -56,7 +57,7 @@ int GetDisassemblyStream(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Возвращает `E_DISASM_NOTSUPPORTED` , если дизассемблирование не поддерживается для этой конкретной архитектуры.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если `dwScopes` параметр имеет `DSS_HUGE` флаг [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) наборе перечисления, предполагается, что дизассемблирование будет возвращено большое количество инструкций дизассемблирования, например для всего файла или модуля. Если `DSS_HUGE` флаг не установлен, то Дизассемблированный код должен быть ограничен небольшим регионом, как правило, для одной функции.
 
 ## <a name="see-also"></a>См. также раздел

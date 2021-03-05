@@ -1,4 +1,5 @@
 ---
+description: Проверяет, является ли этот объект пустой ссылкой.
 title: 'Идебугобжект:: Иснуллреференце | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3fd50f81a75ce3ca189c47db12f1f4024b244856
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 844e6c92385c1aa719d3c9d0ff399db9104dccc0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953712"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102161515"
 ---
 # <a name="idebugobjectisnullreference"></a>IDebugObject::IsNullReference
 Проверяет, является ли этот объект пустой ссылкой.
@@ -46,7 +47,7 @@ int IsNullReference(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Пустая ссылка означает пустой объект или объект, который не был назначен.
 
 ## <a name="see-also"></a>См. также раздел

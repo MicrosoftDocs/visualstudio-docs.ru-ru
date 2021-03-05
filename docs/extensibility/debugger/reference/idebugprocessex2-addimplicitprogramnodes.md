@@ -1,4 +1,5 @@
 ---
+description: Этот метод добавляет узел программы для каждого указанного модуля отладки (DE).
 title: 'IDebugProcessEx2:: АддимплиЦитпрограмнодес | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8ef9379edc9e02e8bed6761abf0aa4a2830fc415
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e3a4c6446c2106d79dd14fc0378fc848eac3df18
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861092"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102159995"
 ---
 # <a name="idebugprocessex2addimplicitprogramnodes"></a>IDebugProcessEx2::AddImplicitProgramNodes
 Этот метод добавляет узел программы для каждого указанного модуля отладки (DE).
@@ -56,7 +57,7 @@ int AddImplicitProgramNodes(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 - [Узлы программы](../../../extensibility/debugger/program-nodes.md) будут добавляться для каждого из них, кроме `rgguidSpecificEngines` модуля запуска (как указано в `guidLaunchingEngine` ), который предполагает добавление собственного узла программы при запуске программы.
 
 ## <a name="see-also"></a>См. также раздел

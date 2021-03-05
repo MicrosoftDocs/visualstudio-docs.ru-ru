@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет программу, выполняемую в процессе.
 title: IDebugProgram2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9c262f123e56bf9ed9751ad8b9e7d91770cbd2df
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b4854150d6581d80804b4c29246bf6db016b5acb
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887111"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102159917"
 ---
 # <a name="idebugprogram2"></a>IDebugProgram2
 Этот интерфейс представляет программу, выполняемую в процессе.
@@ -68,7 +69,7 @@ IDebugProgram2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Программа — это контейнер потоков, выполняющийся в определенной архитектуре среды выполнения, в то время как процесс состоит из одной или нескольких программ.
 
 ## <a name="see-also"></a>См. также раздел

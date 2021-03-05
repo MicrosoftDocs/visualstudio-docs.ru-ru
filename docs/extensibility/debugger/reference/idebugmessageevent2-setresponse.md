@@ -1,4 +1,5 @@
 ---
+description: Задает ответ, если он есть, из окна сообщения.
 title: 'IDebugMessageEvent2:: Сетреспонсе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6271566ce701e27164026fdce4ef6ea1455693e7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 77170bb95855d91dcad873a5254c0a0937001032
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851027"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102160047"
 ---
 # <a name="idebugmessageevent2setresponse"></a>IDebugMessageEvent2::SetResponse
 Задает ответ, если он есть, из окна сообщения.

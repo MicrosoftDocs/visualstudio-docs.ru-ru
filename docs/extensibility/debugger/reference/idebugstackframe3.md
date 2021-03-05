@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс расширяет IDebugStackFrame2 для управления перехваченными исключениями.
 title: IDebugStackFrame3 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5511624fb69015351d8cc37d6b27ad142a5956d4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d70095db80b8bbd349509de2858b641c520b0623
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961187"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102159774"
 ---
 # <a name="idebugstackframe3"></a>IDebugStackFrame3
 Этот интерфейс расширяет [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) для управления перехваченными исключениями.
@@ -42,7 +43,7 @@ IDebugStackFrame3 : IDebugStackFrame2
 |[InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md)|Обрабатывает исключение для текущего кадра стека перед обработкой регулярных исключений.|
 |[GetUnwindCodeContext](../../../extensibility/debugger/reference/idebugstackframe3-getunwindcodecontext.md)|Возвращает контекст кода, если была выполнена очистка стека.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Перехваченное исключение означает, что отладчик может обработать исключение до того, как все обычные процедуры обработки исключений вызываются во время выполнения. Перехват исключения по сути означает, что время выполнения представляет собой обработчик исключений, даже если нет.
 
 - [Интерцепткуррентексцептион](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) вызывается во время всех обычных событий обратного вызова исключений (Единственное исключение — при отладке кода в смешанном режиме (управляемый и неуправляемый код). в этом случае исключение не может быть перехвачено во время последнего обратного вызова. Если метод DE не реализуется `IDebugStackFrame3` или метод de возвращает ошибку из IDebugStackFrame3:: `InterceptCurrentException` (например `E_NOTIMPL` ,), отладчик будет выполнять обработку исключения обычным образом.
