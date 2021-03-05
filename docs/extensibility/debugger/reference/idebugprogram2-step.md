@@ -1,4 +1,5 @@
 ---
+description: Выполняет шаг.
 title: 'IDebugProgram2:: шаг | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 544ca22d263a3fca47f9484ac126031e83cde4e0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8ff4ee710369aef80ac18603ac3fc117e17dba07
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911903"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172000"
 ---
 # <a name="idebugprogram2step"></a>IDebugProgram2::Step
 Выполняет шаг.
@@ -59,7 +60,7 @@ int Step(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если существует любая синхронизация потоков или обмен данными между потоками, другие потоки в программе должны выполняться, когда конкретный поток пошаговым выполнением.
 
 > [!WARNING]

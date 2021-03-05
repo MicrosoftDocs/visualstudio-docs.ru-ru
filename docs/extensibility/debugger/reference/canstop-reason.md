@@ -1,4 +1,5 @@
 ---
+description: Используется, чтобы определить, может ли программа прерывать выполнение после достижения определенной точки выполнения.
 title: CANSTOP_REASON | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b6756d574c36d6381b606be597ca0e54e7945763
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: def5bdbb6433f6a154eb6f84a88fb39004bc41ae
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874360"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171002"
 ---
 # <a name="canstop_reason"></a>CANSTOP_REASON
 Используется, чтобы определить, может ли программа прерывать выполнение после достижения определенной точки выполнения.
@@ -49,7 +50,7 @@ public enum enum_CANSTOP_REASON {
 `CANSTOP_STEPIN`\
 Указывает шаг с заходом в функцию.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в качестве аргумента в метод [Reason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md) для подтверждения в диспетчере отладки сеанса (SDM), если после достижения точки входа программы или после пошагового выполнения в функцию или метод.
 
 ## <a name="requirements"></a>Требования

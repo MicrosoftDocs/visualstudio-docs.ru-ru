@@ -1,4 +1,5 @@
 ---
+description: Задает сведения, которые должны быть получены об успешном разрешении точки останова.
 title: BPRESI_FIELDS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0d82650fabf467d44b1bd5eba01599c5cb5e40bb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 91fa2a8b973149cb9365d817e14ac877bfc9f617
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938269"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171035"
 ---
 # <a name="bpresi_fields"></a>BPRESI_FIELDS
 Задает сведения, которые должны быть получены об успешном разрешении точки останова.
@@ -59,7 +60,7 @@ public enum enum_BPRESI_FIELDS {
 `BPRESI_ALLFIELDS`\
 Задает все поля.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в метод [жетресолутионинфо](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md) , чтобы указать, какие поля структуры [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) должны быть инициализированы.
 
 Эти флаги также используются для указания того, какие поля `BP_RESOLUTION_INFO` структуры используются и являются допустимыми при возврате этой структуры.

@@ -1,4 +1,5 @@
 ---
+description: Структура, описывающая массив строк.
 title: BSTR_ARRAY | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d16eb78cdb6c6b9e665dda8410f46d4cf61ee69a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f5fb882bb31f6fd525d00dc134e042e9bce9398f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882216"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170976"
 ---
 # <a name="bstr_array"></a>BSTR_ARRAY
 Структура, описывающая массив строк.
@@ -48,7 +49,7 @@ struct BSTR_ARRAY {
 `Members`\
 Массив строк.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура возвращается методом [енумперсистедпортс](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md) .
 
  [Только C++] Каждая отдельная строка должна быть освобождена с помощью `SysFreeString` , а `Members` массив должен быть освобожден с использованием `CoTaskMemFree` .

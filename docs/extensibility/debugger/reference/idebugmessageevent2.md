@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс используется модулем отладки (DE) для отправки в Visual Studio сообщения, требующего от пользователя ответа.
 title: IDebugMessageEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6796e2d4f3a7fa20e4bcab4088b6687866edf570
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9c84bf93a50ce9a5e530ebb7143d7b1c69f50360
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928267"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172277"
 ---
 # <a name="idebugmessageevent2"></a>IDebugMessageEvent2
 Этот интерфейс используется модулем отладки (DE) для отправки в Visual Studio сообщения, требующего от пользователя ответа.
@@ -44,7 +45,7 @@ IDebugMessageEvent2 : IUnknown
 |[GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)|Возвращает отображаемое сообщение.|
 |[SetResponse](../../../extensibility/debugger/reference/idebugmessageevent2-setresponse.md)|Задает ответ, если он есть, из окна сообщения.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  DE будет использовать этот интерфейс, если ему требуется определенный ответ от пользователя на определенное сообщение. Например, если после попытки удаленного подключения к программе в DE возвращается сообщение "доступ запрещен", программа отправит это сообщение в Visual Studio в `IDebugMessageEvent2` событии с стилем окна сообщения `MB_RETRYCANCEL` . Это позволяет пользователю повторить попытку или отменить операцию присоединения.
 
  Параметр DE указывает, как должно обрабатываться это сообщение, следуя соглашениям функции Win32 `MessageBox` (Дополнительные сведения см. в [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) ).

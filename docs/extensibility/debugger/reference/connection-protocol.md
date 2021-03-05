@@ -1,4 +1,5 @@
 ---
+description: Указывает протокол, используемый для обмена данными между сервером отладки и пакетом отладки (DE).
 title: CONNECTION_PROTOCOL | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6d25068b71689ffbc9e472addbd6ca3663db267c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 24ac267552166bea43df77f31cb79d8198fb7514
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891284"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170865"
 ---
 # <a name="connection_protocol"></a>CONNECTION_PROTOCOL
 Указывает протокол, используемый для обмена данными между сервером отладки и пакетом отладки (DE).
@@ -73,7 +74,7 @@ public enum CONNECTION_PROTOCOL {
 `CONNECTION_OTHER`\
 Установлен другой тип соединения (это значение в настоящее время не используется).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения возвращаются методом [жетконнектионпротокол](../../../extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol.md) .
 
 ## <a name="requirements"></a>Требования

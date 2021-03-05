@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет порты диспетчеру отладки сеансов (SDM).
 title: IDebugPortSupplier2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: cf9cd3cb82e2b14811a8ec52a651248e2990ae27
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5e9523212ea83182e69e83b4f8353f1a9ba7dd8c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840370"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172043"
 ---
 # <a name="idebugportsupplier2"></a>IDebugPortSupplier2
 Этот интерфейс предоставляет порты диспетчеру отладки сеансов (SDM).
@@ -70,7 +71,7 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
 |[AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)|Добавляет порт.|
 |[RemovePort](../../../extensibility/debugger/reference/idebugportsupplier2-removeport.md)|Удаляет порт.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Поставщик порта может идентифицировать себя по имени и ИДЕНТИФИКАТОРу, добавлять и удалять порты, а также перечислять все порты, предоставляемые поставщиком портов.
 
 ## <a name="requirements"></a>Требования

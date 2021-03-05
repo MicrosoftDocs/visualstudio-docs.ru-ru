@@ -1,4 +1,5 @@
 ---
+description: Возвращает контекст документа, описывающий расположение этого события.
 title: 'IDebugCanStopEvent2:: Жетдокументконтекст | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 477cc4d83b48e87d63f7ddff5cef53b53f0050ba
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b58f5a45c30abcb7d1f11719ce131060526705c5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99903263"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102173515"
 ---
 # <a name="idebugcanstopevent2getdocumentcontext"></a>IDebugCanStopEvent2::GetDocumentContext
 Возвращает контекст документа, описывающий расположение этого события.
@@ -46,7 +47,7 @@ int GetDocumentContext (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Как правило, контекст документа можно рассматривать как расположение в исходном файле.
 
  Чтобы получить контекст кода, ориентированный на инструкции кода, вызовите метод [жеткодеконтекст](../../../extensibility/debugger/reference/idebugcanstopevent2-getcodecontext.md) .

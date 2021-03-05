@@ -1,4 +1,5 @@
 ---
+description: Получает флаги для этого универсального параметра.
 title: 'Флаги Идебугженерикпарамфиелд:: "|" Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: be9f842db6b322ffb9bdc76ebd2a954d849e5d65
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8f54c85e7838370b383d1b3f8df1e044df655407
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929827"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172670"
 ---
 # <a name="idebuggenericparamfieldgetflags"></a>IDebugGenericParamField::GetFlags
 Получает флаги для этого универсального параметра.
@@ -45,7 +46,7 @@ int GetFlags(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти флаги содержат сведения о различных специальных ограничениях.
 
 ## <a name="example"></a>Пример

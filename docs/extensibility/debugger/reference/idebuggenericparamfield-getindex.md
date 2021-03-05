@@ -1,4 +1,5 @@
 ---
+description: Получает индекс этого универсального параметра.
 title: 'Идебугженерикпарамфиелд:: @ index | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c45f7c83c840566fb494c7944ccab9dbe37c3875
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8f14326572964c91a7691d1a940ef6df86ed334b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869704"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172627"
 ---
 # <a name="idebuggenericparamfieldgetindex"></a>IDebugGenericParamField::GetIndex
 Получает индекс этого универсального параметра.
@@ -44,7 +45,7 @@ int GetIndex(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Например, для Dictionary (K, V), K — индекс 0, V — индекс 1.
 
 ## <a name="example"></a>Пример

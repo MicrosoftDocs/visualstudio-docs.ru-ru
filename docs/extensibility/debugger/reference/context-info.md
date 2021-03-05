@@ -1,4 +1,5 @@
 ---
+description: Эта структура описывает контекст памяти или контекст кода.
 title: CONTEXT_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5a95808383d4d75810f17b4da121a11025b6f894
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fc0636334cfde4452f427285bfe21141bc7614e1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912985"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170735"
 ---
 # <a name="context_info"></a>CONTEXT_INFO
 Эта структура описывает контекст памяти или контекст кода.
@@ -73,7 +74,7 @@ public struct CONTEXT_INFO {
 `bstrAddressAbsolute`\
 Абсолютный адрес в памяти, где находится заданный контекст.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура возвращается из вызова метода " [info](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md) ".
 
 Типичное использование этой структуры — поддержка окна отладки **памяти** .

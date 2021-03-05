@@ -1,4 +1,5 @@
 ---
+description: Возвращает отображаемое сообщение.
 title: IDebugMessageEvent2::/сообщение | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8e1b1d379f235729614f257e38ea2b84b856507b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 26280ca238b5ffc96b0d8b29f1b2d1a424c544d0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851053"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172476"
 ---
 # <a name="idebugmessageevent2getmessage"></a>IDebugMessageEvent2::GetMessage
 Возвращает отображаемое сообщение.

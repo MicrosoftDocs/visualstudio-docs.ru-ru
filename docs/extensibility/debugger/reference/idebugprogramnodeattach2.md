@@ -1,4 +1,5 @@
 ---
+description: Позволяет узлу программы получать уведомления о попытке присоединения к связанной программе.
 title: IDebugProgramNodeAttach2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 74a25e4eefe260dd61dc951118cdb6390a61b52d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: aa623097224afc4f3a6b93d6b98ece0e14149ca5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898491"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171738"
 ---
 # <a name="idebugprogramnodeattach2"></a>IDebugProgramNodeAttach2
 Позволяет узлу программы получать уведомления о попытке присоединения к связанной программе.
@@ -41,7 +42,7 @@ IDebugProgramNodeAttach2 : IUnknown
 |------------|-----------------|
 |[OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md)|Присоединяется к связанной программе или откладывает процесс присоединения к методу [attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) .|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс является предпочтительным альтернативой нерекомендуемому методу [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md) . Все модули отладки всегда загружаются с помощью `CoCreateInstance` функции, то есть они создаются за пределами адресного пространства отлаживаемой программы.
 
  Если предыдущая реализация `IDebugProgramNode2::Attach_V7` метода была просто настраивается `GUID` для отлаживаемой программы, необходимо реализовать только метод [onattach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) .

@@ -1,4 +1,5 @@
 ---
+description: Вызывается при завершении обработки перехваченного исключения.
 title: IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 titleSuffix: ''
 ms.date: 11/04/2016
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e578c6d6bd197cbb121edf4cce554cedd91d47ce
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 70fb92c20eab3700043a11f8544896bbbce3b7c6
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99939010"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172536"
 ---
 # <a name="idebuginterceptexceptioncompleteevent2getinterceptcookie"></a>IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 Вызывается при завершении обработки перехваченного исключения.
@@ -47,7 +48,7 @@ int GetInterceptCookie(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  После того как метод [интерцепткуррентексцептион](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) завершает обработку перехваченного исключения, он отправляет событие [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md) . Обработчик может использовать `GetInterceptCookie` метод для получения уникального значения, связанного с исключением (то же значение, которое было передано в `InterceptCurrentException` метод).
 
 ## <a name="see-also"></a>См. также раздел

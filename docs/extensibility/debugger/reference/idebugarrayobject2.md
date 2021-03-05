@@ -1,4 +1,5 @@
 ---
+description: Представляет объект управляемого массива и позволяет средству оценки выражений (EE) определить базовый индекс (нижние границы) для массива.
 title: IDebugArrayObject2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 418ec9bdef9621f7623e254856ae33dec501a9c9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0e6bb73834f53e22df63682663539b5f01685b30
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99870029"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102174128"
 ---
 # <a name="idebugarrayobject2"></a>IDebugArrayObject2
 > [!IMPORTANT]
@@ -40,7 +41,7 @@ IDebugArrayObject2 : IDebugArrayObject
 |[GetBaseIndices](../../../extensibility/debugger/reference/idebugarrayobject2-getbaseindices.md)|Получает базовые индексы (нижние границы) для каждого индекса, учитывая количество измерений в массиве.|
 |[HasBaseIndices](../../../extensibility/debugger/reference/idebugarrayobject2-hasbaseindices.md)|Определяет, определен ли в массиве базовые индексы (нижние границы).|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Средство оценки выражений использует этот интерфейс для представления управляемых массивов в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования

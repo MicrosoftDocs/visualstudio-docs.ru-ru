@@ -1,4 +1,5 @@
 ---
+description: Записывает дамп в файл.
 title: 'IDebugProgram2:: Вритедумп | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 265c77acdb15069c1fcd7f33d93d4ff74a528eca
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d0e4c90034d19635993196a0cd00ffcb06f26433
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896153"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171931"
 ---
 # <a name="idebugprogram2writedump"></a>IDebugProgram2::WriteDump
 Записывает дамп в файл.
@@ -51,7 +52,7 @@ int WriteDump(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Дамп программы обычно включает текущий кадр стека, стек, список потоков, выполняющихся в программе, и, возможно, любой объем памяти, который владеет программой.
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Этот метод извлекает объект памяти, представляющий память, к которой привязан этот объект.
 title: 'IDebugBinder3:: Жетмеморйобжект | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3408237de91e822e2ea3cbd95fad40c859267c1d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6ca708c9a6fd80a7a04d8202a73f0bce99102ff1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99916320"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102173978"
 ---
 # <a name="idebugbinder3getmemoryobject"></a>IDebugBinder3::GetMemoryObject
 Этот метод извлекает объект памяти, представляющий память, к которой привязан этот объект.

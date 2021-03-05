@@ -1,4 +1,5 @@
 ---
+description: Описывает метод или вызов функции.
 title: CODE_PATH | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d4bba942b0740fba98e88a3cddcecfcd43d7d215
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3ecdbbfdbcffbb8b1aa6246e2e99ef6eabfa1f19
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99900308"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170963"
 ---
 # <a name="code_path"></a>CODE_PATH
 Описывает метод или вызов функции.
@@ -48,7 +49,7 @@ public struct CODE_PATH {
 `pCode`\
 Объект [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) , определяющий место в коде для пошагового перехода в функцию.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура используется для реализации пошагового выполнения функции. [Енумкодепасс](../../../extensibility/debugger/reference/idebugprogram2-enumcodepaths.md) возвращает все вызовы из текущего расположения в отлаживаемой программе. Эта структура представляет один такой вызов.
 
 ## <a name="requirements"></a>Требования

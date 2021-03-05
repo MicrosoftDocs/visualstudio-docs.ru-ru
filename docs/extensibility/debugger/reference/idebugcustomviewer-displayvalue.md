@@ -1,4 +1,5 @@
 ---
+description: Этот метод вызывается для вывода указанного значения.
 title: Идебугкустомвиевер::D Исплайвалуе | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9b754d9ebc7d8d8c1d21236faca5c5f331faa8e9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 238bb4f9b453513f2fdcccb628eacdfc9ef4ae2b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842281"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102173485"
 ---
 # <a name="idebugcustomviewerdisplayvalue"></a>IDebugCustomViewer::DisplayValue
 Этот метод вызывается для вывода указанного значения.
@@ -61,7 +62,7 @@ int DisplayValue(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Экран является "модальным" тем, что этот метод создает необходимое окно, отображает значение, ждет ввода и перед возвратом в вызывающий объект закрывает окно. Это означает, что метод должен управлять всеми аспектами отображения значения свойства, от создания окна для вывода, ожидающего ввода данных пользователем, для уничтожения окна.
 
  Для поддержки изменения значения в заданном объекте [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) можно использовать метод [сетвалуеасстрингвисеррор](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md) , если значение может быть выражено в виде строки. В противном случае необходимо создать настраиваемый интерфейс — исключительно для средства оценки выражений, реализующего этот `DisplayValue` метод, в том же объекте, который реализует `IDebugProperty3` интерфейс. Этот пользовательский интерфейс предоставляет методы для изменения данных произвольного размера или сложности.

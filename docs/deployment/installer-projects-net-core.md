@@ -1,4 +1,5 @@
 ---
+description: Упаковка приложений как MSI часто осуществляется с помощью расширения проектов Visual Studio Installer.
 title: Проекты Visual Studio Installer и .NET Core 3,1
 titleSuffix: ''
 ms.date: 08/18/2020
@@ -12,12 +13,12 @@ manager: MSLukeWest
 monikerRange: '>= vs-2019'
 ms.workload:
 - multiple
-ms.openlocfilehash: 86680a2b961af9182691422e02b42c6529f45639
-ms.sourcegitcommit: 062615c058d2ff44751e8d0c704ccfa3c5543469
+ms.openlocfilehash: 5a78c1cf4f7b1562408e0a3fb598075f2c114fc0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90852658"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171244"
 ---
 # <a name="visual-studio-installer-projects-extension-and-net-core-31"></a>Расширение проектов Visual Studio Installer и .NET Core 3.1
 
@@ -55,7 +56,7 @@ ms.locfileid: "90852658"
 >[!NOTE]
 >Эти элементы представлены начиная с выпуска Visual Studio 2019 с обновлением 7.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Диалоговое окно «Необходимые компоненты»](../ide/reference/prerequisites-dialog-box.md)
-- [Необходимые условия для развертывания приложения](../deployment/application-deployment-prerequisites.md)
+- [Обязательные требования к развертыванию приложений](../deployment/application-deployment-prerequisites.md)

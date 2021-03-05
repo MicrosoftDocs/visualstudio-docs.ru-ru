@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет свойство кадра стека, свойство документа программы или другое свойство.
 title: IDebugProperty2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8c5cec0d93919058eae725a9e49198f1704d8bfc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 42cdd3f9e5fd1d92e007bb9a15cf9e1fa5e44e83
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962201"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171456"
 ---
 # <a name="idebugproperty2"></a>IDebugProperty2
 Этот интерфейс представляет свойство кадра стека, свойство документа программы или другое свойство. Свойство обычно является результатом вычисления выражения.
@@ -62,7 +63,7 @@ IDebugProperty2 : IUnknown
 |[GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md)|Возвращает ссылку на значение этого свойства.|
 |[GetExtendedInfo](../../../extensibility/debugger/reference/idebugproperty2-getextendedinfo.md)|Возвращает расширенные сведения о свойстве.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Свойство, представленное `IDebugProperty2` интерфейсом, может рассматриваться как значение с именем, типом и адресом. В общих чертах объект `IDebugProperty2` может представлять все, имеющее иерархическую структуру, с родительскими и дочерними узлами.
 
  Свойство обычно является транзитным, исходящим только до текущего кадра стека, например. С другой стороны, ссылка, представленная интерфейсом [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) , продолжается до тех пор, пока значение остается в памяти.

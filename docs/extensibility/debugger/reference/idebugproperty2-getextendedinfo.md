@@ -1,4 +1,5 @@
 ---
+description: Получает расширенные сведения для свойства.
 title: 'IDebugProperty2:: Жетекстендединфо | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1bb9fe21b1dc004d5a124a1146e6f7610fbe8699
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 004c7d545dbaaa20016fd94febe999420305fc7a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99916049"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171503"
 ---
 # <a name="idebugproperty2getextendedinfo"></a>IDebugProperty2::GetExtendedInfo
 Получает расширенные сведения для свойства.
@@ -51,7 +52,7 @@ int GetExtendedInfo (
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки. Возвращает, `S_GETEXTENDEDINFO_NO_EXTENDEDINFO` Если расширенные сведения для извлечения отсутствуют.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод существует для получения сведений, которые не извлекаются при вызове метода [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) .
 
  Следующие идентификаторы GUID обычно распознаются этим методом (значения GUID указаны для C#, так как имя недоступно в какой-либо сборке). Дополнительные идентификаторы GUID можно создать для внутреннего использования.

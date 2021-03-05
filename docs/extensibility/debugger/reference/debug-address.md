@@ -1,4 +1,5 @@
 ---
+description: Эта структура представляет адрес.
 title: DEBUG_ADDRESS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e02f78e82c87bceb10b71bcb303a78f25a9a623e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a13a83b5622053593702409c44b6481ba76d17d8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899125"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170683"
 ---
 # <a name="debug_address"></a>DEBUG_ADDRESS
 Эта структура представляет адрес.
@@ -61,7 +62,7 @@ public struct DEBUG_ADDRESS {
 `addr`\
 Структура [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , которая содержит объединение структур, описывающих отдельные типы адресов. Значение `addr` .`dwKind` поступает из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) , в котором объясняется, как интерпретировать объединение.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эта структура передается в [метод метода method, который](../../../extensibility/debugger/reference/idebugaddress-getaddress.md) должен быть заполнен.
 
 **Предупреждение [только C++]**

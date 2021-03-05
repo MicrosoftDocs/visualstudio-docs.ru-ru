@@ -1,4 +1,5 @@
 ---
+description: Сравнивает данный контекст документа с заданным массивом контекстов документа.
 title: 'IDebugDocumentContext2:: Compare | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 959d909d0c777110905aff3b11c8c29d27d628dd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a18a689a187e802b92485f092b10b7323d0f97c8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880766"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102173021"
 ---
 # <a name="idebugdocumentcontext2compare"></a>IDebugDocumentContext2::Compare
 Сравнивает данный контекст документа с заданным массивом контекстов документа.
@@ -61,7 +62,7 @@ int Compare(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK` , если найдено совпадение. Возвращает значение `S_FALSE` , если совпадение не найдено. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Объекты [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) , переданные в массиве, должны быть реализованы с помощью того же модуля отладки, который реализует `IDebugDocumentContext2` вызываемый объект; в противном случае сравнение недопустимо.
 
 ## <a name="see-also"></a>См. также раздел

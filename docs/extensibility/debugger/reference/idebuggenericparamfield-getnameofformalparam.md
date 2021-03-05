@@ -1,4 +1,5 @@
 ---
+description: Возвращает имя этого универсального параметра.
 title: 'Идебугженерикпарамфиелд:: Жетнамеофформалпарам | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 94976f45ebb8d6d757507c2cf3b02dc909aa2729
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5bf8997d8b7e8887f800e61499bd67ab7d18750c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99838981"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172614"
 ---
 # <a name="idebuggenericparamfieldgetnameofformalparam"></a>IDebugGenericParamField::GetNameOfFormalParam
 Возвращает имя этого универсального параметра.

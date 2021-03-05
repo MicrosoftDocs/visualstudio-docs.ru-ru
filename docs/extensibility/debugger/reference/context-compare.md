@@ -1,4 +1,5 @@
 ---
+description: Задает критерий для сравнения двух контекстов памяти.
 title: CONTEXT_COMPARE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f273bbab4a85f03a7da0d155d8b9e081693987c7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 70f4621eaad5e494684e6c227959e13566a22eba
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912978"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170787"
 ---
 # <a name="context_compare"></a>CONTEXT_COMPARE
 Задает критерий для сравнения двух контекстов памяти.
@@ -84,7 +85,7 @@ public enum enum_CONTEXT_COMPARE {
 `CONTEXT_SAME_PROCESS`\
 Найдите в списке первый контекст памяти, который находится в том же процессе, что и целевой контекст памяти.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в качестве аргумента в метод [Compare](../../../extensibility/debugger/reference/idebugmemorycontext2-compare.md) .
 
 Эти значения используются для поиска контекста первой памяти в списке, удовлетворяющего указанным критериям сравнения. Контекст памяти получает список контекста памяти для сравнения с помощью `IDebugMemoryContext2::Compare` метода. Затем возвращается контекст первой памяти в списке, для которого выполняется оператор сравнения `true` .

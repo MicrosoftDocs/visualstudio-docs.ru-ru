@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для типа каждого аргумента, необходимого для вызова метода.
 title: 'Идебугмесодфиелд:: Енумаргументс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6b86fbdb87c0191ea8b43c64a542c37177a8ef1f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 04815bb1fc148893c5b594223f6b92bfb7e0d97f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99900201"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172129"
 ---
 # <a name="idebugmethodfieldenumarguments"></a>IDebugMethodField::EnumArguments
 Создает перечислитель для типа каждого аргумента, необходимого для вызова метода.
@@ -46,7 +47,7 @@ int EnumArguments(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK или возвращает S_FALSE, если аргументы отсутствуют. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Каждый элемент является объектом [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) , представляющим типы каждого параметра. Вызовите метод " [info](../../../extensibility/debugger/reference/idebugfield-getinfo.md) ", чтобы получить сведения о типе каждого параметра.
 
  Если требуется имя параметра вместе с типом, вызовите метод [енумпараметерс](../../../extensibility/debugger/reference/idebugmethodfield-enumparameters.md) .

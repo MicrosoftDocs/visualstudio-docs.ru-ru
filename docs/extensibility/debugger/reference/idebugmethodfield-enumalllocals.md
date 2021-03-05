@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для всех локальных переменных метода, включая созданные внутри компилятора.
 title: 'Идебугмесодфиелд:: Енумалллокалс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c10de4db63a7706326ff6f387366c75f860408bf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 38f14ba2d520974b9f8f567c7840737ed2763080
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928164"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102172172"
 ---
 # <a name="idebugmethodfieldenumalllocals"></a>IDebugMethodField::EnumAllLocals
 Создает перечислитель для всех локальных переменных метода, включая созданные внутри компилятора.
@@ -51,7 +52,7 @@ int EnumAllLocals(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK или возвращает S_FALSE, если нет локальных переменных. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Перечисляются только те переменные, которые определены в блоке, содержащем заданный адрес отладки. Этот метод включает все созданные компилятором локальные переменные. Если все, что требуется, — это локальные переменные, явно определенные в источнике, вызовите метод [енумлокалс](../../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) .
 
  Метод может содержать несколько контекстов области или блоков.
