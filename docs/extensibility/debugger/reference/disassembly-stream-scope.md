@@ -1,4 +1,5 @@
 ---
+description: Задает область потока дизассемблированного кода.
 title: DISASSEMBLY_STREAM_SCOPE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 54773ee6f770855122992f49bebad44fa1f6129a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c688da1c850743f92fb9b87f7f5d72fb66d946d6
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99870302"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170449"
 ---
 # <a name="disassembly_stream_scope"></a>DISASSEMBLY_STREAM_SCOPE
 Задает область потока дизассемблированного кода.
@@ -59,7 +60,7 @@ public enum enum_DISASSEMBLY_STREAM_SCOPE {
 `DSS_ALL`\
 Указывает Дизассемблированный код для всего адресного пространства.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в качестве аргумента в метод [жетдисассемблистреам](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md) и возвращается методом [superscope](../../../extensibility/debugger/reference/idebugdisassemblystream2-getscope.md) .
 
 Эти значения можно объединить с помощью побитовой операции `OR` .

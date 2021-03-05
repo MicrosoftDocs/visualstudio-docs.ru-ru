@@ -1,4 +1,5 @@
 ---
+description: Указывает, какие сведения следует получить об эталонном объекте Debug.
 title: DEBUGREF_INFO_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 01a26b6e10fae095bcf7284a6b5dbc12394d2541
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: da408e159f654f9eb707e71710a178d22881d715
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938997"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170514"
 ---
 # <a name="debugref_info_flags"></a>DEBUGREF_INFO_FLAGS
 Указывает, какие сведения следует получить об эталонном объекте Debug.
@@ -84,7 +85,7 @@ public enum enum_DEBUGREF_INFO_FLAGS {
 `DEBUGREF_INFO_ALL`\
 Указывает маску флагов.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти флаги передаются методам [енумчилдрен](../../../extensibility/debugger/reference/idebugreference2-enumchildren.md) и [жетреференцеинфо](../../../extensibility/debugger/reference/idebugreference2-getreferenceinfo.md) , чтобы указать, какие поля структуры [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) должны быть инициализированы.
 
 Используется для `dwFields` элемента `DEBUG_REFERENCE_INFO` структуры, чтобы указать, какие поля используются и допустимы при возврате структуры.

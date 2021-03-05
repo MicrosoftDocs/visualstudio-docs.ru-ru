@@ -1,4 +1,5 @@
 ---
+description: Описывает одну инструкцию дизассемблирования для отображаемой интегрированной среды разработки (IDE).
 title: Дисассемблидата | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 49e8f151aa01037a0bc18161fbe94a00488394db
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b6053647d43563e7369793982c72683002ae0df5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953842"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170462"
 ---
 # <a name="disassemblydata"></a>DisassemblyData
 Описывает одну инструкцию дизассемблирования для отображаемой интегрированной среды разработки (IDE).
@@ -104,7 +105,7 @@ public struct DisassemblyData {
 `dwFlags`\
 Константа [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md) , указывающая, какие флаги активны.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Каждая `DisassemblyData` структура описывает одну инструкцию дизассемблирования. Массив этих структур возвращается методом [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) .
 
 Структура [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) используется только для текстовых документов. Диапазон исходного кода для этой инструкции заполнен только для первой инструкции, созданной из инструкции или строки, например when `dwByteOffset == 0` .

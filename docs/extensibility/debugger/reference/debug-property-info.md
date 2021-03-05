@@ -1,4 +1,5 @@
 ---
+description: Содержит сведения о свойстве Debug.
 title: DEBUG_PROPERTY_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 98cd4292692fe9d9b965790ce9a0a30d55423454
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d0b02ca1f8c85f81096954fb416cc73ee400b9ba
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899097"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170592"
 ---
 # <a name="debug_property_info"></a>DEBUG_PROPERTY_INFO
 Содержит сведения о свойстве Debug.
@@ -73,7 +74,7 @@ public struct DEBUG_PROPERTY_INFO {
 `dwAttrib`\
 Сочетание флагов из перечисления [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) , описывающее атрибуты этого свойства.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Свойство — это объект иерархической природы, имеющий имя, тип и значение. Например, свойство может описывать локальные переменные, параметры, контрольные переменные и выражения, а также регистры.
 
 Эта структура передается в метод [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) , где она заполнена. Эта структура также возвращается как часть списка этой структуры из интерфейса [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) , который, в свою очередь, возвращается из вызова методов [енумчилдрен](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) и [енумпропертиес](../../../extensibility/debugger/reference/idebugstackframe2-enumproperties.md) .

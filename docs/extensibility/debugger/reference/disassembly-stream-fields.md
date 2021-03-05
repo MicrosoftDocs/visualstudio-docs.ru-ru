@@ -1,4 +1,5 @@
 ---
+description: Указывает, какие сведения следует получить о поле дизассемблирования.
 title: DISASSEMBLY_STREAM_FIELDS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 34836447af8277141c401302c5a838d5cbe351b9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8bb45f492a58bd079a1b73212fc9473041d10589
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938958"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170475"
 ---
 # <a name="disassembly_stream_fields"></a>DISASSEMBLY_STREAM_FIELDS
 Указывает, какие сведения следует получить о поле дизассемблирования.
@@ -104,7 +105,7 @@ public enum enum_DISASSEMBLY_STREAM_FIELDS {
 `DSF_ALL`\
 Задает все поля для потока дизассемблированного кода.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в качестве параметра методу [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) , чтобы указать, какие поля структуры [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) должны быть инициализированы.
 
 Используется для `dwFields` элемента `DisassemblyData` структуры, чтобы указать, какие поля используются и допустимы при возврате структуры.

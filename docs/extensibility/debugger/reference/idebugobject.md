@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет объект, создаваемый связывателем для инкапсуляции значений символов и выражений.
 title: Идебугобжект | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc6fc188537799a8a3eeab66dd4af1d92ffb67db
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 14c405c9dbe3d1cbfdf61c606b995a686e063661
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953582"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170201"
 ---
 # <a name="idebugobject"></a>IDebugObject
 > [!IMPORTANT]
@@ -53,7 +54,7 @@ IDebugObject : IUnknown
 |[IsReadOnly](../../../extensibility/debugger/reference/idebugobject-isreadonly.md)|Определяет, доступен ли этот объект только для чтения.|
 |[IsProxy](../../../extensibility/debugger/reference/idebugobject-isproxy.md)|Определяет, является ли объект прозрачным прокси-сервером.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Средство оценки выражений использует этот интерфейс в качестве базового класса для представления объектов в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования

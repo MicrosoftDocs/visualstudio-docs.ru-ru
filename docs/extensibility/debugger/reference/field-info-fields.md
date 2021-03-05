@@ -1,4 +1,5 @@
 ---
+description: Указывает, какие сведения следует получить о объекте Идебугфиелд.
 title: FIELD_INFO_FIELDS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8cec892d65dc4e5d081063fa6b31def06fb7f85c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 024c12d5112398e055141a8db4995f2801ca5401
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99936916"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170293"
 ---
 # <a name="field_info_fields"></a>FIELD_INFO_FIELDS
 Указывает, какие сведения следует получить о объекте [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) .
@@ -63,7 +64,7 @@ public enum enum_FIELD_INFO_FIELDS {
 `FIF_MODIFIERS`\
 Инициализируйте или используйте `bstrModifiers` поле в `FIELD_INFO` структуре.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения также передаются в качестве аргумента в метод " [info](../../../extensibility/debugger/reference/idebugfield-getinfo.md) ", чтобы указать, какие поля структуры [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) должны быть инициализированы.
 
 Эти значения также используются в `dwFields` члене `FIELD_INFO` структуры для указания того, какие поля используются и являются допустимыми.

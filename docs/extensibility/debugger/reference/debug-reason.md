@@ -1,4 +1,5 @@
 ---
+description: Указывает, почему процесс был запущен для отладки.
 title: DEBUG_REASON | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8d2ce7eeb28627f7cb0a1dfbe399bd55f04ff7be
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9404e4b5cfdd1f1690b0fe76d0cd5e98cc90d2a4
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921226"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170553"
 ---
 # <a name="debug_reason"></a>DEBUG_REASON
 Указывает, почему процесс был запущен для отладки.
@@ -64,7 +65,7 @@ public enum enum_DEBUG_REASON {
 `DEBUG_REASON_CAUSALITY`\
 Процесс был запущен из-за JIT *-события* отладки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Возвращается методом [жетдебугреасон](../../../extensibility/debugger/reference/idebugprocess3-getdebugreason.md) .
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс сообщает диспетчеру отладки сеансов (SDM), что привязанная точка останова была отменена из загруженной программы.
 title: IDebugBreakpointUnboundEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f7b463b2da9c1e2c93568435b73020550802f98
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8c23c060883ca3d2682659112bdc55de001e80e4
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99881013"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170228"
 ---
 # <a name="idebugbreakpointunboundevent2"></a>IDebugBreakpointUnboundEvent2
 Этот интерфейс сообщает диспетчеру отладки сеансов (SDM), что привязанная точка останова была отменена из загруженной программы.
@@ -42,7 +43,7 @@ IDebugBreakpointUnboundEvent2 : IUnknown
 |[GetBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getbreakpoint.md)|Возвращает точку останова, которая стала непривязанной.|
 |[GetReason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md)|Возвращает причину, по которой точка останова была непривязанной.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  При выгрузке библиотеки DLL или класса отладчика отладки все точки останова, которые были привязаны к коду в этом модуле, должны быть отменены от отлаживаемой программы. `IDebugBreakpointUnboundEvent2`Отправляется для каждой непривязанной точки останова.
 
 ## <a name="requirements"></a>Требования

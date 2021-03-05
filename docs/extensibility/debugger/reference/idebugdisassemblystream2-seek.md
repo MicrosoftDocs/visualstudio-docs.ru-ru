@@ -1,4 +1,5 @@
 ---
+description: Перемещает указатель чтения в потоке дизассемблирования на указанное количество инструкций относительно указанной позиции.
 title: 'IDebugDisassemblyStream2:: Seek | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3223f454fbf775b6aa11512c20fc63f8c224ade7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1799e2fd0fb992a2b60f57e668937a927a14e7bc
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99944632"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170215"
 ---
 # <a name="idebugdisassemblystream2seek"></a>IDebugDisassemblyStream2::Seek
 Перемещает указатель чтения в потоке дизассемблирования на указанное количество инструкций относительно указанной позиции.
@@ -61,7 +62,7 @@ int Seek(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK`. Возвращает значение, `S_FALSE` если положение поиска находилось до точки, находящейся за пределами списка доступных инструкций. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если поиск осуществлялся до начала списка, то в качестве места чтения устанавливается первая инструкция в списке. Если точка просмотра находится в положении после конца списка, то в качестве места чтения устанавливается Последняя инструкция в списке.
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Задает флаги для дизассемблированного кода.
 title: DISASSEMBLY_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6fe1515616d6781613961fa11d87005a479c70fd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3aeaf00e7073cd1146dcc5856684ed7209e7d800
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99939023"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170488"
 ---
 # <a name="disassembly_flags"></a>DISASSEMBLY_FLAGS
 Задает флаги для дизассемблированного кода.
@@ -69,7 +70,7 @@ public enum enum_DISASSEMBLY_FLAGS {
 `DF_DOCUMENT_CHECKSUM`\
 Указывает, что `bstrDocumentUrl` поле содержит данные контрольной суммы после URL-адреса документа. Сведения о том, как хранятся данные контрольной суммы, см. в разделе "Примечания" для структуры [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Используется в качестве `dwFlags` члена структуры [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) .
 
 Эти флаги можно сочетать с помощью побитовой операции `OR` .

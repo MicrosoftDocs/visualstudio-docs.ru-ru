@@ -1,4 +1,5 @@
 ---
+description: Возвращает поле или переменную (если есть), которые могут быть резервными копиями свойства, представленного этим объектом.
 title: 'IDebugObject2:: Жетбаккингфиелдфорпроперти | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f502479d4c74eb0b5cfa71db52698121830e66e6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6f7a5427193aafe8a4aa35fdf331f62bb08e3fe6
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953478"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170176"
 ---
 # <a name="idebugobject2getbackingfieldforproperty"></a>IDebugObject2::GetBackingFieldForProperty
 Возвращает поле или переменную (если есть), которые могут быть резервными копиями свойства, представленного этим объектом.
@@ -46,7 +47,7 @@ int GetBackingFieldForProperty(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Объект [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) представляет свойство класса управляемого кода, то есть метод с методом доступа get и/или Set. Для таких свойств обычно требуется, чтобы переменная содержала значение, управляемое свойством. Эта переменная называется резервным полем. Если для объекта нет резервного поля, убедитесь, что возвращено значение NULL: некоторые вызывающие объекты могут не обратить внимание на возвращаемое значение, но вместо этого будет проверять, было ли возвращено значение NULL в `ppObject` .
 
 ## <a name="see-also"></a>См. также раздел

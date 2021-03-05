@@ -1,4 +1,5 @@
 ---
+description: Задает критерий для сравнения двух контекстов документа.
 title: DOCCONTEXT_COMPARE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: db66748a1665d5ab965f20295258efd65ec43d38
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f64e2e8ec365daa84cbd1d4f7e3e9bdc43391d5e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953725"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170436"
 ---
 # <a name="doccontext_compare"></a>DOCCONTEXT_COMPARE
 Задает критерий для сравнения двух контекстов документа.
@@ -59,7 +60,7 @@ enum enum_DOCCONTEXT_COMPARE {
 `DOCCONTEXT_SAME_DOCUMENT`\
 Найдите в списке первый контекст документа, который находится в том же документе, что и целевой контекст документа.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в качестве аргумента в метод [Compare](../../../extensibility/debugger/reference/idebugdocumentcontext2-compare.md) .
 
 Эти значения используются для указания критериев сравнения для поиска первого контекста документа в списке. Контекст документа получает список контекстов документов для сравнения с помощью `IDebugDocumentContext2::Compare` метода. Затем возвращается первый контекст документа в списке, для которого выполняется оператор сравнения `true` .
