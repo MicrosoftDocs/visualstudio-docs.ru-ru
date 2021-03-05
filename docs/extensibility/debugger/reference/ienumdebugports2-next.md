@@ -1,4 +1,5 @@
 ---
+description: Возвращает следующий набор элементов из перечисления Ports.
 title: 'IEnumDebugPorts2:: Next | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 08d48b2c99c30a23d1c534d8c732b5abe18438e3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f202d91a944663bf04254accaefe1fd14e6e5a0a
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99956988"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226310"
 ---
 # <a name="ienumdebugports2next"></a>IEnumDebugPorts2::Next
 Возвращает следующий набор из перечисления.

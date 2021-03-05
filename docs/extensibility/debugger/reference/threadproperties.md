@@ -1,4 +1,5 @@
 ---
+description: Описывает свойства потока.
 title: СРЕАДПРОПЕРТИЕС | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a2eb7abf897cf4891f08228dd5f0c918f580a1ce
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 186d9b0cd4f9ee3a822a528ab16788902d9ff1af
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850665"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225269"
 ---
 # <a name="threadproperties"></a>THREADPROPERTIES
 Описывает свойства потока.
@@ -73,7 +74,7 @@ public struct THREADPROPERTIES {
  `bstrLocation`\
  Расположение потока (обычно самый верхний кадр стека), обычно выраженное в виде имени метода, в котором выполнение в данный момент останавливается.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура заполняется вызовом метода [жетсреадпропертиес](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) . Эти сведения обычно используются при заполнении окна **потоков** .
 
 ## <a name="requirements"></a>Требования

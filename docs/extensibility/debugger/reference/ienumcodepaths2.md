@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет список путей кода.
 title: IEnumCodePaths2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 69a65488d38fe2562392be152e448369ff081915
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f9758bacf6dc22ad65dc4d8db9b21d0f6728efaf
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962162"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227090"
 ---
 # <a name="ienumcodepaths2"></a>IEnumCodePaths2
 Этот интерфейс представляет список путей кода.
@@ -45,7 +46,7 @@ IEnumCodePaths2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumcodepaths2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumcodepaths2-getcount.md)|Возвращает число ветвей кода в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Путь к коду представляет точку ветвления или вызов функции в программе. Список путей к коду представляет путь, по которому был выполнен код.
 
 ## <a name="requirements"></a>Требования

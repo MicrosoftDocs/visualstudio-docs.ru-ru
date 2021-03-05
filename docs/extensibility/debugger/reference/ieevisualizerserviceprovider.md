@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет доступ к методу, который может создать службу визуализатора, которая используется для управления задачами визуализатора типов в интегрированной среде разработки.
 title: Иивисуализерсервицепровидер | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 40e811d33d23b35553ffb23338bed19dc207e1e9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d4fc53ae13588a0e285e4a62691da4d88a94d5f5
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99907792"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227181"
 ---
 # <a name="ieevisualizerserviceprovider"></a>IEEVisualizerServiceProvider
 > [!IMPORTANT]
@@ -43,7 +44,7 @@ IEEVisualizerServiceProvider : IUnknown
 |------------|-----------------|
 |[CreateVisualizerService](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md)|Создает службу визуализатора|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `IEEVisualizerServiceProvider`Интерфейс получается во время реализации [евалуатесинк](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md). Служба визуализатора, создаваемая этим интерфейсом, используется для предоставления функциональных возможностей интерфейсу [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) , который отвечает за реализацию. EE также отвечает за реализацию интерфейса [иивисуализердатапровидер](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md) , который позволяет визуализаторам типов просматривать и изменять значения свойств.
 
  Сведения о взаимодействии этих интерфейсов см. в разделе [визуализация и просмотр данных](../../../extensibility/debugger/visualizing-and-viewing-data.md) .

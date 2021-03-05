@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет массив байтов.
 title: Иидатастораже | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dbec27d262e43cb0fcdf8317725ad3c77a1817eb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9434138114f2b4b0615e20c1b556ff6387c715de
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966439"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227337"
 ---
 # <a name="ieedatastorage"></a>IEEDataStorage
 Этот интерфейс представляет массив байтов.
@@ -42,7 +43,7 @@ IEEDataStorage : IUnknown
 |[GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md)|Извлекает указанное число байтов данных в указанный буфер.|
 |[GetSize](../../../extensibility/debugger/reference/ieedatastorage-getsize.md)|Возвращает число доступных байтов данных.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс используется визуализатором типов для доступа к данным, удерживаемым конкретным объектом. Данные обрабатываются как массив байтов, что позволяет визуализатору типов манипулировать им любым способом, необходимым для представления пользователю.
 
  Пользовательское средство просмотра также может использовать этот интерфейс, если это необходимо, хотя обычно в пользовательском средстве просмотра используется пользовательский интерфейс [жетмеморибитес](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md) или [жетстрингчарс](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md) (для строковых данных).

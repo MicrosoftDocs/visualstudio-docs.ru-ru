@@ -1,4 +1,5 @@
 ---
+description: Описывает или задает свойства процесса.
 title: PROCESS_INFO_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: cd20b194623a02ff3852d0f0734f3dc7d7e1cfc6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e192a51c2c371754778ecbe697d280d1b254f224
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923093"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225335"
 ---
 # <a name="process_info_flags"></a>PROCESS_INFO_FLAGS
 
@@ -60,7 +61,7 @@ enum enum_PROCESS_INFO_FLAGS {
 `PIFLAG_PROCESS_RUNNING`\
 Указывает, что процесс выполняется. Допустимо, только если `PIFLAG_DEBUGGER_ATTACHED` также указано значение. Доступно в Visual Studio 2005 и более поздних версиях.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Используется для `Flags` элемента структуры [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md) .
 

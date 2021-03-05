@@ -1,4 +1,5 @@
 ---
+description: Создает объект, представляющий тип-примитив.
 title: 'Идебугтипефиелдбуилдер:: Креатепримитиве | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b1f7601d2533a52fdee709413a97d203a6556cb0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c480b32d56708569d3ac05e309e8bd06e17db4e5
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965724"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227363"
 ---
 # <a name="idebugtypefieldbuildercreateprimitive"></a>IDebugTypeFieldBuilder::CreatePrimitive
 Создает объект, представляющий тип-примитив.

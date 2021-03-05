@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс реализует ключевые методы, которые предоставляют функциональные возможности для интерфейсов IDebugProperty3 и Ипропертипроксеесиде.
 title: Иивисуализерсервице | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b10a09aeab6012981fd464694c641aaf6bba4951
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5054041ab09898943d300393d36205581231b06d
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842242"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227220"
 ---
 # <a name="ieevisualizerservice"></a>IEEVisualizerService
 > [!IMPORTANT]
@@ -46,7 +47,7 @@ IEEVisualizerService : IUnknown
 |[GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)|Возвращает прокси-объект для свойства.|
 |[GetValueDisplayStringCount](../../../extensibility/debugger/reference/ieevisualizerservice-getvaluedisplaystringcount.md)|Извлекает количество строк значений, отображаемых для указанного свойства или поля.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Интегрированная среда разработки использует интерфейс [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) , чтобы определить наличие пользовательских средств просмотра или визуализаторов типов для свойства. Создав службу визуализатора (с [креатевисуализерсервице](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md)), ee может предоставить функции `IDebugProperty3` и [ипропертипроксеесиде](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) (который поддерживает просмотр и изменение интерфейсов значений свойств) и, таким образом, поддерживать визуализаторы типов.
 
  Если у EE имеется пользовательское средство просмотра, которое само реализует, то EE может добавить в `CLSID` конец списка, возвращенного [жеткустомвиеверлист](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md). Это позволяет элементу EE поддерживать как визуализаторы типов, так и собственные пользовательские средства просмотра. Просто убедитесь, что [жеткустомвиеверкаунт](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) отражает добавление любых пользовательских средств просмотра.

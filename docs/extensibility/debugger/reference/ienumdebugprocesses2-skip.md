@@ -1,4 +1,5 @@
 ---
+description: Пропускает указанное число элементов в перечислении Processes.
 title: 'IEnumDebugProcesses2:: Skip | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2aa54972695dfbed3f5c054bd98fe590f0c81d57
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 22f033ac1f7ec42fd6ce621e73dae9102e8621ed
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883689"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226128"
 ---
 # <a name="ienumdebugprocesses2skip"></a>IEnumDebugProcesses2::Skip
 Пропускает заданное число элементов.
@@ -46,7 +47,7 @@ int Skip(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK`. Возвращает `S_FALSE` `celt` , если больше числа оставшихся элементов; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если `celt` задает значение, превышающее число оставшихся элементов, перечисление устанавливается в конец и `S_FALSE` возвращается.
 
 ## <a name="see-also"></a>См. также раздел

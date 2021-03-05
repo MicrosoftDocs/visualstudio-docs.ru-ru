@@ -1,4 +1,5 @@
 ---
+description: Возвращает копию текущего перечисления Programs в виде отдельного объекта.
 title: 'IEnumDebugPrograms2:: Clone | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 38927f6b81c2cc00107bc06125343001079d0aee
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: eba9bf611096d62f4b22f1898354281292d979b7
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846638"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226102"
 ---
 # <a name="ienumdebugprograms2clone"></a>IEnumDebugPrograms2::Clone
 Возвращает копию текущего перечисления как отдельный объект.
@@ -46,7 +47,7 @@ int Clone(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Копия перечисления имеет то же состояние, что и оригинал, во время вызова этого метода. Однако исходное состояние копии и исходного состояния является отдельным и может быть изменено по отдельности.
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Указывает состояние потока.
 title: С + + Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 21b683e8f7797743d5ae78f932edfa5c862dbb8b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 36c44eaf3b5ab8d3515b2c3e2128e8ac9562492e
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99967687"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225266"
 ---
 # <a name="threadstate"></a>THREADSTATE
 Указывает состояние потока.
@@ -64,7 +65,7 @@ public enum enum_THREADSTATE {
  `THREADSTATE_FROZEN`\
  Указывает, что поток заморожен (выполнение не может быть выполнено).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Используется для `dwThreadState` поля структуры [среадпропертиес](../../../extensibility/debugger/reference/threadproperties.md) .
 
 ## <a name="requirements"></a>Требования

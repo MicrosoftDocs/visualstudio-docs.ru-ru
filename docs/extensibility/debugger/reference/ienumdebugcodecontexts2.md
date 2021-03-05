@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет контексты кода, связанные с сеансом отладки, или с определенной программой или документом.
 title: IEnumDebugCodeContexts2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7dee04516d8bc8d72859509a9f721455d858a433
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 82e3583333c784fffa55abf2e86f5a7335aeb7c1
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929398"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226934"
 ---
 # <a name="ienumdebugcodecontexts2"></a>IEnumDebugCodeContexts2
 Этот интерфейс перечисляет контексты кода, связанные с сеансом отладки, или с определенной программой или документом.
@@ -47,7 +48,7 @@ IEnumDebugCodeContexts2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugcodecontexts2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugcodecontexts2-getcount.md)|Возвращает количество контекстов кода в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio вызывает [енумкодеконтекстс](../../../extensibility/debugger/reference/idebugprogram2-enumcodecontexts.md) для заполнения списка контекстов кода, которые пользователь может выбрать при настройке следующей инструкции или отображения дизассемблированного кода для исходного файла. Может произойти несколько контекстов кода, например при наличии нескольких экземпляров шаблона в стиле C++.
 
 ## <a name="requirements"></a>Требования

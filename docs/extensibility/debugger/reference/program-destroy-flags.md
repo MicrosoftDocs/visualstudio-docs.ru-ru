@@ -1,4 +1,5 @@
 ---
+description: Перечисляет допустимые значения флагов удаления программы.
 title: PROGRAM_DESTROY_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5b7d144658065c32fd15b4b2b21ed0f53fe02a08
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a695ae921bb9fb0e6b137e258cd8bd70d278eba7
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962955"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225322"
 ---
 # <a name="program_destroy_flags"></a>PROGRAM_DESTROY_FLAGS
 Перечисляет допустимые значения флагов удаления программы.
@@ -44,7 +45,7 @@ public enum enum_PPROGRAM_DESTROY_FLAGS
  `PROGRAM_DESTROY_CONTINUE_DEBUGGING`\
  Уничтожить программу, но продолжить отладку.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Перечисление возвращается методом- [flags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md) .
 
 ## <a name="requirements"></a>Требования
