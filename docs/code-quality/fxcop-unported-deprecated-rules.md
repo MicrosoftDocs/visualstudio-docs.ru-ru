@@ -1,4 +1,5 @@
 ---
+description: Следующие правила анализа прежних версий FxCop являются устаревшими и не будут реализованы как анализаторы.
 title: Нерекомендуемые правила
 ms.date: 05/21/2019
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2cc47582f69b3ac186e931c7090d6372d42d3574
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 21a151f7d2da18f1c498269504f216b1f7fbd44c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99860299"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144706"
 ---
 # <a name="deprecated-rules"></a>Нерекомендуемые правила
 

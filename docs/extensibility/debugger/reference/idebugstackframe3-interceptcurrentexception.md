@@ -1,4 +1,5 @@
 ---
+description: Вызывается отладчиком в текущем кадре стека, когда ему требуется перехват текущего исключения.
 title: 'IDebugStackFrame3:: Интерцепткуррентексцептион | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a8e3ef123fb88f1519d398952ed2d27de0fb0b91
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 93fa7f73b3e13c655716ecbb16ff420605f76c90
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963553"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145785"
 ---
 # <a name="idebugstackframe3interceptcurrentexception"></a>IDebugStackFrame3::InterceptCurrentException
 Вызывается отладчиком в текущем кадре стека, когда ему требуется перехват текущего исключения.
@@ -59,7 +60,7 @@ int InterceptCurrentException(
 |`E_EXCEPTION_CANNOT_UNWIND_ABOVE_CALLBACK`|Текущий кадр выполнения еще не выполнил поиск обработчика.|
 |`E_INTERCEPT_CURRENT_EXCEPTION_NOT_SUPPORTED`|Этот метод не поддерживается для этого кадра.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  При возникновении исключения отладчик получает управление от времени выполнения по ключевым точкам во время обработки исключений. В течение этих минут отладчик может задать текущий кадр стека, если кадр желает перехватить исключение. Таким образом, перехваченное исключение — это, по сути, обработчик исключений для кадра стека, даже если этот кадр стека не имеет обработчика исключений (например, блока try/catch в коде программы).
 
  Когда отладчик хочет выяснить, следует ли перехватить исключение, он вызывает этот метод для текущего объекта кадра стека. Этот метод отвечает за обработку всех сведений об исключении. Если интерфейс [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md) не реализован или `InterceptStackException` метод возвращает ошибку, отладчик продолжит обработку исключения обычным образом.

@@ -1,4 +1,5 @@
 ---
+description: Возвращает контекст документа для этого кадра стека.
 title: 'IDebugStackFrame2:: Жетдокументконтекст | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8de85f157995db77653b71f7b25f3106caffb9ed
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9e1645cb7daebb9dc344085d13a2fecb87fc0106
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837516"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145980"
 ---
 # <a name="idebugstackframe2getdocumentcontext"></a>IDebugStackFrame2::GetDocumentContext
 Возвращает контекст документа для этого кадра стека.
@@ -46,7 +47,7 @@ int GetDocumentContext (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод выполняется быстрее, чем вызов метода [жеткодеконтекст](../../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md) и последующий вызов метода [жетдокументконтекст](../../../extensibility/debugger/reference/idebugcodecontext2-getdocumentcontext.md) в контексте кода. Однако не гарантируется, что каждый модуль отладки (DE) будет реализовывать этот метод.
 
 ## <a name="see-also"></a>См. также раздел

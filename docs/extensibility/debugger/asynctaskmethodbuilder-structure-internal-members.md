@@ -1,4 +1,5 @@
 ---
+description: В этой статье описываются внутренние члены класса System. Runtime. CompilerServices. AsyncTaskMethodBuilder.
 title: 'Внутренние элементы: структура AsyncTaskMethodBuilder'
 titleSuffix: ''
 ms.custom: SEO-VS-2020
@@ -13,12 +14,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 604f86311e2689d4301fec8a186e2a102d633062
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 241b4f3aae50ac70afc8320b637535035ee427e2
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888437"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145694"
 ---
 # <a name="asynctaskmethodbuilder-structure---internal-members"></a>Структура AsyncTaskMethodBuilder — внутренние элементы
 В этом разделе описываются внутренние члены <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> класса. Общие сведения об этом классе см <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> . в разделе справки.

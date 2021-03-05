@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для свойств, связанных с кадром стека, например локальных переменных.
 title: 'IDebugStackFrame2:: Енумпропертиес | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 500701be7b6f2aedffceaaaa819ecbd253a58e36
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 40298e505f0d3ccbba200c5487a1bf1d6723f5b2
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837714"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145967"
 ---
 # <a name="idebugstackframe2enumproperties"></a>IDebugStackFrame2::EnumProperties
 Создает перечислитель для свойств, связанных с кадром стека, например локальных переменных.
@@ -71,7 +72,7 @@ int EnumProperties (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Поскольку этот метод позволяет получать все выбранные свойства с помощью одного вызова, он выполняется быстрее, чем последовательный вызов методов [жетдебугпроперти](../../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) и [енумчилдрен](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) .
 
 ## <a name="see-also"></a>См. также раздел

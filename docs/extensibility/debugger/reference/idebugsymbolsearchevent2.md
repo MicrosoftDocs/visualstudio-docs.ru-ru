@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс отправляется модулем отладки (DE) для указания того, что отладочные символы для отлаживаемого модуля были загружены.
 title: IDebugSymbolSearchEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ad5fa763be8929a9122a6fd7517b401f5a874e04
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7ef2d315568b78e567d682728c4cbc989c5a4ed2
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909344"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145746"
 ---
 # <a name="idebugsymbolsearchevent2"></a>IDebugSymbolSearchEvent2
 Этот интерфейс отправляется модулем отладки (DE) для указания того, что отладочные символы для отлаживаемого модуля были загружены.
@@ -41,7 +42,7 @@ IDebugSymbolSearchEvent2 : IUnknown
 |------------|-----------------|
 |[GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md)|Извлекает сведения о результатах поиска символов.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Это событие будет отправлено, даже если не удалось загрузить символы. Вызов `IDebugSymbolSearchEvent2::GetSymbolSearchInfo` позволяет обработчику этого события определить, действительно ли в модуле имеются символы.
 
  Visual Studio обычно использует это событие для обновления состояния загруженных символов в окне **модули** .

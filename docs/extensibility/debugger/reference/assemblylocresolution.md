@@ -1,4 +1,5 @@
 ---
+description: Указывает, где находится сборка.
 title: АССЕМБЛИЛОКРЕСОЛУТИОН | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e2611828f1e9bb2aec740e392db18ce60839d19a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6756d3c0ee996c0fca2eb35ff92c552f750f2817
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952399"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144628"
 ---
 # <a name="assemblylocresolution"></a>ASSEMBLYLOCRESOLUTION
 Указывает, где находится сборка.
@@ -59,7 +60,7 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
 `ALR_REMOTEDIR`\
 Сборка находится в удаленном каталоге.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения возвращаются методами [ресолвеассемблиреф](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md) и [жетманажедвиеверкреатиондата](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md) .
 
 Эти значения можно сочетать с `OR` операцией.

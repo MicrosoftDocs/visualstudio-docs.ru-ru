@@ -1,4 +1,5 @@
 ---
+description: Отправляется из модуля отладки (DE) в Диспетчер отладки сеансов (SDM) при изменении имени программы.
 title: IDebugProgramNameChangedEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0640fa06b821c6679bc52c9f92a757cee6f0a580
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 408d564efe6b0cbd76d5bf6993fcc0113a299cb7
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898737"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145226"
 ---
 # <a name="idebugprogramnamechangedevent2"></a>IDebugProgramNameChangedEvent2
 Отправляется из модуля отладки (DE) в Диспетчер отладки сеансов (SDM) при изменении имени программы.

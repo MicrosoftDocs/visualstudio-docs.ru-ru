@@ -1,4 +1,5 @@
 ---
+description: Указывает причину, по которой подсистема отладки (DE) будет присоединена к узлу программы.
 title: ATTACH_REASON | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4baf13945b85cff334aa6392a50f6a80fdf50961
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f6fa83fb537f05a2c073e3693dab964fa58af464
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99950442"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144615"
 ---
 # <a name="attach_reason"></a>ATTACH_REASON
 Указывает причину, по которой подсистема отладки (DE) будет присоединена к узлу программы.
@@ -54,7 +55,7 @@ public enum enum_ATTACH_REASON {
 `ATTACH_REASON_USER`\
 Присоединение из-за запроса пользователя.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения используются в качестве параметра для методов [attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) и [attach](../../../extensibility/debugger/reference/idebugprogramex2-attach.md) .
 
 ## <a name="requirements"></a>Требования

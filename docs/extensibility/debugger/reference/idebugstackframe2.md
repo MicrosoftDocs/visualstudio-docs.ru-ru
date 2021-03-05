@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет один кадр стека в стеке вызовов в определенном потоке.
 title: IDebugStackFrame2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7241c697baf7810d961f4cc3aba71d469bad4582
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b5ec53e89afb43187c641058620df53c4a61d6cc
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963566"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145915"
 ---
 # <a name="idebugstackframe2"></a>IDebugStackFrame2
 Этот интерфейс представляет один кадр стека в стеке вызовов в определенном потоке.
@@ -50,7 +51,7 @@ IDebugStackFrame2 : IUnknown
 |[EnumProperties](../../../extensibility/debugger/reference/idebugstackframe2-enumproperties.md)|Создает перечислитель для свойств кадра стека.|
 |[GetThread](../../../extensibility/debugger/reference/idebugstackframe2-getthread.md)|Возвращает поток, связанный с кадром стека.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс получается, только если отлаживаемая программа остановлена в точке останова (вызванной точкой останова пользовательской установки или исключением). С помощью этого интерфейса можно получить контекст выражения для вычисления выражений, возвратить список регистров, а также получить и исследовать стек вызовов.
 
 ## <a name="requirements"></a>Требования

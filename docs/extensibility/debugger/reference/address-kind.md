@@ -1,4 +1,5 @@
 ---
+description: Указывает типы адресов.
 title: ADDRESS_KIND | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d909694afcec033401b730011633a9da0fafbc18
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 12a47edf2b9eca9cd99a5b11531f78e080572d54
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912146"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144654"
 ---
 # <a name="address_kind"></a>ADDRESS_KIND
 Указывает типы адресов.
@@ -84,7 +85,7 @@ public enum enum_ADDRESS_KIND {
 `ADDRESS_KIND_RETVAL`\
 Возвращаемое значение, представленное структурой [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Метод [метода](../../../extensibility/debugger/reference/idebugaddress-getaddress.md) WebMethod возвращает структуру [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) , содержащую объединение возможных структур, [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) структуру. `dwKind`Поле `DEBUG_ADDRESS_UNION` структуры содержит `ADDRESS_KIND` значение и описывает способ интерпретации поля объединения.
 
 ## <a name="requirements"></a>Требования

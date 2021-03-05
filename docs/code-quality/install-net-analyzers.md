@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: b41615e1826987cb42076ab3195fe7bfad235e7a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 368fd5bc9c8b7e2659c86b6e3dc69a609da37617
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99867897"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102144667"
 ---
 # <a name="enable-or-install-first-party-net-analyzers"></a>Включение или установка сторонних анализаторов .NET
 
@@ -26,7 +26,7 @@ ms.locfileid: "99867897"
 
 Включить или установить первую версию анализаторов .NET можно одним из следующих способов.
 
-- **Включение из пакета SDK для .NET**: начиная с Visual Studio 2019 16,8 и .NET 5,0, эти анализаторы [входят в состав пакета SDK для .NET](/dotnet/fundamentals/code-analysis/overview). По умолчанию для проектов, предназначенных для .NET 5,0 или более поздней версии, включен анализ. Вы можете включить анализ кода для проектов, предназначенных для более ранних версий .NET, задав `EnableNETAnalyzers` для свойства значение `true` . Можно также отключить анализ кода для проекта, задав для значение `EnableNETAnalyzers` `false` .
+- **Включение из пакета SDK для .NET**: начиная с Visual Studio 2019 16,8 и .NET 5,0, эти анализаторы [входят в состав пакета SDK для .NET](/dotnet/fundamentals/code-analysis/overview). По умолчанию для проектов, предназначенных для .NET 5,0 или более поздней версии, включен анализ. Вы можете включить анализ кода для проектов, предназначенных для более ранних версий .NET, задав для свойства [ЕНАБЛЕНЕТАНАЛИЗЕРС](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) MSBuild значение `true` . Можно также отключить анализ кода для проекта, задав для значение `EnableNETAnalyzers` `false` .
 
 - **Установить как пакет NuGet**. Если вы не хотите переходить на пакет SDK для .NET 5 + или если предпочитаете использовать модель на основе пакетов NuGet, анализаторы также доступны в `Microsoft.CodeAnalysis.NetAnalyzers` [пакете nuget](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers) в Visual Studio 2019.  Вы можете предпочесть модели на основе пакетов для обновления версий по требованию. Если вы используете Visual Studio 2017, установите последнюю `2.9.x` версию `Microsoft.CodeAnalysis.FxCopAnalyzers` [пакета NuGet](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) .
 
