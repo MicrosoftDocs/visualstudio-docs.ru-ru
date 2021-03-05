@@ -1,4 +1,5 @@
 ---
+description: Определяет, содержит ли указанный метод сведения о строке.
 title: 'IDebugComPlusSymbolProvider2:: Функтионхаслинеинфо | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6492f0899592074e003f49afb06fd9bf7303ddc7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 61c774c911f7b84ccba592cd73a04d13799da4d1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954986"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163451"
 ---
 # <a name="idebugcomplussymbolprovider2functionhaslineinfo"></a>IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 Определяет, содержит ли указанный метод сведения о строке.

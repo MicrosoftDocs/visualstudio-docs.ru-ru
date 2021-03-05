@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс используется для представления и получения сведений с сервера на компьютере в сети.
 title: IDebugCoreServer2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba05cb5a933c5b3caaf080c9098c83451a20e484
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 871f7ea5671fa4f3c615d84e0591bd331f945ccc
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910002"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163139"
 ---
 # <a name="idebugcoreserver2"></a>IDebugCoreServer2
 Этот интерфейс используется для представления и получения сведений с сервера на компьютере в сети.
@@ -49,7 +50,7 @@ IDebugCoreServer2 : IUknown
 |[EnumPortSuppliers](../../../extensibility/debugger/reference/idebugcoreserver2-enumportsuppliers.md)|Создает перечислитель для всех поставщиков портов на компьютере.|
 |[GetMachineUtilities_V7](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineutilities-v7.md)|Возвращает служебные программы для компьютера.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс также используется в Visual Studio для просмотра процессов, выполняющихся на компьютерах в сети.
 
 ## <a name="requirements"></a>Требования

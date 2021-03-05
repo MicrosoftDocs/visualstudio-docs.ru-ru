@@ -1,4 +1,5 @@
 ---
+description: Дает причину, по которой точка останова была непривязанной.
 title: BP_UNBOUND_REASON | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c4750b4d1a9c1f972c0445dfcf3ea2f4fa5be328
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 857f07e70809200567b6c2f79c5a22aff78b4af8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842659"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102162554"
 ---
 # <a name="bp_unbound_reason"></a>BP_UNBOUND_REASON
 Дает причину, по которой точка останова была непривязанной.
@@ -59,7 +60,7 @@ public enum enum_BP_UNBOUND_REASON {
 `BPUR_ BREAKPOINT_ERROR`\
 Точка останова определяется как ошибка после привязки. Это происходит с управляемыми точками останова, условия которых больше не действительны.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Возвращается методом [Reason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md) .
 
 ## <a name="requirements"></a>Требования

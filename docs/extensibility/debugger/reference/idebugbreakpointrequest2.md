@@ -1,4 +1,5 @@
 ---
+description: Интерфейс IDebugBreakPointRequest2 представляет сведения, необходимые для создания и привязки любого типа точки останова.
 title: IDebugBreakpointRequest2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d31b7cfe2480fa3b16a4d3c8c08185194fec6b79
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7e7d13c945de1358265a5eb92769192ce736be49
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951203"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102162359"
 ---
 # <a name="idebugbreakpointrequest2"></a>IDebugBreakpointRequest2
 Этот интерфейс представляет сведения, необходимые для создания и привязки любого типа точки останова.
@@ -42,7 +43,7 @@ IDebugBreakpointRequest2 : IUnknown
 |[GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md)|Возвращает тип расположения точки останова для этого запроса точки останова.|
 |[GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)|Получает сведения о запросе точки останова, описывающие этот запрос на точку останова.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  После загрузки отлаживаемой программы вызов [BIND](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md) привязывает отложенную точку останова к запрошенному расположению в программе.
 
 ## <a name="requirements"></a>Требования

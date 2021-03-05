@@ -1,4 +1,5 @@
 ---
+description: Включает автоматическое присоединение для указанных модулей отладки.
 title: 'IDebugCoreServer3:: Енаблеаутоаттач | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7873480c979bba4f52203c02864d24aa88cf06cb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 644d238db11c117b9068de8f7903361b9712f3aa
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99907997"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163152"
 ---
 # <a name="idebugcoreserver3enableautoattach"></a>IDebugCoreServer3::EnableAutoAttach
 Включает автоматическое присоединение для указанных модулей отладки.
@@ -61,7 +62,7 @@ int EnableAutoAttach(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки. Один код ошибки — `E_AUTO_ATTACH_NOT_REGISTERED` , который указывает, что фабрика класса автоматического подключения не зарегистрирована.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  При запуске программы, связанной с указанным URL-адресом, указанные модули отладки автоматически запускаются и присоединяются.
 
 ## <a name="see-also"></a>См. также раздел

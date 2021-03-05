@@ -1,4 +1,5 @@
 ---
+description: Возвращает средство чтения символов, используемое неуправляемым кодом.
 title: 'Идебугкомплуссимболпровидер:: Жетсимунманажедреадер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4463085b021f2de5f9237817b6d8ffade88612a5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a650d55b6c3b36a5b3b08138f44618e2c3645627
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99936162"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163802"
 ---
 # <a name="idebugcomplussymbolprovidergetsymunmanagedreader"></a>IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 Возвращает средство чтения символов, используемое неуправляемым кодом.

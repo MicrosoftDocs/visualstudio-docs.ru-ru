@@ -1,4 +1,5 @@
 ---
+description: Извлекает классы с указанным атрибутом, реализованным в указанном языке программирования.
 title: IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 titleSuffix: ''
 ms.custom: SEO-VS-2020
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d2e9c5b6738d328c92393f2f7487b980de3e50cb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1f5275d67379879a09521d6c3331accd9cab07c4
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892935"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163867"
 ---
 # <a name="idebugcomplussymbolprovidergetattributedclassesforlanguage"></a>IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 Извлекает классы с указанным атрибутом, реализованным в указанном языке программирования.

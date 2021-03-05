@@ -1,4 +1,5 @@
 ---
+description: Вызывается диспетчером отладки сеансов (SDM) для указания на то, что Синхронное событие отладки, ранее отправленное модулем отладки (DE) в SDM, было получено и обработано.
 title: 'IDebugEngine2:: Континуефромсинчронаусевент | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 78485e209c93e0673aa32587b21bb074aac047e1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8e7d92e4d49b6a9e409ee30cf04d131645d287fd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921144"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102162671"
 ---
 # <a name="idebugengine2continuefromsynchronousevent"></a>IDebugEngine2::ContinueFromSynchronousEvent
 Вызывается диспетчером отладки сеансов (SDM) для указания на то, что Синхронное событие отладки, ранее отправленное модулем отладки (DE) в SDM, было получено и обработано.
@@ -46,7 +47,7 @@ HRESULT ContinueFromSynchronousEvent(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Значение DE должно проверять, что это источник события, представленного `pEvent` параметром.
 
 ## <a name="example"></a>Пример

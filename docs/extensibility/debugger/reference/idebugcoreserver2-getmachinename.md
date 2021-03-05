@@ -1,4 +1,5 @@
 ---
+description: Возвращает имя компьютера, на котором работает основной сервер.
 title: 'IDebugCoreServer2:: Жетмачиненаме | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3e67d32b2f5e38627d8c28d96d6d86beb8fb415b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1fcde7bcc59f38aba5369059e1aeb31a61a0e8cd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904068"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163191"
 ---
 # <a name="idebugcoreserver2getmachinename"></a>IDebugCoreServer2::GetMachineName
 Возвращает имя компьютера, на котором работает основной сервер.

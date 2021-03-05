@@ -1,4 +1,5 @@
 ---
+description: Определяет, считается ли функция по указанному адресу отладки устаревшей.
 title: 'Идебугкомплуссимболпровидер:: Исфунктионстале | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 577ad48603c1378e8d34390f9780620ddbecb573
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d88122b5041ff6eeadbe4ed0ffb6d75331c648fe
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892857"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163685"
 ---
 # <a name="idebugcomplussymbolproviderisfunctionstale"></a>IDebugComPlusSymbolProvider::IsFunctionStale
 Определяет, считается ли функция по указанному адресу отладки устаревшей.

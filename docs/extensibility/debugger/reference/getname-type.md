@@ -1,4 +1,5 @@
 ---
+description: Указывает тип имени извлекаемых файлов.
 title: GETNAME_TYPE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 541f8b51d4ce56b167abd3ecdb28d08bec0c02c0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9811312188e63017e074d12be6dfa67ab6929aa6
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891271"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102162450"
 ---
 # <a name="getname_type"></a>GETNAME_TYPE
 Указывает тип имени извлекаемых файлов.
@@ -74,7 +75,7 @@ public enum enum_GETNAME_TYPE {
 `GN_STARTPAGEURL`\
 Возвращает начальный URL-адрес страницы для процессов.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения передаются в качестве параметров [](../../../extensibility/debugger/reference/idebugdocument2-getname.md)в методы Name [, noreturn](../../../extensibility/debugger/reference/idebugdocumentcontext2-getname.md)и [Name](../../../extensibility/debugger/reference/idebugprocess2-getname.md) , чтобы указать тип возвращаемого имени.
 
 ## <a name="requirements"></a>Требования

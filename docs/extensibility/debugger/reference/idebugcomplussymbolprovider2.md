@@ -1,4 +1,5 @@
 ---
+description: Представляет поставщик символов COM+ с методами, специфичными для управляемого кода, и расширяет Идебугкомплуссимболпровидер.
 title: IDebugComPlusSymbolProvider2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 658d7e5b8660a738616dc89be567f01c17406267
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b3a29fcc5cca12698919f0bc4af02bc3db1fe3fa
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928592"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163321"
 ---
 # <a name="idebugcomplussymbolprovider2"></a>IDebugComPlusSymbolProvider2
 Представляет поставщик символов COM+ с методами, специфичными для управляемого кода, и расширяет [Идебугкомплуссимболпровидер](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) **идебугкомплуссимболпровидер**.

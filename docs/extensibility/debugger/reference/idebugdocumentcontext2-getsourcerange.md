@@ -1,4 +1,5 @@
 ---
+description: Возвращает диапазон исходного кода этого контекста документа.
 title: 'IDebugDocumentContext2:: GetSourceRange | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 58318ebde2446a32cc515d09b7a1d848222b554b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6d02dfbd93002bedadd4c82168d498f89050ddc0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947011"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102162905"
 ---
 # <a name="idebugdocumentcontext2getsourcerange"></a>IDebugDocumentContext2::GetSourceRange
 Возвращает диапазон исходного кода этого контекста документа.
@@ -51,7 +52,7 @@ int GetSourceRange(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Исходный диапазон — это весь диапазон исходного кода от текущего оператора до предыдущего оператора, который участвовал в коде. Исходный диапазон обычно используется для смешивания инструкций источника, включая комментарии, с кодом в окне дизассемблирования.
 
  Чтобы получить диапазон только для операторов кода, содержащихся в данном контексте документа, вызовите метод [жетстатементранже](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md) .

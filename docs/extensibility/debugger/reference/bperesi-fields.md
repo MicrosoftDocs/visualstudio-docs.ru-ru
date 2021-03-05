@@ -1,4 +1,5 @@
 ---
+description: Указывает сведения, которые необходимо получить о неудачном разрешении точки останова.
 title: BPERESI_FIELDS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 287e6750ceaafc705c5d49bd5cd27201f16a692f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e26b5a7285c2e5c9135429777b4b58f35252e550
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99876099"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102162528"
 ---
 # <a name="bperesi_fields"></a>BPERESI_FIELDS
 Указывает сведения, которые необходимо получить о неудачном разрешении точки останова.
@@ -69,7 +70,7 @@ public enum enum_BPERESI_FIELDS {
 `BPERESI_ALLFIELDS`\
 Инициализация или использование всех полей `BP_ERROR_RESOLUTION_INFO` структуры.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Передается в качестве параметра в метод [жетресолутионинфо](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md) , чтобы указать, какие поля структуры [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) должны быть инициализированы.
 
 Эти значения также используются для указания того, какие поля в `BP_ERROR_RESOLUTION_INFO` структуре используются и допустимы при возврате этой структуры.
