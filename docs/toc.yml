@@ -482,7 +482,7 @@
                   href: ide/reference/wrap-indent-align-refactorings.md
             - name: Пошаговое руководство. Создание кода в результате использования
               href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
-        - name: IntelliSense
+        - name: технология IntelliSense
           items:
             - name: Использование IntelliSense
               href: ide/using-intellisense.md
@@ -1070,6 +1070,8 @@
       items:
         - name: Иерархия вызовов
           href: ide/reference/call-hierarchy.md
+        - name: Командная строка разработчика и PowerShell для разработчиков
+          href: ide/reference/command-prompt-powershell.md
         - name: Просмотреть изменения
           href: ide/preview-changes.md
         - name: Выбор элементов панели элементов — компоненты WPF
@@ -1166,7 +1168,7 @@
                       href: ide/reference/options-text-editor-basic-visual-basic.md
                     - name: Стиль кода
                       href: ide/code-styles-and-code-cleanup.md
-                    - name: IntelliSense
+                    - name: технология IntelliSense
                       href: ide/visual-basic-specific-intellisense.md
                 - name: C#
                   items:
@@ -1174,7 +1176,7 @@
                       href: ide/reference/options-text-editor-csharp-advanced.md
                     - name: Стиль кода > Форматирование
                       href: ide/reference/options-text-editor-csharp-formatting.md
-                    - name: IntelliSense
+                    - name: технология IntelliSense
                       href: ide/reference/options-text-editor-csharp-intellisense.md
                 - name: C/C++
                   items:
@@ -1194,7 +1196,7 @@
                       href: ide/reference/options-text-editor-fsharp-code-fixes.md
                     - name: CodeLens
                       href: ide/reference/options-text-editor-fsharp-codelens.md
-                    - name: IntelliSense
+                    - name: технология IntelliSense
                       href: ide/reference/options-text-editor-fsharp-intellisense.md
                 - name: HTML (веб-формы)
                   items:
@@ -1210,7 +1212,7 @@
                       href: ide/reference/options-text-editor-javascript-code-validation.md
                     - name: Форматирование
                       href: ide/reference/options-text-editor-javascript-formatting.md
-                    - name: IntelliSense
+                    - name: технология IntelliSense
                       href: ide/reference/options-text-editor-javascript-intellisense.md
                     - name: Выделение
                       href: ide/reference/options-text-editor-javascript-linting.md
@@ -1220,7 +1222,7 @@
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-usql-formatting.md
-                    - name: IntelliSense
+                    - name: технология IntelliSense
                       href: ide/reference/options-text-editor-usql-intellisense.md
                 - name: XAML
                   items:
@@ -1455,7 +1457,7 @@
               href: /visualstudio/productinfo/vs2017-compatibility-vs/
             - name: Требования к системе
               href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-        - name: Visual Studio 2019
+        - name: "Visual Studio\_2019"
           items:
             - name: Заметки о текущем выпуске
               href: /visualstudio/releases/2019/release-notes/
