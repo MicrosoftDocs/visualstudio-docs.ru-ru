@@ -1,4 +1,5 @@
 ---
+description: Извлекает файл метрики средства оценки выражений по заданному имени или метрике.
 title: 'IDebugSettingsCallback2:: Жетиметрикфиле | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ef2242d26aad4bf439a3ea33bb9d35cca1d7f8cc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5ba7f6008e6b513a99c1d8e9c21d78e99938c926
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99875865"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165791"
 ---
 # <a name="idebugsettingscallback2geteemetricfile"></a>IDebugSettingsCallback2::GetEEMetricFile
 Извлекает файл метрики средства оценки выражений по заданному имени или метрике.

@@ -1,4 +1,5 @@
 ---
+description: Получает параметры типа с учетом количества параметров.
 title: 'Идебугженерикфиелддефинитион:: Жетформалтипепарамс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: aa1401181f844be2e1fa3dfd9e45b627e2daae19
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 593e54c67e762d5ad1643f0481554fe98b5ba019
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904578"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165479"
 ---
 # <a name="idebuggenericfielddefinitiongetformaltypeparams"></a>IDebugGenericFieldDefinition::GetFormalTypeParams
 Получает параметры типа с учетом количества параметров.
@@ -55,7 +56,7 @@ int GetFormalTypeParams(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Возврат параметров типа в порядке слева направо. Например, Dictionary \<K,V> возвращает идебугформалженерикпараметерс {K, V}.
 
 ## <a name="see-also"></a>См. также раздел

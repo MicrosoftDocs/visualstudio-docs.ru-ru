@@ -1,4 +1,5 @@
 ---
+description: Извлекает список потоков, выполняемых в программе.
 title: 'IDebugProgram2:: EnumThreads | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 68e7503a504af6ccb51ff47a66c89e039ae737ec
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d25d8da572bea90af13523228c5c53795cfe4301
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861079"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164751"
 ---
 # <a name="idebugprogram2enumthreads"></a>IDebugProgram2::EnumThreads
 Извлекает список потоков, выполняемых в программе.

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс позволяет средству оценки выражений (EE) вызывать свойства или методы для экземпляров класса значений (например, System. Decimal) и устанавливать их значения без вызова функции Evaluate для отлаживаемой программы.
 title: Идебугманажедобжект | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b90540aaf5f7e409c8fc7fa44126f195230317f8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7cb90893ab39a95dd3bd8046d8ba61a32064ccf7
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929814"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165230"
 ---
 # <a name="idebugmanagedobject"></a>IDebugManagedObject
 > [!IMPORTANT]
@@ -45,7 +46,7 @@ IDebugManagedObject : IDebugObject
 |[GetManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject-getmanagedobject.md)|Возвращает интерфейс, представляющий объект управляемого кода и из которого можно получить любой соответствующий интерфейс управляемого кода.|
 |[SetFromManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject-setfrommanagedobject.md)|Присваивает этому объекту значение указанного объекта управляемого кода.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Средство оценки выражений использует этот интерфейс для хранения объекта управляемого кода в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования

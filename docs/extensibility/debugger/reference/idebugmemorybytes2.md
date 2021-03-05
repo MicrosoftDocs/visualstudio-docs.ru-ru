@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет байты памяти.
 title: IDebugMemoryBytes2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9d4ee145d900a79a48db44f95a125e87bd10f67
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f1c6f1cf03aa36a4ae6c935d1efc8970ce3ff5f7
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851248"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165089"
 ---
 # <a name="idebugmemorybytes2"></a>IDebugMemoryBytes2
 Этот интерфейс представляет байты памяти.
@@ -43,7 +44,7 @@ IDebugMemoryBytes2 : IUnknown
 |[WriteAt](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md)|Записывает `dwCount` байты, начиная с `pStartContext` .|
 |[GetSize](../../../extensibility/debugger/reference/idebugmemorybytes2-getsize.md)|Возвращает размер (в байтах) памяти, представленной этим интерфейсом.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Для свойств интерфейс [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) , представляющий массив, предоставляет `IDebugMemoryBytes2` интерфейс для доступа к значениям в этом массиве.
 
  **Представление памяти** Visual Studio вызывает [жетмеморибитес](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) для получения `IDebugMemoryBytes2` интерфейса для доступа к системной памяти. Адрес, к которому осуществляется доступ, получается путем синтаксического анализа выражения, указанного в качестве адреса в представлении памяти, и последующей оценки проанализированного выражения с помощью [евалуатесинк](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) для получения `IDebugProperty2` интерфейса. Вызов [жетмемориконтекст](../../../extensibility/debugger/reference/idebugproperty2-getmemorycontext.md) возвращает [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) , описывающий адрес памяти. Этот контекст памяти затем передается в [реадат](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md) и [вритеат](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md).

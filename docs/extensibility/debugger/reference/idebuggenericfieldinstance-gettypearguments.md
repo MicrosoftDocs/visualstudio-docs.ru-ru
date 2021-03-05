@@ -1,4 +1,5 @@
 ---
+description: Получает аргументы параметра типа для данного экземпляра.
 title: 'Идебугженерикфиелдинстанце:: GetTypeArguments | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d2294083a163d331686c485165fd51d92687dbdd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 94db729e3628037ed6e85b0cd779e4f8e3ab6055
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928371"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165427"
 ---
 # <a name="idebuggenericfieldinstancegettypearguments"></a>IDebugGenericFieldInstance::GetTypeArguments
 Получает аргументы параметра типа для данного экземпляра.

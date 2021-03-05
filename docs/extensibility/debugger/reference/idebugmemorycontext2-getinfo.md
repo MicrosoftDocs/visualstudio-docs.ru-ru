@@ -1,4 +1,5 @@
 ---
+description: Извлекает структуру CONTEXT_INFO, описывающую контекст.
 title: IDebugMemoryContext2::/info | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ec9531d05c7009bcdd0998cb44146bf3f00c2e18
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2dfcd6063988f188b307b03febaeca988c8fb025
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851196"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165050"
 ---
 # <a name="idebugmemorycontext2getinfo"></a>IDebugMemoryContext2::GetInfo
 Извлекает структуру [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) , описывающую контекст.

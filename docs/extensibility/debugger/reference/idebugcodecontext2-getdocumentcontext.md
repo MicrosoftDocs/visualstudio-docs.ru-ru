@@ -1,4 +1,5 @@
 ---
+description: Возвращает контекст документа, соответствующий данному контексту кода.
 title: 'IDebugCodeContext2:: Жетдокументконтекст | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: eaac527149d3224370f04d9dec46123b59568ac1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d99b67e76c8cc8719c77c88c8b93ca667c3a025a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928748"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164166"
 ---
 # <a name="idebugcodecontext2getdocumentcontext"></a>IDebugCodeContext2::GetDocumentContext
 Возвращает контекст документа, соответствующий данному контексту кода. Контекст документа представляет собой расположение в исходном файле, соответствующее исходному коду, вызвавшему эту инструкцию.
@@ -46,7 +47,7 @@ int GetDocumentContext(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Модуль отладки должен возвращать код сбоя, например, если `E_FAIL` в `out` `null` контексте кода нет связанной с исходным положением.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Как правило, контекст документа можно рассматривать как расположение в исходном файле, в то время как контекст кода является позицией инструкции кода в потоке выполнения.
 
 ## <a name="see-also"></a>См. также раздел

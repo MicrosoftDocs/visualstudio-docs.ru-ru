@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для классов, вложенных в этот класс.
 title: 'Идебугклассфиелд:: Енумнестедклассес | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 63b42df8181ca12da1be2aca6faf1346406b621f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 87538db39df590fd3885f545e5442c7dafecb9a1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877438"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164270"
 ---
 # <a name="idebugclassfieldenumnestedclasses"></a>IDebugClassField::EnumNestedClasses
 Создает перечислитель для классов, вложенных в этот класс.
@@ -46,7 +47,7 @@ int EnumNestedClasses(
 ## <a name="return-value"></a>Возвращаемое значение
 В случае успеха возвращает S_OK или возвращает S_FALSE, если нет вложенных классов. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Каждый элемент перечисления — это объект [идебугклассфиелд](../../../extensibility/debugger/reference/idebugclassfield.md) , описывающий вложенный класс.
 
 Вложенный класс — это класс, определенный внутри другого класса. Пример:

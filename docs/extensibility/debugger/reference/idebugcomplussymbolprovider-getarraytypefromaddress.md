@@ -1,4 +1,5 @@
 ---
+description: Извлекает сведения о типе указанного массива по его адресу отладки.
 title: 'Идебугкомплуссимболпровидер:: Жетаррайтипефромаддресс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8d7e8ce5fa6295d3a076cffe21178df0e8c9c63a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d177f49ad5f86e3b64e62dffdc7408c61d2f3d05
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892948"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102163946"
 ---
 # <a name="idebugcomplussymbolprovidergetarraytypefromaddress"></a>IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 Извлекает сведения о типе указанного массива по его адресу отладки.

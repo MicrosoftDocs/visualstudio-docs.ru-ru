@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет поток, выполняющийся в программе.
 title: IDebugThread2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a3eb4710e3073ee49aa9660aa322b4638c4c0d24
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d8b09aa546e4711b1c11623a3596ba0e385b2a14
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99901621"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164426"
 ---
 # <a name="idebugthread2"></a>IDebugThread2
 Этот интерфейс представляет поток, выполняющийся в программе.
@@ -55,7 +56,7 @@ IDebugThread2 : IUnknown
 |[GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)|Возвращает свойства, описывающие поток.|
 |[GetLogicalThread](../../../extensibility/debugger/reference/idebugthread2-getlogicalthread.md)|Возвращает логический поток, связанный с данным физическим потоком.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Поскольку один физический поток может работать в нескольких программах, несколько `IDebugThread2` из них могут представлять один и тот же физический поток.
 
  При возникновении точки останова или исключения событие отправляется путем вызова [события](../../../extensibility/debugger/reference/idebugeventcallback2-event.md). Одним из аргументов этого метода является `IDebugThread2` интерфейс, представляющий текущий поток. [Енумфрамеинфо](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) используется для получения интерфейса [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) для текущего кадра стека.

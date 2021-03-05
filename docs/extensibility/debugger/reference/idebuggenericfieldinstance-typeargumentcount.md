@@ -1,4 +1,5 @@
 ---
+description: Возвращает число аргументов параметра типа для данного экземпляра.
 title: 'Идебугженерикфиелдинстанце:: Типеаргументкаунт | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3b811780bf135a700f0ea451ef148598fe621e4f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 034c180e41a2754347dd0eea7a81cb4ae64a0c2a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928358"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165362"
 ---
 # <a name="idebuggenericfieldinstancetypeargumentcount"></a>IDebugGenericFieldInstance::TypeArgumentCount
 Возвращает число аргументов параметра типа для данного экземпляра.
@@ -45,7 +46,7 @@ int TypeArgumentCount(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Например, если List \<int> , этот метод возвращает значение 1, а если List \<int,float2> возвращает значение 2. Этот метод возвращает 0, если отсутствуют аргументы типа.
 
 ## <a name="see-also"></a>См. также раздел

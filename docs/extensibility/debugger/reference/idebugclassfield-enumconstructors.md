@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для конструкторов этого класса.
 title: 'Идебугклассфиелд:: Енумконструкторс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 05226572d7f1b708745887338c654674e71d0f5d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 62b196b2fed8a3919968c72a7785a884196a86da
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947086"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164335"
 ---
 # <a name="idebugclassfieldenumconstructors"></a>IDebugClassField::EnumConstructors
 Создает перечислитель для конструкторов этого класса.
@@ -51,7 +52,7 @@ int EnumConstructors(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK или возвращает S_FALSE, если нет конструкторов. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Каждый элемент перечисления — это объект [идебугмесодфиелд](../../../extensibility/debugger/reference/idebugmethodfield.md) , описывающий метод-конструктор.
 
  Список конструкторов обычно не включает конструкторы по умолчанию, предоставляемые компилятором.

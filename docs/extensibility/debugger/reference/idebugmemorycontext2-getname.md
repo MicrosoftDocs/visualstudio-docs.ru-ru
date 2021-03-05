@@ -1,4 +1,5 @@
 ---
+description: Возвращает отображаемое пользователем имя для этого контекста.
 title: 'IDebugMemoryContext2:: Name | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9076e9a1edbc80a1387e83078b97671c3013fe27
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9e9e513d94d0aab902d9ec06cdcc17c5afb7496a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851183"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165037"
 ---
 # <a name="idebugmemorycontext2getname"></a>IDebugMemoryContext2::GetName
 Возвращает отображаемое пользователем имя для этого контекста.
@@ -47,7 +48,7 @@ int GetName(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Имя контекста памяти обычно не используется.
 
 ## <a name="see-also"></a>См. также раздел

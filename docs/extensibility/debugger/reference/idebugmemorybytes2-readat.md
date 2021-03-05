@@ -1,4 +1,5 @@
 ---
+description: Считывает последовательность байтов, начиная с заданного расположения.
 title: 'IDebugMemoryBytes2:: Реадат | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 81a6ce40457243e5492d5c6a44dd5d9dd590920f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f408e062fad4485fb159225e0639618d303e0806
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909926"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102165167"
 ---
 # <a name="idebugmemorybytes2readat"></a>IDebugMemoryBytes2::ReadAt
 Считывает последовательность байтов, начиная с заданного расположения.
@@ -67,7 +68,7 @@ int ReadAt(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если запрашиваются 100 байт и первые 50 доступны для чтения, следующие 20 становятся нечитаемыми, а оставшиеся 30 читаются, этот метод возвращает:
 
  *`pdwRead` = 50

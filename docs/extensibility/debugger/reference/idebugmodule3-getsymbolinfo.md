@@ -1,4 +1,5 @@
 ---
+description: Извлекает список путей, в которых выполняется поиск символов, а также результаты поиска по каждому пути.
 title: 'IDebugModule3:: Жетсимболинфо | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 63803b84e3d00bddef2238a627300522a4e7c294
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d2793c9b6d9d88997ce2e4e84c147f87183555cd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929788"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164855"
 ---
 # <a name="idebugmodule3getsymbolinfo"></a>IDebugModule3::GetSymbolInfo
 Извлекает список путей, в которых выполняется поиск символов, а также результаты поиска по каждому пути.
@@ -55,7 +56,7 @@ int GetSymbolInfo(
 > [!NOTE]
 > Возвращаемая строка (в `MODULE_SYMBOL_SEARCH_INFO` структуре) может быть пустой даже при `S_OK` возвращении. В этом случае поисковые данные для возврата отсутствуют.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Если `bstrVerboseSearchInfo` поле `MODULE_SYMBOL_SEARCH_INFO` структуры не пусто, оно содержит список путей, в которых выполняется поиск, и результаты этого поиска. Список форматируется с помощью пути, за которым следует многоточие ("..."), а затем результат. Если существует несколько пар результатов пути, каждая пара отделяется парой "\r\n" (возврат каретки или перевод строки). Шаблон выглядит следующим образом:
 
 \<path>...\<result> \r\n \<path> ... \<result> \r\n \<path> ...\<result>

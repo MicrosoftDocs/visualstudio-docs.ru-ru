@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для статических локальных переменных метода.
 title: 'Идебугмесодфиелд:: Енумстатиклокалс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3af65c60654fd23f88892522142548bf5db87a70
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9c31d8644bf918b57c1d97b2ee2ddbc840a33ff1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929801"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102164985"
 ---
 # <a name="idebugmethodfieldenumstaticlocals"></a>IDebugMethodField::EnumStaticLocals
 Создает перечислитель для статических локальных переменных метода.
@@ -46,7 +47,7 @@ int EnumStaticLocals(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK или возвращает S_FALSE, если статические локальные переменные отсутствуют. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Каждый элемент является объектом [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) , представляющим различные типы статических локальных переменных. Вызовите [метод GetObject](../../../extensibility/debugger/reference/idebugfield-getkind.md) для каждого объекта, чтобы точно определить, какой тип статического локального объекта представляет объект.
 
 ## <a name="see-also"></a>См. также раздел
