@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс позволяет диспетчеру отладки сеансов (SDM) присоединяться к программе и получать узел программы, связанный с программой.
 title: IDebugProgramEx2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f206de825d021d8daa2977a839f96fabd5e9db7f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f3efe419eaf037602ce1148c898c6c30dd86d23b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898858"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149578"
 ---
 # <a name="idebugprogramex2"></a>IDebugProgramEx2
 Этот интерфейс позволяет диспетчеру отладки сеансов (SDM) присоединяться к программе и получать узел программы, связанный с программой.
@@ -42,7 +43,7 @@ IDebugProgramEx2 : IUnknown
 |[Attach](../../../extensibility/debugger/reference/idebugprogramex2-attach.md)|Присоединяет программу к сеансу.|
 |[GetProgramNode](../../../extensibility/debugger/reference/idebugprogramex2-getprogramnode.md)|Возвращает узел программы, связанный с программой.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс является частным между SDM и программой.
 
 ## <a name="requirements"></a>Требования

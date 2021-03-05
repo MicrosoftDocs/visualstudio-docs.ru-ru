@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при загрузке или выгрузке модуля.
 title: IDebugModuleLoadEvent2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0dbc1cda72aa868bc5bcf68215e4c3815f520d1d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 59b5e9e7619434b9ff4d914fc7b955ebbab4ace2
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929645"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149851"
 ---
 # <a name="idebugmoduleloadevent2"></a>IDebugModuleLoadEvent2
 Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при загрузке или выгрузке модуля.
@@ -41,7 +42,7 @@ IDebugModuleLoadEvent2 : IUnknown
 |------------|-----------------|
 |[GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2-getmodule.md)|Возвращает модуль, который загружается или выгружается.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio использует это событие для того, чтобы окно " **модули** " оставалось в актуальном состоянии.
 
 ## <a name="requirements"></a>Требования

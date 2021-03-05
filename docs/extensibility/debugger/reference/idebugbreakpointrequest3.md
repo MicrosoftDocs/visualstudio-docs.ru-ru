@@ -1,4 +1,5 @@
 ---
+description: Интерфейс IDebugBreakpointRequest3 представляет сведения, необходимые для создания и привязки любого типа точки останова.
 title: IDebugBreakpointRequest3 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d6e42111ca0c8b357a7f8841511cf935694a30b3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 628a68cf6712e6863550d85a5f876afbe1b6bdb5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893065"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150748"
 ---
 # <a name="idebugbreakpointrequest3"></a>IDebugBreakpointRequest3
 Этот интерфейс представляет сведения, необходимые для создания и привязки любого типа точки останова. Это расширение [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md).
@@ -41,7 +42,7 @@ IDebugBreakpointRequest3 : IDebugBreakpointRequest2
 |------------|-----------------|
 |[GetRequestInfo2](../../../extensibility/debugger/reference/idebugbreakpointrequest3-getrequestinfo2.md)|Получает сведения о запросе точки останова, описывающие этот запрос на точку останова.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс используется для предоставления дополнительной информации в DE-by [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) структуре. Эти дополнительные сведения включают в себя идентификатор поставщика DE (в виде идентификатора GUID), имя точки трассировки и имя ограничения точки останова.
 
 ## <a name="requirements"></a>Требования

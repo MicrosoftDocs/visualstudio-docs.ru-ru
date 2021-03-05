@@ -1,4 +1,5 @@
 ---
+description: Указывает тип поля, содержащегося в объекте Идебугфиелд.
 title: FIELD_KIND | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a18739ebe30a41e9dca837287d58db57795f878b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 519b18f9e4b0329ded9b17ec0152f36e37377df0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874373"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150865"
 ---
 # <a name="field_kind"></a>FIELD_KIND
 Указывает тип поля, содержащегося в объекте [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) .
@@ -224,7 +225,7 @@ public enum enum_FIELD_KIND {
 `FIELD_SYM_MASK`\
 Указывает маску для символьной информации.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Возвращается из вызова метода [Kind](../../../extensibility/debugger/reference/idebugfield-getkind.md) .
 
 В зависимости от типа поля [QueryInterface](/cpp/atl/queryinterface) может вызываться в интерфейсе [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) для более специфической формы интерфейса. Например, если функция [Kind](../../../extensibility/debugger/reference/idebugfield-getkind.md) возвращает `FIELD_TYPE_METHOD` , то можно вызвать метод `QueryInterface` в I, `DebugField` чтобы получить интерфейс [идебугмесодфиелд](../../../extensibility/debugger/reference/idebugmethodfield.md) .

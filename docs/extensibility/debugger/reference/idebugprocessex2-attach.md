@@ -1,4 +1,5 @@
 ---
+description: Этот метод информирует процесс о том, что сеанс теперь отлаживается процесс.
 title: 'IDebugProcessEx2:: Attach | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a9b9e2fa8f636581572b97da58fb9ddefeafd375
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1938ae8299612caabe2fe684b7b5c1af685d4596
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892545"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149747"
 ---
 # <a name="idebugprocessex2attach"></a>IDebugProcessEx2::Attach
 Этот метод информирует процесс о том, что сеанс теперь отлаживается процесс.
@@ -46,7 +47,7 @@ int Attach(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Переданный интерфейс `pSession` должен обрабатываться только как файл cookie, значение, однозначно идентифицирующее диспетчер отладки сеанса, присоединенный к этому процессу; ни один из методов предоставленного интерфейса не работает.
 
 ## <a name="see-also"></a>См. также раздел

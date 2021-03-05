@@ -1,4 +1,5 @@
 ---
+description: Представляет причины недоступности "изменить и продолжить".
 title: Енкунаваилаблереасон | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 384d71d6f88e8cd792585bb097594fa7b1e38c64
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e1f80dc1454cb1c15feddd099411bcb339dbc58c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953751"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151008"
 ---
 # <a name="encunavailablereason"></a>EncUnavailableReason
 `This is for internal use only!` Представляет причины недоступности **"изменить и продолжить"** .
@@ -74,7 +75,7 @@ public enum EncUnavailableReason {
 `ENCUN_WIN64`\
 Операции "изменить и продолжить" недоступны при обработке 64-разрядного кода Windows.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Это перечисление предназначено только для внутреннего использования [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] . Методы [жетенкаваилаблестате](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md) и [дисаблинк](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md) , реализованные пользовательским поставщиком портов, всегда должны возвращать значение `E_NOTIMPL` .
 
 ## <a name="requirements"></a>Требования

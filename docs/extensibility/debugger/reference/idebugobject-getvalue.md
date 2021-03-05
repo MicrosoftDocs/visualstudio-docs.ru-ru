@@ -1,4 +1,5 @@
 ---
+description: Возвращает значение объекта в виде последовательности байтов.
 title: 'Идебугобжект:: GetValue | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f7534a05879bdae0a885ae0cbe23d072c30132d0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 63e07ccfbcf2117363ed3e2096d5f0bb4bcac806
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846807"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150449"
 ---
 # <a name="idebugobjectgetvalue"></a>IDebugObject::GetValue
 Возвращает значение объекта в виде последовательности байтов.
@@ -51,7 +52,7 @@ int GetValue(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Возвращает общее количество байтов значений, которые можно получить, вызвав [метод GetBytes](../../../extensibility/debugger/reference/idebugobject-getsize.md) .
 
 ## <a name="see-also"></a>См. также раздел

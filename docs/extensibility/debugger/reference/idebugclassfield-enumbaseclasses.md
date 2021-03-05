@@ -1,4 +1,5 @@
 ---
+description: Создает перечислитель для базовых классов этого класса.
 title: 'Идебугклассфиелд:: Енумбасеклассес | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b8648890e030799b985a4e917be8caf85292528a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2d5ef86e5f4fea89b376404703000c8bd7e861a0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947103"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150722"
 ---
 # <a name="idebugclassfieldenumbaseclasses"></a>IDebugClassField::EnumBaseClasses
 Создает перечислитель для базовых классов этого класса.
@@ -47,7 +48,7 @@ int EnumBaseClasses(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK, возвращает S_SH_NO_BASE_CLASSES, если отсутствуют базовые классы (и `ppEnum` для параметра задано значение null); в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Базовые классы в объекте перечислителя указываются в порядке наиболее быстрого (или самого производного) базового класса до самого удаленного базового класса. Например, при наличии классов C++:
 
 ```

@@ -1,4 +1,5 @@
 ---
+description: УСТАРЕВШИЕ. Перезагружает символы для этого модуля.
 title: 'IDebugModule2:: ReloadSymbols_Deprecated | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7d4e484a1557ea99138f31fdc6f9103e6708b803
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d07f80a3dccef666c0608d79505816f73ff52013
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929761"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150527"
 ---
 # <a name="idebugmodule2reloadsymbols_deprecated"></a>IDebugModule2::ReloadSymbols_Deprecated
 УСТАРЕВШИЕ. НЕ ИСПОЛЬЗУЙТЕ. Перезагружает символы для этого модуля.
@@ -51,7 +52,7 @@ int ReloadSymbols(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Модуль отладки должен всегда возвращать значение `E_FAIL` .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод больше не поддерживается. Вместо этого реализуйте метод [лоадсимболс](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md) .
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет модуль, который поддерживает альтернативные расположения символов и состояний Жустмикоде.
 title: IDebugModule3 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fa655c03665c9eed54feabc5af679765b09ac0a6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 38ced8edcc97ad4ab8ff4db430cea57a2533cb30
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99955530"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149888"
 ---
 # <a name="idebugmodule3"></a>IDebugModule3
 Этот интерфейс представляет модуль, который поддерживает альтернативные расположения символов и состояний Жустмикоде.
@@ -44,7 +45,7 @@ IDebugModule3 : IDebugModule2
 |[IsUserCode](../../../extensibility/debugger/reference/idebugmodule3-isusercode.md)|Возвращает флаг, указывающий, представляет ли модуль пользовательский код.|
 |[SetJustMyCodeState](../../../extensibility/debugger/reference/idebugmodule3-setjustmycodestate.md)|Указывает, должен ли модуль рассматриваться как пользовательский код.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio является обычным потребителем этого интерфейса.
 
 ## <a name="requirements"></a>Требования

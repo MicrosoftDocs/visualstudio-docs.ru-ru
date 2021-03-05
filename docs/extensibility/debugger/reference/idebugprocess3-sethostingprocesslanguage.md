@@ -1,4 +1,5 @@
 ---
+description: Этот метод задает язык, в котором будет размещаться процесс.
 title: 'IDebugProcess3:: Сесостингпроцесслангуаже | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3b65d8a3171de6ac33526bafadbe04254ce58855
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8d2a95a5f8181b7b58198a8a56b7fb0037ef0bc1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926260"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150124"
 ---
 # <a name="idebugprocess3sethostingprocesslanguage"></a>IDebugProcess3::SetHostingProcessLanguage
 Этот метод задает язык, в котором будет размещаться процесс. Этот язык затем может использоваться модулем отладки (DE) для загрузки соответствующего средства оценки выражений.
@@ -46,7 +47,7 @@ int SetHostingProcessLanguage(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 - [Жесостингпроцесслангуаже](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md) можно использовать для получения текущего языкового параметра.
 
 ## <a name="see-also"></a>См. также раздел

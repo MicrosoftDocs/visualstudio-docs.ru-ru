@@ -1,4 +1,5 @@
 ---
+description: Перечисляет допустимые значения, указывающие сведения, которые необходимо получить о запросе точки останова.
 title: BPREQI_FIELDS90 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7be8d52700315dfea5619a5d4e6ca875ada0139c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5405f728cf979738de5a830421c4306c5e398bb2
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938253"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151088"
 ---
 # <a name="bpreqi_fields90"></a>BPREQI_FIELDS90
 Перечисляет допустимые значения, указывающие сведения, которые необходимо получить о запросе точки останова. Это перечисление расширяет перечисление [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) .

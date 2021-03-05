@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс позволяет средству оценки выражений (EE) отображать значение свойства в любом формате.
 title: Идебугкустомвиевер | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 17ca1bb92f5db821b1d581f1a573032fea004fb3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8d262869d24c50c543159952506a40be753b4be4
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934322"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150696"
 ---
 # <a name="idebugcustomviewer"></a>IDebugCustomViewer
 Этот интерфейс позволяет средству оценки выражений (EE) отображать значение свойства в любом формате.
@@ -41,7 +42,7 @@ EE реализует этот интерфейс для вывода значе
 |------------|-----------------|
 |[DisplayValue](../../../extensibility/debugger/reference/idebugcustomviewer-displayvalue.md)|Выполняет какие-либо необходимые для вывода заданного значения.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Этот интерфейс используется, если значение свойства не может быть отображено обычным способом, например с таблицей данных или другим типом сложного свойства. Пользовательское средство просмотра, представленное `IDebugCustomViewer` интерфейсом, отличается от визуализатора типов, который является внешней программой для отображения данных определенного типа, независимо от ee. В EE реализовано пользовательское средство просмотра, относящееся к EE. Пользователь выбирает, какой тип визуализатора использовать, является визуализатором типов или пользовательским средством просмотра. Дополнительные сведения об этом процессе см. в разделе [визуализация и просмотр данных](../../../extensibility/debugger/visualizing-and-viewing-data.md) .
 
 Пользовательское средство просмотра регистрируется так же, как EE, и поэтому требует GUID языка и GUID поставщика. Точная метрика (или имя записи в реестре) известна только для EE. Эта метрика возвращается в структуре [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) , которая, в свою очередь, возвращается вызовом [жеткустомвиеверлист](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md). Значение, хранящееся в метрике, — это объект `CLSID` , который передается в `CoCreateInstance` функцию com (см. пример).

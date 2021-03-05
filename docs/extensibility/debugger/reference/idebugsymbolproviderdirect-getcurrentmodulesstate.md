@@ -1,4 +1,5 @@
 ---
+description: Извлекает сведения о группе символов, членом которой является поставщик символов.
 title: 'Идебугсимболпровидердирект:: Жеткуррентмодулесстате | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e089973061df779ca7f4e40765625897142efbcf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fcc127bd3450f06a51ab0b04d61d52f4ee08e092
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909485"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149487"
 ---
 # <a name="idebugsymbolproviderdirectgetcurrentmodulesstate"></a>IDebugSymbolProviderDirect::GetCurrentModulesState
 Извлекает сведения о группе символов, членом которой является поставщик символов.
@@ -50,7 +51,7 @@ int GetCurrentModulesState(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Состояние изменяется всякий раз, когда модуль добавляется в группу символов или удаляется из нее. Поэтому этот метод можно использовать для обнаружения изменения группы символов.
 
 ## <a name="see-also"></a>См. также раздел

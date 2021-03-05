@@ -1,4 +1,5 @@
 ---
+description: Получает байты пользовательских атрибутов с учетом имени настраиваемого атрибута.
 title: 'IDebugCustomAttributeQuery2:: Жеткустоматтрибутебинаме | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8662e3c18f568e60ac98e5468acc3da28966505c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8c65abff050af7b7c34161cbca2594431cb119b5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842450"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150085"
 ---
 # <a name="idebugcustomattributequery2getcustomattributebyname"></a>IDebugCustomAttributeQuery2::GetCustomAttributeByName
 Получает байты пользовательских атрибутов с учетом имени настраиваемого атрибута.
@@ -56,7 +57,7 @@ int GetCustomAttributeByName(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK или возвращает значение, S_FALSE, если пользовательский атрибут не существует. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Установите `ppBlob` для параметра значение null, чтобы получить количество доступных атрибутов в байтах. Затем выделите массив и передайте этот массив в `ppBlob` параметр.
 
  Байты атрибутов представляют необработанные данные настраиваемого атрибута.

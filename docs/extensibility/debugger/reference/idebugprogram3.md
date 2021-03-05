@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет программу, выполняемую в процессе, и расширяет Execute, предоставляя сведения о потоке.
 title: IDebugProgram3 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d22a58021a744cc71b8df3acb8e577d853aa2829
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1c16184a017e5e97f81afbab5d4d2579796e4217
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99889997"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149604"
 ---
 # <a name="idebugprogram3"></a>IDebugProgram3
 Этот интерфейс представляет программу, выполняемую в процессе, и расширяет [EXECUTE](../../../extensibility/debugger/reference/idebugprogram2-execute.md) , предоставляя сведения о потоке.
@@ -46,7 +47,7 @@ IDebugProgram3 : IDebugProgram3
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Программа — это контейнер потоков, выполняющийся в определенной архитектуре среды выполнения, в то время как процесс состоит из одной или нескольких программ.
 
 ## <a name="see-also"></a>См. также раздел

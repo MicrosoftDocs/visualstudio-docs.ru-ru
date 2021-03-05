@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс позволяет диспетчеру отладки сеансов (SDM) уведомлять процесс, который присоединяется к процессу или отсоединяется от него.
 title: IDebugProcessEx2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9e8966be5c30bf2061fc1e03be6798279afbe8ac
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e91e61c2fc125829d3c9dacf942635021b8e3886
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99900178"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149721"
 ---
 # <a name="idebugprocessex2"></a>IDebugProcessEx2
 Этот интерфейс позволяет диспетчеру отладки сеансов (SDM) уведомлять процесс, который присоединяется к процессу или отсоединяется от него.
@@ -50,7 +51,7 @@ IDebugProcessEx2 : IUnknown
 |[Отсоединить](../../../extensibility/debugger/reference/idebugprocessex2-detach.md)|Информирует процесс о том, что сеанс больше не находится в процессе отладки.|
 |[AddImplicitProgramNodes](../../../extensibility/debugger/reference/idebugprocessex2-addimplicitprogramnodes.md)|Добавляет узлы программы для списка модулей отладки.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс является частным между SDM и процессом.
 
 ## <a name="requirements"></a>Требования

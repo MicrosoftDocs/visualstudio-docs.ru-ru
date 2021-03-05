@@ -1,4 +1,5 @@
 ---
+description: Перечисляет допустимые значения, представляющие типы данных, которые необходимо взять из объекта Идебугфиелд и отобразить пользователю.
 title: Дисплайкинд | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 62421ad9bf03c3b8eb21539f2f53fd8a632498ff
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5632c6844a38f1891070311fe3c7c65a0220def5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953777"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151028"
 ---
 # <a name="displaykind"></a>DisplayKind
 Перечисляет допустимые значения, представляющие типы данных, которые необходимо взять из объекта [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) и отобразить пользователю.

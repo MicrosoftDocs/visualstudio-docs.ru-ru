@@ -1,4 +1,5 @@
 ---
+description: Структура, идентифицирующая пользовательское средство просмотра или визуализатор типов.
 title: DEBUG_CUSTOM_VIEWER | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6fa8e8d9e07510a10b1b32534f3323dab4c84a22
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 46133d2b2800977b0819835f578b04569c4f5ce8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899101"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102151061"
 ---
 # <a name="debug_custom_viewer"></a>DEBUG_CUSTOM_VIEWER
 Структура, идентифицирующая пользовательское средство просмотра или визуализатор типов.
@@ -68,7 +69,7 @@ public struct DEBUG_CUSTOM_VIEWER {
 `bstrMetric`\
 Метрика, в которой хранится пользовательское средство просмотра или визуализатор типов `CLSID` .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Список этой структуры возвращается путем вызова метода [жеткустомвиеверлист](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) (и, по расширению, метода [жеткустомвиеверлист](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md) ).
 
 ## <a name="requirements"></a>Требования

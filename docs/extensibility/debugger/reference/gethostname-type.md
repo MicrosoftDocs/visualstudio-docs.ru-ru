@@ -1,4 +1,5 @@
 ---
+description: Указывает тип имени узла.
 title: GETHOSTNAME_TYPE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 13fdcea11aa579109f74f4404d0985aed4d0aa99
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3354bdbceeac796e2761bb83a5d860ca8a716315
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99894937"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150787"
 ---
 # <a name="gethostname_type"></a>GETHOSTNAME_TYPE
 Указывает тип имени узла.
@@ -49,7 +50,7 @@ public enum enum_GETHOSTNAME_TYPE {
 `GHN_FILE_NAME`\
 Указывает имя файла узла.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения передаются в качестве аргумента [в метод метода](../../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md) , чтобы получить имя узла в различных форматах.
 
 ## <a name="requirements"></a>Требования

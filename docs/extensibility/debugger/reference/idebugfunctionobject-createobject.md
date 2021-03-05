@@ -1,4 +1,5 @@
 ---
+description: Создает объект с помощью конструктора.
 title: 'Идебугфунктионобжект:: CreateObject | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e6085e974f58346eba7b38e76e5588b34fc3ff2c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8870910e01f2afa5bff6eac461d6e80f35e6a7e0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929995"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150046"
 ---
 # <a name="idebugfunctionobjectcreateobject"></a>IDebugFunctionObject::CreateObject
 Создает объект с помощью конструктора.
@@ -61,7 +62,7 @@ int CreateObject(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Вызовите этот метод, чтобы создать объект, представляющий экземпляр класса (или другого сложного типа, которому требуется конструктор), который является параметром функции, представленной интерфейсом [идебугфунктионобжект](../../../extensibility/debugger/reference/idebugfunctionobject.md) .
 
  Если параметру объекта не требуется конструктор, вызовите метод [креатеобжектноконструктор](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md) .

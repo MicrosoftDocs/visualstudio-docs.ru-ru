@@ -1,4 +1,5 @@
 ---
+description: Представляет поставщик символов, который имеет прямой доступ к метаданным и основным интерфейсам символов.
 title: Идебугсимболпровидердирект | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 29f0e7e3d2fefe0f47dc971ebff273bf2745a5ef
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0d60af5be925341e5421badb4c3e6e3dae97903b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909425"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149318"
 ---
 # <a name="idebugsymbolproviderdirect"></a>IDebugSymbolProviderDirect
 Представляет поставщик символов, который имеет прямой доступ к метаданным и основным интерфейсам символов.
@@ -38,7 +39,7 @@ IDebugSymbolProviderDirect: IUnknown
 |[GetMethodFromAddress](../../../extensibility/debugger/reference/idebugsymbolproviderdirect-getmethodfromaddress.md)|Извлекает сведения о методе по указанному адресу отладки.|
 |[GetSymUnmanagedReader](../../../extensibility/debugger/reference/idebugsymbolproviderdirect-getsymunmanagedreader.md)|Извлекает средство чтения символов для неуправляемого кода.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс можно использовать вместо большинства других интерфейсов поставщика символов. Он предоставляет прямой доступ к метаданным и `CorSym` интерфейсам.
 
 ## <a name="requirements"></a>Требования

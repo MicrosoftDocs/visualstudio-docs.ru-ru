@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс позволяет вызывающему объекту определить, может ли поставщик порта сохранять порты (путем записи их на диск) между вызовами отладчика, а затем получать список сохраненных портов.
 title: IDebugPortSupplier3 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d45d8d93f26ef01fb184811a87b4f4fcc4483340
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8db7c2321d5a309f66b85a3f177e20cb3f9b1244
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840240"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150397"
 ---
 # <a name="idebugportsupplier3"></a>IDebugPortSupplier3
 Этот интерфейс позволяет вызывающему объекту определить, может ли поставщик порта сохранять порты (путем записи их на диск) между вызовами отладчика, а затем получать список сохраненных портов.
@@ -42,7 +43,7 @@ IDebugPortSupplier3 : IDebugPortSupplier2
 |[CanPersistPorts](../../../extensibility/debugger/reference/idebugportsupplier3-canpersistports.md)|Возвращает значение, указывающее, может ли поставщик порта сохранять порты (путем записи на диск) между вызовами отладчика.|
 |[EnumPersistedPorts](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md)|Возвращает объект, который можно использовать для перечисления всех портов, записанных на диск этим поставщиком портов.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если поставщик порта может сохранять порты между вызовами, он должен реализовать этот интерфейс. Порты должны быть загружены при создании экземпляра поставщика порта и записаны на диск при уничтожении поставщика порта.
 
  Модуль отладки обычно не взаимодействует с поставщиком порта и не будет использовать его для этого интерфейса.

@@ -1,4 +1,5 @@
 ---
+description: Возобновляет выполнение этого процесса из остановленного состояния. Все предыдущие состояния выполнения (например, шаг) очищаются, и процесс начинает выполняться снова.
 title: 'IDebugProcess3:: Execute | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f4a697a4677b6bedef376e602c4327dff66ead53
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 149497bcee5c37813e9d1134237ddb991d5893da
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915414"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150254"
 ---
 # <a name="idebugprocess3execute"></a>IDebugProcess3::Execute
 Возобновляет выполнение этого процесса из остановленного состояния. Все предыдущие состояния выполнения (например, шаг) очищаются, и процесс начинает выполняться снова.
@@ -49,7 +50,7 @@ int Execute(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Когда пользователь запускает выполнение из остановленного состояния в потоке другого процесса, этот метод вызывается в этом процессе. Этот метод также вызывается, когда пользователь выбирает команду **запуска** из меню **Отладка** в интегрированной среде разработки. Реализация этого метода может быть такой же простой, как вызов метода [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md) в текущем потоке процесса.
 
 > [!WARNING]

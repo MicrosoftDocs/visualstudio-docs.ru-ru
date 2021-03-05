@@ -1,4 +1,5 @@
 ---
+description: Получает сведения об этом модуле.
 title: IDebugModule2::/info | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 205a32c0c7c6bb10b8b0a58e62f5d6ba5cdca91f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a31c6e40f18e3b405449179e3e5a3ea1a42acc6f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941704"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150567"
 ---
 # <a name="idebugmodule2getinfo"></a>IDebugModule2::GetInfo
 Получает сведения об этом модуле.
@@ -52,7 +53,7 @@ int GetInfo(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Структура [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) содержит имя модуля, отображаемого в окне **модули** .
 
 ## <a name="see-also"></a>См. также раздел

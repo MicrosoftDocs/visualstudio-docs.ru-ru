@@ -1,4 +1,5 @@
 ---
+description: Извлекает массив всех объектов System. Threading. Tasks. TaskScheduler, которые активны в данный момент.
 title: Метод Жеттасксчедулерсфордебугжер | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b9826681d2d322b1b240abb4062de007b564619
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f60ffa851e8b8821e3d07e1bfdd6e864104b5001
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921273"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150098"
 ---
 # <a name="gettaskschedulersfordebugger-method"></a>Метод GetTaskSchedulersForDebugger
 Извлекает массив всех <xref:System.Threading.Tasks.TaskScheduler> объектов, которые активны в данный момент.
@@ -35,7 +36,7 @@ ms.locfileid: "99921273"
 ## <a name="return-value"></a>Возвращаемое значение
  Массив всех <xref:System.Threading.Tasks.TaskScheduler> объектов, которые в настоящее время активны в данный момент <xref:System.AppDomain> .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод не является потокобезопасным, и его нельзя использовать параллельно с другими экземплярами <xref:System.Threading.Tasks.TaskScheduler> . Вызывайте этот метод из отладчика только в том случае, если отладчик приостановил все остальные потоки.
 
 ## <a name="see-also"></a>См. также раздел

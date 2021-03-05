@@ -1,4 +1,5 @@
 ---
+description: Заставляет процесс выполнить шаг 1 инструкции или инструкции.
 title: 'IDebugProcess3:: шаг | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 69f7c1736f786b2c59678826b71f7f9349629057
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b85df970c073fa2203873733073c5b6b85cabe06
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926253"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150137"
 ---
 # <a name="idebugprocess3step"></a>IDebugProcess3::Step
 Заставляет процесс выполнить шаг 1 инструкции или инструкции.
@@ -59,7 +60,7 @@ int Step(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если существует какая-либо синхронизация потоков или обмен данными между потоками, другие потоки в процессе будут выполняться, когда конкретный поток пошаговым выполнением.
 
  **Предупреждение об ошибке** Не отправляйте событие остановки или мгновенное (синхронное) событие в [событие](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) при обработке этого вызова; в противном случае отладчик может перестать отвечать на запросы.

@@ -1,4 +1,5 @@
 ---
+description: Извлекает сведения о модулях в группе символов.
 title: 'Идебугсимболпровидердирект:: Жеткуррентмодулесинфо | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: dabc19c8d748b869621ae05d53cdf5c551a6a74c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7e4dca03595f4b52ed5842b4901bdd37e1ce2c37
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909526"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149513"
 ---
 # <a name="idebugsymbolproviderdirectgetcurrentmodulesinfo"></a>IDebugSymbolProviderDirect::GetCurrentModulesInfo
 Извлекает сведения о модулях в группе символов.

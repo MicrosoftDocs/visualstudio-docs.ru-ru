@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет процесс, выполняемый в порте.
 title: IDebugProcess2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fd644a728f049cf8b94f22ef961464b8bfcb5816
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 131eacba321bac70c75b77faf33b18aae0135e55
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891076"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150267"
 ---
 # <a name="idebugprocess2"></a>IDebugProcess2
 Этот интерфейс представляет процесс, выполняемый в порте. Если порт является локальным портом, `IDebugProcess2` обычно он представляет физический процесс на локальном компьютере.
@@ -58,7 +59,7 @@ IDebugProcess2 : IUnknown
 |[CauseBreak](../../../extensibility/debugger/reference/idebugprocess2-causebreak.md)|Запрашивает, что следующая программа, выполняющая код в этом процессе, останавливается.|
 |[GetPort](../../../extensibility/debugger/reference/idebugprocess2-getport.md)|Возвращает порт, на котором выполняется этот процесс.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `IDebugProcess2`Содержит один или несколько интерфейсов [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) .
 
 ## <a name="requirements"></a>Требования

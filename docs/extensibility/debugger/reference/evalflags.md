@@ -1,4 +1,5 @@
 ---
+description: Задает флаги, управляющие вычислением выражений.
 title: ЕВАЛФЛАГС | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 073dac8de37edddc1b748c52258047cd2d85e218
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 531d155104475b84d881358711a6aa3f1d0bf2ce
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937079"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150943"
 ---
 # <a name="evalflags"></a>EVALFLAGS
 Задает флаги, управляющие вычислением выражений.
@@ -74,7 +75,7 @@ public enum enum_EVALFLAGS {
 `EVAL_NOEVENTS`\
 Флаг, указывающий, что события, происходящие во время оценки выражения, не должны отправляться в Диспетчер отладки сеанса (SDM) или в интегрированную среду разработки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти флаги передаются в качестве аргумента методам [евалуатеасинк](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) и [евалуатесинк](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) .
 
 Эти флаги можно сочетать с помощью побитового или.

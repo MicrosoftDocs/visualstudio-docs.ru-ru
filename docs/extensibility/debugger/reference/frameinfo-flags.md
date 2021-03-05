@@ -1,4 +1,5 @@
 ---
+description: Задает сведения, которые необходимо получить об объекте кадра стека.
 title: FRAMEINFO_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9dcdb555e4355d6f22c8218f98899c01b3b3e2e0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4029212aae6d4557e17c42a0c0e024a83c94b0a1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904782"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102150826"
 ---
 # <a name="frameinfo_flags"></a>FRAMEINFO_FLAGS
 Задает сведения, которые необходимо получить об объекте кадра стека.
@@ -194,7 +195,7 @@ public enum enum_FRAMEINFO_FLAGS {
 `FIF_DESIGN_TIME_EXPR_EVAL`\
 Сведения о кадре должны быть предоставлены из размещенного домена приложения, а не ведущего процесса.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти флаги передаются [методам](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) [енумфрамеинфо](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) и Pass для указания полей, которые должны быть инициализированы в структуре или структурах [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) .
 
 Эти флаги также используются для указания того, какие поля структуры [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) используются и допустимы при возврате структуры. Эти значения можно объединить с помощью побитовой операции `OR` .

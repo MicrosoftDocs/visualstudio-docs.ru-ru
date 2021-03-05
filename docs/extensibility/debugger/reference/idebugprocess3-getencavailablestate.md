@@ -1,4 +1,5 @@
 ---
+description: Этот метод возвращает текущее состояние изменения и продолжения процесса.
 title: 'IDebugProcess3:: Жетенкаваилаблестате | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: dce751223c4513733c5cd9ce815155b7f659b54a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 13ad3bc88ab1e9f10dc87db7d7124adc993b168c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915273"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149784"
 ---
 # <a name="idebugprocess3getencavailablestate"></a>IDebugProcess3::GetENCAvailableState
 Этот метод возвращает текущее состояние изменения и продолжения процесса. Пользовательский поставщик порта всегда должен возвращать значение `E_NOTIMPL` .
@@ -49,7 +50,7 @@ int GetENCAvailableState(
 > [!NOTE]
 > Пользовательский поставщик порта всегда должен возвращать значение `E_NOTIMPL` .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  На это состояние может повлиять [дисаблинк](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md).
 
 ## <a name="see-also"></a>См. также раздел
