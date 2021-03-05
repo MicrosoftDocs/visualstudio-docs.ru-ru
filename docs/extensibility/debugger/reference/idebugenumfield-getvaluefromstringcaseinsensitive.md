@@ -1,4 +1,5 @@
 ---
+description: Этот метод использует поиск с учетом регистра для возврата значения, связанного с именем константы перечисления.
 title: 'Идебуженумфиелд:: Жетвалуефромстрингкасеинсенситиве | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c0eb781cd9e7a9073a45418c3793dc6ba026ec45
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f853598c5d3c9b293c806e1db475c5053a1a208e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99933353"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153226"
 ---
 # <a name="idebugenumfieldgetvaluefromstringcaseinsensitive"></a>IDebugEnumField::GetValueFromStringCaseInsensitive
 Этот метод использует поиск с учетом регистра для возврата значения, связанного с именем константы перечисления.
@@ -51,7 +52,7 @@ int GetValueFromStringCaseInsensitive(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает значение `S_OK` ; в противном случае возвращает значение `S_FALSE` , если имя не является частью перечисления, или код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод не учитывает регистр. Если требуется поиск с учетом регистра (например, на языке C++, где в именах учитывается регистр), используйте [жетвалуефромстринг](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md).
 
 ## <a name="see-also"></a>См. также раздел

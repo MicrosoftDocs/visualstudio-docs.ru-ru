@@ -1,4 +1,5 @@
 ---
+description: Этот метод возвращает значение, связанное с именем константы перечисления.
 title: 'Идебуженумфиелд:: Жетвалуефромстринг | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 77cce7a6780c816fbee0ade1c795cb1174e3e7f0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6a4ab2950667ba9268335f2e0dbca1c0ce5183bc
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99933457"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102153304"
 ---
 # <a name="idebugenumfieldgetvaluefromstring"></a>IDebugEnumField::GetValueFromString
 Этот метод возвращает значение, связанное с именем константы перечисления.
@@ -51,7 +52,7 @@ int GetValueFromString(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает значение `S_OK` ; в противном случае возвращает значение `S_FALSE` , если имя не является частью перечисления, или код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод учитывает регистр. Если требуется поиск без учета регистра (например, на языке, например Visual Basic, где имена не чувствительны к регистру), используйте [жетвалуефромстрингкасеинсенситиве](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstringcaseinsensitive.md).
 
 ## <a name="see-also"></a>См. также раздел
