@@ -1,4 +1,5 @@
 ---
+description: Задает тип ссылки.
 title: 'IDebugReference2:: Сетреференцетипе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f33ae0203dfb3f3e6a6af67b925add8948720638
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 59b1b94cd6fec5cbb9fb7d5040df0299432b2c17
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963670"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168915"
 ---
 # <a name="idebugreference2setreferencetype"></a>IDebugReference2::SetReferenceType
 Задает тип ссылки. Зарезервировано для будущего использования.

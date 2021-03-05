@@ -1,4 +1,5 @@
 ---
+description: Задает значение ссылки из строки.
 title: 'IDebugReference2:: Сетвалуеасстринг | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b0a2e481df64aeb4d5193ed011dc9f5cc669799b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 50ed4a30680b00a950653c10e807b49bf0b12a4d
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99956557"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168954"
 ---
 # <a name="idebugreference2setvalueasstring"></a>IDebugReference2::SetValueAsString
 Задает значение ссылки из строки. Зарезервировано для будущего использования.

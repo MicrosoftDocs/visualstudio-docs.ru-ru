@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет точку останова, готовую к привязке к расположению кода.
 title: IDebugPendingBreakpoint2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b6798d940bb186e6d685f22282e641eb2e690e48
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 05e66a0066abca5fb657960f2042b738a10e59ca
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877412"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169734"
 ---
 # <a name="idebugpendingbreakpoint2"></a>IDebugPendingBreakpoint2
 Этот интерфейс представляет точку останова, готовую к привязке к расположению кода.
@@ -51,7 +52,7 @@ IDebugPendingBreakpoint2 : IUnknown
 |[EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)|Перечисляет все точки останова, которые привели к возникновению этой ожидающей точки останова.|
 |[Удаление](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-delete.md)|Удаляет данную отложенную точку останова и все точки останова, привязанные к ней.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `IDebugPendingBreakpoint2` можно рассматривать как поставщик всех необходимых сведений, необходимых для привязки точки останова к коду, который может быть применен к одной или нескольким программам.
 
  Ожидающая точка останова может привести к созданию более чем одной привязанной точки останова. Например, точка останова в шаблоне в стиле C++ может создать привязанную точку останова для каждого уникального экземпляра этого шаблона.

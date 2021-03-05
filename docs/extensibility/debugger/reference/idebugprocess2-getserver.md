@@ -1,4 +1,5 @@
 ---
+description: Возвращает сервер, на котором выполняется этот процесс.
 title: 'IDebugProcess2:: Server | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f3e8a1553d374f7eaddaace3e3a2ad4a0c882b20
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fba7af19093d853d227241187242a24bf9bd8cdb
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890075"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169201"
 ---
 # <a name="idebugprocess2getserver"></a>IDebugProcess2::GetServer
 Возвращает сервер, на котором выполняется этот процесс.
@@ -46,7 +47,7 @@ int GetServer(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  На одном компьютере может быть запущена более чем один сервер.
 
 ## <a name="see-also"></a>См. также раздел

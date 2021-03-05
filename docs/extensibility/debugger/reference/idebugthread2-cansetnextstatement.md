@@ -1,4 +1,5 @@
 ---
+description: Определяет, можно ли задать текущий указатель инструкции для данного кадра стека.
 title: 'IDebugThread2:: Кансетнекстстатемент | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6ce1d04303edb34de98ead8d416221e7f71338ac
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4b07eb23127abedc4e41af2795c3452401c3e670
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909279"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168391"
 ---
 # <a name="idebugthread2cansetnextstatement"></a>IDebugThread2::CanSetNextStatement
 Определяет, можно ли задать текущий указатель инструкции для данного кадра стека.
@@ -51,7 +52,7 @@ int CanSetNextStatement (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если этот метод возвращает `S_OK` , вызовите метод [сетнекстстатемент](../../../extensibility/debugger/reference/idebugthread2-setnextstatement.md) для фактической установки следующего оператора.
 
 ## <a name="see-also"></a>См. также раздел

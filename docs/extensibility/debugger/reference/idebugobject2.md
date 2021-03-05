@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет дополнительные сведения об объекте.
 title: IDebugObject2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: be1ef047e01baaffe66e38503f0f7979fea74829
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6eaa31be631de64339ece62f392f3d0b795b9d46
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953374"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170007"
 ---
 # <a name="idebugobject2"></a>IDebugObject2
 > [!IMPORTANT]
@@ -50,7 +51,7 @@ IDebugObject2 : IDebugObject
 |[IsUserData](../../../extensibility/debugger/reference/idebugobject2-isuserdata.md)|Определяет, представляет ли этот объект данные пользователя.|
 |[IsEncOutdated](../../../extensibility/debugger/reference/idebugobject2-isencoutdated.md)|Определяет, является ли состояние "Изменить" и "продолжить" более допустимым.<br /><br /> Пользовательский оценщик выражений не реализует этот метод (он должен всегда возвращать `E_NOTIMPL` ).|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  См. раздел [идебугалиас](../../../extensibility/debugger/reference/idebugalias.md) для обсуждения псевдонимов.
 
 ## <a name="requirements"></a>Требования

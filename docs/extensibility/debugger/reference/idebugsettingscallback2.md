@@ -1,4 +1,5 @@
 ---
+description: Включает модули отладки для удаленного считывания параметров метрик.
 title: IDebugSettingsCallback2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 696f5eb00781c8f46ef099db1000b36a972a95dc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7053c45ba86f4bea54befc3bde67d831cc9c822e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99875813"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168664"
 ---
 # <a name="idebugsettingscallback2"></a>IDebugSettingsCallback2
 Включает модули отладки для удаленного считывания параметров метрик.

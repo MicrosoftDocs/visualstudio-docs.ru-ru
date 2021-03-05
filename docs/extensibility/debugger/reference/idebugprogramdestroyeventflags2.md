@@ -1,4 +1,5 @@
 ---
+description: Позволяет подсистеме отладки переопределять поведение по умолчанию пользовательского интерфейса Visual Studio при завершении сеанса отладки.
 title: IDebugProgramDestroyEventFlags2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bd43b93f8a74e0e1fcb12ac9be4da47142a79519
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 02b2d934c2a556d3556d494368145e52a8c97394
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848225"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168196"
 ---
 # <a name="idebugprogramdestroyeventflags2"></a>IDebugProgramDestroyEventFlags2
 Позволяет подсистеме отладки переопределять поведение пользовательского интерфейса по умолчанию [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] при завершении сеанса отладки.
@@ -36,7 +37,7 @@ IDebugProgramDestroyEventFlags2 : IUnknown
 |------------|-----------------|
 |[GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md)|Получает флаги удаления программы.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Поведение пользовательского интерфейса по умолчанию [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] — вернуться в режим конструктора после того, как все программы отправили событие уничтожения программы. Этот интерфейс позволяет механизму отладки изменить это поведение.
 
 ## <a name="requirements"></a>Требования

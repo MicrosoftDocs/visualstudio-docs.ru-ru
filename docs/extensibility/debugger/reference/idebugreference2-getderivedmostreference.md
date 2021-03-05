@@ -1,4 +1,5 @@
 ---
+description: Возвращает производную ссылку на ссылку.
 title: 'IDebugReference2:: Жетдериведмостреференце | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ac8321bc571264d050f5f3559e840c3d169096d7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1517b1be34b62defcd5f19792baa2ac6c343b85b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909687"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168980"
 ---
 # <a name="idebugreference2getderivedmostreference"></a>IDebugReference2::GetDerivedMostReference
 Возвращает производную ссылку на ссылку. Зарезервировано для будущего использования.
@@ -46,7 +47,7 @@ int GetDerivedMostReference(
 ## <a name="return-value"></a>Возвращаемое значение
  Всегда возвращает значение `E_NOTIMPL`.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Например, если это свойство описывает объект, реализующий, `ClassRoot` но который на самом деле является экземпляром, `ClassDerived` производным от `ClassRoot` , то этот метод возвращает объект [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) , представляющий ссылку на `ClassDerived` объект.
 
 ## <a name="see-also"></a>См. также раздел

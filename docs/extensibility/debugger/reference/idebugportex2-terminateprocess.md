@@ -1,4 +1,5 @@
 ---
+description: 'IDebugPortEx2:: Терминатепроцесс завершает процесс.'
 title: 'IDebugPortEx2:: Терминатепроцесс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 47bf93f9c52625c44835873298f5f5c348c2dd27
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 071df0949e067d67a78b198454cf8f5ca94c7bb8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929502"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169422"
 ---
 # <a name="idebugportex2terminateprocess"></a>IDebugPortEx2::TerminateProcess
 Завершает процесс.

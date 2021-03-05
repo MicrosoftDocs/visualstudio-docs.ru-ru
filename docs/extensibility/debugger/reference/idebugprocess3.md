@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет выполняющийся процесс и его программы.
 title: IDebugProcess3 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6199c959a7186a1c10d6efdc30bb0763941c347a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a2303dfef18a1abccc728d80def0de25b4e7eadd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926124"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169188"
 ---
 # <a name="idebugprocess3"></a>IDebugProcess3
 Этот интерфейс представляет выполняющийся процесс и его программы. Этот интерфейс существует в качестве замены для нескольких методов в интерфейсе [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) . Он обеспечивает управление всеми программами в процессе.

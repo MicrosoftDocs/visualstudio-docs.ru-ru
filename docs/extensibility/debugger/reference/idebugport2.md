@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет порт отладки на компьютере.
 title: IDebugPort2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d50266e792d58be3824e5c14e4936f3af381f0fc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f78db8ba9a29b40d111dc5a82827395b100302b5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861144"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169487"
 ---
 # <a name="idebugport2"></a>IDebugPort2
 Этот интерфейс представляет порт отладки на компьютере.
@@ -48,7 +49,7 @@ IDebugPort2 : IUnknown
 |[GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)|Возвращает интерфейс для процесса с учетом идентификатора процесса.|
 |[EnumProcesses](../../../extensibility/debugger/reference/idebugport2-enumprocesses.md)|Перечисляет все процессы, запущенные в порте.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Локальный порт предоставляет доступ ко всем процессам и программам, выполняемым на локальном компьютере. Другие порты могут представлять подключение последовательного кабеля к устройству на основе Windows CE или сетевое подключение к компьютеру, не являющемуся DCOM. `IDebugPort2`Интерфейс используется для поиска имени и идентификатора порта, а также для перечисления всех процессов, запущенных в порте. Средства для запуска и завершения процессов в порте реализуются в `IDebugPortEx2` интерфейсе.
 
 ## <a name="requirements"></a>Требования

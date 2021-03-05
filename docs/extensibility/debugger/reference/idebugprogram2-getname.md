@@ -1,4 +1,5 @@
 ---
+description: 'IDebugProgram2:: Name возвращает имя программы.'
 title: 'IDebugProgram2:: Name | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8f51d294372d233edc8b35f7fccc562e5a650e9f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f46aaf8dc7ca56f76e67668522d28ff5e59294d8
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906196"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169045"
 ---
 # <a name="idebugprogram2getname"></a>IDebugProgram2::GetName
 Возвращает имя программы.
@@ -46,7 +47,7 @@ int GetName(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Имя, возвращаемое этим методом, всегда представляет собой понятное, воспроизводимое пользователем имя, описывающее программу.
 
 ## <a name="see-also"></a>См. также раздел

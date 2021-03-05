@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет проанализированное выражение, готовое для оценки.
 title: Идебугпарседекспрессион | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 573c1528d37bd41d364430d610a31f4dfe89e4f4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bf978f6d2775c720cfff528ceb8a557fd96ae00a
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953231"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169942"
 ---
 # <a name="idebugparsedexpression"></a>IDebugParsedExpression
 > [!IMPORTANT]
@@ -44,7 +45,7 @@ IDebugParsedExpression : IUnknown
 |------------|-----------------|
 |[EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)|Вычисляет проанализированное выражение.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Когда вызывающий объект готов к вычислению выражения, он вызывает [евалуатесинк](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) , чтобы вернуть [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) , содержащий результат вычисления. Этот подход к вычислению и анализу, который затем вычисляется, позволяет вычислять проанализированное выражение несколько раз, обходя трудоемкий процесс синтаксического анализа выражения.
 
 ## <a name="requirements"></a>Требования

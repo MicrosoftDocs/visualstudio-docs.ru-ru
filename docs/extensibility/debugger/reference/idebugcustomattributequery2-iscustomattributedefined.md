@@ -1,4 +1,5 @@
 ---
+description: Определяет, существует ли настраиваемый атрибут по имени.
 title: 'IDebugCustomAttributeQuery2:: Искустоматтрибутедефинед | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 808c2f57d0fdf8f5f629b21d3c02507eecd49bd6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c25a0357a1b0b8768f02fd7eb903c30943964445
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842424"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168300"
 ---
 # <a name="idebugcustomattributequery2iscustomattributedefined"></a>IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 Определяет, существует ли настраиваемый атрибут по имени.
@@ -46,7 +47,7 @@ int IsCustomAttributeDefined(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает S_OK, если для этого поля определен настраиваемый атрибут, в противном случае возвращает значение S_FALSE.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Чтобы получить байты атрибутов, связанные с пользовательским атрибутом, вызовите метод [жеткустоматтрибутебинаме](../../../extensibility/debugger/reference/idebugcustomattributequery2-getcustomattributebyname.md) .
 
 ## <a name="see-also"></a>См. также раздел

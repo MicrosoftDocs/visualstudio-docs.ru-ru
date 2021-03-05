@@ -1,4 +1,5 @@
 ---
+description: Возвращает имя порта.
 title: 'IDebugPort2:: Жетпортнаме | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 43c37ee56ccd90799d099f25e73f2ea9a72aa23d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 43a6ee26c457688a65fa6df486db8839e506f6f0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99907904"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169500"
 ---
 # <a name="idebugport2getportname"></a>IDebugPort2::GetPortName
 Возвращает имя порта.

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс уведомляет прослушиватель (как правило, диспетчер отладки сеанса [SDM] или модуль отладки) о создании и уничтожении процессов и программ на определенном порте.
 title: IDebugPortEvents2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba68608e09405265940686bbb235a41c53959943
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 50dadee6ac2e1d1a441796aac7ca49614b84bcdf
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891193"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169474"
 ---
 # <a name="idebugportevents2"></a>IDebugPortEvents2
 Этот интерфейс уведомляет прослушиватель (как правило, диспетчер отладки сеанса [SDM] или модуль отладки) о создании и уничтожении процессов и программ на определенном порте. Эти сведения можно использовать для представления процессов и программ, выполняемых на порту в режиме реального времени.
@@ -41,7 +42,7 @@ IDebugPortEvents2 : IUnknown
 |------------|-----------------|
 |[Событие](../../../extensibility/debugger/reference/idebugportevents2-event.md)|Отправляет события, описывающие создание и уничтожение процессов и программ в порте.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `IDebugPortEvents2` также используется SDM для отладки программ, выполняемых в процессе, который уже отлаживается.
 
  События порта передаются в SDM с помощью этого интерфейса.

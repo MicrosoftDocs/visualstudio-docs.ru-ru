@@ -1,4 +1,5 @@
 ---
+description: Извлекает уникальный идентификатор метрики по ее имени.
 title: 'IDebugSettingsCallback2:: Жетметрикгуид | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c9c71ed9ee8d8a8be4931b17127fb1c1ade13252
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 504a47de04fde7aa0c630bf17e0a1c4ac24723ce
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99875839"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168677"
 ---
 # <a name="idebugsettingscallback2getmetricguid"></a>IDebugSettingsCallback2::GetMetricGuid
 Извлекает уникальный идентификатор метрики по ее имени.

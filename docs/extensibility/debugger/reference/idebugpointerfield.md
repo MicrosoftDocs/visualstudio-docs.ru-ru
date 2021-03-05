@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет тип указателя.
 title: Идебугпоинтерфиелд | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9904f02183da73df496e858fa8a81e5290a8950c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 86b2b1902532a3ab827d8e8d65ebc285973ff0bd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877399"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169721"
 ---
 # <a name="idebugpointerfield"></a>IDebugPointerField
 Этот интерфейс представляет тип указателя.
@@ -41,7 +42,7 @@ IDebugPointerField : IDebugContainerField
 |------------|-----------------|
 |[GetDereferencedField](../../../extensibility/debugger/reference/idebugpointerfield-getdereferencedfield.md)|Возвращает [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) , описывающий цель указателя.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  В C/C++ указатель может быть контейнером, если он используется с нотацией массива. Например, `char *pString` `pString` имеет тип указателя на `char` . `pString[3]` имеет тип контейнера, который является указателем на `char` , ссылающийся на четвертый элемент этого контейнера.
 
 ## <a name="requirements"></a>Требования

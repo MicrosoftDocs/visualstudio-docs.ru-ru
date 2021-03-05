@@ -1,4 +1,5 @@
 ---
+description: Задает значение, на которое указывает последовательность последовательных байтов.
 title: 'Идебугпоинтеробжект:: SetBytes | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 57f1a077923a174ece5323256ad474dda3ec685f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 31feb63e4f9d246161ced3483f487b2877ee5e1e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952282"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169669"
 ---
 # <a name="idebugpointerobjectsetbytes"></a>IDebugPointerObject::SetBytes
 Задает значение, на которое указывает последовательность последовательных байтов.
@@ -61,7 +62,7 @@ int SetBytes(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод используется, если указатель, представленный этим [идебугпоинтеробжект](../../../extensibility/debugger/reference/idebugpointerobject.md) , указывает на примитивный тип или простой массив типов-примитивов (то есть массив, который может быть представлен простой последовательностью байтов). Этот `IDebugPointerObject` объект не может быть пустой ссылкой (он должен указывать на адрес в памяти).
 
 ## <a name="see-also"></a>См. также раздел

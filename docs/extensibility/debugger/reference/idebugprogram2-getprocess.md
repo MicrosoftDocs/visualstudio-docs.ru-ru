@@ -1,4 +1,5 @@
 ---
+description: Получите процесс, в котором выполняется эта программа.
 title: 'IDebugProgram2:: выполнить процесс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9cd3b6e76a7e675a2228217d9a72c1d004de919c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 233bd9bbb41f64b375e899dba9c0be9a9fba3d97
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891011"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168993"
 ---
 # <a name="idebugprogram2getprocess"></a>IDebugProgram2::GetProcess
 Получите процесс, в котором выполняется эта программа.
@@ -46,7 +47,7 @@ int GetProcess(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если модуль отладки (DE) не реализует интерфейс [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md) , реализация этого метода de всегда должна возвращаться, `E_NOTIMPL` поскольку de не может определить, какой процесс выполняется в и, следовательно, не может удовлетворить реализацию этого метода.
 
  Реализация `IDebugEngineLaunch2` интерфейса означает, что de должен уметь создавать процесс, поэтому реализация интерфейса [IDEBUGPROGRAM2](../../../extensibility/debugger/reference/idebugprogram2.md) в de может определить процесс, в котором он выполняется.

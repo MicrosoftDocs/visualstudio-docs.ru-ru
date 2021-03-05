@@ -1,4 +1,5 @@
 ---
+description: Этот метод возвращает язык, который использовался для компиляции кода по адресу отладки.
 title: 'Идебугсимболпровидер:: отличный язык | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 120434e44819d4c503336dffeaa1c255626270d5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 86387e86261a91b77793e9a31ae4b415983e2c5c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880233"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168560"
 ---
 # <a name="idebugsymbolprovidergetlanguage"></a>IDebugSymbolProvider::GetLanguage
 Этот метод возвращает язык, который использовался для компиляции кода по адресу отладки.
@@ -56,7 +57,7 @@ int GetLanguage(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Обработчик отладки вызывает этот метод для получения сведений, необходимых для выбора правильного средства оценки выражений.
 
 ## <a name="see-also"></a>См. также раздел

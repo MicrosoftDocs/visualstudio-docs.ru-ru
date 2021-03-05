@@ -1,4 +1,5 @@
 ---
+description: Возвращает структуру DEBUG_REFERENCE_INFO, описывающую ссылку.
 title: 'IDebugReference2:: Жетреференцеинфо | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ca23c5acd5f32d79cb76f2059b6a39066197150f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ef953ccde844ac7a2fb5289affaf381f56af8719
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896042"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168928"
 ---
 # <a name="idebugreference2getreferenceinfo"></a>IDebugReference2::GetReferenceInfo
 Возвращает структуру [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) , описывающую ссылку. Зарезервировано для будущего использования.

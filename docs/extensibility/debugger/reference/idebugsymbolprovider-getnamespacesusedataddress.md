@@ -1,4 +1,5 @@
 ---
+description: Этот метод создает перечислитель для пространств имен, связанных с адресом отладки.
 title: 'Идебугсимболпровидер:: Жетнамеспацесуседатаддресс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a259f813d2bfbcb8ec92b039d44af74e431752ec
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d5c7339007f0768620eee3fe6f3dafdc7d4ab84e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880220"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168508"
 ---
 # <a name="idebugsymbolprovidergetnamespacesusedataddress"></a>IDebugSymbolProvider::GetNamespacesUsedAtAddress
 Этот метод создает перечислитель для пространств имен, связанных с адресом отладки.
@@ -51,7 +52,7 @@ int GetNamespacesUsedAtAddress(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  С указанным адресом отладки может быть связано несколько пространств имен, например вложенные пространства имен или несколько `using` инструкций.
 
 ## <a name="see-also"></a>См. также раздел

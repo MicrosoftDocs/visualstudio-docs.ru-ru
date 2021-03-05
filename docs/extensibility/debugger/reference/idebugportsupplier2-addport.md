@@ -1,4 +1,5 @@
 ---
+description: Добавляет порт.
 title: 'IDebugPortSupplier2:: Аддпорт | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9e126612ed8b081e5ba0b703d14399ac74d78a9a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 14232ac49b3862c635a41c25e79c7ab166fa24ef
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906307"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169240"
 ---
 # <a name="idebugportsupplier2addport"></a>IDebugPortSupplier2::AddPort
 Добавляет порт.
@@ -51,7 +52,7 @@ int AddPort(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод фактически создает запрошенный порт, а также добавляет его в внутренний список активных портов поставщика порта. Сначала можно вызвать метод [канаддпорт](../../../extensibility/debugger/reference/idebugportsupplier2-canaddport.md) , чтобы избежать возможных длительных задержек.
 
 ## <a name="see-also"></a>См. также раздел

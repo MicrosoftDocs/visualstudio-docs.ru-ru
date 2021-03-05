@@ -1,4 +1,5 @@
 ---
+description: Возвращает описание процесса.
 title: IDebugProcess2::/info | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: cf4b8d933729c95eaffa3a0caa44961bb5c87baa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a6e6b8e0c14cee960d1991ae4f5a482f66e89465
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99894924"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102169214"
 ---
 # <a name="idebugprocess2getinfo"></a>IDebugProcess2::GetInfo
 Возвращает описание процесса.

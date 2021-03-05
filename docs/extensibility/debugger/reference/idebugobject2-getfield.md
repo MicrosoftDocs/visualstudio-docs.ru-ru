@@ -1,4 +1,5 @@
 ---
+description: Возвращает тип этого объекта.
 title: 'IDebugObject2:: "поле" | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 54f692fa85cfd8fa290a7f5c697a91e0366f8224
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6a35974f637583663b82c3f0af726a7dd7a54345
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953465"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102170072"
 ---
 # <a name="idebugobject2getfield"></a>IDebugObject2::GetField
 Возвращает тип этого объекта.
@@ -46,7 +47,7 @@ int GetField(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Поле, описывающее тип объекта.
 
 ## <a name="see-also"></a>См. также раздел
