@@ -1,4 +1,5 @@
 ---
+description: Отсоединяет отладчик от этого процесса, отключая все программы в процессе.
 title: IDebugProcess2::D етач | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6418a7f628eef4e00ea0555c07122555eb6d600c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5775ee9ffc3fa3c4151df999b64ba1160da6f7c3
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874091"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166285"
 ---
 # <a name="idebugprocess2detach"></a>IDebugProcess2::Detach
 Отсоединяет отладчик от этого процесса, отключая все программы в процессе.
@@ -40,7 +41,7 @@ int Detach();
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Все программы и процесс продолжают выполняться, но больше не являются частью сеанса отладки. После завершения операции отсоединения больше не будут отправляться события отладки для этого процесса (и его программ).
 
 ## <a name="see-also"></a>См. также раздел

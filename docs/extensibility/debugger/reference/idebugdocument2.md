@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет исходный документ.
 title: IDebugDocument2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e611f6a4daf878042640697dca862015285078d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 96bf5821cb463b8a99f7376cb99b81ab8cae2206
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884875"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167351"
 ---
 # <a name="idebugdocument2"></a>IDebugDocument2
 Этот интерфейс представляет исходный документ.
@@ -42,7 +43,7 @@ IDebugDocument2 : IUnknown
 |[GetName](../../../extensibility/debugger/reference/idebugdocument2-getname.md)|Возвращает имя документа в одной из нескольких форм.|
 |[GetDocumentClassID](../../../extensibility/debugger/reference/idebugdocument2-getdocumentclassid.md)|Возвращает идентификатор класса документа.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс реализуется только в том случае, если параметр DE предоставляет исходный код. Например, при отладке скрипта на HTML-странице Программа DE предоставляет исходный код, поскольку источник загружается или создается динамически и не существует в качестве файла на диске. При отладке традиционных языков, таких как C++, этот интерфейс не требуется реализовывать.
 
 ## <a name="requirements"></a>Требования

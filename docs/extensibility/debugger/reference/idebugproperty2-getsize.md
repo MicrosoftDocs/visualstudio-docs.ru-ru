@@ -1,4 +1,5 @@
 ---
+description: Возвращает размер значения свойства в байтах.
 title: 'IDebugProperty2:: DataSize | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: af31a88859f2afba735e0696124076eb82068404
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fd6342efd1d9bcb2d2ac063438ee741df3c61325
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850911"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166818"
 ---
 # <a name="idebugproperty2getsize"></a>IDebugProperty2::GetSize
 Возвращает размер значения свойства в байтах.

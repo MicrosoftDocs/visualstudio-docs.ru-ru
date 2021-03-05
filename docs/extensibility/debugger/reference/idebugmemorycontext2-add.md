@@ -1,4 +1,5 @@
 ---
+description: Добавляет указанное значение в текущий контекст и возвращает новый контекст.
 title: 'IDebugMemoryContext2:: Add | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4ddba5665ead15bb623193412bafa7d6eaa8aa16
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 59daddd38daff2f04f12bc0d1be4e06ec90cf723
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851222"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166428"
 ---
 # <a name="idebugmemorycontext2add"></a>IDebugMemoryContext2::Add
 Добавляет указанное значение в текущий контекст и возвращает новый контекст.
@@ -52,7 +53,7 @@ int Add(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Контекст памяти — это адрес, поэтому при добавлении значения в адрес создается новый адрес, для которого требуется новый интерфейс контекста.
 
  Этот метод всегда должен создавать новый контекст, даже если полученный адрес находится вне области памяти, связанной с этим контекстом. Единственным исключением является то, что память не может быть выделена для нового контекста или если `ppMemCxt` является значением NULL (это ошибка).

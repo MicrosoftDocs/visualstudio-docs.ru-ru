@@ -1,4 +1,5 @@
 ---
+description: Идебугпроцесссекурити реализуется поставщиком порта для предупреждения пользователя о том, что присоединение к процессу является ненадежным.
 title: Идебугпроцесссекурити | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,12 +11,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7c6807ff64d8acf44551fa12fcb79199d3817373
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b5e2ca72cc3d9c1d204c6fb1f90ccc9b03060cff
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99933028"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166103"
 ---
 # <a name="idebugprocesssecurity"></a>IDebugProcessSecurity
 `IDebugProcessSecurity` реализуется поставщиком порта для предупреждения пользователя о том, что присоединение к процессу является ненадежным.
@@ -34,7 +35,7 @@ IDebugProcessSecurity : IUnknown
 |[GetUserName](../../../extensibility/debugger/reference/idebugprocesssecurity-getusername.md)|Возвращает имя пользователя от поставщика порта.|
 |[QueryCanSafelyAttach](../../../extensibility/debugger/reference/idebugprocesssecurity-querycansafelyattach.md)|Предупреждает пользователя о том, что присоединение к процессу отладки является ненадежным.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Реализуйте этот интерфейс, чтобы отобразить предупреждение и разрешить пользователю отменять, если процесс, к которому выполняется присоединение, может считаться небезопасным.
 
 ## <a name="requirements"></a>Требования

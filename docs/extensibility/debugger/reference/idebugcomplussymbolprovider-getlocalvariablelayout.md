@@ -1,4 +1,5 @@
 ---
+description: Извлекает макет локальных переменных для набора методов.
 title: 'Идебугкомплуссимболпровидер:: Жетлокалвариаблелайаут | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c0671715dd0532e268c6cc59abfafd62ff7686e6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 70b8a8e2e038d8aa60b594b18587c974d863ab89
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911978"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167442"
 ---
 # <a name="idebugcomplussymbolprovidergetlocalvariablelayout"></a>IDebugComPlusSymbolProvider::GetLocalVariablelayout
 Извлекает макет локальных переменных для набора методов.

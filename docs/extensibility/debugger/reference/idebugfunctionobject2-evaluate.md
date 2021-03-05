@@ -1,4 +1,5 @@
 ---
+description: 'IDebugFunctionObject2:: Evaluate вызывает функцию и возвращает результирующее значение в виде объекта.'
 title: 'IDebugFunctionObject2:: Evaluate | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6b7d69434a6bd6aefb073a252ee35c07fccbee6c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 777553e1889e751cf84f6e4c58691e0c5f446648
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99920964"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166467"
 ---
 # <a name="idebugfunctionobject2evaluate"></a>IDebugFunctionObject2::Evaluate
 Вызывает функцию и возвращает результирующее значение в виде объекта.

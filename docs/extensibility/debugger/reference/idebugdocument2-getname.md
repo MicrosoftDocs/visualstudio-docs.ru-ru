@@ -1,4 +1,5 @@
 ---
+description: Возвращает имя документа в одной из нескольких форм.
 title: 'IDebugDocument2:: Name | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0609ef6d3cfea28f955815f5e7137d3e62d3e6af
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1b68fb60cb13d88941b21f6625e6cc0e38ceeda4
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880805"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166545"
 ---
 # <a name="idebugdocument2getname"></a>IDebugDocument2::GetName
 Возвращает имя документа в одной из нескольких форм.
@@ -51,7 +52,7 @@ int GetName(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод может, например, возвращать имя документа в виде заголовка или имя файла или даже часть имени файла.
 
 ## <a name="see-also"></a>См. также раздел

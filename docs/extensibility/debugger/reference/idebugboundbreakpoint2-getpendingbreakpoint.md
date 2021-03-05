@@ -1,4 +1,5 @@
 ---
+description: Возвращает ожидающую точку останова, из которой была создана указанная связанная точка останова.
 title: 'IDebugBoundBreakpoint2:: Жетпендингбреакпоинт | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -16,12 +17,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 717081905d55a4df50601bbbfc7336265cef60d5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 18b6ab7f9c520511d2abe57e3864e71bc7534b4c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927162"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167585"
 ---
 # <a name="idebugboundbreakpoint2getpendingbreakpoint"></a>IDebugBoundBreakpoint2::GetPendingBreakpoint
 Возвращает ожидающую точку останова, из которой была создана указанная связанная точка останова.
@@ -47,7 +48,7 @@ int GetPendingBreakpoint(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Отложенная точка останова может рассматриваться как коллекция всех необходимых сведений, необходимых для привязки точки останова к коду, который может быть применен к одной или нескольким программам.
 
 ## <a name="example"></a>Пример

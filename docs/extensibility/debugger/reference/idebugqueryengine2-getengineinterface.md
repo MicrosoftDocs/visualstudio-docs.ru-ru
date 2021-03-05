@@ -1,4 +1,5 @@
 ---
+description: Возвращает интерфейс пользовательского модуля отладки (DE).
 title: 'IDebugQueryEngine2:: Жетенгинеинтерфаце | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ab1d9be5e4405cea3bb75d7837d4ff3ad9a91e9c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cbf727de01c8cbf34d645aff4e0a64aeb476ebbd
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909783"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167845"
 ---
 # <a name="idebugqueryengine2getengineinterface"></a>IDebugQueryEngine2::GetEngineInterface
 Возвращает интерфейс пользовательского модуля отладки (DE).
@@ -46,7 +47,7 @@ int GetEngineInterface(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Полученный интерфейс следует использовать с осторожностью, поскольку вызов через интерфейсы, полученные из этого метода, обходит обработку диспетчера отладки сеанса и может привести к неправильному состоянию SDM или формированию ошибок во время отладки.
 
 ## <a name="see-also"></a>См. также раздел

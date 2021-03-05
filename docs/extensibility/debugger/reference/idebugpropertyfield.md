@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет функции, позволяющие получить и установить свойство.
 title: Идебугпропертифиелд | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 303ff1820d0213766ec5ad186ce7b9a3483c0bfa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 097d73485773052afa1e9852293211084a225099
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909850"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167910"
 ---
 # <a name="idebugpropertyfield"></a>IDebugPropertyField
 Этот интерфейс предоставляет функции, позволяющие получить и установить свойство.
@@ -42,7 +43,7 @@ IDebugPropertyField : IDebugContainerField
 |[GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertygetter.md)|Возвращает метод, который получает свойство.|
 |[GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)|Возвращает метод, который задает свойство.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Свойство является концепцией управляемого кода и представляет метод, который обрабатывается как переменная. Свойства не существуют в неуправляемом коде C++.
 
 ## <a name="requirements"></a>Требования

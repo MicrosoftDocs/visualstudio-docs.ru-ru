@@ -1,4 +1,5 @@
 ---
+description: Возвращает список пользовательских средств просмотра, связанных с этим свойством.
 title: 'IDebugProperty3:: Жеткустомвиеверлист | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bdabe777bf2147dee2b98ca552183ae0e14d16f1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e772987a6e27dbe72a927dd83f8d33d043408fd0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888216"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166674"
 ---
 # <a name="idebugproperty3getcustomviewerlist"></a>IDebugProperty3::GetCustomViewerList
 Возвращает список пользовательских средств просмотра, связанных с этим свойством.
@@ -61,7 +62,7 @@ int GetCustomViewerList(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Для поддержки визуализаторов типов этот метод пересылает вызов методу [жеткустомвиеверлист](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md) . Если средство оценки выражений также поддерживает пользовательские средства просмотра для типа этого свойства, этот метод может добавлять к списку соответствующие пользовательские средства просмотра.
 
 Дополнительные сведения о различиях между визуализаторами типов и пользовательскими средствами просмотра см. в разделе [Визуализатор типов и пользовательское средство](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md) .

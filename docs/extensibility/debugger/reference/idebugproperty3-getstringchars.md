@@ -1,4 +1,5 @@
 ---
+description: Извлекает строку, связанную с этим свойством, и сохраняет ее в предоставляемом пользователем буфере.
 title: 'IDebugProperty3:: Жетстрингчарс | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8b188b386dea7279530e186073847e26915af63d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d3b220fa02809015d1fa699c5e9eb5edac8cf2f3
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897293"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166688"
 ---
 # <a name="idebugproperty3getstringchars"></a>IDebugProperty3::GetStringChars
 Извлекает строку, связанную с этим свойством, и сохраняет ее в предоставляемом пользователем буфере.
@@ -58,7 +59,7 @@ int GetStringChars(
 ## <a name="return-value"></a>Возвращаемое значение
 В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 В C++ необходимо соблюдать осторожность, чтобы убедиться в том, что буфер имеет длину не менее `buflen` Юникода символов. Обратите внимание, что символ Юникода имеет длину 2 байта.
 
 > [!NOTE]

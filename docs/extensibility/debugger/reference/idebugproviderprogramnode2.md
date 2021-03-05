@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс маршалирует интерфейсы, связанные с программой, между границами процессов.
 title: IDebugProviderProgramNode2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e11472c2c883705c36ab71a37b1af10eb1cb5b10
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a615c076fd34d7bc230efb0f36683b7167b66566
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909819"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167858"
 ---
 # <a name="idebugproviderprogramnode2"></a>IDebugProviderProgramNode2
 Этот интерфейс маршалирует интерфейсы, связанные с программой, между границами процессов.
@@ -41,7 +42,7 @@ IDebugProviderProgramNode2 : IUnknown
 |------------|-----------------|
 |[UnmarshalDebuggeeInterface](../../../extensibility/debugger/reference/idebugproviderprogramnode2-unmarshaldebuggeeinterface.md)|Возвращает указанный интерфейс между границами процесса.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс реализуется, когда DE выполняется в отдельном пространстве процесса из отлаживаемой программы: например, когда DE выполняется в пространстве процесса Visual Studio, а не в пространстве процесса отлаживаемой программы.
 
 ## <a name="requirements"></a>Требования

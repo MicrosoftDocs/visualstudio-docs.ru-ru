@@ -1,4 +1,5 @@
 ---
+description: Возвращает ссылку на значение свойства.
 title: 'IDebugProperty2:: IsReference | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 270a8cc755318578f680e4266ca01e35dee20bb9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c103e8826266ddbaaa5b96f4a9aa32067893e45f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850898"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166791"
 ---
 # <a name="idebugproperty2getreference"></a>IDebugProperty2::GetReference
 Возвращает ссылку на значение свойства.

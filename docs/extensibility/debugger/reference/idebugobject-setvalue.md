@@ -1,4 +1,5 @@
 ---
+description: Задает значение объекта из последовательности байтов.
 title: 'Идебугобжект:: SetValue | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c282e5682cb01da56407cbbcb91a69984ded85de
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 972281335b964679f38693182e42c4e64074dffa
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953595"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167156"
 ---
 # <a name="idebugobjectsetvalue"></a>IDebugObject::SetValue
 Задает значение объекта из последовательности байтов.
@@ -51,7 +52,7 @@ int SetValue(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Значения в массиве копируются в этот объект [идебугобжект](../../../extensibility/debugger/reference/idebugobject.md) , заменяя любое существующее значение. Размер нового значения может быть больше или меньше существующего значения. Это `IDebugObject` не может быть пустой ссылкой.
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Присоединяется к программе.
 title: 'IDebugProgram2:: Attach | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f42aa8ff646a62f7314887df4b38c648e2d84b31
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d9b06d217f5edec0e913a6c07e57f6bee27f30ea
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99931452"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166064"
 ---
 # <a name="idebugprogram2attach"></a>IDebugProgram2::Attach
 Присоединяется к программе.
@@ -52,7 +53,7 @@ int Attach(
 |`E_ATTACH_DEBUGGEE_PROCESS_SECURITY_VIOLATION`|Во время процедуры подключения возникло нарушение безопасности.|
 |`E_ATTACH_CANNOT_ATTACH_TO_DESKTOP`|Невозможно присоединить к отладчику программу для настольных систем.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Модуль отладки (DE) никогда не вызывает этот метод для присоединения к программе. Если в адресном пространстве программы выполняется DE, вызывается метод [onattach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) . Если выполняется DE в адресном пространстве диспетчера отладки сеансов (SDM), вызывается метод [attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) .
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Этот метод извлекает исключение, связанное с объектом, если таковой имеется.
 title: 'IDebugBinder3:: Жетексцептионобжектандтипе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ee86b12b16cc76b8e2c06ede5ec0110322b515ca
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5ec511cc6145c890c4f62a76563c51aa7c667977
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891232"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167637"
 ---
 # <a name="idebugbinder3getexceptionobjectandtype"></a>IDebugBinder3::GetExceptionObjectAndType
 Этот метод извлекает исключение, связанное с объектом, если таковой имеется.

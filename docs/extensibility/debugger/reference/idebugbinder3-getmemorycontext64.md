@@ -1,4 +1,5 @@
 ---
+description: Преобразует расположение объекта или адрес 64-разрядной памяти в контекст памяти.
 title: 'IDebugBinder3:: GetMemoryContext64 | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 01d3112ad928ee2d7853e8e0fb003c577a23f4c0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8652b5a71cf301b3c76d1b8bd6f29a3fa984fa1b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883822"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167598"
 ---
 # <a name="idebugbinder3getmemorycontext64"></a>IDebugBinder3::GetMemoryContext64
 Преобразует расположение объекта или адрес 64-разрядной памяти в контекст памяти.

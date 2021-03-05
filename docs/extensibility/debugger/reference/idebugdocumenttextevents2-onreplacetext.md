@@ -1,4 +1,5 @@
 ---
+description: Уведомляет пакет отладки, что текст был заменен в документе.
 title: 'IDebugDocumentTextEvents2:: Онреплацетекст | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 407bdffbe3a9fd60699692e2c2977159a3724bc9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 14b90f0ca28447e9e987767026165b0ff615f88c
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99919953"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167273"
 ---
 # <a name="idebugdocumenttextevents2onreplacetext"></a>IDebugDocumentTextEvents2::onReplaceText
 Уведомляет пакет отладки, что текст был заменен в документе.

@@ -1,4 +1,5 @@
 ---
+description: Возвращает структуру DEBUG_PROPERTY_INFO, описывающую свойство.
 title: 'IDebugProperty2:: GetPropertyInfo | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bcaa016e51b98c165a3c3b0a4872d5def6224819
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: deb8dbe5b055f42f21c087dcb2cc7a14e16858f9
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850885"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166780"
 ---
 # <a name="idebugproperty2getpropertyinfo"></a>IDebugProperty2::GetPropertyInfo
 Возвращает структуру [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) , описывающую свойство.

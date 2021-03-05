@@ -1,4 +1,5 @@
 ---
+description: Этот метод находит псевдоним по заданному имени.
 title: 'IDebugBinder3:: Финдалиас | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1bac818844b69018bb9dc6a970a5659513dbe50d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: db4d5cad6d0c2990141e0dd3a824425b8b53145b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925085"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167728"
 ---
 # <a name="idebugbinder3findalias"></a>IDebugBinder3::FindAlias
 Этот метод находит псевдоним по заданному имени. При этом будут искаться все псевдонимы в программе.
@@ -51,7 +52,7 @@ int FindAlias(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает значение `S_FALSE` (если псевдоним не найден) или код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод инициализирует целевой объект до значения null перед вызовом метода; После этого проверяется наличие значения NULL, чтобы определить, был ли найден псевдоним.
 
 ## <a name="see-also"></a>См. также раздел

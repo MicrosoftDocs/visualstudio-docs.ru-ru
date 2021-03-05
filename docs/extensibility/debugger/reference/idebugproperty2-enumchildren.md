@@ -1,4 +1,5 @@
 ---
+description: Извлекает список дочерних элементов свойства.
 title: 'IDebugProperty2:: Енумчилдрен | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 68880945d7534985e1788ae3b1f1e3755f79eeda
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7c9cade8cb0468c78ba03e2beec682d7c2284be0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99916168"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166961"
 ---
 # <a name="idebugproperty2enumchildren"></a>IDebugProperty2::EnumChildren
 Извлекает список дочерних элементов свойства.

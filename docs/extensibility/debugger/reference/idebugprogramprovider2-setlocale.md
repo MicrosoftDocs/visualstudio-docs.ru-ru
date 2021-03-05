@@ -1,4 +1,5 @@
 ---
+description: Устанавливает языковой стандарт, используемый для всех ресурсов, зависящих от языкового стандарта.
 title: 'IDebugProgramProvider2:: SetLocale | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0a298ac5e99176294be8afe9dbba1f00bdea0a82
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f23a6cc5b2724e925efcb9b7f4d6f272fc808121
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959692"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102167013"
 ---
 # <a name="idebugprogramprovider2setlocale"></a>IDebugProgramProvider2::SetLocale
 Устанавливает языковой стандарт, используемый для всех ресурсов, зависящих от языкового стандарта.

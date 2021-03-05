@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс является интерфейсом расширения, реализованным разработчиками IDebugProcess2.
 title: Идебугпроцесскуерипропертиес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ae588724f19f9722244ce69f77b64fad07552f9c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8205b96723a1b48da46e6e19162c50139c9fe71d
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938178"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166220"
 ---
 # <a name="idebugprocessqueryproperties"></a>IDebugProcessQueryProperties
 Этот интерфейс является интерфейсом расширения, реализованным разработчиками [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) . Он позволяет разработчику получить сведения о среде процесса отладки.
@@ -40,7 +41,7 @@ IDebugProcessQueryProperties: IUnknown
 |[QueryProperty](../../../extensibility/debugger/reference/idebugprocessqueryproperties-queryproperty.md)|Запрашивает значение свойства.|
 |[QueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties-queryproperties.md)|Запросы значений свойств.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс реализован редко.
 
 ## <a name="requirements"></a>Требования

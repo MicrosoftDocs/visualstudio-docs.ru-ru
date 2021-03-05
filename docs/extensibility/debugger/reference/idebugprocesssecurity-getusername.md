@@ -1,4 +1,5 @@
 ---
+description: Возвращает имя пользователя от поставщика порта.
 title: 'Идебугпроцесссекурити:: имя_пользователя | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -13,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 075cc96866a2b7b4a987c04c6cb78dcd22da2b50
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 04ad8bf6ba572a1f9e14e26ef2ca37d021f6e3a0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912029"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166207"
 ---
 # <a name="idebugprocesssecuritygetusername"></a>IDebugProcessSecurity::GetUserName
 Возвращает имя пользователя от поставщика порта.
@@ -44,7 +45,7 @@ int GetUserName (
 ## <a name="return-value"></a>Возвращаемое значение
  Если метод завершается успешно, возвращает значение `S_OK`. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `GetUserName` Возвращает имя пользователя, отображаемое в столбце **имя пользователя** диалогового окна **Присоединение к процессу** . Чтобы открыть диалоговое окно **Присоединение к процессу** , щелкните **присоединить к процессу** в меню **Сервис** в [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE).
 
 ## <a name="see-also"></a>См. также раздел

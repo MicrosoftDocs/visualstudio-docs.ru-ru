@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс описывает метод.
 title: Идебугмесодфиелд | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 95f79062c4ca2452d6ed271660841fccb8adfca3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 05a90252241dd51e1c567847891cf681c88d8fba
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941818"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166311"
 ---
 # <a name="idebugmethodfield"></a>IDebugMethodField
 Этот интерфейс описывает метод.
@@ -48,7 +49,7 @@ IDebugMethodField : IDebugContainerField
 |[GetGlobalContainer](../../../extensibility/debugger/reference/idebugmethodfield-getglobalcontainer.md)|Возвращает глобальный контейнер метода.|
 |[EnumArguments](../../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md)|Создает перечислитель для типа каждого аргумента, необходимого для вызова метода.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Метод может содержать параметры, а также локальные переменные.
 
 ## <a name="requirements"></a>Требования

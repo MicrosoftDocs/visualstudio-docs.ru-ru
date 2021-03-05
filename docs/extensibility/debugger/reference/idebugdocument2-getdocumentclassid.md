@@ -1,4 +1,5 @@
 ---
+description: Возвращает идентификатор класса документа.
 title: 'IDebugDocument2:: Жетдокументклассид | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8c635afa758a4f025305b88f1e11c48737a146a3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 36a95914f470d0ce095db0c0db8d1397b02be3cf
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99944606"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102166558"
 ---
 # <a name="idebugdocument2getdocumentclassid"></a>IDebugDocument2::GetDocumentClassID
 Возвращает идентификатор класса документа.
@@ -45,7 +46,7 @@ int GetDocumentClassID(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Идентификатор GUID класса можно использовать для создания экземпляров отдельных классов, каждый из которых представляет документ.
 
 ## <a name="see-also"></a>См. также раздел
