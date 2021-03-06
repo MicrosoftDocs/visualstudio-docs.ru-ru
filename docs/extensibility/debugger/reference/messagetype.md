@@ -1,4 +1,5 @@
 ---
+description: Указывает тип и причину сообщения.
 title: MESSAGETYPE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9735c394e0b88dbe7ea3a5113026d4012839b8fd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dd7b10217313be30dd795a8ff108c3c30e214490
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961993"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222436"
 ---
 # <a name="messagetype"></a>MESSAGETYPE
 Указывает тип и причину сообщения.
@@ -69,7 +70,7 @@ public enum enum_MESSAGETYPE {
  `MT_REASON_MASK`\
  Значение маски, которое позволяет изолировать причину отображения сообщения.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эти значения возвращаются методами [жетеррормессаже](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md) [и.](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)
 
  Одно из значений причины можно объединить с одним из значений назначения выходных данных с помощью побитовой операции `OR` .

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет возможность изменения значения объекта с помощью визуализатора типов.
 title: Иивисуализердатапровидер | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 726ae6c0f56f177a6baa6f463e843378fdc0acea
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9c2bea2a99b259ac255a4244501ee246fd83e8b5
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890829"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222891"
 ---
 # <a name="ieevisualizerdataprovider"></a>IEEVisualizerDataProvider
 > [!IMPORTANT]
@@ -49,7 +50,7 @@ IEEVisualizerDataProvider : IUnknown
 |[GetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-getobjectforvisualizer.md)|Возвращает существующий объект для этого визуализатора (вычисление не выполняется).|
 |[SetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-setobjectforvisualizer.md)|Обновляет объект для этого визуализатора, тем самым изменяя значение, представленное визуализатором.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Служба визуализатора (представленная интерфейсом [иивисуализерсервице](../../../extensibility/debugger/reference/ieevisualizerservice.md) и возвращаемая методом [креатевисуализерсервице](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md)) сохраняет ссылку на объект, реализующий `IEEVisualizerDataProvider` интерфейс. В результате `IEEVisualizerDataProvider` интерфейс не должен быть реализован на том же объекте, который реализует [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) , если этот объект поддерживает ссылку на `IEEVisualizerService` объект: результаты циклической ссылки и взаимоблокировка возникает при уничтожении объектов. Рекомендуемым подходом является реализация `IEEVisualizerDataProvider` на отдельном объекте, к которому `IDebugProperty2` объект делегируется без вызова `IUnknown::AddRef` .
 
 ## <a name="requirements"></a>Требования

@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет коллекцию объектов, реализующих интерфейс Идебугобжект.
 title: Иенумдебугобжектс | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7b86d632d35063aa31e6be9e11adb266e5e36fa6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: eece06d64a4eeefefe4e132295f20e40a032434b
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99957079"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224633"
 ---
 # <a name="ienumdebugobjects"></a>IEnumDebugObjects
 > [!IMPORTANT]
@@ -48,7 +49,7 @@ IEnumDebugObjects : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugobjects-clone.md)|Извлекает копию текущего перечисления.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugobjects-getcount.md)|Возвращает количество записей в перечислении.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс позволяет модулю отладки перечислять набор объектов в массиве.
 
 ## <a name="requirements"></a>Требования

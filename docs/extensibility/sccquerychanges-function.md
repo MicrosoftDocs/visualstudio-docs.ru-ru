@@ -1,4 +1,5 @@
 ---
+description: Эта функция перечисляет заданный список файлов, предоставляя сведения об изменениях имен для каждого файла с помощью функции обратного вызова.
 title: Функция Скккуеричанжес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fd69183b290fa194d87dff79d69596dd65ec19ba
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e34c37ca999b05e7148d910032fe90c33470ce50
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836726"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220525"
 ---
 # <a name="sccquerychanges-function"></a>Функция SccQueryChanges
 Эта функция перечисляет заданный список файлов, предоставляя сведения об изменениях имен для каждого файла с помощью функции обратного вызова.
@@ -65,7 +66,7 @@ SCCRTN SccQueryChanges(
 |SCC_E_ACCESSFAILURE|Возникла проблема при доступе к системе управления версиями, возможно, из-за проблем с сетью или состязаниями.|
 |SCC_E_NONSPECIFICERROR|Произошла неопределенная или общая ошибка.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Запрошенные изменения относятся к пространству имен: в частности, переименование, Добавление и удаление файла.
 
 ## <a name="see-also"></a>См. также раздел

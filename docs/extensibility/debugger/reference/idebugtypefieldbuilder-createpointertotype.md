@@ -1,4 +1,5 @@
 ---
+description: Создает указатель на указанный тип.
 title: 'Идебугтипефиелдбуилдер:: Креатепоинтертотипе | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ee3beb4bd79c438430ddfc2aac0fc0a5894404b9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b5cc642ae4d9d4030abcf32c1e51360c8cb4a84f
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99940193"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223151"
 ---
 # <a name="idebugtypefieldbuildercreatepointertotype"></a>IDebugTypeFieldBuilder::CreatePointerToType
 Создает указатель на указанный тип.

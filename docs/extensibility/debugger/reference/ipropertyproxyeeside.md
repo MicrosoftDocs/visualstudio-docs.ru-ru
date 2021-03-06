@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет методы для просмотра данных в связанном объекте.
 title: Ипропертипроксеесиде | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f0331365716c8399c1b2a565fc8046482df5d80f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 80a295ad68341cfa4675d36b22d5de042078a0a3
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938906"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222612"
 ---
 # <a name="ipropertyproxyeeside"></a>IPropertyProxyEESide
 Этот интерфейс предоставляет методы для просмотра данных в связанном объекте. Этот интерфейс является частью поддержки визуализаторов типов.
@@ -46,7 +47,7 @@ IPropertyProxyEESide : IUnknown
 |[InPlaceUpdateObject](../../../extensibility/debugger/reference/ipropertyproxyeeside-inplaceupdateobject.md)|Создает ссылку на существующее хранилище данных.|
 |[ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)|Извлекает сведения о конкретной сборке в контексте сборки, содержащей этот объект.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Визуализатор типов использует этот интерфейс для доступа к значениям, связанным с объектом, частью которого является этот интерфейс. Доступ к данным осуществляется через интерфейс [иидатастораже](../../../extensibility/debugger/reference/ieedatastorage.md) , который предоставляет представление данных только для чтения.
 
 ## <a name="requirements"></a>Требования

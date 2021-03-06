@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет порты компьютера или поставщика порта.
 title: IEnumDebugPorts2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 638b17490ba875f8ecab7bf6dcdff7fef161b66e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4b93aa34870d05b9a4ec0a9a0aa92f681735dfe3
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99967804"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224464"
 ---
 # <a name="ienumdebugports2"></a>IEnumDebugPorts2
 Этот интерфейс перечисляет порты компьютера или поставщика порта.
@@ -45,7 +46,7 @@ IEnumDebugPorts2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugports2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugports2-getcount.md)|Возвращает количество портов в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio использует этот интерфейс для заполнения списка портов, используемых для присоединения к процессам.
 
  Модуль отладки обычно не использует этот интерфейс.

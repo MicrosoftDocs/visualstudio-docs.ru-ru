@@ -1,4 +1,5 @@
 ---
+description: Указывает требуемые свойства, которые будут получены от поставщика программы.
 title: PROVIDER_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 849046b3a365f58785ea23c9801c567bf566ff39
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8851dffa0de1155edf401c0d0b0feadda199a5e9
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99922963"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222033"
 ---
 # <a name="provider_flags"></a>PROVIDER_FLAGS
 Указывает требуемые свойства, которые будут получены от поставщика программы.
@@ -74,7 +75,7 @@ public enum enum_PROVIDER_FLAGS {
  `PFLAG_GET_IS_DEBUGGER_PRESENT`\
  Вызывающему объекту требуется `fIsTheDebuggerPresent` поле `PROVIDER_PROCESS_DATA` структуры.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эти флаги передаются следующим методам:
 
 - [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)

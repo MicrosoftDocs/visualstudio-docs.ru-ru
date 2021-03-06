@@ -1,4 +1,5 @@
 ---
+description: При наличии списка локальных файлов Эта функция определяет, какие файлы отличаются от соответствующих версий в базе данных управления исходным кодом.
 title: Функция Скценумчанжедфилес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e871f244082374bcf24ea49062cdcefd6e08d888
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9349172ac60f1e02f82327424cdbc3a3b1d4f865
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943001"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221539"
 ---
 # <a name="sccenumchangedfiles-function"></a>Функция Скценумчанжедфилес
 При наличии списка локальных файлов Эта функция определяет, какие файлы отличаются от соответствующих версий в базе данных управления исходным кодом.

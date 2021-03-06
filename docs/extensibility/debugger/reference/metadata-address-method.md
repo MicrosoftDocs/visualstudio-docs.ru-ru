@@ -1,4 +1,5 @@
 ---
+description: Эта структура представляет адрес метода класса.
 title: METADATA_ADDRESS_METHOD | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 26de14b4c5e23334da85d49d5192ec332e418af8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4c79aa9e7592417ba3f42d86137908c350681eb8
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961928"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222397"
 ---
 # <a name="metadata_address_method"></a>METADATA_ADDRESS_METHOD
 Эта структура представляет адрес метода класса.
@@ -55,7 +56,7 @@ public struct METADATA_ADDRESS_METHOD {
  `dwVersion`\
  Версия метода (это значение является уникальным для поставщика символов).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура является частью объединения в структуре [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , если `dwKind` поле `DEBUG_ADDRESS_UNION` структуры имеет `ADDRESS_KIND_METHOD` значение (Value из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) ).
 
 ## <a name="requirements"></a>Требования

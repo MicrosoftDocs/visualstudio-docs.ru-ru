@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс представляет коллекцию объектов, реализующих интерфейс Идебугаддресс.
 title: Иенумдебугаддрессес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f9b4b95d805833ffd8b8041292cd18e5db8df9b3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ea9e4115c1664e1dcd05041f7ece056b5de01dae
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99875800"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222644"
 ---
 # <a name="ienumdebugaddresses"></a>IEnumDebugAddresses
 Этот интерфейс представляет коллекцию объектов, реализующих интерфейс [идебугаддресс](../../../extensibility/debugger/reference/idebugaddress.md) .
@@ -45,7 +46,7 @@ IEnumDebugAdresses : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugaddresses-clone.md)|Извлекает копию текущего перечисления.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugaddresses-getcount.md)|Возвращает количество записей в перечислении.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот интерфейс обычно используется модулем отладки для определения подходящего адреса, который будет предоставлен средству оценки выражений.
 
 ## <a name="requirements"></a>Требования

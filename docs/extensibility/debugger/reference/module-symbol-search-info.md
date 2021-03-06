@@ -1,4 +1,5 @@
 ---
+description: Содержит сведения о состоянии для путей поиска символов, которые были просмотрены.
 title: MODULE_SYMBOL_SEARCH_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1b296307ff30b045d7bda2db5d3605cf0a63d01e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bc914334fc4b8ebf2dd73f691cdec242e19364a9
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99928175"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222293"
 ---
 # <a name="module_symbol_search_info"></a>MODULE_SYMBOL_SEARCH_INFO
 
@@ -51,7 +52,7 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
 `bstrVerboseSearchInfo`\
 Путь поиска и результаты, Объединенные в одну строку.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Эта структура возвращается из вызова метода [жетсимболинфо](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) .
 

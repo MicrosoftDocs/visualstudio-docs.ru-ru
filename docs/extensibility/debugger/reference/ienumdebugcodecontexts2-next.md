@@ -1,4 +1,5 @@
 ---
+description: Возвращает следующий набор элементов из перечисления контекстов кода.
 title: 'IEnumDebugCodeContexts2:: Next | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1391ab12d3f362a3e3c7e6841fe627f403f0e38b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c3ded045b0b2b8b1d7d84ce0240322e16f2db97f
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929489"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222631"
 ---
 # <a name="ienumdebugcodecontexts2next"></a>IEnumDebugCodeContexts2::Next
 Возвращает следующий набор из перечисления.

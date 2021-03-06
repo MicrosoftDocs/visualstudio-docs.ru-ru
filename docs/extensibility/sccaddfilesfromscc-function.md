@@ -1,4 +1,5 @@
 ---
+description: Эта функция добавляет список файлов из системы управления версиями в текущий открытый проект.
 title: Функция Сккаддфилесфромскк | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c230d1dae4b6ff9552a8ff464d3128eac9be1482
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 27b695b2777aa32f77d49ced7b74436ce870df80
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926850"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220980"
 ---
 # <a name="sccaddfilesfromscc-function"></a>Функция Сккаддфилесфромскк
 Эта функция добавляет список файлов из системы управления версиями в текущий открытый проект.

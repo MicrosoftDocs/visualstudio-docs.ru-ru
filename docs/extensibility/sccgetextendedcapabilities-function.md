@@ -1,4 +1,5 @@
 ---
+description: Эта функция возвращает дополнительные возможности, поддерживаемые подключаемым модулем системы управления версиями.
 title: Функция Сккжетекстендедкапабилитиес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1256c9110fe538b4a5d52b165c71216b6537f2c8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e1409753559088c0f8129ebacd17387bfb7d111e
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99958418"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220785"
 ---
 # <a name="sccgetextendedcapabilities-function"></a>Функция Сккжетекстендедкапабилитиес
 Эта функция возвращает дополнительные возможности, поддерживаемые подключаемым модулем системы управления версиями.
@@ -53,7 +54,7 @@ SCCRTN SccGetExtendedCapabilities(
 |SCC_OK|Операция получения возможности успешно завершена.|
 |SCC_E_UNKNOWNERROR<br /><br /> SCC_E_NONSPECIFICERROR|Произошла неизвестная или Неуказанная ошибка.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод вызывается по запросу; то есть, когда необходимо проверить возможность, этот метод вызывается для определения того, поддерживается ли эта возможность. Указан только один флаг за раз.
 
 ## <a name="see-also"></a>См. также раздел

@@ -1,4 +1,5 @@
 ---
+description: Задает тип объекта из средства оценки выражений.
 title: OBJECT_TYPE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ad51e8db72cba874d35f66c9759fb970ffff2716
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3add4d46a258eb7e6c107f8d2eb16f7cd84ba919
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911709"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222163"
 ---
 # <a name="object_type"></a>Object_Type
 Задает тип объекта из средства оценки выражений.
@@ -114,7 +115,7 @@ public enum enum_OBJECT_TYPE {
  `OBJECT_TYPE_CLASS`\
  Указывает, что объект является классом.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Передается в качестве аргумента методам [креатепримитивеобжект](../../../extensibility/debugger/reference/idebugfunctionobject-createprimitiveobject.md) и [креатеаррайобжект](../../../extensibility/debugger/reference/idebugfunctionobject-createarrayobject.md) .
 
 ## <a name="requirements"></a>Требования

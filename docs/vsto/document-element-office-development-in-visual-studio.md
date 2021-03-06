@@ -1,4 +1,5 @@
 ---
+description: Элемент Document пространства имен vstov4 хранит сведения о настройке для настроек на уровне документа.
 title: '&lt;&gt;элемент Document (разработка решений Office в Visual Studio)'
 titleSuffix: ''
 ms.custom: seodec18
@@ -16,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: e92c17d71b1c0959cb1918ce6fbad0e2cd44d5ec
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3563169bd9b567cd974248bf4185cb9bc8a7b022
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99949835"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221045"
 ---
 # <a name="ltdocumentgt-element-office-development-in-visual-studio"></a>&lt;&gt;элемент Document (разработка решений Office в Visual Studio)
   `document`Элемент `vstov4` пространства имен хранит сведения о настройке для настроек на уровне документа.
@@ -35,9 +36,9 @@ ms.locfileid: "99949835"
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
  Требуется только для настроек на уровне документа. Элемент `document` находится в пространстве имен `vstov4` . Элемент `document` имеет перечисленные ниже атрибуты.
 
-|Атрибут|Описание|
+|attribute|Описание|
 |---------------|-----------------|
-|`solutionId`|Обязательный элемент. Идентификатор GUID, используемый Инструменты Visual Studio для среды выполнения Office для уникальной идентификации решения на уровне документа. Это значение сохраняется как свойство пользовательского документа _AssemblyLocation. Дополнительные сведения см. в разделе [Общие сведения о настраиваемых свойствах документа](../vsto/custom-document-properties-overview.md).|
+|`solutionId`|Обязательный. Идентификатор GUID, используемый Инструменты Visual Studio для среды выполнения Office для уникальной идентификации решения на уровне документа. Это значение сохраняется как свойство пользовательского документа _AssemblyLocation. Дополнительные сведения см. в разделе [Общие сведения о настраиваемых свойствах документа](../vsto/custom-document-properties-overview.md).|
 
  У элемента`document` нет дочерних элементов.
 

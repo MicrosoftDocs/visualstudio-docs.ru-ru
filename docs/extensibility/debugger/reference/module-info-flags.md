@@ -1,4 +1,5 @@
 ---
+description: Указывает состояние символов для модуля.
 title: MODULE_INFO_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4856588a0ca5644317aba6a61d270b390d955b73
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 158cc849e32fc0177b784c8898ec83fe58008f60
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961876"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222345"
 ---
 # <a name="module_info_flags"></a>MODULE_INFO_FLAGS
 Указывает состояние символов для модуля.
@@ -44,7 +45,7 @@ public enum enum_MODULE_INFO_FLAGS {
  `MIF_SYMBOLS_LOADED`\
  Модуль загрузил по крайней мере один набор символов (в противном случае символы не были загружены).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Это значение возвращается методом [жетсимболсеарчинфо](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md) .
 
 ## <a name="requirements"></a>Требования

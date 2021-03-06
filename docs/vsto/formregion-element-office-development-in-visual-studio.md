@@ -1,4 +1,5 @@
 ---
+description: Элемент Формрегион пространства имен vstov4 определяет область формы Microsoft Office Outlook, связанную с надстройкой VSTO.
 title: '&lt;&gt;элемент формрегион (разработка решений Office в Visual Studio)'
 titleSuffix: ''
 ms.custom: seodec18
@@ -14,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 469b041ac879753e5fe4be0f9bd739be1030a942
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0851ba9e117b464d3a2fbb9ad9903af17ceda0c4
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970395"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221084"
 ---
 # <a name="ltformregiongt-element-office-development-in-visual-studio"></a>&lt;&gt;элемент формрегион (разработка решений Office в Visual Studio)
   `formRegion`Элемент `vstov4` пространства имен определяет Microsoft Office область формы Outlook, связанную с надстройкой VSTO.
@@ -41,9 +42,9 @@ ms.locfileid: "99970395"
 
  Элемент `formRegion` имеет указанный ниже атрибут.
 
-|Атрибут|Описание|
+|attribute|Описание|
 |---------------|-----------------|
-|`name`|Обязательный элемент. Определяет имя области формы.|
+|`name`|Обязательный. Определяет имя области формы.|
 
  Элемент `formRegion` имеет указанные ниже дочерние элементы.
 
@@ -52,9 +53,9 @@ ms.locfileid: "99970395"
 
  Элемент `messageClass` имеет указанный ниже атрибут.
 
-|Атрибут|Описание|
+|attribute|Описание|
 |---------------|-----------------|
-|`name`|Обязательный элемент. Определяет форму, которая связана с областью формы.|
+|`name`|Обязательный. Определяет форму, которая связана с областью формы.|
 
 ## <a name="example"></a>Пример
  В приведенном ниже примере кода показан элемент `formRegion` манифеста приложения для надстройки VSTO для Outlook, развертываемой с помощью [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. Имеется три класса сообщений, связанных с одной и той же областью формы. Этот пример кода является частью большого примера, приведенного в разделе [манифесты приложений для решений Office](../vsto/application-manifests-for-office-solutions.md).

@@ -1,4 +1,5 @@
 ---
+description: Описывает конкретный модуль (DLL, EXE или сборку).
 title: MODULE_INFO | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a0fba00357fcb328000b904d3977bf03e5bc3885
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7d3fd390ca5491aa9dd3e97a0d820c8e02fd0147
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888177"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222358"
 ---
 # <a name="module_info"></a>MODULE_INFO
 Описывает конкретный модуль (DLL, EXE или сборку).
@@ -98,7 +99,7 @@ public struct MODULE_INFO {
  `m_dwModuleFlags`\
  Сочетание флагов из перечисления [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md) , которое описывает модуль.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура передается в метод " [info](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md) ", где он заполняется.
 
  Эта структура соответствует каждому модулю, указанному в окне **модули** .

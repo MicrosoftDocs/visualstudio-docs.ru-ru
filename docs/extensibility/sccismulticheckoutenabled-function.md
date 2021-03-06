@@ -1,4 +1,5 @@
 ---
+description: Эта функция проверяет, допускает ли подключаемый модуль системы управления версиями многократное извлечение файла.
 title: Функция СкЦисмултичеккаутенаблед | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 009bc5ba0bb307d0aaee78076266260aa5bb20ef
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 648b68f1575e31e81b6f12ca09abcb8e7305a985
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924822"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220564"
 ---
 # <a name="sccismulticheckoutenabled-function"></a>Функция SccIsMultiCheckoutEnabled
 Эта функция проверяет, допускает ли подключаемый модуль системы управления версиями многократное извлечение файла.
@@ -48,7 +49,7 @@ SCCRTN SccIsMultiCheckoutEnabled(
 |SCC_OK|Проверка прошла успешно.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Интегрированная среда разработки выполняет две проверки, чтобы определить, могут ли файлы быть извлечены одновременно несколькими пользователями. Во первых, система управления версиями должна поддерживать несколько извлечений. Подключаемый модуль системы управления версиями может указать эту возможность во время инициализации, указав `SCC_CAP_MULTICHECKOUT` . Затем, как вторая проверка, интегрированная среда разработки вызывает эту функцию, чтобы определить, поддерживает ли текущий проект несколько извлечений. Если для выбранного проекта поддерживается несколько извлечений, подключаемый модуль возвращает код успешного выполнения и задает `pbMultiCheckout` для ненулевого ( `TRUE` ) или `FALSE` .
 
 ## <a name="see-also"></a>См. также раздел

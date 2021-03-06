@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет процессы, запущенные в порте отладки.
 title: IEnumDebugProcesses2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f59cdc9a257f853f70afe2566d7b06e39f8edc02
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 75778ea0f02c0e7dcca1f7d2eb0ea8ace82c9b9c
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846664"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224386"
 ---
 # <a name="ienumdebugprocesses2"></a>IEnumDebugProcesses2
 Этот интерфейс перечисляет процессы, запущенные в порте отладки.
@@ -45,7 +46,7 @@ IEnumDebugProcesses : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugprocesses2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugprocesses2-getcount.md)|Возвращает количество процессов в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio использует этот интерфейс для заполнения окна **процессов** .
 
 ## <a name="requirements"></a>Требования

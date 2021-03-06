@@ -1,4 +1,5 @@
 ---
+description: Инициализирует исходные данные для этого объекта и возвращает объект, содержащий начальные данные.
 title: 'Ипропертипроксеесиде:: Инитсаурцедатапровидер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 60de888e3aa3f26bc094440fb07a67e49b62e73b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dd1040c6269b9d394e6f0968f595c71cf1576135
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895990"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224126"
 ---
 # <a name="ipropertyproxyeesideinitsourcedataprovider"></a>IPropertyProxyEESide::InitSourceDataProvider
 Инициализирует исходные данные для этого объекта и возвращает объект, содержащий начальные данные.
@@ -46,7 +47,7 @@ int InitSourceDataProvider(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод выполняет все необходимое для инициализации объекта, чтобы он мог вернуть интерфейс [иидатастораже](../../../extensibility/debugger/reference/ieedatastorage.md) к данным объекта. Это позволяет просматривать данные объекта и, если это разрешено, изменено визуализатором типов.
 
 ## <a name="see-also"></a>См. также раздел

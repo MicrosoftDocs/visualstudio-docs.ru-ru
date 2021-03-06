@@ -1,4 +1,5 @@
 ---
+description: Указывает начальную точку поиска в потоке дизассемблированного кода.
 title: SEEK_START | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 833a1e1b18e28070d50882fcfb485d0b6797ad20
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4bb097c6015b5457a0ad4808674321c410a559d2
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965490"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221903"
 ---
 # <a name="seek_start"></a>SEEK_START
 Указывает начальную точку поиска в потоке дизассемблированного кода.
@@ -64,7 +65,7 @@ public enum enum_SEEK_START {
  `SEEK_START_CODELOCID`\
  Начинает поиск по указанному идентификатору расположения кода. Идентификаторы расположения кода получаются путем вызова [жеткуррентлокатион](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcurrentlocation.md).
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Передается в качестве аргумента в метод [Seek](../../../extensibility/debugger/reference/idebugdisassemblystream2-seek.md) .
 
 ## <a name="requirements"></a>Требования

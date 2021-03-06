@@ -1,4 +1,5 @@
 ---
+description: Эта функция отображает свойства системы управления версиями для файла или проекта.
 title: Функция Сккпропертиес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a68694388f49d59c7e8e872f0fc70994130e2990
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 410febfbbb79cb352b6247139a11b1c49f3cde9c
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836778"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220538"
 ---
 # <a name="sccproperties-function"></a>Функция SccProperties
 Эта функция отображает свойства системы управления версиями для файла или проекта.
@@ -57,7 +58,7 @@ SCCRTN SccProperties (
 |SCC_E_FILENOTCONTROLLED|Указанный файл или проект не находятся в системе управления версиями.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Произошла неизвестная или общая ошибка.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Подключаемый модуль системы управления версиями отображает свойства в отдельном диалоговом окне.
 
  Свойства определяются подключаемым модулем системы управления версиями и могут отличаться от подключаемого модуля к подключаемому модулю. Если подключаемый модуль позволяет пользователю изменить свойства системы управления версиями файла, он должен дать `SCC_I_RELOAD` сигнал интегрированной среде разработки сообщить, что этот файл или проект необходимо перезагрузить.

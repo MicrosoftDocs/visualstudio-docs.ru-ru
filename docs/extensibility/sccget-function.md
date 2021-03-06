@@ -1,4 +1,5 @@
 ---
+description: Эта функция извлекает копию одного или нескольких файлов для просмотра и компиляции, но не для редактирования.
 title: Функция Сккжет | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 50281ffdd233debd3c10672868e9debd4b1f395f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 799d51c607ce720502c269cf82fe5a857ec7a826
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965217"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220837"
 ---
 # <a name="sccget-function"></a>Функция Сккжет
 Эта функция извлекает копию одного или нескольких файлов для просмотра и компиляции, но не для редактирования. В большинстве систем файлы помечаются как доступные только для чтения.
@@ -75,7 +76,7 @@ SCCRTN SccGet(
 |SCC_I_OPERATIONCANCELED|Операция отменена до завершения.|
 |SCC_E_NOTAUTHORIZED|У пользователя нет разрешений на выполнение этой операции.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта функция вызывается с количеством и массивом имен извлекаемых файлов. Если IDE передает флаг `SCC_GET_ALL` , это означает, что элементы в `lpFileNames` не являются файлами, а каталогами и все файлы, находящихся в системе управления версиями в указанных каталогах, будут извлечены.
 
  `SCC_GET_ALL`Флаг можно сочетать с `SCC_GET_RECURSIVE` флагом для получения всех файлов в указанных каталогах и всех подкаталогах.

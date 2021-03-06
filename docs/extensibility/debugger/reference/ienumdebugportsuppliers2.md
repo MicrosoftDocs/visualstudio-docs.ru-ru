@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет поставщиков портов.
 title: IEnumDebugPortSuppliers2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: edff2cad101a6a6f0f19a4b384b8f2398b98b2e4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 893135291be3126055fa139dacaf3cc12141d8f4
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883744"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224490"
 ---
 # <a name="ienumdebugportsuppliers2"></a>IEnumDebugPortSuppliers2
 Этот интерфейс перечисляет поставщиков портов.
@@ -45,7 +46,7 @@ IEnumDebugPortSuppliers2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-getcount.md)|Возвращает число поставщиков портов в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Для модуля отладки обычно не требуется получать этот интерфейс.
 
 ## <a name="requirements"></a>Требования

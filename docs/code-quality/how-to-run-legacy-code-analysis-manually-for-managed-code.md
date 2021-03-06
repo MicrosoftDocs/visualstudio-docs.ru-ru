@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 45f201e2c647a1b1074585d59c7618e1ddeb9084
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f214ac47ad3d831432b91652c5bbe3249ce5f1c5
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99860000"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223489"
 ---
 # <a name="how-to-run-legacy-code-analysis-manually-for-managed-code"></a>Как выполнить анализ кода прежних версий вручную для управляемого кода
 
@@ -28,7 +28,7 @@ ms.locfileid: "99860000"
 1. Если вы используете Visual Studio 2019 версии 16,5 или более поздней, перед запуском Visual Studio выполните в командной строке следующую команду:
 
 ```
-set EnableLegacyCodeAnalysis = true
+setx EnableLegacyCodeAnalysis true
 ```
 
 2. В **Обозреватель решений** щелкните проект.

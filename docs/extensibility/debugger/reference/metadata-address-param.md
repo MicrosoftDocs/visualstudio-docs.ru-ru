@@ -1,4 +1,5 @@
 ---
+description: Эта структура представляет параметр метода или функции.
 title: METADATA_ADDRESS_PARAM | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: dbb6e709ab1b6ee92ad9a27ed3061642665c7f39
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3317981def12a72cf98dad850d5509bd3e64520a
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938725"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102222384"
 ---
 # <a name="metadata_address_param"></a>METADATA_ADDRESS_PARAM
 Эта структура представляет параметр метода или функции.
@@ -53,7 +54,7 @@ public struct METADATA_ADDRESS_PARAM {
  `dwIndex`\
  Индекс параметра в списке параметров.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура является частью объединения в структуре [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , если `dwKind` поле `DEBUG_ADDRESS_UNION` структуры имеет `ADDRESS_KIND_PARAM` значение (Value из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) ).
 
 ## <a name="requirements"></a>Требования

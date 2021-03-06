@@ -1,4 +1,5 @@
 ---
+description: Элемент entryPoint пространства имен vstav3 содержит все элементы entryPoint, связанные с решением Office.
 title: '&lt;&gt;элемент entryPoint (разработка решений Office в Visual Studio)'
 titleSuffix: ''
 ms.custom: seodec18
@@ -14,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0cd5b49183bc4754e894caf898f6ca6a0c0e5440
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 481c67302c84ce08f60c571eb17084b96c0322bd
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910452"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223177"
 ---
 # <a name="ltentrypointsgt-element-office-development-in-visual-studio"></a>&lt;&gt;элемент entryPoint (разработка решений Office в Visual Studio)
   Элемент `entryPoints` пространства имен `vstav3` содержит все элементы `entryPoint` , связанные с решением Office.
@@ -42,14 +43,14 @@ ms.locfileid: "99910452"
 
  Элемент `entryPoints` имеет указанный ниже атрибут.
 
-|Атрибут|Описание|
+|attribute|Описание|
 |---------------|-----------------|
 |идентификатор|Требуется для многопроектного развертывания. Имя решения Office. Идентификатор не может содержать знак равенства (=).|
 
  У элемента`entryPoints` имеются перечисленные ниже элементы.
 
 ### <a name="entrypoint"></a>entryPoint
- Обязательный элемент. Роль `entryPoint` элемента в `vstav3` пространстве имен определяется в [&#60;entryPoint&#62; элемент &#40;разработке решений Office в Visual Studio&#41;](../vsto/entrypoint-element-office-development-in-visual-studio.md).
+ Обязательный. Роль `entryPoint` элемента в `vstav3` пространстве имен определяется в [&#60;entryPoint&#62; элемент &#40;разработке решений Office в Visual Studio&#41;](../vsto/entrypoint-element-office-development-in-visual-studio.md).
 
 ## <a name="document-level-customization-example"></a>Пример настройки на уровне документа
 
