@@ -1,4 +1,5 @@
 ---
+description: Перечисляет пользовательские атрибуты.
 title: Иенумдебугкустоматтрибутес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0c3e4cfaf35c1fee655eedc49e8a3212c1355390
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bffa799ba14738daea480a1677f1b1a820e98767
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99967479"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226843"
 ---
 # <a name="ienumdebugcustomattributes"></a>IEnumDebugCustomAttributes
 Перечисляет пользовательские атрибуты.

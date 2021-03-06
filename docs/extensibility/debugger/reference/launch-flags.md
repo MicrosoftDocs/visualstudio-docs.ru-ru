@@ -1,4 +1,5 @@
 ---
+description: Задает флаги запуска отладки.
 title: LAUNCH_FLAGS | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e2457f6e18af75a515c0e27889ffecea521670db
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7e53cb955cda833d2172ed369e5573f257082b08
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962097"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225530"
 ---
 # <a name="launch_flags"></a>LAUNCH_FLAGS
 Задает флаги запуска отладки.
@@ -59,7 +60,7 @@ public enum enum_LAUNCH_FLAGS {
 `LAUNCH_MERGE_ENV`\
 Запускает процесс и выполняет слияние среды с запускающим узлом.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 Эти значения передаются в качестве аргумента в метод [лаунчсуспендед](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) .
 
 Эти флаги можно сочетать с помощью побитовой операции `OR` .

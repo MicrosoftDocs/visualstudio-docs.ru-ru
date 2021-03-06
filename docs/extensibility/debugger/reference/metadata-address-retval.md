@@ -1,4 +1,5 @@
 ---
+description: Эта структура представляет возвращаемое значение из метода или функции.
 title: METADATA_ADDRESS_RETVAL | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ec357bcc21cb3f7cd8f4f9eaa8318c4b0deb1d42
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d727771128e161eed77bf78091c8e0dadcc20ee6
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961902"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225555"
 ---
 # <a name="metadata_address_retval"></a>METADATA_ADDRESS_RETVAL
 Эта структура представляет возвращаемое значение из метода или функции.
@@ -58,7 +59,7 @@ public struct METADATA_ADDRESS_RETVAL {
  `rgSig`\
  Массив байтов, формирующих сигнатуру возвращаемого значения.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура является частью объединения в структуре [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , если `dwKind` поле `DEBUG_ADDRESS_UNION` структуры имеет `ADDRESS_KIND_RETVAL` значение (Value из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) ).
 
 ## <a name="requirements"></a>Требования

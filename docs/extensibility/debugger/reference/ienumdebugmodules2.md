@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет список модулей.
 title: IEnumDebugModules2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dfcd594ab8764cedb8cbe2ea312675f884ae2338
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 33853804078d5f32aba6fda6dac409cf2a24de0a
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99957157"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224763"
 ---
 # <a name="ienumdebugmodules2"></a>IEnumDebugModules2
 Этот интерфейс перечисляет список модулей.
@@ -45,7 +46,7 @@ IEnumDebugModules2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugmodules2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugmodules2-getcount.md)|Возвращает число модулей.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio использует этот интерфейс в основном для обновления окна " **модули** ".
 
  В целях отладки в Visual Studio программа — это логическая последовательность инструкций кода, которая может пересекать границы модуля, поэтому требуется список модулей для одного интерфейса [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) . Первый модуль в списке обычно содержит начальную точку входа для связанной программы.

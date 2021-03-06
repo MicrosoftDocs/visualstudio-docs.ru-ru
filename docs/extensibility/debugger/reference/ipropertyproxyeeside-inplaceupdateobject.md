@@ -1,4 +1,5 @@
 ---
+description: Обновляет данные объекта с помощью заданного объекта данных и возвращает новый объект данных, представляющий новые данные объекта.
 title: 'Ипропертипроксеесиде:: Инплацеупдатеобжект | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 89f8185734c8c2ee15728328a510236bbbc50a21
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2119db579863bea2ad0b9fa5834996d658308549
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895977"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225595"
 ---
 # <a name="ipropertyproxyeesideinplaceupdateobject"></a>IPropertyProxyEESide::InPlaceUpdateObject
 Обновляет данные объекта с помощью заданного объекта данных и возвращает новый объект данных, представляющий новые данные объекта.
@@ -51,7 +52,7 @@ int InPlaceUpdateObject(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод фактически обновляет данные объекта. Данные в возвращенном объекте [иидатастораже](../../../extensibility/debugger/reference/ieedatastorage.md) не обязательно должны совпадать с данными во входящем `IEEDataStorage` объекте, но возвращаемый объект должен отражать текущее значение свойства.
 
  Объект входящих данных обычно не реализуется в EE. Однако объект, возвращаемый этим методом, всегда реализуется в EE, что позволяет `IEEDataStorage` классу ee реализовать интерфейс в любом нужном классе.

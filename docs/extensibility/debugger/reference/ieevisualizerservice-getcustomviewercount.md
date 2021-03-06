@@ -1,4 +1,5 @@
 ---
+description: Этот метод возвращает число визуализаторов типов, доступных из этой службы.
 title: 'Иивисуализерсервице:: Жеткустомвиеверкаунт | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4d4aa1f082351e84348854457506b5428935a903
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7d44cc0c53185f823a8092335052e52dcfd201c1
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897159"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227155"
 ---
 # <a name="ieevisualizerservicegetcustomviewercount"></a>IEEVisualizerService::GetCustomViewerCount
 Этот метод возвращает число визуализаторов типов, доступных из этой службы.
@@ -46,7 +47,7 @@ int GetCustomViewerCount(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 - [Жеткустомвиеверкаунт](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) передает запрос этому методу в его поддержке визуализаторов типов.
 
 ## <a name="see-also"></a>См. также раздел

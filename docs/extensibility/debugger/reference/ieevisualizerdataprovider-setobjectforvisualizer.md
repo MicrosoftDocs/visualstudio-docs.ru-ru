@@ -1,4 +1,5 @@
 ---
+description: Этот метод изменяет объект, который представляет визуализатор.
 title: 'Иивисуализердатапровидер:: Сетобжектфорвисуализер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 50d68b5cdb7399dc391ef90150f0b6a156783301
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: df5cfd2acef1a2214d4692a49c742c26cd420ffa
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890842"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227233"
 ---
 # <a name="ieevisualizerdataprovidersetobjectforvisualizer"></a>IEEVisualizerDataProvider::SetObjectForVisualizer
 Этот метод изменяет объект, который представляет визуализатор.
@@ -56,7 +57,7 @@ int SetObjectForVisualizer(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Разработчик может определить, как возвращаются сведения об ошибке. Однако некоторым вызывающим объектам может показаться, что был возвращен объект исключения, чтобы убедиться в наличии ошибки, поэтому этот метод всегда должен возвращать объект исключения, если произошла ошибка. Строка ошибки также должна указываться в том случае, если вызывающий объект хочет использовать ее.
 
 ## <a name="see-also"></a>См. также раздел

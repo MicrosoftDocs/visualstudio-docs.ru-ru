@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс предоставляет прокси-интерфейс для просмотра и изменения данных объекта.
 title: Ипропертипроксипровидер | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f6082b06e6235a93b0e198d973b40efb728bd815
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3d8d92f6d616d86b82a9f4efa443f459a082256e
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962136"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225543"
 ---
 # <a name="ipropertyproxyprovider"></a>IPropertyProxyProvider
 Этот интерфейс предоставляет прокси-интерфейс для просмотра и изменения данных объекта.
@@ -41,7 +42,7 @@ IPropertyProxyProvider : IUnknown
 |------------|-----------------|
 |[GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md)|Извлекает интерфейс прокси-сервера свойства для просмотра данных в объекте.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Несмотря на то, что EE реализует этот интерфейс, реализация [жетпропертипрокси](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) обычно обрабатывается с помощью [жетпропертипрокси](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md). Дополнительные сведения о получении интерфейса Иивисуализерсервице см. в разделе [визуализация и просмотр данных](../../../extensibility/debugger/visualizing-and-viewing-data.md) .
 
 ## <a name="requirements"></a>Требования

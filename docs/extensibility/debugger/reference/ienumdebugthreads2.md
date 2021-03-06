@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет потоки, выполняющиеся в текущем сеансе отладки.
 title: IEnumDebugThreads2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e3771545d4a5fe545382344d17ed5ea929999d1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3706b9ff004dbe283952dbc3740f8ec4bcb056b2
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99852782"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225738"
 ---
 # <a name="ienumdebugthreads2"></a>IEnumDebugThreads2
 Этот интерфейс перечисляет потоки, выполняющиеся в текущем сеансе отладки.
@@ -45,7 +46,7 @@ IEnumDebugThreads2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugthreads2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugthreads2-getcount.md)|Возвращает число потоков в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio обычно получает этот интерфейс для обновления окна **потоков** , а также для получения первого потока списка для вызова [EXECUTE](../../../extensibility/debugger/reference/idebugprocess3-execute.md), [Continue](../../../extensibility/debugger/reference/idebugprocess3-continue.md)и [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md).
 
 ## <a name="requirements"></a>Требования

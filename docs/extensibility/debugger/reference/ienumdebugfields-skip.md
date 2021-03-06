@@ -1,4 +1,5 @@
 ---
+description: Этот метод пропускает указанное число элементов в перечислении Fields.
 title: 'Иенумдебугфиелдс:: Skip | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a6cb65a0ba084f1c9003e8aebe406a77686edbb8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 54241fe231af6f9ba73cafe6d351fee60c9b4b51
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99932786"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226583"
 ---
 # <a name="ienumdebugfieldsskip"></a>IEnumDebugFields::Skip
 Этот метод пропускает указанное число элементов.
@@ -46,7 +47,7 @@ int Skip(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK`. Возвращает `S_FALSE` `celt` , если больше числа оставшихся элементов; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Если `celt` задает значение, превышающее число оставшихся элементов, перечисление устанавливается в конец и `S_FALSE` возвращается.
 
 ## <a name="see-also"></a>См. также раздел

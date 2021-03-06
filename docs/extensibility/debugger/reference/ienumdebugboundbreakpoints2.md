@@ -1,4 +1,5 @@
 ---
+description: Этот интерфейс перечисляет привязанные точки останова, связанные с отложенной точкой останова или событием, привязанным к точке останова.
 title: IEnumDebugBoundBreakpoints2 | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d52aad69397be315cf9c06b5f49a2c55d2fce28
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e861465e2abf18a42af75d420dc58075d19ff253
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929528"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102224997"
 ---
 # <a name="ienumdebugboundbreakpoints2"></a>IEnumDebugBoundBreakpoints2
 Этот интерфейс перечисляет привязанные точки останова, связанные с отложенной точкой останова или событием, привязанным к точке останова.
@@ -51,7 +52,7 @@ IEnumDebugBoundBreakpoints2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-getcount.md)|Возвращает количество связанных точек останова в перечислителе.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Visual Studio использует привязанные точки останова, представленные этим интерфейсом, для обновления отображения точек останова в интегрированной среде разработки.
 
 ## <a name="requirements"></a>Требования

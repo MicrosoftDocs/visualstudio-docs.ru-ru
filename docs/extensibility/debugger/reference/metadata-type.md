@@ -1,4 +1,5 @@
 ---
+description: Эта структура задает сведения о типе поля, взятого из метаданных.
 title: METADATA_TYPE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d41716dcbc1aefba52f6507bb624973f36025af0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c8f0c8341213dfbe15dcf9a6f5a5fc421c0ebab3
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938736"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225491"
 ---
 # <a name="metadata_type"></a>METADATA_TYPE
 Эта структура задает сведения о типе поля, взятого из метаданных.
@@ -55,7 +56,7 @@ public struct METADATA_TYPE {
 
  [C++] `_mdToken` — `typedef` для 32-разрядного `int` .
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Эта структура отображается как часть объединения в структуре [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) , если `dwKind` поле `TYPE_INFO` структуры имеет `TYPE_KIND_METADATA` значение (Value из перечисления [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) ).
 
  `tokClass`Значение является маркером метаданных, уникальным образом определяющим тип. Дополнительные сведения о том, как интерпретировать верхние биты идентификатора маркера метаданных, см. в описании `CorTokenType` перечисления в файле корхдр. h в пакете SDK платформа .NET Framework.

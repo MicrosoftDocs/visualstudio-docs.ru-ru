@@ -1,4 +1,5 @@
 ---
+description: Этот метод возвращает количество элементов в перечислении Fields.
 title: 'Иенумдебугфиелдс:: NOCOUNT | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5725d16577b9d22d280b17cc572b7335cd2331ba
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9dbce3c9f990e28b63ca3b600e89d12736021dbf
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896927"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102226648"
 ---
 # <a name="ienumdebugfieldsgetcount"></a>IEnumDebugFields::GetCount
 Этот метод возвращает количество элементов в перечислении.
@@ -46,7 +47,7 @@ int GetCount(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Этот метод не является частью пользовательского интерфейса перечисления COM, который указывает, что необходимо реализовать только следующие методы: "только следующий", "клонировать", "пропустить" и "Сброс".
 
 ## <a name="see-also"></a>См. также раздел

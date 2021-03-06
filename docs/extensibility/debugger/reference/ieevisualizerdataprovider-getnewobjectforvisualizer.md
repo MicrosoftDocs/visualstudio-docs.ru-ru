@@ -1,4 +1,5 @@
 ---
+description: Этот метод получает новый объект для визуализатора.
 title: 'Иивисуализердатапровидер:: Жетневобжектфорвисуализер | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 98566507b3fdc3f519cc645991807c1d437bbcfe
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 07bc02adc9dc3e6675c7bfbbcafd21a350b3a94f
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890972"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102227298"
 ---
 # <a name="ieevisualizerdataprovidergetnewobjectforvisualizer"></a>IEEVisualizerDataProvider::GetNewObjectForVisualizer
 Этот метод получает новый объект для визуализатора. Этот метод всегда будет создавать новый объект на основе существующего объекта.
@@ -46,7 +47,7 @@ int GetNewObjectForVisualizer(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  `This method` повторно вычисляет объект, который он представляет в данный момент, и возвращает результат в виде нового объекта. Существующий объект будет обновлен в результате вычисления.
 
 ## <a name="see-also"></a>См. также раздел
