@@ -2,7 +2,7 @@
 title: Новые возможности Visual Studio 2019
 titleSuffix: ''
 description: Сведения о новых возможностях Visual Studio 2019.
-ms.date: 11/10/2020
+ms.date: 03/02/2021
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,16 +15,16 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 41ccdd8ef7285ba0e5fa211b6b9f76fead5a2f3c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e3dc790310fdff71539c6cae354a0170ec36e65e
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960576"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101684032"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Новые возможности Visual Studio 2019
 
-**Обновлено для [выпуска 16.8](/visualstudio/releases/2019/release-notes/)**
+**Обновлено для [выпуска 16.9](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Скачивание Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -245,8 +245,8 @@ ms.locfileid: "99960576"
 * [Заметки о выпуске Visual Studio 2019 для Mac](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [Новые возможности пакета SDK для Visual Studio 2019](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Новые возможности C++ в Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio/)
-* [Новые возможности C# 8.0](/dotnet/csharp/whats-new/csharp-8/)
-* [Новые возможности .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1/)
+* [Новые возможности C# 9.0](/dotnet/csharp/whats-new/csharp-9)
+* [Новые возможности .NET Core 5](/dotnet/core/dotnet-five)
 * [Новые возможности .NET Framework](/dotnet/framework/whats-new/)
 * [Конференция Microsoft Build](https://www.microsoft.com/build)
 * [Конференция Microsoft Ignite](https://www.microsoft.com/ignite)

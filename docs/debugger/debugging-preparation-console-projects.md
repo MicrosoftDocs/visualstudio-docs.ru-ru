@@ -19,16 +19,16 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e39cb7df53a12b97d297ee739338c42a3201089f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 66610eef4419b71cd41c8a7708b43b30bff4cc80
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99872525"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101683039"
 ---
 # <a name="debugging-preparation-console-projects-c-c-visual-basic-f"></a>Подготовка к отладке: Проекты консоли (C#, C++, Visual Basic, F#)
 
-Подготовка к отладке консольного проекта аналогична подготовке к отладке проекта Windows, с некоторыми дополнительными соображениями, такими как установка аргументов командной строки и приостановка приложения для отладки. Дополнительные сведения см. в разделе [приложений Windows Forms](../debugger/debugging-preparation-windows-forms-applications.md), и [Подготовка к отладке: Приложения Windows Forms (.NET)](/previous-versions/visualstudio/visual-studio-2010/sez9z95a(v=vs.100)). Из-за схожести всех консольных приложений в этом разделе описываются следующие типы проектов:
+Подготовка к отладке консольного проекта аналогична подготовке к отладке проекта Windows, с некоторыми дополнительными соображениями, такими как установка аргументов командной строки и приостановка приложения для отладки. Дополнительные сведения см. в статье [Подготовка к отладке. Приложения Windows Forms](../debugger/debugging-preparation-windows-forms-applications.md). Из-за схожести всех консольных приложений в этом разделе описываются следующие типы проектов:
 
 - консольное приложение C#, Visual Basic и F#
 

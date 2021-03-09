@@ -14,12 +14,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 24e34bbd72810932f385d53a25ca1670fa059c1f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 34b412d254d0775b57f2c9befaae71ce25c6ae75
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99939933"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101683863"
 ---
 # <a name="quickstart-create-your-first-console-app-in-visual-studio-with-visual-basic"></a>Краткое руководство. Создание первого консольного приложения на Visual Basic в Visual Studio
 
@@ -66,20 +66,20 @@ ms.locfileid: "99939933"
 > [!NOTE]
 > На некоторых снимках экрана в этом кратком руководстве используется темная тема. Если вы не используете темную тему, но хотите переключиться на нее, см. страницу [Персонализация интегрированной среды разработки и редактора Visual Studio](quickstart-personalize-the-ide.md).
 
-1. Откройте Visual Studio 2019.
+1. Запустите Visual Studio 2019.
 
 1. На начальном экране выберите **Создать проект**.
 
    ![Просмотр окна "Создание проекта"](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. В поле поиска окна **Создание проекта** введите *консоль*. Затем выберите **Visual Basic** в списке языков и **Windows** в списке платформ. 
+1. В окне **Создание проекта** выберите значение **Visual Basic** в списке языков. Затем выберите **Windows** в списке платформ и вариант **Консоль** в списке типов проектов.
 
-   Применив фильтры языка и платформы, выберите шаблон **Консольное приложение (.NET Core)** и нажмите кнопку **Далее**.
+   Применив фильтры по языку, платформе и типу проекта, выберите шаблон **Консольное приложение** и щелкните **Далее**.
 
-   ![Выбор шаблона Visual Basic для консольного приложения (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-console-net-core-filtered.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Выбор шаблона Visual Basic для консольного приложения":::
 
    > [!NOTE]
-   > Если шаблон **Консольное приложение (.NET Core)** отсутствует, его можно установить из окна **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**.
+   > Если шаблон **Консольное приложение** отсутствует, его можно установить в окне **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**.
    >
    > ![Ссылка "Установка других средств и компонентов" из сообщения "Не нашли то, что искали?" в окне "Создание проекта"](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
@@ -89,9 +89,13 @@ ms.locfileid: "99939933"
    >
    > Затем нажмите кнопку **Изменить** в Visual Studio Installer. Вам может быть предложено сохранить результаты работы; в таком случае сделайте это. Выберите **Продолжить**, чтобы установить рабочую нагрузку. После этого вернитесь к шагу 2 в процедуре [Создание проекта](#create-a-project).
 
-1. В поле **Имя проекта** окна **Настроить новый проект** введите *WhatIsYourName*. Затем нажмите **Создать**.
+1. В поле **Имя проекта** окна **Настроить новый проект** введите *WhatIsYourName*. Нажмите кнопку **Далее**.
 
-   ![В окне "Настроить новый проект" назовите проект "WhatIsYourName"](../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png)
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-name-your-project-whatname.png" alt-text="В окне &quot;Настроить новый проект&quot; назовите проект &quot;WhatIsYourName&quot;":::
+
+1. В окне **Дополнительные сведения** для целевой платформы должна быть указана версия **.NET Core 3.1**. Если это не так, выберите **.NET Core 3.1**. Затем нажмите **Создать**.
+
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-target-framework.png" alt-text="Проверка того, что в окне &quot;Дополнительные сведения&quot; выбрана версия .NET Core 3.1":::
 
    Новый проект открывается в Visual Studio.
 
@@ -132,7 +136,7 @@ ms.locfileid: "99939933"
 
    ![Нажмите кнопку "HelloWorld", чтобы запустить программу из панели инструментов](../ide/media/vb-console-hello-world-button.png)
 
-2. Для закрытия окна консоли нажмите любую клавишу.
+2. Для закрытия консольного окна нажмите любую клавишу.
 
    ![Окно консоли с фразой "Hello World" и надписью "Чтобы продолжить, нажмите любую клавишу"](../ide/media/vb-console-hello-world-press-any-key.png)
 

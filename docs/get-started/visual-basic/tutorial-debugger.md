@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b4cb6cbdaee7e5bed6cb80cea1f431a6db4d286e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a6bc1cd4dd994a744e814ab893bfe67e24f110bb
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915037"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101682673"
 ---
 # <a name="tutorial-learn-to-debug-visual-basic-code-using-visual-studio"></a>Руководство. Отладка кода Visual Basic с помощью Visual Studio
 
@@ -91,14 +91,16 @@ ms.locfileid: "99915037"
 
 1. В поле поиска окна **Создание проекта** введите *консоль*. Затем выберите **Visual Basic** в списке языков и **Windows** в списке платформ. 
 
-   Применив фильтры языка и платформы, выберите шаблон **Консольное приложение (.NET Core)** и нажмите кнопку **Далее**.
+   Применив фильтры по языку и платформе, выберите шаблон **Консольное приложение** для .NET Core и нажмите кнопку **Далее**.
 
-   ![Выбор шаблона Visual Basic для консольного приложения (.NET Core)](../visual-basic/media/vs-2019/get-started-create-console-project.png)
+   ![Выбор шаблона Visual Basic для консольного приложения](../visual-basic/media/vs-2019/get-started-create-console-project.png)
 
    > [!NOTE]
-   > Если шаблон **Консольное приложение (.NET Core)** отсутствует, его можно установить из окна **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**. После этого в Visual Studio Installer выберите рабочую нагрузку **Кроссплатформенная разработка .NET Core**.
+   > Если шаблон **Консольное приложение** отсутствует, его можно установить из окна **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**. После этого в Visual Studio Installer выберите рабочую нагрузку **Кроссплатформенная разработка .NET Core**.
 
-1. В поле **Имя проекта** окна **Настроить новый проект** введите *get-started-debugging*. Затем нажмите **Создать**.
+1. В поле **Имя проекта** окна **Настроить новый проект** введите *get-started-debugging*. Нажмите кнопку **Далее**.
+
+1. Выберите рекомендуемую версию целевой платформы (.NET Core 3.1) или .NET 5 и щелкните **Создать**.
 
    Новый проект открывается в Visual Studio.
    

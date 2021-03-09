@@ -7,12 +7,12 @@ ms.author: ghogen
 ms.date: 01/10/2020
 ms.technology: vs-azure
 ms.topic: include
-ms.openlocfilehash: 93f9d5ba8bd84341e1b314c1fabca07690114e39
-ms.sourcegitcommit: fcfd0fc7702a47c81832ea97cf721cca5173e930
+ms.openlocfilehash: 1dd5e237e99333e9c2fb9414b3d32ff19b70dd9b
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97729292"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101684251"
 ---
 # <a name="tutorial-create-a-multi-container-app-with-docker-compose"></a>Учебник. Создание многоконтейнерного приложения с помощью Docker Compose
 
@@ -34,7 +34,7 @@ ms.locfileid: "97729292"
 
 ## <a name="create-a-web-application-project"></a>Создание проекта веб-приложения
 
-В Visual Studio создайте проект **веб-приложения ASP.NET Core** с именем `WebFrontEnd`. Выберите **Веб-приложение**, чтобы создать веб-приложение с Razor Pages. 
+В Visual Studio создайте проект **Веб-приложение ASP.NET Core** с именем `WebFrontEnd` для создания веб-приложения с Razor Pages.
   
 ::: moniker range="vs-2017"
 
@@ -46,11 +46,11 @@ ms.locfileid: "97729292"
 
 ::: moniker range="vs-2019"
 
-![Снимок экрана: экран "Настроить новый проект" для веб-приложения ASP.NET Core, в котором для полей "Имя проекта" и "Имя решения" установлено значение "WebFrontEnd".](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project1.png)
+![Создание проекта для веб-приложения ASP.NET Core](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
 Не выбирайте **Включение поддержки Docker**. Поддержка Docker будет добавлена позже.
 
-![Снимок экрана: экран "Создать веб-приложение ASP.NET Core" с выбранным значением "Веб-приложение". Параметр Enable Docker Support (Включение поддержки Docker) не выбран.](./media/tutorial-multicontainer/vs-2019/new-aspnet-core-project.png)
+![Снимок экрана: экран "Дополнительные сведения" при создании веб-проекта. Параметр Enable Docker Support (Включение поддержки Docker) не выбран.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
 ::: moniker-end
 
@@ -62,7 +62,7 @@ ms.locfileid: "97729292"
    ![Снимок экрана: создание проекта веб-API](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
 ::: moniker range="vs-2019"
-   ![Снимок экрана: создание проекта веб-API](./media/tutorial-multicontainer/vs-2019/web-api-project.png)
+   ![Снимок экрана: создание проекта веб-API](./media/tutorial-multicontainer/vs-2019/create-web-api-project.png)
 ::: moniker-end
 
 ## <a name="add-code-to-call-the-web-api"></a>Добавление кода для вызова веб-API

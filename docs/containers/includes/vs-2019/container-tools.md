@@ -3,16 +3,16 @@ title: Использование средств Visual Studio для Docker с 
 author: ghogen
 description: Сведения об использовании средств Visual Studio 2019 и Docker для Windows
 ms.author: ghogen
-ms.date: 02/01/2019
+ms.date: 02/22/2021
 ms.prod: visual-studio-dev16
 ms.technology: vs-azure
 ms.topic: include
-ms.openlocfilehash: fc549951e9c6b6d208c478f37126238e91f6f039
-ms.sourcegitcommit: 2c26d6e6f2a5c56ae5102cdded7b02f2d0fd686c
+ms.openlocfilehash: 3a2c0d9ac31857fb2389455b0262373414981c5b
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88186377"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101750325"
 ---
 В Visual Studio можно легко выполнять сборку, отлаживать и запускать контейнерные приложения .NET, ASP.NET и ASP.NET Core и публиковать их в реестре контейнеров Azure (ACR), Docker Hub, службе приложений Azure или собственном реестре контейнеров. В этой статье рассматривается публикация приложения ASP.NET Core в реестре контейнеров Azure (ACR).
 
@@ -30,9 +30,9 @@ ms.locfileid: "88186377"
 ## <a name="add-a-project-to-a-docker-container"></a>Добавление проекта в контейнер Docker
 
 1. Создайте проект, используя шаблон **Веб-приложение ASP.NET Core**, или, если вы хотите использовать .NET Framework вместо .NET Core, выберите **Веб-приложение ASP.NET (.NET Framework)** .
-1. Выберите **Веб-приложение** и установите флажок **Включение поддержки Docker**.
+1. На экране **Дополнительные сведения** установите флажок **Включить поддержку Docker**.
 
-   ![Флажок "Включение поддержки Docker"](../../media/container-tools/vs-2019/create-new-web-application.PNG)
+   ![Флажок "Включение поддержки Docker"](../../media/container-tools/vs-2019/webapp-additional-information-31-docker.png)
 
    На снимке экрана показана платформа .NET Core; если вы используете .NET Framework, она выглядит немного иначе.
 

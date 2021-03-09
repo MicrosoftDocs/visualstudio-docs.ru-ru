@@ -21,15 +21,16 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: f370fc0e3f97d53fb63bfdabb637edff90960442
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a59e454238bf362aec20916c6d1f6ed2e4ff187f
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99872408"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101684149"
 ---
 # <a name="debugging-preparation-windows-forms-applications"></a>Подготовка к отладке: Приложения Windows Forms
-Шаблон проекта Windows Forms создает приложение Windows Forms. Отладка приложений такого типа в [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] не вызывает никаких затруднений. Для получения дополнительной информации см. раздел [Создание проекта приложения Windows](/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).
+
+Шаблон проекта приложения Windows Forms создает приложение Windows Forms. Отладка приложений такого типа в [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] не вызывает никаких затруднений. Сведения о создании проекта этого типа см. в статье [Создание приложения Windows Forms на C# в Visual Studio](../ide/create-csharp-winform-visual-studio.md).
 
  При создании проекта Windows Forms из шаблона проекта, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] автоматически создает требуемые параметры для отладки и выпуска. При необходимости эти параметры можно изменить. Эти параметры могут быть изменены в диалоговом окне **\<project name> Страницы свойств** (**Мой проект** в Visual Basic).
 

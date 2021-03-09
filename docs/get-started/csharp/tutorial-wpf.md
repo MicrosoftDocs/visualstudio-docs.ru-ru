@@ -2,7 +2,7 @@
 title: Создание приложения Hello World с помощью WPF на C#
 description: Создание простого приложения Windows Desktop .NET на языке C# в Visual Studio с помощью платформы пользовательского интерфейса Windows Presentation Foundation (WPF).
 ms.custom: seodec18, get-started
-ms.date: 08/09/2019
+ms.date: 02/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -14,12 +14,12 @@ ms.author: ornella
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 4384a724b57de565e03637057e16fc26e8213e5e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1f3232ad0a8b7cc34abbe6d49c05944c066226da
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924883"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101682849"
 ---
 # <a name="tutorial-create-a-simple-application-with-c"></a>Учебник. Создание простого приложения на C\#
 
@@ -80,16 +80,17 @@ ms.locfileid: "99924883"
 
    ![Просмотр окна "Создание проекта"](../../get-started/media/vs-2019/start-window-create-new-project.png "Снимок экрана: окно "Создание проекта"")
 
-1. На экране **Создание проекта** выполните поиск по запросу "WPF", выберите в результатах **Приложение WPF (.NET Core)** и нажмите кнопку **Далее**.
+1. На экране **Создание проекта** выполните поиск по запросу "WPF", выберите в результатах **Приложение WPF** и нажмите кнопку **Далее**.
 
-   ![Шаблон приложения WPF в диалоговом окне создания проекта](media/vs-2019/exploreide-newprojectcsharp-vs2019.png "Снимок экрана: шаблон приложения WPF в диалоговом окне "Создание проекта"")
+   :::image type="content" source="media/vs-2019/explore-ide-new-project-csharp-vs-2019.png" alt-text="Шаблон приложения WPF в диалоговом окне создания проекта":::
 
-   > [!NOTE]
-   > Могут быть найдены два шаблона классических приложений WPF: один для .NET Framework, а другой для .NET Core. Шаблон для .NET Core доступен в Visual Studio 2019 версии 16.3 и более поздних. В этом руководстве можно использовать любой из шаблонов, но мы рекомендуем .NET Core для разработки новых приложений.
+1. На следующем экране присвойте проекту имя **HelloWPFApp** и щелкните **Далее**.
 
-1. На следующем экране присвойте проекту имя **HelloWPFApp** и щелкните **Создать**.
+   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Назовите проект HelloWPFApp":::
 
-   ![Назовите проект HelloWPFApp](./media/vs-2019/exploreide-nameproject.png "Снимок экрана: окно назначения имени проекту")
+1. В окне **Дополнительные сведения** для целевой платформы должна быть указана версия **.NET Core 3.1**. Если это не так, выберите **.NET Core 3.1**. Затем нажмите **Создать**.
+
+   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="Проверка того, что в окне &quot;Дополнительные сведения&quot; выбрана версия .NET Core 3.1":::
 
 ::: moniker-end
 

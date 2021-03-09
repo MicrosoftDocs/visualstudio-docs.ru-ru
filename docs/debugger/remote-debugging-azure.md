@@ -12,12 +12,12 @@ ms.workload:
 - aspnet
 - dotnetcore
 - azure
-ms.openlocfilehash: 3ce27c692e96423bbec89914caeab3afd3e62ba4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d41beea47e8173170ea2d428b40bd7c7ed8ff67e
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947923"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101684153"
 ---
 # <a name="remote-debug-aspnet-core-on-iis-in-azure-in-visual-studio"></a>Удаленная отладка ASP.NET Core в IIS в Azure в Visual Studio
 
@@ -58,10 +58,12 @@ ms.locfileid: "99947923"
 
 ## <a name="create-the-aspnet-core-application-on-the-visual-studio-computer"></a>Создание приложения ASP.NET Core на компьютере с Visual Studio
 
-1. Создайте новое приложение ASP.NET Core.
+1. Создайте новое веб-приложение ASP.NET Core.
 
     ::: moniker range=">=vs-2019"
-    В Visual Studio 2019 нажмите **CTRL+Q**, чтобы открыть поле поиска, введите **asp.net**, выберите **Шаблоны**, а затем **Создание проекта веб-приложения ASP.NET Core**. В появившемся диалоговом окне введите имя проекта **MyASPApp** и нажмите **Создать**. Затем выберите **Веб-приложение (модель — представление — контроллер)** и нажмите **Создать**.
+    На начальном экране Visual Studio 2019 выберите **Создать проект**. Если окно запуска не открыто, выберите **Файл** > **Окно запуска**. Введите запрос **веб-приложение**, укажите **C#** в качестве языка, выберите **ASP.NET Core Web Application (Model-View-Controller)** (Веб-приложение ASP.NET Core (модель — представление — контроллер)) и нажмите кнопку **Далее**. На следующем экране присвойте проекту имя **MyASPApp** и нажмите кнопку **Далее**.
+
+    Выберите рекомендуемую версию целевой платформы (.NET Core 3.1) или .NET 5 и щелкните **Создать**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     В Visual Studio 2017 выберите **Файл > Создать > Проект**, а затем пункты **Visual C# > Веб > Веб-приложение ASP.NET Core**. В разделе шаблонов ASP.NET Core выберите **Веб-приложение (модель — представление — контроллер)** . Убедитесь, что выбрана версия ASP.NET Core 2.1, не выбран пункт **Включить поддержку Docker** и для параметра **Проверка подлинности** установлено значение **Без проверки подлинности**. Назовите проект **MyASPApp**.

@@ -24,12 +24,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 49560ac3293c416719b9addc1cbadf1b0c04f438
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 626f86c2a1d370a7f31e47f86d8adafc3f905672
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99866090"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101684229"
 ---
 # <a name="assertions-in-managed-code"></a>Утверждения в управляемом коде
 Оператор проверочного утверждения `Assert` проверяет выполнение условия, указанного в качестве аргумента для оператора `Assert`. Если условие выполняется, никаких действий не производится. Если же условие не выполняется, то утверждение выдает ошибку. При работе с отладочной сборкой выполнение программы приостанавливается.
@@ -173,7 +173,7 @@ Debug.Assert ( stacksize > 0 );
 Trace.Assert ( stacksize > 0 );
 ```
 
- Второй и третий аргументы, если они присутствуют, должны иметь строковый формат. Если метод <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> или <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> вызывается с двумя или тремя аргументами, первым аргументом является условие. Метод проверяет условие и, если результат ложен, выводит вторую и третью строки. Ниже показаны примеры использования методов <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> и <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> с двумя аргументами:
+  Второй и третий аргументы, если они присутствуют, должны иметь строковый формат. Если метод <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> или <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> вызывается с двумя или тремя аргументами, первым аргументом является условие. Метод проверяет условие и, если результат ложен, выводит вторую и третью строки. Ниже показаны примеры использования методов <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> и <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> с двумя аргументами:
 
 ```VB
 Debug.Assert(stacksize > 0, "Out of stack space")
@@ -185,7 +185,7 @@ Debug.Assert ( stacksize > 0, "Out of stack space" );
 Trace.Assert ( stacksize > 0, "Out of stack space" );
 ```
 
- В следующем примере показаны методы <xref:System.Diagnostics.Debug.Assert%2A> и <xref:System.Diagnostics.Trace.Assert%2A>:
+  Ниже показаны примеры использования методов <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String,System.String)?displayProperty=fullName> и <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String,System.String)?displayProperty=fullName> с тремя аргументами:
 
 ```VB
 Debug.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))

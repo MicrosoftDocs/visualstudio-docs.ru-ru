@@ -2,7 +2,7 @@
 title: Учебник. Создание простого консольного приложения C#
 description: Ознакомьтесь с пошаговыми инструкциями по созданию консольного приложения на C# в Visual Studio.
 ms.custom: seodec18, get-started
-ms.date: 02/18/2020
+ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -15,12 +15,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: ff5e23a92409a3169add19c8810bec44fa4db9ad
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 40e3d82c21e88b2d2144abf5902858eda1b1c293
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909364"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101682796"
 ---
 # <a name="tutorial-create-a-simple-c-console-app-in-visual-studio"></a>Учебник. Создание простого консольного приложения C# в Visual Studio
 
@@ -83,14 +83,14 @@ ms.locfileid: "99909364"
 
    ![Просмотр окна "Создание проекта"](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. В поле поиска окна **Создание проекта** введите *консоль*. Затем выберите **C#** в списке языков и **Windows** в списке платформ. 
+1. В окне **Создание проекта** выберите **C#** в списке языков. Затем выберите **Windows** в списке платформ и **Консоль** в списке типов проектов. 
 
-   Применив фильтры языка и платформы, выберите шаблон **Консольное приложение (.NET Core)** и нажмите кнопку **Далее**.
+   Применив фильтры по языку, платформе и типу проекта, выберите шаблон **Консольное приложение** и щелкните **Далее**.
 
-   ![Выбор шаблона C# для консольного приложения (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+    :::image type="content" source="./media/vs-2019/csharp-create-new-project-console-net-core.png" alt-text="Выбор шаблона C# для консольного приложения (.NET Framework)":::
 
    > [!NOTE]
-   > Если шаблон **Консольное приложение (.NET Core)** отсутствует, его можно установить из окна **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**.
+   > Если шаблон **Консольное приложение** отсутствует, его можно установить в окне **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**.
    >
    > ![Ссылка "Установка других средств и компонентов" из сообщения "Не нашли то, что искали?" в окне "Создание проекта"](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
    > 
@@ -100,12 +100,16 @@ ms.locfileid: "99909364"
    >
    > Затем нажмите кнопку **Изменить** в Visual Studio Installer. Вам может быть предложено сохранить результаты работы; в таком случае сделайте это. Выберите **Продолжить**, чтобы установить рабочую нагрузку. После этого вернитесь к шагу 2 в процедуре [Создание проекта](#create-a-project).
 
-1. В поле **Имя проекта** окна **Настроить новый проект** введите *Calculator*. Затем нажмите **Создать**.
+1. В поле **Имя проекта** окна **Настроить новый проект** введите *Calculator*. Затем щелкните **Далее**.
 
-   ![В окне "Настроить новый проект" назовите проект "Calculator"](./media/vs-2019/csharp-name-your-calculator-project.png)
+    :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="В окне &quot;Настроить новый проект&quot; назовите проект &quot;Calculator&quot;":::
+   
+1. В окне **Дополнительные сведения** для целевой платформы должна быть указана версия **.NET Core 3.1**. Если это не так, выберите **.NET Core 3.1**. Затем нажмите **Создать**.
+
+    :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="Проверка того, что в окне &quot;Дополнительные сведения&quot; указано .NET Core 3.1":::
 
    Visual Studio открывает новый проект, включающий код по умолчанию "Hello World".
-   
+
 ::: moniker-end
 
 ## <a name="create-the-app"></a>Создание приложения

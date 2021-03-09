@@ -9,12 +9,12 @@ manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
-ms.openlocfilehash: 56bfe2b00efc4af71ca562672ad01423778edecd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 294c99081668baa2ed19df00989ceac768979481
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943735"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101683953"
 ---
 # <a name="walkthrough-test-driven-development-using-test-explorer"></a>Пошаговое руководство. Разработка на основе тестирования с помощью обозревателя тестов
 
@@ -26,7 +26,11 @@ ms.locfileid: "99943735"
 
 1. Создайте проекта C# **Библиотека классов (.NET Standard)**. Данный проект будет содержать код, который мы хотим протестировать. Назовите проект **MyMath**.
 
-2. В том же решении добавьте новый проект **Тестовый проект MSTest (.NET Core)**. Назовите тестовый проект **MathTests**.
+2. В том же решении добавьте новый тестовый проект MSTest.
+
+   Начиная с Visual Studio 2019 версии 16.9, название шаблона проекта MSTest изменено с **Проект тестов MSTest (.NET Core)** на **Проект модульного теста**.
+
+   Назовите тестовый проект **MathTests**.
 
    ![Новые проекты кода и тестов](../test/media/test-driven-development-ide.png)
 
