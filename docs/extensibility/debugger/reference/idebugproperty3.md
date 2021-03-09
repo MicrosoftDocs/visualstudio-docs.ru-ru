@@ -1,5 +1,6 @@
 ---
 title: IDebugProperty3 | Документация Майкрософт
+description: Этот интерфейс обеспечивает поддержку извлечения произвольно длинной строки, связанной со свойством, сопоставляя уникальный идентификатор со свойством, получая список пользовательских средств просмотра для свойства, устанавливая для свойства значение, позволяющее сообщать о любых возникших ошибках.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -12,12 +13,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2f24e7ec1842866011bb4d3735104a043bc77e01
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 65da477c47e88699cc479f632843f839b3d02f9d
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897258"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102469779"
 ---
 # <a name="idebugproperty3"></a>IDebugProperty3
 Этот интерфейс обеспечивает поддержку:
@@ -55,7 +56,7 @@ IDebugProperty3 : IDebugProperty2
 |[GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)|Возвращает список пользовательских средств просмотра, с которыми можно просмотреть это свойство.|
 |[SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)|Задает значение этого свойства, возвращая сообщение об ошибке, если что-то пошло не так.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 - [Сетвалуеасстрингвисеррор](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md) является предпочтительным способом, который диспетчер отладки сеанса (SDM) задает значение свойства.
 
 ## <a name="requirements"></a>Требования

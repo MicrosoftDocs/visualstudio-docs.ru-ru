@@ -1,5 +1,6 @@
 ---
 title: IManagedAddin - интерфейс
+description: Реализуйте интерфейс IManagedAddin для создания компонента, который загружает управляемые надстройки VSTO.
 ms.date: 02/02/2017
 ms.topic: interface
 dev_langs:
@@ -12,12 +13,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 89e705296c6051b8bdec823e523f0a386ff7ff76
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 614cf7e8d0e682d894328fb764c6d64b855d2834
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99920433"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102469792"
 ---
 # <a name="imanagedaddin-interface"></a>IManagedAddin - интерфейс
   Реализуйте интерфейс IManagedAddin для создания компонента, который загружает управляемые надстройки VSTO. Этот интерфейс был добавлен в систему Microsoft Office 2007.
@@ -48,7 +49,7 @@ interface IManagedAddin : IUnknown
 |[IManagedAddin::Load](../vsto/imanagedaddin-load.md)|Вызывается, когда приложение Microsoft Office загружает управляемую надстройку VSTO.|
 |[IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)|Вызывается непосредственно перед тем, как приложение Microsoft Office выгружает управляемую надстройку VSTO.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
  Microsoft Office приложений, начиная с системы Microsoft Office 2007, используйте интерфейс IManagedAddin, чтобы помочь в загрузке надстроек Office VSTO. Вы можете реализовать интерфейс IManagedAddin, чтобы создать собственный загрузчик надстройки VSTO и среду выполнения для управляемых надстроек VSTO вместо использования загрузчика надстроек VSTO (*VSTOLoader.dll*) и [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] . Для получения дополнительной информации см. [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
 ## <a name="how-managed-add-ins-are-loaded"></a>Загрузка управляемых надстроек

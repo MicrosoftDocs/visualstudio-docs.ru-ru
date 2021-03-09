@@ -1,5 +1,6 @@
 ---
 title: '&lt;&gt;элемент постактиондата (разработка решений Office)'
+description: Элемент Постактиондата пространства имен vstav3 указывает данные, связанные с любым действием после развертывания, которое выполняется после установки решений Office.
 titleSuffix: ''
 ms.date: 02/02/2017
 ms.topic: reference
@@ -15,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 505b55b7513446a158adac66e7e0e38f401f0808
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a75f61c6d1f80a127f49d96c4e3f4910c66dd8aa
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99847691"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102470070"
 ---
 # <a name="ltpostactiondatagt-element-office-development"></a>&lt;&gt;элемент постактиондата (разработка решений Office)
   Элемент `postActionData` пространства имен `vstav3` указывает данные, связанные с действиями, выполняемыми после развертывания при установке решений Office.
