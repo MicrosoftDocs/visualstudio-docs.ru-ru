@@ -1,6 +1,7 @@
 ---
 title: '&lt;&gt;элемент всторунтиме (разработка решений Office в Visual Studio)'
 titleSuffix: ''
+description: Элемент Всторунтиме пространства имен vstav3 содержит поддерживаемую версию Инструменты Visual Studio для среды выполнения Office для конкретного решения Office.
 ms.date: 02/02/2017
 ms.topic: reference
 dev_langs:
@@ -15,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: c866db5f691db56e68f6980c9c07d21ee15c0ae5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7c856836bd2ba107a2fa6c3017c5ecb2694fcf6b
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921747"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102468576"
 ---
 # <a name="ltvstoruntimegt-element-office-development-in-visual-studio"></a>&lt;&gt;элемент всторунтиме (разработка решений Office в Visual Studio)
   Элемент `vstoRuntime` пространства имен `vstav3` содержит версию среды выполнения Набора инструментов Visual Studio для Office, поддерживаемую конкретным решением Office.
@@ -39,11 +40,11 @@ ms.locfileid: "99921747"
 
  Элемент `vstoRuntime` имеет перечисленные ниже атрибуты.
 
-|Атрибут|Описание|
+|attribute|Описание|
 |---------------|-----------------|
-|`release`|Обязательный элемент. Выпускаемая версия среды выполнения Набора инструментов Visual Studio для Office.|
-|`version`|Обязательный элемент. Номер версии среды выполнения Набора инструментов Visual Studio для Office.|
-|`supportUrl`|Необязательный элемент. Ссылка на расположение установки среды выполнения Набора инструментов Visual Studio для Office.|
+|`release`|Обязательный. Выпускаемая версия среды выполнения Набора инструментов Visual Studio для Office.|
+|`version`|Обязательный. Номер версии среды выполнения Набора инструментов Visual Studio для Office.|
+|`supportUrl`|Необязательный параметр. Ссылка на расположение установки среды выполнения Набора инструментов Visual Studio для Office.|
 
  Элемент`vstoRuntime` не содержит элементов.
 
