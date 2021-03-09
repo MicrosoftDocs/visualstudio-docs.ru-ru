@@ -3,7 +3,7 @@ title: Учебник. Начало работы с C# и ASP.NET Core
 titleSuffix: ''
 description: Пошаговые инструкции по созданию веб-приложения ASP.NET Core в Visual Studio на C#.
 ms.custom: seodec18, get-started
-ms.date: 05/29/2019
+ms.date: 02/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -16,12 +16,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 63db3f62f4e7c763bf02fbfec2dd2f52c32d3264
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 026f6f2902b537312c0714b7eeb61d10e0fb980d
+ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99956364"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101683123"
 ---
 # <a name="tutorial-get-started-with-c-and-aspnet-core-in-visual-studio"></a>Учебник. Начало работы с C# и ASP.NET Core в Visual Studio
 
@@ -106,16 +106,16 @@ ms.locfileid: "99956364"
 
 1. На начальном экране выберите **Создать проект**.
 
-   ![Просмотр окна "Создание проекта"](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+   :::image type="content" source="../../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Просмотр окна &quot;Создание проекта&quot;":::
 
-1. В поле поиска окна **Создание проекта** введите *ASP.NET*. Затем выберите **C#** в списке языков и **Windows** в списке платформ.
+1. В окне **Создание проекта** выберите **C#** в списке языков. Затем выберите **Windows** в списке платформ и **Веб-сайт** в списке типов проектов.
 
-   Применив фильтры языка и платформы, выберите шаблон **Веб-приложение ASP.NET Core** и нажмите кнопку **Далее**.
+      Применив фильтры по языку, платформе и типу проекта, выберите шаблон **Веб-приложение ASP.NET Core** и щелкните **Далее**.
 
-   ![Выбор шаблона C# для веб-приложения ASP.NET Core](./media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
+   :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Выбор шаблона C# для веб-приложения ASP.NET Core":::
 
    > [!NOTE]
-   > Если шаблона **Веб-приложение ASP.NET Core** нет, его можно установить из окна **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**.
+   > Если шаблон **Консольное приложение** отсутствует, его можно установить в окне **Создание проекта**. В сообщении **Не нашли то, что искали?** выберите ссылку **Установка других средств и компонентов**.
    >
    > ![Ссылка "Установка других средств и компонентов" из сообщения "Не нашли то, что искали?" в окне "Создание проекта"](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
@@ -125,15 +125,21 @@ ms.locfileid: "99956364"
    >
    > Затем нажмите кнопку **Изменить** в Visual Studio Installer. Сохраните результаты работы, когда появится такой запрос. Выберите **Продолжить**, чтобы установить рабочую нагрузку. После этого вернитесь к шагу 2 в процедуре [Создание проекта](#create-a-project).
 
-1. В поле **Имя проекта** окна **Настроить новый проект** введите *MyCoreApp*. Затем нажмите **Создать**.
+1. В поле **Имя проекта** окна **Настроить новый проект** введите *MyCoreApp*. Нажмите кнопку **Далее**.
 
-   ![В окне "Настроить новый проект" назовите проект "MyCoreApp"](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
+   :::image type="content" source="./media/vs-2019/csharp-name-your-aspnet-app.png" alt-text="В окне &quot;Настроить новый проект&quot; назовите проект &quot;MyCoreApp&quot;":::
 
-1. Убедитесь в том, что в верхнем раскрывающемся меню окна **Создать веб-приложение ASP.NET Core** отображается **ASP.NET Core 3.0**. Выберите **Веб-приложение**, включающее примеры Razor Pages. Затем выберите **Создать**.
+1. В окне **Дополнительные сведения** убедитесь, что в раскрывающемся меню вверху указано **.NET Core 3.1**. Обратите внимание, что вы можете включить поддержку Docker, установив флажок. Также вы можете включить поддержку проверки подлинности, нажав кнопку "Изменить способ проверки подлинности". Здесь доступны следующие варианты.
+    - Нет: проверка подлинности не используется.
+    - Индивидуальные учетные записи: они хранятся в локальной базе данных или базе данных Azure.
+    - Платформа удостоверений Майкрософт: в этом варианте для проверки подлинности используется Active Directory, Azure AD или Microsoft 365.
+    - Windows: подходит для приложений интрасети.
+    
+    Не устанавливайте флажок **Включить Docker** и установите флажок **Нет** в разделе "Тип проверки подлинности". Затем выберите **Создать**.
 
-   ![Окно "Create a new ASP.NET Core Web Application" (Создание веб-приложения ASP.NET Core)](./media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
+   :::image type="content" source="./media/vs-2019/aspnet-core-additional-information.png" alt-text="В окне &quot;Дополнительные сведения&quot; убедитесь, что указано .NET Core 3.1, и сохраните все значения по умолчанию":::
 
-   Новый проект открывается в Visual Studio.
+   В Visual Studio откроется новый проект.
 
 ::: moniker-end
 

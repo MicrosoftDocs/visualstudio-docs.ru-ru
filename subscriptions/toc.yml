@@ -46,6 +46,8 @@
       href: manage-vs-subscriptions.md
     - name: При истечении срока подписки
       href: subscription-expiration.md
+    - name: Изменения уровня подписки
+      href: subscription-level-changes.md
     - name: Обратитесь к администратору подписок
       href: contact-my-admin.md
     - name: Преимущества
