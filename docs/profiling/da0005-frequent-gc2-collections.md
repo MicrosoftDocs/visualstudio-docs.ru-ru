@@ -1,4 +1,5 @@
 ---
+description: Большое число объектов памяти .NET освобождается при сборке мусора поколения 2.
 title: 'DA0005: часто используемые коллекции GC2 | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -14,12 +15,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: 5fd27843ade6217f0b465645fed4b0abfaf9365e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 73b24eba94791a9a24b80898fb7333665ed13caf
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937671"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221032"
 ---
 # <a name="da0005-frequent-gc2-collections"></a>DA0005. Часто используемые коллекции GC2
 

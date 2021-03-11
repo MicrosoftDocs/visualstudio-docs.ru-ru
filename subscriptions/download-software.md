@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
-ms.date: 10/26/2020
+ms.date: 02/18/2021
 ms.topic: conceptual
 description: Сведения о том, как найти и загрузить программное обеспечение Майкрософт в подписках Visual Studio
-ms.openlocfilehash: e6a5b6a1caab199ec2b67108f539c1d68d545551
-ms.sourcegitcommit: a731a9454f1fa6bd9a18746d8d62fe2e85e5ddb1
+ms.openlocfilehash: c53429f7fe7d88c1c75642d9f820c8a6fa444eb9
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "92903626"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102249284"
 ---
 # <a name="downloading-software-titles-in-visual-studio-subscriptions"></a>Загрузка программного обеспечения в подписках Visual Studio
 В зависимости от вашей подписки Visual Studio вам доступно различное программное обеспечение Майкрософт.  В этой статье описывается, как найти и загрузить нужное программное обеспечение для максимально эффективного использования подписки. 
@@ -51,6 +51,9 @@ ms.locfileid: "92903626"
 Чтобы получить ключ продукта для скачиваемого файла, щелкните синий ключ с меткой **Получить ключ** или, если вы уже просматриваете панель сведений, нажмите **Запросить ключ** на вкладке **Ключи**.
 > [!div class="mx-imgBorder"]
 > ![Запрос ключей продуктов Visual Studio 2019](_img/subscriber-downloads/vs2019-claim-keys.png "Нажмите Запросить ключи, чтобы запросить остальные ключи.")
+
+## <a name="resources"></a>Ресурсы
+- [Поддержка по подпискам Visual Studio](https://my.visualstudio.com/gethelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

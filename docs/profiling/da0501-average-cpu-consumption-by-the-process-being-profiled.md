@@ -1,5 +1,6 @@
 ---
 title: DA0501. Средняя загрузка ЦП профилируемым процессом. | Документы Майкрософт
+description: Это сообщение указывает долю времени, когда процессор был занят выполнением инструкций, поступающих из приложения.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -13,12 +14,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: 65fed5b7afd6c8b1a678a9ef94b8c86e6dc88500
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 242a3ff10042a53997b17f662af145440df2e95a
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99918084"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102465833"
 ---
 # <a name="da0501-average-cpu-consumption-by-the-process-being-profiled"></a>DA0501. Средняя загрузка ЦП профилируемым процессом.
 

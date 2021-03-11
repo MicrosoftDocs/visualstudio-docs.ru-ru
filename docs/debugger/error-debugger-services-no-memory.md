@@ -1,4 +1,5 @@
 ---
+description: Службам отладки не хватило памяти, что привело к завершению сеанса отладки.
 title: Службам отладки недостаточно памяти | Документация Майкрософт
 ms.date: 07/10/2019
 ms.topic: troubleshooting
@@ -16,12 +17,12 @@ ms.author: isgarcia
 manager: caslan
 ms.workload:
 - multiple
-ms.openlocfilehash: 12215f9c740e68c4f2749a51b06c09a1385dae1a
-ms.sourcegitcommit: 5f6ad1cefbcd3d531ce587ad30e684684f4c4d44
+ms.openlocfilehash: d881248652d644e9a82725b0d083d095ff72f885
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72737844"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102147046"
 ---
 # <a name="debugger-services-running-out-of-memory"></a>Службам отладки недостаточно памяти
 Службам отладки не хватило памяти, что привело к завершению сеанса отладки.

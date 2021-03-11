@@ -1,4 +1,5 @@
 ---
+description: Эта ошибка возникает, если в отладчике выполняется попытка автоматического присоединения к веб-приложению, которое использует IP-адрес.
 title: Сайт использует IP-адрес | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: error-reference
@@ -16,12 +17,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: d574a10ba081a30f88583e035a18869e68976d18
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fa18ea975bacbda38a18c27d19d438ab5b4da0b5
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99871355"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102146746"
 ---
 # <a name="error-site-uses-ip-address"></a>Ошибка: веб-узел использует IP-адрес
 Эта ошибка возникает, если в отладчике выполняется попытка автоматического присоединения к веб-приложению, которое использует IP-адрес. Это происходит при изменении в IIS параметра **идентификация веб-узла** на значение **определенный IP-адрес**.

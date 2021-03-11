@@ -1,6 +1,6 @@
 ---
 title: Отладка исключений ASP.NET | Документация Майкрософт
-Description: Узнайте, как настроить отладчик для остановки при обнаружении необработанных исключений в приложении ASP.NET. Можно обеспечить прерывание при обработке несистемного кода.
+description: Узнайте, как настроить отладчик для остановки при обнаружении необработанных исключений в приложении ASP.NET. Можно обеспечить прерывание при обработке несистемного кода.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - aspnet
-ms.openlocfilehash: 00823fd1a5029cb45b91a6beb4168f8a9cbd999a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ebf53569e2c104b49acdadba36203f9d6409e215
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99913262"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102160425"
 ---
 # <a name="how-to-debug-aspnet-exceptions"></a>Практическое руководство. отладку исключений ASP.NET
 Отладка исключений является важной частью разработки надежного приложения [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]. См. общие сведения об отладке исключений в руководстве по [обработке исключений с помощью отладчика](../debugger/managing-exceptions-with-the-debugger.md).

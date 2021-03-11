@@ -1,4 +1,5 @@
 ---
+description: Представляет уровень важности маркера визуализатора параллелизма.
 title: Перечисление marker_importance | Документы Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: f1559dc6c5aa24c54465aee6d29f0745be6c897c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2c2e7560c91882afe1ee2608bb2ae2fc105738dc
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99917818"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223944"
 ---
 # <a name="marker_importance-enumeration"></a>Перечисление marker_importance
 Представляет уровень важности маркера визуализатора параллелизма.
@@ -32,7 +33,7 @@ enum marker_importance;
 
 ### <a name="values"></a>Значения
 
-|name|Описание|
+|Имя|Описание|
 |----------|-----------------|
 |`critical_importance`|Указывает, что маркер имеет критическую важность.|
 |`high_importance`|Указывает, что маркер имеет высокую важность.|

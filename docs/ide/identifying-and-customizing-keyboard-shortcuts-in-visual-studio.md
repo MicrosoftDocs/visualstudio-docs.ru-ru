@@ -1,4 +1,5 @@
 ---
+description: Вы можете определить сочетания клавиш для команд Visual Studio, настроить эти сочетания клавиш и экспортировать их для других пользователей.
 title: Определение и настройка сочетаний клавиш
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -17,12 +18,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 84d78a86c64cd85ea8738ec9038c5e64642ca950
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4686a6459f62fceeebe202cf52d7c30cf99f6fc3
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935954"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221253"
 ---
 # <a name="identify-and-customize-keyboard-shortcuts-in-visual-studio"></a>Определение и настройка сочетаний клавиш в Visual Studio
 
@@ -139,7 +140,7 @@ ms.locfileid: "99935954"
 
 4. В окне **Мои параметры** выберите файл, содержащий нужные сочетания клавиш, или нажмите кнопку **Обзор**, чтобы найти нужный файл.
 
-5. Щелкните **Далее**.
+5. Нажмите кнопку **Далее**.
 
 6. В области **Выберите параметры для импорта** снимите флажок **Все параметры**, разверните узел **Параметры**, а затем узел **Среда**.
 
@@ -147,6 +148,6 @@ ms.locfileid: "99935954"
 
    ![Импортировать только настроенные сочетания клавиш](../ide/media/importshortcuts.png)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Специальные возможности Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

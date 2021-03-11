@@ -1,6 +1,6 @@
 ---
 title: Отладка элемента управления ActiveX | Документация Майкрософт
-Description: Сведения о том, как выполнять отладку элемента управления ActiveX. Необходимо указать исполняемый файл, содержащий элемент управления. Это можно выполнить на страницах свойств проекта или в начале отладки.
+description: Сведения о том, как выполнять отладку элемента управления ActiveX. Необходимо указать исполняемый файл, содержащий элемент управления. Это можно выполнить на страницах свойств проекта или в начале отладки.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -26,12 +26,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 83522eb13350d86ef0531d90b3db844ece8f6655
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6728b498da91f540d92182ad60f23e490d614948
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99913403"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102160399"
 ---
 # <a name="how-to-debug-an-activex-control"></a>Практическое руководство. отладку элемента управления ActiveX
 

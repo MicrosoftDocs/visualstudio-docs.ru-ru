@@ -15,12 +15,12 @@ metadata:
   ms.manager: jillfra
   monikerRange: '>=vs-2017'
   hide_bc: true
-  ms.openlocfilehash: f5bd4eadd557a2ed365532dc76203bd1d4f7ec4f
-  ms.sourcegitcommit: 8e15b434bf5db3e0f719320ca82682df1a3da110
+  ms.openlocfilehash: 93e7b9d7e6c9d0004e3c4cf72d5ad10be359000a
+  ms.sourcegitcommit: 6f18481e4f84d86a837ec5d0e8f12fff1a1a8b65
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/27/2021
-  ms.locfileid: "98883648"
+  ms.lasthandoff: 03/11/2021
+  ms.locfileid: "102782841"
 productDirectory:
   items:
   - title: Visual Studio
@@ -57,7 +57,7 @@ productDirectory:
     - url: https://code.visualstudio.com
       text: Страница продукта
   - title: GitHub Codespaces
-    imageSrc: ./media/github-mark-32px.svg
+    imageSrc: https://docs.microsoft.com/media/logos/logo_octokitty.svg
     links:
     - url: https://docs.github.com/github/developing-online-with-codespaces/
       text: Документация

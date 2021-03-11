@@ -1,5 +1,6 @@
 ---
 title: 'DA0013: интенсивное использование String.Split или String.Substring | Документация Майкрософт'
+description: Вызовы методов System.String.Split и System.String.Substring составляют значительную часть данных профилирования.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -17,12 +18,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d5ec92544809a83825451494b01fd62a0868ee4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2f4426a7bc249efacbd200ccd9847954a38e853e
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99916801"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102469915"
 ---
 # <a name="da0013-high-usage-of-stringsplit-or-stringsubstring"></a>DA0013. Интенсивное использование String.Split или String.Substring
 

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
-ms.date: 09/08/2020
+ms.date: 02/18/2021
 ms.topic: how-to
 description: Сведения о том, как обратиться к администратору подписки за помощью с вопросами или проблемами.
-ms.openlocfilehash: 363fc84d0607e511d259153dc3e39d4b4063ff42
-ms.sourcegitcommit: fb2a60cfdf78964fa0cb6783a5d947deae04b6bc
+ms.openlocfilehash: 4eb17f5480b3839248d0968b6c20434c149bb756
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93289975"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102250046"
 ---
 # <a name="get-assistance-from-your-subscriptions-admin"></a>Получение помощи от администратора подписок
 Если ваша подписка на Visual Studio предоставляется вашим работодателем или учебным заведением, вероятно, она была назначена вам администратором подписок.  Администраторы могут назначать или удалять подписки, изменять адреса электронной почты для входа, определять возможность загрузки программного обеспечения и выполнять другие функции, связанные с вашей подпиской.
@@ -33,7 +33,7 @@ ms.locfileid: "93289975"
 > **Суперадминистраторы:**  Чтобы задать адрес электронной почты, на который отправляются запросы "Обратиться к администратору", укажите его в [параметрах соглашения](admin-prefs.md#contact-email-address).
 
 ## <a name="resources"></a>Ресурсы
-- [Поддержка по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/subscriptions/support/#talktous)
+- [Поддержка по подпискам Visual Studio](https://my.visualstudio.com/gethelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

@@ -1,5 +1,6 @@
 ---
 title: сбой проверки подлинности Kerberos | Документация Майкрософт
+description: Эта ошибка возникает, когда монитор удаленной отладки Visual Studio выполняется от имени учетной записи локальной системы (LocalSystem) или учетной записи сетевой службы (NetworkService).
 ms.date: 11/04/2016
 ms.topic: error-reference
 f1_keywords:
@@ -14,12 +15,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: dd5b68c0312c3974667775f90ab4fec911206342
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 41ffc4e5cb71c78462c9dbfd18472a4fc4e57c7d
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99871628"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102466242"
 ---
 # <a name="error-kerberos-authentication-failed"></a>Ошибка: сбой проверки подлинности Kerberos
 В ходе удаленной отладки может возникнуть следующее сообщение об ошибке:

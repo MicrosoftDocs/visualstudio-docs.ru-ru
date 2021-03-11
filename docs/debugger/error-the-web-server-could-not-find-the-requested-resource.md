@@ -1,4 +1,5 @@
 ---
+description: Службами IIS возвращена общая ошибка, связанная с безопасностью.
 title: веб-сервер не обнаружил запрашиваемый ресурс | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: error-reference
@@ -14,12 +15,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 21b1a97f93909a06ea9a542f83d4a4349b6f3a20
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e3509094e25447cedc6e46d7d811d65c39ea83e1
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99871251"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102146617"
 ---
 # <a name="error-the-web-server-could-not-find-the-requested-resource"></a>Ошибка: веб-сервер не обнаружил запрашиваемый ресурс
 Службами IIS возвращена общая ошибка, связанная с безопасностью.

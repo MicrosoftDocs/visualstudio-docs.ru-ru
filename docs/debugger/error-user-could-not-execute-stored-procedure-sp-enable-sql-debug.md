@@ -1,4 +1,5 @@
 ---
+description: Хранимую процедуру sp_enable_sql_debug не удалось выполнить на сервере.
 title: Пользователю не удалось выполнить хранимую процедуру sp_enable_sql_debug | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: error-reference
@@ -12,12 +13,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 41576d83ecff9f501b56ecc3fef3878f7c8a00b6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8c7597acb201aa810d34fe0df0f0aebbbd2f70fe
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99870913"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102146292"
 ---
 # <a name="error-user-could-not-execute-stored-procedure-sp_enable_sql_debug"></a>Ошибка: Пользователю не удалось выполнить хранимую процедуру sp_enable_sql_debug
 

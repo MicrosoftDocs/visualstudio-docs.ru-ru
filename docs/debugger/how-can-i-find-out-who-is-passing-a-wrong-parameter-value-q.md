@@ -1,6 +1,6 @@
 ---
 title: Как определить, откуда передается неправильное значение параметра? | Документация Майкрософт
-Description: Вы можете узнать, какой код вызывает функцию и передает неправильное значение параметра, с помощью условной точки останова.
+description: Вы можете узнать, какой код вызывает функцию и передает неправильное значение параметра, с помощью условной точки останова.
 ms.custom: SEO-VS-2020, seodec18
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: d159198137c70810bc47cc79caf18ac178aeecd6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cb4b3c41b46817d15a13626983ccf55ffa9acc5f
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912272"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102155184"
 ---
 # <a name="how-can-i-find-out-who-is-passing-a-wrong-parameter-value"></a>Как определить, откуда передается неправильное значение параметра?
 ## <a name="problem-description"></a>Описание проблемы

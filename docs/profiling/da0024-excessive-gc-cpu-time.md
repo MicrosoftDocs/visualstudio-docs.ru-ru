@@ -1,5 +1,6 @@
 ---
 title: 'DA0024: избыточное время сборки мусора в ЦП | Документация Майкрософт'
+description: Данные о производительности системы, собранные во время профилирования указывают, что время, затраченное на сборку мусора, слишком велико по сравнению с общим временем обработки приложения.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -13,12 +14,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: 28b9f5af736e07d6e61d3c175b13202c54a4d0d7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5de3d2e65707e9f6451c60b1a6210cb25c0b6902
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99847873"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102465976"
 ---
 # <a name="da0024-excessive-gc-cpu-time"></a>DA0024. Избыточное время сборки мусора в ЦП
 

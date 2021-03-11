@@ -1,5 +1,6 @@
 ---
 title: 'DA0008: собрано мало выборок | Документация Майкрософт'
+description: В сеансе профилирования было собрано небольшое число выборок.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -14,12 +15,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: 59f04b037cbe5ad1a785e0e39a4b4a968a516ab0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 483b08972d768e8c0d492f467d845642b5afcea7
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99916841"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102469901"
 ---
 # <a name="da0008-few-samples-collected"></a>DA0008. Собрано мало выборок
 

@@ -1,6 +1,6 @@
 ---
 title: Отладка исходного кода .NET Framework | Документация Майкрософт
-Description: Сведения об отладке исходного кода .NET Framework. Для этого вам потребуется выполнить настройку и скачать отладочные символы.
+description: Сведения об отладке исходного кода .NET Framework. Для этого вам потребуется выполнить настройку и скачать отладочные символы.
 ms.custom: SEO-VS-2020
 ms.date: 11/19/2018
 ms.topic: how-to
@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 890aeef41a9a0f4d893cfcf57d42b78ff32d88c4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2e762b28cfaf239e5edb38b1be3981496e56d72d
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846885"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102154994"
 ---
 # <a name="how-to-debug-net-framework-source"></a>Практическое руководство. Отладка исходного кода .NET Framework
 

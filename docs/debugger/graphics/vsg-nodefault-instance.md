@@ -1,4 +1,5 @@
 ---
+description: Определяет своим наличием, предоставляется ли экземпляр по умолчанию класса VsgDbg Class, предоставляющего интерфейс программного захвата.
 title: VSG_NODEFAULT_INSTANCE | Документация Майкрософт
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,12 +9,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ed60fb5262a6af07966ff974b8535ae299f3fc51
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: eccdd71c66a9f25e1b0a26f4ea851bcccb738a0b
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861417"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102155250"
 ---
 # <a name="vsg_nodefault_instance"></a>VSG_NODEFAULT_INSTANCE
 Определяет своим наличием, предоставляется ли экземпляр по умолчанию класса [VsgDbg Class](vsgdbg-class.md), предоставляющего интерфейс программного захвата.

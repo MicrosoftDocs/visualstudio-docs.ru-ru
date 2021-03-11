@@ -1,4 +1,5 @@
 ---
+description: Интегрированная среда разработки Visual Studio — это оригинальная среда запуска для Python и других языков программирования, которая позволяет редактировать, отлаживать и тестировать код, а затем публиковать приложения.
 title: Общие сведения о Visual Studio для разработчиков на Python
 titleSuffix: ''
 ms.date: 03/13/2019
@@ -11,12 +12,12 @@ dev_langs:
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: d90ee69b8ee7f264a48d6ae01f77ea65e5d1c1b9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7e4a0c227f8c833febf20ed4e8dba82b814e3223
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99908793"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223788"
 ---
 # <a name="welcome-to-the-visual-studio-ide--python"></a>Введение в интегрированную среду разработки Visual Studio (Python)
 

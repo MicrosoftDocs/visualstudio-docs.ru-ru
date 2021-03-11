@@ -1,4 +1,5 @@
 ---
+description: В этом окне можно просматривать и изменять свойства времени разработки и события выбранных объектов, которые находятся в редакторах и конструкторах.
 title: Окно «Свойства»
 ms.date: 11/04/2016
 ms.topic: reference
@@ -20,12 +21,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3ff6435aa006de851a14f4f04570d086a86a5999
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ddbfb4d001f73e30296a35c2cff4aae0e0c527f9
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99967986"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221123"
 ---
 # <a name="properties-window"></a>Окно "Свойства"
 
@@ -83,7 +84,7 @@ ms.locfileid: "99967986"
 Поиск\
 Предоставляет функцию поиска для свойств и событий при редактировании XAML-файлов в конструкторе. Поле поиска реагирует на поиск частично введенных слов и обновляет результаты поиска по мере ввода.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Справочник по свойствам проектов](../../ide/reference/project-properties-reference.md)
 - [Настройка макетов окон](../../ide/customizing-window-layouts-in-visual-studio.md)

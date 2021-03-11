@@ -1,4 +1,5 @@
 ---
+description: Записывает сообщение в файл трассировки визуализатора параллелизма.
 title: Метод marker_series::write_message | Документы Майкрософт
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,12 +13,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c5610cc623476fa395fae7bf68c2ffa127c96e2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 71a7e1783e470ee5ca1b7f1f18cd3d06cf1b5f49
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927903"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223879"
 ---
 # <a name="marker_serieswrite_message-method"></a>Метод marker_series::write_message
 Записывает сообщение в файл трассировки визуализатора параллелизма.

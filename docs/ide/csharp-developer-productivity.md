@@ -10,12 +10,12 @@ helpviewer_keywords:
 - editor
 ms.workload:
 - dotnet
-ms.openlocfilehash: 036c59e54ba2e2068cf1bfa7eb05b67059cdf855
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a3ac2e91ed9166a2eb8bdc4a19f2143c4fc71640
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942949"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102161317"
 ---
 # <a name="visual-studio-productivity-guide-for-c-developers"></a>Руководство по повышению производительности работы в Visual Studio для разработчиков на платформе C#
 
@@ -29,7 +29,7 @@ ms.locfileid: "99942949"
 
 ::: moniker-end
 
-Если вы переходите из другой интегрированной среды разработки или среды написания кода, вы можете изменить схему клавиатуры на *Visual Studio Code* или *ReSharper (Visual Studio)* :
+Если вы переходите из другой интегрированной среды разработки или среды написания кода, вы можете изменить схему клавиатуры на *Visual Studio Code* или *ReSharper (Visual Studio)*:
 
 ![Схемы клавиатуры в Visual Studio](../ide/media/VS2017Guide-Keyboard.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "99942949"
 
 Ниже приведены широко используемые сочетания клавиш в Visual Studio.
 
-| Сочетание клавиш (все профили) | Get-Help | Description |
+| Сочетание клавиш (все профили) | Команда | Описание |
 |-|-|-|
 | **CTRL**+**T** | Перейти ко всем | Переход к любому объявлению файла, типа, элемента или символа |
 | **F12** (также **CTRL**+**щелчок**) | Перейти к определению | Переход к месту определения символа |
@@ -53,7 +53,7 @@ ms.locfileid: "99942949"
 | **SHIFT**+**ALT**+ **+** / **-** | Расширение или сужение выделенного фрагмента | Расширение или сужение выделенного в настоящее время фрагмента в редакторе (доступно в **Visual Studio 2017 версии 15.5** или более поздней) |
 | **SHIFT** + **ALT** +  **.** | Переместить курсор на следующее совпадение | Добавляет выделение и курсор в следующем месте, соответствующем текущему выделению (доступно в **Visual Studio 2017 версии 15.8** и более поздних версий) |
 | **CTRL**+**Q** | Поиск | Поиск всех параметров Visual Studio |
-| **F5** | Начать отладку | Начало отладки приложения |
+| **F5** | Начало отладки | Начало отладки приложения |
 | **CTRL**+**F5** | Запуск без отладки | Запуск приложения без отладки |
 | **CTRL**+**K**,**D** (профиль по умолчанию) или **CTRL**+**E**,**D** (профиль C#) | Форматировать документ | Очистка нарушений форматирования в файле на основе заданных параметров перевода строки, интервалов и отступов |
 | **CTRL**+ **\\** ,**CTRL**+**E** (профиль по умолчанию) или **CTRL**+**W**,**E** (профиль C#) | Просмотреть список ошибок | Просмотр всех ошибок в документе, проекте или решении |
@@ -132,7 +132,7 @@ ms.locfileid: "99942949"
 - Создание метода
 - Перемещение типа в файл
 - Добавление проверки значений NULL
-- Добавление параметра
+- Добавить параметр
 - Удаление ненужных директив using
 - Преобразование цикла Foreach в запрос LINQ или метод LINQ
 - Подъем элементов
@@ -143,10 +143,23 @@ ms.locfileid: "99942949"
 
 Участники сообщества написали бесплатные расширения, которые реализуют дополнительные проверки кода:
 
+::: moniker range="vs-2017"
+
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
 - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
 - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 - [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
+- [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2019)
+- [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
+- [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
+
+::: moniker-end
 
 ![Рефакторинг в Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
 
@@ -154,7 +167,7 @@ ms.locfileid: "99942949"
 
 Visual Studio обладает множеством функций, упрощающих [навигацию и поиск по коду](../ide/navigating-code.md).
 
-| Компонент | Клавиша | Сведения и усовершенствования |
+| Компонент | Сочетание клавиш | Сведения и усовершенствования |
 |- | - | -|
 | Найти все ссылки | **SHIFT**+**F12**| Результаты выделяются цветом и могут быть сгруппированы по проекту, определению и ссылочному типу, например read или write. Можно также "блокировать" результаты. |
 | Перейти к реализации | **CTRL**+**F12** | Вы можете использовать команду "Перейти к определению" для ключевого слова `override`, чтобы перейти к переопределяемому члену. |

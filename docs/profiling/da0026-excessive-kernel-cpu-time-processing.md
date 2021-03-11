@@ -1,5 +1,6 @@
 ---
 title: 'DA0026: обработка чрезмерного времени ядра ЦП | Документация Майкрософт'
+description: Доля времени ЦП в режиме ядра превысила время, затраченное в пользовательском режиме.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -13,12 +14,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: b1f3231fce4954d3ace5e04e470cda386a9ceebe
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d39318433194693ee2b2cbbc8a94753cf2acd75d
+ms.sourcegitcommit: 8590cf6b3351e82827fd21159beefef0c02bf162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99936747"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102465872"
 ---
 # <a name="da0026-excessive-kernel-cpu-time-processing"></a>DA0026. Обработка чрезмерного времени ядра ЦП
 

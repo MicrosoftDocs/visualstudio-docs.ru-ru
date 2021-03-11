@@ -1,6 +1,6 @@
 ---
 title: Как определить, повреждают ли указатели адрес памяти? | Документация Майкрософт
-Description: Чтобы определить, не повреждает ли указатель память, можно выполнить поиск повреждения кучи, а также задать точку останова по данным и узнать, как изменяется значение.
+description: Чтобы определить, не повреждает ли указатель память, можно выполнить поиск повреждения кучи, а также задать точку останова по данным и узнать, как изменяется значение.
 ms.custom: SEO-VS-2020, seodec18
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a1857d349f339a537748f11154b43f7d30c7bdb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d95e38c6393d6576f2867aad5d1224940f33cebc
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910033"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102155204"
 ---
 # <a name="how-can-i-find-out-if-my-pointers-corrupt-a-memory-address"></a>Как определить, повреждают ли указатели адрес памяти?
 ## <a name="problem-description"></a>Описание проблемы
