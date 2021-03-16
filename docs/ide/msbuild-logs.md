@@ -2,7 +2,7 @@
 title: Устранение неполадок и создание журналов по проблемам MSBuild
 description: Сведения о том, как диагностировать проблемы сборки в проекте Visual Studio и при необходимости создавать журнал для отправки в корпорацию Майкрософт на изучение.
 ms.custom: SEO-VS-2020
-ms.date: 06/27/2019
+ms.date: 02/08/2021
 ms.technology: vs-ide-compile
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -17,12 +17,12 @@ dev_langs:
 ms.workload:
 - multiple
 ms.description: Generate build logs for msbuild projects to collect helpful information when troubleshooting issues.
-ms.openlocfilehash: d9308bff68a5a5377c025bba5861ac344dcb0326
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3496eb5a0e8f699a994037ccc853a76e4f93e4ee
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880493"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102225222"
 ---
 # <a name="troubleshoot-and-create-logs-for-msbuild-problems"></a>Устранение неполадок и создание журналов по проблемам MSBuild
 
@@ -99,22 +99,41 @@ ms.locfileid: "99880493"
 1>Project is not up-to-date: build input 'f:\test\project1\project1\project1.h' was modified after the last build finished.
 ```
 
-## <a name="create-a-binary-msbuild-log"></a>Создание двоичного журнала MSBuild
+## <a name="create-a-binary-msbuild-log-at-the-command-prompt"></a>Создание двоичного журнала MSBuild в командной строке
 
 1. Откройте Командную строку разработчика для вашей версии Visual Studio.
+
 1. В окне командной строки выполните приведенные ниже команды. (Используйте только фактические значения конфигурации и проекта.)
 
-    ```cmd
-    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /bl MySolution.sln
-    ```
+   ```cmd
+   Msbuild /p:Configuration="MyConfiguration";Platform="x86" /bl MySolution.sln
+   ```
 
-    or
+   or
 
-    ```cmd
-    Msbuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /bl MyProject.vcxproj
-    ```
+   ```cmd
+   Msbuild /p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /bl MyProject.vcxproj
+   ```
 
-Файл Msbuild.binlog будет создан в каталоге, из которого вы запустили MSBuild. Этот файл вы можете найти и просмотреть с помощью [средства просмотра структурированных журналов Msbuild](http://www.msbuildlog.com/).
+Файл *msbuild.binlog* будет создан в каталоге, из которого вы запустили MSBuild.
+
+## <a name="create-a-binary-msbuild-log-by-using-the-project-system-tools-extension"></a>Создание двоичного журнала MSBuild с помощью расширения Project System Tools
+
+1. Скачайте и установите [расширение Project System Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools).
+
+1. После установки расширения в меню **Вид** > **Другие окна** появятся некоторые новые элементы.
+
+   ![Меню "Другие окна"](../ide/media/view-menu.png)
+
+1. Выберите **Вид** > **Другие окна** > **Журнал сборки**, чтобы открыть окно **Журнал сборки** в Visual Studio. Выберите первый значок панели инструментов, чтобы начать запись обычных сборок или сборок времени разработки в системе проекта.
+
+   ![Окно "Журнал сборки"](../ide/media/build-logging-click-to-record.png)
+
+1. После записи сборка отобразится в окне "Журнал сборки". Щелкните ее правой кнопкой мыши и выберите в контекстном меню пункт **Сохранить журналы**, чтобы сохранить файл *.binlog*.
+
+   ![Контекстное меню для журнала сборки](../ide/media/build-logging-context-menu.png)
+
+Вы можете найти и просмотреть файлы *.binlog* с помощью [средства просмотра структурированных журналов MSBuild](http://www.msbuildlog.com/).
 
 ## <a name="create-a-detailed-log"></a>Создание подробного журнала
 

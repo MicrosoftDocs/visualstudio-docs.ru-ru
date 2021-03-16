@@ -9,12 +9,12 @@ manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
-ms.openlocfilehash: 10bfed2a9a2a0ce466e1b3276a487695d40fb580
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 65785384746fa3f16dd25f0405e5ead45c553c21
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99964567"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221162"
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>Настройка модульных тестов с помощью файла *.runsettings*
 
@@ -82,6 +82,9 @@ ms.locfileid: "99964567"
 
 #### <a name="autodetect-the-run-settings-file"></a>Автоматическое определение параметров запуска
 
+> [!NOTE]
+> Оно будет работать только для файла с именем `.runsettings`.
+
 Чтобы файл параметров запуска определялся автоматически, поместите его в корень решения.
 
 Если включено автоматическое определение файлов параметров запуска, параметры в этом файле применяются ко всем тестовым запускам. Вы можете включить автоматическое обнаружение RUNSETTINGS-файлов двумя способами.
@@ -135,7 +138,7 @@ ms.locfileid: "99964567"
 
 Для запуска тестов из командной строки используйте *vstest.console.exe* и укажите файл параметров с помощью параметра **/Settings**.
 
-1. Откройте [Командную строку разработчика](/dotnet/framework/tools/developer-command-prompt-for-vs) Visual Studio.
+1. Откройте [командную строку разработчика для Visual Studio](../ide/reference/command-prompt-powershell.md).
 
 2. Введите команду, подобную следующей:
 

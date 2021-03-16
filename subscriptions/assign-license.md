@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 09/21/2020
+ms.date: 02/18/2021
 ms.topic: conceptual
 description: Сведения о том, как администраторы могут назначать лицензии подписчикам.
-ms.openlocfilehash: dd80a14a3ff57100f210fd7ae1b882c0ab7a9faf
-ms.sourcegitcommit: 8e9c38da7bcfbe9a461c378083846714933a0e1e
+ms.openlocfilehash: 3bfa1174a8655de27496c3138e1eab21e32c2f8d
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96915418"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102249549"
 ---
 # <a name="assign-licenses-in-the-visual-studio-subscriptions-administration-portal"></a>Назначение лицензий на портале администрирования подписок Visual Studio
 Администраторы подписок Visual Studio могут использовать портал администрирования для назначения подписок отдельным пользователям и группам пользователей.
@@ -67,6 +67,8 @@ ms.locfileid: "96915418"
 После добавления подписчику автоматически отправляется сообщение электронной почты о назначении, содержащее дальнейшие инструкции. Сообщение о назначении можно снова отправить в любое время, выбрав подписчика и нажав кнопку **Повторить отправку** в верхнем меню.  Чтобы повторно отправить электронное сообщение нескольким пользователям, удерживайте нажатой клавишу **Ctrl** при выборе подписчиков.  Если нажать кнопку **Повторить отправку**, появится диалоговое окно с запросом на подтверждение повторной отправки подписчикам.  
 
 
+## <a name="resources"></a>Ресурсы
+- Требуется помощь?  Обратитесь в [службу поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
@@ -74,7 +76,5 @@ ms.locfileid: "96915418"
 - [Документация по Azure](/azure/)
 - [Документация по Microsoft 365](/microsoft-365/)
 
-
 ## <a name="next-steps"></a>Следующие шаги
 - Нужно добавить много пользователей?  Узнайте, как назначать подписки [нескольким подписчикам](assign-license-bulk.md).
-- Нужна помощь?  Обратитесь в [службу поддержки по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/support/support-overview-vs).

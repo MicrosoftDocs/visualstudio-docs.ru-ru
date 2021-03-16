@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 92e8957f-c690-46bd-a812-3efd06a2bc6b
-ms.date: 10/21/2020
+ms.date: 02/19/2021
 ms.topic: how-to
 description: Сведения о преимуществе CAST Highlight, доступном в некоторых подписках Visual Studio.
-ms.openlocfilehash: fbc7b6278d29d96ed8d97933c295468c7d3e2754
-ms.sourcegitcommit: 29099741fcf94a5aef2655ee16605728b8b9a0ea
+ms.openlocfilehash: 0acc7b62dbac66d25e61dcddfeee0c9124d66694
+ms.sourcegitcommit: 35fa920126b34c8d3839da53e3a4c2c6f509968f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96538141"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102473326"
 ---
 # <a name="the-cast-highlight-benefit-in-visual-studio-subscriptions"></a>Преимущество CAST Highlight в подписках Visual Studio
 При миграции в облако разработчикам необходимы важные аналитические сведения о переносимом программном обеспечении. С помощью CAST Highlight подписчики Visual Studio могут быстро проверить исходный код приложения, чтобы определить его готовность к облаку для миграции в Azure, и отслеживать ход выполнения во время и после миграции приложения.
@@ -98,7 +98,7 @@ ms.locfileid: "96538141"
   - [Отправка запроса на получение поддержки](https://casthighlight.com/support/)
   - [Руководство по началу работы (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
 
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps Services или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

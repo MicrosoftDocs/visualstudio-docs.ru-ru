@@ -2,7 +2,7 @@
 title: Новые возможности Visual Studio 2019
 titleSuffix: ''
 description: Сведения о новых возможностях Visual Studio 2019.
-ms.date: 03/02/2021
+ms.date: 03/04/2021
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: e3dc790310fdff71539c6cae354a0170ec36e65e
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 8371b9baa22b72eff0c829426b1b39bcf42398f2
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101684032"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221188"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Новые возможности Visual Studio 2019
 
@@ -52,6 +52,14 @@ ms.locfileid: "101684032"
    ![Анимация нового интерфейса поиска в Visual Studio 2019](media/vs-2019/new-search-feature.gif "Новый интерфейс поиска в Visual Studio 2019.")
 
 Новая логика поиска нечетких соответствий поможет вам найти все, что вам требуется, независимо от наличия опечаток. Новая функция поиска упрощает поиск команд, параметров, документации и многих других полезных вещей.
+
+Дополнительные сведения см. в статье [Использование поиска в Visual Studio](visual-studio-search.md).
+
+#### <a name="intelligent-search-service"></a>Интеллектуальная служба поиска
+
+**Новые возможности в версии 16.9:** с помощью технологий на основе облака, ИИ и машинного обучения мы улучшили результативность поиска. Теперь поиск Visual Studio не только предоставляет более релевантные результаты, но и помогает вам быстрее найти информацию о функциях продуктов.
+
+Дополнительные сведения см. в записи блога об [интеллектуальной службе поиска в Visual Studio](https://devblogs.microsoft.com/visualstudio/intelligent-visual-studio-search-service/).
 
 ### <a name="refactorings"></a>Рефакторинг
 

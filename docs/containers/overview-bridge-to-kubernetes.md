@@ -9,12 +9,12 @@ monikerRange: '>=vs-2019'
 manager: jmartens
 author: ghogen
 ms.author: ghogen
-ms.openlocfilehash: 253b50ff4778458b28375b06b7fb7f24f4d85054
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d44dc484da904d2692b90e23d10db6edc6f6e7b8
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99867572"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102223164"
 ---
 # <a name="how-bridge-to-kubernetes-works"></a>Как работает Bridge to Kubernetes
 

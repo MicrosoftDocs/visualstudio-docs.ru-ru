@@ -2,19 +2,19 @@
 title: Создание переопределений методов Equals и GetHashCode C#
 description: Узнайте, как использовать меню "Быстрые действия и рефакторинг" для создания методов Equals и GetHashCode.
 ms.custom: SEO-VS-2020
-ms.date: 01/26/2018
+ms.date: 03/08/2021
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 04c054dd73e437907c0943e3e6f0af5003dee37e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6a9d0ea6f6cb0aedc4fa13a8014b1a8bd66ccca0
+ms.sourcegitcommit: 6ed6ae5a1693607dce57923a78d01eea3d88b29a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962786"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102514968"
 ---
 # <a name="generate-equals-and-gethashcode-method-overrides-in-visual-studio"></a>Создание переопределений для методов Equals и GetHashCode в Visual Studio
 
@@ -28,9 +28,9 @@ ms.locfileid: "99962786"
 
 **Зачем?**
 
-- Если вы реализуете тип значения, рекомендуем переопределить метод **Equals**, чтобы повысить производительность по сравнению со стандартной реализацией метода Equals в ValueType.
+- При реализации типа значения рекомендуется переопределить метод **Equals**. При этом обеспечивается повышенная производительность по сравнению с реализацией метода Equals по умолчанию для ValueType.
 
-- При реализации ссылочного типа рекомендуем переопределить метод **Equals**, если ваш тип выглядит как базовый, например Point, String, BigNumber и т. д.
+- При реализации ссылочного типа рекомендуется переопределить метод **Equals**, если ваш тип выглядит как базовый, например Point, String, BigNumber и т. д.
 
 - Переопределите метод **GetHashCode**, чтобы тип правильно работал в хэш-таблице. Дополнительные сведения см. в руководстве по [операторам равенства](/dotnet/standard/design-guidelines/equality-operators).
 
@@ -38,22 +38,32 @@ ms.locfileid: "99962786"
 
 1. Поместите курсор в любую позицию на строке объявления типа.
 
-   ![Выделенный код](media/overrides-highlight-cs.png)
+    ```csharp
+    public class ImaginaryNumber
+    {
+        public double RealNumber { get; set; }
+        public double ImaginaryUnit { get; set; }
+    }
+    ```
+
+   Теперь код должен выглядеть как на следующем снимке экрана:
+
+   ![Снимок экрана: выделенный код, в котором применяется созданный метод](media/overrides-highlight-cs.png)
 
    > [!TIP]
    > Не выбирайте имя типа двойным щелчком, иначе параметр меню будет недоступен. Просто установите курсор в любую позицию на строке.
 
-1. Затем выполните одно из следующих действий:
+1. Далее выберите одно из следующих действий:
 
    - Нажмите клавиши **CTRL**+ **.** чтобы открыть меню **Быстрые действия и рефакторинг**.
 
    - Щелкните правой кнопкой мыши и выберите меню **Быстрые действия и рефакторинг**.
 
-   - Нажмите кнопку ![с отверткой](../media/screwdriver-icon.png) , которая отображается в левом поле.
-
-   ![Создание переопределений — предварительный просмотр](media/overrides-preview-cs.png)
+   - Нажмите кнопку ![Снимок экрана: значок отвертки "Быстрые действия" в Visual Studio](../media/screwdriver-icon.png) , которая отображается в левом поле.
 
 1. Выберите **Создать Equals(object)** или **Создать Equals и GetHashCode** в раскрывающемся меню.
+
+   ![Снимок экрана: раскрывающееся меню "Создание переопределений"](media/overrides-preview-cs.png)
 
 1. В диалоговом окне **Выбрать члены** выберите члены, для которых хотите создать методы:
 
@@ -62,9 +72,36 @@ ms.locfileid: "99962786"
     > [!TIP]
     > В этом диалоговом окне также можно создавать операторы, используя флажок в нижней части окна.
 
-   Методы `Equals` и `GetHashCode` создаются с реализациями по умолчанию.
+   Методы `Equals` и `GetHashCode` создаются с реализациями по умолчанию, как показано в следующем коде:
 
-   ![Результат создания метода](media/overrides-result-cs.png)
+    ```csharp
+   public class ImaginaryNumber : IEquatable<ImaginaryNumber>
+    {
+        public double RealNumber { get; set; }
+        public double ImaginaryUnit { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return Equals(obj as ImaginaryNumber);
+        }
+
+        public bool Equals(ImaginaryNumber other)
+        {
+            return other != null &&
+                   RealNumber == other.RealNumber &&
+                   ImaginaryUnit == other.ImaginaryUnit;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(RealNumber, ImaginaryUnit);
+        }
+    }
+    ```
+
+   Теперь код должен выглядеть как на следующем снимке экрана:
+
+   ![Снимок экрана: результат созданного метода](media/overrides-result-cs.png)
 
 ## <a name="see-also"></a>См. также
 

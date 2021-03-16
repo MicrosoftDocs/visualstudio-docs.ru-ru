@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 14e4cffb-a695-436c-b269-7820f7411f4e
-ms.date: 10/26/2020
+ms.date: 02/18/2021
 ms.topic: conceptual
 description: Сведения о том, как экспортировать список подписчиков, и подробные сведения о назначениях подписки.
-ms.openlocfilehash: 33482dbe517fd34efb9a165bc5c868e20be0d1d7
-ms.sourcegitcommit: f1d47655974a2f08e69704a9a0c46cb007e51589
+ms.openlocfilehash: afd30470b5d9171f803c14b0d604eca626b70342
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92904135"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102250031"
 ---
 # <a name="export-subscription-information"></a>Экспорт сведений о подписке
 На [портале администрирования](https://manage.visualstudio.com) подписок Visual Studio можно экспортировать список подписчиков и сведения об их назначениях. Эти сведения включают имя, адрес электронной почты, запасной адрес электронной почты, уровень подписки, дату назначения, состояние активации, дату окончания срока действия, эталонное поле, разрешенные загрузки, страну, язык, состояние подписки и GUID подписки.  Список экспортируется в виде CSV-файла, который можно открыть в Microsoft Excel для создания диаграмм, сводных данных и других артефактов.
@@ -28,9 +28,12 @@ ms.locfileid: "92904135"
 ## <a name="export-your-subscriptions"></a>Экспорт подписок
 Чтобы выполнить экспорт:
 1. Войдите на [портал администрирования](https://manage.visualstudio.com).
-2. Выберите вкладку **Экспорт** , и файл загрузится на локальный компьютер. Имя файла будет содержать имя соглашения с подпиской вашего пользователя и датой экспорта.
+2. Выберите вкладку **Экспорт**, и файл загрузится на локальный компьютер. Имя файла будет содержать имя соглашения с подпиской вашего пользователя и датой экспорта.
 > [!div class="mx-imgBorder"]
 > ![Экспорт подписчиков](_img/exporting-subscriptions/exporting-subscriptions.png "Щелкните «Экспорт», чтобы скачать полный список назначенных подписок.")
+
+## <a name="resources"></a>Ресурсы
+- [Служба поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
@@ -43,4 +46,3 @@ ms.locfileid: "92904135"
     - [Подписки с истекшим сроком действия](handle-expired-license.md)
     - [Превышение доступности](handle-overclaimed-license.md)
     - [Максимальное использование](maximum-usage.md)
-- Нужна помощь с управлением подписками?  Обратитесь в [службу поддержки по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/support/support-overview-vs).

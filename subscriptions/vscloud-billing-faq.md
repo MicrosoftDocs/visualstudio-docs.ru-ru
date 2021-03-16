@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 02/04/2021
+ms.date: 03/05/2021
 ms.topic: conceptual
 description: Вопросы выставления счетов за подписки на облачные службы.
-ms.openlocfilehash: a812965a549f2e6e6d6c58366d943f3129d951cd
-ms.sourcegitcommit: 55bc9df751a21656de8cc5b6dbd8a2a1915ec690
+ms.openlocfilehash: d3c370eecab49de5f4ea5001e6052c18ff83e00b
+ms.sourcegitcommit: 35fa920126b34c8d3839da53e3a4c2c6f509968f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99572880"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102473417"
 ---
 # <a name="visual-studio-cloud-subscriptions-billing-faq"></a>Вопросы и ответы о выставлении счетов за облачные подписки Visual Studio
 Сначала [сравните преимущества облачных подписок и цены](https://visualstudio.microsoft.com/vs/pricing/), чтобы понять преимущества каждой подписки Visual Studio, сравнить облачные и стандартные подписки Visual Studio, изучить детали преимуществ для подписчиков и многое другое.
@@ -56,7 +56,7 @@ ms.locfileid: "99572880"
 ### <a name="q-how-are-annual-cloud-subscription-charges-processed"></a>Вопрос: Как обрабатывается плата за **годовую** облачную подписку?
 Ответ. При каждой покупке необходимо сразу оплатить всю стоимость. Оплата не осуществляется в течение года и не пересчитывается пропорционально количеству оставшихся месяцев. Месяц продления годовой облачной подписки зависит от месяца ее приобретения. Годовые облачные подписки клиента не продлеваются одновременно, как это бывает при оптовой покупке лицензий Майкрософт.
 
-### <a name="q-how-do-cancelations-work"></a>Вопрос: Как работает отмена подписки?
+### <a name="q-how-do-cancellations-work"></a>Вопрос: Как отменить подписку?
 Ответ. При отмене облачной подписки на Visual Studio вы просто отменяете автоматическое продление. Подписка продолжается до даты продления, а затем истекает.
 По истечении срока действия подписчик Visual Studio больше не сможет пользоваться Visual Studio и другими преимуществами подписки.
 
@@ -94,10 +94,13 @@ ms.locfileid: "99572880"
 ### <a name="q-can-i-buy-visual-studio-cloud-subscriptions-from-my-software-reseller"></a>Вопрос: Могу ли я приобрести облачные подписки на Visual Studio у торгового посредника?
 Ответ.  Да, если торговый посредник участвует в программе для поставщиков облачных решений (CSP). Просто спросите у своего торгового посредника.
 
+### <a name="q-where-can-i-find-information-about-azure-invoices"></a>Вопрос: Где можно найти сведения о счетах Azure?
+Ответ: Изучите статью [Значение терминов в счете Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice) в [документации по Azure](/azure/).
+
 ## <a name="related-resources"></a>Связанные ресурсы
 - [Портал администрирования Подписок Visual Studio](https://manage.visualstudio.com/)
-- [Поддержка по подписке Visual Studio](https://visualstudio.microsoft.com/vs/support/)
 - [Приобретение облачных подписок Visual Studio для поставщиков облачных решений](vscloud-csp.md)
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

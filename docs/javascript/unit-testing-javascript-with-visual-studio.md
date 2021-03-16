@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: e10f9b628d1d9fbbdb2911977fe7e63b1a7b6d57
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 04ef9834fdc66256b601ecdcf156e4d290447ce3
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99957482"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102171322"
 ---
 # <a name="unit-testing-javascript-and-typescript-in-visual-studio"></a>Модульное тестирование JavaScript и TypeScript в Visual Studio
 
@@ -97,7 +97,7 @@ describe('Test Suite 1', function() {
 
 ### <a name="run-tests-from-the-command-line"></a>Запуск тестов из командной строки
 
-Вы можете выполнять тесты из [Командной строки разработчика](/dotnet/framework/tools/developer-command-prompt-for-vs) в Visual Studio, используя следующую команду:
+Вы можете выполнять тесты из [командной строки разработчика](../ide/reference/command-prompt-powershell.md) в Visual Studio, используя следующую команду:
 
 ```
 vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter
@@ -152,11 +152,12 @@ Test execution time: 1.5731 Seconds
 Обнаружение доступных тестовых платформ выполняется при запуске Visual Studio. Если платформа добавляется во время выполнения Visual Studio, перезапустите Visual Studio для обнаружения платформы. Но вам не нужно перезапускать платформу, если вы вносите изменения в реализацию.
 
 ## <a name="unit-tests-in-other-project-types"></a>Модульные тесты в других типах проектов
+
 Вы можете писать модульные тесты не только в проектах Node.js. Когда вы добавляете свойства TestFramework и TestRoot в проект C# или Visual Basic, эти тесты будут перечислены и вы сможете выполнять их в окне обозревателя тестов.
 
 Чтобы включить эту функцию, щелкните правой кнопкой мыши узел проекта в обозревателе решений, выберите **Выгрузить проект**, а затем **Изменить проект**. Затем в файле проекта добавьте следующие два элемента в группу свойств.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Убедитесь, что для группы свойств, в которую вы добавляете элементы, не указано условие.
 > Это может привести к непредвиденному поведению.
 
@@ -170,6 +171,7 @@ Test execution time: 1.5731 Seconds
 Затем добавьте тесты в указанную папку тестового корня, и они будут доступны для выполнения в окне обозревателя тестов. Если они не отображаются, возможно, потребуется перестроить проект.
 
 ### <a name="unit-test-net-core-and-net-standard"></a>Модульное тестирование в .NET Core и .NET Standard
+
 Помимо приведенных выше свойств, вам необходимо также установить пакет NuGet [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) и задать такое свойство:
 
 ```xml

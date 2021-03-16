@@ -1,4 +1,5 @@
 ---
+description: PerfView — это инструмент, позволяющий создавать файлы ETL (журналов трассировки событий) с помощью функции трассировки событий для Windows, которые могут быть полезными при устранении некоторых проблем, связанных с Visual Studio.
 title: Сбор журналов трассировки событий с помощью PerfView
 ms.date: 09/27/2019
 ms.topic: how-to
@@ -15,12 +16,12 @@ dev_langs:
 ms.workload:
 - multiple
 ms.description: Use perfview.exe to collect ETL traces for troubleshooting issues with Visual Studio
-ms.openlocfilehash: 6f0696a24f04d2cba52994c86a3475f56d3e7947
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 81cf6469a14fb3559d37056ba5193d9018ccc1c8
+ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970716"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102221071"
 ---
 # <a name="collect-an-etl-trace-with-perfview"></a>Сбор журналов трассировки событий с помощью PerfView
 

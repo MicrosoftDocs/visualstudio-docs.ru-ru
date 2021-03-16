@@ -12,12 +12,12 @@ ms.workload:
 - aspnet
 - dotnetcore
 - azure
-ms.openlocfilehash: d41beea47e8173170ea2d428b40bd7c7ed8ff67e
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 619f1f1cc99cbab425bc1bcb2bac181e09db8fc4
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101684153"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102250069"
 ---
 # <a name="remote-debug-aspnet-core-on-iis-in-azure-in-visual-studio"></a>Удаленная отладка ASP.NET Core в IIS в Azure в Visual Studio
 
@@ -79,13 +79,23 @@ ms.locfileid: "101684153"
 
 1. В Visual Studio щелкните правой кнопкой мыши узел проекта и нажмите **Опубликовать**.
 
-    Если ранее вы настроили какие-либо профили публикации, появится панель **Опубликовать**. Щелкните **Новый профиль**.
+    Если ранее вы настроили какие-либо профили публикации, появится панель **Опубликовать**. Выберите **Создать** или **Создать профиль**.
 
-1. Выберите **Служба приложений Azure** в диалоговом окне **Опубликовать**, нажмите **Создать** и следуйте инструкциям на экране, чтобы создать профиль.
+1. Создайте профиль публикации.
 
-    Подробные инструкции см. в разделе [Развертывание веб-приложения ASP.NET Core в Azure с помощью Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
+    ::: moniker range=">=vs-2019"
+    Выберите **Azure** в диалоговом окне **Публикация** и щелкните **Далее**. Затем выберите **Служба приложений Azure (Windows)** , щелкните **Далее** и следуйте инструкциям, чтобы создать профиль.
+
+    :::image type="content" source="../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png" alt-text="Развертывание веб-приложения ASP.NET Core в Azure с помощью Visual Studio":::
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+
+    Выберите **Служба приложений Azure** в диалоговом окне **Опубликовать**, нажмите **Создать** и следуйте инструкциям на экране, чтобы создать профиль.
 
     ![Публикация в службу приложений Azure](../debugger/media/remotedbg_azure_app_service_profile.png)
+    ::: moniker-end
+
+    Подробные инструкции см. в разделе [Развертывание веб-приложения ASP.NET Core в Azure с помощью Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 1. В окне "Опубликовать" выберите **Изменить конфигурацию**, перейдите в конфигурацию отладки, а затем выберите **Опубликовать**.
 
@@ -106,6 +116,7 @@ ms.locfileid: "101684153"
 Вы можете создать виртуальную машину Azure для Windows Server, а затем установить и настроить службы IIS и другие необходимые программные компоненты. Это занимает больше времени, чем развертывание в службе приложений Azure, и требует выполнения остальных действий в этом учебнике.
 
 Эти процедуры были протестированы в следующих конфигурациях сервера.
+
 * Windows Server 2012 R2 и IIS 8
 * Windows Server 2016 и IIS 10
 * Windows Server 2019 и IIS 10
@@ -143,7 +154,7 @@ ms.locfileid: "101684153"
     > [!NOTE]
     > Если система не подключена к Интернету, перед установкой пакета размещения .NET Core для Windows Server получите и установите *[Распространяемый компонент Microsoft Visual C++ 2015](https://www.microsoft.com/download/details.aspx?id=53840)* .
 
-3. Перезапустите систему (или выполните в командной строке команду **net stop was /y**, а затем команду **net start w3svc**, чтобы изменение системной переменной PATH вступило в силу).
+2. Перезапустите систему (или выполните в командной строке команду **net stop was /y**, а затем команду **net start w3svc**, чтобы изменение системной переменной PATH вступило в силу).
 
 ## <a name="choose-a-deployment-option"></a>Выбор способа развертывания
 

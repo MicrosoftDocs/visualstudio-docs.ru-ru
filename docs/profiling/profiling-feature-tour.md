@@ -2,7 +2,7 @@
 title: Начало работы со средствами профилирования
 description: Краткий обзор различных средств диагностики, доступных в Visual Studio.
 ms.custom: ''
-ms.date: 09/08/2020
+ms.date: 02/18/2021
 ms.topic: overview
 f1_keywords:
 - vs.diagnosticshub.overview
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: bfd7055303fed2c18501d5eea3b49b34c68ec248
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 855a04fae1d5b406019e758c6d6f931d6657bb4e
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929112"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102145382"
 ---
 # <a name="first-look-at-profiling-tools"></a>Первое знакомство со средствами профилирования
 
@@ -162,6 +162,14 @@ PerfTips отображает те же события, которые такж�
 
 ![Allocation](./media/db-gotosource.png "Выделение")
 
+## <a name="visualize-net-counters-net-core"></a>Визуализация счетчиков .NET (.NET Core)
+
+Начиная с Visual Studio 2019 версии 16.7 вы можете использовать средство [Счетчики .NET](../profiling/dotnet-counters-tool.md) в Visual Studio для визуализации счетчиков производительности. Вы можете визуализировать счетчики, созданные с помощью [счетчиков dotnet](/dotnet/core/diagnostics/dotnet-counters). Счетчики dotnet поддерживают множество счетчиков, такие как "Использование ресурсов ЦП" и "Размер кучи сборщика мусора".
+
+Средство отображает текущие значения для каждого счетчика в представлении списка.
+
+:::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text="Экран &quot;Сбор данных Счетчиком .NET.&quot;":::
+
 ::: moniker-end
 
 ## <a name="examine-ui-performance-and-accessibility-events-uwp"></a>Проверка событий производительности и доступности пользовательского интерфейса (UWP)
@@ -235,8 +243,9 @@ PerfTips отображает те же события, которые такж�
 |[Временная шкала приложения](../profiling/application-timeline.md)|да (XAML)|да|Нет|
 |[Средство просмотра событий](../profiling/events-viewer.md)|да|да|да|
 |[.NET Async](../profiling/analyze-async.md)|да (только для .NET.)|да|да|
+|[Счетчики .NET](../profiling/dotnet-counters-tool.md)|да (только .NET Core)|Нет|да (только ASP.NET Core)|
 |[База данных](../profiling/analyze-database.md)|да (только .NET Core)|Нет|да (только ASP.NET Core)|
-|[Обозреватель производительности](#analyze-performance-legacy-tools)|Нет|нет|Нет|
+|[Обозреватель производительности](#analyze-performance-legacy-tools)|Нет|Нет|Нет|
 |[IntelliTrace](../debugger/intellitrace.md)|Только .NET с Visual Studio Enterprise|Только .NET с Visual Studio Enterprise|Только .NET с Visual Studio Enterprise|
 ::: moniker-end
 
@@ -246,11 +255,11 @@ PerfTips отображает те же события, которые такж�
 |[Использование ЦП](../profiling/beginners-guide-to-performance-profiling.md)|да|да|да|
 |[Использование памяти](../profiling/memory-usage.md)|да|да|да|
 |[Использование GPU](./gpu-usage.md)|да|да|нет|
-|[Временная шкала приложения](../profiling/application-timeline.md)|да (XAML)|да|нет|
+|[Временная шкала приложения](../profiling/application-timeline.md)|да (XAML)|да|Нет|
 |[PerfTips](../profiling/perftips.md)|да|да для XAML, нет для HTML|да|
-|[Обозреватель производительности](../profiling/performance-explorer.md)|да|нет|да|
+|[Обозреватель производительности](../profiling/performance-explorer.md)|да|Нет|да|
 |[IntelliTrace](../debugger/intellitrace.md)|Только .NET с Visual Studio Enterprise|Только .NET с Visual Studio Enterprise|Только .NET с Visual Studio Enterprise|
-|[Использование сети](../profiling/network-usage.md)|нет|да|Нет|
+|[Использование сети](../profiling/network-usage.md)|Нет|да|Нет|
 |[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|Нет|да для HTML, нет для XAML|Нет|
 |[Память JavaScript](../profiling/javascript-memory.md)|Нет|да для HTML, нет для XAML|Нет|
 ::: moniker-end

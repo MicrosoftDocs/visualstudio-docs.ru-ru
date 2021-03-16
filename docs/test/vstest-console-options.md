@@ -12,12 +12,12 @@ author: mikejo5000
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 6256343efbc9b81c14b03753fab2fa478df1e4f5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 86544ad36874ec2a99fac0f8505b24548e83c7c0
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946193"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102168365"
 ---
 # <a name="vstestconsoleexe-command-line-options"></a>Параметры командной строки для VSTest.Console.exe
 
@@ -28,7 +28,7 @@ ms.locfileid: "99946193"
 >
 > Для выполнения автоматических тестов на компьютере с архитектурой ARM необходимо использовать *VSTest.Console.exe*.
 
-Откройте [Командную строку разработчика](/dotnet/framework/tools/developer-command-prompt-for-vs), чтобы использовать программу командной строки. Это средство можно также найти в папке *%Program Files(x86)%\Microsoft Visual Studio\\<версия\>\\<выпуск\>\common7\ide\CommonExtensions\\<Платформа | Microsoft>* .
+Откройте [командную строку разработчика](../ide/reference/command-prompt-powershell.md), чтобы использовать программу командной строки. Это средство можно также найти в папке *%Program Files(x86)%\Microsoft Visual Studio\\<версия\>\\<выпуск\>\common7\ide\CommonExtensions\\<платформа | Microsoft>* .
 
 ## <a name="general-command-line-options"></a>Общие параметры командной строки
 

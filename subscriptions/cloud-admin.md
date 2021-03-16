@@ -1,18 +1,18 @@
 ---
-title: Настройка администраторов для ежемесячных подписок | Документация Майкрософт
+title: Настройка администраторов для ежемесячных подписок Visual Studio | Документация Майкрософт
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
-ms.date: 03/03/2020
+ms.date: 02/18/2021
 ms.topic: how-to
 description: Настройка администраторов для ежемесячных подписок
-ms.openlocfilehash: 8e102cb19d4f34c93392d89f9778c88460446666
-ms.sourcegitcommit: a731a9454f1fa6bd9a18746d8d62fe2e85e5ddb1
+ms.openlocfilehash: c018dbc3437c03c6d029a98c84e0b6cceaef9e2c
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "92904243"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102249540"
 ---
 # <a name="set-up-admins-for-visual-studio-monthly-subscriptions"></a>Настройка администраторов для ежемесячных подписок Visual Studio
 
@@ -59,13 +59,17 @@ ms.locfileid: "92904243"
 
 Сведения об ежемесячных подписках Visual Studio см. в статье [Обзор](vscloud-overview.md) в разделе "Приобретение подписок". Чтобы приобрести ежемесячные подписки Visual Studio, посетите Visual Studio Marketplace по адресу [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription).
 
+## <a name="resources"></a>Ресурсы
+- [Служба поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/)
+
+
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
 - [Документация по Azure DevOps](/azure/devops/)
 - [Документация по Azure](/azure/)
 - [Документация по Microsoft 365](/microsoft-365/)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 Узнайте больше об управлении подписками Visual Studio.
 - [Назначение отдельных подписок](assign-license.md)
 - [Назначение нескольких подписок](assign-license-bulk.md)

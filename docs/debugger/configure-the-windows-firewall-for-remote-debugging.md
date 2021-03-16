@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 959d015bd23c91ec2ba6215c7a5b42d13b37ee29
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 52264580e428fa6a2c33d80ea8fb9fb8e07f0c59
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99865830"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102149331"
 ---
 # <a name="configure-windows-firewall-for-remote-debugging"></a>Настройка брандмауэра Windows для удаленной отладки
 
@@ -49,6 +49,16 @@ Visual Studio и удаленный отладчик пытаются откр�
 1. Присвойте правилу имя (например, **msvsmon**, **IIS** или **Веб-развертывание**), а затем нажмите кнопку **Готово**.
 
    Новое правило должно появиться и быть выбранным в списке **Правила для входящего трафика** или **Правила для исходящего трафика**.
+
+**Чтобы открыть порт с помощью PowerShell, выполните следующие действия:**
+
+Для Брандмауэра Windows можно использовать команды PowerShell, например [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule?view=win10-ps).
+
+В следующем примере порт 4024 открывается для удаленного отладчика на удаленном компьютере. Путь, который необходимо использовать, может отличаться.
+
+```ps
+New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe" -LocalPort 4024 -Protocol TCP -Authentication Required -Action Allow
+```
 
 ### <a name="ports-on-the-remote-computer-that-enable-remote-debugging"></a>Порты на удаленном компьютере, обеспечивающие удаленную отладку
 

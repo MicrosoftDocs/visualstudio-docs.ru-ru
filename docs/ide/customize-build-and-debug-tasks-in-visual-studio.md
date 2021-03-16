@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 1088cae031dc3498d2c5cdcd33db8d42f721b7d7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 659e0f4e46d6960a2a1350c605e55357a84ec115
+ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954427"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102161304"
 ---
 # <a name="customize-build-and-debug-tasks-for-open-folder-development"></a>Настройка задач сборки и отладки для режима разработки "Открытая папка"
 
@@ -217,7 +217,7 @@ bin:
 
 |Макрос|Описание|
 |-|-|
-|`${env.<VARIABLE>}`| Обозначает любую переменную среды (например, ${env.PATH}, ${env.COMSPEC} и т. д), которая определена для командной строки разработчика. Дополнительные сведения см. в статье [Командная строка разработчика для Visual Studio](/dotnet/framework/tools/developer-command-prompt-for-vs).|
+|`${env.<VARIABLE>}`| Обозначает любую переменную среды (например, ${env.PATH}, ${env.COMSPEC} и т. д), которая определена для командной строки разработчика. Дополнительные сведения см. в статье о [командной строке разработчика и PowerShell для разработчиков](../ide/reference/command-prompt-powershell.md).|
 |`${workspaceRoot}`| Полный путь к папке рабочей области (например, *C:\sources\hello*).|
 |`${file}`| Полный путь к файлу или папке, для которой выполняется текущая задача (например, *C:\sources\hello\src\hello.js*).|
 |`${relativeFile}`| Относительный путь к файлу или папке (например, *src\hello.js*).|

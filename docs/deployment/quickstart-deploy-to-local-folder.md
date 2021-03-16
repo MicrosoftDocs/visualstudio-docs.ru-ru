@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b16c10d13f63be43ad2e8c3e16d24c0f9fd5e38
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 23ef2036af7b93ee6eeaaa14cb8733a4e0ced638
+ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927435"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102249504"
 ---
 # <a name="deploy-an-app-to-a-folder-using-visual-studio"></a>Развертывание приложения в папку с помощью Visual Studio
 
@@ -46,25 +46,34 @@ ms.locfileid: "99927435"
 
 1. В окне **Публикация** выберите **Папка**.
 
-    ![Выбор папки в качестве целевого объекта публикации](../deployment/media/quickstart-publish-folder-new.png "Выбор папки")
+   ![Выбор папки в качестве целевого объекта публикации](../deployment/media/quickstart-publish-folder-new.png "Выбор папки")
 
-::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2019"
 
-4. При развертывании приложения Windows .NET Core 3.1 или более поздней версии может потребоваться выбрать **папку** в окне **Указанный целевой объект**.
+   При развертывании приложения Windows .NET Core 3.1 или более поздней версии может потребоваться выбрать **папку** в окне **Указанный целевой объект**.
 
-![Выбор папки в качестве указанного целевого объекта](../deployment/media/quickstart-publish-folder-targets.png "Выбор указанного целевого объекта")
+   ![Выбор папки в качестве указанного целевого объекта](../deployment/media/quickstart-publish-folder-targets.png "Выбор указанного целевого объекта")
 
-5. Если вы хотите опубликовать приложение Windows .NET Core 3.1 или более поздней версии с использованием ClickOnce, см. [эту статью](quickstart-deploy-using-clickonce-folder.md).
+   Если вы хотите опубликовать приложение Windows .NET Core 3.1 или более поздней версии с использованием ClickOnce, см. [эту статью](quickstart-deploy-using-clickonce-folder.md).
+   ::: moniker-end
 
- ::: moniker-end
+1. Введите путь или выберите **Обзор**, чтобы указать папку.
 
-4. Введите путь или выберите **Обзор**, чтобы указать папку.
+   ![Указание пути к папке](../deployment/media/quickstart-publish-folder-path.png "Выбор папки")
 
-    ![Указание пути к папке](../deployment/media/quickstart-publish-folder-path.png "Выбор папки")
+   ::: moniker range=">=vs-2019"
+   Щелкните **Готово**, чтобы сохранить профиль.
 
-1. Нажмите **Публиковать**. Visual Studio создает проект и публикует его в указанной папке. Отображается панель **Публикация** со свойствами проекта, содержащая сводку по профилю.
+   ![Панель свойств публикации с обзором профиля](../deployment/media/quickstart-publish-folder-summary.png)
+   ::: moniker-end
 
-    ![Панель свойств публикации с обзором профиля](../deployment/media/quickstart-publish-folder-summary.png)
+1. Нажмите **Публиковать**. Visual Studio создает проект и публикует его в указанной папке.
+
+   ::: moniker range="vs-2017"
+   Отображается панель **Публикация** со свойствами проекта, содержащая сводку по профилю.
+
+   ![Панель свойств публикации с обзором профиля](../deployment/media/quickstart-publish-folder-summary.png)
+   ::: moniker-end
 
 1. Чтобы настроить параметры развертывания, выберите **Изменить** в сводке по профилю публикации и откройте вкладку **Параметры**.
 
