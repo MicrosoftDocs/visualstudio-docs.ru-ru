@@ -1,4 +1,5 @@
 ---
+description: Вы внесли ссылку на элемент массива, но не включили правую квадратную скобку.
 title: Ожидалось "]" | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 8a437ace-c73e-4340-885c-70ccb4bb2ee4
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 64f03c48b2db8b91d368e5de6e8d24a2330ccf1b
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 8cead064f66c0714945b2cdb97b0f13ef1de6395
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91861513"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570474"
 ---
 # <a name="expected-"></a>Ожидался символ "]"
 Вы внесли ссылку на элемент массива, но не включили правую квадратную скобку. Любое выражение, ссылающееся на элемент массива, должно включать открывающую и закрывающую квадратные скобки.  

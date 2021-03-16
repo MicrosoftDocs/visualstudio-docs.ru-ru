@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка вызвать метод или свойство для объекта типа, отличного от Object, или был передан аргумент типа, отличного от Object, если требуется объект.
 title: Ожидался объект | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 5d88c93d-e5b5-4b11-9bb5-bf1a5e41ccc3
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2a3b8510c92e15a5b1bf5e15bb774ba031f7181f
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: a62a68b8dd5289794086dad6858238db6cc4f449
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862108"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103572069"
 ---
 # <a name="object-expected"></a>Ожидался объект
 Предпринята попытка вызвать метод или свойство для объекта, тип которого отличается от типа `Object`, или передать аргумент, тип которого отличается от типа `Object`. Объект вызова этого типа должен иметь тип `Object`.  

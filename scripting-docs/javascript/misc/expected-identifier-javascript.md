@@ -1,4 +1,5 @@
 ---
+description: Вы использовали нечто, отличное от идентификатора, в контексте, где это требовалось.
 title: Ожидаемый идентификатор (JavaScript) | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 92eaa97f-7084-4618-9608-768b51a0600b
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: b70f42775d627e7e3683aa2cbc771f091b58e761
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 6be2b1f429872fd33afae148838c7696f278f660
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91861914"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571822"
 ---
 # <a name="expected-identifier-javascript"></a>Ожидался идентификатор (JavaScript)
 Вы использовали нечто, отличное от идентификатора, в контексте, где это требовалось. Идентификатор может быть следующим:  

@@ -1,4 +1,5 @@
 ---
+description: Вы состояли идентификатор, используя символ (или символы), который не распознается компилятором JavaScript как допустимый.
 title: Недопустимый знак (JavaScript) | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: b6a54a93-7fc9-459a-bdd6-f42d1ce40b5f
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 4978e272017b990501a953062df3a77750f4a837
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: f936500ab80059081af47cdd937633985bce9d50
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862618"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571224"
 ---
 # <a name="invalid-character-javascript"></a>Недопустимый символ (JavaScript)
 Вы состояли идентификатор, используя символ (или символы), не распознаваемый компилятором как допустимый [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] . Допустимые символы используют следующие правила.  

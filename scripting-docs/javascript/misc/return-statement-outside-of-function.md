@@ -1,4 +1,5 @@
 ---
+description: Вы использовали оператор return в глобальной области кода.
 title: оператор "return" за пределами функции | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 03568f9f-5f4f-4a10-a738-9a73f3832b9e
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2ec17d9e421d06736a236e26dd5a1200a5564e7d
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: c275db9b2b13f6730ef62a757502b1d51a59ee43
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862050"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571666"
 ---
 # <a name="return-statement-outside-of-function"></a>Оператор return за пределами функции
 Вы использовали `return` инструкцию в глобальной области кода. `return`Оператор должен находиться только в теле функции.  

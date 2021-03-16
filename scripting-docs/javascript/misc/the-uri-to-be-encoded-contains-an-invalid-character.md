@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка кодирования строки в виде URI, но она содержала недопустимые символы.
 title: URI для кодирования содержит недопустимый символ | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: a3f0fdbb-8d4b-41ae-a396-43dfc9483760
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 310db785041de0beb0ebbba0cdd9b7c356397bc4
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 73ed9a814c5d608df1a9686c2b61166d664115f7
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862389"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570665"
 ---
 # <a name="the-uri-to-be-encoded-contains-an-invalid-character"></a>Кодируемый URI содержит недопустимый символ
 Предпринята попытка кодирования строки в виде универсального кода ресурса (URI), но она содержала недопустимые символы. Хотя большинство символов допустимо в строках для преобразования в URI, некоторые последовательности символов Юникода являются недопустимыми.  

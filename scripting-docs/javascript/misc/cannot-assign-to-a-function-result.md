@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка присвоить значение результату функции.
 title: Невозможно присвоить результат функции | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: ee8ffb3a-1451-4cb3-99bf-5e9cf8b77d79
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 6aab43ec6a547982cf670d64c8ad8b752160839f
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 125d2dc7d41b1b65027952e4e6cb94ff97083e6e
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862350"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571926"
 ---
 # <a name="cannot-assign-to-a-function-result"></a>Присвоение результату функции невозможно
 Предпринята попытка присвоить значение результату функции. Результат функции можно присвоить переменной, но нельзя использовать в качестве переменной. Если необходимо назначить новое значение самой функции, не указывайте круглые скобки (оператор вызова функции). В следующем примере показана ситуация, в которой возникает эта ошибка.  

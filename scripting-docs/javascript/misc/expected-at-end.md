@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка создать условный скомпилированный блок кода, но в конце не включалась @end инструкция.
 title: Ожидался знак " @end " | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,15 +15,15 @@ ms.assetid: c2608995-944e-4d35-8b7e-1cfe264d2458
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 761e940ae6f88040bf5e24cd3a622a14261fa68e
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 2a596950f149a4549289cd6bca59727e8ba2cf7c
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91861625"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571263"
 ---
 # <a name="expected-end"></a>Требуется " \@ End"
-Предпринята попытка создать условный скомпилированный блок кода, но в конце не включалась <strong>@end</strong> инструкция. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] операторы можно компилировать условно, заключив их в <strong>@if/@end</strong> блок.  
+Предпринята попытка создать условный скомпилированный блок кода, но в конце не включалась **@end** инструкция. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] операторы можно компилировать условно, заключив их в <strong>@if/@end</strong> блок.  
   
 ### <a name="to-correct-this-error"></a>Исправление ошибки  
   

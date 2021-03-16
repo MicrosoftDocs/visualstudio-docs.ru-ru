@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка вызвать метод String. prototype. toString или String. prototype. valueOf для объекта типа, отличного от String.
 title: Ожидалась строка | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 4c214c4b-9cd7-473b-8d90-2344c0375c25
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 5c56acfd14ceebf2cb4ff582363ece558b189e14
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: eeae7bc86151ee044305034abc039558666f9585
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862747"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570682"
 ---
 # <a name="string-expected"></a>Требуется строка
 Предпринята попытка вызвать метод **String. prototype. ToString** или **String. prototype. valueOf** для объекта типа, отличного от `String` . Объект этого типа вызова должен иметь тип `String` .  

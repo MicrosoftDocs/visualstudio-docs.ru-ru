@@ -1,4 +1,5 @@
 ---
+description: Ключевое слово true имеет значение, равное-1.
 title: True, ключевое слово | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -16,15 +17,15 @@ ms.assetid: 38045e3b-d4fb-4958-b6c3-1e500872d64f
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 3b58f772387c09078c6086883a7c9322090c3df7
-ms.sourcegitcommit: 6cfffa72af599a9d667249caaaa411bb28ea69fd
+ms.openlocfilehash: f01caf204e2d11a8367ef8e76badacfa116d3bf6
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "85816453"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571510"
 ---
 # <a name="true-keyword"></a>Ключевое слово True
 Ключевое слово **true** имеет значение, равное-1.  
   
-## <a name="see-also"></a>См. также раздел  
+## <a name="see-also"></a>См. также  
  [False (технологии создания скриптов Windows)](../../javascript/misc/false-windows-script-technologies.md)

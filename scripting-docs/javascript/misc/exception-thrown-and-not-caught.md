@@ -1,4 +1,5 @@
 ---
+description: В код включен оператор throw, но он не был заключен в блок try или отсутствует связанный блок catch для перехвата ошибки.
 title: Исключение вызвано и не перехвачено | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: b5235490-a8e7-42e3-804e-d85235bc6f05
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 6a0e3eb6d1275e5598ad44ea553e22f0b53eeb45
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: b8abcfced6dfe78dc18f4e31d2bd90d5e5a45a4a
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862766"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570639"
 ---
 # <a name="exception-thrown-and-not-caught"></a>Исключение возникло, но не перехвачено
 Вы включили `throw` в код оператор, но он не был заключен в блок **try** , или нет связанного блока **catch** для перехвата ошибки. Исключения создаются в блоке **try** с помощью инструкции **throw** и перехватываются вне блока **try** с помощью оператора **catch** .  

@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка создать запись регулярного выражения, утверждение или группу, но не включала закрывающая круглая скобка.
 title: В регулярном выражении ожидался символ ")" (JavaScript) | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 2087ba1d-9783-4d40-b609-e8542f579f7f
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 29b25b5ab48ffe0a9a9dfafa9e60d66913c5e25e
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 4504a637625a1f15de12a721eb6fcba5dbc7fa6a
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91861888"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571705"
 ---
 # <a name="expected--in-regular-expression-javascript"></a>В регулярном выражении ожидался символ ")" (JavaScript)
 Предпринята попытка создать запись регулярного выражения, утверждение или группу, но не включала закрывающая круглая скобка. В регулярных выражениях круглые скобки имеют несколько целей. В основном они используются для записи подвыражений, для указания утверждений или для объединения шаблонов вместе, чтобы элементы можно было рассматривать как одну единицу с помощью *, +,? и т. д.  

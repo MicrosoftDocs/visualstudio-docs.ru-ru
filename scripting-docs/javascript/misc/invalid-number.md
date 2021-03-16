@@ -1,5 +1,6 @@
 ---
 title: Недопустимое число | Документация Майкрософт
+description: Вы попытались использовать число, которое недопустимо в JavaScript.
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
@@ -14,12 +15,12 @@ ms.assetid: c1c72d0b-95bc-422b-babb-5b73e0d013cc
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 4a8898d960b6837beea9c8a01b2d1bbc9561685e
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: da22ede98e20275bf2153e4cc152c4e9a79b7085
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862596"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571406"
 ---
 # <a name="invalid-number"></a>Недопустимое число
 Недопустимый номер (Еррбаднумбер 1013)  

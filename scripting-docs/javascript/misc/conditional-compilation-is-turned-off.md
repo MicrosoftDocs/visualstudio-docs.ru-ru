@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка использовать переменную условной компиляции без предварительного включения условной компиляции.
 title: Условная компиляция отключена | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 59a030b0-a6c6-47f2-b90e-c0ed204d5116
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 91e32971013d2dfcf0ee2dc901d84681522c7e89
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: ccda9769597d6a981a9277d2b1e1f54b73d6ae18
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91861654"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571432"
 ---
 # <a name="conditional-compilation-is-turned-off"></a>Условная компиляция отключена
 Предпринята попытка использовать переменную условной компиляции без предварительного включения условной компиляции. Включение условной компиляции означает, что [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] компилятор интерпретирует идентификаторы, начинающиеся с @, как переменные условной компиляции. Для этого необходимо начать условный код с помощью инструкции:  

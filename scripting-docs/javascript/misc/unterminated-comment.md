@@ -1,4 +1,5 @@
 ---
+description: Вы начали многострочный комментарий, но не завершили его правильно.
 title: Незавершенный комментарий | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,15 +15,15 @@ ms.assetid: d4286315-814b-4966-b4c4-1ee19d796eff
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 8453b05d2d09537f381bd2947dccb6b0a19a6263
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 8d07d2370a245f50409de538a8c2cd63611c720b
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91861836"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571523"
 ---
 # <a name="unterminated-comment"></a>Комментарий без признака завершения
-Вы начали многострочный комментарий, но не завершили его правильно. Многострочные комментарии начинаются с сочетания "/*" и заканчиваются на обратную \* комбинацию "/". Ниже приведен пример:  
+Вы начали многострочный комментарий, но не завершили его правильно. Многострочные комментарии начинаются с сочетания "/*" и заканчиваются на обратную \* комбинацию "/". Ниже представлен пример такого кода:  
   
 ```JavaScript  
 /* This is a comment  

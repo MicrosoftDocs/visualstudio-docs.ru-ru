@@ -1,4 +1,5 @@
 ---
+description: В следующих таблицах перечислены операторы JavaScript в соответствующих категориях.
 title: Сводка операторов (JavaScript) | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -12,12 +13,12 @@ ms.assetid: 3bc55336-912f-4ff8-8d28-1e26e0144840
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: de5d26f810fc1ab46c5ef09112fd62fada5d7d9b
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 47f14b0d8ee87877dc8f4305eb19679ea19fb9e3
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862081"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571692"
 ---
 # <a name="operator-summary-javascript"></a>Сводный список операторов (JavaScript)
 В следующих таблицах перечислены [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] операторы в соответствующих категориях.  
@@ -26,13 +27,13 @@ ms.locfileid: "91862081"
   
 |Оператор|Символ|  
 |--------------|------------|  
-|[Полняют](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|+|  
+|[Сложение](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|+|  
 |[Decrement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators#Increment)|--|  
-|[Отдел](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|/|  
+|[Деление](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|/|  
 |[Приращение](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators#Increment)|++|  
 |[Остаток](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|%|  
-|[Умножения](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|*|  
-|[Вычитания](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|-|  
+|[Умножение](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|*|  
+|[Вычитание](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|-|  
 |[Унарное отрицание](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|-|  
   
 ## <a name="logical-operators"></a>Логические операторы  
@@ -46,7 +47,7 @@ ms.locfileid: "91862081"
 |[Больше или равно](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|>=|  
 |[Удостоверение](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|===|  
 |[Неравенство](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|!=|  
-|[Меньше чем](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|<|  
+|[Меньше](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|<|  
 |[Меньше или равно](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|<=|  
 |[Логическое И](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|&&|  
 |[Логическое НЕ](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators)|!|  

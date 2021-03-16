@@ -1,4 +1,5 @@
 ---
+description: Предпринята попытка поместить более одной инструкции в строку, но не разделяйте их точкой с запятой.
 title: Ожидалось ";" | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: 3070cc6c-1138-4655-a7ac-723379f48f94
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2898a007e07dea326bbcd7b8d19f1a623941605d
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 49b039ef4e225693a2baa6cf434a672245ebd383
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862416"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570418"
 ---
 # <a name="expected-"></a>Ожидался символ ";"
 Предпринята попытка поместить более одной инструкции в строку, но не разделяйте их точкой с запятой. Для завершения инструкций используются точки с запятой. Хотя несколько операторов можно поместить в одну строку, каждый из них должен быть отделен точкой с запятой.  
