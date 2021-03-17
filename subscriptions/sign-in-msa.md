@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 19038bb0-2858-49df-9624-cbf8bfbb5d39
-ms.date: 09/08/2020
+ms.date: 02/19/2021
 ms.topic: how-to
 description: Как войти в вашу подписку Visual Studio с помощью учетной записи Майкрософт (MSA)
-ms.openlocfilehash: 52882fcf50a784812752dbf606b21db1ddc5c3ea
-ms.sourcegitcommit: 09d1f5cef5360cdc1cdfd4b22a1a426b38079618
+ms.openlocfilehash: 7e0ef2e9adedc62be7c2c7ca709496d1f075f03c
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005941"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607162"
 ---
 # <a name="signing-in-to-your-visual-studio-subscriptions-with-your-microsoft-account-msa"></a>Вход в подписку Visual Studio с помощью учетной записи Майкрософт (MSA)
 
@@ -40,7 +40,8 @@ ms.locfileid: "91005941"
 - Вы выполнили вход с другой учетной записью Майкрософт.  Возможно, у вас несколько подписок, например Professional или Enterprise, а также членство в Visual Studio Dev Essentials, и они связаны с разными адресами электронной почты. Чтобы просмотреть другие подписки, выйдите и снова войдите, используя другую учетную запись MSA.
 - К одной учетной записи MSA привязано несколько подписок.  Чтобы просмотреть все подписки, связанные с MSA, посетите https://my.visualstudio.com/subscriptions и выберите подписку, которую хотите использовать. 
 
-Если не получится, вы можете обратиться за помощью в [службу поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/).  
+## <a name="resources"></a>Ресурсы 
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

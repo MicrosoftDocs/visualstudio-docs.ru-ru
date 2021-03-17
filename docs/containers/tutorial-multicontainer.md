@@ -6,13 +6,13 @@ ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 01/10/2020
 ms.technology: vs-azure
-ms.topic: include
-ms.openlocfilehash: e5bd7673bc600d0ae84b0a343a071e2a8621e4b9
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.topic: tutorial
+ms.openlocfilehash: eca1d66ddef1a0f89a3971a4867254549118e2a1
+ms.sourcegitcommit: 99b66b0f4ced46ead0b2506a103f974f40cc0076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150213"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103295712"
 ---
 # <a name="tutorial-create-a-multi-container-app-with-docker-compose"></a>Учебник. Создание многоконтейнерного приложения с помощью Docker Compose
 
