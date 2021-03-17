@@ -9,12 +9,12 @@ monikerRange: '>=vs-2019'
 manager: jmartens
 author: ghogen
 ms.author: ghogen
-ms.openlocfilehash: d44dc484da904d2692b90e23d10db6edc6f6e7b8
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 49c3081e68baf4f2bf1d0975bcdae7ea25ab90b3
+ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102223164"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103571549"
 ---
 # <a name="how-bridge-to-kubernetes-works"></a>Как работает Bridge to Kubernetes
 
@@ -142,10 +142,8 @@ kubectl -n <namespace> apply -f <yaml file name>
 
 Bridge to Kubernetes имеет следующие ограничения:
 
-* Для подключения к службе она должна быть основана на одном модуле pod. Нельзя подключиться к службе с несколькими модулями pod, например службе с репликами.
-* Для успешного подключения с помощью функции Bridge to Kubernetes в модуле pod должен выполняться только один контейнер. Функция Bridge to Kubernetes не может подключаться к службам с модулями pod, имеющими дополнительные контейнеры, например контейнеры расширения, внедренные сетками служб.
+* Для успешного подключения с помощью функции Bridge to Kubernetes в модуле pod должен выполняться только один контейнер.
 * В настоящее время модули pod для функции Bridge to Kubernetes должны быть контейнерами Linux. Контейнеры Windows не поддерживаются.
-* Изоляцию нельзя применять с протоколом HTTPS, если используется Bridge to Kubernetes с Visual Studio. Протокол HTTPS поддерживается в режиме изоляции только при использовании Visual Studio Code.
 * Функции Bridge to Kubernetes требуется повышенный уровень разрешений на компьютере разработки для изменения файла hosts.
 * Bridge to Kubernetes нельзя использовать в кластерах с включенной службой Azure Dev Spaces.
 

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
-ms.date: 10/28/2020
+ms.date: 02/19/2021
 ms.topic: overview
 description: Сведения о полном наборе преимуществ, доступных на портале подписок Visual Studio
-ms.openlocfilehash: d4f65f4c430d585485c388f22664726c848e6d1e
-ms.sourcegitcommit: f1d47655974a2f08e69704a9a0c46cb007e51589
+ms.openlocfilehash: 6ce759b3ef6a73980e7bd477e36479d65a61b3c8
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92904585"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607148"
 ---
 # <a name="using-the-subscriber-portal---myvisualstudiocom"></a>Сведения об использовании портала подписчика (my.visualstudio.com)
 
@@ -47,7 +47,7 @@ ms.locfileid: "92904585"
 
 ## <a name="support"></a>Поддержка
 
-Помимо отдельных преимуществ, доступных в категории "Поддержка" на странице "Преимущества", отдельная страница поддержки предоставляет доступ к ресурсам, которые помогут максимально эффективно использовать подписку Visual Studio. Обратитесь к [ресурсам поддержки](https://visualstudio.microsoft.com/subscriptions/support/), чтобы решить технические вопросы или устранить проблемы, связанные с продажей подписок, учетными записями, выставлением и оплатой счетов.
+Помимо отдельных преимуществ, доступных в категории "Поддержка" на странице "Преимущества", отдельная страница поддержки предоставляет доступ к ресурсам, которые помогут максимально эффективно использовать подписку Visual Studio. Обратитесь к [ресурсам поддержки](https://aka.ms/vssubscriberhelp), чтобы решить технические вопросы или устранить проблемы, связанные с продажей подписок, учетными записями, выставлением и оплатой счетов.
 
 ## <a name="marketplace"></a>[Marketplace](https://marketplace.visualstudio.com/)
 

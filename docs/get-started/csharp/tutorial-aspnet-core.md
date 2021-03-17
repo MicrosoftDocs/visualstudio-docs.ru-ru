@@ -16,12 +16,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 026f6f2902b537312c0714b7eeb61d10e0fb980d
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: b9c7f41fd2977ca00294eabd941bc371d8a3220e
+ms.sourcegitcommit: 99b66b0f4ced46ead0b2506a103f974f40cc0076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683123"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103295793"
 ---
 # <a name="tutorial-get-started-with-c-and-aspnet-core-in-visual-studio"></a>Учебник. Начало работы с C# и ASP.NET Core в Visual Studio
 
@@ -357,7 +357,7 @@ ms.locfileid: "101683123"
 
 ### <a name="what-is-c"></a>Что такое C#?
 
-[C#](/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework) — это типобезопасный объектно-ориентированный язык программирования, который обладает широкими возможностями, но в то же время прост в обучении.
+[C#](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/) — это типобезопасный объектно-ориентированный язык программирования, который обладает широкими возможностями, но в то же время прост в обучении.
 
 ### <a name="what-is-aspnet-core"></a>Что такое ASP.NET Core?
 

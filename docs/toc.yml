@@ -277,8 +277,6 @@
     - name: Подключение к проектам в Team Explorer
       displayName: Azure DevOps VSTS
       href: ide/connect-team-project.md
-    - name: "Новый интерфейс Git в Visual\_Studio"
-      href: ide/git-with-visual-studio.md
     - name: Редактор
       items:
         - name: Использование редактора
@@ -903,6 +901,12 @@
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Отладка >>
   href: debugger/index.yml
+- name: Управление версиями
+  items:
+    - name: Новый интерфейс Git в Visual Studio
+      href: ide/git-with-visual-studio.md
+    - name: Наглядное сравнение Git и Team Explorer
+      href: ide/git-team-explorer-feature-comparison.md
 - name: Тестирование >>
   displayName: Unit testing
   href: test/index.yml
@@ -1457,7 +1461,7 @@
               href: /visualstudio/productinfo/vs2017-compatibility-vs/
             - name: Требования к системе
               href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-        - name: "Visual Studio\_2019"
+        - name: Visual Studio 2019
           items:
             - name: Заметки о текущем выпуске
               href: /visualstudio/releases/2019/release-notes/

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b6fbfa3e-654a-462f-8e22-e313b6ea617f
-ms.date: 10/30/2020
+ms.date: 02/19/2021
 ms.topic: conceptual
 description: Сведения о том, что происходит при истечении срока действия подписки Visual Studio
-ms.openlocfilehash: 3bab529f4a45a57e6cc21260fdde2d5e18bc5217
-ms.sourcegitcommit: f81984aec5341a84b87c2466461656c38d8ff681
+ms.openlocfilehash: 26659cf70ace2ffb6eaa8f02146ed965c03df48a
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93245004"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607138"
 ---
 # <a name="what-happens-when-your-subscription-expires"></a>Что происходит после истечения срока действия подписки
 Подписки Visual Studio имеют определенную продолжительность, и если они не обновлены, срок их действия истекает.  По истечении срока действия подписки преимущества, предоставляемые подпиской, затрагиваются по-разному.  В этой статье объясняется, как истечение срока действия влияет на различные аспекты подписки Visual Studio. 
@@ -40,7 +40,10 @@ ms.locfileid: "93245004"
 ### <a name="other-benefits"></a>Другие преимущества 
 Многие преимущества подписки Visual Studio имеют определенную продолжительность.  Преимущества, предоставляемые партнерами Майкрософт, такими как Pluralsight, DataCamp или WhiteSource, ограничены по времени после активации.  Преимущества, которые вы активировали ранее, будут по-прежнему доступны в рамках оставшегося времени.  Например, если вы активировали 6-месячную подписку LinkedIn Learning и еще осталось четыре месяца после истечения срока действия подписки Visual Studio, то у вас по-прежнему будет доступ к подписке LinkedIn Learning в течение оставшихся четырех месяцев.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="resources"></a>Ресурсы
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
+
+## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
 - [Документация по Azure DevOps](/azure/devops/)
 - [Документация по Azure](/azure/)

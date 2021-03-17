@@ -9,12 +9,12 @@ manager: jmartens
 ms.workload:
 - multiple
 author: mikejo5000
-ms.openlocfilehash: 65785384746fa3f16dd25f0405e5ead45c553c21
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: ff92d7c53b2b7e5f5c89fbc37226135d5331acbb
+ms.sourcegitcommit: 99b66b0f4ced46ead0b2506a103f974f40cc0076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221162"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103295765"
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>Настройка модульных тестов с помощью файла *.runsettings*
 
@@ -306,7 +306,7 @@ public void HomePageTest()
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
     <AssemblyResolution>
-      <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/>
+      <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
 </MSTest>
 ```
@@ -322,7 +322,7 @@ public void HomePageTest()
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|Чтобы сохранить каталог развертывания после завершения тестового запуска, установите для этого параметра значение **false**.|
 |**MapInconclusiveToFailed**|false|Если тест завершается с неопределенным состоянием, оно обычно сопоставляется с состоянием "Пропущено" в **обозревателе тестов**. Если требуется, чтобы тесты с неопределенным результатом отображались как завершившиеся неудачно, установите для этого параметра значение **true**.|
 |**InProcMode**|false|Если требуется, чтобы тесты выполнялись в одном процессе с адаптером MSTest, установите этот параметр в значение **true**. Этот параметр обеспечивает небольшое повышение производительности. Но если тест прекращается с выдачей исключения, остальные тесты выполняться не будут.|
-|**AssemblyResolution**|false|При поиске и выполнении модульных тестов можно указать пути для дополнительных сборок. Например, эти пути можно использовать для сборок зависимостей, которые не находятся в том же каталоге, что и тестовая сборка. Чтобы указать путь, используйте элемент **путь к каталогу**. Пути могут содержать переменные среды.<br /><br />`<AssemblyResolution>  <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
+|**AssemblyResolution**|false|При поиске и выполнении модульных тестов можно указать пути для дополнительных сборок. Например, эти пути можно использовать для сборок зависимостей, которые не находятся в том же каталоге, что и тестовая сборка. Чтобы указать путь, используйте элемент **путь к каталогу**. Пути могут содержать переменные среды.<br /><br />`<AssemblyResolution>  <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
 
 ## <a name="example-runsettings-file"></a>Пример файла *.runsettings*
 

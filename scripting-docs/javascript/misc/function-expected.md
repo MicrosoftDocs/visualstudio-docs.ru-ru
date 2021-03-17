@@ -1,4 +1,5 @@
 ---
+description: Либо вы попытались вызвать один из методов прототипа функции для объекта, который не является объектом функции, либо вы использовали объект в контексте вызова функции.
 title: Требуется функция | Документация Майкрософт
 ms.date: 01/18/2017
 ms.prod: visual-studio-windows
@@ -14,12 +15,12 @@ ms.assetid: f62ade94-9f6f-4832-9b9b-49a06a385bbe
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2028d8923c2f81d1d99fec752d7ac0ce2fb32f65
-ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+ms.openlocfilehash: 99e354118844d7e57f708cf3f2d5653ee1c0fc65
+ms.sourcegitcommit: 3a855d3513407ea78336386dc3be0b75142614b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862179"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "103622612"
 ---
 # <a name="function-expected"></a>Требуется функция
 Либо вы попытались вызвать один из методов **прототипа функции** для объекта, который не является `Function` объектом, либо вы использовали объект в контексте вызова функции. Например, следующий код выдает эту ошибку, так как **Пример** не является функцией.  
@@ -35,6 +36,6 @@ var x = example();           // Try and call example as if it were a function.
   
 - Убедитесь, что оператор вызова функции используется `()` только для вызова функций.  
   
-## <a name="see-also"></a>См. также  
+## <a name="see-also"></a>См. также раздел  
  [Объект функции](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)   
  [Свойство prototype (Object)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)

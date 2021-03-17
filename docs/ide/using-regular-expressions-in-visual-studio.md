@@ -18,12 +18,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: d62d35a296c70462aab75af5a8c6729179d5b34d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e2314bb8fdb44d769a5067a39b01b40b0a74734f
+ms.sourcegitcommit: 99b66b0f4ced46ead0b2506a103f974f40cc0076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925762"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103295754"
 ---
 # <a name="use-regular-expressions-in-visual-studio"></a>Использование регулярных выражений в Visual Studio
 
@@ -60,7 +60,7 @@ ms.locfileid: "99925762"
 |Соответствует любому [символу пробела](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s).|\s|`Public\sInterface` совпадает с фразой "Открытый интерфейс"|
 |Соответствует любому [символу десятичной цифры](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\\d|`\d` совпадает с "4" и "0" в "wd40".|
 
-Пример регулярного выражения, в котором объединяются некоторые операторы и конструкции для сопоставления с шестнадцатеричным числом: `\b0[xX]([0-9a-fA-F]+\)\b`. Это выражение совпадает с "0xc67f", но не с "0xc67g".
+Пример регулярного выражения, в котором объединяются некоторые операторы и конструкции для сопоставления с шестнадцатеричным числом: `\b0[xX]([0-9a-fA-F]+)\b`. Это выражение совпадает с "0xc67f", но не с "0xc67g".
 
 > [!TIP]
 > В операционных системах Windows большинство строк заканчиваются символами "\r\n" (возврат каретки с новой строкой). Эти символы не отображаются, но имеются в редакторе и передаются в службу регулярных выражений .NET.
