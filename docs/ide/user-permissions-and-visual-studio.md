@@ -1,7 +1,7 @@
 ---
 title: Запуск от имени администратора
 description: Узнайте, как запустить Visual Studio от имени администратора.
-ms.date: 01/06/2020
+ms.date: 03/09/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, user permissions
@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 63787b394d9e8988759cd141540785e34324f8c6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b3d2a22533137bf2c1f2e7cfeb3802f5824c3926
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99971301"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607253"
 ---
 # <a name="user-permissions-and-visual-studio"></a>Разрешения пользователей и Visual Studio
 
@@ -72,7 +72,17 @@ ms.locfileid: "99971301"
 
 ::: moniker-end
 
-Можно также изменить ярлык приложения, чтобы всегда запускать его с правами администратора.
+Можно также изменить ярлык приложения, чтобы всегда запускать его с правами администратора:
+
+1. Откройте меню **Пуск**, перейдите к версии Visual Studio, которую вы используете, и выберите **Дополнительно** > **Перейти к расположению файла**.
+
+1. В **Проводнике** найдите ярлык для используемой версии **Visual Studio**. Затем щелкните ярлык правой кнопкой мыши и выберите **Отправить** > **Рабочий стол (создать ярлык)** .
+
+1. На рабочем столе **Windows** щелкните правой кнопкой мыши ярлык **Visual Studio** и выберите **Свойства**.
+
+1. Нажмите кнопку **Дополнительно**, а затем установите флажок **Запуск от имени администратора**.
+
+1. Щелкните **ОК**, а затем снова **ОК**.
 
 ## <a name="see-also"></a>См. также раздел
 

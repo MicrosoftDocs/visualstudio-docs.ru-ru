@@ -2,18 +2,18 @@
 title: Интерфейс GIT в Visual Studio
 titleSuffix: ''
 description: Узнайте, как повысить продуктивность с помощью нового интегрированного интерфейса GIT в Visual Studio 2019.
-ms.date: 01/15/2021
+ms.date: 03/16/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
 monikerRange: vs-2019
-ms.openlocfilehash: 5f93d8c29bcf7e85df04dd364868e65f70482b72
-ms.sourcegitcommit: 59b63039982bb5894eb35d8b544657688731614f
+ms.openlocfilehash: e33b91088022a4588773737b2820677c84a65807
+ms.sourcegitcommit: 3a855d3513407ea78336386dc3be0b75142614b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597412"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "103622651"
 ---
 # <a name="git-experience-in-visual-studio"></a>Интерфейс GIT в Visual Studio
 
@@ -48,7 +48,7 @@ ms.locfileid: "98597412"
 > [!TIP]
 > Независимо от того, является ли репозиторий общедоступным или частным, лучше создать удаленную резервную копию кода, которая будет безопасно храниться в GitHub, даже если вы работаете сами по себе. Это также позволит вам получать доступ к коду с любого компьютера.
 
-Вы можете создать исключительно локальный репозиторий GIT, выбрав параметр **Только локальный**. Вы также можете связать репозиторий с любым существующим пустым удаленным репозиторием, размещенным у любого другого поставщика GIT, с помощью параметра **Существующий удаленный**.
+Вы можете создать исключительно локальный репозиторий GIT, выбрав параметр **Только локальный**. Вы также можете связать локальный проект с любым существующим пустым удаленным репозиторием, размещенным в Azure DevOps или у любого другого поставщика Git, с помощью параметра **Существующий удаленный репозиторий**.
 
 ## <a name="clone-an-existing-git-repository"></a>Клонирование существующего репозитория GIT
 
@@ -117,7 +117,7 @@ Visual Studio также позволяет выполнить фиксацию 
 
 ### <a name="create-a-new-branch"></a>Создание ветви
 
-Можно также создать новую ветвь. Эквивалентная команда для этого действия — `git checkout <branchname>`.
+Можно также создать новую ветвь. Эквивалентная команда для этого действия — `git checkout -b <branchname>`.
 
 Чтобы создать ветвь, достаточно ввести ее имя и указать существующую ветвь, на основе которой будет создана данная.
 
@@ -202,6 +202,7 @@ Visual Studio также позволяет выполнить фиксацию 
 
 ## <a name="see-also"></a>См. также раздел
 
+- Видео [Начало работы с Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) на YouTube
 - Запись блога [Объявление о выпуске интерфейса Git в Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/)
 - [Запуск нового интерфейса GIT](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) на YouTube
 - Видео, посвященное [новому интерфейсу GIT](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience), на Channel 9 и [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7aaa4727-00ef-41dc-937d-8d46973aaf56
-ms.date: 10/28/2020
+ms.date: 03/08/2021
 ms.topic: conceptual
 description: Узнайте, как администраторы по соглашениям корпоративного лицензирования могут получить доступ к порталу администрирования подписок Visual Studio.
-ms.openlocfilehash: 85e82eed6b8810e7e6a2f8622aead9d50323841d
-ms.sourcegitcommit: f1d47655974a2f08e69704a9a0c46cb007e51589
+ms.openlocfilehash: 4704b3258eedf8fd1639804a8792a1c18fafce77
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92904222"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607292"
 ---
 # <a name="accessing-the-admin-portal-as-an-admin-on-a-volume-license-agreement"></a>Доступ к порталу администрирования от имени администратора в рамках соглашения корпоративного лицензирования
 
@@ -23,10 +23,10 @@ ms.locfileid: "92904222"
 
 После входа вы будете автоматически настроены в качестве суперадминистратора и сможете начать управление подписками и другими администраторами. Сведения о различиях между суперадминистраторами и администраторами см. в нашей статье о [ролях администраторов](admin-roles.md).
 
-Это относится ко всем типам соглашений корпоративного лицензирования, в том числе: Корпоративные соглашения, корпоративные подписки, Select, Select Plus, Open, Open License, правительственные и академические соглашения. 
+Это относится ко всем типам соглашений корпоративного лицензирования, в том числе: Соглашения Enterprise, корпоративные подписки, Select, Select Plus, Open, Open License, правительственные и академические соглашения. 
 
 ## <a name="resources"></a>Ресурсы
-- [Поддержка по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/support/support-overview-vs)
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

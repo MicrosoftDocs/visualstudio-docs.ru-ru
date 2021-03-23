@@ -9,12 +9,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 6a9d0ea6f6cb0aedc4fa13a8014b1a8bd66ccca0
-ms.sourcegitcommit: 6ed6ae5a1693607dce57923a78d01eea3d88b29a
+ms.openlocfilehash: 597d17b69aa3f0feca520e6100439d934e5d9211
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102514968"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607354"
 ---
 # <a name="generate-equals-and-gethashcode-method-overrides-in-visual-studio"></a>Создание переопределений для методов Equals и GetHashCode в Visual Studio
 
@@ -61,7 +61,7 @@ ms.locfileid: "102514968"
 
    - Нажмите кнопку ![Снимок экрана: значок отвертки "Быстрые действия" в Visual Studio](../media/screwdriver-icon.png) , которая отображается в левом поле.
 
-1. Выберите **Создать Equals(object)** или **Создать Equals и GetHashCode** в раскрывающемся меню.
+1. В раскрывающемся меню выберите **Создать Equals(object)** или **Создать Equals и GetHashCode**.
 
    ![Снимок экрана: раскрывающееся меню "Создание переопределений"](media/overrides-preview-cs.png)
 

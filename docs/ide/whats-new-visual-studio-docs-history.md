@@ -2,7 +2,7 @@
 title: 'Документация по Visual Studio. История изменений '
 titleSuffix: ''
 description: История новых возможностей в документации по Visual Studio
-ms.date: 02/01/2021
+ms.date: 03/08/2021
 helpviewer_keywords:
 - Visual Studio, what's new, docs
 - what's new [Visual Studio]
@@ -15,16 +15,98 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 178c84be9def77e013da336193877617c1434b2e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bbad51f6d06c221118ffda01e1c7e93374eea2ff
+ms.sourcegitcommit: 3a855d3513407ea78336386dc3be0b75142614b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960537"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "103622573"
 ---
 # <a name="history-of-whats-new-in-visual-studio-docs"></a>История новых возможностей в документации по Visual Studio
 
-Добро пожаловать в историю изменений документации по Visual Studio. В этой статье приведены основные изменения в документации до января 2021 г. (начиная с июля 2020 г.). Последние изменения см. в разделе [Документация по Visual Studio. Обновления в документации за июль 2020 г.](whats-new-visual-studio-docs.md)
+Добро пожаловать в историю изменений документации по Visual Studio. В этой статье приведены основные изменения в документации до февраля 2021 г. (начиная с июля 2020 г.). Последние изменения см. в разделе [Документация по Visual Studio. Обновления в документации за июль 2020 г.](whats-new-visual-studio-docs.md)
+
+## <a name="january-2021"></a>Январь 2021 г.
+### <a name="azure"></a>Azure
+
+**Новые статьи**
+
+- [Создание и развертывание в облачных службах (расширенная поддержка) в Visual Studio (предварительная версия)](../azure/cloud-services-extended-support.md) — расширенная поддержка облачных служб — без шаблона
+
+### <a name="code-quality"></a>Качество кода
+
+**Новые статьи**
+
+- [Метрики кода — взаимозависимость классов](../code-quality/code-metrics-class-coupling.md) — обновление метрик кода
+- [Метрики кода — диапазон индексов удобства поддержки и их значения](../code-quality/code-metrics-maintainability-index-range-and-meaning.md) — обновление метрик кода
+
+### <a name="debugger"></a>Отладчик
+
+**Новые статьи**
+
+- [Отладка приложений .NET Core в WSL 2 с помощью Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) — отладка .NET Core в WSL2
+
+**Обновленные статьи**
+
+- [Создание настраиваемых представлений объектов C++ в отладчике с помощью платформы Natvis](../debugger/create-custom-views-of-native-objects.md) — пояснения к форматированию специальных символов в формате XML в NatVis
+- [Предупреждение системы безопасности. Подключение к процессу, который принадлежит пользователю, не являющемуся доверенным, может быть опасным. Если следующие сведения не вызывают доверия, то не следует присоединяться к процессу](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md) — обновленное предупреждение безопасности о присоединении к процессу, к которому нет доверия
+
+### <a name="deployment"></a>Развертывание
+
+**Обновленные статьи**
+
+- [Элемент &lt;InstallChecks&gt; (начальный загрузчик)](../deployment/installchecks-element-bootstrapper.md) — обновленная документация по пакету начального загрузчика с учетом нового элемента BeforeInstallChecks
+
+### <a name="extensibility"></a>Расширение среды
+
+**Обновленные статьи**
+
+- [Пошаговое руководство: Публикация расширения Visual Studio](../extensibility/walkthrough-publishing-a-visual-studio-extension.md) — фиксация [PUBLIC_MOVE] из общедоступного запроса на вытягивание 6214
+
+### <a name="get-started"></a>Начало работы
+
+**Новые статьи**
+
+- [Учебник. Открытие проекта из репозитория в Visual Studio 2017](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md) — обновленное руководство "Открытие проекта из репозитория"
+
+**Обновленные статьи**
+
+- [Учебник. Открытие проекта из репозитория](../get-started/tutorial-open-project-from-repo.md) — обновленное руководство "Открытие проекта из репозитория"
+
+### <a name="ide"></a>IDE
+
+**Новые статьи**
+
+- [Справка, вызываемая клавишей F1, по JavaScript для Visual Studio](./not-in-toc/default-f1-javascript.md) — добавлены страницы JS и TS по умолчанию, вызываемые клавишей F1
+- [Справка, вызываемая клавишей F1, по TypeScript для Visual Studio](./not-in-toc/default-f1-typescript.md) — добавлены страницы JS и TS по умолчанию, вызываемые клавишей F1
+
+**Обновленные статьи**
+
+- [Решения и проекты в Visual Studio](./solutions-and-projects-in-visual-studio.md) — добавлена ссылка на библиотеку изображений Visual Studio
+
+### <a name="install"></a>Установка
+
+**Обновленные статьи**
+
+- [Номера сборок и даты выпуска Visual Studio](../install/visual-studio-build-numbers-and-release-dates.md) — обновления в день установки исправлений
+
+### <a name="msbuild"></a>MSBuild
+
+**Обновленные статьи**
+
+- [Глоссарий MSBuild](../msbuild/msbuild-glossary.md) — повышение уровня ключей глоссария до H2
+
+### <a name="profiling"></a>Профилирование
+
+**Новые статьи**
+
+- [Визуализация счетчиков dotnet из профилировщика Visual Studio](../profiling/dotnet-counters-tool.md) — добавлена документация по средству "Счетчики .NET"
+
+### <a name="test"></a>Тест
+
+**Обновленные статьи**
+
+- [Выполнение модульных тестов с помощью обозревателя тестов](../test/run-unit-tests-with-test-explorer.md) — добавлена документация по звуковой подсказке для тестов
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 ### <a name="azure"></a>Azure

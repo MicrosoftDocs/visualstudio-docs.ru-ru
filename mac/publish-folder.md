@@ -10,12 +10,12 @@ ms.author: sayedha
 manager: unniravindranathan
 ms.prod: visual-studio-mac
 ms.topic: how-to
-ms.openlocfilehash: 640cdf8b9c31bad42f8c5664f3cef44c558e2a3a
-ms.sourcegitcommit: 2cf3a03044592367191b836b9d19028768141470
+ms.openlocfilehash: 99127416b6a488cd7e795b3c4a1888ff103c8029
+ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94493417"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102607396"
 ---
 # <a name="publish-to-a-folder-using-visual-studio-for-mac"></a>Публикация в папке с помощью Visual Studio для Mac
 
@@ -59,3 +59,7 @@ ms.locfileid: "94493417"
 Чтобы изменить путь к папке публикации, откройте профиль публикации и измените значение `publishUrl`.
 
 Чтобы изменить используемую конфигурацию сборки, измените свойство `LastUsedBuildConfiguration` в профиле публикации.
+
+## <a name="see-also"></a>См. также раздел
+ - [dotnet publish](https://docs.microsoft.com/dotnet/core/tools/dotnet-publish)
+ - [Публикация веб-приложения на веб-сайте с помощью Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-a-web-site?view=vs-2019)
