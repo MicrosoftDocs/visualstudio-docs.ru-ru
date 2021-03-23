@@ -9,12 +9,12 @@ ms.author: anthc
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f31ed0ccb09074798ddf56f601e9ad26facd505f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9c7bc09147c2c9a6cf36a1a967241219df9e9bce
+ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952542"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104884165"
 ---
 # <a name="images-and-icons-for-visual-studio"></a>Изображения и значки для Visual Studio
 ## <a name="image-use-in-visual-studio"></a><a name="BKMK_ImageUseInVisualStudio"></a> Использование изображений в Visual Studio
@@ -336,13 +336,13 @@ ms.locfileid: "99952542"
 
 ##### <a name="examples-of-icons-with-language-modifiers"></a>Примеры значков с модификаторами языка
 
-|VB|C#|F#|JavaScript|Python|
+|VB|C#|C++|F#|JavaScript|Python|
 |-|-|-|-|-|-|
 |![Значок Visual Basic](../../extensibility/ux-guidelines/media/0405-25_vb.png "0405-25_VB")|![Значок C&#35;](../../extensibility/ux-guidelines/media/0405-26_csharp.png "0405-26_CSharp")|![Значок C&#43;&#43;](../../extensibility/ux-guidelines/media/0405-27_cplusplus.png "0405-27_CPlusPlus")|![Значок F&#35;](../../extensibility/ux-guidelines/media/0405-28_fsharp.png "0405-28_FSharp")|![Значок JavaScript](../../extensibility/ux-guidelines/media/0405-29_javascript.png "0405-29_JavaScript")|![Значок Python](../../extensibility/ux-guidelines/media/0405-30_python.png "0405-30_Python")|
 
 |HTML|WPF|ASP|CSS|TypeScript|
-|-|-|-|-|-|-|
-|![Значок HTML](../../extensibility/ux-guidelines/media/0405-31_html.png "0405-31_HTML")<br />HTML|![Значок WPF](../../extensibility/ux-guidelines/media/0405-32_wpf.png "0405-32_WPF")<br />WPF|![Значок ASP](../../extensibility/ux-guidelines/media/0405-33_asp.png "0405-33_ASP")<br />ASP|![Значок CSS](../../extensibility/ux-guidelines/media/0405-34_css.png "0405-34_CSS")<br />CSS|![Значок TypeScript](../../extensibility/ux-guidelines/media/0405-35_typescript.png "0405-35_TypeScript")<br />TypeScript||
+|-|-|-|-|-|
+|![Значок HTML](../../extensibility/ux-guidelines/media/0405-31_html.png "0405-31_HTML")<br />HTML|![Значок WPF](../../extensibility/ux-guidelines/media/0405-32_wpf.png "0405-32_WPF")<br />WPF|![Значок ASP](../../extensibility/ux-guidelines/media/0405-33_asp.png "0405-33_ASP")<br />ASP|![Значок CSS](../../extensibility/ux-guidelines/media/0405-34_css.png "0405-34_CSS")<br />CSS|![Значок TypeScript](../../extensibility/ux-guidelines/media/0405-35_typescript.png "0405-35_TypeScript")<br />TypeScript|
 
 #### <a name="intellisense"></a>технология IntelliSense
  Значки IntelliSense используют эксклюзивную цветовую палитру. Эти цвета помогают пользователям быстро различать элементы во всплывающем списке функций IntelliSense.

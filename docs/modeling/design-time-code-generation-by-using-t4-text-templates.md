@@ -17,12 +17,12 @@ ms.author: joshuapa
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 11c9384d03971f475abbe680f6731d2757cbb195
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ec309be7fbeb81951af73517412f36f7b28bc82f
+ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935304"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104884152"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>Создание кода во время разработки с помощью текстовых шаблонов T4
 
@@ -64,7 +64,7 @@ ms.locfileid: "99935304"
 
 5. Сохраните файл.
 
-    Может появиться окно сообщения **системы безопасности** с предложением подтвердить, что вы хотите запустить шаблон. Нажмите кнопку **OK**.
+    Может появиться окно сообщения **системы безопасности** с предложением подтвердить, что вы хотите запустить шаблон. Нажмите кнопку **ОК**.
 
 6. В **Обозреватель решений** разверните узел файла шаблона, и вы увидите файл с расширением **txt**. Файл содержит текст, созданный на основе шаблона.
 
@@ -352,7 +352,7 @@ Warning("A warning message");
 
 4. Проверьте следующие свойства файла **. TT** :
 
-   | | |
+   |Свойство. |Параметр |
    |-|-|
    | **Пользовательский инструмент =** | **TextTemplatingFileGenerator** |
    | **Действие построения =** | **Нет** |
@@ -390,6 +390,6 @@ Warning("A warning message");
 |Преобразование данных в форме доменного языка.|[Создание кода из доменного языка](../modeling/generating-code-from-a-domain-specific-language.md)|
 |Написание процессоров директив для преобразования собственных источников данных.|[Настройка преобразования текста T4](../modeling/customizing-t4-text-transformation.md)|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Рекомендации по написанию текстовых шаблонов T4](../modeling/guidelines-for-writing-t4-text-templates.md)
