@@ -8,17 +8,17 @@ helpviewer_keywords:
 - glyphs, source control packages
 - source control packages, glyphs
 ms.assetid: b9413b08-b3c3-4fc3-a6e0-3dc0db3652d7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3ea9300c96cf63c932d88335c0ca0f9fd4542f72
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cb0175f3e74bf979bcbabaa5785ed9e015c5e7a1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954778"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061216"
 ---
 # <a name="glyph-control-source-control-vspackage"></a>Элемент управления глифами (пакет VSPackage системы управления версиями)
 Часть глубокой интеграции, доступная для пакетов VSPackage системы управления версиями, позволяет отображать собственные глифы для указания состояния элементов в системе управления версиями.
@@ -36,7 +36,7 @@ ms.locfileid: "99954778"
 
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs.GetCustomGlyphList%2A>Метод используется [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] для получения списка изображений, показывающих различные состояния системы управления версиями. Пакет VSPackage системы управления версиями возвращает в интегрированную среду разработки маркер в список изображений для своих пользовательских глифов. В этом месте интегрированная среда разработки создает копию списка изображений и использует ее позже для выбора глифов для вывода. Если новый интерфейс не поддерживается или `IVsSccGlyphs::GetCustomGlyphList` метод возвращает значение `E_NOTIMPL` , интегрированная среда разработки получает свои глифы из списка по умолчанию для глифов, предоставляемых [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs>
 - <xref:Microsoft.VisualStudio.Shell.Interop.VsStateIcon>
 - <xref:Microsoft.VisualStudio.Shell.Interop.SVsSccManager>

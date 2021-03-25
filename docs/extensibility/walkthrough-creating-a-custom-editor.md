@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - create
 ms.assetid: d090abb6-d99f-4083-a3db-cd16bf81ce7d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0a4ebcf99634012943ed0a7fd1a72b5d4852729e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 79adcf719091619fe4c4eb62b1fe89ba3da388f5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99931387"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062022"
 ---
 # <a name="walkthrough-create-a-custom-editor"></a>Пошаговое руководство. Создание пользовательского редактора
 Шаблон проекта VSPackage может создавать простой пользовательский редактор в C++. Шаблон проекта VSPackage больше не поддерживает проекты C# и Visual Basic. Дополнительные сведения см. в разделе [пакет SDK для Visual Studio](../extensibility/visual-studio-sdk.md).
@@ -48,5 +48,5 @@ ms.locfileid: "99931387"
 
      Редактор поддерживает операции копирования и вставки, поиска и замены, а также операций открытия и загрузки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../extensibility/internals/vspackages.md)

@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Visual Studio templates, schema
 - .vstemplate files
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 458f3245517dd874a086932c65806978b5a1cf85
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 423e92eef6f9b712bd7705acbf9d95d5a01f44f4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925874"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062451"
 ---
 # <a name="visual-studio-template-schema-reference"></a>Справочник по схеме шаблонов Visual Studio
 В этом разделе содержатся сведения об элементах XML в *VSTEMPLATE* -файлах, которые хранят метаданные для шаблонов проектов, шаблонов элементов и начальных наборов.
@@ -50,7 +50,7 @@ ms.locfileid: "99925874"
 |[LocationField](../extensibility/locationfield-element-visual-studio-project-templates.md)|--|--|
 |[LocationFieldMRUPrefix](../extensibility/locationfieldmruprefix-element-visual-studio-templates.md)|--|--|
 |[MaxFrameworkVersion](../extensibility/maxframeworkversion-element-visual-studio-templates.md)|--|--|
-|[Имя](../extensibility/name-element-visual-studio-templates.md)|--|Пакет<br /><br /> ID|
+|[имя](../extensibility/name-element-visual-studio-templates.md);|--|Пакет<br /><br /> ID|
 |[NumberOfParentCategoriesToRollUp](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)|--|--|
 |[PreviewImage](../extensibility/previewimage-element-visual-studio-templates.md)|--|--|
 |[Project](../extensibility/project-element-visual-studio-templates.md)|Папка<br /><br /> ProjectItem|Файл<br /><br /> TargetFileName<br /><br /> ReplaceParameters|
@@ -63,7 +63,7 @@ ms.locfileid: "99925874"
 |[PromptForSaveOnCreation](../extensibility/promptforsaveoncreation-element-visual-studio-templates.md)|--|--|
 |[ProvideDefaultName](../extensibility/providedefaultname-element-visual-studio-templates.md)|--|--|
 |[Ссылки](../extensibility/reference-element-visual-studio-templates.md)|Сборка|--|
-|[Справочные материалы](../extensibility/references-element-visual-studio-templates.md)|Справочные сведения|--|
+|[Справочные материалы](../extensibility/references-element-visual-studio-templates.md)|Справочник|--|
 |[RequiredFrameworkVersion](../extensibility/requiredframeworkversion-element-visual-studio-templates.md)|--|--|
 |[RequiredPlatformVersion](../extensibility/requiredplatformversion-element-visual-studio-templates.md)|--|Версия|
 |[SDKReference](../extensibility/sdkreference-element-visual-studio-templates.md)|--|Пакет|
@@ -78,7 +78,7 @@ ms.locfileid: "99925874"
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Имя<br /><br /> Описание<br /><br /> Значок<br /><br /> PreviewImage<br /><br /> ProjectType<br /><br /> ProjectSubType<br /><br /> TemplateID<br /><br /> TemplateGroupID<br /><br /> SortOrder<br /><br /> CreateNewFolder<br /><br /> DefaultName<br /><br /> ProvideDefaultName<br /><br /> PromptForSaveOnCreation<br /><br /> EnableLocationBrowseButton<br /><br /> EnableEditOfLocationField<br /><br /> Скрытый<br /><br /> DisplayInParentCategories<br /><br /> LocationFieldMRUPrefix<br /><br /> NumberOfParentCategoriesToRollUp<br /><br /> CreateInPlace<br /><br /> BuildOnLoad<br /><br /> BuildProjectOnload<br /><br /> ShowByDefault<br /><br /> LocationField<br /><br /> SupportsMasterPage<br /><br /> SupportsCodeSeparation<br /><br /> SupportsLanguageDropDown<br /><br /> RequiredFrameworkVersion<br /><br /> FrameworkVersion<br /><br /> MaxFrameworkVersion<br /><br /> CustomDataSignature<br /><br /> TargetPlatformName|--|
 |[TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)|--|--|
 |[TemplateID](../extensibility/templateid-element-visual-studio-templates.md)|--|--|
-|[VSTemplate](../extensibility/vstemplate-element-visual-studio-templates.md)|TemplateData<br /><br /> TemplateContent<br /><br /> WizardExtension<br /><br /> WizardData|Тип<br /><br /> Версия|
+|[VSTemplate](../extensibility/vstemplate-element-visual-studio-templates.md)|TemplateData<br /><br /> TemplateContent<br /><br /> WizardExtension<br /><br /> WizardData|Type<br /><br /> Версия|
 |[WizardData](../extensibility/wizarddata-element-visual-studio-templates.md)|--|Имя|
 |[WizardExtension](../extensibility/wizardextension-element-visual-studio-templates.md)|Сборка<br /><br /> FullClassName|--|
 

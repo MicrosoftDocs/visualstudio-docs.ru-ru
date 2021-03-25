@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c0d9d20000781980535259c0a739e03a47ae53e1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0bd45bb0a47de7283d75c083edc46b6fc38fe7d3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869548"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079206"
 ---
 # <a name="inside-the-editor"></a>Внутри редактора
 
@@ -216,7 +216,7 @@ abXefYj
 
 - Операции и примитивы
 
-- технология IntelliSense
+- IntelliSense
 
 ### <a name="tags-and-classifiers"></a>Теги и классификаторы
 
@@ -314,13 +314,13 @@ P: ABCDEvwxyz
 
 Операции редактора можно использовать для автоматизации взаимодействия с редактором для сценариев или других целей. Можно импортировать в <xref:Microsoft.VisualStudio.Text.Operations.IEditorOperationsFactoryService> операции доступа к заданному <xref:Microsoft.VisualStudio.Text.Editor.ITextView> . Затем эти объекты можно использовать для изменения выбора, прокрутки представления или перемещения курсора в различные части представления.
 
-### <a name="intellisense"></a>технология IntelliSense
+### <a name="intellisense"></a>IntelliSense
 
 IntelliSense поддерживает завершение операторов, справку по сигнатурам (также называемую сведениями о параметрах), краткие сведения и лампочки.
 
 Завершение операторов предоставляет всплывающие списки возможных завершений для имен методов, XML-элементов и других элементов кода или разметки. Как правило, пользовательский жест вызывает сеанс завершения. В сеансе отображается список возможных завершений, и пользователь может выбрать один или закрыть список. Объект <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker> отвечает за создание и активацию <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession> . Выполняет <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> Вычисление <xref:Microsoft.VisualStudio.Language.Intellisense.CompletionSet> элементов завершения для сеанса.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Точки расширения языковой службы и редактора](../extensibility/language-service-and-editor-extension-points.md)
 - [Импорт в редактор](../extensibility/editor-imports.md)

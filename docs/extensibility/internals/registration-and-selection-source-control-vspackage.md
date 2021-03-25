@@ -8,17 +8,17 @@ helpviewer_keywords:
 - registration, source control packages
 - source control packages, registration
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0784b16acd00e354c8ecf36f34d6b05c750f6bec
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ff23784bb833c6a68e368f5db5d3b6f1a7433bb0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837207"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069417"
 ---
 # <a name="registration-and-selection-source-control-vspackage"></a>Регистрация и выбор (пакет VSPackage системы управления версиями)
 Для предоставления доступа к необходимо зарегистрировать пакет VSPackage системы управления версиями [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] . Если зарегистрировано более одного пакета VSPackage системы управления версиями, пользователь может выбрать, какой пакет VSPackage будет загружаться в нужное время. Дополнительные сведения о пакетах VSPackage и их регистрации см. в разделе [пакеты VSPackage](../../extensibility/internals/vspackages.md) .
@@ -81,7 +81,7 @@ ms.locfileid: "99837207"
 
   В отличие от предыдущих версий [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] , перезагрузка интегрированной среды разработки больше не является единственным способом переключения пакетов VSPackage системы управления версиями. Выбран автоматический выбор VSPackage. Для переключения пакетов требуются права пользователя Windows (не администраторы или опытные пользователи).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>
 - [Функции](../../extensibility/internals/source-control-vspackage-features.md)
 - [Создание подключаемого модуля системы управления версиями](../../extensibility/internals/creating-a-source-control-plug-in.md)

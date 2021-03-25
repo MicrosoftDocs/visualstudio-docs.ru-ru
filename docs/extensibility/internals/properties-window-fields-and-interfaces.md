@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, fields and interfaces
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: eb1f0a0f78b935a3b61596e4dd0b595030640b00
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9f445d31fe995321ad6ec334a5b6eb93570b8875
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970014"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061034"
 ---
 # <a name="properties-window-fields-and-interfaces"></a>Properties Window Fields and Interfaces
 Модель выбора позволяет определить, какие сведения отображаются в окне **Свойства** , на основе окна, имеющего фокус в интегрированной среде разработки. Для каждого окна и объекта в выбранном окне может быть отправлен объект контекста выбора в глобальный контекст выбора. Среда обновляет глобальный контекст выделения значениями из рамки окна, когда это окно находится в фокусе. При изменении фокуса, поэтому выполняет контекст выбора.
@@ -116,6 +116,6 @@ STDAPI DLLGetDocumentation
 
  Другим способом получения локализованного имени и описания свойства является реализация метода <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.GetLocalizedPropertyInfo%2A>. Дополнительные сведения, относящиеся к реализации этого метода, см. в статье [Properties Window Fields and Interfaces](../../extensibility/internals/properties-window-fields-and-interfaces.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение свойств](../../extensibility/internals/extending-properties.md)

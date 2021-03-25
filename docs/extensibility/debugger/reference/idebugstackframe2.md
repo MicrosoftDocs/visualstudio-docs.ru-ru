@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame2 interface
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b5ec53e89afb43187c641058620df53c4a61d6cc
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f9675627bf3044258a532ca91768619f2c6de3ba
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102145915"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105053260"
 ---
 # <a name="idebugstackframe2"></a>IDebugStackFrame2
 Этот интерфейс представляет один кадр стека в стеке вызовов в определенном потоке.
@@ -51,7 +51,7 @@ IDebugStackFrame2 : IUnknown
 |[EnumProperties](../../../extensibility/debugger/reference/idebugstackframe2-enumproperties.md)|Создает перечислитель для свойств кадра стека.|
 |[GetThread](../../../extensibility/debugger/reference/idebugstackframe2-getthread.md)|Возвращает поток, связанный с кадром стека.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот интерфейс получается, только если отлаживаемая программа остановлена в точке останова (вызванной точкой останова пользовательской установки или исключением). С помощью этого интерфейса можно получить контекст выражения для вычисления выражений, возвратить список регистров, а также получить и исследовать стек вызовов.
 
 ## <a name="requirements"></a>Требования
@@ -61,5 +61,5 @@ IDebugStackFrame2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)

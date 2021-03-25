@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - add features
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c18b73b22d1ce4d4b2a7720d3d80081b4e2c075c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a19808e76714e0435bd5bb638aea0fbc7eaba929
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893416"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062061"
 ---
 # <a name="walkthrough-add-features-to-a-custom-editor"></a>Пошаговое руководство. Добавление компонентов в пользовательский редактор
 После создания пользовательского редактора к нему можно добавить дополнительные компоненты.
@@ -53,7 +53,7 @@ ms.locfileid: "99893416"
         > [!NOTE]
         > Вызовите `QueryService` On <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> , чтобы получить указатель на `IVsFileChangeEx` .
 
-7. Координация событий изменения документа с помощью системы управления исходным кодом. Выполните следующие действия.
+7. Координация событий изменения документа с помощью системы управления исходным кодом. Выполните указанные ниже действия.
 
     1. Получите указатель на `IVsQueryEditQuerySave2` , вызвав `QueryService` <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave> .
 
@@ -65,13 +65,13 @@ ms.locfileid: "99893416"
 
          Этот метод предлагает пользователю сохранить файл, если он не был сохранен или был изменен с момента последнего сохранения.
 
-8. Включите окно " **Свойства** ", чтобы отобразить свойства для текста, выбранного в редакторе. Выполните следующие действия.
+8. Включите окно " **Свойства** ", чтобы отобразить свойства для текста, выбранного в редакторе. Выполните указанные ниже действия.
 
     1. Вызывайте <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> каждый раз при изменении выбора текста, передавая реализацию <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> .
 
     2. Вызовите `QueryService` <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> службу, чтобы получить указатель на <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> .
 
-9. Разрешить пользователям перетаскивать элементы между редактором и **панелью элементов**, а также между внешними редакторами (например, Microsoft Word) и **панелью элементов**. Выполните следующие действия.
+9. Разрешить пользователям перетаскивать элементы между редактором и **панелью элементов**, а также между внешними редакторами (например, Microsoft Word) и **панелью элементов**. Выполните указанные ниже действия.
 
     1. Реализуйте `IDropTarget` в редакторе, чтобы предупредить интегрированную среду разработки о том, что редактор является целью перетаскивания.
 
@@ -154,6 +154,6 @@ ms.locfileid: "99893416"
 
   - `Window.Object`
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Участие в модели автоматизации](../extensibility/internals/contributing-to-the-automation-model.md)

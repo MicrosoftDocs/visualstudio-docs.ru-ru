@@ -9,17 +9,17 @@ helpviewer_keywords:
 - ~sak files
 - source control plug-ins, ~SAK files
 ms.assetid: 5277b5fa-073b-4bd1-8ba1-9dc913aa3c50
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 61b446416bc944b53d38b07b3a58358a333744b9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cf0f8bc567a097d4bb7d400f829489c517e9a68f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946687"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061242"
 ---
 # <a name="elimination-of-sak-files"></a>Исключение файлов ~ SAK
 В API подключаемого модуля системы управления версиями 1,2 файлы *~ SAK* были заменены флагами возможностей и новыми функциями, которые определяют, поддерживает ли подключаемый модуль системы управления версиями файл *мссккпрж* и общие извлечения.
@@ -52,5 +52,5 @@ Visual Studio .NET 2003 создал временные файлы с префи
 > [!NOTE]
 > Если этот раздел реестра имеет значение *типа DWORD: 00000000*, то он эквивалентен несуществующему ключу, и Visual Studio по-прежнему пытается создать временные файлы. Однако если для раздела реестра задано значение *DWORD: 00000001*, Visual Studio не пытается создать временные файлы. Вместо этого предполагается, что подключаемый модуль системы управления версиями не поддерживает файл *мссккпрж. SCC* и не поддерживает совместное извлечение.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Новые возможности в API подключаемого модуля системы управления версиями, версия 1,2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

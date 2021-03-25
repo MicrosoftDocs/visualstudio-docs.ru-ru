@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - margin glyph
 ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a2a1857edb8032d12cd23da5e2686ad90f15b574
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9260b567b65000780ee81226607e0a1c76c5fd46
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892467"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062009"
 ---
 # <a name="walkthrough-create-a-margin-glyph"></a>Пошаговое руководство. Создание глифа поля
 Внешний вид полей редактора можно настроить с помощью пользовательских расширений редактора. Это пошаговое руководство помещает пользовательский глиф на поле индикатора каждый раз, когда слово «TODO» появляется в комментарии к коду.

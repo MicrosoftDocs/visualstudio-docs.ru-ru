@@ -8,17 +8,17 @@ helpviewer_keywords:
 - Call Browser tool, identifying symbols in the library
 - Call Browser tool
 ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4e4c551c516b78ababb2400f7cfbd699ab06627
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c6c897801b98857f4a310323d4e00583c98245d5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99932596"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078881"
 ---
 # <a name="how-to-identify-symbols-in-a-library"></a>Руководство. определение символов в библиотеке
 Средства просмотра символов отображают иерархические представления символов. Символы представляют собой пространства имен, объекты, классы, члены классов и другие элементы языка.
@@ -81,7 +81,7 @@ N1
 
      Диспетчер объектов вызывает этот метод для получения списка узлов, содержащихся в пути представления символа.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Поддержка средств обзора символов](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [Как зарегистрировать библиотеку с помощью диспетчера объектов](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [Пошаговое руководство. предоставление списка символов, предоставленных библиотекой, диспетчеру объектов](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

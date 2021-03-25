@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, buttons
 ms.assetid: bdd2e3a7-ae6e-4e88-be1a-e0e3b7ddbbcc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 601e40762adc665f6241bb00a4b683b81e7fbd80
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 88eacbdbcc50dc843769cdcf4701ba1a2bfe895a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970027"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061073"
 ---
 # <a name="properties-window-buttons"></a>Кнопки окна свойств
 В зависимости от языка разработки и типа продукта определенные кнопки по умолчанию отображаются на панели инструментов окна « **Свойства** ». Во всех случаях отображаются кнопки **категории**, по **алфавиту**, **Свойства** и **страницы свойств** . В Visual C# и Visual Basic также отображается кнопка **события** . В некоторых Visual C++ проектах отображаются **сообщения VC + +** и кнопки **переопределения VC** . Для других типов проектов могут отображаться дополнительные кнопки. Дополнительные сведения о кнопках в окне " **Свойства** " см. в разделе " [окно свойств](../../ide/reference/properties-window.md)".
@@ -38,5 +38,5 @@ ms.locfileid: "99970027"
 > [!NOTE]
 > Нельзя добавить кнопки панели инструментов в окно **свойств** с помощью неуправляемого кода. Чтобы добавить кнопку на панели инструментов, необходимо создать управляемый объект, производный от <xref:System.Windows.Forms.Design.PropertyTab> .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширение свойств](../../extensibility/internals/extending-properties.md)

@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - highlight text
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 95bc250219c59d4db21fcb086cdf43e0ba7800e3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a500d63eb497ce6d2b23860cd3793cbc2632b819
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99838634"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078465"
 ---
 # <a name="walkthrough-highlight-text"></a>Пошаговое руководство. выделение текста
 Можно добавить различные визуальные эффекты в редактор, создав компоненты компонентов Managed Extensibility Framework (MEF). В этом пошаговом руководстве показано, как выделить каждое вхождение текущего слова в текстовом файле. Если слово встречается в текстовом файле более одного раза и курсор находится в одном месте, выделяется каждое вхождение.
@@ -407,5 +407,5 @@ ms.locfileid: "99838634"
 
 4. Поместите курсор в одно из вхождений "Hello". Каждое вхождение должно быть выделено синим цветом.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пошаговое руководство. Связывание типа содержимого с расширением имени файла](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

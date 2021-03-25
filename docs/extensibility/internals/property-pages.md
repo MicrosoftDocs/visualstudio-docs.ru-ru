@@ -9,17 +9,17 @@ helpviewer_keywords:
 - property pages
 - property pages, changing configuration options
 ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd7d1ce463377daa2800d5c3e635adc71935d9d0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f3e36960b35119434e56f075f622ae2513454dd6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883172"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061021"
 ---
 # <a name="property-pages"></a>Страницы свойств
 Пользователи могут просматривать и изменять свойства, зависящие от конфигурации проекта, с помощью страниц свойств. Кнопка **страницы свойств** доступна в окне **свойства** или на панели инструментов Обозреватель решений для объектов, предоставляющих представление страницы свойств выбранного объекта. Страницы свойств создаются средой и доступны для решений и проектов. Однако они также могут быть доступны для элементов проекта, которые используют свойства, зависящие от конфигурации. Эта возможность может использоваться, если для правильной сборки файлов в проекте требуются различные параметры коммутатора компилятора.
@@ -79,7 +79,7 @@ ms.locfileid: "99883172"
 
    Реализуйте <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection%2A> метод, чтобы получить выбранную иерархию проекта, элемент или элементы проекта. В DTE используются `SelectedItems.SelectedItem.Project` `SelectedItems.SelectedItem.ProjectItem` методы и. В этих заголовках в основных документах содержится пример кода [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>
 - [Управление параметрами конфигурации](../../extensibility/internals/managing-configuration-options.md)
 - [Объект конфигурации проекта](../../extensibility/internals/project-configuration-object.md)

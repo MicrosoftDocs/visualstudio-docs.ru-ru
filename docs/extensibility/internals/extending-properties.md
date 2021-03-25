@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, providing support
 ms.assetid: 68e2cbd4-861c-453f-8c9f-4ab6afc80e67
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b9a777bf11f388873978f450184f1455236e9ff9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3b1006f74cd2de03b4fe74e090d7ffcd1c921e5d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887088"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069651"
 ---
 # <a name="extend-properties"></a>Расширение свойств
 Окно [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **свойства** — это обозреватель универсальных свойств для компонентов COM и com+, поддерживающий все [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] продукты. Окно **Свойства** работает со `ITypeInfo` сведениями о типе и метаданными com+ для перечисления свойств времени разработки для выбранного объекта в любом другом окне интегрированной среды разработки (IDE).

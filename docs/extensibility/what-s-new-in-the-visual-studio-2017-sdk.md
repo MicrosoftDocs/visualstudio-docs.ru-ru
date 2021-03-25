@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 10/31/2017
 ms.topic: conceptual
 ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9ab9183eacfc82aa70c22dec551883561b021b58
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5a1e34ac23a0e6c298dae14c1613e7af0fc7b25d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99931253"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061931"
 ---
 # <a name="what39s-new-in-the-visual-studio-2017-sdk"></a>Новые&#39;пакета SDK для Visual Studio 2017
 

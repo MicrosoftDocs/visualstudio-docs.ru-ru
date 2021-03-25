@@ -9,17 +9,17 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], hidden text
 - language services, implementing hidden text regions
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0c4951e1f3fbaf63bf0638965a7dee2db7be8830
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2bb6d9c3c4f01c0e84c6ab437e352a86bf00448f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965256"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078738"
 ---
 # <a name="how-to-provide-hidden-text-support-in-a-legacy-language-service"></a>Как обеспечить поддержку скрытого текста в языковой службе прежних версий
 Помимо областей структуры, можно создавать скрытые текстовые области. Скрытые текстовые области могут быть управляемыми клиентом или редактором и используются для полного скрытия области текста. Редактор отображает скрытую область в виде горизонтальных линий. Примером этого является просмотр **только скриптов** в редакторе HTML.

@@ -10,17 +10,17 @@ helpviewer_keywords:
 - IntelliSense, IntellisenseHostFlags enumeration
 - IntellisenseHostFlags enumeration
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: af4683dede8a57b2d42acdf357808b465efb1e8e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 83a3911670a10710ad6ae5cd6496fb76af6c27bb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869509"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079141"
 ---
 # <a name="intellisensehostflags"></a>IntelliSenseHostFlags
 Указывает флаги узла IntelliSense.
@@ -51,5 +51,5 @@ enum IntellisenseHostFlags
 ## <a name="requirements"></a>Требования
  Синглефилидитор. idl
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.TextManager.Interop>

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project subtypes
 - check subtypes
 ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 519366fabed855c7ef3cb7c62d39a4743d890f1e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c52d3297ce4903cb8f8e7cb2f9ab5169d21ac94e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926039"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062607"
 ---
 # <a name="verify-subtypes-of-a-project-at-run-time"></a>Проверка подтипов проекта во время выполнения
 Пакет VSPackage, зависящий от настраиваемого подтипа проекта, должен включать логику для поиска этого подтипа, чтобы он мог корректно завершить работу при отсутствии подтипа. В следующей процедуре показано, как проверить наличие указанного подтипа.
@@ -68,7 +68,7 @@ ms.locfileid: "99926039"
     }
     ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подтипы проектов](../extensibility/internals/project-subtypes.md)
 - [Проект подтипов проекта](../extensibility/internals/project-subtypes-design.md)
 - [Свойства и методы, расширенные по подтипам проектов](../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)

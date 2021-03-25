@@ -8,17 +8,17 @@ helpviewer_keywords:
 - Visual Studio command table configuration files (VSCT), XML schema
 - VSCT XML schema elements
 ms.assetid: 49e7efae-e713-4762-a824-96fdaf92cdc9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9cc50d3914f43be0da2f992f1074dc82cf5178ae
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9f24d11c9458b56b5b66de495a18ec75491d3ac0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925741"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062308"
 ---
 # <a name="vsct-xml-schema-reference"></a>Справочник по XML-схеме VSCT
 Предоставляет таблицу элементов схемы компилятора командной таблицы с допустимыми дочерними элементами и атрибутами для каждого из них.
@@ -74,6 +74,6 @@ ms.locfileid: "99925741"
 
 - [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Как пакеты VSPackage добавляют элементы пользовательского интерфейса](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Маршрутизация команд в пакетах VSPackage](../extensibility/internals/command-routing-in-vspackages.md)

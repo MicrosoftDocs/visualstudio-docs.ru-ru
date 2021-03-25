@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - glossary [Visual Studio SDK]
 ms.assetid: b64d432b-c39b-4904-ad18-3c3218b6e3aa
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 707526daaafdbc7e99c11c5b7fb8edf9fdbccc03
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3b6ca48ef867aea11bcc5b5be85e4f8d85f07f0a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925907"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062555"
 ---
 # <a name="visual-studio-sdk-glossary"></a>Глоссарий по Visual Studio SDK
 В этом глоссарии содержатся определения терминов, используемых в [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] документации.

@@ -7,17 +7,17 @@ ms.topic: troubleshooting
 helpviewer_keywords:
 - services, troubleshooting
 ms.assetid: 001551da-4847-4f59-a0b2-fcd327d7f5ca
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f6e29f2c65ec7503f06baca4af4c6772090d5eb8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a105f38166ecea958bb0e5bbfe790170b020e354
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952295"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079219"
 ---
 # <a name="how-to-troubleshoot-services"></a>Руководство. Устранение неполадок служб
 Существует несколько распространенных проблем, которые могут возникнуть при попытке получить службу:
@@ -68,7 +68,7 @@ if (log == null) return;
 
     Если в окне инструментов размещается пользовательский элемент управления или любой другой контейнер элементов управления, контейнер будет размещен в модели компонентов Windows и не будет иметь доступа к [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] службам. Можно вызвать <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> для получения поставщика службы VSPackage из контейнера элементов управления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Список доступных служб](../extensibility/internals/list-of-available-services.md)
 - [Использование и предоставление служб](../extensibility/using-and-providing-services.md)
 - [Основные компоненты службы](../extensibility/internals/service-essentials.md)

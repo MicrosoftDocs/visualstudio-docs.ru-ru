@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame2::GetPhysicalStackRange
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 41664f0e59b0eba6ae8a98599c74bd91fe26cf2a
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 7612267a428986ac67a02934f8cbdec38dcb736a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102145928"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105053338"
 ---
 # <a name="idebugstackframe2getphysicalstackrange"></a>IDebugStackFrame2::GetPhysicalStackRange
 Возвращает зависящее от компьютера представление диапазона физических адресов, связанных с кадром стека.
@@ -52,10 +52,10 @@ int GetPhysicalStackRange (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Сведения, возвращаемые этим методом, используются диспетчером отладки сеансов (SDM) для сортировки кадров стека.
 
  Предполагается, что стек вызовов растет, то есть новые кадры стека добавляются по меньшей мере с более низкими адресами памяти. Архитектура времени выполнения должна обеспечивать физические диапазоны стека, соответствующие этому предположении.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

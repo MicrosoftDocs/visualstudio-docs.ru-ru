@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - properties [Visual Studio SDK], grid
 ms.assetid: 318e41b0-acf5-4842-b85e-421c9d5927c5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0dd336701fc25497fdecba8b5b9860a02447558d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9ccf8afd293c47a1eb55b0b57b8190c11492cfa8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970053"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061125"
 ---
 # <a name="properties-display-grid"></a>Сетка "Отображение свойств"
 
@@ -57,6 +57,6 @@ ms.locfileid: "99970053"
 
 - Нажатие кнопки с многоточием (...) приводит к отображению списка значений свойств, из которых пользователь может выбрать (например, выбор цвета или список шрифтов). <xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder> предоставляет эти значения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение свойств](../../extensibility/internals/extending-properties.md)

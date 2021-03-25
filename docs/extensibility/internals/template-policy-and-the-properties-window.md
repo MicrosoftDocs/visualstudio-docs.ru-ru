@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, template policy
 ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 40f29eb5da5c8377c31a39a1e55868bf89f444a9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b415054f65c41f03556f7d87be5b12d92ced399c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898232"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078673"
 ---
 # <a name="template-policy-and-the-properties-window"></a>Шаблон политики и окно свойств
 Если проект содержится в проекте корпоративного шаблона, этот проект шаблона предприятия может применить политику. Политика шаблона превращается в ограничивающую систему, которую можно использовать для задания значений по умолчанию для свойств, скрытия свойств, добавления свойств и т. д.
@@ -30,6 +30,6 @@ ms.locfileid: "99898232"
 
   Использование политики шаблонов для выборочного ограничения определенных свойств в окне " **Свойства** " при выборе элемента проекта указанного типа в **Обозреватель решений** может быть полезным для всех членов группы разработчиков, работающих над проектом. Например, с помощью политики шаблонов можно настроить все данные строки подключения в базе данных для ваших разработчиков и сделать строку подключения доступной только для чтения. Таким образом, можно предоставить простой способ гарантировать, что каждый разработчик использует правильный путь для доступа к данным.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>
 - [Расширение свойств](../../extensibility/internals/extending-properties.md)

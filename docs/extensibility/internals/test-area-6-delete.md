@@ -8,17 +8,17 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], deleting items
 - source control plug-ins, deleting items
 ms.assetid: 6f2e872c-5ba2-4303-9f50-a90cef9a6225
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: cd0e7ba0c1841ea054739cbae85b74245807b324
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e405df704dfbba14413bd3787a9fb9f959c62a46
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884485"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078595"
 ---
 # <a name="test-area-6-delete"></a>Область тестирования 6. Удаление
 Эта область тестирования подключаемого модуля управления версиями охватывает действия по удалению.
@@ -54,5 +54,5 @@ ms.locfileid: "99884485"
 |Удаление веб-проекта файловой системы|1. Создайте веб-проект файловой системы (для указания пути в формате UNC используйте кнопку Обзор).<br />2. Добавьте решение в систему управления версиями.<br />3. Удалите весь проект из решения.<br />4. Повторите шаги 1 – 3 для локального веб-проекта (упражнения с разными путями в коде, но с таким же внешним интерфейсом и поведением).|Типичное ожидаемое поведение.|
 |Удаление файла из веб-проекта файловой системы|1. Создайте веб-проект файловой системы.<br />2. Добавьте решение в систему управления версиями.<br />3. Удалите файл из проекта.<br />4. Повторите шаги 1 – 3 для локального веб-проекта (упражнения с разными путями в коде, но с таким же внешним интерфейсом и поведением).|Типичное ожидаемое поведение.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Руководство по тестированию подключаемых модулей системы управления версиями](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

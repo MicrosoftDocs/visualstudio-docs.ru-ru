@@ -8,17 +8,17 @@ helpviewer_keywords:
 - Visual Studio SDK, reference
 - reference, Visual Studio SDK
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7146abea7ddaba944a913e5f51164c5497c643c8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d07a1148911347d4ff8bdb94e1de4625877872d3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925897"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062542"
 ---
 # <a name="visual-studio-sdk-reference"></a>Справочник по Visual Studio SDK
 

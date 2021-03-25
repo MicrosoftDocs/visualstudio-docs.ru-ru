@@ -10,17 +10,17 @@ helpviewer_keywords:
 - IDE, context
 - IDE, user feedback
 ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33e52a277f621c80773518ae4b9606d7a2c222db
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4d40ca34ea8d579e85ee56170f621b98a10b89f2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99886994"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069638"
 ---
 # <a name="feedback-to-the-user"></a>Отзыв пользователю
 В [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE) визуальная обратная связь о доступных функциональных возможностях зависит от текущего выбора пользователя и контекста глобального выбора. В следующей таблице перечислены функциональные возможности, доступные в разных контекстах выбора.
@@ -59,7 +59,7 @@ ms.locfileid: "99886994"
 
 - Активное окно иерархии, которое обычно **Обозреватель решений**, а его заголовок обновляется в соответствии с текущим контекстом, а команды меню контекстно-зависимого **проекта** теперь применяются к активному проекту веб-приложения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Выбор и валюта в интегрированной среде разработки](../../extensibility/internals/selection-and-currency-in-the-ide.md)
 - [Объекты контекста выделения](../../extensibility/internals/selection-context-objects.md)
 - [Иерархии и выбор](../../extensibility/internals/hierarchies-and-selection.md)

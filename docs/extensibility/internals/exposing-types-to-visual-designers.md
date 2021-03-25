@@ -9,17 +9,17 @@ helpviewer_keywords:
 - designers [Visual Studio SDK], exposing types
 - custom tools, exposing types to visual designers
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c36552c3a10f4ddbf50a7a28978acf27118bbd34
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5208de3af52e4dad5fb9bb59b16f7b59efb72340
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887098"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069677"
 ---
 # <a name="expose-types-to-visual-designers"></a>Предоставление типов для визуальных конструкторов
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] для отображения визуального конструктора необходимо иметь доступ к определениям классов и типов во время разработки. Классы загружаются из предопределенного набора сборок, включающего полный набор зависимостей текущего проекта (ссылки и их зависимости). Также может потребоваться, чтобы визуальные конструкторы могли обращаться к классам и типам, определенным в файлах, созданных настраиваемыми инструментами.
@@ -45,7 +45,7 @@ ms.locfileid: "99887098"
 
      При компиляции временного PE в компиляторе предоставляется только один исходный файл с данными пользовательского инструмента. Таким образом, Пользовательский инструмент, использующий временный PE, должен создавать выходные файлы, которые могут быть скомпилированы независимо от других файлов в проекте.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Общие сведения об объекте BuildManager](/previous-versions/8f9kffa8(v=vs.140))
 - [Реализация генераторов с одним файлом](../../extensibility/internals/implementing-single-file-generators.md)
 - [Регистрация генераторов с одним файлом](../../extensibility/internals/registering-single-file-generators.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: Meng
 ms.workload:
 - vssdk
-ms.openlocfilehash: c959660b920abc18be70b228fa6b40de1ab585f8
-ms.sourcegitcommit: 4ae5e9817ad13edd05425febb322b5be6d3c3425
+ms.openlocfilehash: 57b447be3ee411b737c1aea5b0a4be5ef966c8c6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "90037664"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062152"
 ---
 # <a name="walkthrough-create-an-extension-pack"></a>Пошаговое руководство. Создание пакета расширения
 
@@ -33,9 +33,9 @@ ms.locfileid: "90037664"
 
 Шаблон элемента пакета расширений создает пакет расширений с набором расширений, которые можно установить вместе.
 
-1. В диалоговом окне **Новый проект** найдите "VSIX" и выберите **проект VSIX**. В качестве **имени проекта**введите "пакет расширения теста". Нажмите кнопку **создания**.
+1. В диалоговом окне **Новый проект** найдите "VSIX" и выберите **проект VSIX**. В качестве **имени проекта** введите "пакет расширения теста". Нажмите кнопку **создания**.
 
-2. В **Обозреватель решений**щелкните правой кнопкой мыши узел проекта и выберите команду **Добавить**  >  **новый элемент**. Перейдите в узел **расширяемость** Visual C# и выберите **пакет расширения**. Оставьте имя файла по умолчанию (ExtensionPack1.cs).
+2. В **Обозреватель решений** щелкните правой кнопкой мыши узел проекта и выберите команду **Добавить**  >  **новый элемент**. Перейдите в узел **расширяемость** Visual C# и выберите **пакет расширения**. Оставьте имя файла по умолчанию (ExtensionPack1. cs).
 
 3. Добавлен файл ExtensionPack1. всекст, содержащий следующий код.
 

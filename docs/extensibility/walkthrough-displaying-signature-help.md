@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - signature help/parameter info
 ms.assetid: 4a6a884b-5730-4b54-9264-99684f5b523c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8933822ee5bb63b341ff51296ba2884fef2aeb75
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1a9aedc6324eb1d4a57517a10b80348841fa72df
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935915"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078504"
 ---
 # <a name="walkthrough-display-signature-help"></a>Пошаговое руководство. Отображение справки по сигнатурам
 Справка по сигнатурам (также называемая *сведениями о параметрах*) отображает сигнатуру метода в подсказке, когда пользователь вводит начальный символ списка параметров (обычно это открывающая круглая скобка). При вводе разделителя параметров и параметров (обычно запятая) подсказка обновляется для отображения следующего параметра полужирным шрифтом. Справку по сигнатурам можно определить следующими способами: в контексте языковой службы определите собственное расширение имени файла и тип содержимого, а также справку по сигнатурам для этого типа или отобразите справку по сигнатуре для существующего типа содержимого (например, "Text"). В этом пошаговом руководстве показано, как отобразить справку по сигнатуре для типа содержимого text.
@@ -246,5 +246,5 @@ ms.locfileid: "99935915"
 
 4. После ввода открывающей скобки вы увидите подсказку, которая отображает список двух сигнатур для `add()` метода.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пошаговое руководство. Связывание типа содержимого с расширением имени файла](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

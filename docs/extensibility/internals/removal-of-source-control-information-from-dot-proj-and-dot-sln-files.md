@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, .sln and .proj files
 ms.assetid: 7b06883f-35de-41e2-9a9e-d3edba236f17
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 03b1c3f6e2c1cc6852ea443788bb336a03c3330f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5fd4b4f12ab819903408d4d895773664e892b3ac
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99905808"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069391"
 ---
 # <a name="removal-of-source-control-information-from-proj-and-sln-files"></a>Удаление данных системы управления версиями из файлов. proj и. sln
 
@@ -29,6 +29,6 @@ ms.locfileid: "99905808"
 
  В интерфейсе API подключаемого модуля системы управления версиями 1,1 среда IDE использовала файлы ~ SAK, чтобы определить, поддерживает ли подключаемый модуль МССККПРЖ. Метод SCC для хранения данных системы управления версиями. Интерфейс API подключаемого модуля системы управления версиями 1,2 предоставляет новую возможность для обнаружения поддержки МССККПРЖ. Файл SCC без использования файла ~ SAK. Дополнительные сведения см. в разделе [исключение файлов ~ SAK](../../extensibility/internals/elimination-of-tilde-sak-files.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Новые возможности в API версии 1.2 подключаемого модуля системы управления версиями](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

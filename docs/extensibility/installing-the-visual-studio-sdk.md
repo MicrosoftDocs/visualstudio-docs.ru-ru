@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 07/12/2018
 ms.topic: overview
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f5b0d239c2280362b45c085448437b15bd8ddfe8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 331a219210c990aed2f9601cd1f9b1f0bc5710ed
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869535"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079167"
 ---
 # <a name="install-the-visual-studio-sdk"></a>Установка пакета SDK для Visual Studio
 

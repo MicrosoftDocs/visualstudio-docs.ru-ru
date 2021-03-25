@@ -9,17 +9,17 @@ helpviewer_keywords:
 - project models
 - projects [Visual Studio SDK], elements
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f786ae8e0725c7c1b6f0683a779a65f015ac2a75
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 85b31996a7a0636f136e43531e69fe25c6d87d8f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946765"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061294"
 ---
 # <a name="elements-of-a-project-model"></a>Элементы модели проекта
 Интерфейсы и реализации всех проектов в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] совместном использовании базовой структуры: модель проекта для типа проекта. В модели проекта, которая является разрабатываемым пакетом VSPackage, вы создаете объекты, которые соответствуют решениям по проектированию и совместно работают с глобальными функциями, предоставляемыми интегрированной средой разработки. Хотя вы управляете сохранением элемента проекта, например, вы не контролируете уведомление о том, что файл должен быть сохранен. Когда пользователь помещает фокус на открытый элемент проекта и выбирает команду **сохранить** в меню **файл** в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] строке меню, код типа проекта должен перехватить команду из интегрированной среды разработки, сохранить файл и отправить уведомление обратно в интегрированную среду разработки, что файл больше не изменяется.
@@ -42,7 +42,7 @@ ms.locfileid: "99946765"
 
   Проекты могут поддерживать команды и поэтому должны реализовывать <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> интерфейс для участия в маршрутизации команд через идентификаторы GUID контекста команды.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Контрольный список: создание новых типов проектов](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Использование классов проектов HierUtil7 для реализации типа проекта (C++)](/previous-versions/bb166212(v=vs.100))
 - [Основные компоненты модели проекта](../../extensibility/internals/project-model-core-components.md)

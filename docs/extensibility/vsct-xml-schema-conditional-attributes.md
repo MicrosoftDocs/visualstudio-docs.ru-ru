@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSCT XML schema elements, conditional attributes
 - conditional attributes (VSCT XML schema)
 ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3d123cfbd37c254522fe52bbb941afeb363d3fbf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5bc1bcb9d80474b467e90de6262e797087589065
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925753"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062360"
 ---
 # <a name="vsct-xml-schema-conditional-attributes"></a>Условные атрибуты схемы XML VSCT
 Условные атрибуты можно применять ко всем спискам и элементам. Логические операторы и выражения расширения символов имеют значение true или false. Если значение — true, связанный список или элемент включается в результирующие выходные данные.
@@ -38,7 +38,7 @@ ms.locfileid: "99925753"
 |!|Логическое НЕ|
 |\<, >, \<=, >=, ==, !=|Операторы отношения и равенства|
 |и|Логическое|
-|или диспетчер конфигурации служб|Логическое|
+|или|Логическое|
 
 ## <a name="examples"></a>Примеры
 
@@ -71,5 +71,5 @@ and !Defined(DEBUG)">
 </Menus>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Командная таблица Visual Studio (. Vsct) файлы](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

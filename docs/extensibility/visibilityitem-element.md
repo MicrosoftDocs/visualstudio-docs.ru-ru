@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VisibilityItem element (VSCT XML schema)
 - VSCT XML schema elements, VisibilityItem
 ms.assetid: 0932f551-972d-4194-84bb-426e3e4375e4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3fa4c2910a1f694a822d2a31b5ad537c8104f99c
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 1229c5e63838a8192c7622cdddd9881799a2da11
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221305"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062516"
 ---
 # <a name="visibilityitem-element"></a>Висибилититем, элемент
 `VisibilityItem`Элемент определяет статическую видимость команд и панелей инструментов. Каждая запись определяет команду или меню, а также связанный контекст пользовательского интерфейса команды. Visual Studio обнаруживает команды, меню и панели инструментов, а также их видимость, не загружая пакеты VSPackage, которые их определяют. Интегрированная среда разработки использует <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> метод, чтобы определить, активен ли контекст пользовательского интерфейса команды.
@@ -59,7 +59,7 @@ ms.locfileid: "102221305"
 |-------------|-----------------|
 |[Висибилитиконстраинтс, элемент](../extensibility/visibilityconstraints-element.md)|`VisibilityConstraints`Элемент определяет статическую видимость групп команд и панелей инструментов.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Стандартные контексты пользовательского интерфейса Visual Studio определяются в файле \Висуалстудиоинтегратион\коммон\инк\всшлидс.х *пути установки пакета SDK для Visual Studio*, а также в <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids> <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> классах и. Более полный набор контекстов пользовательского интерфейса определяется в <xref:Microsoft.VisualStudio.VSConstants> классе.
 
 ## <a name="example"></a>Пример
@@ -71,7 +71,7 @@ ms.locfileid: "102221305"
 </VisibilityConstraints>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A>
 - <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus>
 - <xref:Microsoft.VisualStudio.VSConstants>

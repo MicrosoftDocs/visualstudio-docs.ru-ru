@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - add a menu command
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4e0072d3f39ef037dfaa660d3a297afb59baacf3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f36d141c75b43dfaf90960261e40c4a619069802
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888918"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061996"
 ---
 # <a name="walkthrough-use-a-shell-command-with-an-editor-extension"></a>Пошаговое руководство. Использование команды оболочки с расширением редактора
 Из VSPackage можно добавить в редактор такие компоненты, как команды меню. В этом пошаговом руководстве показано, как добавить Оформление в текстовое представление в редакторе, вызвав команду меню.
@@ -614,7 +614,7 @@ ms.locfileid: "99888918"
 
     - Microsoft. VisualStudio. Text. UI. WPF
 
-2. Откройте файл *AddAdornment.CS* и добавьте следующие `using` директивы.
+2. Откройте файл *аддадорнмент. CS* и добавьте следующие `using` директивы.
 
     ```csharp
     using Microsoft.VisualStudio.TextManager.Interop;
@@ -693,5 +693,5 @@ ms.locfileid: "99888918"
 
      Фаурскоре...
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пошаговое руководство. Связывание типа содержимого с расширением имени файла](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

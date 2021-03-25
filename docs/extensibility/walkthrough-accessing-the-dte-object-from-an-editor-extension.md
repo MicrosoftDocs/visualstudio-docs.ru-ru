@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - getting the DTE object
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7228165d49c7f11c15d12086933c473699ef6bc8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7035842f608428f149dd2c0965b4792afa25db67
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99905583"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062074"
 ---
 # <a name="walkthrough-access-the-dte-object-from-an-editor-extension"></a>Пошаговое руководство. доступ к объекту DTE из расширения редактора
 
@@ -40,7 +40,7 @@ ms.locfileid: "99905583"
     - Microsoft. VisualStudio. Shell. Framework
     - Microsoft. VisualStudio. Shell. неизменяемый. 10.0
 
-3. В файл *DTETestProvider.CS* добавьте следующие `using` директивы:
+3. В файле *дтетестпровидер. CS* добавьте следующие `using` директивы:
 
     ```csharp
     using EnvDTE;
@@ -70,7 +70,7 @@ ms.locfileid: "99905583"
    - EnvDTE
    - Microsoft. VisualStudio. Shell. Framework
 
-3. В файл *DTETestProvider.CS* добавьте следующие `using` директивы:
+3. В файле *дтетестпровидер. CS* добавьте следующие `using` директивы:
 
     ```csharp
     using EnvDTE;
@@ -92,7 +92,7 @@ ms.locfileid: "99905583"
 
 ::: moniker-end
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Точки расширения языковой службы и редактора](../extensibility/language-service-and-editor-extension-points.md)
 - [Запуск Visual Studio с помощью DTE](launch-visual-studio-dte.md)

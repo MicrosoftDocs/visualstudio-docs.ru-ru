@@ -11,17 +11,17 @@ helpviewer_keywords:
 - visual studio command
 - guid
 ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: db0c417c40a2f2d02adef9c7a9e7274f95592015
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d2f25853f8f1ece583b460d39550af680001b3d4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898274"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069599"
 ---
 # <a name="guids-and-ids-of-visual-studio-commands"></a>Идентификаторы GUID и идентификаторы команд Visual Studio
 Идентификаторы GUID и ИДЕНТИФИКАТОРы команд, включенных в интегрированную среду разработки (IDE) Visual Studio, определяются в vsct-файлах, которые устанавливаются в составе пакета SDK для Visual Studio. Дополнительные сведения см. в разделе [команды, меню и группы, определяемые интегрированной средой разработки](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
@@ -62,7 +62,7 @@ ms.locfileid: "99898274"
 
      Нет надежного способа поиска по динамическому тексту. Вместо этого найдите группу, в которой размещена нужная команда, [идентификаторы GUID и идентификаторы меню Visual Studio](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) , а также идентификаторы [GUID и идентификаторы панелей инструментов Visual Studio](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md), а также найдите идентификатор этой группы. Если в определении команды нет группы в качестве [родительского элемента](../../extensibility/parent-element.md), выполните поиск *шаредкмдплаце. vsct* и *Шеллкмдплаце. vsct* (или *всдбгкмдплаце. vsct* для команд отладчика) для `<CommandPlacement>` элемента, который задает родительский элемент для команды. *Шаредкмдплаце. vsct*, *шеллкмдплаце. vsct* и *всдбгкмдплаце. vsct* находятся в папке *\<Visual Studio SDK installation path\> \висуалстудиоинтегратион\коммон\инк \\* .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Файлы таблицы команд Visual Studio (. vsct)](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [Справочник по XML-схеме VSCT](../../extensibility/vsct-xml-schema-reference.md)

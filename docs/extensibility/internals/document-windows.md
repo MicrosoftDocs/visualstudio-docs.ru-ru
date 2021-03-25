@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f62a6cc4f7b217bbcf8c94b437bcd7ce9d0d1b2b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 79706c98e98be55e69aaeeed7320c8b13bfd2a9c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946739"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061281"
 ---
 # <a name="document-windows"></a>Окна документов
 В Visual Studio *окно документа* является дочерним окном с фреймами, связанным с окном многодокументного интерфейса (MDI). Окна документов обычно используются для просмотра и изменения исходного кода или текста, но они также могут содержать другие функциональные типы. Окна документов:
@@ -43,5 +43,5 @@ ms.locfileid: "99946739"
 ## <a name="the-running-document-table"></a>Таблица выполняющегося документа
  Интегрированная среда разработки использует таблицу выполняемых документов (РДТ) для наблюдения за состоянием каждого окна документа. РДТ — это механизм, с помощью которого окна документов получают уведомления о событиях, например о закрытии решения или изменении файла. Дополнительные сведения см. в разделе [выполнение таблицы документов](../../extensibility/internals/running-document-table.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Отложенная загрузка документов](../../extensibility/internals/delayed-document-loading.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Properties window
 ms.assetid: 289ed4f2-02ac-4899-855e-42dfe57ee05f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6a33d393cfd904bdae890f4ead9a4c25a6451460
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c5f378200072df603817a445a9c3406cf62233c8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837298"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061008"
 ---
 # <a name="properties-window-overview"></a>Общие сведения об окне свойств
 Окно **Свойства** используется для вывода свойств объектов, выбранных в двух основных типах окон, доступных в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE). Эти два типа окон:
@@ -50,6 +50,6 @@ ms.locfileid: "99837298"
 
  Дополнительные сведения о см `IDispatch` . в библиотеке MSDN.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширение свойств](../../extensibility/internals/extending-properties.md)
 - [Properties Window Fields and Interfaces](../../extensibility/internals/properties-window-fields-and-interfaces.md)

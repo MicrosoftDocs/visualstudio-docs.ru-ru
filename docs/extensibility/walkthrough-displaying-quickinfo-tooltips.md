@@ -7,20 +7,20 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - QuickInfo
 ms.assetid: 23fb8384-4f12-446f-977f-ce7910347947
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - csharp
 - vb
-ms.openlocfilehash: 3c07dd32b889a9d75222bc8ff5a245f516fab528
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: acda716c72d10f35bf8c89978956f62a6d3754dc
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935928"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078608"
 ---
 # <a name="walkthrough-display-quickinfo-tooltips"></a>Пошаговое руководство. Отображение подсказок краткие сведения
 Краткие сведения — это функция IntelliSense, которая отображает сигнатуры и описания методов, когда пользователь наводит указатель мыши на имя метода. Вы можете реализовать такие функции на основе языка, как краткие сведения, определив идентификаторы, для которых необходимо предоставить описания краткие сведения, а затем создав подсказку, в которой будет отображаться содержимое. Можно определить краткие сведения в контексте языковой службы или определить собственное расширение имени файла и тип содержимого и отобразить краткие сведения только для этого типа. Кроме того, можно отобразить краткие сведения для существующего типа содержимого (например, "Text"). В этом пошаговом руководстве показано, как отобразить краткие сведения для типа содержимого text.
@@ -179,5 +179,5 @@ ms.locfileid: "99935928"
 
 4. Наведите указатель мыши на одно из вхождений "Добавить". Должна отобразиться подпись и описание `add` метода.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пошаговое руководство. Связывание типа содержимого с расширением имени файла](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

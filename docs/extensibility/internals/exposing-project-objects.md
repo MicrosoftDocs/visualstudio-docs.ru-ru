@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project objects, exposing
 - extensibility, project objects
 ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 86b6151878f4d437013196fe738c457bbd188fc8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c0ad045cb2cc46577c06d65e3ac1236228c870a9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946609"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069690"
 ---
 # <a name="expose-project-objects"></a>Предоставление доступа к объектам проекта
 
@@ -93,6 +93,6 @@ ms.locfileid: "99946609"
 
      Пользовательский `Projects` объект коллекции является удобной точкой входа для оставшейся части модели автоматизации проекта. Объект Project также доступен из <xref:EnvDTE.Solution> коллекции проектов. После создания соответствующего кода и записей реестра, предоставляющих потребителей `Projects` объектам коллекции, ваша реализация должна предоставлять оставшиеся стандартные объекты для модели проекта. Дополнительные сведения см. в разделе [Моделирование проектов](../../extensibility/internals/project-modeling.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], tool windows
 - tool windows, automation
 ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 518a9d53b0bf03a1c57046789452ed007e6188f6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 774b32dc1554fb6d6466be7e915fbaeea8185798
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888983"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078751"
 ---
 # <a name="how-to-provide-automation-for-windows"></a>Руководство. предоставление автоматизации для Windows
 
@@ -42,6 +42,6 @@ ms.locfileid: "99888983"
 
 Кроме того, редактор может предоставить специфический для VSPackage объект автоматизации, полученный с помощью <xref:EnvDTE.Document.Object%2A> метода, путем реализации `IVsExtensibleObject` `IExtensibleObject` интерфейсов или. [Примеры VSSDK](https://github.com/Microsoft/VSSDK-Extensibility-Samples) вносят объект автоматизации, относящийся к документу RTF.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

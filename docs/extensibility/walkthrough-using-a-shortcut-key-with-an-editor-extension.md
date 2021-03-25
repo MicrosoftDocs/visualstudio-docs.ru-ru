@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link keystrokes to commands
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d0f6cb0d3cc0bef03539428bafeff5ae3da64964
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c2d49fa9e858d65529e466f6ed960835ab8c2324
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99931270"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061957"
 ---
 # <a name="walkthrough-use-a-shortcut-key-with-an-editor-extension"></a>Пошаговое руководство. Использование сочетания клавиш с расширением редактора
 Вы можете реагировать на сочетания клавиш в расширении редактора. В следующем пошаговом руководстве показано, как добавить Оформление представления в текстовое представление с помощью сочетания клавиш. Это пошаговое руководство основано на шаблоне "редактор оформлений" окна просмотра и позволяет добавлять Оформление с помощью символа +.
@@ -47,7 +47,7 @@ ms.locfileid: "99931270"
 this.layer = view.GetAdornmentLayer("PurpleCornerBox");
 ```
 
-В файле класса KeyBindingTestTextViewCreationListener.cs измените имя Адорнментлайер с **кэйбиндингтест** на **пурплекорнербокс**:
+В файле класса Кэйбиндингтесттекствиевкреатионлистенер. cs измените имя Адорнментлайер с **кэйбиндингтест** на **пурплекорнербокс**:
 
 ```csharp
 [Export(typeof(AdornmentLayerDefinition))]
@@ -259,7 +259,7 @@ public AdornmentLayerDefinition editorAdornmentLayer;
    }
    ```
 
-   7. Скопируйте определение слоя декоративных элементов из файла *KeyBindingTestTextViewCreationListener.CS* в *KeyBindingCommandHandler.CS* , а затем удалите файл *KeyBindingTestTextViewCreationListener.CS* :
+   7. Скопируйте определение слоя декоративных элементов из файла *кэйбиндингтесттекствиевкреатионлистенер. CS* в файл *кэйбиндингкоммандхандлер. CS* , а затем удалите файл *кэйбиндингтесттекствиевкреатионлистенер. CS* :
 
    ```csharp
    /// <summary>
@@ -276,7 +276,7 @@ public AdornmentLayerDefinition editorAdornmentLayer;
 
 Исходный элемент оформления появлялся на каждом символе "a" в текстовом файле. Теперь, когда мы изменили код для добавления оформления в ответ на **+** символ, он добавляет Оформление только в строку, в которой **+** введен символ. Мы можем изменить код оформления, чтобы в каждом элементе "a" появился крайний элемент.
 
-В файле *KeyBindingTest.CS* измените `CreateVisuals()` метод, чтобы выполнить итерацию по всем строкам в представлении, чтобы снабдить символ "a".
+В файле *кэйбиндингтест. CS* измените `CreateVisuals()` метод, чтобы выполнить итерацию по всем строкам в представлении, чтобы снабдить символ "a".
 
 ```csharp
 private void CreateVisuals(ITextViewLine line)
