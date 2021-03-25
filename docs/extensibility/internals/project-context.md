@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], opening items
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fdc5550cfde44c71b1b663a30cf1824c6edfcf82
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 38571b51c31b20bd38e50dd32644be4c262e0702
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99907675"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062867"
 ---
 # <a name="project-context"></a>Контекст проекта
 Когда пользователь добавляет или работает с проектами и элементами проекта, интегрированная среда разработки использует понятие контекста проекта, чтобы определить, как должны выполняться различные операции.
@@ -28,6 +28,6 @@ ms.locfileid: "99907675"
 
  В других случаях контекст проекта элемента не указывается явно. Например, контекст элемента недоступен, когда пользователь открывает файл, выбирая команду **Открыть существующий файл** в меню **файл** , когда отладчик работает с файлом или когда пользователь нажимает кнопку **найти в файлах** в диалоговом окне **найти и заменить** . Для обработки этих ситуаций в интегрированной среде разработки <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument> осуществляется вызов для управления процессом поиска лучшего проекта для открытия документа.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Приоритет проекта](../../extensibility/internals/project-priority.md)
 - [Добавление проекта и шаблонов элементов проекта](../../extensibility/internals/adding-project-and-project-item-templates.md)

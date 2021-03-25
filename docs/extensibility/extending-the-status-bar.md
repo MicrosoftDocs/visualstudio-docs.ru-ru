@@ -8,17 +8,17 @@ helpviewer_keywords:
 - status bars, about status bars
 - status bars, overview
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7776c7fa35cd7ac06dec60ced3604cb67c96da4a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5ab87f9c8b54d9c31466068668eb8dd5a1857a06
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99903195"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070106"
 ---
 # <a name="extend-the-status-bar"></a>Расширение строки состояния
 Для отображения сведений можно использовать строку состояния Visual Studio в нижней части интегрированной среды разработки.
@@ -36,7 +36,7 @@ ms.locfileid: "99903195"
 
 1. Создайте проект VSIX с именем **тестстатусбарекстенсион** и добавьте команду меню с именем **тестстатусбаркомманд**.
 
-2. В *TestStatusBarCommand.CS* замените код метода обработчика команд ( `MenuItemCallback` ) следующим кодом:
+2. В *тестстатусбаркомманд. CS* замените код метода обработчика команд ( `MenuItemCallback` ) следующим кодом:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -80,7 +80,7 @@ ms.locfileid: "99903195"
 
 1. В этой процедуре будет показано, как инициализировать и обновить индикатор выполнения.
 
-2. Откройте файл *TestStatusBarCommand.CS* и замените `MenuItemCallback` метод следующим кодом:
+2. Откройте файл *тестстатусбаркомманд. CS* и замените `MenuItemCallback` метод следующим кодом:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -118,7 +118,7 @@ ms.locfileid: "99903195"
 
      В этой процедуре мы отображаем стандартную анимацию Visual Studio, которая представляет собой сборку проекта или решения.
 
-2. Откройте файл *TestStatusBarCommand.CS* и замените `MenuItemCallback` метод следующим кодом:
+2. Откройте файл *тестстатусбаркомманд. CS* и замените `MenuItemCallback` метод следующим кодом:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)

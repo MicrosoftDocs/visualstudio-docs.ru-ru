@@ -6,17 +6,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd70db6f6fd9eb1558a21e50f3d2f63137fe8e1d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 953230ed3c29f110e8b6e69b0fb09fb59cb9cd55
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102167819"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105054950"
 ---
 # <a name="getscheduledtasksfordebugger-method"></a>Метод GetScheduledTasksForDebugger
 Извлекает массив всех запланированных задач.
@@ -36,8 +36,8 @@ ms.locfileid: "102167819"
 ## <a name="return-value"></a>Возвращаемое значение
  Массив всех запланированных задач. Каждая задача является выполненной или завершила свою работу.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот метод не является потокобезопасным, и его нельзя использовать параллельно с другими экземплярами <xref:System.Threading.Tasks.TaskScheduler> . Вызывайте этот метод из отладчика только в том случае, если отладчик приостановил все остальные потоки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Класс TaskScheduler](../../extensibility/debugger/taskscheduler-class-internal-members.md)

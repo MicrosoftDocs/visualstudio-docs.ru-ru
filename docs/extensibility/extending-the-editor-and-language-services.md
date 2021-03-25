@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new -
 ms.assetid: 8d04f8db-eda7-4b3e-b6eb-c06df104502a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 81b1e46db4f38f37296798a645d6547cdd6f017f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8d85b018b4e0ea7d5ed1c91e617afcb2759d49b8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895730"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070119"
 ---
 # <a name="extend-the-editor-and-language-services"></a>Расширение редактора и языковых служб
 Вы можете добавить функции языковой службы (например, IntelliSense) в собственный редактор и расширить большинство функций редактора кода Visual Studio.  Полный список возможностей, которые можно расширить, см. в разделе [точки расширения языковой службы и редактора](../extensibility/language-service-and-editor-extension-points.md).
@@ -55,7 +55,7 @@ ms.locfileid: "99895730"
 |[Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index)|Содержит сведения о Managed Extensibility Framework (MEF).|
 |[Windows Presentation Foundation](/dotnet/framework/wpf/index)|Предоставляет сведения о Windows Presentation Foundation (WPF).|
 
-## <a name="reference"></a>Справочные сведения
+## <a name="reference"></a>Справочник
  Редактор Visual Studio включает следующие пространства имен.
 
  <xref:Microsoft.VisualStudio.Language.Intellisense>

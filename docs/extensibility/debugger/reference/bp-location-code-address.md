@@ -8,19 +8,19 @@ f1_keywords:
 helpviewer_keywords:
 - BP_LOCATION_CODE_ADDRESS structure
 ms.assetid: 83c9da8b-19d9-4be5-b225-854543654901
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
-ms.openlocfilehash: 961a62284b841d56ae73a29df0e83810ff9d7d20
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0b181f82c7364797f246730cb6a82075d7040af1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144446"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085238"
 ---
 # <a name="bp_location_code_address"></a>BP_LOCATION_CODE_ADDRESS
 Описывает расположение точки останова по адресу в коде.
@@ -36,7 +36,7 @@ typedef struct _BP_LOCATION_CODE_ADDRESS {
 } BP_LOCATION_CODE_ADDRESS;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `bstrContext`\
 Контекст точки останова, обычно имя метода или функции, как показано в стеке вызовов.
 
@@ -49,7 +49,7 @@ URL-адрес модуля, содержащего точку останова.
 `bstrAddress`\
 Адрес точки останова, который анализируется средством оценки выражений для привязки его к объекту [идебугаддресс](../../../extensibility/debugger/reference/idebugaddress.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура является членом структуры [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) в составе объединения.
 
 ## <a name="requirements"></a>Требования
@@ -59,7 +59,7 @@ URL-адрес модуля, содержащего точку останова.
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

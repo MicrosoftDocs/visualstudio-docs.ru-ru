@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugContainerField::EnumFields method
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 68ec12cd97318fc41b97c5a7701dff2346524101
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 63ce34fc9eddec84326982cf7d30fda919817040
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102143172"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077932"
 ---
 # <a name="idebugcontainerfieldenumfields"></a>IDebugContainerField::EnumFields
 Создает перечислитель для полей контейнера.
@@ -67,10 +67,10 @@ int EnumFields(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK или S_FALSE, если нет полей. В противном случае возвращается код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  `dwKindFilter`Параметры, `dwModifiersFilter` и `pszNameFilter` можно комбинировать, например, чтобы выбрать все открытые виртуальные методы с именем MyMethod.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md)

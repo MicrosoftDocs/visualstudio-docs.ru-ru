@@ -1,5 +1,5 @@
 ---
-description: Извлекает тип с учетом его токена.
+description: 'IDebugComPlusSymbolProvider2:: Жеттипефромтокен Извлекает тип с учетом его токена.'
 title: 'IDebugComPlusSymbolProvider2:: Жеттипефромтокен | Документация Майкрософт'
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,20 +7,20 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::GetTypeFromToken
 - GetTypeFromToken
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 85b5c64f623ce1693cf4256569486fa120cb3240
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 3f4bcc8d92cc58a719e9b450ec79e8376de554ab
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102163464"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077984"
 ---
 # <a name="idebugcomplussymbolprovider2gettypefromtoken"></a>IDebugComPlusSymbolProvider2::GetTypeFromToken
 Извлекает тип с учетом его токена.
@@ -90,5 +90,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

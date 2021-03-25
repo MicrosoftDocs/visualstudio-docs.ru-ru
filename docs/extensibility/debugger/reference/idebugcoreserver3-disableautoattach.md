@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer3::DisableAutoAttach
 ms.assetid: 9d860a20-c154-4df4-ba15-636e0fcd42bf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1ad02efc68fe0bdd7a64ae0df02fe934a2044abc
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 88f21dbed27b0ec525f127933cd9a5fc28ed5646
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154721"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077672"
 ---
 # <a name="idebugcoreserver3disableautoattach"></a>IDebugCoreServer3::DisableAutoAttach
 Отключает автоматическое присоединение для всех модулей отладки, связанных с этим сервером.
@@ -41,5 +41,5 @@ int DisableAutoAttach();
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

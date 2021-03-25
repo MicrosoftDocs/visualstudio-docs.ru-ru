@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - outlining, supporting in native code
 ms.assetid: 252c5221-2e64-461c-8dcf-b622e400e0be
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: de9bc6e4b742326e979c2701bb5792127539274a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9e2a8331dd308b348d29f2eb21d7dac09b13a183
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895470"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062997"
 ---
 # <a name="outlining-and-hidden-text-in-a-legacy-language-service"></a>Структурирование и скрытый текст в языковой службе прежних версий
 Структура позволяет сворачивать последовательность текстовых строк в одну строку. Например, в C++ все методы можно свернуть в одну строку, отображая только сигнатуру метода. Скрытый текст — это последовательность текстовых строк, которые могут быть отображены или скрыты.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Практическое руководство. Поддержка структурирования в языковой службе прежних версий](../../extensibility/internals/how-to-support-outlining-in-a-legacy-language-service.md)
 
  Объясняется, как реализовать

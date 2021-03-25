@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project configurations, object
 - objects, project configuration
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 49014608907445eb768fd5f0ebe5850e625eefdc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a17d5ed54e74b5632d02f8f8013a9098aaab0a49
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99907724"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062906"
 ---
 # <a name="project-configuration-object"></a>Объект конфигурации проекта
 Объект конфигурации проекта управляет отображением сведений о конфигурации в пользовательском интерфейсе.
@@ -49,7 +49,7 @@ ms.locfileid: "99907724"
 
  `ISpecifyPropertyPages` и `IDispatch` используются совместно со страницами свойств для получения и вывода сведений о конфигурации для пользователя. Дополнительные сведения см. в разделе [страницы свойств](../../extensibility/internals/property-pages.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Управление параметрами конфигурации](../../extensibility/internals/managing-configuration-options.md)
 - [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md)
 - [Конфигурация проекта для вывода](../../extensibility/internals/project-configuration-for-output.md)

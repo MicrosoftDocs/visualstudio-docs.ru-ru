@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer2 interface
 ms.assetid: 9c47d0a6-9eb1-464e-bd44-fa2b552d4d36
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 871f7ea5671fa4f3c615d84e0591bd331f945ccc
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 318644353ff3643e92b2a7186359661b403db486
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102163139"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077724"
 ---
 # <a name="idebugcoreserver2"></a>IDebugCoreServer2
 Этот интерфейс используется для представления и получения сведений с сервера на компьютере в сети.
@@ -50,7 +50,7 @@ IDebugCoreServer2 : IUknown
 |[EnumPortSuppliers](../../../extensibility/debugger/reference/idebugcoreserver2-enumportsuppliers.md)|Создает перечислитель для всех поставщиков портов на компьютере.|
 |[GetMachineUtilities_V7](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineutilities-v7.md)|Возвращает служебные программы для компьютера.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот интерфейс также используется в Visual Studio для просмотра процессов, выполняющихся на компьютерах в сети.
 
 ## <a name="requirements"></a>Требования
@@ -60,7 +60,7 @@ IDebugCoreServer2 : IUknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [Событие](../../../extensibility/debugger/reference/idebugportevents2-event.md)
 - [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)

@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider2 interface
 ms.assetid: fa2f9b49-03ad-43c7-92d6-6dcb9c3d0531
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b3a29fcc5cca12698919f0bc4af02bc3db1fe3fa
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 975dc6df875866a16fffc5d044ae82c996b84e35
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102163321"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077971"
 ---
 # <a name="idebugcomplussymbolprovider2"></a>IDebugComPlusSymbolProvider2
 Представляет поставщик символов COM+ с методами, специфичными для управляемого кода, и расширяет [Идебугкомплуссимболпровидер](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) **идебугкомплуссимболпровидер**.

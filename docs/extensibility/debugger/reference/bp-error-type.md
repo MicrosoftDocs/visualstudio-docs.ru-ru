@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_ERROR_TYPE enumeration
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ced08f5bf4cd51a1f89f139fd19971e21e2225e6
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ddff439aba67248bd2eb706a85c5f91b4bf1628d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144433"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085290"
 ---
 # <a name="bp_error_type"></a>BP_ERROR_TYPE
 Указывает тип ошибки точки останова.
@@ -95,7 +95,7 @@ public enum enum_BP_ERROR_TYPE {
 `BPET_ALL`\
 Указывает все типы ошибок точек останова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения можно комбинировать с помощью побитового `OR` и используемого для `dwType` элемента структуры [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) . Передается в качестве параметра в метод [енумеррорбреакпоинтс](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md) .
 
 Тип ошибки точки останова состоит из типа и степени серьезности. Это означает, что тип ошибки точки останова никогда не является просто типом (например, `BPET_TYPE_ERROR` ) или уровнем серьезности (например, `BPET_SEV_GENERAL` ). `BPET_GENERAL_WARNING` и `BPET_GENERAL_ERROR` предоставляют стандартные значения для общих точек останова и предупреждений об ошибках.

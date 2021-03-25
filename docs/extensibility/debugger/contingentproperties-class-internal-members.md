@@ -7,17 +7,17 @@ helpviewer_keywords:
 - ContingentProperties class [.NET Framework debug engines]
 - debug engines, ContingentProperties class [.NET Framework]
 ms.assetid: c49d1362-ab1c-4b6d-9950-fcae40e0e66b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2303318c7a5f36027ce7709c5b09b5846fc6fab6
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 295b8c3b33059811e665e362c9894103b47c422d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154981"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055002"
 ---
 # <a name="contingentproperties-class---internal-members"></a>Класс Континжентпропертиес — внутренние элементы
 Содержит дополнительные свойства <xref:System.Threading.Tasks.Task> объекта.
@@ -35,7 +35,7 @@ ms.locfileid: "102154981"
        extends System.Object
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 ### <a name="fields"></a>Поля
 
@@ -43,8 +43,8 @@ ms.locfileid: "102154981"
 |----------|-----------------|
 |[m_children](../../extensibility/debugger/m-children-field.md)|Список дочерних задач, зарегистрированных в этой задаче.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Платформа .NET Framework инициализирует поля этого класса только в том случае, если они необходимы.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Внутренние модули параллельного расширения для платформа .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

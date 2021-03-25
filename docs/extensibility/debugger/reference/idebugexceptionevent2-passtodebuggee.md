@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExceptionEvent2::PassToDebuggee
 ms.assetid: a20d0f0b-2ca0-4437-bd22-9213c81d2738
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7fca977aba3657592088879cdad884f6e6325ffd
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f81af5686cfc2b99dc3bf5d95e2ec283933297e2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152862"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105084770"
 ---
 # <a name="idebugexceptionevent2passtodebuggee"></a>IDebugExceptionEvent2::PassToDebuggee
 Указывает, должно ли исключение передаваться в отлаживаемую программу при возобновлении выполнения или если исключение должно быть отклонено.
@@ -47,12 +47,12 @@ int PassToDebuggee(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Вызов этого метода фактически не приводит к выполнению кода в отлаживаемой программе. Вызов просто устанавливает состояние для следующего выполнения кода. Например, вызовы метода [канпасстодебугжее](../../../extensibility/debugger/reference/idebugexceptionevent2-canpasstodebuggee.md) могут возвращать `S_OK` [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md).`dwState` для поля задано значение `EXCEPTION_STOP_SECOND_CHANCE` .
 
  Интегрированная среда разработки может получить событие [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md) и вызвать метод [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md) . Обработчик отладки (DE) должен иметь поведение по умолчанию для обработки ситуации, если `PassToDebuggee` метод не вызывается.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)
 - [CanPassToDebuggee](../../../extensibility/debugger/reference/idebugexceptionevent2-canpasstodebuggee.md)
 - [Продолжить](../../../extensibility/debugger/reference/idebugprogram2-continue.md)

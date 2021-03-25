@@ -9,17 +9,17 @@ helpviewer_keywords:
 - source control plug-ins, error codes
 - errors [Visual Studio SDK]
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c9706f7c9cd5b25a3644af2f324fda01f448fa17
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 32557b2a476be9f662decc9992771fe359967a94
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883406"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070171"
 ---
 # <a name="error-codes"></a>Коды ошибок
 Когда функция API подключаемого модуля системы управления версиями возвращает ошибку, ожидается один из следующих кодов ошибок. Все ошибки отрицательны, предупреждения или информационные коды ошибок являются положительными, а успешно — 0.
@@ -81,5 +81,5 @@ IS_SCC_WARNING(rtn) (((rtn) > 0) ? TRUE : FALSE)
 
  Подключаемый модуль системы управления версиями не должен делать никаких предположений о правах доступа к файлу в рабочей папке, даже если во время некоторой операции подключаемый модуль пометил файл как доступный только для чтения. Файл в рабочей папке можно перемещать, удалять и изменять вне управления подключаемым модулем.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подключаемые модули системы управления версиями](../extensibility/source-control-plug-ins.md)

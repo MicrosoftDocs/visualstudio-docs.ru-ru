@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugContainerField interface
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 752eb7d77035a25ad1d0ddc8aec45afe95d898c7
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: bb3a50db80dc2acb075d1c6ec1fe585000468285
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154786"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077906"
 ---
 # <a name="idebugcontainerfield"></a>IDebugContainerField
 Этот интерфейс представляет символ или тип, который является контейнером для других символов или типов.
@@ -42,7 +42,7 @@ IDebugContainerField : IDebugField
 |------------|-----------------|
 |[EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)|Создает перечислитель для полей контейнера.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Массивы (контейнеры для переменных), классы (контейнеры для методов и переменных) и методы (контейнеры для параметров и локальных переменных) являются примерами контейнеров.
 
 ## <a name="requirements"></a>Требования
@@ -52,6 +52,6 @@ IDebugContainerField : IDebugField
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

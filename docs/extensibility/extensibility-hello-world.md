@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 03/14/2019
 ms.topic: tutorial
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e943da6745832cbe59cfe94013650a503265636
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ec465eda5a0bd7d017c3822390d68b43f76b5c47
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99903285"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070184"
 ---
 # <a name="tutorial---create-your-first-extension-hello-world"></a>Учебник. Создайте свое первое расширение: Hello World
 

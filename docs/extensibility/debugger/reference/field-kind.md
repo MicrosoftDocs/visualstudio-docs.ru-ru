@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - FIELD_KIND enumeration
 ms.assetid: fd522b9c-52e2-42fa-939d-343347d5c3b1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 519b18f9e4b0329ded9b17ec0152f36e37377df0
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2476b819d940b5fb6014d00e1bdf920f02a46696
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150865"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085212"
 ---
 # <a name="field_kind"></a>FIELD_KIND
 Указывает тип поля, содержащегося в объекте [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) .
@@ -190,7 +190,7 @@ public enum enum_FIELD_KIND {
 Указывает, что поле является ссылкой.
 
 `FIELD_TYPE_EXTENDED`\
-Зарезервировано для будущего использования.
+Зарезервировано для последующего использования.
 
 `FIELD_SYM_MEMBER`\
 Указывает, что поле является элементом.
@@ -214,7 +214,7 @@ public enum enum_FIELD_KIND {
 Указывает, что поле задает свойства.
 
 `FIELD_SYM_EXTENDED`\
-Зарезервировано для будущего использования.
+Зарезервировано для последующего использования.
 
 `FIELD_KIND_MASK`\
 Указывает маску для типов полей.
@@ -225,7 +225,7 @@ public enum enum_FIELD_KIND {
 `FIELD_SYM_MASK`\
 Указывает маску для символьной информации.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Возвращается из вызова метода [Kind](../../../extensibility/debugger/reference/idebugfield-getkind.md) .
 
 В зависимости от типа поля [QueryInterface](/cpp/atl/queryinterface) может вызываться в интерфейсе [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) для более специфической формы интерфейса. Например, если функция [Kind](../../../extensibility/debugger/reference/idebugfield-getkind.md) возвращает `FIELD_TYPE_METHOD` , то можно вызвать метод `QueryInterface` в I, `DebugField` чтобы получить интерфейс [идебугмесодфиелд](../../../extensibility/debugger/reference/idebugmethodfield.md) .

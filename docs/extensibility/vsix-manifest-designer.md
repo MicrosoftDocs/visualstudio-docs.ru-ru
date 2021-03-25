@@ -11,17 +11,17 @@ helpviewer_keywords:
 - vsix manifest
 - manifest designer
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c053b5f7fe2962e683621ad834cac0815eee7d3b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dfa6e402bfa6b0ef1949a967c37773557b79b0a3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99905741"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062230"
 ---
 # <a name="vsix-manifest-designer"></a>Конструктор манифеста VSIX
 Изменяет файл манифеста пакета VSIX, который задает поведение при установке расширения Visual Studio.
@@ -130,6 +130,6 @@ ms.locfileid: "99905741"
 
   Идентификатор должен совпадать с `ID` атрибутом метаданных пакета зависимостей. Источником может быть проект в текущем решении, установленное в настоящее время расширение или файл. Настройка **разрешения зависимостей** может быть относительным путем к вложенному пакету или URL-адресом расположения загрузки для зависимости. Идентификатор, версия и разрешение пакета зависимостей соответствуют `Id` `Version` `Location` атрибутам, и связанного `Dependency` элемента.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Справочник по схеме расширения VSIX 2,0](../extensibility/vsix-extension-schema-2-0-reference.md)
 - [Анатомия пакета VSIX](../extensibility/anatomy-of-a-vsix-package.md)

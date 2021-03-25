@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSIX private galleries, managing
 - managing VSIX private galleries
 ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 09a24198d5b3c001f363f3a9eecf1dcd2760889f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5981dc4399e09df207b154b900fa163895c344c9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850639"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070067"
 ---
 # <a name="how-to-manage-a-private-gallery-by-using-registry-settings"></a>Руководство. Управление частной галереей с помощью параметров реестра
 Если вы являетесь администратором или разработчиком изолированного расширения оболочки, вы можете управлять доступом к элементам управления, шаблонам и средствам в коллекции Visual Studio, коллекции примеров или частных галереях. Чтобы сделать коллекцию доступной или недоступной, создайте файл *pkgdef* , описывающий измененные разделы реестра и их значения.
@@ -69,5 +69,5 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Частные коллекции](../extensibility/private-galleries.md)

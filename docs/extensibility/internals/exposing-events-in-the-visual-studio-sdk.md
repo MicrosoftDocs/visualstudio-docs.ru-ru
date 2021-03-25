@@ -8,17 +8,17 @@ helpviewer_keywords:
 - events [Visual Studio], exposing
 - automation [Visual Studio SDK], exposing events
 ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 00dd13898204fe322ec0ddd33db10e7ca19db167
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 019efb11d7a31af875425888a1f70423bca76ca9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946648"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069807"
 ---
 # <a name="expose-events-in-the-visual-studio-sdk"></a>Предоставление событий в пакете SDK для Visual Studio
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] позволяет выполнять исходные события с помощью автоматизации. Рекомендуется использовать исходные события для проектов и элементов проектов.
@@ -70,7 +70,7 @@ ms.locfileid: "99946648"
 
  *Аутоматионевентс. h* и *аутоматионевентс. cpp* содержат объявления и реализации классов, приведенных в следующей таблице.
 
-|Class|Описание|
+|Класс|Описание|
 |-----------|-----------------|
 |`CAutomationEvents`|Реализует корневой объект события, полученный из `DTE.Events` объекта.|
 |`CProjectsEventsContainer` и `CProjectItemsEventsContainer`|Реализуйте объекты источника событий, которые инициируют соответствующие события.|
@@ -110,5 +110,5 @@ STDMETHODIMP CVsPackage::GetAutomationObject(
 
  Объекты событий извлекаются из одного центрального расположения — `DTE.Events` объекта. Таким образом, все объекты событий группируются, так что конечному пользователю не придется просматривать всю объектную модель, чтобы найти определенное событие. Это также позволяет предоставлять конкретные объекты VSPackage, вместо того чтобы реализовывать собственный код для системных событий. Однако для конечного пользователя, который должен найти событие для вашего `ProjectItem` интерфейса, не сразу же ясно, откуда извлекается этот объект события.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

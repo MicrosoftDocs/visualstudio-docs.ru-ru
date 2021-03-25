@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentTextEvents2 interface
 ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bcbe6e44923172c3eac4da605848e972216837cc
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: edf7cd483b39fb1fb5dc182a08bbbca8295b2359
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154188"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094098"
 ---
 # <a name="idebugdocumenttextevents2"></a>IDebugDocumentTextEvents2
 Этот интерфейс используется для уведомления Visual Studio об изменениях в исходном документе, предоставляемых модулем отладки.
@@ -47,7 +47,7 @@ IDebugDocumentTextEvents2 : IUnknown
 |[onUpdateTextAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatetextattributes.md)|Уведомляет пакет отладки, что в документе были обновлены текстовые атрибуты.|
 |[onUpdateDocumentAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatedocumentattributes.md)|Уведомляет получателя о том, что атрибуты документа были обновлены.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Только модули отладки, которые предоставляют собственные документы, используют `IDebugDocumentTextEvent2` интерфейс. Примером этого может быть Подсистема отладки сценариев. В процессе интерпретации скриптов можно создать новый исходный код, который отсутствует в любом файле диска и известен только параметру DE.
 
 ## <a name="requirements"></a>Требования
@@ -57,6 +57,6 @@ IDebugDocumentTextEvents2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

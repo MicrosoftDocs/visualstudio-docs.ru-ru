@@ -12,17 +12,17 @@ helpviewer_keywords:
 - tutorials
 - tool windows
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2586618b16afa8f8bfd6b7aa529486adf1d9ce41
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 970ab167434da4ba9c28eb6bbf9a8ea5f6cc6af0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938139"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070145"
 ---
 # <a name="extend-the-properties-task-list-output-and-options-windows"></a>Расширение свойств, список задач, вывода и параметров
 Вы можете получить доступ к любому окну инструментов в Visual Studio. В этом пошаговом руководстве показано, как интегрировать сведения о вашем окне инструментов в новую страницу **параметров** и новый параметр на странице **свойств** , а также как выполнять запись в окна **список задач** и **вывода** .
@@ -63,7 +63,7 @@ ms.locfileid: "99938139"
 
 ### <a name="customize-the-constructor"></a>Настройка конструктора
 
-1. В файле *TodoWindowControl.XAML.CS* добавьте следующую директиву using:
+1. В файле *тодовиндовконтрол. XAML. CS* добавьте следующую директиву using:
 
     ```csharp
     using System;
@@ -81,7 +81,7 @@ ms.locfileid: "99938139"
     }
     ```
 
-3. В *TodoWindow.CS* измените конструктор тодовиндовконтрол, включив в него параметр тодовиндов. Код должен выглядеть следующим образом:
+3. В *тодовиндов. CS* измените конструктор тодовиндовконтрол, включив в него параметр тодовиндов. Код должен выглядеть следующим образом:
 
     ```csharp
     public TodoWindow() : base(null)
@@ -95,7 +95,7 @@ ms.locfileid: "99938139"
     ```
 
 ## <a name="create-an-options-page"></a>Создание страницы параметров
- Можно указать страницу в диалоговом окне **Параметры** , чтобы пользователи могли изменять параметры окна инструментов. Для создания страницы параметров необходимо как класс, описывающий параметры, так и запись в файле *TodoListPackage.CS* или *тодолистпаккаже. vb* .
+ Можно указать страницу в диалоговом окне **Параметры** , чтобы пользователи могли изменять параметры окна инструментов. Для создания страницы параметров необходимо как класс, описывающий параметры, так и запись в файле *тодолистпаккаже. CS* или *тодолистпаккаже. vb* .
 
 1. Добавьте класс с именем `ToolsOptions.cs`. Сделайте `ToolsOptions` класс производным от <xref:Microsoft.VisualStudio.Shell.DialogPage> .
 
@@ -127,7 +127,7 @@ ms.locfileid: "99938139"
 
 ### <a name="make-the-options-page-available-to-users"></a>Сделать страницу параметров доступной для пользователей
 
-1. В *TodoWindowPackage.CS* добавьте в <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> `TodoWindowPackage` класс:
+1. В *тодовиндовпаккаже. CS* добавьте в <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> `TodoWindowPackage` класс:
 
     ```csharp
     [ProvideOptionPage(typeof(ToolsOptions), "ToDo", "General", 101, 106, true)]
@@ -152,7 +152,7 @@ ms.locfileid: "99938139"
 
      ![Окно "Свойства"](../extensibility/media/t5properties.png "T5Properties")
 
-2. Добавьте следующую директиву using в файл *TodoItem.CS* .
+2. Добавьте следующую директиву using в файл *TodoItem. CS* .
 
     ```csharp
     using System.ComponentModel;
@@ -232,7 +232,7 @@ ms.locfileid: "99938139"
     }
     ```
 
-5. Поскольку экземпляры `TodoItem` класса будут храниться в ListBox и ListBox будет вызывать `ToString` функцию, необходимо перегрузить `ToString` функцию. Добавьте следующий код в *TodoItem.CS* после конструктора и до конца класса.
+5. Поскольку экземпляры `TodoItem` класса будут храниться в ListBox и ListBox будет вызывать `ToString` функцию, необходимо перегрузить `ToString` функцию. Добавьте следующий код в *TodoItem. CS* после конструктора и до конца класса.
 
     ```csharp
     public override string ToString()
@@ -241,7 +241,7 @@ ms.locfileid: "99938139"
     }
     ```
 
-6. В *TodoWindowControl.XAML.CS* добавьте методы-заглушки в `TodoWindowControl` класс для `CheckForError` методов и `UpdateList` . Вставьте их после ProcessDialogChar и до конца файла.
+6. В *тодовиндовконтрол. XAML. CS* добавьте методы-заглушки в `TodoWindowControl` класс для `CheckForError` методов и `UpdateList` . Вставьте их после ProcessDialogChar и до конца файла.
 
     ```csharp
     public void CheckForErrors()
@@ -285,7 +285,7 @@ ms.locfileid: "99938139"
     }
     ```
 
-4. Добавьте следующие директивы using в *TodoWindowControl.XAML.CS*:
+4. Добавьте следующие директивы using в *тодовиндовконтрол. XAML. CS*:
 
     ```csharp
     using System.Runtime.InteropServices;
@@ -353,7 +353,7 @@ ms.locfileid: "99938139"
 
      Теперь, когда у вас есть класс, который может использовать окно « **Свойства** », можно интегрировать окно « **свойства** » с окном инструментов. Когда пользователь щелкает элемент в списке в окне инструментов, окно **свойств** должно быть соответствующим образом обновлено. Аналогично, когда пользователь изменяет элемент ToDo в окне **Свойства** , связанный элемент должен быть обновлен.
 
-7. Теперь добавьте оставшуюся часть кода функции Упдателист в *TodoWindowControl.XAML.CS*. Он должен удалить и повторно добавить измененный TodoItem из списка.
+7. Теперь добавьте оставшуюся часть кода функции Упдателист в *тодовиндовконтрол. XAML. CS*. Он должен удалить и повторно добавить измененный TodoItem из списка.
 
     ```csharp
     public void UpdateList(TodoItem item)
@@ -378,7 +378,7 @@ ms.locfileid: "99938139"
 ## <a name="add-text-to-the-output-window-and-items-to-the-task-list"></a>Добавление текста в окно вывода и элементы в список задач
  Для **список задач** создайте новый объект типа Task, а затем добавьте этот объект task в **список задач** , вызвав его `Add` метод. Для записи в окно **вывода** вызывается его `GetPane` метод для получения объекта панели, а затем вызывается `OutputString` метод объекта панели.
 
-1. В *TodoWindowControl.XAML.CS* в `button1_Click` методе добавьте код для получения **общей** панели окна **вывода** (по умолчанию) и записи в него. Метод будет выглядеть так:
+1. В *тодовиндовконтрол. XAML. CS* в `button1_Click` методе добавьте код для получения **общей** панели окна **вывода** (по умолчанию) и записи в него. Метод будет выглядеть так:
 
     ```csharp
     private void button1_Click(object sender, EventArgs e)

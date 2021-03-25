@@ -6,17 +6,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - m_taskId field, Task class [.NET Framework debug engines]
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7fcae044be9df9d93252c7193ef808820ceb5575
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ec1683adef2cdd4da35d44beef1a0acfda85b9f6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151120"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105054781"
 ---
 # <a name="m_taskid-field"></a>m_taskId поле
 Резервное поле для <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> Свойства.
@@ -35,5 +35,5 @@ ms.locfileid: "102151120"
 
 ## <a name="remarks"></a>Remarks
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Класс Task](../../extensibility/debugger/task-class-internal-members.md)
