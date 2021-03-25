@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_RES_DATA_FLAGS enumeration
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bf1d27e876da5fdc0f95ecea0e9ba96c0a687bb1
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 293b3635dd1a725f90ce63a0aa2f8568d5b324e3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144108"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078179"
 ---
 # <a name="bp_res_data_flags"></a>BP_RES_DATA_FLAGS
 Указывает, выполняется ли эмуляция или реализация точки останова данных в оборудовании.
@@ -45,7 +45,7 @@ public enum enum_BP_RES_DATA_FLAGS {
 `BP_RES_DATA_EMULATED`\
 Указывает, что выполняется Эмуляция точки останова в данных.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Используется для `dwFlags` элемента структуры [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md) .
 
 ## <a name="requirements"></a>Требования

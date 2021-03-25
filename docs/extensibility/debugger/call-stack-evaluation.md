@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], call stack evaluation
 - call stacks, evaluation
 ms.assetid: 373d6b49-0459-4cce-816e-05745a44fe49
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 223b1fff75c8fefdfed5bce5765d82fc5309738d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c7e7180301965e43e6757340019c3506fe1a5e1f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930737"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055093"
 ---
 # <a name="call-stack-evaluation"></a>Оценка стека вызовов
 Чтобы просмотреть кадры стека стека вызовов в режиме приостановки выполнения, необходимо реализовать метод [енумфрамеинфо](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) .
@@ -39,5 +39,5 @@ ms.locfileid: "99930737"
 
  Чтобы перечислить контексты кода, необходимо реализовать все методы [IEnumDebugCodeContexts2](../../extensibility/debugger/reference/ienumdebugcodecontexts2.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Контроль выполнения и оценка состояния](../../extensibility/debugger/execution-control-and-state-evaluation.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, and common language runtime
 ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: cddf09eac5f887e0c5615af76e6956b590576786
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 35ddc218d0e9499253269a12687fa89122cfe007
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930672"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055015"
 ---
 # <a name="common-language-runtime-and-expression-evaluation"></a>Среда CLR и вычисление выражений
 > [!IMPORTANT]
@@ -37,5 +37,5 @@ ms.locfileid: "99930672"
 
  Когда среда CLR DE вызывает собственный EE для вычисления выражения, метод DE предоставляет EE интерфейсы для объекта SP и связывателя. Таким образом, написание подсистемы отладки на основе среды CLR означает, что необходимо только реализовать соответствующие интерфейсы средства оценки выражений; среда CLR выполняет привязку и обработку символов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Написание вычислителя выражений CLR](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

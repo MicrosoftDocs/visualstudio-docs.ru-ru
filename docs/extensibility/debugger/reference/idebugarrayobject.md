@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugArrayObject method
 ms.assetid: a1c8e77e-dee1-4748-a516-6ab032a8f54f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16162cee8a02bf02b192336425101ec4bb579106
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e27f40a3f8a54c9cda285ba30bdcbc53472aab59
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158531"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078114"
 ---
 # <a name="idebugarrayobject"></a>IDebugArrayObject
 > [!IMPORTANT]
@@ -49,7 +49,7 @@ IDebugArrayObject : IDebugObject
 |[GetRank](../../../extensibility/debugger/reference/idebugarrayobject-getrank.md)|Возвращает ранг массива.|
 |[GetDimensions](../../../extensibility/debugger/reference/idebugarrayobject-getdimensions.md)|Возвращает размеры массива.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Средство оценки выражений использует этот интерфейс для представления массивов в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования
@@ -59,5 +59,5 @@ IDebugArrayObject : IDebugObject
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

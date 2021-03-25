@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointErrorEvent2::GetErrorBreakpoint
 ms.assetid: e5acfd19-ac17-47f3-a31a-b2aa8baca36d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a71442e25d8da31ed7bed0b6e65ae05692eb1e36
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ef8986195f856f7c21613cb16c2be56461e957e8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102143393"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078062"
 ---
 # <a name="idebugbreakpointerrorevent2geterrorbreakpoint"></a>IDebugBreakpointErrorEvent2::GetErrorBreakpoint
 Возвращает объект [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) , описывающий причину, по которой точка останова не была привязана.
@@ -47,7 +47,7 @@ int GetErrorBreakpoint(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 После `IDebugErrorBreakpoint2` получения интерфейса вызовите метод [жетбреакпоинтресолутион](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) , чтобы получить объект [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md) . Затем метод [жетресолутионинфо](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md) можно использовать для определения недопустимого расположения, недопустимого выражения или причин, по которым не была выполнена привязка ожидающей точки останова, например, код еще не загружен и т. д.
 
 ## <a name="example"></a>Пример
@@ -79,7 +79,7 @@ STDMETHODIMP CBreakpointErrorDebugEventBase::GetErrorBreakpoint(
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugBreakpointErrorEvent2](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md)
 - [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
 - [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

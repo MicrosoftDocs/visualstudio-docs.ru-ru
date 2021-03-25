@@ -9,22 +9,22 @@ helpviewer_keywords:
 - files [Visual Studio], opening and saving
 - editors [Visual Studio SDK], file persistence
 ms.assetid: f71898ad-335f-4c43-a177-4da87078afd1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: df851f304cd6c62e1447f791a23618a6de5cb0bc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6ff3c76294ce99fa5eeb7bf311307e54f5d0e6cc
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895600"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063075"
 ---
 # <a name="opening-and-saving-project-items"></a>Открытие и сохранение элементов проекта
 При добавлении нового типа проекта необходимо управлять открытием и сохранением файлов проектов в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE). В следующих разделах рассматриваются различные подходы к открытию и сохранению файлов.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Отображение файлов с помощью команды "Открыть файл"](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
 
  Содержит пошаговое описание того, как интегрированная среда разработки обрабатывает команду **Open File** и роль проектов в ответ на эту команду.

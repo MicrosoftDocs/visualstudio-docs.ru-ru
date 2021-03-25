@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2 interface
 ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6bb0bdd70d2d4d1d56e341bc8f21ef1127433219
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 78361429e371bf19ee1fea27c090af80c2b79b73
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102173714"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078088"
 ---
 # <a name="idebugbreakpointchecksumrequest2"></a>IDebugBreakpointChecksumRequest2
 Представляет контрольную сумму документа для запроса точки останова.

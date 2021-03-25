@@ -7,17 +7,17 @@ helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 98a305e4e3188131b2ee3c6e2ecb82dc8d4537b1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 27a7e0f3175388b963e85950ea903843caff3baa
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895782"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063153"
 ---
 # <a name="new-project-generation-under-the-hood-part-one"></a>Создание проекта: как это работает, часть 1
 Когда-нибудь задумывались о том, как создать собственный тип проекта? Интересно, что происходит при создании нового проекта? Давайте посмотрим на себя и посмотрим, что происходит на самом деле.
@@ -54,7 +54,7 @@ ms.locfileid: "99895782"
 devenv /setup
 ```
 
- или диспетчер конфигурации служб
+ или
 
 ```
 devenv /installvstemplates
@@ -213,5 +213,5 @@ devenv /installvstemplates
 
     **Мипрожектноде** отображается как дочерний узел Visual C# непосредственно под узлом Windows.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Создание проекта: как это работает, часть 2](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

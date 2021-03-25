@@ -7,17 +7,17 @@ helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
 ms.assetid: 73ce91d8-0ab1-4a1f-bf12-4d3c49c01e13
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7891cb6a40e6b7de48ba11871688881625b9c68d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e391ad66c9925dc68997ff610dc5d1556ddf09b2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895613"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063088"
 ---
 # <a name="new-project-generation-under-the-hood-part-two"></a>Создание проекта: как это работает, часть 2
 
@@ -31,7 +31,7 @@ ms.locfileid: "99895613"
 ### <a name="template-parameter-replacement"></a>Замена параметра шаблона
  Когда шаблон копирует шаблон элемента в новый проект, он заменяет все параметры шаблона строками для настройки файла. Параметр шаблона — это специальный маркер, которому предшествует и следует знак доллара, например $date $.
 
- Рассмотрим типичный шаблон элемента проекта. Извлеките и изучите Program.cs в папке Program Files\Microsoft Visual Studio 8\Common7\IDE\ProjectTemplates\CSharp\Windows\1033\WindowsApplication.zip.
+ Рассмотрим типичный шаблон элемента проекта. Извлеките и изучите программу Program. cs в папке Program Files\Microsoft Visual Studio 8\Common7\IDE\ProjectTemplates\CSharp\Windows\1033\WindowsApplication.zip.
 
 ```csharp
 using System;
@@ -130,7 +130,7 @@ namespace Simple
  Это указывает новому шаблону проекта создать файл проекта Simple. csproj путем копирования и настройки элемента шаблона виндовсаппликатион. csproj.
 
 ### <a name="designers-and-references"></a>Конструкторы и ссылки
- В обозреватель решений можно увидеть, что папка Properties существует и содержит ожидаемые файлы. Но как насчет ссылок проекта и зависимостей файлов конструктора, таких как Resources.Designer.cs to Resources. resx и Form1.Designer.cs to Form1.cs?  Они настраиваются в файле Simple. csproj при его создании.
+ В обозреватель решений можно увидеть, что папка Properties существует и содержит ожидаемые файлы. Но как насчет ссылок проекта и зависимостей файлов конструктора, таких как Resources. Designer. CS to Resources. resx и Form1. Designer. CS to Form1. CS?  Они настраиваются в файле Simple. csproj при его создании.
 
  Вот \<ItemGroup> из простого. csproj, который создает ссылки на проект:
 
@@ -145,7 +145,7 @@ namespace Simple
 </ItemGroup>
 ```
 
- Вы видите, что это шесть ссылок на проекты, которые отображаются в обозреватель решений. Вот раздел из другого \<ItemGroup> . Для ясности было удалено несколько строк кода. Этот раздел делает Settings.Designer.cs зависимым от Settings. Settings:
+ Вы видите, что это шесть ссылок на проекты, которые отображаются в обозреватель решений. Вот раздел из другого \<ItemGroup> . Для ясности было удалено несколько строк кода. В этом разделе зависят параметры Settings. Designer. cs для параметров. Settings:
 
 ```xml
 <ItemGroup>
@@ -155,7 +155,7 @@ namespace Simple
 </ItemGroup>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание проекта: как это работает, часть 1](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

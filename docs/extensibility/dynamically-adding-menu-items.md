@@ -9,17 +9,17 @@ helpviewer_keywords:
 - menu items, adding dynamically
 - menus, adding dynamic items
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c3432092bc73ef3a06c807a1b4c4942080b9fce8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fa85d5b5cf4b99840e181fb24b5913ff72a3fee0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883549"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070340"
 ---
 # <a name="dynamically-add-menu-items"></a>Динамическое добавление пунктов меню
 Элементы меню можно добавлять во время выполнения, указывая `DynamicItemStart` флаг команды в определении кнопки заполнителя в файле Visual Studio Command-Table (*. vsct*), а затем определяя (в коде) количество пунктов меню для отображения и обработки команд. После загрузки VSPackage заполнитель заменяется на элементы динамического меню.
@@ -144,7 +144,7 @@ ms.locfileid: "99883549"
 ## <a name="implement-the-dynamic-menu-command"></a>Реализация динамической команды меню
  Создается класс команды динамического меню, наследующий от <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> . В этой реализации конструктор указывает предикат, который будет использоваться для сопоставления команд. Необходимо переопределить <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch%2A> метод, чтобы использовать этот предикат для задания <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId%2A> свойства, определяющего вызываемую команду.
 
-1. Создайте новый файл класса C# с именем *DynamicItemMenuCommand.CS* и добавьте класс с именем **динамиЦитемменукомманд** , который наследует от <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> :
+1. Создайте новый файл класса C# с именем *динамиЦитемменукомманд. CS* и добавьте класс с именем **динамиЦитемменукомманд** , который наследует от <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> :
 
     ```csharp
     class DynamicItemMenuCommand : OleMenuCommand
@@ -207,14 +207,14 @@ ms.locfileid: "99883549"
 ## <a name="add-the-command"></a>Добавьте команду
  Конструктор обратном позволяет настраивать команды меню, включая динамические меню и пункты меню.
 
-1. В *DynamicMenuPackage.CS* добавьте идентификатор GUID набора команд и идентификатор команды:
+1. В *динамикменупаккаже. CS* добавьте идентификатор GUID набора команд и идентификатор команды:
 
     ```csharp
     public const string guidDynamicMenuPackageCmdSet = "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file
     public const uint cmdidMyCommand = 0x104;
     ```
 
-2. В файл *dynamicMenu.CS* добавьте следующие директивы using:
+2. В файле *обратном. CS* добавьте следующие директивы using:
 
     ```csharp
     using EnvDTE;
@@ -333,7 +333,7 @@ private bool IsValidDynamicItem(int commandId)
 ```
 
 ## <a name="set-the-vspackage-to-load-only-when-a-solution-has-multiple-projects"></a>Настройка пакета VSPackage для загрузки только в том случае, если решение содержит несколько проектов
- Так как команда **задать запускаемый проект** не имеет смысла, если только активное решение не содержит более одного проекта, можно настроить пакет VSPackage для автоматической загрузки только в этом случае. Используется <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> вместе с контекстом пользовательского интерфейса <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects> . В файле *DynamicMenuPackage.CS* добавьте следующие атрибуты в класс динамикменупаккаже:
+ Так как команда **задать запускаемый проект** не имеет смысла, если только активное решение не содержит более одного проекта, можно настроить пакет VSPackage для автоматической загрузки только в этом случае. Используется <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> вместе с контекстом пользовательского интерфейса <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects> . В файле *динамикменупаккаже. CS* добавьте следующие атрибуты в класс динамикменупаккаже:
 
 ```csharp
 [PackageRegistration(UseManagedResourcesOnly = true)]
@@ -358,6 +358,6 @@ public sealed class DynamicMenuItemsPackage : Package
 
 4. При закрытии решения или открытии решения, имеющего только один проект, значок панели инструментов должен исчезнуть.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Команды, меню и панели инструментов](../extensibility/internals/commands-menus-and-toolbars.md)
 - [Как пакеты VSPackage добавляют элементы пользовательского интерфейса](../extensibility/internals/how-vspackages-add-user-interface-elements.md)

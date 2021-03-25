@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services, model
 ms.assetid: d8ae1c0c-ee3d-4937-a581-ee78d0499793
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 26b27bd6bef40a38e32e5b0d6d26e3d147659286
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 216bfaf9400847c265820e4bb5967fd3c992caa7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954648"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063229"
 ---
 # <a name="model-of-a-legacy-language-service"></a>Модель языковой службы прежних версий
 Языковая служба определяет элементы и функции для конкретного языка и используется для предоставления редактора со сведениями, характерными для этого языка. Например, редактору необходимо получить сведения об элементах и ключевых словах языка для поддержки цветов синтаксиса.
@@ -41,7 +41,7 @@ ms.locfileid: "99954648"
 
   В следующей таблице приведены общие сведения об объектах в модели.
 
-| Компонент | Объект | Компонент |
+| Компонент | Объект | Функция |
 |------------------| - | - |
 | Текстовый буфер | <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> | Поток текста для чтения и записи в Юникоде. В тексте можно использовать другие кодировки. |
 | Окно кода | <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> | Окно документа, содержащее одно или несколько текстовых представлений. Если [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] находится в режиме многодокументного интерфейса (MDI), окно кода является дочерним ЭЛЕМЕНТОМ MDI. |
@@ -49,5 +49,5 @@ ms.locfileid: "99954648"
 | Диспетчер текста | Управляется <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> службой, с которой вы получаете <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> указатель | Компонент, который поддерживает общие сведения, общие для всех описанных выше компонентов. |
 | Языковая служба | Зависит от реализации; внедрен <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> | Объект, предоставляющий редактору сведения о конкретном языке, такие как выделение синтаксиса, завершение операторов и сопоставление фигурных скобок. |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Данные документа и представление документа в специализированных редакторах](../../extensibility/document-data-and-document-view-in-custom-editors.md)
