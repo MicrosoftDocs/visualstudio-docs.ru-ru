@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPropertyField interface
 ms.assetid: b50edb2c-fb8d-4def-993d-17d23d2027c1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 097d73485773052afa1e9852293211084a225099
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 28fbdfc16733b5cce0d1442c98c624f694adbe1d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102167910"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105083782"
 ---
 # <a name="idebugpropertyfield"></a>IDebugPropertyField
 Этот интерфейс предоставляет функции, позволяющие получить и установить свойство.
@@ -43,7 +43,7 @@ IDebugPropertyField : IDebugContainerField
 |[GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertygetter.md)|Возвращает метод, который получает свойство.|
 |[GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)|Возвращает метод, который задает свойство.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Свойство является концепцией управляемого кода и представляет метод, который обрабатывается как переменная. Свойства не существуют в неуправляемом коде C++.
 
 ## <a name="requirements"></a>Требования
@@ -53,6 +53,6 @@ IDebugPropertyField : IDebugContainerField
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

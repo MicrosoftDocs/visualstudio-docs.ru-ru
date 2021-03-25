@@ -9,17 +9,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluators
 - expression evaluation, examples
 ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ec7ddd5270fdac3513c3f63673e5a5f3d05464b5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 60d01917bb3a21f6d8ea2644fbeef2b22064cc00
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960953"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070457"
 ---
 # <a name="sample-implementation-of-expression-evaluation"></a>Пример реализации вычисления выражений
 > [!IMPORTANT]
@@ -109,6 +109,6 @@ STDMETHODIMP CExpressionEvaluator::Parse(
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Вычисление выражения окно контрольных значений](../../extensibility/debugger/evaluating-a-watch-window-expression.md)
 - [Вычисление выражения контрольных значений](../../extensibility/debugger/evaluating-a-watch-expression.md)

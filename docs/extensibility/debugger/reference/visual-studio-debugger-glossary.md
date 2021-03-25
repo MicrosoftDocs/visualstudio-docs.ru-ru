@@ -8,17 +8,17 @@ helpviewer_keywords:
 - glossary [Debugging SDK]
 - debugging [Debugging SDK], glossary
 ms.assetid: 4a2cfaab-1fbd-4a23-bd00-9ac4cc50d7fd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0cc5a8b75fd089318434cadea185f8070616cd8a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1871a395e87177c89f8af2bfce640a63c2cba324
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961200"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070691"
 ---
 # <a name="visual-studio-debugger-glossary"></a>Глоссарий отладчика Visual Studio
 Ниже приведены термины, используемые в [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] пакете SDK для отладки.
@@ -68,5 +68,5 @@ ms.locfileid: "99961200"
 
   Warning точка останова — это абстракция, описывающая предупреждение в незавершенной точке останова. Точка останова с предупреждением описывает причину, по которой ожидание точки останова еще не привязано к расположению кода. Это может быть вызвано тем, что код еще не загружен для расположения, описываемого ожидающей точкой останова, или по другой причине.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширяемость отладчика Visual Studio](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

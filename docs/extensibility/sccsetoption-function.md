@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccSetOption function
 ms.assetid: 4b5e6666-c24c-438a-a9df-9c52f58f8175
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e25647eb8d2e5796665f072af6df43b2f585c7b0
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 031de256b231bbd95e7535af80448db5140cba7e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221383"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090152"
 ---
 # <a name="sccsetoption-function"></a>Функция SccSetOption
 Эта функция задает параметры, управляющие поведением подключаемого модуля системы управления версиями.
@@ -55,7 +55,7 @@ SCCRTN SccSetOption(
 |SCC_I_SHARESUBPROJOK|Возвращается, если `nOption` WAS `SCC_OPT_SHARESUBPROJ` и подключаемый модуль системы управления версиями позволяют интегрированной среде разработки задать целевую папку.|
 |SCC_E_OPNOTSUPPORTED|Параметр не был задан, и на него не следует полагаться.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Интегрированная среда разработки вызывает эту функцию для управления поведением подключаемого модуля системы управления версиями. Первый параметр, `nOption` , указывает заданное значение, а второе — `dwVal` указывает, что делать с этим значением. Подключаемый модуль хранит эти сведения, связанные с a, `pvContext``,` Поэтому интегрированная среда разработки должна вызвать эту функцию после вызова [скЦинитиализе](../extensibility/sccinitialize-function.md) (но не обязательно после каждого вызова [сккопенпрожект](../extensibility/sccopenproject-function.md)).
 
  Сводка параметров и их значений:
@@ -84,7 +84,7 @@ SCCRTN SccSetOption(
 ## <a name="scc_opt_sharesubproj"></a>SCC_OPT_SHARESUBPROJ
  Если параметр `nOption` имеет значение `SCC_OPT_SHARESUBPROJ` , интегрированная среда разработки проверяет, может ли подключаемый модуль системы управления версиями использовать указанную локальную папку при добавлении файлов из системы управления версиями. Значение `dwVal` параметра не имеет значения в этом случае. Если подключаемый модуль позволяет интегрированной среде разработки указать локальную папку назначения, в которую файлы будут добавляться из системы управления версиями при вызове [сккаддфромскк](../extensibility/sccaddfromscc-function.md) , то подключаемый модуль должен возвращать значение `SCC_I_SHARESUBPROJOK` при `SccSetOption` вызове функции. Затем интегрированная среда разработки использует `lplpFileNames` параметр `SccAddFromScc` функции для передачи в конечную папку. Подключаемый модуль использует эту конечную папку для размещения файлов, добавленных из системы управления версиями. Если подключаемый модуль не возвращает `SCC_I_SHARESUBPROJOK` `SCC_OPT_SHARESUBPROJ` значение, если задан параметр, то в интегрированной среде разработки предполагается, что подключаемый модуль может добавлять файлы только в текущую локальную папку.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccInitialize](../extensibility/sccinitialize-function.md)
 - [SccOpenProject](../extensibility/sccopenproject-function.md)

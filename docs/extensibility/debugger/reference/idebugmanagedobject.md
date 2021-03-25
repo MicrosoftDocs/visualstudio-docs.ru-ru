@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugManagedObject interface
 ms.assetid: 3ae09d34-112c-4285-80ee-9f7f8dc414d7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7cb90893ab39a95dd3bd8046d8ba61a32064ccf7
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 88eadb33aaccc09a7c4667ad01d9acee538169f2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165230"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105076866"
 ---
 # <a name="idebugmanagedobject"></a>IDebugManagedObject
 > [!IMPORTANT]
@@ -46,7 +46,7 @@ IDebugManagedObject : IDebugObject
 |[GetManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject-getmanagedobject.md)|Возвращает интерфейс, представляющий объект управляемого кода и из которого можно получить любой соответствующий интерфейс управляемого кода.|
 |[SetFromManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject-setfrommanagedobject.md)|Присваивает этому объекту значение указанного объекта управляемого кода.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Средство оценки выражений использует этот интерфейс для хранения объекта управляемого кода в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования
@@ -56,6 +56,6 @@ IDebugManagedObject : IDebugObject
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы вычисления выражений](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [Вычислить](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md)

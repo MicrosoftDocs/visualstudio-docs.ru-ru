@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccUncheckout function
 ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33e0c4904a92d71e000d8c911d551eb8d0aab621
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 0144755d18bbabee47f7aad25337e3c41588ebe5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221357"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090165"
 ---
 # <a name="sccuncheckout-function"></a>Функция SccUncheckout
 Эта функция отменяет предыдущую операцию извлечения, тем самым восстанавливая содержимое выбранного файла или файлов в состояние до извлечения. Все изменения, внесенные в файл с момента извлечения, теряются.
@@ -75,8 +75,8 @@ SCCRTN SccUncheckout (
 |SCC_E_PROJNOTOPEN|Проект не был открыт из системы управления версиями.|
 |SCC_I_OPERATIONCANCELED|Операция была отменена до завершения.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  После выполнения этой операции `SCC_STATUS_CHECKEDOUT` `SCC_STATUS_MODIFIED` флаги и будут сброшены для файлов, для которых было выполнено отмену извлечения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)

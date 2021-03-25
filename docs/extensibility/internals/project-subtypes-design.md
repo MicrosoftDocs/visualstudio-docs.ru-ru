@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project subtypes, design
 ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ea4132f098658b3757d999ded537268cd9121e1f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bfc689705d4d42016f184a25b70564591aa5c04d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896842"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105064505"
 ---
 # <a name="project-subtypes-design"></a>Разработка подтипов проекта
 
@@ -94,7 +94,7 @@ ms.locfileid: "99896842"
 |<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>|Позволяет подтипу проекта сохранять произвольные структурированные данные XML в файл проекта (VBPROJ или CSPROJ). Эти данные не видны в MSBuild.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage>|Позволяет подтипу проекта:<br /><br /> — Добавьте новые свойства MSBuild, которые должны быть сохранены.<br />— Удаление ненужных свойств из MSBuild.<br />— Запросить текущее значение свойства MSBuild.<br />— Изменение текущего значения свойства MSBuild.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID>
 - <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID2>

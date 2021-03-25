@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPropertyCreateEvent2 interface
 ms.assetid: 33b3082b-a42e-488a-a1e4-dadf506f922c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0a8a4317ec3e1c2c83becf0bffb5274ae5a44cf4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 6197420428bf07cecf2bfe891e06ddb7a830ea30
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102168053"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105083886"
 ---
 # <a name="idebugpropertycreateevent2"></a>IDebugPropertyCreateEvent2
 Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) при создании свойства, связанного с конкретным документом.
@@ -42,7 +42,7 @@ IDebugPropertyCreateEvent2 : IUnknown
 |------------|-----------------|
 |[GetDebugProperty](../../../extensibility/debugger/reference/idebugpropertycreateevent2-getdebugproperty.md)|Возвращает новое свойство.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Если с свойством связан конкретный документ или сценарий, то параметр DE может отправить это событие в SDM, чтобы обновить окно « **документы скрипта** » с именем документа. SDM будет вызывать [жетекстендединфо](../../../extensibility/debugger/reference/idebugproperty2-getextendedinfo.md) с аргументом `guidDocument` для получения объекта, `VARIANT` содержащего указатель [IUnknown](/cpp/atl/iunknown) . SDM будет вызывать [QueryInterface](/cpp/atl/queryinterface) на этом указателе для получения интерфейса [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) , используемого для обновления окна " **документы скрипта** ".
 
 ## <a name="requirements"></a>Требования
@@ -52,8 +52,8 @@ IDebugPropertyCreateEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

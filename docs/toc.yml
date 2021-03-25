@@ -480,7 +480,7 @@
                   href: ide/reference/wrap-indent-align-refactorings.md
             - name: Пошаговое руководство. Создание кода в результате использования
               href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
-        - name: технология IntelliSense
+        - name: IntelliSense
           items:
             - name: Использование IntelliSense
               href: ide/using-intellisense.md
@@ -905,6 +905,8 @@
   items:
     - name: Новый интерфейс Git в Visual Studio
       href: ide/git-with-visual-studio.md
+    - name: Как Visual Studio упрощает управление версиями
+      href: ide/git-visual-studio-source-control.md
     - name: Наглядное сравнение Git и Team Explorer
       href: ide/git-team-explorer-feature-comparison.md
 - name: Тестирование >>
@@ -974,7 +976,7 @@
           href: ide/filtered-solutions.md
         - name: Советы и рекомендации
           href: ide/visual-studio-performance-tips-and-tricks.md
-- name: Специальные возможности
+- name: Возможности доступа
   items:
     - name: Управление специальными возможностями
       href: ide/reference/accessibility-features-of-visual-studio.md
@@ -1172,7 +1174,7 @@
                       href: ide/reference/options-text-editor-basic-visual-basic.md
                     - name: Стиль кода
                       href: ide/code-styles-and-code-cleanup.md
-                    - name: технология IntelliSense
+                    - name: IntelliSense
                       href: ide/visual-basic-specific-intellisense.md
                 - name: C#
                   items:
@@ -1180,7 +1182,7 @@
                       href: ide/reference/options-text-editor-csharp-advanced.md
                     - name: Стиль кода > Форматирование
                       href: ide/reference/options-text-editor-csharp-formatting.md
-                    - name: технология IntelliSense
+                    - name: IntelliSense
                       href: ide/reference/options-text-editor-csharp-intellisense.md
                 - name: C/C++
                   items:
@@ -1200,7 +1202,7 @@
                       href: ide/reference/options-text-editor-fsharp-code-fixes.md
                     - name: CodeLens
                       href: ide/reference/options-text-editor-fsharp-codelens.md
-                    - name: технология IntelliSense
+                    - name: IntelliSense
                       href: ide/reference/options-text-editor-fsharp-intellisense.md
                 - name: HTML (веб-формы)
                   items:
@@ -1216,7 +1218,7 @@
                       href: ide/reference/options-text-editor-javascript-code-validation.md
                     - name: Форматирование
                       href: ide/reference/options-text-editor-javascript-formatting.md
-                    - name: технология IntelliSense
+                    - name: IntelliSense
                       href: ide/reference/options-text-editor-javascript-intellisense.md
                     - name: Выделение
                       href: ide/reference/options-text-editor-javascript-linting.md
@@ -1226,7 +1228,7 @@
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-usql-formatting.md
-                    - name: технология IntelliSense
+                    - name: IntelliSense
                       href: ide/reference/options-text-editor-usql-intellisense.md
                 - name: XAML
                   items:
@@ -1415,7 +1417,7 @@
                   href: help-viewer/logical-operators-search-expressions.md
         - name: Настройка окна справки
           href: help-viewer/customize.md
-        - name: Специальные возможности
+        - name: Возможности доступа
           href: help-viewer/accessibility-features.md
         - name: Сочетания клавиш
           href: help-viewer/shortcut-keys.md

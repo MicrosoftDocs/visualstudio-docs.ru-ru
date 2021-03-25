@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project subtypes, extended methods
 - project subtypes, extended properties
 ms.assetid: 2b9833bf-8551-4ae1-93db-197ba645c65e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8d5d81135a2571db3c84b67acb2fa08e4f83f57d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f32c489ba2907cabff47b916039f96754d403455
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970066"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105064245"
 ---
 # <a name="properties-and-methods-extended-by-project-subtypes"></a>Свойства и методы, расширенные подтипами проектов
 Подтип проекта имеет множество возможностей для влияния на поведение проекта, поскольку он создается как агрегат базового проекта. В этом разделе перечислены некоторые функции, которые могут быть расширены или изменены подтипами проекта.
@@ -50,5 +50,5 @@ ms.locfileid: "99970066"
 
  Базовый проект предоставляет реализацию указанных выше свойств по умолчанию. Базовый проект получает эти данные путем вызова метода `QueryInterface` для для <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> самого внешнего подтипа проекта, тем самым позволяя подтипу проекта переопределять реализацию свойств.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Разработка подтипов проекта](../../extensibility/internals/project-subtypes-design.md)

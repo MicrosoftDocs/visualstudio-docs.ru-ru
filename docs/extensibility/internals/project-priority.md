@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], opening items
 ms.assetid: 9f707592-2fb6-4f75-9269-f6d4700a998e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 75ea6485e2ae613ca03fb3900e3e2ba9d415af95
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6aefb6b1670da812a36efcc1baa3cb23f23e2561
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99852600"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105064492"
 ---
 # <a name="project-priority"></a>Приоритет проекта
 Элемент проекта обычно является членом только одного проекта в решении. Таким образом, интегрированная среда разработки может легко определить, какой проект используется для открытия элемента. Однако если элемент является членом более чем одного проекта, интегрированная среда разработки использует схему приоритета для определения лучшего проекта для открытия элемента.
@@ -34,7 +34,7 @@ ms.locfileid: "99852600"
 
 - Проект, указывающий наивысший приоритет, получает контекст для открытия документа. Если два проекта возвращают одинаковые значения приоритета, предпочтительным является активный проект. Если ни один из проектов в решении не отвечает, что он может открыть документ, интегрированная среда разработки помещает документ в проект "Прочие файлы". Дополнительные сведения см. в разделе [проект прочих файлов](../../extensibility/internals/miscellaneous-files-project.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Проект прочих файлов](../../extensibility/internals/miscellaneous-files-project.md)
 - [Практическое руководство. Открытие редакторов для открытых документов](../../extensibility/how-to-open-editors-for-open-documents.md)
 - [Добавление проекта и шаблонов элементов проекта](../../extensibility/internals/adding-project-and-project-item-templates.md)

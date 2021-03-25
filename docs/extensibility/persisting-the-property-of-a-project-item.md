@@ -8,24 +8,24 @@ helpviewer_keywords:
 - properties, adding to a project item
 - project items, adding properties
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 63b1a4a7cb6e2d12882794a07e51151effe36716
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 58c46da9023cc64246f1ea9ee4bde1ec866c545d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99967427"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090360"
 ---
 # <a name="persist-the-property-of-a-project-item"></a>Сохранение свойства элемента проекта
 Может потребоваться сохранить свойство, добавляемое в элемент проекта, например автор исходного файла. Это можно сделать, сохранив свойство в файле проекта.
 
  Первым шагом сохранения свойства в файле проекта является получение иерархии проекта в качестве <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> интерфейса. Этот интерфейс можно получить либо с помощью службы автоматизации, либо с помощью <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection> . После получения интерфейса его можно использовать для определения того, какой элемент проекта выбран в данный момент. После получения идентификатора элемента проекта можно использовать <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> для добавления свойства.
 
- В следующих процедурах сохраняется свойство *VsPkg.CS* `Author` со значением `Tom` в файле проекта.
+ В следующих процедурах сохраняется свойство *вспкг. CS* `Author` со значением `Tom` в файле проекта.
 
 ## <a name="to-obtain-the-project-hierarchy-with-the-dte-object"></a>Получение иерархии проекта с помощью объекта DTE
 
@@ -119,7 +119,7 @@ ms.locfileid: "99967427"
 
 1. Запустите [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] , а затем откройте или создайте решение.
 
-2. Выберите элемент проекта VsPkg.cs в **Обозреватель решений**.
+2. Выберите элемент проекта Вспкг. cs в **Обозреватель решений**.
 
 3. Используйте точку останова или иным образом определите, что пакет VSPackage загружен и выполняется Сетитематтрибуте.
 
@@ -134,6 +134,6 @@ ms.locfileid: "99967427"
    </Compile>
    ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Настраиваемые инструменты](../extensibility/internals/custom-tools.md)

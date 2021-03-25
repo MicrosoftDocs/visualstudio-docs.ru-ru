@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, features
 ms.assetid: 26c3ffda-22b8-4345-9fb6-2883f37699aa
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6a29b1b3af1e92ee6f247ba07e3b4e468401415e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cd501aa6d1fc3189d5008d76deb56dd570d03d8e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895431"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105064128"
 ---
 # <a name="source-control-vspackage-features"></a>Функции пакета VSPackage системы управления версиями
 В этом разделе описаны различные возможности пакета VSPackage системы управления версиями. В нем описаны сведения о регистрации и выборе для такого пакета VSPackage, а также обсуждаются три основных функции, связанные с системой управления версиями: обработка событий Query-Edit Query-Save (QEQS), замена глифов и пользовательский интерфейс (UI) для функций управления версиями.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Регистрация и выбор](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)
 
  Описывает механизмы регистрации и выбора пакетов.

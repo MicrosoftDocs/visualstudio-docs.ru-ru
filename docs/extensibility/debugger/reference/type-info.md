@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - TYPE_INFO structure
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0e6b37fbc4d2d812bfa10d8f05455050bb5a239d
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: b83c4a829a050b9e78b65a9a68be96d2397ea8c6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102223424"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070743"
 ---
 # <a name="type_info"></a>TYPE_INFO
 Эта структура задает различные виды информации о типе поля.
@@ -47,7 +47,7 @@ public struct TYPE_INFO {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
  `dwKind`\
  Значение из перечисления [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) , определяющее способ интерпретации объединения.
 
@@ -69,7 +69,7 @@ public struct TYPE_INFO {
  `unionmember`\
  [Только C#] Маршалирует его в соответствующий тип структуры, основанный на `dwKind` .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта структура передается в метод [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) , где она заполнена. Степень интерпретации содержимого структуры основана на `dwKind` поле.
 
 > [!NOTE]
@@ -114,7 +114,7 @@ namespace MyPackage
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
 - [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)

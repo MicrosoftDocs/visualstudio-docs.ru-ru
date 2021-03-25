@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, architecture
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1e4de5f46746f79e1c7598e1c2a2a6af6ae1d92a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4e9f19506c58f65f80900c08fe339c7478144546
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912693"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105064232"
 ---
 # <a name="source-control-vspackage-architecture"></a>Архитектура пакета VSPackage системы управления версиями
 Пакет управления версиями — это VSPackage, использующий службы, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] предоставляемые интегрированной средой разработки. В случае возврата пакет управления версиями предоставляет свои функциональные возможности в качестве службы управления версиями. Кроме того, пакет управления версиями является более универсальным вариантом, чем подключаемый модуль системы управления версиями для интеграции системы управления версиями в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .
@@ -49,6 +49,6 @@ ms.locfileid: "99912693"
 
   Написание пакета управления версиями на основе VSPackage требует более продвинутого опыта программирования, чем написание подключаемого модуля на основе API для подключаемого модуля системы управления версиями.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>
 - [Начало работы](../../extensibility/internals/getting-started-with-source-control-vspackages.md)

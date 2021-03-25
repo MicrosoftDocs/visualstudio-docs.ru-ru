@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, registering
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4581411a2601bf598762a7157f9df0e006995230
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 04e4e8de875cb66ed285e610950baa1c5bf4ef3f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961122"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070665"
 ---
 # <a name="register-a-custom-debug-engine"></a>Регистрация пользовательского модуля отладки
 Модуль отладки должен зарегистрировать себя в качестве фабрики класса, следуя соглашениям COM, а также регистрации в Visual Studio с помощью подраздела реестра Visual Studio.
@@ -50,7 +50,7 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Создание пользовательского модуля отладки](../../extensibility/debugger/creating-a-custom-debug-engine.md)
 - [Вспомогательные методы SDK для отладки](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
 - [Учебник. Создание модуля отладки с помощью ATL COM](/previous-versions/bb147024(v=vs.90))

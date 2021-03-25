@@ -8,17 +8,17 @@ helpviewer_keywords:
 - expression evaluation, local values
 - debugging [Debugging SDK], expression evaluation
 ms.assetid: ee2d955b-12ca-4f27-89aa-c2d0e768b6b6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce3bdaafef2c8d526892571e8f53d9060148df10
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 06213de552685e13be5569fd631fc780598954ca
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960992"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070444"
 ---
 # <a name="sample-implementation-of-changing-values"></a>Пример реализации изменяемых значений
 > [!IMPORTANT]
@@ -422,6 +422,6 @@ HRESULT FieldSetValue(
 
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Изменение значения локального](../../extensibility/debugger/changing-the-value-of-a-local.md)
 - [Контекст оценки](../../extensibility/debugger/evaluation-context.md)
