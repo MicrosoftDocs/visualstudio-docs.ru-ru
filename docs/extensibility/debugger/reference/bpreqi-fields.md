@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BPREQI_FIELDS enumeration
 ms.assetid: 679e771e-4a79-484e-af37-f962ef4aa245
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1f7ee5d8dbf48ad8d1b07512727b1b91635ab990
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: fc0d24d07f5c7473df7e963ee56ca6023fffa16d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102162463"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067625"
 ---
 # <a name="bpreqi_fields"></a>BPREQI_FIELDS
 Задает сведения, которые необходимо получить о запросе точки останова.
@@ -110,7 +110,7 @@ public enum enum_BPREQI_FIELDS {
 `BPREQI_ALLFIELDS`\
 Задает все поля для `BP_REQUEST_INFO2` структуры.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Передается в качестве аргумента методам [жетрекуестинфо](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md) и [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) , чтобы указать, какие поля структур [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) и [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) должны быть инициализированы.
 
 Эти флаги также используются для указания того, какие поля `BP_REQUEST_INFO` `BP_REQUEST_INFO2` структуры и используются и являются допустимыми при возврате каждой структуры.

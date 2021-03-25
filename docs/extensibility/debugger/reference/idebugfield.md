@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField interface
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 175f9a329a93587873db7c76b53757ba715ace67
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: c519ccfe70ba5685dec8230bf3e4fcb0eb768921
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151848"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073681"
 ---
 # <a name="idebugfield"></a>IDebugField
 Этот интерфейс представляет поле, то есть описание символа или типа.
@@ -50,7 +50,7 @@ IDebugField : IUnknown
 |[Равно](../../../extensibility/debugger/reference/idebugfield-equal.md)|Сравнивает два поля.|
 |[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)|Получает независимые от типа сведения о символе или типе.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Тип эквивалентен языку C `typedef` .
 
  В следующем примере языка C++ `weather` — это тип класса, а `sunny` `stormy` — символы:
@@ -70,5 +70,5 @@ weather stormy;
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)

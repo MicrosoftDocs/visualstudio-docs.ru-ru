@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - CONSTRUCTOR_ENUM enumeration
 ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4e3a8eaae37b304c438c18ec2a683c19da00ab16
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e7f58dd088b37d3f1a404677c6c76bb09160b438
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170800"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067599"
 ---
 # <a name="constructor_enum"></a>CONSTRUCTOR_ENUM
 Выбирает различные типы конструкторов.
@@ -54,7 +54,7 @@ public enum ConstructorMatchOptions {
 `crStatic`\
 Выбирает статические конструкторы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Передается в качестве аргумента в метод [енумконструкторс](../../../extensibility/debugger/reference/idebugclassfield-enumconstructors.md) .
 
 ## <a name="requirements"></a>Требования

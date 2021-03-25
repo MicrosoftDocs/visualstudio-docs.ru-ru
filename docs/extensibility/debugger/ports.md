@@ -8,17 +8,17 @@ helpviewer_keywords:
 - ports
 - debugging [Debugging SDK], ports
 ms.assetid: 1d7f3aa7-7eff-4cab-bc53-0a566b1a9363
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 368d55db8e52d2797041e420d109960c88d96cb6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a9629a27931fad9e0a7f753caad1c21893700d42
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927188"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067781"
 ---
 # <a name="ports"></a>Порты
 В архитектуре отладчика *порт*:
@@ -33,7 +33,7 @@ ms.locfileid: "99927188"
 
   [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] предоставляет порт по умолчанию, который обрабатывает все процессы на основе Windows, как собственные, так и управляемые. Пользовательский порт должен быть настроен для подключений внешних устройств, которые не основаны на Windows. Для предоставления таких пользовательских портов необходимо также настроить настраиваемого поставщика портов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Серверы](../../extensibility/debugger/servers-visual-studio-sdk.md)
 - [Процессы](../../extensibility/debugger/processes.md)
 - [Основные понятия отладчика](../../extensibility/debugger/debugger-concepts.md)

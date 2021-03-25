@@ -5,22 +5,22 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e1c906b96f3bd20b72cf2b5eca92190e0ad42916
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ad000d486b0808ea4ddc3311daa7178c6eda1231
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99931296"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080324"
 ---
 # <a name="walkthrough-display-light-bulb-suggestions"></a>Пошаговое руководство. Отображение предложений лампочки
 Лампочки — это значки в редакторе Visual Studio, которые расширяются для отображения набора действий, например исправления проблем, выявленных встроенными анализаторами кода или рефакторинг кода.
 
- В редакторах Visual C# и Visual Basic можно также использовать .NET Compiler Platform ("Roslyn") для написания и упаковки собственных анализаторов кода с действиями, которые автоматически отображают лампочки. Дополнительные сведения см. в разделе:
+ В редакторах Visual C# и Visual Basic можно также использовать .NET Compiler Platform ("Roslyn") для написания и упаковки собственных анализаторов кода с действиями, которые автоматически отображают лампочки. Для получения дополнительной информации см.
 
 - [Как написать диагностику и исправление кода C#](https://github.com/dotnet/roslyn/blob/master/docs/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix.md)
 
@@ -74,7 +74,7 @@ ms.locfileid: "99931296"
 
 ## <a name="implement-the-light-bulb-source-provider"></a>Реализация поставщика источника лампочки
 
-1. В файле класса *LightBulbTest.CS* удалите класс лигхтбулбтест. Добавьте класс с именем **тестсугжестедактионссаурцепровидер** , реализующий интерфейс <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider> . Экспортируйте его с именем **предложенные действия теста** и с <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> текстом "Text".
+1. В файле класса *лигхтбулбтест. CS* удалите класс лигхтбулбтест. Добавьте класс с именем **тестсугжестедактионссаурцепровидер** , реализующий интерфейс <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider> . Экспортируйте его с именем **предложенные действия теста** и с <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> текстом "Text".
 
     ```csharp
     [Export(typeof(ISuggestedActionsSourceProvider))]

@@ -6,20 +6,20 @@ ms.topic: reference
 helpviewer_keywords:
 - BPREQI_FIELDS90 enumeration
 ms.assetid: bf6f7efc-39f2-46a2-906d-c3647bf89995
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5405f728cf979738de5a830421c4306c5e398bb2
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e977d6e85430dbd9f1931bd4fb62c02f22181d5a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151088"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067612"
 ---
 # <a name="bpreqi_fields90"></a>BPREQI_FIELDS90
 Перечисляет допустимые значения, указывающие сведения, которые необходимо получить о запросе точки останова. Это перечисление расширяет перечисление [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) .

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], processes
 ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2fe8d170f6e7b4dcd774773109c4880d4898e0b2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 46e25ddfbe60e1b9ee456e586c6f424fc489f626
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884836"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067716"
 ---
 # <a name="processes"></a>Процессы
 *Процесс* в архитектуре отладчика:
@@ -36,7 +36,7 @@ ms.locfileid: "99884836"
 
   Пакет отладки может подключить к процессу модуль отладки (DE), вызвав [attach](../../extensibility/debugger/reference/idebugprocess2-attach.md). Это означает, что компонент de подключается ко всем возможным программам, выполняемым в процессе, который он может обработать. Например, если среда CLR отключится к процессу, она будет присоединена только к программам, выполняющим управляемый код.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Programs](../../extensibility/debugger/programs.md)
 - [Потоки](../../extensibility/debugger/threads.md)
 - [Основные понятия отладчика](../../extensibility/debugger/debugger-concepts.md)

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_UNBOUND_REASON enumeration
 ms.assetid: 939b6f9c-113b-471d-9f30-b03871af6285
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 857f07e70809200567b6c2f79c5a22aff78b4af8
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 13f723c6395b8b271d6f097d811c5a31569c5853
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102162554"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067703"
 ---
 # <a name="bp_unbound_reason"></a>BP_UNBOUND_REASON
 Дает причину, по которой точка останова была непривязанной.
@@ -60,7 +60,7 @@ public enum enum_BP_UNBOUND_REASON {
 `BPUR_ BREAKPOINT_ERROR`\
 Точка останова определяется как ошибка после привязки. Это происходит с управляемыми точками останова, условия которых больше не действительны.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Возвращается методом [Reason](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason.md) .
 
 ## <a name="requirements"></a>Требования

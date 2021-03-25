@@ -8,15 +8,16 @@ metadata:
   description: Узнайте, как с помощью Visual Studio разрабатывать приложения, службы и инструменты для любых платформ и устройств на вашем языке программирования.
   ms.topic: hub-page
   ms.custom: contperf-fy21q1
+  ms.date: 03/23/2021
   monikerRange: '>=vs-2017'
   f1_keywords:
   - MSDNSTART
-  ms.openlocfilehash: 8a3ac01afabe75cf714c9e8ef595b66b347e831a
-  ms.sourcegitcommit: 0c9155e9b9408fb7481d79319bf08650b610e719
+  ms.openlocfilehash: 9ea356f29ed511dc5e968dd0947f614277d497f0
+  ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97875145"
+  ms.lasthandoff: 03/25/2021
+  ms.locfileid: "105080285"
 highlightedContent:
   items:
   - title: Настройка и установка
