@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerService interface
 ms.assetid: 3bdb124b-c582-47ba-b465-13c6a1cdb702
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5054041ab09898943d300393d36205581231b06d
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: cc712d0c86613d0ee6b30d754b759c17e3ab9bdc
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102227220"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086772"
 ---
 # <a name="ieevisualizerservice"></a>IEEVisualizerService
 > [!IMPORTANT]
@@ -47,7 +47,7 @@ IEEVisualizerService : IUnknown
 |[GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)|Возвращает прокси-объект для свойства.|
 |[GetValueDisplayStringCount](../../../extensibility/debugger/reference/ieevisualizerservice-getvaluedisplaystringcount.md)|Извлекает количество строк значений, отображаемых для указанного свойства или поля.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Интегрированная среда разработки использует интерфейс [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) , чтобы определить наличие пользовательских средств просмотра или визуализаторов типов для свойства. Создав службу визуализатора (с [креатевисуализерсервице](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md)), ee может предоставить функции `IDebugProperty3` и [ипропертипроксеесиде](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) (который поддерживает просмотр и изменение интерфейсов значений свойств) и, таким образом, поддерживать визуализаторы типов.
 
  Если у EE имеется пользовательское средство просмотра, которое само реализует, то EE может добавить в `CLSID` конец списка, возвращенного [жеткустомвиеверлист](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md). Это позволяет элементу EE поддерживать как визуализаторы типов, так и собственные пользовательские средства просмотра. Просто убедитесь, что [жеткустомвиеверкаунт](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) отражает добавление любых пользовательских средств просмотра.
@@ -61,7 +61,7 @@ IEEVisualizerService : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы вычисления выражений](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentText2 interface
 ms.assetid: e85f50a3-211c-4220-a9f4-789950ba2782
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: eb1c5928362616466985a6f88102ffcbf4377444
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 557ae68e63280348ab315c3240e05dbfc38a8d4d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154214"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105066286"
 ---
 # <a name="idebugdocumenttext2"></a>IDebugDocumentText2
 Этот интерфейс представляет текстовый документ.
@@ -43,7 +43,7 @@ IDebugDocumentText2 : IDebugDocument2
 |[GetSize](../../../extensibility/debugger/reference/idebugdocumenttext2-getsize.md)|Получает размер текста в данной позиции в документе.|
 |[GetText](../../../extensibility/debugger/reference/idebugdocumenttext2-gettext.md)|Извлекает текст из указанной позицией в документе.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Объект, реализующий этот интерфейс, должен также реализовать <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> интерфейс, который предоставляет <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> интерфейс для объекта [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md) .
 
 ## <a name="requirements"></a>Требования
@@ -53,6 +53,6 @@ IDebugDocumentText2 : IDebugDocument2
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
 - [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)

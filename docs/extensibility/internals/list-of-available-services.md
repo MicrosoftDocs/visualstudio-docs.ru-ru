@@ -8,17 +8,17 @@ helpviewer_keywords:
 - services, Visual Studio
 - Visual Studio, services
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b00eb3e410c7fd3d10d2aef7fcfbf637ea04e41a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a5a875a913f57d3b700728542162e996449dc964
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839577"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095229"
 ---
 # <a name="list-of-available-services"></a>Список доступных служб
 
@@ -57,7 +57,7 @@ ms.locfileid: "99839577"
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsClassView> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsClassView> | Да | Да | Позволяет пакету VSPackage синхронизировать **представление классов** с конкретным объектом. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsCmdNameMapping> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsCmdNameMapping> | Да | Да | Обеспечивает поддержку сопоставления имен команд с идентификаторами GUID и обратно и определения имен всех доступных команд и имен. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsCodeDefView> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsCodeDefView> | Нет | Да | Позволяет VSPackage управлять **представлением определения кода**. |
-| <xref:Microsoft.VisualStudio.Shell.Interop.SVsCodeShareHandler> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsCodeShareHandler> | Да | Да | Внутренняя служба. Не используется. |
+| <xref:Microsoft.VisualStudio.Shell.Interop.SVsCodeShareHandler> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsCodeShareHandler> | Да | Да | Внутренняя служба. Не используйте. |
 | <xref:Microsoft.VisualStudio.TextManager.Interop.SVsCodeWindow> | <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow> | Да | Да | Предоставляет доступ к окну кода, которое может содержать один или несколько документов. |
 | <xref:Microsoft.VisualStudio.TextManager.Interop.SVsCodeWindowManager> | <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> | Да | Да | Позволяет VSPackage добавлять изменения в окно кода, например раскрывающиеся полосы. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsCommandWindow> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsCommandWindow><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsCommandWindow2> | Да | Да | Позволяет пакету VSPackage выполнять команду через **командное окно** и иным образом взаимодействовать с **командным окном**. |
@@ -160,6 +160,6 @@ ms.locfileid: "99839577"
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsWindowFrame> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> | Да | Да | Включает VSPackage для получения фрейма окна, в котором может находиться пакет или часть пакета. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SVsXMLMemberIndexService> | <xref:Microsoft.VisualStudio.Shell.Interop.IVsXMLMemberIndexService> | Да | Да | Предоставляет доступ к файлам документации в формате XML, связанным с определенным файлом метаданных. |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Использование и предоставление служб](../../extensibility/using-and-providing-services.md)

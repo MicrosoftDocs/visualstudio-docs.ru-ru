@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - MODULE_INFO structure
 ms.assetid: f2e06180-1ab3-4eb5-a428-7994cceb61b6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7d3fd390ca5491aa9dd3e97a0d820c8e02fd0147
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 0b432e0373e81124d18e3bf9cc5f8ed3a4707ab6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222358"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079726"
 ---
 # <a name="module_info"></a>MODULE_INFO
 Описывает конкретный модуль (DLL, EXE или сборку).
@@ -62,7 +62,7 @@ public struct MODULE_INFO {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
  `dwValidFields`\
  Сочетание флагов из перечисления [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) , которое указывает, какие поля заполняются.
 
@@ -99,7 +99,7 @@ public struct MODULE_INFO {
  `m_dwModuleFlags`\
  Сочетание флагов из перечисления [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md) , которое описывает модуль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта структура передается в метод " [info](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md) ", где он заполняется.
 
  Эта структура соответствует каждому модулю, указанному в окне **модули** .
@@ -111,7 +111,7 @@ public struct MODULE_INFO {
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
 - [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md)

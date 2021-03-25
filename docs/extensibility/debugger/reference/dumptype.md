@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DUMPTYPE enumeration
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: cef9f90c1f08dac742a6f01a4dd48f6bff76848b
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: bc27474b0012e60cccadda44665dc368178a02da
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150982"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095970"
 ---
 # <a name="dumptype"></a>DUMPTYPE
 Указывает, какая часть состояния программы (например, выполняемые потоки, кадры стека и адрес текущей инструкции) следует дампу.
@@ -50,7 +50,7 @@ public enum enum_DUMPTYPE {
 `DUMP_FULLDUMP`\
 Указывает большой полный дамп.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Передается в качестве аргумента в метод [вритедумп](../../../extensibility/debugger/reference/idebugprogram2-writedump.md) .
 
 ## <a name="requirements"></a>Требования

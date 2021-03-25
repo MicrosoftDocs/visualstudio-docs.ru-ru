@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccGetEvents function
 ms.assetid: 32f8147d-6dcc-465e-b07b-42da5824f9b0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 069e9399a91a39d8005d9137bd19f4032773b24a
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: e7611a3f71b5fa6205708aca6b957f3921a71517
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220798"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072992"
 ---
 # <a name="sccgetevents-function"></a>Функция Сккжетевентс
 Эта функция получает событие состояния, поставленное в очередь.
@@ -60,11 +60,11 @@ SCCRTN SccGetEvents (
 |SCC_E_OPNOTSUPPORTED|Эта функция не поддерживается.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция вызывается во время обработки простоя, чтобы проверить наличие обновлений состояния для файлов в системе управления версиями. Подключаемый модуль системы управления версиями хранит состояние всех файлов, о которых он знает, и каждый раз, когда в подключаемом модуле указано изменение состояния, состояние и связанный файл сохраняются в очереди. При `SccGetEvents` вызове метода верхний элемент очереди извлекается и возвращается. Эта функция ограничивается возвратом только ранее кэшированных данных и требует очень быстрого перехода (т. е. без считывания диска или запроса системы управления версиями); в противном случае производительность интегрированной среды разработки может снизиться.
 
  Если для отчета нет обновления состояния, подключаемый модуль системы управления версиями сохраняет в буфере пустую строку, на которую указывает `lpFileName` . В противном случае подключаемый модуль хранит полный путь к файлу, для которого изменились сведения о состоянии, и возвращает соответствующий код состояния (одно из значений, описанных в [коде состояния файла](../extensibility/file-status-code-enumerator.md)).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Код состояния файла](../extensibility/file-status-code-enumerator.md)

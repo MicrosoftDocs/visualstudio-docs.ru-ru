@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 05/13/2020
 ms.topic: conceptual
 ms.assetid: a3643792-b0df-481c-bc35-576f948e04cf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 13d111ea6e812de8290433c416a12dbd252662b5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 215fa0145a342820320980f629bb35678ce09680
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942884"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072940"
 ---
 # <a name="interaction-patterns-for-visual-studio"></a>Шаблоны взаимодействия для Visual Studio
 ## <a name="overview"></a>Обзор

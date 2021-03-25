@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject::GetSize method
 ms.assetid: 89af423b-36eb-479d-b2de-2693455eca15
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 69d644cb86c0df592218a5f6c90b8c2b62339718
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f37176d039ede66152f1255dc5a2459525bfe4be
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102159982"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105054157"
 ---
 # <a name="idebugobjectgetsize"></a>IDebugObject::GetSize
 Возвращает размер объекта в байтах.
@@ -47,9 +47,9 @@ int GetSize(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Используйте метод [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md) , чтобы получить значение в виде последовательности байтов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomAttribute interface
 ms.assetid: c5ae41e9-00b9-4cca-871d-b8de9ef390d1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 724aedb41a11607f89193b51f41e403a6da7dd45
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 5b96f4330371e8fb18b75a6ad6f17d61cccd3812
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154500"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095437"
 ---
 # <a name="idebugcustomattribute"></a>IDebugCustomAttribute
 Этот интерфейс представляет пользовательский атрибут и может предоставить имя, родительский объект и тип класса атрибута.
@@ -45,7 +45,7 @@ IDebugCustomAttribute : IUnknown
 |[GetName](../../../extensibility/debugger/reference/idebugcustomattribute-getname.md)|Возвращает имя настраиваемого атрибута.|
 |[GetAttributeBytes](../../../extensibility/debugger/reference/idebugcustomattribute-getattributebytes.md)|Возвращает сведения об атрибуте в виде большого двоичного объекта в байтах.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Настраиваемый атрибут — это структура C#, которая предоставляет пользовательские метаданные, связанные с определенным классом или методом.
 
 ## <a name="requirements"></a>Требования
@@ -55,7 +55,7 @@ IDebugCustomAttribute : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)

@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16a4178231c575f590a13b8205cd872668f46143
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1c15b7458bfd18314015bbb9228c212a06fcd82f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951944"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072979"
 ---
 # <a name="layout-for-visual-studio"></a>Макет для Visual Studio
 Большинство диалоговых окон Visual Studio — это [Макет диалогового окна программы, который является неструктурированными](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout)диалогами, которые следуют стандартным [принципам макета диалогового окна Windows Desktop](/windows/desktop/uxguide/win-dialog-box). Когда Visual Studio переходит на обновление пользовательского интерфейса, некоторые из более заметных диалоговых окон имеют новую структуру, которая устанавливает их как возможности определения продукта. В этих [макетах диалогового окна](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) есть тематический вид.
@@ -156,7 +156,7 @@ ms.locfileid: "99951944"
 
  **Рисунок 08,01-k: диалоговое окно с темой — цвета**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Шаблоны приложений для Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)
 - [Элементы управления (Windows)](/windows/desktop/uxguide/controls)
 - [Диалоговые окна (Windows)](/windows/desktop/uxguide/win-dialog-box)

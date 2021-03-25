@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DisassemblyData structure
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b6053647d43563e7369793982c72683002ae0df5
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 71d52c4f48f23368d83d81f88fba4bf0ba36f197
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170462"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096126"
 ---
 # <a name="disassemblydata"></a>DisassemblyData
 Описывает одну инструкцию дизассемблирования для отображаемой интегрированной среды разработки (IDE).
@@ -64,7 +64,7 @@ public struct DisassemblyData {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwFields`\
 Константа [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) , указывающая, какие поля заполняются.
 
@@ -105,7 +105,7 @@ public struct DisassemblyData {
 `dwFlags`\
 Константа [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md) , указывающая, какие флаги активны.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Каждая `DisassemblyData` структура описывает одну инструкцию дизассемблирования. Массив этих структур возвращается методом [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) .
 
 Структура [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) используется только для текстовых документов. Диапазон исходного кода для этой инструкции заполнен только для первой инструкции, созданной из инструкции или строки, например when `dwByteOffset == 0` .
@@ -227,7 +227,7 @@ namespace MyNamespace
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [Чтение](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)
 - [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - EncUnavailableReason enumeration
 ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e1f80dc1454cb1c15feddd099411bcb339dbc58c
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e63ad7994d485bb39f8ec789d8906cd7d5946840
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151008"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095995"
 ---
 # <a name="encunavailablereason"></a>EncUnavailableReason
 `This is for internal use only!` Представляет причины недоступности **"изменить и продолжить"** .
@@ -75,7 +75,7 @@ public enum EncUnavailableReason {
 `ENCUN_WIN64`\
 Операции "изменить и продолжить" недоступны при обработке 64-разрядного кода Windows.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Это перечисление предназначено только для внутреннего использования [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] . Методы [жетенкаваилаблестате](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md) и [дисаблинк](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md) , реализованные пользовательским поставщиком портов, всегда должны возвращать значение `E_NOTIMPL` .
 
 ## <a name="requirements"></a>Требования
