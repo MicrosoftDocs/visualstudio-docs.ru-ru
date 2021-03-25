@@ -7,20 +7,20 @@ helpviewer_keywords:
 - IsClosedType
 - IDebugExtendedField::IsClosedType
 ms.assetid: 9136fc57-74ff-4fe4-a6e2-b137cb9d5b08
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4f13fa0f143ac6adb8fb3493621b7ef638a394ca
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 7ba4c55b53ebb1f1e5ad2000f31efc8a37f81eef
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152121"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077204"
 ---
 # <a name="idebugextendedfieldisclosedtype"></a>IDebugExtendedField::IsClosedType
 Определяет, представляет ли поле закрытый тип.
@@ -40,5 +40,5 @@ int IsClosedType();
 ## <a name="return-value"></a>Возвращаемое значение
  Если поле является закрытым типом, возвращает `S_OK` ; в противном случае возвращает `S_FALSE` .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugExtendedField](../../../extensibility/debugger/reference/idebugextendedfield.md)

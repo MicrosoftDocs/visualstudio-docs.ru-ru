@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - LAUNCH_FLAGS enumeration
 ms.assetid: f51aab02-d257-4302-bb79-b7d8ba9ac4e5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7e53cb955cda833d2172ed369e5573f257082b08
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 3e12dc587a77e428d3d4c4740043ab5651b7897a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102225530"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058005"
 ---
 # <a name="launch_flags"></a>LAUNCH_FLAGS
 Задает флаги запуска отладки.
@@ -60,7 +60,7 @@ public enum enum_LAUNCH_FLAGS {
 `LAUNCH_MERGE_ENV`\
 Запускает процесс и выполняет слияние среды с запускающим узлом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения передаются в качестве аргумента в метод [лаунчсуспендед](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) .
 
 Эти флаги можно сочетать с помощью побитовой операции `OR` .

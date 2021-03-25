@@ -12,17 +12,17 @@ helpviewer_keywords:
 - commands [Visual Studio], default IDE
 - commands [Visual Studio], default product
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1c38abc09b0d5c8996cde44d33f4778a54a0cd62
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 07e93db9ffe79c3c49072b3379def14a3be2852c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902954"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091010"
 ---
 # <a name="default-command-group-and-toolbar-placement"></a>Размещение команды по умолчанию, группы и панели инструментов
 Для единообразия и стабильности продукта Пользовательский интерфейс отображает определенные группы команд по умолчанию и [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] предоставляет определения для команд и групп команд. Пакеты VSPackage также могут использовать стандартные команды и группы команд.
@@ -42,6 +42,6 @@ ms.locfileid: "99902954"
 
  Панели инструментов редактора должны размещаться под панелями IDE и продуктов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Команды, меню и группы, определенные интегрированной средой разработки](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)
 - [Как пакеты VSPackage добавляют элементы пользовательского интерфейса](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

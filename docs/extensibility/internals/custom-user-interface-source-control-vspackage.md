@@ -8,17 +8,17 @@ helpviewer_keywords:
 - user interface, source control packages
 - source control packages, user interface
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 97c82254516c78a3aff9884e91e44adc45b95981
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1239b11e814ba08e4e481358f5e7fdd0e5dc666b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902980"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091036"
 ---
 # <a name="custom-user-interface-source-control-vspackage"></a>Настраиваемый пользовательский интерфейс (пакет VSPackage системы управления версиями)
 Пакет VSPackage объявляет свои пункты меню и их состояния по умолчанию через файл таблицы команд Visual Studio (*. vsct*). [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]Интегрированная среда разработки (IDE) отображает пункты меню в их состояниях по умолчанию до тех пор, пока не будет загружен пакет VSPackage. Затем <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> метод вызывается для включения или отключения пунктов меню.
@@ -57,7 +57,7 @@ ms.locfileid: "99902980"
 | Окна инструментов | Пакет VSPackage системы управления версиями скрывает все окна инструментов, которыми оно владеет, когда оно становится неактивным. |
 | Страницы параметров пакета управления версиями, специфические для пакета VSPackage | Раздел реестра **хклм\софтваре\микрософт\висуалстудио\кс.и\тулсоптионспажес\висибилитикмдуиконтекстс** позволяет пакету VSPackage задать контексты, в которых требуется отобразить страницы параметров. Запись реестра в этом разделе должна быть создана с помощью идентификатора службы (SID) службы управления версиями и присвоения ей значения DWORD, равного 1. При каждом возникновении события пользовательского интерфейса в контексте пакет VSPackage, зарегистрированный в системе управления версиями, будет вызван, если он активен. |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>

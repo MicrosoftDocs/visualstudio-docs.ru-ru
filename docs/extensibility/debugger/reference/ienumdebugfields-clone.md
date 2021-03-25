@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugFields::Clone method
 ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 965bc201646c7e068c58f9238dccba9a9e587d26
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: d4f3a37f6e664d7fe3278e3a7c3e088e1e9e4565
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102224906"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058161"
 ---
 # <a name="ienumdebugfieldsclone"></a>IEnumDebugFields::Clone
 Этот метод возвращает копию текущего перечисления в виде отдельного объекта.
@@ -47,8 +47,8 @@ int Clone(
 ## <a name="property-valuereturn-value"></a>Значение свойства/возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Копия перечисления имеет то же состояние, что и оригинал, во время вызова этого метода. Однако исходное состояние копии и исходного состояния является отдельным и может быть изменено по отдельности.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

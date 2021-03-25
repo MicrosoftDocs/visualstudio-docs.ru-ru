@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, designing
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 13722aa9968e21d4208ad5aa99fefe4c985ffb79
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3d6409b5e624cd8596e669f191b2644aaf27a88c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963501"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090932"
 ---
 # <a name="design-xml-command-table-vsct-files"></a>Разработка файлов XML-таблицы команд (. vsct)
 Файл XML-таблицы команд (*. vsct*) описывает макет и внешний вид элементов команд для VSPackage. К элементам команды относятся кнопки, поля со списком, меню, панели инструментов и группы элементов команд. В этой статье описываются XML-файлы командных таблиц, их влияние на элементы команд и меню, а также способы их создания.
@@ -123,5 +123,5 @@ ms.locfileid: "99963501"
 
  Запустите средство с помощью команды **CreateExpInstance/Reset**. Помните, что это средство удаляет из экспериментального Hive все зарегистрированные пакеты VSPackage, которые обычно не устанавливаются вместе с [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширение меню и команд](../../extensibility/extending-menus-and-commands.md)

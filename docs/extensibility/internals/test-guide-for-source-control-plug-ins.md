@@ -11,17 +11,17 @@ helpviewer_keywords:
 - testing, source control plug-ins
 - source control plug-ins, test guide
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 951b83f425f1e7171c519fced3fa3a4644279621
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 465378069c5ac5d5a516e94bdaa2120a843d9914
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934146"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090789"
 ---
 # <a name="test-guide-for-source-control-plug-ins"></a>Руководство по тестированию подключаемых модулей системы управления версиями
 В этом разделе приводятся рекомендации по тестированию подключаемых модулей систем управления версиями с [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Приводится обширный обзор наиболее распространенных областей тестирования, а также некоторых из наиболее сложных областей, которые могут вызывать проблемы. Этот обзор не является исчерпывающим списком тестовых примеров.

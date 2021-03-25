@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugModules2
 ms.assetid: 4fe28074-a960-41ad-b74d-b57f04c0c0ad
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 33853804078d5f32aba6fda6dac409cf2a24de0a
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 96a35f11346b769a4329b1212a8202e5e5ded006
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102224763"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058174"
 ---
 # <a name="ienumdebugmodules2"></a>IEnumDebugModules2
 Этот интерфейс перечисляет список модулей.
@@ -46,7 +46,7 @@ IEnumDebugModules2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugmodules2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugmodules2-getcount.md)|Возвращает число модулей.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Visual Studio использует этот интерфейс в основном для обновления окна " **модули** ".
 
  В целях отладки в Visual Studio программа — это логическая последовательность инструкций кода, которая может пересекать границы модуля, поэтому требуется список модулей для одного интерфейса [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) . Первый модуль в списке обычно содержит начальную точку входа для связанной программы.
@@ -58,7 +58,7 @@ IEnumDebugModules2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md)

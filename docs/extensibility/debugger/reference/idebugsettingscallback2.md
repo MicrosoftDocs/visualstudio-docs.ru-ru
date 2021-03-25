@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2 interface
 ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7053c45ba86f4bea54befc3bde67d831cc9c822e
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 58e9ddfd3789fcfe7d81348714a8de2add743090
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102168664"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105071198"
 ---
 # <a name="idebugsettingscallback2"></a>IDebugSettingsCallback2
 Включает модули отладки для удаленного считывания параметров метрик.

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], threads
 - threading [Debugging SDK]
 ms.assetid: 2243d24a-c3d2-41d1-abbb-6db21a2db9ee
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ec3c427e722739f17984866b8756d606ecb57813
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 168d29b8306ec58233f426b48c3ab0adfacb2bd5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965464"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057849"
 ---
 # <a name="threads"></a>Потоки
 В архитектуре отладчика *поток*:
@@ -29,7 +29,7 @@ ms.locfileid: "99965464"
 
 - Представляется интерфейсом [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md) , обычно созданным модулем отладки (de) или виртуальной машиной, как следствие выполнения программы.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Programs](../../extensibility/debugger/programs.md)
 - [Кадры стека](../../extensibility/debugger/stack-frames.md)
 - [Модуль отладки](../../extensibility/debugger/debug-engine.md)
