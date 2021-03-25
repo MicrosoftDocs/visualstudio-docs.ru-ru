@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer2::EnumPorts
 ms.assetid: 3d98dfd0-614f-4d68-90c6-8a9b9cab66f1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b9da125b5e10315f74d806cf5ba7026601393366
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 9de3b76aabc3e432695b734bcd5db5cf22314c3a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154760"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058707"
 ---
 # <a name="idebugcoreserver2enumports"></a>IDebugCoreServer2::EnumPorts
 Извлекает список всех доступных портов.
@@ -47,6 +47,6 @@ int EnumPorts(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)

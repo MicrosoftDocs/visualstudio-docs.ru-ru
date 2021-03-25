@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryBytes2 interface
 ms.assetid: d7647575-0e06-4190-88f5-ca40b82209a4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1c6f1cf03aa36a4ae6c935d1efc8970ce3ff5f7
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: b18b4575780966d9ad34fa6c5638a89274d52c3c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165089"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058642"
 ---
 # <a name="idebugmemorybytes2"></a>IDebugMemoryBytes2
 Этот интерфейс представляет байты памяти.
@@ -44,7 +44,7 @@ IDebugMemoryBytes2 : IUnknown
 |[WriteAt](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md)|Записывает `dwCount` байты, начиная с `pStartContext` .|
 |[GetSize](../../../extensibility/debugger/reference/idebugmemorybytes2-getsize.md)|Возвращает размер (в байтах) памяти, представленной этим интерфейсом.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Для свойств интерфейс [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) , представляющий массив, предоставляет `IDebugMemoryBytes2` интерфейс для доступа к значениям в этом массиве.
 
  **Представление памяти** Visual Studio вызывает [жетмеморибитес](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md) для получения `IDebugMemoryBytes2` интерфейса для доступа к системной памяти. Адрес, к которому осуществляется доступ, получается путем синтаксического анализа выражения, указанного в качестве адреса в представлении памяти, и последующей оценки проанализированного выражения с помощью [евалуатесинк](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) для получения `IDebugProperty2` интерфейса. Вызов [жетмемориконтекст](../../../extensibility/debugger/reference/idebugproperty2-getmemorycontext.md) возвращает [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) , описывающий адрес памяти. Этот контекст памяти затем передается в [реадат](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md) и [вритеат](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md).
@@ -56,8 +56,8 @@ IDebugMemoryBytes2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetMemoryBytes](../../../extensibility/debugger/reference/idebugprogram2-getmemorybytes.md)
 - [GetMemoryBytes](../../../extensibility/debugger/reference/idebugproperty2-getmemorybytes.md)
 - [GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md)

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - NAME_MATCH enumeration
 ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d6c3818318ea65cb2f5262ac4ec6dd9042d6f8c5
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: c093c49745d7fa1b754db020c85a538992de9555
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222241"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086486"
 ---
 # <a name="name_match"></a>NAME_MATCH
 Выбирает вариант варианта для совпадающих имен.
@@ -54,7 +54,7 @@ public enum NameMatchOptions {
  `nmCaseInsensitive`\
  Указывает, что имена для сопоставления не учитывают регистр.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Передается в качестве аргумента следующим методам:
 
 - [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)

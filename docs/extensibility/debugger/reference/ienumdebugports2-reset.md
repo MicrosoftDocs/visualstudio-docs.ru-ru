@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPorts2::Reset
 ms.assetid: 67da406c-eadb-421e-ae12-e26e9866f262
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e19f16ff5cba901141e93ee67816bfaf96596f97
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 68e5885d5a0eab7fdd3eeb33b81ff912a02d5324
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102224516"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105052870"
 ---
 # <a name="ienumdebugports2reset"></a>IEnumDebugPorts2::Reset
 Сбрасывает перечисление на первый элемент.
@@ -41,8 +41,8 @@ int Reset();
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  После вызова этого метода следующий вызов метода [Next](../../../extensibility/debugger/reference/ienumdebugports2-next.md) возвращает первый элемент перечисления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)

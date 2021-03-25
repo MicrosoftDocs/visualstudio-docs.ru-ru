@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPorts2::Next
 ms.assetid: 3f43d18c-6bd1-4ddd-95ef-9550abd2ad09
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f202d91a944663bf04254accaefe1fd14e6e5a0a
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: e5972a5676c0e7859886578cb871c9a25846a4dc
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102226310"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105052818"
 ---
 # <a name="ienumdebugports2next"></a>IEnumDebugPorts2::Next
 Возвращает следующий набор из перечисления.
@@ -57,6 +57,6 @@ int Next(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK`. Возвращает `S_FALSE` , если может быть возвращено меньше запрошенного числа элементов; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

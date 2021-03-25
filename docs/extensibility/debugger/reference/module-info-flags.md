@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - MODULE_INFO_FLAGS enumeration
 ms.assetid: e22d3723-b4d4-4524-8a2f-3adb55bbd273
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 158cc849e32fc0177b784c8898ec83fe58008f60
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: bfe1639ea187c6f03327a2278aaa9f849309a2af
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222345"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079713"
 ---
 # <a name="module_info_flags"></a>MODULE_INFO_FLAGS
 Указывает состояние символов для модуля.
@@ -45,7 +45,7 @@ public enum enum_MODULE_INFO_FLAGS {
  `MIF_SYMBOLS_LOADED`\
  Модуль загрузил по крайней мере один набор символов (в противном случае символы не были загружены).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Это значение возвращается методом [жетсимболсеарчинфо](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md) .
 
 ## <a name="requirements"></a>Требования

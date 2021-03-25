@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorBreakpoint2::GetBreakpointResolution
 ms.assetid: 1c2324ed-2a11-4e63-8f3a-f420c7a4018b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b6d7aea0c0ff9cbacf4085203a8908d30628bacf
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e326242b54702353fb47162c79ba6f59b537fbf0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153187"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065948"
 ---
 # <a name="idebugerrorbreakpoint2getbreakpointresolution"></a>IDebugErrorBreakpoint2::GetBreakpointResolution
 Возвращает разрешение ошибки точки останова, описывающее ошибку.
@@ -47,6 +47,6 @@ int GetBreakpointResolution(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
 - [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)

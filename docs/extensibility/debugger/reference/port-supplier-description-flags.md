@@ -6,20 +6,20 @@ ms.topic: reference
 helpviewer_keywords:
 - PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration
 ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5f1806e75a8481fddef5118f594452393a1cef77
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 09c3cb532b7fa9c496ad217c1f5ecacbbf2b8c5c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102225452"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086317"
 ---
 # <a name="port_supplier_description_flags"></a>PORT_SUPPLIER_DESCRIPTION_FLAGS
 
@@ -47,7 +47,7 @@ public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 `PSDFLAG_SHOW_WARNING_ICON`\
 Если этот флажок установлен, в пользовательском интерфейсе будет отображаться значок предупреждения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это перечисление возвращается методом метода [Description](../../../extensibility/debugger/reference/idebugportsupplierdescription2-getdescription.md) .
 

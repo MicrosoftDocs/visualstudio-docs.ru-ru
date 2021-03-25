@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - NATIVE_ADDRESS structure
 ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5e243982eefbfbb8aab5797bf40031aa5d8aca4c
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 799120bf3a068ccbc7eebad729b4312d6715af34
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222189"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086473"
 ---
 # <a name="native_address"></a>NATIVE_ADDRESS
 
@@ -41,12 +41,12 @@ public struct NATIVE_ADDRESS {
 }
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 `unknown`\
 Собственный адрес (значение этого параметра зависит от среды выполнения и операционной системы).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура является частью объединения в структуре [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) , если `dwKind` поле `DEBUG_ADDRESS_UNION` структуры имеет `ADDRESS_KIND_NATIVE` значение (Value из перечисления [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) ).
 
@@ -58,7 +58,7 @@ public struct NATIVE_ADDRESS {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

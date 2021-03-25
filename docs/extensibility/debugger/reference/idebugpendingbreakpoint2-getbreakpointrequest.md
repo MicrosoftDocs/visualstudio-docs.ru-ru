@@ -9,20 +9,20 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::GetBreakpointRequest method
 - GetBreakpointRequest method
 ms.assetid: cb1e36aa-4302-455c-98fb-6638a1ef5c46
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 85395fe88aaf29658695323f437eba08379cfce3
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: b6ead0a48147b999b83fa3ccc8062ff767920fa5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102143068"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072680"
 ---
 # <a name="idebugpendingbreakpoint2getbreakpointrequest"></a>IDebugPendingBreakpoint2::GetBreakpointRequest
 Получает запрос точки останова, который использовался для создания этой ожидающей точки останова.
@@ -48,6 +48,6 @@ int GetBreakpointRequest(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Возвращает значение `E_BP_DELETED` , если точка останова была удалена.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)

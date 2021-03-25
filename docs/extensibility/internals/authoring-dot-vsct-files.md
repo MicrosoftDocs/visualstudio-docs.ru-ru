@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, manual authoring
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3c484c08b3335d51283f1f6e1a7b29757a2271aa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 73d16337daefdfe25425982a7fc7249c42f0fa1a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906069"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086343"
 ---
 # <a name="author-vsct-files"></a>Файлы Author. vsct
 В этом документе показано, как создать файл *vsct* для добавления пунктов меню, панелей инструментов и других элементов пользовательского интерфейса в интегрированную среду разработки (IDE) Visual Studio. Используйте эти шаги при добавлении элементов пользовательского интерфейса в пакет Visual Studio (VSPackage), в котором еще нет *vsct* -файла.
@@ -235,7 +235,7 @@ ms.locfileid: "99906069"
 
    - Контроллер меню. контроллер меню — это кнопка со стрелкой рядом с ней. При нажатии стрелки открывается список. Чтобы добавить контроллер меню в пользовательский интерфейс, создайте `Menu` элемент и присвойте его `type` атрибуту значение `MenuController` или `MenuControllerLatched` , в зависимости от желаемого поведения. Чтобы заполнить контроллер меню, установите его в качестве родительского элемента для `Group` элемента. Контроллер меню отобразит все дочерние элементы этой группы в раскрывающемся списке.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширение меню и команд](../../extensibility/extending-menus-and-commands.md)
 - [Файлы таблицы команд Visual Studio (. vsct)](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [Справочник по XML-схеме VSCT](../../extensibility/vsct-xml-schema-reference.md)

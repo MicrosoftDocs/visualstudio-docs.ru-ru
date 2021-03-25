@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugArrayField interface
 ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b3926bb47e1ea8a91289a7454f289cd3806e97f7
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 073438a99531b278a148b6eb19ff6e5af88004e9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158726"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058941"
 ---
 # <a name="idebugarrayfield"></a>IDebugArrayField
 Этот интерфейс описывает символ или тип массива.
@@ -51,7 +51,7 @@ IDebugArrayField : IDebugContainerField
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

@@ -9,20 +9,20 @@ helpviewer_keywords:
 - IDebugMemoryContext2::GetName method
 - GetName method
 ms.assetid: 8c212556-7d9e-4d68-b2a9-8212f50d0287
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9e9e513d94d0aab902d9ec06cdcc17c5afb7496a
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 89d5d3cb1d2bed36a9e15f99644a02bdc308e0ee
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165037"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058616"
 ---
 # <a name="idebugmemorycontext2getname"></a>IDebugMemoryContext2::GetName
 Возвращает отображаемое пользователем имя для этого контекста.
@@ -48,8 +48,8 @@ int GetName(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Имя контекста памяти обычно не используется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

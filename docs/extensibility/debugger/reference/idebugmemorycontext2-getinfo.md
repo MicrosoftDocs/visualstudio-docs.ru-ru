@@ -9,20 +9,20 @@ helpviewer_keywords:
 - GetInfo method
 - IDebugMemoryContext2::GetInfo method
 ms.assetid: 08c7f091-1816-4d64-8834-f9ecaac5c58d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2dfcd6063988f188b307b03febaeca988c8fb025
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: fe87f5dbf14d714f4915e99c23a56b8c9490dd23
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165050"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058629"
 ---
 # <a name="idebugmemorycontext2getinfo"></a>IDebugMemoryContext2::GetInfo
 Извлекает структуру [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) , описывающую контекст.
@@ -53,7 +53,7 @@ int GetInfo(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
 - [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)
 - [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)

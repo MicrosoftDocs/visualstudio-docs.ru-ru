@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - dwTYPE_KIND enumeration
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f51a84951cdfe09e13454035c3219324e9a68368
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 25b7fd89de0af624425767f21b81780459068372
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170332"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095957"
 ---
 # <a name="dwtype_kind"></a>dwTYPE_KIND
 Указывает способ интерпретации типа объекта [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) .
@@ -56,7 +56,7 @@ public enum enum_dwTYPE_KIND {
 `TYPE_KIND_BUILT`\
 `TYPE_INFO`Объединение должно интерпретироваться как структура [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Значения этого перечисления отображаются в `dwKind` поле структуры [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) и используются для определения способа интерпретации `type` элемента объединения. `TYPE_INFO`Структура возвращается вызовом метода [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) .
 
 ## <a name="requirements"></a>Требования

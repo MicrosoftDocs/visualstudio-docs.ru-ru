@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - PROVIDER_FLAGS enumeration
 ms.assetid: 8cbd2312-ed2f-4477-b192-c3f25c6098c3
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8851dffa0de1155edf401c0d0b0feadda199a5e9
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: ed6a93b9e2b90fc125642697b193d51713b01e69
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222033"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086356"
 ---
 # <a name="provider_flags"></a>PROVIDER_FLAGS
 Указывает требуемые свойства, которые будут получены от поставщика программы.
@@ -75,7 +75,7 @@ public enum enum_PROVIDER_FLAGS {
  `PFLAG_GET_IS_DEBUGGER_PRESENT`\
  Вызывающему объекту требуется `fIsTheDebuggerPresent` поле `PROVIDER_PROCESS_DATA` структуры.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эти флаги передаются следующим методам:
 
 - [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)

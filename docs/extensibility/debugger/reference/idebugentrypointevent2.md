@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEntryPointEvent2 interface
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: da733292407c93327374a4c6fa54c558d3202caa
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ccc928b3d0ca9106b6f83a4c398a694ba429ce8f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153395"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065998"
 ---
 # <a name="idebugentrypointevent2"></a>IDebugEntryPointEvent2
 Модуль отладки (DE) отправляет этот интерфейс в Диспетчер отладки сеансов (SDM), когда программа собирается выполнить первую инструкцию пользовательского кода.
@@ -35,7 +35,7 @@ IDebugEntryPointEvent2 : IUnknown
 ## <a name="notes-for-callers"></a>Примечания для вызывающих объектов
  Параметр DE создает и отправляет этот объект события при загрузке отлаживаемой программы и готовности выполнить первую инструкцию пользовательского кода. Событие отправляется с помощью функции обратного вызова [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) , предоставляемой SDM при присоединении к отлаживаемой программе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 - [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md) отправляется, когда программа собирается выполнить самую первую инструкцию. Например, `IDebugEntryPoint2` отправляется, когда программа собирается выполнить `main` функцию пользователя.
 
  Когда отсылается `IDebugEntryPointEvent2` , текущее расположение кода должно находиться в первой инструкции пользовательского кода, например `main` .
@@ -47,6 +47,6 @@ IDebugEntryPointEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)

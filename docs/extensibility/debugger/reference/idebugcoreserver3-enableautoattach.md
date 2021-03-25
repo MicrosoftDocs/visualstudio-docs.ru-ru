@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer3::EnableAutoAttach
 ms.assetid: 06aa633b-263b-4e08-8844-9a52d5120b94
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 644d238db11c117b9068de8f7903361b9712f3aa
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0e3b78744d67183c368345af8c6c26e57edec8d1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102163152"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058681"
 ---
 # <a name="idebugcoreserver3enableautoattach"></a>IDebugCoreServer3::EnableAutoAttach
 Включает автоматическое присоединение для указанных модулей отладки.
@@ -62,8 +62,8 @@ int EnableAutoAttach(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки. Один код ошибки — `E_AUTO_ATTACH_NOT_REGISTERED` , который указывает, что фабрика класса автоматического подключения не зарегистрирована.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  При запуске программы, связанной с указанным URL-адресом, указанные модули отладки автоматически запускаются и присоединяются.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

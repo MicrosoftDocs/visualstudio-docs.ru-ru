@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugObjects interface
 ms.assetid: 0950364c-6c8a-4b6c-ba37-c6aa359fa72c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: eece06d64a4eeefefe4e132295f20e40a032434b
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 0d9cd15c267906730ea94636e94978f5f77374e6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102224633"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105052831"
 ---
 # <a name="ienumdebugobjects"></a>IEnumDebugObjects
 > [!IMPORTANT]
@@ -49,7 +49,7 @@ IEnumDebugObjects : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugobjects-clone.md)|Извлекает копию текущего перечисления.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugobjects-getcount.md)|Возвращает количество записей в перечислении.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот интерфейс позволяет модулю отладки перечислять набор объектов в массиве.
 
 ## <a name="requirements"></a>Требования
@@ -59,6 +59,6 @@ IEnumDebugObjects : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md)

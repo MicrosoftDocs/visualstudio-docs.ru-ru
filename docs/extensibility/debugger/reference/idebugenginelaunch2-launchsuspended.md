@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineLaunch2::LaunchSuspended
 ms.assetid: 5dd2643e-c20a-470e-9024-2a423eb39856
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9fd8b610f99161a9716b9bffc235196165306711
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2db2ce2a35cd8be6599fca3e01bc69a6680012b2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153590"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105066026"
 ---
 # <a name="idebugenginelaunch2launchsuspended"></a>IDebugEngineLaunch2::LaunchSuspended
 Этот метод запускает процесс с помощью модуля отладки (DE).
@@ -107,12 +107,12 @@ int LaunchSuspended(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Как правило, [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] запускает программу с помощью метода [лаунчсуспендед](../../../extensibility/debugger/reference/idebugportex2-launchsuspended.md) , а затем присоединяет отладчик к приостановленной программе. Однако существуют обстоятельства, в которых модулю отладки может потребоваться запустить программу (например, если модуль отладки является частью интерпретатора, а отлаживаемая программа — интерпретируемый язык). в этом случае [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] используется `IDebugEngineLaunch2::LaunchSuspended` метод.
 
  Метод [ресумепроцесс](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md) вызывается для запуска процесса после того, как процесс был успешно запущен в приостановленном состоянии.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md)
