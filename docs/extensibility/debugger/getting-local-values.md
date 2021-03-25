@@ -9,17 +9,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], local values
 - expression evaluation, getting local values
 ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 64b3d4876622aabc831c0142a041964aa8dfe807
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7be71aaa6e1ea8afee37b9abb9ea76d0347e5c12
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921257"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059968"
 ---
 # <a name="get-local-values"></a>Получить локальные значения
 > [!IMPORTANT]
@@ -440,7 +440,7 @@ HRESULT FieldGetValue( in IDebugField* pfield, out VARIANT* pvarValue )
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пример реализации локальных переменных](../../extensibility/debugger/sample-implementation-of-locals.md)
 - [Получить локальные свойства](../../extensibility/debugger/getting-local-properties.md)
 - [Контекст оценки](../../extensibility/debugger/evaluation-context.md)

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - properties [Visual Studio SDK]
 - Property Browser, exposing properties
 ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bd9f2eb66bd2e1b8edcffd9e1053e4f644ba5e77
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b9de86e956fe6a4d7841d519d7252b75ae216229
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890764"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075254"
 ---
 # <a name="expose-properties-to-the-properties-window"></a>Предоставление свойств окно свойств
 
@@ -37,9 +37,9 @@ ms.locfileid: "99890764"
 
 1. Каждое расширение Visual Studio начинается с проекта развертывания VSIX, который будет содержать ресурсы расширения. Создайте [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] проект VSIX с именем `MyObjectPropertiesExtension` . Шаблон проекта VSIX можно найти в диалоговом окне " **Новый проект** ", выполнив поиск по слову "VSIX".
 
-2. Добавьте окно инструментов, добавив пользовательский шаблон элемента окна инструментов с именем `MyToolWindow` . В **Обозреватель решений** щелкните правой кнопкой мыши узел проекта и выберите команду **Добавить**  >  **новый элемент**. В **диалоговом окне Добавление нового элемента** перейдите в раздел **Visual C# элементы**  >  **расширяемость** и выберите **настраиваемое окно инструментов**. В поле **имя** в нижней части диалогового окна измените имя файла на *MyToolWindow.CS*. Дополнительные сведения о создании настраиваемого окна инструментов см. в разделе [Создание расширения с помощью окна инструментов](../extensibility/creating-an-extension-with-a-tool-window.md).
+2. Добавьте окно инструментов, добавив пользовательский шаблон элемента окна инструментов с именем `MyToolWindow` . В **Обозреватель решений** щелкните правой кнопкой мыши узел проекта и выберите команду **Добавить**  >  **новый элемент**. В **диалоговом окне Добавление нового элемента** перейдите в раздел **Visual C# элементы**  >  **расширяемость** и выберите **настраиваемое окно инструментов**. В поле **имя** в нижней части диалогового окна измените имя файла на *MyToolWindow. CS*. Дополнительные сведения о создании настраиваемого окна инструментов см. в разделе [Создание расширения с помощью окна инструментов](../extensibility/creating-an-extension-with-a-tool-window.md).
 
-3. Откройте *MyToolWindow.CS* и добавьте следующую инструкцию using:
+3. Откройте *MyToolWindow. CS* и добавьте следующую инструкцию using:
 
    ```csharp
    using System.Collections;
@@ -112,7 +112,7 @@ ms.locfileid: "99890764"
 
 ### <a name="to-expose-tool-window-properties"></a>Предоставление свойств окна инструментов
 
-1. Откройте *MyToolWindow.CS* и добавьте открытое логическое свойство, возвращенное в `MyToolWindow` класс.
+1. Откройте *MyToolWindow. CS* и добавьте открытое логическое свойство, возвращенное в `MyToolWindow` класс.
 
     ```csharp
     [Category("My Properties")]
@@ -131,7 +131,7 @@ ms.locfileid: "99890764"
 
      Это свойство получает свое состояние из флажка WPF, которое будет создано позже.
 
-2. Откройте *MyToolWindowControl.XAML.CS* и замените конструктор митулвиндовконтрол следующим кодом.
+2. Откройте *митулвиндовконтрол. XAML. CS* и замените конструктор митулвиндовконтрол следующим кодом.
 
     ```vb
     private MyToolWindow pane;
@@ -145,7 +145,7 @@ ms.locfileid: "99890764"
 
      Это дает `MyToolWindowControl` доступ к `MyToolWindow` панели.
 
-3. В *MyToolWindow.CS* измените `MyToolWindow` конструктор следующим образом:
+3. В *MyToolWindow. CS* измените `MyToolWindow` конструктор следующим образом:
 
     ```csharp
     base.Content = new MyToolWindowControl(this);
@@ -189,7 +189,7 @@ ms.locfileid: "99890764"
 
 ### <a name="to-change-selection-lists"></a>Изменение списков выбора
 
-1. Откройте *MyToolWindow.CS* и добавьте открытый класс с именем `Simple` .
+1. Откройте *MyToolWindow. CS* и добавьте открытый класс с именем `Simple` .
 
     ```csharp
     public class Simple
@@ -242,7 +242,7 @@ ms.locfileid: "99890764"
     }
     ```
 
-3. В *MyToolWindowControl.CS* Замените обработчики флажков следующими строками кода:
+3. В *митулвиндовконтрол. CS* Замените обработчики флажков следующими строками кода:
 
     ```csharp
     private void checkbox_Checked(object sender, RoutedEventArgs e)
@@ -274,6 +274,6 @@ ms.locfileid: "99890764"
 
 Окна инструментов Visual Studio сохраняются между сеансами Visual Studio. Дополнительные сведения о сохранении состояния окна инструментов см. в разделе <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение свойств и окна свойств](../extensibility/extending-properties-and-the-property-window.md)

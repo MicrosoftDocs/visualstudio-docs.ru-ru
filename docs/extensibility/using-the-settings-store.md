@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Settings Store, using
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 752a912fd9a565e4b3e8dcb5c4c142e8f37dffc5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0a84fa551a4a3ea10b212832c0891fb0d7d19b2f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934042"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060190"
 ---
 # <a name="using-the-settings-store"></a>Использование хранилища параметров
 Существует два типа хранилищ параметров.
@@ -33,12 +33,12 @@ ms.locfileid: "99934042"
 
 1. Каждое расширение Visual Studio начинается с проекта развертывания VSIX, который будет содержать ресурсы расширения. Создайте [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] проект VSIX с именем `SettingsStoreExtension` . Шаблон проекта VSIX можно найти в диалоговом окне **Новый проект** в разделе **Visual C#/Extensibility (расширяемость**).
 
-2. Теперь добавьте пользовательский шаблон элемента команды с именем **сеттингссторекомманд**. В диалоговом окне **Добавление нового элемента** перейдите в раздел **Visual C#/Extensibility** и выберите пункт **пользовательская команда**. В поле **имя** в нижней части окна измените имя файла команд на **SettingsStoreCommand.CS**. Дополнительные сведения о создании пользовательской команды см. в разделе [Создание расширения с помощью команды меню](../extensibility/creating-an-extension-with-a-menu-command.md) .
+2. Теперь добавьте пользовательский шаблон элемента команды с именем **сеттингссторекомманд**. В диалоговом окне **Добавление нового элемента** перейдите в раздел **Visual C#/Extensibility** и выберите пункт **пользовательская команда**. В поле **имя** в нижней части окна измените имя файла команд на **сеттингссторекомманд. CS**. Дополнительные сведения о создании пользовательской команды см. в разделе [Создание расширения с помощью команды меню](../extensibility/creating-an-extension-with-a-menu-command.md) .
 
 ## <a name="using-the-configuration-settings-store"></a>Использование хранилища параметров конфигурации
  В этом разделе показано, как обнаруживать и отображать параметры конфигурации.
 
-1. В файл SettingsStorageCommand.cs добавьте следующие директивы using:
+1. В файле Сеттингссторажекомманд. cs добавьте следующие директивы using:
 
    ```
    using System.Collections.Generic;

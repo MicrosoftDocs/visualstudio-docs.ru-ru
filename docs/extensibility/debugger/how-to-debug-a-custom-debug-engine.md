@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debug engines, debugging
 - debugging [Debugging SDK], custom debug engines
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 46e9b18f7bb34433ff86fe6a5bede436228d3ff1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ffd21fb08e920209d47ff66feb436f8a83aab53e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947701"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059929"
 ---
 # <a name="how-to-debug-a-custom-debug-engine"></a>Как выполнить отладку пользовательского модуля отладки
 Тип проекта запускает модуль отладки (DE) из <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> метода. Это означает, что DE запускается под управлением экземпляра, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] управляющего типом проекта. Однако этот экземпляр [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] не может выполнить отладку de. Ниже приведены шаги, позволяющие выполнить отладку пользовательского DE.
@@ -75,5 +75,5 @@ ms.locfileid: "99947701"
 
 9. Если вы решили отладить процесс запуска DE, можно выполнить действия, описанные в процедуре "Отладка настраиваемого модуля отладки", чтобы присоединиться к папке DE после запуска. При этом будут выполняться три экземпляра [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] : один для источника типа проекта, второй для созданного типа проекта, а третий присоединяется к вашему de.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Создание пользовательского модуля отладки](../../extensibility/debugger/creating-a-custom-debug-engine.md)

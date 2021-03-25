@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorEvent2 interface
 ms.assetid: 275b6f38-b3d4-4cae-8491-491177f524fb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bf249e8568c3ae70bc8d881d72b491cf7fa3576b
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: d531180ca2fad9a6605837105c4ec5d626584a19
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153044"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105054235"
 ---
 # <a name="idebugerrorevent2"></a>IDebugErrorEvent2
 Этот интерфейс указывает сообщение об ошибке, которое будет сообщено пользователю.
@@ -42,7 +42,7 @@ IDebugErrorEvent2 : IUnknown
 |------------|-----------------|
 |`GetErrorMessage`|Возвращает ошибку как удобочитаемую строку.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Если модуль отладки обнаруживает ошибку, он может использовать этот интерфейс для передачи сообщения пользователю в Visual Studio.
 
 ## <a name="requirements"></a>Требования
@@ -52,6 +52,6 @@ IDebugErrorEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - menus, adding menu controllers to toolbars
 - menu controllers, adding to toolbars
 ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 82da331d93a2208b76bb953f3a6a489913c907ac
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 304f4ea11abc332c01603f96b6b67c0bd22e38c6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951528"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060072"
 ---
 # <a name="add-a-menu-controller-to-a-toolbar"></a>Добавление контроллера меню на панель инструментов
 В этом пошаговом руководстве выполняется сборка в пошаговом руководстве по [добавлению панели инструментов в окно](../extensibility/adding-a-toolbar-to-a-tool-window.md) инструментов и показано, как добавить контроллер меню на панель инструментов окна инструментов. Приведенные здесь действия также можно применить к панели инструментов, созданной в пошаговом руководстве [Добавление панели инструментов](../extensibility/adding-a-toolbar.md) .
@@ -112,7 +112,7 @@ ms.locfileid: "99951528"
 
 ## <a name="implement-the-menu-controller-commands"></a>Реализация команд контроллера меню
 
-1. В *TWTestCommandPackageGuids.CS* добавьте идентификаторы команд для трех пунктов меню после существующих идентификаторов команд.
+1. В *твтесткоммандпаккажегуидс. CS* добавьте идентификаторы команд для трех пунктов меню после существующих идентификаторов команд.
 
     ```csharp
     public const int cmdidMCItem1 = 0x130;
@@ -120,7 +120,7 @@ ms.locfileid: "99951528"
     public const int cmdidMCItem3 = 0x132;
     ```
 
-2. В *TWTestCommand.CS* добавьте следующий код в начало `TWTestCommand` класса.
+2. В *твтесткомманд. CS* добавьте следующий код в начало `TWTestCommand` класса.
 
     ```csharp
     private int currentMCCommand; // The currently selected menu controller command
@@ -224,6 +224,6 @@ ms.locfileid: "99951528"
 
     Появится диалоговое окно с сообщением **, выбранным в меню элемент контроллера. 3**. Обратите внимание, что сообщение соответствует тексту на кнопке контроллера меню. Кнопка контроллер меню теперь отображает **элемент MC 3**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Добавление панели инструментов в окно инструментов](../extensibility/adding-a-toolbar-to-a-tool-window.md)
 - [Добавление панели инструментов](../extensibility/adding-a-toolbar.md)

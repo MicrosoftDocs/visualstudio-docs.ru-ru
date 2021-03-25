@@ -8,17 +8,17 @@ helpviewer_keywords:
 - user interfaces, essentials
 - tool windows, standard
 ms.assetid: 46b2892e-7b2b-4b3f-83a7-b884f1e114ee
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f9f17c16d051bdb42750d91971d2be0d3c09b47f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6e5b5615b8b004dcbdfe860ba4d775a3ace177ed
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953088"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075228"
 ---
 # <a name="extend-and-customize-tool-windows"></a>Расширение и настройка окон инструментов
 Visual Studio предоставляет несколько различных типов окон, например окна инструментов, окна документов и диалоговые окна. Другие окна, такие как окно **свойств** , окно **вывода** и окно **список задач** , являются типами окон инструментов.
@@ -48,7 +48,7 @@ Visual Studio предоставляет несколько различных �
 ## <a name="modal-dialog-boxes"></a>Модальные диалоговые окна
  В расширении Visual Studio следует создавать модальные диалоговые окна, создавая их из <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName> , что позволяет управлять ими и остальными элементами пользовательского интерфейса. Дополнительные сведения см. в разделе [Создание модальных диалоговых окон и управление ими](../extensibility/creating-and-managing-modal-dialog-boxes.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Создание расширения с помощью окна инструментов](../extensibility/creating-an-extension-with-a-tool-window.md)
 - [Расширение проектов](../extensibility/extending-projects.md)
 - [Расширение решений](../extensibility/extending-solutions.md)

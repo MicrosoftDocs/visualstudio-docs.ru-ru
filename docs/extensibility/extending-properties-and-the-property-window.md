@@ -11,17 +11,17 @@ helpviewer_keywords:
 - SelectionContainer class
 - SelectableObjects property
 ms.assetid: 1e925025-3d21-4cdb-a917-78db7bb78fe9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 187206f1fd6647c2610e69a6b55f07732380f005
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2dc718f766c9369ae24fd7ff7acfef1f5d9b25e5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895795"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075150"
 ---
 # <a name="extend-properties-and-the-property-window"></a>Расширение свойств и окна свойств
 Окно **Свойства** используется для просмотра и изменения свойств и событий времени разработки для выбранных объектов.

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - user interfaces
 ms.assetid: 27d2f1e1-2503-4aca-9cfc-707abd07ccf0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e21c5b8a3570b4da0cb0286d3c0d6d7c84c2f704
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 193fb335ffd2d57eab1aebedc5ea0114738f72eb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895847"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075241"
 ---
 # <a name="extend-other-parts-of-visual-studio"></a>Расширение других частей Visual Studio
 

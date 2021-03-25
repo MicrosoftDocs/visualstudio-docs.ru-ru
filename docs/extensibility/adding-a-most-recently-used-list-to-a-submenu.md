@@ -9,17 +9,17 @@ helpviewer_keywords:
 - menus, creating MRU list
 - most recently used
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bdff50655f846ced91e59a93a2d264bb06641ed1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bb238afb0f583f1b913fbd87f4f50e43679ebd7d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951554"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060020"
 ---
 # <a name="add-a-most-recently-used-list-to-a-submenu"></a>Добавление списка недавно использовавшихся в подменю
 Это пошаговое руководство посвящено созданию демонстраций в [меню Добавление подменю](../extensibility/adding-a-submenu-to-a-menu.md)и показано, как добавить динамический список в подменю. Динамический список образует базу для создания списка недавно использованных (MRU) списков.
@@ -83,14 +83,14 @@ ms.locfileid: "99951554"
 
 ## <a name="filling-the-mru-list"></a>Заполнение списка MRU
 
-1. В *TestCommandPackageGuids.CS* добавьте следующие строки после существующих идентификаторов команд в `TestCommandPackageGuids` определении класса.
+1. В *тесткоммандпаккажегуидс. CS* добавьте следующие строки после существующих идентификаторов команд в `TestCommandPackageGuids` определении класса.
 
     ```csharp
     public const string guidTestCommandPackageCmdSet = "00000000-0000-0000-0000-00000000"; // get the GUID from the .vsct file
     public const uint cmdidMRUList = 0x200;
     ```
 
-2. В *TestCommand.CS* добавьте следующий оператор using.
+2. В *тесткомманд. CS* добавьте следующую инструкцию using.
 
     ```csharp
     using System.Collections;
@@ -201,5 +201,5 @@ ms.locfileid: "99951554"
 
 4. Снова откройте подменю. Обратите внимание, что **элемент 3** теперь находится в верхней части списка, а остальные элементы были помещены на одну позицию вниз. Щелкните **элемент 3** еще раз и обратите внимание, что в окне сообщения по-прежнему отображается **выбранный элемент 3**, что означает, что текст правильно переместился в новую позицию вместе с меткой команды.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Динамическое добавление пунктов меню](../extensibility/dynamically-adding-menu-items.md)

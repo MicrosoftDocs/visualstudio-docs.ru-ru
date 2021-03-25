@@ -9,17 +9,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], reference
 - Debugging SDK, reference
 ms.assetid: 9810fc50-43c7-4916-9916-1cf333037b51
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5043da1d30a9066278455e9c4653f9a636a07926
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0d5b1cb9f7492ca19ca892f1d2e745bf6160d182
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898295"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075423"
 ---
 # <a name="reference-visual-studio-debugging-apis"></a>Справочник (API-интерфейсы отладки Visual Studio)
 
@@ -27,7 +27,7 @@ ms.locfileid: "99898295"
 
 Целью справочного раздела является предоставление поддержки как можно более разнообразному набору языков, времени выполнения и операционных систем.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 
 [Справочник по интерфейсам API](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 
@@ -37,6 +37,6 @@ ms.locfileid: "99898295"
 
 Содержит список терминов, связанных с отладкой, и их определений.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширяемость отладчика Visual Studio](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

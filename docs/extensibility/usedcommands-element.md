@@ -10,17 +10,17 @@ helpviewer_keywords:
 - UsedCommands element (VSCT XML schema)
 - VSCT XML schema elements, UsedCommands
 ms.assetid: 5e000ee0-a919-46e9-9277-2a0659f1eb78
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89ecd1d0f7697a38ef7318ddf93a91a4397b5d72
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b05c9571c0ca8252789f0e07ebfce66926fb19ff
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934068"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060215"
 ---
 # <a name="usedcommands-element"></a>Элемент UsedCommands
 Элемент Уседкоммандс группирует элементы Уседкомманд и другие группирования Уседкоммандс.
@@ -42,7 +42,7 @@ ms.locfileid: "99934068"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,6 +66,6 @@ ms.locfileid: "99934068"
 </UsedCommands>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Элемент UsedCommand](../extensibility/usedcommand-element.md)
 - [Файлы таблицы команд Visual Studio (VSCT-файлы)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

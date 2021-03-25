@@ -8,17 +8,17 @@ helpviewer_keywords:
 - multi
 - tool windows
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d1d332e3c41a55de8f405f028070fa95f97f6717
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ce6122cbf4d6f85ab50e067fbbd643053ac4e4dd
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923271"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089359"
 ---
 # <a name="create-a-multi-instance-tool-window"></a>Создание окна инструментов с несколькими экземплярами
 Можно программировать окно инструментов, чтобы можно было одновременно открыть несколько экземпляров. По умолчанию окна инструментов могут открывать только один экземпляр.
@@ -34,7 +34,7 @@ ms.locfileid: "99923271"
 
 ## <a name="make-a-tool-window-multi-instance"></a>Создание нескольких экземпляров окна инструментов
 
-1. Откройте файл *MIToolWindowPackage.CS* и найдите `ProvideToolWindow` атрибут. и `MultiInstances=true` параметр, как показано в следующем примере:
+1. Откройте файл *митулвиндовпаккаже. CS* и найдите `ProvideToolWindow` атрибут. и `MultiInstances=true` параметр, как показано в следующем примере:
 
     ```csharp
     [PackageRegistration(UseManagedResourcesOnly = true)]
@@ -46,7 +46,7 @@ ms.locfileid: "99923271"
     {. . .}
     ```
 
-2. В файле *MIToolWindowCommand.CS* найдите `ShowToolWindos()` метод. В этом методе вызовите <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> метод и установите его `create` флаг `false` таким образом, чтобы он просматривает существующие экземпляры окна инструментов до тех пор, пока `id` не будет найдена доступная.
+2. Найдите метод в файле *митулвиндовкомманд. CS* `ShowToolWindos()` . В этом методе вызовите <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> метод и установите его `create` флаг `false` таким образом, чтобы он просматривает существующие экземпляры окна инструментов до тех пор, пока `id` не будет найдена доступная.
 
 3. Чтобы создать экземпляр окна инструментов, вызовите <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> метод и присвойте ему `id` доступное значение и `create` флаг `true` .
 

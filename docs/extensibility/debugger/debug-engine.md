@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debug engines
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9e278b83e69a063c88b4cb3ff48d919d2b07ea6a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c13dd7165a5f85dc0122f97aaee838c528207f96
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99955168"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067950"
 ---
 # <a name="debug-engine"></a>Модуль отладки
 Модуль отладки (DE) работает с интерпретатором или операционной системой для предоставления служб отладки, таких как управление выполнением, точки останова и вычисление выражений. DE отвечает за наблюдение за состоянием отлаживаемой программы. Чтобы сделать это, метод DE использует все доступные для него методы в поддерживаемой среде выполнения, будь то из ЦП или из API, предоставляемых средой выполнения.
@@ -39,7 +39,7 @@ ms.locfileid: "99955168"
 
  Функция DE работает с компонентом оценки выражений, позволяя отключать эту конкретную среду выполнения для понимания синтаксиса выражений. Функция DE также работает с компонентом обработчика символов для доступа к символьной отладочной информации, созданной компилятором языка. Дополнительные сведения см. в разделе [средство оценки выражений](../../extensibility/debugger/expression-evaluator.md) и [поставщик символов](../../extensibility/debugger/symbol-provider.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Компоненты отладчика](../../extensibility/debugger/debugger-components.md)
 - [Средство оценки выражений](../../extensibility/debugger/expression-evaluator.md)
 - [Поставщик символов](../../extensibility/debugger/symbol-provider.md)

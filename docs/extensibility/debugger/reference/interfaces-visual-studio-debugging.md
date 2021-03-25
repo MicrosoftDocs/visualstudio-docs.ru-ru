@@ -7,23 +7,23 @@ ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], interfaces
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b7fad96ddd62767b67b65b83121498079a81b07
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 185781d17e1b80aab5267902031bf3d1ede1231c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99852847"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082612"
 ---
 # <a name="interfaces-visual-studio-debugging"></a>Интерфейсы (отладка Visual Studio)
 Методы перечислены в алфавитном порядке под каждым интерфейсом в содержании и на странице интерфейса в порядке vtable.
 
-## <a name="in-this-section"></a>В этом разделе
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="in-this-section"></a>в этом разделе
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 
  Описывает интерфейсы, используемые в модуле отладки.
 
@@ -40,5 +40,5 @@ ms.locfileid: "99852847"
 
  Содержит документацию по интерфейсам, перечислителям и структурам [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] пакета SDK для отладки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Справочник по интерфейсам API](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

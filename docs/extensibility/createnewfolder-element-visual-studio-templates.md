@@ -10,17 +10,17 @@ f1_keywords:
 helpviewer_keywords:
 - CreateNewFolder element [Visual Studio project templates]
 ms.assetid: acef2016-4140-45d6-ace8-b8160eabd676
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9169d90eb10c0595b7dc7fe940463f57354dfffa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3c2d8da615c350fc53b81532972cef65f6cd6ed7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99870315"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089476"
 ---
 # <a name="createnewfolder-element-visual-studio-templates"></a>Элемент Креатеневфолдер (шаблоны Visual Studio)
 Определяет, следует проверять, существует ли целевой каталог, в котором создается проект. Если каталог существует, для проекта можно создать новый каталог. Этот параметр обычно переопределяется флагом реестра `NewProjectRequiresNewFolder(VsTemplate)` (`HKEY_LOCAL_MACHINE/SOFTWARE(/Wow6432Node)/Microsoft/VisualStudio/<version number>/Projects/<project GUID>`), который используют все распространенные типы проектов, чтобы определить, нужно ли создать проект в новом каталоге.
@@ -36,7 +36,7 @@ ms.locfileid: "99870315"
 </CreateNewFolder>
 ```
 
-## <a name="type"></a>Тип
+## <a name="type"></a>Type
  `Boolean`
 
 ## <a name="attributes-and-elements"></a>Элементы и атрибуты
@@ -60,7 +60,7 @@ ms.locfileid: "99870315"
  В качестве текста следует использовать `true` или `false`, указав, будет ли создана новая папка при создании проекта на основе шаблона.
 
 ## <a name="remarks"></a>Remarks
- Параметр `CreateNewFolder` является необязательным элементом. Значение по умолчанию — `true`.
+ Параметр `CreateNewFolder` является необязательным элементом. Значение по умолчанию — `true`.
 
  Значение, указанное в элементе `CreateNewFolder`, учитывается [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], только если базовая система поддерживает его.
 

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - GetMethodProperty method
 - IDebugExpressionEvaluator2 property
 ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 41150ad7909f15484b9bc035dd9dff70ad693029
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c0a52174e05d7203d5bc35e43df8886e23ea7296
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946011"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059828"
 ---
 # <a name="implement-getmethodproperty"></a>Реализация Жетмесодпроперти
 > [!IMPORTANT]
@@ -126,5 +126,5 @@ STDMETHODIMP CExpressionEvaluator::GetMethodProperty(
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пример реализации локальных переменных](../../extensibility/debugger/sample-implementation-of-locals.md)

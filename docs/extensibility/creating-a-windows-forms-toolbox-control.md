@@ -8,17 +8,17 @@ helpviewer_keywords:
 - toolbox
 - windows forms
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4bb9505ab475da7919a39eb03e7c84b92857db4e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 42dcf30e7c31880357bb95e3858a2c70aa59f174
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902195"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089333"
 ---
 # <a name="create-a-windows-forms-toolbox-control"></a>Создание Windows Forms элемента управления панели элементов
 
@@ -46,7 +46,7 @@ ms.locfileid: "99902195"
 
 #### <a name="to-build-the-user-interface"></a>Создание пользовательского интерфейса
 
-1. В **Обозреватель решений** дважды щелкните *Counter.CS* , чтобы открыть его в конструкторе.
+1. В **Обозреватель решений** дважды щелкните *Counter. CS* , чтобы открыть его в конструкторе.
 
 2. Удалите **щелчком мыши.** , которая включается по умолчанию при добавлении шаблона элемента элемента управления панели элементов Windows Forms.
 
@@ -59,7 +59,7 @@ ms.locfileid: "99902195"
     |Control|Property (Свойство)|Значение|
     |-------------|--------------|-----------|
     |`Label1`|**Text**|""|
-    |`Button1`|**Имя**|бтнресет|
+    |`Button1`|**имя**;|бтнресет|
     |`Button1`|**Text**|Reset|
 
 ### <a name="code-the-user-control"></a>Код пользовательского элемента управления
@@ -163,7 +163,7 @@ ms.locfileid: "99902195"
 
 2. В экспериментальном экземпляре Visual Studio создайте проект **приложения Windows Forms** .
 
-3. В **Обозреватель решений** дважды щелкните *Form1.CS* , чтобы открыть его в конструкторе, если он еще не открыт.
+3. В **Обозреватель решений** дважды щелкните *Form1. CS* , чтобы открыть его в конструкторе, если он еще не открыт.
 
 4. На **панели элементов** `Counter` элемент управления должен отображаться в разделе **Общие** .
 
@@ -173,7 +173,7 @@ ms.locfileid: "99902195"
 
 7. Перетащите <xref:System.Windows.Forms.Button> элемент управления в форму, а затем задайте для свойства Name и Text кнопки значение `Test` .
 
-8. Дважды щелкните кнопку, чтобы открыть *Form1.CS* в представлении кода и создать обработчик щелчка.
+8. Дважды щелкните кнопку, чтобы открыть *форму Form1. CS* в представлении кода и создать обработчик щелчка.
 
 9. В обработчике щелчка вызовите `counter1.Increment()` .
 
@@ -216,7 +216,7 @@ ms.locfileid: "99902195"
 
 При создании элемента управления **панели элементов** Visual Studio создает файл с именем *ProjectName. VSIX* в папке \bin\debug\ проекта. Элемент управления можно развернуть, загружая *VSIX* -файл в сеть или на сайт. Когда пользователь открывает *VSIX* -файл, этот элемент управления устанавливается и добавляется на **панель элементов** Visual Studio на компьютере пользователя. Кроме того, можно передать *VSIX* файл в [Visual Studio Marketplace](https://marketplace.visualstudio.com/) , чтобы пользователи могли его найти, просмотрев в   >  диалоговом окне "**расширения и обновления** " инструментов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение других частей Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 - [Создание элемента управления панели элементов WPF](../extensibility/creating-a-wpf-toolbox-control.md)

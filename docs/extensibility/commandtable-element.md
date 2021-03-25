@@ -10,17 +10,17 @@ helpviewer_keywords:
 - CommandTable element (VSCT XML schema)
 - VSCT XML schema elements, CommandTable
 ms.assetid: 15c38159-660a-4ef4-9643-aa6fcfca82a9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 79441880091088cf1d953c8925273e801dc0860d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 507bdd20602c680f58b62e85251eaaa592982bc7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887358"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089528"
 ---
 # <a name="commandtable-element"></a>Коммандтабле, элемент
 Коммандтабле — это корневой элемент *vsct* -файла. Это файл, который определяет фактический макет и тип команд, которые пакет VSPackage предоставляет интегрированной среде разработки. Команды могут включать пункты меню, меню, панели инструментов и поля со списком. Дополнительные сведения см. в разделе [файлы командных таблиц Visual Studio (. vsct)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
@@ -48,22 +48,22 @@ ms.locfileid: "99887358"
 
 | Атрибут | Описание |
 |-----------| - |
-| xmlns | Обязательный элемент. Пространства имен XML:<br /><br /> `xmlns=http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable`<br /><br /> xmlns: XS = " <http://www.w3.org/2001/XMLSchema> " |
-| язык | Необязательный элемент. Атрибут Language можно использовать для указания языка по умолчанию для всех \<Strings> элементов в командной таблице.  Если язык не указан, будет использоваться язык текущего процесса:<br /><br /> Language = "en-US" |
+| xmlns | Обязательный. Пространства имен XML:<br /><br /> `xmlns=http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable`<br /><br /> xmlns: XS = " <http://www.w3.org/2001/XMLSchema> " |
+| Язык | Необязательный параметр. Атрибут Language можно использовать для указания языка по умолчанию для всех \<Strings> элементов в командной таблице.  Если язык не указан, будет использоваться язык текущего процесса:<br /><br /> Language = "en-US" |
 
 ### <a name="child-elements"></a>Дочерние элементы
 
 |Элемент|Описание|
 |-------------|-----------------|
-|[Внешний элемент](../extensibility/extern-element.md)|Необязательный элемент. Содержит директивы препроцессора для компилятора.|
-|[Включить элемент](../extensibility/include-element.md)|Необязательный элемент. Содержит пути к любым файлам, которые необходимо включить в компиляцию.|
-|[Определение элемента](../extensibility/define-element.md)|Необязательный элемент. Определяет символ с учетом его имени и значения.|
-|[Commands, элемент](../extensibility/commands-element.md)|Необязательный элемент. Родительский элемент, определяющий все команды для VSPackage, которые содержат все остальные элементы.|
-|[CommandPlacements, элемент](../extensibility/commandplacements-element.md)|Необязательный элемент. Определяет, где на панели команд должны размещаться команды.|
-|[Висибилитиконстраинтс, элемент](../extensibility/visibilityconstraints-element.md)|Необязательный элемент. Определяет статическую видимость команд и панелей инструментов.|
-|[Сочетания клавиш, элемент](../extensibility/keybindings-element.md)|Необязательный элемент. Задает сочетания клавиш, если они есть, для команд.|
-|[Уседкоммандс, элемент](../extensibility/usedcommands-element.md)|Необязательный элемент. Позволяет пакету VSPackage при необходимости реализовать собственную версию функциональности, изначально поддерживаемую другими пакетами VSPackage.|
-|[Элемент Symbols](https://www.microsoft.com/download/details.aspx?id=55984)|Необязательный элемент. Содержит любые символьные данные — идентификаторы GUID, идентификаторы и т. д. для компилятора.|
+|[Внешний элемент](../extensibility/extern-element.md)|Необязательный параметр. Содержит директивы препроцессора для компилятора.|
+|[Включить элемент](../extensibility/include-element.md)|Необязательный параметр. Содержит пути к любым файлам, которые необходимо включить в компиляцию.|
+|[Определение элемента](../extensibility/define-element.md)|Необязательный параметр. Определяет символ с учетом его имени и значения.|
+|[Commands, элемент](../extensibility/commands-element.md)|Необязательный параметр. Родительский элемент, определяющий все команды для VSPackage, которые содержат все остальные элементы.|
+|[CommandPlacements, элемент](../extensibility/commandplacements-element.md)|Необязательный параметр. Определяет, где на панели команд должны размещаться команды.|
+|[Висибилитиконстраинтс, элемент](../extensibility/visibilityconstraints-element.md)|Необязательный параметр. Определяет статическую видимость команд и панелей инструментов.|
+|[Сочетания клавиш, элемент](../extensibility/keybindings-element.md)|Необязательный параметр. Задает сочетания клавиш, если они есть, для команд.|
+|[Уседкоммандс, элемент](../extensibility/usedcommands-element.md)|Необязательный параметр. Позволяет пакету VSPackage при необходимости реализовать собственную версию функциональности, изначально поддерживаемую другими пакетами VSPackage.|
+|[Элемент Symbols](https://www.microsoft.com/download/details.aspx?id=55984)|Необязательный параметр. Содержит любые символьные данные — идентификаторы GUID, идентификаторы и т. д. для компилятора.|
 
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,5 +71,5 @@ ms.locfileid: "99887358"
 |-------------|-----------------|
 |Отсутствуют||
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы таблицы команд Visual Studio (. vsct)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

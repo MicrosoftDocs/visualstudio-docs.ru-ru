@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8e2a1f542e89851cb430f8d80934933351e9349e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f9d50d33824be70a7df09cee878d516ddaaf9f8d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882275"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068171"
 ---
 # <a name="buildprojectonload-element-visual-studio-templates"></a>Элемент BuildProjectOnload (шаблоны Visual Studio)
 Создает только новые проекты при создании и добавлении их в решение. Все решение не строится.
@@ -56,7 +56,7 @@ ms.locfileid: "99882275"
  Текст должен иметь значение `true` или `false` , чтобы указать, следует ли создавать новый проект только при его создании на основе шаблона.
 
 ## <a name="remarks"></a>Remarks
- Параметр `BuildProjectOnLoad` является необязательным элементом. Значение по умолчанию — `false`.
+ Параметр `BuildProjectOnLoad` является необязательным элементом. Значение по умолчанию — `false`.
 
 ## <a name="example"></a>Пример
  В следующем примере показаны метаданные для шаблона Visual C#.
@@ -86,7 +86,7 @@ ms.locfileid: "99882275"
 </VSTemplate>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Атрибут и элемент Буилдонлоад](buildonload-visual-studio-templates.md)
 - [Создание шаблонов проектов и элементов](../ide/creating-project-and-item-templates.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - source control plug-ins, callback functions
 - callback functions, source control plug-ins
 ms.assetid: 4a8833f0-6ac0-4ea7-9400-8275aa991468
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 42d7c02f2beb24aa92c0a3319c44cce3c8b325b6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7e2e361551fbe03b7f0ef41b19c5d4136aa50472
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911260"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068106"
 ---
 # <a name="callback-functions-implemented-by-the-ide"></a>Функции обратного вызова, реализованные интегрированной средой разработки
 Чтобы упростить интеграцию с интегрированной средой разработки (IDE) и обеспечить единообразное взаимодействие с конечным пользователем, подключаемый модуль системы управления версиями может использовать функции обратного вызова, реализованные интегрированной средой разработки. Подключаемый модуль может вызывать эти функции в нужное время во время операции системы управления версиями для передачи информации в интегрированную среду разработки. Интегрированная среда разработки может затем отображать эти сведения как внедренные элементы в своем собственном ИНТЕРФЕЙСе. В этом сценарии у пользователя менее фрагментированный интерфейс, чем если бы подключаемый модуль использовал собственный пользовательский интерфейс.

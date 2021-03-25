@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], packages
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0e5296a77e835ab291bce7a77e3f0cb09eb6bcf5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 90c4c82895f7a30d4df9126a280c6c9ffa7ffa76
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840851"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067911"
 ---
 # <a name="debug-package"></a>Пакет отладки
 Пакет отладки выполняется в оболочке Visual Studio и обрабатывает весь пользовательский интерфейс. Он использует интерфейсы отладки Visual Studio и взаимодействует с диспетчером отладки сеансов (SDM).
@@ -28,7 +28,7 @@ ms.locfileid: "99840851"
 
  Пакет отладки реализуется *vsdebug.dll*.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Диспетчер отладки сеансов](../../extensibility/debugger/session-debug-manager.md)
 - [Кадры стека](../../extensibility/debugger/stack-frames.md)
 - [Потоки](../../extensibility/debugger/threads.md)
