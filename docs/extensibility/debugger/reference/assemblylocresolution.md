@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - ASSEMBLYLOCRESOLUTION enumeration
 ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6756d3c0ee996c0fca2eb35ff92c552f750f2817
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 191e22dc7b0a70fc6eb83e6237bdcadd25995c2b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144628"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085446"
 ---
 # <a name="assemblylocresolution"></a>ASSEMBLYLOCRESOLUTION
 Указывает, где находится сборка.
@@ -60,7 +60,7 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
 `ALR_REMOTEDIR`\
 Сборка находится в удаленном каталоге.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения возвращаются методами [ресолвеассемблиреф](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md) и [жетманажедвиеверкреатиондата](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md) .
 
 Эти значения можно сочетать с `OR` операцией.

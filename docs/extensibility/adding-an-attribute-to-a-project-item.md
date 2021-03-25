@@ -7,24 +7,24 @@ ms.topic: conceptual
 helpviewer_keywords:
 - attributes [Visual Studio], adding to a project item
 ms.assetid: 404a71d5-cce5-44e7-9eaf-d747c794fedb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d43745155193baadc87784c0e99123461dda1eed
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ee65a22e0a296047f5a401e00495ee25403d64e0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951320"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094917"
 ---
 # <a name="add-an-attribute-to-a-project-item"></a>Добавление атрибута в элемент проекта
 Методы <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetItemAttribute%2A> и <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> получают и задают значения атрибутов элемента проекта. Сетитематтрибуте создает атрибут, если он еще не существует, добавляя его в метаданные элемента проекта.
 
 ## <a name="add-an-attribute-to-a-project-item"></a>Добавление атрибута в элемент проекта
 
-- В следующем коде используется <xref:EnvDTE.DTE> объект автоматизации и <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> метод для добавления атрибута в элемент проекта. Идентификатор элемента проекта получен из имени элемента проекта "program.cs". Атрибут "MyAttribute" добавляется в этот элемент проекта и получает значение "значения MyValue".
+- В следующем коде используется <xref:EnvDTE.DTE> объект автоматизации и <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> метод для добавления атрибута в элемент проекта. Идентификатор элемента проекта получен из имени элемента проекта "Program. cs". Атрибут "MyAttribute" добавляется в этот элемент проекта и получает значение "значения MyValue".
 
     ```csharp
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));
@@ -45,5 +45,5 @@ ms.locfileid: "99951320"
 
     ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Сохранение данных в файле проекта MSBuild](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

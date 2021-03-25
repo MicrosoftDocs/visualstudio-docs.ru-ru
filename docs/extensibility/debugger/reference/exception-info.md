@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - EXCEPTION_INFO structure
 ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: fa78aeea8a3c20aa5b7f5d17cf444bd4184903d5
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 1ec97b56cc7fca8c2185d7180a8d34e87b084b11
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150904"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059474"
 ---
 # <a name="exception_info"></a>EXCEPTION_INFO
 Описывает исключение или ошибку времени выполнения, вызванную отлаживаемой программой.
@@ -50,7 +50,7 @@ public struct EXCEPTION_INFO {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `pProgram`\
 Объект [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) , представляющий программу, в которой возникло исключение.
 
@@ -69,7 +69,7 @@ public struct EXCEPTION_INFO {
 `guidType`\
 Идентификатор языка GUID: `guidLang` или `guidEng` .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура передается в качестве параметра методам [сетексцептион](../../../extensibility/debugger/reference/idebugengine2-setexception.md) и [ремовесетексцептион](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md) . Эта структура также передается в метод [except](../../../extensibility/debugger/reference/idebugexceptionevent2-getexception.md) , который должен быть заполнен.
 
 ## <a name="requirements"></a>Требования
@@ -79,7 +79,7 @@ public struct EXCEPTION_INFO {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

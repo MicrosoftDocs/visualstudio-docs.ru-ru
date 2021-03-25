@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - FIELD_MODIFIERS enumeration
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 81dd06f5f4c39ac777cb338cd4c51839c7806602
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 55f493280808f0b68089a9d72c4184585d386b18
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150878"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059383"
 ---
 # <a name="field_modifiers"></a>FIELD_MODIFIERS
 Задает модификаторы для типа поля.
@@ -184,7 +184,7 @@ public enum enum_FIELD_MODIFIERS {
 `FIELD_MOD_MASK`\
 Указывает маску для модификаторов полей.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Используется для `dwModifiers` элемента структуры [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) .
 
 Эти значения также передаются методу [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md) для фильтрации конкретных полей.

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - FRAMEINFO structure
 ms.assetid: 95001b89-dddb-45bb-889d-8327994e38a5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8830e3917198cda10d9e4e0fb8919b1b56e84e9e
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0df1689a6d72e972c2bb0f18082041997511843b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144095"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059253"
 ---
 # <a name="frameinfo"></a>FRAMEINFO
 Описывает кадр стека.
@@ -64,7 +64,7 @@ public struct FRAMEINFO {
 } FRAMEINFO;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `m_dwValidFields`\
 Сочетание флагов из перечисления [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) , которое указывает, какие поля заполняются.
 
@@ -104,7 +104,7 @@ public struct FRAMEINFO {
 `m_fAnnotatedFrame`\
 Ненулевое значение ( `TRUE` ), если кадр стека снабжен заметками диспетчером отладки сеансов (SDM).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура передается в метод " [info](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) ", который должен быть заполнен. Эта структура также содержится в списке, который содержится в интерфейсе [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) , который, в свою очередь, возвращается из вызова метода [енумфрамеинфо](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) .
 
 ## <a name="requirements"></a>Требования
@@ -114,7 +114,7 @@ public struct FRAMEINFO {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

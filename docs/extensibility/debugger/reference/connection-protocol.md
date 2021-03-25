@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - CONNECTION_PROTOCOL enumeration
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 24ac267552166bea43df77f31cb79d8198fb7514
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: d514b9aa0e37e90e99f21b5b4906cff9d32472db
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170865"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059500"
 ---
 # <a name="connection_protocol"></a>CONNECTION_PROTOCOL
 Указывает протокол, используемый для обмена данными между сервером отладки и пакетом отладки (DE).
@@ -74,7 +74,7 @@ public enum CONNECTION_PROTOCOL {
 `CONNECTION_OTHER`\
 Установлен другой тип соединения (это значение в настоящее время не используется).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения возвращаются методом [жетконнектионпротокол](../../../extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol.md) .
 
 ## <a name="requirements"></a>Требования

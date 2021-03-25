@@ -6,20 +6,20 @@ ms.topic: reference
 helpviewer_keywords:
 - FIELD_KIND_EX enumeration
 ms.assetid: 922c3208-1e94-485f-b70a-3bc96affeff8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 211cc83587a48b4e77afd9094f0227cacb4394c2
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 75c1839987901edc9bc3571fa303ca0d3218a53c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170280"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059396"
 ---
 # <a name="field_kind_ex"></a>FIELD_KIND_EX
 Перечисляет дополнительные типы полей, которые может содержать объект [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) . Это перечисление расширяет перечисление [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) .

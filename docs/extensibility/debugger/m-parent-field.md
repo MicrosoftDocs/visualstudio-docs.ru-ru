@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - m_parent field, Task class [.NET Framework debug engines]
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c73fb01d5e1eb440fbc1add908881d4768d0abf4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: c48c7ae7392d6e9e32fb7683470e3582e61d7910
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158791"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059682"
 ---
 # <a name="m_parent-field"></a>m_parent поле
 
@@ -34,6 +34,6 @@ ms.locfileid: "102158791"
 .field private initonly class System.Threading.Tasks.Task m_parent
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Класс Task](../../extensibility/debugger/task-class-internal-members.md)

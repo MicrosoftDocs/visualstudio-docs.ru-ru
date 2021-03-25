@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_REQUEST_INFO structure
 ms.assetid: 42a31412-5b6b-47fe-a762-0c2bc769e1cc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 941c8302fa52d579c2fbefc62ccd962d26e2cf13
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 40c88d1c07d3610ff6d098fbbf8517476cc07103
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144135"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059656"
 ---
 # <a name="bp_request_info"></a>BP_REQUEST_INFO
 Содержит сведения, необходимые для реализации точки останова.
@@ -58,7 +58,7 @@ public struct BP_REQUEST_INFO {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwFields`\
 Сочетание флагов из перечисления [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) , которое указывает, какие поля заполняются.
 
@@ -89,7 +89,7 @@ GUID языка.
 `dwFlags`\
 Сочетание флагов из перечисления [BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md) , которое указывает флаги для запрошенной точки останова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура возвращается методом [жетрекуестинфо](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md) .
 
 Если необходимо получить GUID поставщика модуля отладки, ограничение точки останова или точку трассировки, см. структуру [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) .
@@ -101,7 +101,7 @@ GUID языка.
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
 - [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)

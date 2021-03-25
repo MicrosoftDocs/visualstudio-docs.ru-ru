@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - FIELD_INFO_FIELDS enumeration
 ms.assetid: a69487d2-e701-4165-804a-8a011df9a3bd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 024c12d5112398e055141a8db4995f2801ca5401
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0bd13473be5817e821f61b646bd1634cfe06388b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170293"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059434"
 ---
 # <a name="field_info_fields"></a>FIELD_INFO_FIELDS
 Указывает, какие сведения следует получить о объекте [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) .
@@ -64,7 +64,7 @@ public enum enum_FIELD_INFO_FIELDS {
 `FIF_MODIFIERS`\
 Инициализируйте или используйте `bstrModifiers` поле в `FIELD_INFO` структуре.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения также передаются в качестве аргумента в метод " [info](../../../extensibility/debugger/reference/idebugfield-getinfo.md) ", чтобы указать, какие поля структуры [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) должны быть инициализированы.
 
 Эти значения также используются в `dwFields` члене `FIELD_INFO` структуры для указания того, какие поля используются и являются допустимыми.

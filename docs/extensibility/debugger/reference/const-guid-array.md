@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - CONST_GUID_ARRAY structure
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3caa4518872abbb2164e523b30679621d2bf319c
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: d6bcaff422702b9c1c381c1d4e9199bb4578a0f7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170813"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059513"
 ---
 # <a name="const_guid_array"></a>CONST_GUID_ARRAY
 Структура, содержащая список `GUID` s.
@@ -42,14 +42,14 @@ public struct CONST_GUID_ARRAY {
 }
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwCount`\
 Число объектов `GUID` в `Members` массиве.
 
 `Members`\
 Массив объектов `GUID` s.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура передается в метод [публишпрограм](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md) и возвращается из методов [жетпровидерпроцессдата](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) и [ватчфорпровидеревентс](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md) .
 
 Владелец экземпляра этой структуры отвечает за освобождение выделенной памяти.
@@ -61,7 +61,7 @@ public struct CONST_GUID_ARRAY {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md)
 - [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)

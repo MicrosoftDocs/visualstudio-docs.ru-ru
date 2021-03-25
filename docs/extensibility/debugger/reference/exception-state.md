@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - EXCEPTION_STATE enumeration
 ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8ff9edf1ef12d219b865815585035151e664e67a
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 297c5de3afd2b5f81444dd29278fc294cd71aa6a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158752"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059448"
 ---
 # <a name="exception_state"></a>EXCEPTION_STATE
 Указывает состояние исключения.
@@ -123,7 +123,7 @@ public enum enum_EXCEPTION_STATE {
 `EXCEPTION_STOP_USER_SECOND_CHANCE_USE_PARENT`\
 УСТАРЕЛО, НЕ ИСПОЛЬЗУЙТЕ.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Используется в качестве `dwState` члена структуры [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) для указания состояния исключения и того, что может быть сделано.
 
 Эти значения также передаются методу [сеталлексцептионс](../../../extensibility/debugger/reference/idebugengine3-setallexceptions.md) для установки состояния всех исключений.

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - EVENTATTRIBUTES enumeration
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e6b56e815d8145e3f870468751a0978475245c86
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 922c60c0bb36c58b88c2422580eeda0db1c02d42
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150891"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059487"
 ---
 # <a name="eventattributes"></a>EVENTATTRIBUTES
 Задает атрибуты события.
@@ -75,7 +75,7 @@ public enum enum_EVENTATTRIBUTES {
 `EVENT_EXPRESSION_EVALUATION`\
 Событие является результатом вычисления выражения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения передаются в `dwAttrib` параметре метода [события](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) .
 
 Эти значения можно объединить с помощью побитовой операции `OR` .

@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - expression evaluation, interfaces
 ms.assetid: 2d259f60-2cd7-460e-b02d-24a8fb202850
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d380fcce087fad3dc6b101e78cbc514ba19b1052
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 563e66f7aa7c2f8cf1e5573487690edc703ae5d8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158739"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059461"
 ---
 # <a name="expression-evaluation-interfaces"></a>Интерфейсы вычисления выражений
 > [!IMPORTANT]
@@ -60,7 +60,7 @@ ms.locfileid: "102158739"
 |[IEEVisualizerServiceProvider](../../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)|VS|Предоставляет возможность создания объекта [иивисуализерсервице](../../../extensibility/debugger/reference/ieevisualizerservice.md) .|
 |[IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)|EE|Представляет коллекцию объектов [идебугобжект](../../../extensibility/debugger/reference/idebugobject.md) .|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Справочник по интерфейсам API](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 - [Запись вычислителя выражений CLR](../../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Визуализатор типов и пользовательское средство просмотра](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

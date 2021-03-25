@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project files, persisting data in
 ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d2011cd8686f3210ee534fdaefaa26d2f3b4ad5e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5e2cf082e4ca6a45bf42bd66ce34111d5c056787
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954453"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095021"
 ---
 # <a name="persisting-data-in-the-msbuild-project-file"></a>Сохранение данных в файле проекта MSBuild
 Подтипу проекта может потребоваться сохранить данные подтипа в файле проекта для последующего использования. Подтип проекта использует сохранение файлов проекта для удовлетворения следующих требований:
@@ -78,5 +78,5 @@ ms.locfileid: "99954453"
       </ProjectExtensions>
     ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подтипы проектов](../../extensibility/internals/project-subtypes.md)

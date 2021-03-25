@@ -6,17 +6,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - m_contingentProperties field, Task class [.NET Framework debug engines]
 ms.assetid: 49e8cb36-db39-440b-acda-a325651f1165
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 55419d18940f0ce7909382ef0ae3e0a6e88ee425
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 9218bbbd10f3bf8a877c38404d17864efed12af6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158811"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059708"
 ---
 # <a name="m_contingentproperties-field"></a>m_contingentProperties поле
 Хранит дополнительные свойства <xref:System.Threading.Tasks.Task> объекта.
@@ -35,5 +35,5 @@ ms.locfileid: "102158811"
 
 ## <a name="remarks"></a>Remarks
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Класс Task](../../extensibility/debugger/task-class-internal-members.md)

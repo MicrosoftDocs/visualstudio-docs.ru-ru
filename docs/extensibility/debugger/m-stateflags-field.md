@@ -6,17 +6,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - m_stateFlags field, Task class [.NET Framework debug engines]
 ms.assetid: 82b20efc-08f2-4cd2-91f6-4e01e3da906b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 322e739d84f54f1aa3fd215ba902f0b11a060bcd
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 5df101d0c75ad7bd2a12393c4440c7dcd5484656
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158778"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059669"
 ---
 # <a name="m_stateflags-field"></a>m_stateFlags поле
 Хранит сведения о текущем состоянии <xref:System.Threading.Tasks.Task> объекта.
@@ -48,5 +48,5 @@ ms.locfileid: "102158778"
 
 - [TASK_STATE_RAN_TO_COMPLETION](../../extensibility/debugger/task-state-ran-to-completion-field.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Класс Task](../../extensibility/debugger/task-class-internal-members.md)

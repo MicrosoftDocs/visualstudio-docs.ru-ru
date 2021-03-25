@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_COND_STYLE enumeration
 ms.assetid: a93b1412-f447-48a1-af9d-38f3dbb3092f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c23549d1553902c00048f946d2711c497fbe2322
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 611df036ff876e10096013070cac097bc51a8986
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144485"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085420"
 ---
 # <a name="bp_cond_style"></a>BP_COND_STYLE
 Задает стиль условия точки останова для ожидающих и связанных точек останова.
@@ -55,7 +55,7 @@ public enum enum_BP_COND_STYLE {
 `BP_COND_WHEN_CHANGED`\
 Вызывает точку останова только в том случае, если значение условного выражения, связанное с точкой останова, изменилось по сравнению с предыдущим вычислением.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Используется для `styleCondition` элемента структуры [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) .
 
 ## <a name="requirements"></a>Требования

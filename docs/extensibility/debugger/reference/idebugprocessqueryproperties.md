@@ -6,20 +6,20 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessQueryProperties
 ms.assetid: ce29a248-81a0-42c0-99a7-1606e8c548ec
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8205b96723a1b48da46e6e19162c50139c9fe71d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ae5fb8766e9cd0f48e85fa0b060efb4faa7bc496
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102166220"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105076294"
 ---
 # <a name="idebugprocessqueryproperties"></a>IDebugProcessQueryProperties
 Этот интерфейс является интерфейсом расширения, реализованным разработчиками [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) . Он позволяет разработчику получить сведения о среде процесса отладки.
@@ -41,7 +41,7 @@ IDebugProcessQueryProperties: IUnknown
 |[QueryProperty](../../../extensibility/debugger/reference/idebugprocessqueryproperties-queryproperty.md)|Запрашивает значение свойства.|
 |[QueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties-queryproperties.md)|Запросы значений свойств.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот интерфейс реализован редко.
 
 ## <a name="requirements"></a>Требования
@@ -51,6 +51,6 @@ IDebugProcessQueryProperties: IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

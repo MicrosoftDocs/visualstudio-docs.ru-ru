@@ -10,17 +10,17 @@ helpviewer_keywords:
 - <RequiredFrameworkVersion> (Visual Studio Templates)
 - RequiredFrameworkVersion (Visual Studio Templates)
 ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3700735f987da7320d569b2cee020f0d8a072bdc
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 661e4067ac0191444be8ec7f1136f805ea8b39b5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221800"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068457"
 ---
 # <a name="requiredframeworkversion-element-visual-studio-templates"></a>Элемент Рекуиредфрамеворкверсион (шаблоны Visual Studio)
 
@@ -58,7 +58,7 @@ ms.locfileid: "102221800"
 
  Текст должен быть минимальным номером версии платформа .NET Framework, который необходим для шаблона.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр `RequiredFrameworkVersion` является необязательным элементом. Используйте этот элемент, только если шаблон поддерживает определенную минимальную версию (и более поздние версии, если таковые имеются) платформа .NET Framework. Если указать элемент, `RequiredFrameworkVersion` а шаблон не поддерживает определенную минимальную версию платформа .NET Framework, раскрывающийся список **Версия целевой платформы** будет отображаться, если он неприменим.
 

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - verbs, registering
 ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 10e1b158ab62cfedfb6171a0a3874cfe14e89caf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9936efc2e01c0d82d5cc9fce140d543eb95247ad
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837012"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068483"
 ---
 # <a name="register-verbs-for-file-name-extensions"></a>Регистрация команд для расширений имен файлов
 Сопоставление расширения имени файла с приложением обычно имеет предпочитаемое действие, которое происходит при двойном щелчке файла пользователем. Это предпочтительное действие связано с командой, например Open, которая соответствует действию.
@@ -113,5 +113,5 @@ ms.locfileid: "99837012"
 > [!NOTE]
 > Если вы планируете изменить глагол по умолчанию для расширения в параллельном развертывании, учитывайте влияние на установку и удаление. Во время установки исходное значение по умолчанию перезаписывается.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Управление параллельными сопоставлениями файлов](../extensibility/managing-side-by-side-file-associations.md)

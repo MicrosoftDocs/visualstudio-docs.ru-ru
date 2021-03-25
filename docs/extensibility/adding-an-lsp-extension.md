@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/14/2017
 ms.topic: conceptual
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d86f57abdc96e4fc4f2abbb781e9437c74854a7c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: accf054cbf0b58066568124a3f35e064ce3cba78
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99939296"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094995"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>Добавление расширения протокола языкового сервера
 
@@ -482,7 +482,7 @@ public class MockLanguageClient: ILanguageClient, ILanguageClientCustomMessage
 
 Исходный код примера расширения с помощью клиентского API LSP в Visual Studio см. в разделе VSSDK-Extensibility-Samples [LSP Sample](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/LanguageServerProtocol).
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Вопросы и ответы
 
 **Я хотел бы создать пользовательскую систему проектов, чтобы дополнить мой языковой сервер для обеспечения расширенной поддержки функций в Visual Studio, как это сделать?**
 
@@ -500,6 +500,6 @@ public class MockLanguageClient: ILanguageClient, ILanguageClientCustomMessage
 
 См. инструкции по Marketplace [здесь](walkthrough-publishing-a-visual-studio-extension.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Добавление поддержки редактора Visual Studio для других языков](../ide/adding-visual-studio-editor-support-for-other-languages.md)

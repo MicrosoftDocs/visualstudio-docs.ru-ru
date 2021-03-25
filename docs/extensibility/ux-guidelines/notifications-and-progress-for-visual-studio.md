@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bac47ee29029bdcccb5c248bc8e366376b5aed0d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a6b273c1ee2ee83c713500d972ecab27a67b3145
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99931660"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068548"
 ---
 # <a name="notifications-and-progress-for-visual-studio"></a>Уведомления и ход выполнения для Visual Studio
 ## <a name="notification-systems"></a><a name="BKMK_NotificationSystems"></a> Системы уведомлений

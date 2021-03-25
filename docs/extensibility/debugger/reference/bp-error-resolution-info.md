@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_ERROR_RESOLUTION_INFO structure
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 730ab3558f1e0b466ec22f5966735257b70ccfbd
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 44bf92db77bf39e7e4a214e902781e27a7a731ef
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144420"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085303"
 ---
 # <a name="bp_error_resolution_info"></a>BP_ERROR_RESOLUTION_INFO
 Описывает разрешение точки останова по ошибке, включая расположение, программу и поток.
@@ -50,7 +50,7 @@ public struct BP_ERROR_RESOLUTION_INFO {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwFields`\
 Сочетание значений перечисления [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md) , указывающее, какие поля этой структуры заполнены.
 
@@ -69,7 +69,7 @@ public struct BP_ERROR_RESOLUTION_INFO {
 `dwType`\
 Значение из перечисления [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) , указывающее тип ошибки точки останова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура возвращается методом [жетресолутионинфо](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md) .
 
 ## <a name="requirements"></a>Требования
@@ -79,7 +79,7 @@ public struct BP_ERROR_RESOLUTION_INFO {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)
 - [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)

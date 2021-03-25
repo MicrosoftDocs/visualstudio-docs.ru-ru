@@ -9,17 +9,17 @@ helpviewer_keywords:
 - source control packages, interfaces
 - interfaces, source control packages
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3cb7811816c4ad7a7ca6f6f0220f185799ee8b77
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f35a11c801a8535c2b903909e2514b9879d3347c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837194"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105095034"
 ---
 # <a name="related-services-and-interfaces-source-control-vspackage"></a>Связанные службы и интерфейсы (пакет VSPackage системы управления версиями)
 
@@ -52,19 +52,19 @@ ms.locfileid: "99837194"
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2> | **Обозреватель решений** и проекты вызывают этот интерфейс при добавлении новых файлов в проекты или при переименовании или удалении файлов и папок из проектов. Пакет VSPackage системы управления версиями может извлечь файл проекта или отменить операцию. | Пакет VSPackage системы управления версиями | Рекомендуемая |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents3> | **Обозреватель решений** и проекты вызывают этот интерфейс в ответ на вызовы методов интерфейса IVstrackProjectDocuments3. Пакет VSPackage системы управления версиями может выполнять Пакетированные операции, синхронизированные операции чтения и записи и работать с более сложным `OnQueryAddFiles` методом. | Пакет VSPackage системы управления версиями | Рекомендуемая |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccEnlistmentPathTranslation> | Этот интерфейс обеспечивает поддержку управления прикреплениями для веб-проектов. | Пакет VSPackage системы управления версиями | Рекомендуемая |
-| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManagerTooltip> | Этот интерфейс используется для получения подсказок для файлов, находящихся в системе управления версиями в проектах. | Пакет VSPackage системы управления версиями | Необязательный |
-| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccOpenFromSourceControl> | Этот интерфейс обеспечивает поддержку расширения пространства имен. | Пакет VSPackage системы управления версиями | Необязательный |
-| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccControlNewSolution> | Пакет VSPackage использует этот интерфейс для интеграции расширения пространства имен в диалоговые окна **Создание**, **Открытие** или **Сохранение** . Следовательно, проекты могут автоматически добавляться в систему управления версиями при создании или добавляться в систему управления версиями, когда действует операция сохранения. | Пакет VSPackage системы управления версиями | Необязательный |
-| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs> | Пакет VSPackage использует этот интерфейс для определения дополнительных глифов в качестве глифов системы управления версиями для узлов в **Обозреватель решений**. | Пакет VSPackage системы управления версиями | Необязательный |
+| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManagerTooltip> | Этот интерфейс используется для получения подсказок для файлов, находящихся в системе управления версиями в проектах. | Пакет VSPackage системы управления версиями | Необязательно |
+| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccOpenFromSourceControl> | Этот интерфейс обеспечивает поддержку расширения пространства имен. | Пакет VSPackage системы управления версиями | Необязательно |
+| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccControlNewSolution> | Пакет VSPackage использует этот интерфейс для интеграции расширения пространства имен в диалоговые окна **Создание**, **Открытие** или **Сохранение** . Следовательно, проекты могут автоматически добавляться в систему управления версиями при создании или добавляться в систему управления версиями, когда действует операция сохранения. | Пакет VSPackage системы управления версиями | Необязательно |
+| <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs> | Пакет VSPackage использует этот интерфейс для определения дополнительных глифов в качестве глифов системы управления версиями для узлов в **Обозреватель решений**. | Пакет VSPackage системы управления версиями | Необязательно |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccAddWebProjectFromSourceControl> | Этот интерфейс используется для диалогового окна **Добавление** веб-проектов. Он предоставляет методы для обзора расположения системы управления версиями и для открытия веб-проекта, ранее добавленного в репозиторий системы управления версиями в этом расположении. | Пакет VSPackage системы управления версиями | Рекомендуемая |
-| <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc> | Этот интерфейс обеспечивает поддержку асинхронной (фоновой) загрузки проектов из системы управления версиями. | Пакет VSPackage системы управления версиями | Необязательный |
-| <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromSccProjectEvents> | Этот интерфейс позволяет проектам отслеживать ход выполнения асинхронной загрузки, инициированной <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc> . | Project | Необязательный |
+| <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc> | Этот интерфейс обеспечивает поддержку асинхронной (фоновой) загрузки проектов из системы управления версиями. | Пакет VSPackage системы управления версиями | Необязательно |
+| <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromSccProjectEvents> | Этот интерфейс позволяет проектам отслеживать ход выполнения асинхронной загрузки, инициированной <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc> . | Project | Необязательно |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccToolsOptions> | Этот интерфейс позволяет интегрированной среде разработки запрашивать пакет VSPackage активного управления версиями. Интегрированная среда разработки запрашивает значения параметров системы управления версиями, которые имеют значение, даже если отсутствует зарегистрированный пакет VSPackage активного управления версиями. Этот интерфейс реализуется и обрабатывается [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] . | Заглушка системы управления версиями | Обязательно |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider> | Этот интерфейс используется при регистрации пакета VSPackage системы управления версиями. | Заглушка системы управления версиями | Обязательно |
-| <xref:EnvDTE.SourceControl> | Этот интерфейс используется в службе автоматизации. Таким образом, он предоставляет только те функции, которые могут быть выполнены без отображения пользовательского интерфейса. | Пакет VSPackage системы управления версиями | Необязательный |
+| <xref:EnvDTE.SourceControl> | Этот интерфейс используется в службе автоматизации. Таким образом, он предоставляет только те функции, которые могут быть выполнены без отображения пользовательского интерфейса. | Пакет VSPackage системы управления версиями | Необязательно |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> | Этот интерфейс используется для сохранения параметров системы управления версиями в файле решения (SLN). К параметрам относятся расположение системы управления версиями и флаги состояния системы управления версиями. | Пакет VSPackage системы управления версиями | Рекомендуемая |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts> | Этот интерфейс используется для сохранения параметров системы управления версиями в файле параметров решения (. suo). Это могут быть пользовательские параметры системы управления версиями, такие как расположение прикрепления текущего пользователя. | Пакет VSPackage системы управления версиями | Рекомендуемая |
 | <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> | Этот интерфейс используется для мониторинга событий, чтобы выполнять такие операции, как возврат файлов проекта перед закрытием решений, или получение новых файлов из системы управления версиями при открытии проекта. | Пакет VSPackage системы управления версиями | Рекомендуемая |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Элементы проектирования](../../extensibility/internals/source-control-vspackage-design-elements.md)

@@ -12,17 +12,17 @@ helpviewer_keywords:
 - BuildOnLoad attribute [Visual Studio Templates]
 - BuildOnLoad element [Visual Studio Templates]
 ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5fe0fa745ef611395abe6244c0e207271b182cb4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8eb563e765c3d50950f61a0ca49e5349a0e7249a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927331"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068184"
 ---
 # <a name="buildonload-attribute-and-element"></a>Атрибут и элемент Буилдонлоад
 
@@ -54,7 +54,7 @@ ms.locfileid: "99927331"
 
 ## <a name="remarks"></a>Remarks
 
-**Буилдонлоад** является необязательным атрибутом. Значение по умолчанию — `false`.
+**Буилдонлоад** является необязательным атрибутом. Значение по умолчанию — `false`.
 
 ## <a name="example"></a>Пример
 
@@ -85,7 +85,7 @@ ms.locfileid: "99927331"
 </VSTemplate>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [BuildProjectOnload, элемент](buildprojectonload-element-visual-studio-templates.md)
 - [TemplateContent, элемент](../extensibility/templatecontent-element-visual-studio-templates.md)
