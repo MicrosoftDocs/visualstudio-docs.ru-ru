@@ -6,18 +6,18 @@ ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: how-to
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 39efb082f8a551ea016e856ba45c9dbb4e8eed0c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d50624dc4c0d96c20323afb3c7d065121a4baacb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850704"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069976"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2017"></a>Руководство. Миграция проектов расширяемости в Visual Studio 2017
 
@@ -68,7 +68,7 @@ ms.locfileid: "99850704"
   * Рекомендуется указывать только идентификаторы компонентов для необходимых компонентов установки.
   * [Инструкции по идентификации идентификаторов компонентов](#find-component-ids)см. в разделе в конце этого документа.
 
-Пример.
+Пример
 
 ```xml
 <PackageManifest>

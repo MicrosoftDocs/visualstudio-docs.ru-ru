@@ -9,17 +9,17 @@ helpviewer_keywords:
 - IDebugCustomAttributeQuery interface
 - IDebugCustomAttributeQuery2 interface
 ms.assetid: 7cfa23e4-a05a-47a3-af6c-bd40c655014b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 62461cbdbfe373f6c3d45569564e611efdd6f452
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 00f7e23b280ef92e9883f68f203bd790f5e4d815
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102160229"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077568"
 ---
 # <a name="idebugcustomattributequery2"></a>IDebugCustomAttributeQuery2
 Определяет существование пользовательского атрибута для этого поля и, если он существует, возвращает сведения об атрибуте.
@@ -50,7 +50,7 @@ IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery
 |------------|-----------------|
 |[EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)|Возвращает перечислитель для всех настраиваемых атрибутов, прикрепленных к этому полю.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Метод [иенумдебугкустоматтрибутес](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) может возвращать перечислитель для всех пользовательских атрибутов, определенных для этого поля.
 
 ## <a name="requirements"></a>Требования
@@ -60,7 +60,7 @@ IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)

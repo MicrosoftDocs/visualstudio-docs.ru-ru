@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointRequest2 interface
 ms.assetid: 784bd5b1-4a3f-4455-b313-c4c9a82555a5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d46f4aacdc886e455771f5a30ba82b941b29c957
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e73d881b1aef09d13d7b7138348d5198c8322694
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154851"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085017"
 ---
 # <a name="idebugcanstopevent2"></a>IDebugCanStopEvent2
 Этот интерфейс используется для запроса диспетчера отладки сеанса (SDM) на то, следует ли останавливаться в текущем расположении кода.
@@ -47,7 +47,7 @@ IDebugCanStopEvent2 : IUknown
 |[GetDocumentContext](../../../extensibility/debugger/reference/idebugcanstopevent2-getdocumentcontext.md)|Возвращает контекст документа, описывающий расположение этого события.|
 |[GetCodeContext](../../../extensibility/debugger/reference/idebugcanstopevent2-getcodecontext.md)|Возвращает контекст кода, описывающий расположение этого события.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Параметр DE отправляет этот интерфейс, если пользователь выполняет шаги в функции, а параметр DE не находит отладочную информацию или отладочная информация существует, но параметр DE не знает, можно ли отобразить исходный код для этого расположения.
 
 ## <a name="requirements"></a>Требования
@@ -57,6 +57,6 @@ IDebugCanStopEvent2 : IUknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugStepCompleteEvent2](../../../extensibility/debugger/reference/idebugstepcompleteevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

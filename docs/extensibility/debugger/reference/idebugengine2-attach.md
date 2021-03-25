@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::Attach
 ms.assetid: 173dcbda-5019-4c5e-bca9-a071838b5739
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a780ab04e693fd2868579efbf015aef25e0cca32
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 38275cc623fcb8b30646c9d84ef194f584369ef2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102160152"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105093916"
 ---
 # <a name="idebugengine2attach"></a>IDebugEngine2::Attach
 Присоединяет модуль отладки (DE) к программе или программам. Вызывается диспетчером отладки сеанса (SDM), когда DE выполняется в процессе в SDM.
@@ -62,12 +62,12 @@ int Attach(
 окне Объект [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) , который будет использоваться для отправки событий отладки в SDM.
 
 `dwReason`\
-окне Значение из перечисления [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) , указывающее причину присоединения этих программ. Дополнительные сведения см. в разделе "Примечания".
+окне Значение из перечисления [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) , указывающее причину присоединения этих программ. Дополнительные сведения см. в разделе "Замечания".
 
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Существует три причины присоединения к программе следующим образом.
 
 - `ATTACH_REASON_LAUNCH` Указывает, что DE присоединяется к программе, так как пользователь запускает процесс, который его содержит.
@@ -90,7 +90,7 @@ int Attach(
 
    Перед вызовом методов узла программы в массиве, заданном параметром `pProgram` или `rgpProgramNodes` , необходимо включить олицетворение (при необходимости) для `IDebugProgram2` интерфейса, представляющего узел программы. Однако обычно этот шаг не требуется. Дополнительные сведения см. в разделе [вопросы безопасности](../../../extensibility/debugger/security-issues.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

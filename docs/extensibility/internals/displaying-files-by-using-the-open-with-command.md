@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Open With command
 - persistence, supporting Open With command
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9426b60013ae17eec872a665666a60d1fdfc1bc8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e45e2c601873641b5ac79c54fd6709eb3f45f95d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946726"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069820"
 ---
 # <a name="display-files-by-using-the-open-with-command"></a>Отображение файлов при помощи команды "Открыть с помощью"
 Проект может попросить интегрированной среды разработки отобразить диалоговое окно " **Открыть с помощью** ". Этот запрос предлагает пользователю открыть файл с выбранными стандартными редакторами. Этот процесс описан в следующих шагах.
@@ -33,7 +33,7 @@ ms.locfileid: "99946726"
 
 3. Как только пользователь выбирает элемент в диалоговом окне **Открыть с помощью** , интегрированная среда разработки открывает документ путем вызова <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> метода. Дополнительные сведения см. [в разделе как открыть стандартные редакторы](../../extensibility/how-to-open-standard-editors.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Открытие и сохранение элементов проекта](../../extensibility/internals/opening-and-saving-project-items.md)
 - [Отображение файлов с помощью команды "открыть файл"](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
 - [Руководство. Открытие стандартных редакторов](../../extensibility/how-to-open-standard-editors.md)

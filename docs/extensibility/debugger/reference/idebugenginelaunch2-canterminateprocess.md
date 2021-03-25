@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineLaunch2::CanTerminateProcess
 ms.assetid: 7973454d-c957-4123-a0ee-80ebcdbbd2d1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 687b2816c6fd312efef29daa44e0644fc5c5c8c6
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 20df2c6d44e9bb0afd6610d6ded01ed637035b4b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153629"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077451"
 ---
 # <a name="idebugenginelaunch2canterminateprocess"></a>IDebugEngineLaunch2::CanTerminateProcess
 Определяет, можно ли завершить процесс.
@@ -47,10 +47,10 @@ int CanTerminateProcess (
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки. Возвращает `S_FALSE` , если обработчик не может завершить процесс, например из-за отказа в доступе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Если этот метод возвращает значение `S_OK` , то для фактического завершения процесса можно вызвать метод [терминатепроцесс](../../../extensibility/debugger/reference/idebugenginelaunch2-terminateprocess.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [TerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-terminateprocess.md)

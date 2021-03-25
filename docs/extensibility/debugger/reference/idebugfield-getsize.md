@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetSize method
 ms.assetid: 73329924-3751-4f44-af54-5986b7943374
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1c588914f93d732dc1b8e6ddc4edc41713e97fd1
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 471b6dce3c4795f8059e64aff5e7522b3ba91842
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151900"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077035"
 ---
 # <a name="idebugfieldgetsize"></a>IDebugField::GetSize
 Этот метод получает размер поля в байтах.
@@ -47,8 +47,8 @@ int GetSize(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Все поля имеют тип, а все типы имеют размер. Например, поле типа Byte имеет размер 1 байт.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

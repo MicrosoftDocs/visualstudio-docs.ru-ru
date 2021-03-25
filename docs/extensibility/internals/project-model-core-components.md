@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project models, objects and interfaces
 - project models, services
 ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d7d7e664f0c39a46e1d84df0c5a0842c7270c942
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ae01d149611afe5bf75a6952f19baff7d70f6210
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896892"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062815"
 ---
 # <a name="project-model-core-components"></a>Основные компоненты модели проекта
 В следующих таблицах расширена модель проекта. В таблицах представлены краткие описания интерфейсов и служб, определенных в модели, а также интерфейсы и службы, связанные с определенными объектами. Кроме того, в таблицах подробно описываются другие интерфейсы, которые являются необязательными при создании и обслуживании проекта в зависимости от требований конкретного типа проекта.
@@ -101,7 +101,7 @@ ms.locfileid: "99896892"
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibility3>|Используется для реализации модели автоматизации. В модели проекта будет возвращен объект свойств, позволяющий создать экземпляр этого объекта.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIHierWinClipboardHelper>|Используется для реализации событий буфера обмена в объекте проекта в иерархии. `SVsUIHierWinClipboardHelper` позволяет правильно управлять операциями вырезания, копирования и вставки.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Контрольный список. Создание новых типов проектов](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Не в сборке. Использование классов проектов HierUtil7 для реализации типа проекта (C++)](/previous-versions/bb166212(v=vs.100))

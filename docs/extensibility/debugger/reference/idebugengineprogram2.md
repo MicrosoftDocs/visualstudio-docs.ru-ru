@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineProgram2 interface
 ms.assetid: 151003a9-2e4d-4acf-9f4d-365dfa6b9596
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ea46ccad8f357cb868a445a8836280abf7c224e0
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 6e52ae6477b49325d4b8a4d81192fe2ecf736163
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153382"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092661"
 ---
 # <a name="idebugengineprogram2"></a>IDebugEngineProgram2
 Этот интерфейс обеспечивает поддержку многопоточной отладки.
@@ -44,7 +44,7 @@ IDebugEngineProgram2 : IUnknown
 |[WatchForThreadStep](../../../extensibility/debugger/reference/idebugengineprogram2-watchforthreadstep.md)|Отслеживает выполнение (или останавливает наблюдение за выполнением) в заданном потоке.|
 |[WatchForExpressionEvaluationOnThread](../../../extensibility/debugger/reference/idebugengineprogram2-watchforexpressionevaluationonthread.md)|Разрешает (или запрещает) вычисление выражения в заданном потоке, даже если программа остановлена.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Visual Studio вызывает этот интерфейс в ответ на событие [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md) и устанавливает состояния программы "отслеживать шаг потока" и "отслеживать оценку выражений в потоке". Метод [остановки](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md) вызывается всякий раз, когда программа должна быть остановлена. Этот метод дает программе возможность завершить все потоки.
 
 ## <a name="requirements"></a>Требования
@@ -54,5 +54,5 @@ IDebugEngineProgram2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomViewer interface
 ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8d262869d24c50c543159952506a40be753b4be4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 3c44706549d7d638a8fbf3686de57780ffa6bf4e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150696"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105077555"
 ---
 # <a name="idebugcustomviewer"></a>IDebugCustomViewer
 Этот интерфейс позволяет средству оценки выражений (EE) отображать значение свойства в любом формате.
@@ -42,7 +42,7 @@ EE реализует этот интерфейс для вывода значе
 |------------|-----------------|
 |[DisplayValue](../../../extensibility/debugger/reference/idebugcustomviewer-displayvalue.md)|Выполняет какие-либо необходимые для вывода заданного значения.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Этот интерфейс используется, если значение свойства не может быть отображено обычным способом, например с таблицей данных или другим типом сложного свойства. Пользовательское средство просмотра, представленное `IDebugCustomViewer` интерфейсом, отличается от визуализатора типов, который является внешней программой для отображения данных определенного типа, независимо от ee. В EE реализовано пользовательское средство просмотра, относящееся к EE. Пользователь выбирает, какой тип визуализатора использовать, является визуализатором типов или пользовательским средством просмотра. Дополнительные сведения об этом процессе см. в разделе [визуализация и просмотр данных](../../../extensibility/debugger/visualizing-and-viewing-data.md) .
 
 Пользовательское средство просмотра регистрируется так же, как EE, и поэтому требует GUID языка и GUID поставщика. Точная метрика (или имя записи в реестре) известна только для EE. Эта метрика возвращается в структуре [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) , которая, в свою очередь, возвращается вызовом [жеткустомвиеверлист](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md). Значение, хранящееся в метрике, — это объект `CLSID` , который передается в `CoCreateInstance` функцию com (см. пример).
@@ -105,8 +105,8 @@ IDebugCustomViewer *GetFirstCustomViewer(IDebugProperty2 *pProperty)
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)
 - [Вспомогательные пакеты SDK для отладки](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

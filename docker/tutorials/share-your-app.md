@@ -9,12 +9,12 @@ ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
 - azure
-ms.openlocfilehash: 676668b1247377597bed55b293efb8ad8b5cd253
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ad9f7d329bf00e3fadd665cefea22a2301fdf695
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99841709"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105061788"
 ---
 # <a name="share-your-app"></a>Общий доступ к приложению
 
@@ -24,7 +24,7 @@ ms.locfileid: "99841709"
 
 Чтобы отправить образ, необходимо сначала создать репозиторий в Docker Hub.
 
-1. Перейдите в [Docker Hub](https://hub.docker.com) и при необходимости выполните вход.
+1. Перейдите в [Docker Hub](https://hub.docker.com/signup/msftedge?utm_source=msftedge) и при необходимости выполните вход.
 
 1. Нажмите кнопку **Create repository** (Создать репозиторий).
 

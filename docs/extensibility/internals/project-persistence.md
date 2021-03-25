@@ -8,17 +8,17 @@ helpviewer_keywords:
 - persistence, projects
 - projects [Visual Studio SDK], persistance
 ms.assetid: 42907bcf-4e27-46bd-a8cb-01c2ccd2bde5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1009df1ce71e5ab46c0e9d100a79562f77460c0f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2ffaeb6d43597e93586db79c305b654b42bf6dbb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911776"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062802"
 ---
 # <a name="project-persistence"></a>Сохранение проекта
 Сохраняемость — это ключевой аспект разработки проекта. В большинстве проектов используются элементы проекта, представляющие файлы. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] также поддерживает проекты, данные которых не основаны на файлах. Файлы, принадлежащие проекту и файлу проекта, должны быть сохранены. Интегрированная среда разработки предписывает проекту сохранить себя или элемент проекта.
@@ -44,6 +44,6 @@ ms.locfileid: "99911776"
 
  Методы в `IVsPersistHierarchyItem2` интерфейсе используются, чтобы определить, можно ли перезагрузить элемент, и, если элемент может быть перезагружен. Кроме того, <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IgnoreItemFileChanges%2A> метод может быть реализован для того, чтобы измененные элементы были удалены без сохранения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Контрольный список. Создание новых типов проектов](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Создание экземпляров проекта с помощью фабрик проектов](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)

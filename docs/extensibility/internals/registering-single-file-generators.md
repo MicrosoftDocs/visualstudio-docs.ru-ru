@@ -8,17 +8,17 @@ helpviewer_keywords:
 - registration, custom tools
 - custom tools, defining registry settings
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6b2cb27baaca465096a14c836b0dfc7ebc43d42e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ee110defb06d308c017230a36cebc2b04b3c63b9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837253"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062685"
 ---
 # <a name="registering-single-file-generators"></a>Регистрация генераторов одного файла
 Чтобы сделать пользовательский инструмент доступным в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] , необходимо зарегистрировать его, чтобы он [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] мог создать экземпляр и связать его с определенным типом проекта.
@@ -42,15 +42,15 @@ ms.locfileid: "99837253"
 
    - (по умолчанию)
 
-        Необязательный элемент. Предоставляет понятное описание пользовательского инструмента. Этот параметр является необязательным, но рекомендуется.
+        Необязательный параметр. Предоставляет понятное описание пользовательского инструмента. Этот параметр является необязательным, но рекомендуется.
 
    - CLSID
 
-        Обязательный элемент. Задает идентификатор библиотеки классов COM-компонента, реализующего интерфейс <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> .
+        Обязательный. Задает идентификатор библиотеки классов COM-компонента, реализующего интерфейс <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> .
 
    - женератесдесигнтимесаурце
 
-        Обязательный элемент. Указывает, доступны ли типы из файлов, созданных этим пользовательским инструментом, в визуальных конструкторах. Значение этого параметра должно быть (ноль) 0 для типов, недоступных для визуальных конструкторов или (один) 1 для типов, доступных для визуальных конструкторов.
+        Обязательный. Указывает, доступны ли типы из файлов, созданных этим пользовательским инструментом, в визуальных конструкторах. Значение этого параметра должно быть (ноль) 0 для типов, недоступных для визуальных конструкторов или (один) 1 для типов, доступных для визуальных конструкторов.
 
    > [!NOTE]
    > Пользовательское средство необходимо зарегистрировать отдельно для каждого языка, для которого необходимо, чтобы пользовательский инструмент был доступен.
@@ -69,7 +69,7 @@ ms.locfileid: "99837253"
    "GeneratesDesignTimeSource"=dword:00000001
    ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>
 - [Реализация генераторов одного файла](../../extensibility/internals/implementing-single-file-generators.md)
 - [Предоставление типов конструкторам визуальных элементов](../../extensibility/internals/exposing-types-to-visual-designers.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - language services, filters
 - language services, commands to support
 ms.assetid: 4948c494-3d4d-4f50-b3f9-959e73f90e4d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4eaa85eab9d9691125afce28d51c61d464e56cb2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5d27f1c3057266d1b167999f3178a3e554a78ddb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839837"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069560"
 ---
 # <a name="important-commands-for-language-service-filters"></a>Важные команды для фильтров языковой службы
 Если вы хотите создать полнофункциональный фильтр языковой службы, рассмотрите возможность обработки следующих команд. Полный список идентификаторов команд определяется в <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> перечислении для управляемого кода и файла заголовка стдидкмд. h для неуправляемого [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] кода. Файл Стдидкмд. h можно найти в *пути установки Visual Studio SDK*\висуалстудиоинтегратион\коммон\инк.
@@ -40,5 +40,5 @@ ms.locfileid: "99839837"
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Обычно отправляется, когда пользователь вводит CTRL + ПРОБЕЛ. Эта команда сообщает языковой службе о необходимости вызова <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> метода для <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> .|
 |<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID><br /><br /> <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>|Отправляется из меню, как правило, **Выбор комментариев** или **раскомментировать выделенный фрагмент** из **расширенного** меню **Правка** . <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> Указывает, что пользователь хочет закомментировать выделенный текст. <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> указывает, что пользователь хочет раскомментировать выделенный текст. Эти команды могут быть реализованы только языковой службой.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Разработка языковой службы прежних версий](../../extensibility/internals/developing-a-legacy-language-service.md)

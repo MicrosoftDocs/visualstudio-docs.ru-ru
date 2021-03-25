@@ -9,17 +9,17 @@ helpviewer_keywords:
 - language services, registry information
 - registry, language services
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d08552683ce61892b0ee233173466a79326e4c6f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fbad469b28c0b8a6aab070d47cf12c326beb92d8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99894859"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062789"
 ---
 # <a name="registering-a-legacy-language-service-2"></a>Регистрация языковой службы версии 2
 В следующих разделах приводятся списки записей реестра для различных параметров языковой службы, доступных в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .
@@ -68,7 +68,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
 
 |Имя|Type|Диапазон|Описание|
 |----------|----------|-----------|-----------------|
-|(по умолчанию)|REG_SZ|текст|Значение по умолчанию можно использовать для документирования имени языка. Имя этого ключа — идентификатор GUID средства оценки выражений, имеющего соответствующую запись в *\<VS Reg Root>* \AD7Metrics\Expression оценщике.|
+|(по умолчанию)|REG_SZ|text|Значение по умолчанию можно использовать для документирования имени языка. Имя этого ключа — идентификатор GUID средства оценки выражений, имеющего соответствующую запись в *\<VS Reg Root>* \AD7Metrics\Expression оценщике.|
 
 ### <a name="example"></a>Пример
 
@@ -239,5 +239,5 @@ ExampleHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
         MaxRegions            = reg_dword:0x0000000a
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Разработка языковой службы прежних версий](../../extensibility/internals/developing-a-legacy-language-service.md)

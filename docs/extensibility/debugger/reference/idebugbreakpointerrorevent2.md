@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointErrorEvent2
 ms.assetid: adee79df-8db5-4510-a7df-c50f4dbf5e35
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89342f5d26c5aeec41222bba12a29f534798782b
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: a7ebfa6b5d1cc2a0fe1a03c9e70952c5cec1a74e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102143366"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105054534"
 ---
 # <a name="idebugbreakpointerrorevent2"></a>IDebugBreakpointErrorEvent2
 Этот интерфейс сообщает диспетчеру отладки сеансов (SDM), что незавершенная точка останова не может быть привязана к загруженной программе из-за предупреждения или ошибки.
@@ -42,7 +42,7 @@ IDebugBreakpointErrorEvent2 : IUnknown
 |------------|-----------------|
 |[GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)|Возвращает интерфейс [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) , описывающий предупреждение или ошибку.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  При каждом связывании точки останова в SDM отправляется событие. Если точка останова не может быть привязана, `IDebugBreakpointErrorEvent2` отправляется; в противном случае отправляется [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md) .
 
  Например, если условие, связанное с ожидающей точкой останова, не удается проанализировать или вычислить, будет отправлено предупреждение о том, что в данный момент не может быть привязана ожидающая точка останова. Это может произойти, если код точки останова еще не загружен.
@@ -54,7 +54,7 @@ IDebugBreakpointErrorEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

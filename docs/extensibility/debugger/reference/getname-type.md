@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - GETNAME_TYPE enumeration
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9811312188e63017e074d12be6dfa67ab6929aa6
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: a65c29a1925c8d0c1de97f87707f191713c2bb03
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102162450"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105054599"
 ---
 # <a name="getname_type"></a>GETNAME_TYPE
 Указывает тип имени извлекаемых файлов.
@@ -75,7 +75,7 @@ public enum enum_GETNAME_TYPE {
 `GN_STARTPAGEURL`\
 Возвращает начальный URL-адрес страницы для процессов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения передаются в качестве параметров [](../../../extensibility/debugger/reference/idebugdocument2-getname.md)в методы Name [, noreturn](../../../extensibility/debugger/reference/idebugdocumentcontext2-getname.md)и [Name](../../../extensibility/debugger/reference/idebugprocess2-getname.md) , чтобы указать тип возвращаемого имени.
 
 ## <a name="requirements"></a>Требования

@@ -11,17 +11,17 @@ helpviewer_keywords:
 - Add New Project dialog box
 - registry, Add New Project dialog box
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: cc268236a10ab3f6be660b0e69a82a8f656f8910
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d6f4abe3a8632f4fe9208922aee1ccd92da3dab5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837259"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105062698"
 ---
 # <a name="registering-project-and-item-templates"></a>Регистрация шаблонов проектов и элементов
 Типы проектов должны регистрировать каталоги, в которых находятся шаблоны проектов и элементов проектов. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] использует сведения о регистрации, связанные с типами проектов, чтобы определить, что следует отображать в диалоговых окнах **Добавление нового проекта** и **Добавление нового элемента** .
@@ -39,7 +39,7 @@ ms.locfileid: "99837259"
 "ProjectTemplatesDir"="C:\\MyProduct\\MyProjectTemplates"
 ```
 
-|Имя|Тип|Описание|
+|Имя|Type|Описание|
 |----------|----------|-----------------|
 |@|REG_SZ|Имена проектов этого типа по умолчанию.|
 |DisplayName|REG_SZ|Идентификатор ресурса имени, которое должно быть получено из вспомогательной библиотеки DLL, зарегистрированной в пакетах.|
@@ -57,7 +57,7 @@ ms.locfileid: "99837259"
 "SortPriority"=dword:00000064
 ```
 
-| Имя | Тип | Описание |
+| Имя | Type | Описание |
 |--------------------------|-----------| - |
 | @ | REG_SZ | Идентификатор ресурса для добавления шаблонов элементов. |
 | темплатесдир | REG_SZ | Путь к элементам проекта, отображаемым в диалоговом окне мастера **добавления нового элемента** . |
@@ -84,7 +84,7 @@ ms.locfileid: "99837259"
 "SortPriority"=dword:00000064
 ```
 
-|Имя|Тип|Описание|
+|Имя|Type|Описание|
 |----------|----------|-----------------|
 |коммонфиндфилесфилтер|REG_DWORD|Делает фильтр одним из общих фильтров в диалоговом окне **найти в файлах** . Общие фильтры перечислены в списке фильтров до тех пор, пока фильтры не помечаются как общие.|
 |коммонопенфилесфилтер|REG_DWORD|Делает фильтр одним из общих фильтров в диалоговом окне **Открытие файла** . Общие фильтры перечислены в списке фильтров до тех пор, пока фильтры не помечаются как общие.|
@@ -118,9 +118,9 @@ ms.locfileid: "99837259"
 
  \визардфилес
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Добавление проекта и шаблонов элементов проекта](../../extensibility/internals/adding-project-and-project-item-templates.md)
-- [Мастера](../../extensibility/internals/wizards.md)
+- [Мастеры](../../extensibility/internals/wizards.md)
 - [Локализация приложений](../../ide/globalizing-and-localizing-applications.md)
 - [CATID для объектов, которые обычно используются для расширения проектов](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], opening for open documents
 ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 45cd616a58f51a532883eeba37f06c4eb73bd72d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f6dfcd44a03b110ae514c2de36092ee07fd0c35e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850678"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069924"
 ---
 # <a name="how-to-open-editors-for-open-documents"></a>Руководство. открытие редакторов для открытых документов
 Прежде чем открыть окно документа, проект сначала должен определить, открыт ли файл в окне документа для другого редактора. Файл может быть либо открыт в редакторе конкретного проекта, либо одним из стандартных редакторов, зарегистрированных в [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] .
@@ -27,7 +27,7 @@ ms.locfileid: "99850678"
 
 ### <a name="to-open-a-project-specific-editor-for-an-open-file"></a>Открытие редактора проекта для открытого файла
 
-1. Вызовите метод <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A> .
+1. Вызовите метод <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A>.
 
     Этот вызов возвращает указатели на иерархию документа, элемент иерархии и рамку окна, если это уместно.
 
@@ -54,7 +54,7 @@ ms.locfileid: "99850678"
 
 2. Если документ не открыт, выполните действия, описанные в разделе [как открыть стандартные редакторы](../extensibility/how-to-open-standard-editors.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Открытие и сохранение элементов проекта](../extensibility/internals/opening-and-saving-project-items.md)
 - [Пошаговое руководство. открытие редакторов, зависящих от проекта](../extensibility/how-to-open-project-specific-editors.md)
 - [Руководство. Открытие стандартных редакторов](../extensibility/how-to-open-standard-editors.md)

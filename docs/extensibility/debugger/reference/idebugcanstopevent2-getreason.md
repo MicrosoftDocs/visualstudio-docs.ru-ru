@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCanStopEvent2::GetReason
 ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 66b783044b8342de26aec831d9d41f8bccd7df92
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2125bb90693d5a4c5cc23ac1225d56dea636de2e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102173528"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085056"
 ---
 # <a name="idebugcanstopevent2getreason"></a>IDebugCanStopEvent2::GetReason
 Возвращает причину, по которой подсистема отладки (DE) должна быть приостановлена.
@@ -47,12 +47,12 @@ int GetReason(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот метод обычно вызывается перед методом [канстоп](../../../extensibility/debugger/reference/idebugcanstopevent2-canstop.md) , чтобы вызывающий объект мог определить, передавать ли метод ненулевое значение ( `TRUE` ) `IDebugCanStopEvent2::CanStop` .
 
  Причиной для остановки может быть либо, что означает, что `CANSTOP_ENTRYPOINT` de достиг точки входа, либо, что означает, что `CANSTOP_STEPIN` функция de пошагова в функцию.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCanStopEvent2](../../../extensibility/debugger/reference/idebugcanstopevent2.md)
 - [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md)
 - [CanStop](../../../extensibility/debugger/reference/idebugcanstopevent2-canstop.md)
