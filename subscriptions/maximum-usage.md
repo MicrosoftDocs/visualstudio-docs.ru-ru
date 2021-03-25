@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
-ms.date: 10/28/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о просмотре максимального количества назначенных подписок на портале администрирования
-ms.openlocfilehash: e8ea9aa9001312c792e6f9d356dbc5f7cf58dfb8
-ms.sourcegitcommit: a731a9454f1fa6bd9a18746d8d62fe2e85e5ddb1
+ms.openlocfilehash: 29aaa3d2268d5fc0ae99a1a400238d633e9026a5
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "92904484"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104777017"
 ---
 # <a name="use-the-maximum-usage-feature-to-track-the-number-of-assigned-subscriptions"></a>Использование функции максимального использования для отслеживания количества назначенных подписок
 Новая функция на портале администрирования подписок Visual Studio помогает отслеживать, сколько подписок вы приобрели и назначили, и определяет максимальное число назначенных подписок каждого уровня, как в прошлом году, так и в период действия ваших соглашений. 
@@ -45,7 +45,7 @@ ms.locfileid: "92904484"
 
 ## <a name="resources"></a>Ресурсы
 - [Документ по лицензированию Visual Studio](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Поддержка по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Поддержка по администрированию и подпискам Visual Studio](https://aka.ms/vsadminhelp)
 - [Условия корпоративного лицензирования](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## <a name="see-also"></a>См. также

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description: Узнайте, как администраторы могут назначать лицензии нескольким подписчикам, используя функцию массового добавления или группы Microsoft Azure Active Directory.
-ms.openlocfilehash: 76717090731b2e1fad0758c3c6298ab572bbb4de
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: 4744f689e9b03e4a6cf8c804409abddfde16c527
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249572"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776900"
 ---
 # <a name="assign-subscriptions-to-multiple-users"></a>Назначение подписок нескольким пользователям
 Портал администрирования подписок позволяет добавлять пользователей по одному или большими группами.  Чтобы добавлять пользователей по одному, см. раздел [Добавление отдельных пользователей](assign-license.md).
@@ -147,4 +147,4 @@ ms.locfileid: "102249572"
 
 ## <a name="next-steps"></a>Следующие шаги
 - У вас есть только один или два подписчика для добавления?  Ознакомьтесь с разделом [Добавление отдельных пользователей](assign-license.md)
-- Нужна помощь? Обратитесь в [службу поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/).
+- Нужна помощь? Обратитесь в [службу поддержки по подпискам](https://aka.ms/vsadminhelp).

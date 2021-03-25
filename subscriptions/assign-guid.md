@@ -3,15 +3,15 @@ title: Назначение уникальных идентификаторов 
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
-ms.date: 02/18/2021
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Узнайте о том, как администраторы могут назначать уникальные идентификаторы (GUID) подписок подписчикам.
-ms.openlocfilehash: 3c92a3e6cc35230f6bcf10320e92a50dc5ffb85b
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: a0721029186605c6b9a277c9eb95a370a086d7d2
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249685"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776654"
 ---
 # <a name="assign-specific-subscriptions-in-the-visual-studio-subscriptions-administration-portal"></a>Посетите портал администрирования подписок Visual Studio, чтобы управлять подписками
 
@@ -63,7 +63,7 @@ ms.locfileid: "102249685"
 Ответ. Если вы хотите изменить назначенный пользователю идентификатор GUID, сначала необходимо удалить подписку для этого пользователя.  Дополнительные сведения см. в нашей статье [Удаление подписки](delete-license.md).  После удаления подписки для этого пользователя используйте описанный выше процесс, чтобы экспортировать список и отправить новые сведения о подписке.  
 
 ## <a name="resources"></a>Ресурсы
-- [Служба поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Служба поддержки по подпискам](https://aka.ms/vsadminhelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
@@ -78,5 +78,3 @@ ms.locfileid: "102249685"
 - [Изменение подписок](edit-license.md)
 - [Удаление подписок](delete-license.md)
 - [Определение максимального использования](maximum-usage.md)
-
-

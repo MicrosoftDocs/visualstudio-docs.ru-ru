@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 83a9162a-b9e7-43a4-b07f-6c1fd8580f78
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Узнайте об обязанности администратора отслеживать назначения пользователей и обрабатывать заказы.
-ms.openlocfilehash: 3da446dad534a6a76413a66de2b9ad52e937e253
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: 9ba54d13f4481f68d13e43a2e21f62036d23cab3
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249490"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776991"
 ---
 # <a name="track-user-assignment-and-process-orders"></a>Отслеживание назначений пользователей и обработка заказов
 Администраторы подписок Visual Studio должны отслеживать использование Visual Studio и оформлять заказы при превышении уровня использования в сроки, указанные в соглашении о корпоративном лицензировании Майкрософт или соглашении о предоставлении продуктов и услуг Майкрософт. Новый портал администрирования подписок на Visual Studio упрощает эту задачу благодаря средству отслеживания, в котором можно просматривать доступные и используемые лицензии.
@@ -38,7 +38,7 @@ ms.locfileid: "102249490"
 Соглашения Enterprise, MPSA и Select Plus корпорации Майкрософт обеспечивают гибкость в использовании и лицензировании программного обеспечения Visual Studio. Администраторы Visual Studio должны ежегодно оформлять сверочный заказ, чтобы обеспечить соответствие между числом лицензий на ПО и ограничением на максимальное использование в период действия соглашения.
 
 ## <a name="resources"></a>Ресурсы
-- Требуется помощь?  Обратитесь в [службу поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/).
+- Требуется помощь?  Обратитесь в [службу поддержки по подпискам](https://aka.ms/vsadminhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

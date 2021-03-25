@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о том, как администраторы могут назначать лицензии подписчикам.
-ms.openlocfilehash: 3bfa1174a8655de27496c3138e1eab21e32c2f8d
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: a1b68a45754e0fb466ae12b59d63fa14d50e9a3e
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249549"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776523"
 ---
 # <a name="assign-licenses-in-the-visual-studio-subscriptions-administration-portal"></a>Назначение лицензий на портале администрирования подписок Visual Studio
 Администраторы подписок Visual Studio могут использовать портал администрирования для назначения подписок отдельным пользователям и группам пользователей.
@@ -68,7 +68,7 @@ ms.locfileid: "102249549"
 
 
 ## <a name="resources"></a>Ресурсы
-- Требуется помощь?  Обратитесь в [службу поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/).
+- Требуется помощь?  Обратитесь в [службу поддержки по подпискам](https://aka.ms/vsadminhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

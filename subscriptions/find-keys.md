@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: lank
 manager: cabuschl
 ms.assetid: da8df006-4896-4ff9-b487-698d78deabc3
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о том, как найти, запросить и экспортировать ключи продукта в подписках Visual Studio
-ms.openlocfilehash: 5e055295e76ee91dbaf641256b8b7e93a530fcfb
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: 2e74269c3e5e49e776b00484de790472030dc1c1
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249270"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776575"
 ---
 # <a name="finding-and-claiming-product-keys-in-visual-studio-subscriptions"></a>Поиск и запрос ключей продуктов в подписках Visual Studio
 В этой статье объясняется, как находить, запрашивать и экспортировать ключи продуктов из https://my.visualstudio.com/productkeys.  Дополнительные сведения об активации продукта с помощью ключей, версиях ключей в розничных и корпоративных лицензиях, а также об ограничениях на ежедневный запрос ключей продуктов см. в [обзоре ключей продуктов](product-keys.md).
@@ -67,7 +67,7 @@ ms.locfileid: "102249270"
 Чтобы экспортировать ключи, нажмите ссылку **Экспорт всех ключей** в правой части страницы "Ключи продуктов".  При этом будет создан файл KeysExport.xml, который вы можете открыть или сохранить.  Вам нужно открыть файл с помощью приложения, позволяющего обрабатывать XML-файлы.  Например, файл можно открыть как книгу только для чтения в Excel.
 
 ## <a name="resources"></a>Ресурсы
-- [Поддержка по подпискам Visual Studio](https://my.visualstudio.com/gethelp)
+- [Поддержка по подпискам Visual Studio](https://aka.ms/vssubscriberhelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description: Сведения о том, как администраторы могут изменять назначения подписок.
-ms.openlocfilehash: f24c949224d895f4cc2926ab30db637835e7886c
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: b1779b80cc295e680ff1856181be42a6390fe25b
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249801"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776874"
 ---
 # <a name="edit-visual-studio-subscription-assignments"></a>Изменение назначений для подписок Visual Studio
 Администраторы подписок могут вносить изменения в подписки, назначенные сотрудникам организации.  В этой статье рассмотрены изменения, которые можно внести, и описаны необходимые действия.
@@ -56,7 +56,7 @@ ms.locfileid: "102249801"
 5. После отправки файла вы увидите уведомление о том, что она выполнена успешно. На этом этапе изменения, которые вы внесли, будут отражены в данных о подписчике.
 
 ## <a name="resources"></a>Ресурсы
-- [Служба поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Служба поддержки по подпискам](https://aka.ms/vsadminhelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

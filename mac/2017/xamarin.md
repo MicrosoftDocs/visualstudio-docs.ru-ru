@@ -6,12 +6,12 @@ ms.author: dominicn
 ms.date: 02/12/2019
 ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
 ms.topic: overview
-ms.openlocfilehash: 89d724a9ddf4c8f3dc7fe941e5e4d999d30da1e8
-ms.sourcegitcommit: 5335a9864d5747bc917ed28d4ebeade3076b10e7
+ms.openlocfilehash: e5d03c27ef1e6fefc2fa29d60727851be0954d8b
+ms.sourcegitcommit: 08ee19f260164271e18bdbafe624301508f554ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85950631"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "104999606"
 ---
 # <a name="xamarin-mobile-app-development"></a>Разработка мобильных приложений Xamarin
 
@@ -58,4 +58,4 @@ Xamarin Inspector предлагает интерактивную консол�
 
 Это полнофункциональная консоль C#, которая представляет собой автономное приложение для программирования под различные платформы (Android, iOS, Mac и Windows) и интегрируется с рабочим процессом отладки вашей IDE.
 
-Дополнительные сведения см. в руководстве по [Xamarin Inspector](/xamarin/tools/inspector/).
+Дополнительные сведения см. в руководстве по [Xamarin Inspector](/xamarin/tools/inspector/release-notes/1.5).

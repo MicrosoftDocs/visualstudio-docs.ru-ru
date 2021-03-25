@@ -7,12 +7,12 @@ ms.assetid: ce5fc8a4-484c-4df6-97c3-cb60174fb66b
 ms.date: 03/11/2021
 ms.topic: conceptual
 description: Сведения о том, как анонимизируются данные подписчика при потере доступа к подпискам.
-ms.openlocfilehash: 69f41232a678a857908b30d63df2ae7f72b79904
-ms.sourcegitcommit: 9da787bf5b4281f933dc22083dc0bdeae3bc9461
+ms.openlocfilehash: 2a3d55824db1c90ff0868dda6d398e8c0e9a53d7
+ms.sourcegitcommit: d8d230791890cda532c263d04288dc13d2261c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103225967"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104757611"
 ---
 # <a name="anonymization-of-visual-studio-subscriber-information"></a>Анонимизация данных подписчика Visual Studio
 При возникновении события, блокирующего подписчику возможность пользования подпиской, например при истечении срока действия подписки или удалении учетной записи для входа подписчика, персональные данные пользователя, такие как имя и учетная запись для входа, шифруются, чтобы сделать их непригодными к использованию.  Это позволяет защитить персональные данные подписчика.
@@ -44,7 +44,10 @@ ms.locfileid: "103225967"
 - Развертывание системы управления с одним удостоверением — MSA или AAD (но не обоими).  
 - Сопоставление удостоверений AAD и MSA через клиент. 
 
-## <a name="see-also"></a>См. также
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
+
+## <a name="see-also"></a>См. также раздел
 - [Документация по Visual Studio](/visualstudio/)
 - [Документация по Azure DevOps](/azure/devops/)
 - [Документация по Azure](/azure/)

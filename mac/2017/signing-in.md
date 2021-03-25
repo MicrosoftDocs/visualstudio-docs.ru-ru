@@ -6,16 +6,16 @@ ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ms.topic: how-to
-ms.openlocfilehash: 4bfa6bdfbb4b27a849b4807c99ae9dc8b9bd6764
-ms.sourcegitcommit: 5335a9864d5747bc917ed28d4ebeade3076b10e7
+ms.openlocfilehash: 43032addcfbb54b6a239d465de76f85c241d562e
+ms.sourcegitcommit: 08ee19f260164271e18bdbafe624301508f554ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85950398"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "104999593"
 ---
 # <a name="sign-in-to-visual-studio-for-mac"></a>Вход в Visual Studio для Mac
 
-При первом запуске Visual Studio для Mac вам предлагается войти с использованием учетной записи Майкрософт. Используйте учетную запись, к которой подключена требуемая лицензия. Если у вас нет учетной записи Майкрософт, см. раздел [Регистрация учетной записи](https://support.microsoft.com/instantanswers/d18cc497-d839-cf50-dea8-f99c95f2bd16/sign-up-for-a-microsoft-account).
+При первом запуске Visual Studio для Mac вам предлагается войти с использованием учетной записи Майкрософт. Используйте учетную запись, к которой подключена требуемая лицензия. Если у вас нет учетной записи Майкрософт, см. раздел [Регистрация учетной записи](https://support.microsoft.com/account-billing/how-to-create-a-new-microsoft-account-a84675c3-3e9e-17cf-2911-3d56b15c0aaf).
 
 Если вы решили не входить в систему сразу, то сможете использовать пробную версию в течение 30 дней. Через 30 дней требуется войти, чтобы продолжить использование вашей копии Visual Studio для Mac.
 

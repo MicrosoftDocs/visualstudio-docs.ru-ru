@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description: Узнайте, как администраторы могут удалять назначения подписок на портале администрирования подписок Visual Studio.
-ms.openlocfilehash: efd0e149f390dd21a286b6ab7405ec36a43b8f78
-ms.sourcegitcommit: 9da787bf5b4281f933dc22083dc0bdeae3bc9461
+ms.openlocfilehash: d0ce93855cf56dab5e1a333e41e24ac2a368a540
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103225980"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776937"
 ---
 # <a name="delete-assignments-in-visual-studio-subscriptions"></a>Удаление назначений в подписках Visual Studio
 Если подписчику больше не требуется подписка Visual Studio, например, если он покидает организацию, завершил проект или переходит на другую должность, его подписку можно удалить и назначить другому пользователю. Имейте в виду, что при переназначении подписки не все преимущества подписчика сбрасываются.  Новый пользователь сможет запросить неиспользованные ключи и просмотреть ранее запрошенные ключи, но лимит запрашиваемых ключей **не** сбрасывается.  Для организаций, заключивших соглашения Enterprise Agreements (EA), все преимущества, которыми пользовался исходный пользователь, такие как обучение от Pluralsight, будут сброшены. 
@@ -36,7 +36,7 @@ ms.locfileid: "103225980"
    > Если вы добавляли назначения подписок через группы безопасности Azure Active Directory, для обновления данных с учетом удаления на портале администрирования может потребоваться до 24 часов.  Дополнительные сведения об использовании групп Azure Active Directory для управления подписками см. [этой статье](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions). 
 
 ## <a name="resources"></a>Ресурсы
-- [Служба поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Служба поддержки по подпискам](https://aka.ms/vsadminhelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

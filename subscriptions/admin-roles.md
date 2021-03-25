@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
-ms.date: 02/02/2021
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Узнайте о ролях суперадминистратора и администратора, а также о том, как назначать администраторов.
-ms.openlocfilehash: 2d9abf5a3079320011cb979a8109278c878321e3
-ms.sourcegitcommit: d124123528776993eb5e7461dae8da3975d11d0d
+ms.openlocfilehash: eca87026c681454925974f2e394737092c3e226d
+ms.sourcegitcommit: d8d230791890cda532c263d04288dc13d2261c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99511336"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104757598"
 ---
 # <a name="super-admins-and-admins-for-visual-studio-subscription-agreements"></a>Суперадминистраторы и администраторы для соглашений о подписке Visual Studio
 
@@ -42,7 +42,7 @@ ms.locfileid: "99511336"
 5. Когда вы нажмете кнопку **Добавить**, чтобы назначить нового администратора, он получит по электронной почте приглашение для входа на портал.  
 
 ## <a name="resources"></a>Ресурсы
-- [Поддержка по администрированию и подпискам Visual Studio](https://my.visualstudio.com/gethelp)
+- [Поддержка по администрированию и подпискам Visual Studio](https://aka.ms/vsadminhelp)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

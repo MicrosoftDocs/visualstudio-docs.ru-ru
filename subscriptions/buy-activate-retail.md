@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
-ms.date: 02/18/2021
+ms.date: 03/21/2021
 ms.topic: how-to
 description: Узнайте, как приобрести подписки Visual Studio в Microsoft Store и активировать их на портале подписок Visual Studio.
-ms.openlocfilehash: 3902ca5a4cce146d4a0ad62eb23dd777d6032f67
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: 4ed9a46112e6a4f976948375f797cb37c0a52c6e
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249424"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776965"
 ---
 # <a name="visual-studio-subscriptions-are-available-through-the-microsoft-store"></a>Подписки Visual Studio доступны в Microsoft Store
 Подписки Visual Studio доступны в различных каналах: [корпоративные лицензии](https://www.microsoft.com/licensing/default), поставщики облачных решений, [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) и Microsoft Store.  В этой статье рассматривается приобретение и активация подписок с помощью [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  

@@ -7,12 +7,12 @@ ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
 ms.date: 10/28/2020
 ms.topic: overview
 description: Узнайте, как приступить к управлению подписками Visual Studio вашей организации с помощью портала администрирования подписок.
-ms.openlocfilehash: a9e23208bea480167452711442b52fb84b2bd8ee
-ms.sourcegitcommit: f1d47655974a2f08e69704a9a0c46cb007e51589
+ms.openlocfilehash: 3ac02dcd49af1c3277be0c3a15a2e3bf9c735f04
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92904560"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104673077"
 ---
 # <a name="overview-of-the-visual-studio-subscriptions-administrator-portal"></a>Общие сведения о портале администрирования Подписок Visual Studio
 
@@ -57,7 +57,7 @@ ms.locfileid: "92904560"
 - [Документ по лицензированию Visual Studio](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Сравнение вариантов подписок и цен на них](https://visualstudio.microsoft.com/vs/pricing)
 - [Сравнение возможностей интегрированной среды разработки Visual Studio](https://visualstudio.microsoft.com/vs/compare)
-- [Поддержка по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Служба поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/)
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
@@ -65,7 +65,7 @@ ms.locfileid: "92904560"
 - [Документация по Azure](/azure/)
 - [Документация по Microsoft 365](/microsoft-365/)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 Узнайте больше об обязанностях администраторов:
 - [Общие сведения об обязанностях администратора](admin-responsibilities.md)
 - [Инвентаризация подготовительной среды](admin-inventory.md)

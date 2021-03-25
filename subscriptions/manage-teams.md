@@ -1,18 +1,18 @@
 ---
 title: Управление большими командами и подрядчиками в подписках Visual Studio | Visual Studio Marketplace
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Узнайте об обязанностях администраторов по управлению подписками для больших рабочих групп, а также сторонних подрядчиков.
-ms.openlocfilehash: 55d2ac2eacaf523503c2593349abbcf561aed3b1
-ms.sourcegitcommit: f1d47655974a2f08e69704a9a0c46cb007e51589
+ms.openlocfilehash: b54dc7a6a90556e73e1bebdd918435e9ce56a596
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92904668"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776809"
 ---
 # <a name="large-teams-and-external-contractors"></a>Большие рабочие группы и внешние подрядчики
 Администраторы подписок на Visual Studio отвечают за наличие соответствующей подписки на Visual Studio у всех пользователей, которые взаимодействуют с программным обеспечением с лицензией Visual Studio.
@@ -31,10 +31,10 @@ ms.locfileid: "92904668"
 
 ## <a name="resources"></a>Ресурсы
 - [Документ по лицензированию Visual Studio](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Поддержка по администрированию и подпискам Visual Studio](https://visualstudio.microsoft.com/support/support-overview-vs)
+- [Поддержка по администрированию и подпискам Visual Studio](https://aka.ms/vsadminhelp)
 - [Условия корпоративного лицензирования](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
 - [Документация по Azure DevOps](/azure/devops/)
 - [Документация по Azure](/azure/)

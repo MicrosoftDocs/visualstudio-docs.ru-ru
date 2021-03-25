@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
-ms.date: 03/11/2021
+ms.date: 03/19/2021
 ms.topic: conceptual
 description: Сведения об обязанностях администраторов подписок.
-ms.openlocfilehash: 14b8832a8031ddbc96ce82e10a015c730530ce3e
-ms.sourcegitcommit: 9da787bf5b4281f933dc22083dc0bdeae3bc9461
+ms.openlocfilehash: 817330093ce0a2e9df6379db42420057ded30486
+ms.sourcegitcommit: d8d230791890cda532c263d04288dc13d2261c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103225993"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104757689"
 ---
 # <a name="overview-of-admin-responsibilities"></a>Общие сведения об обязанностях администратора
 Администраторы могут управлять подписками своей организации.  В обязанности администратора также входит контроль за тем, что управление подписками осуществляется в соответствии с условиями лицензии. В этой статье описаны обязанности, преимущества и ограничения роли администратора.
@@ -41,7 +41,7 @@ ms.locfileid: "103225993"
 - [Документация по Azure DevOps](/azure/devops/)
 - [Документация по Azure](/azure/)
 - [Документация по Microsoft 365](/microsoft-365/)
-- [Поддержка по администрированию и подпискам Visual Studio](https://my.visualstudio.com/gethelp)
+- [Поддержка по администрированию и подпискам Visual Studio](https://aka.ms/vsadminhelp)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Узнайте больше об обязанностях администраторов:
