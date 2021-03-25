@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSCT XML schema elements, Groups
 - Groups element (VSCT XML schema)
 ms.assetid: 69faee18-cbf4-470a-b952-c1919c583df8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0a5520a8a47b4b356a79832b619395f86e8231d9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: daf0115161963448d47cb6721c92d0f9ffe623a0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945790"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057589"
 ---
 # <a name="group-element"></a>Group, элемент
 Определяет группу команд VSPackage.
@@ -38,16 +38,16 @@ ms.locfileid: "99945790"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|guid|Обязательный элемент. Идентификатор GUID идентификатора команды GUID/ID.|
-|идентификатор|Обязательный элемент. Идентификатор идентификатора команды GUID/ID.|
-|priority|Необязательный элемент. Числовое значение, указывающее приоритет.|
-|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|guid|Обязательный. Идентификатор GUID идентификатора команды GUID/ID.|
+|идентификатор|Обязательный. Идентификатор идентификатора команды GUID/ID.|
+|priority|Необязательный параметр. Числовое значение, указывающее приоритет.|
+|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
 |Элемент|Описание|
 |-------------|-----------------|
-|Parent|Необязательный элемент. Родительский элемент кнопки.|
+|Parent|Необязательный параметр. Родительский элемент кнопки.|
 |Annotation|Необязательный комментарий.|
 
 ### <a name="parent-elements"></a>Родительские элементы
@@ -64,5 +64,5 @@ ms.locfileid: "99945790"
 </Group>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы таблицы команд Visual Studio (. vsct)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

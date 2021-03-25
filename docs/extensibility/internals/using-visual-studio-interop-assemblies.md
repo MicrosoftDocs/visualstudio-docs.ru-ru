@@ -9,17 +9,17 @@ helpviewer_keywords:
 - interop assemblies, Visual Studio
 - managed VSPackages, interop assemblies
 ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1764cc735ca836feada2ad6f794f2bc8520fef41
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1253f5e7197f587e4a5e62365b42cb5040010666
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941718"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090672"
 ---
 # <a name="using-visual-studio-interop-assemblies"></a>Использование сборок взаимодействия Visual Studio
 Сборки взаимодействия Visual Studio позволяют управляемым приложениям получать доступ к COM-интерфейсам, обеспечивающим расширяемость Visual Studio. Существуют некоторые различия между прямыми интерфейсами COM и их версиями взаимодействия. Например, значения HRESULT обычно представлены в виде значений типа int и должны обрабатываться так же, как исключения, а параметры (особенно исходящие параметры) обрабатываются по-разному.

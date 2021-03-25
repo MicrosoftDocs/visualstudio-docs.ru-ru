@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSCT XML schema elements, Parent
 - Parent element (VSCT XML schema)
 ms.assetid: e4624ac8-1b9a-4940-910a-528a661cefad
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e34b857d26be49bb98096c6b0ba85ff8049290b3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2ac914fd3245982af89facb97ff2d528b410da99
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968987"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090386"
 ---
 # <a name="parent-element"></a>Родительский элемент
 Родительским элементом кнопки или поля со списком может быть только группа. Родительским элементом меню или группы может быть любое другое меню или группа. В [элементе CommandPlacement](../extensibility/commandplacement-element.md)этот элемент является обязательным; во всех остальных случаях это необязательно. Если этот элемент опущен, то родительский объект `Group_Undefined:0` будет подразумеваемым.
@@ -36,8 +36,8 @@ ms.locfileid: "99968987"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|guid|Обязательный элемент. Идентификатор GUID идентификатора команды GUID/ID.|
-|идентификатор|Обязательный элемент. Идентификатор идентификатора команды GUID/ID.|
+|guid|Обязательный. Идентификатор GUID идентификатора команды GUID/ID.|
+|идентификатор|Обязательный. Идентификатор идентификатора команды GUID/ID.|
 
 ### <a name="child-elements"></a>Дочерние элементы
  Нет
@@ -51,5 +51,5 @@ ms.locfileid: "99968987"
 |[Элемент menus](../extensibility/menus-element.md)|Определяет все меню, которые реализует VSPackage.|
 |[Элемент Groups](../extensibility/groups-element.md)|Содержит записи, определяющие группы команд VSPackage.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы таблицы команд Visual Studio (. vsct)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -10,17 +10,17 @@ helpviewer_keywords:
 - project types, determining which editor opens a file
 - persistence, determining which editor opens a file
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 48d642c8a3b7883507c06453c0025badc299ce75
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fb6f142ea25748f6798fb60d7c03862c51819349
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963423"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090867"
 ---
 # <a name="determine-which-editor-opens-a-file-in-a-project"></a>Определение того, какой редактор открывает файл в проекте
 Когда пользователь открывает файл в проекте, среда проходит процесс опроса, в конечном итоге открывая соответствующий редактор или конструктор для этого файла. Начальная процедура, применяемая средой, одинакова для стандартных и пользовательских редакторов. При опросе редактора, используемого для открытия файла, среда использует разнообразные критерии, и пакет VSPackage должен координировать среду во время этого процесса.
@@ -41,7 +41,7 @@ ms.locfileid: "99963423"
 
  Теперь среда проверяет внутренний список зарегистрированных редакторов, чтобы найти только что зарегистрированную фабрику редактора для *RTF* файлов. Среда вызывает реализацию <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> метода, передавая имя файла и тип представления для создания.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat>
 - <xref:Microsoft.VisualStudio.OLE.Interop.IPersistStorage>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A>

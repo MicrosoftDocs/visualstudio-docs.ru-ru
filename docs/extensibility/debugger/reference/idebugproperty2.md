@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2 interface
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 42cdd3f9e5fd1d92e007bb9a15cf9e1fa5e44e83
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: c5d20f0bd3727860f32e111baad2d2513590e880
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102171456"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105064804"
 ---
 # <a name="idebugproperty2"></a>IDebugProperty2
 Этот интерфейс представляет свойство кадра стека, свойство документа программы или другое свойство. Свойство обычно является результатом вычисления выражения.
@@ -63,7 +63,7 @@ IDebugProperty2 : IUnknown
 |[GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md)|Возвращает ссылку на значение этого свойства.|
 |[GetExtendedInfo](../../../extensibility/debugger/reference/idebugproperty2-getextendedinfo.md)|Возвращает расширенные сведения о свойстве.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Свойство, представленное `IDebugProperty2` интерфейсом, может рассматриваться как значение с именем, типом и адресом. В общих чертах объект `IDebugProperty2` может представлять все, имеющее иерархическую структуру, с родительскими и дочерними узлами.
 
  Свойство обычно является транзитным, исходящим только до текущего кадра стека, например. С другой стороны, ссылка, представленная интерфейсом [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) , продолжается до тех пор, пока значение остается в памяти.
@@ -77,7 +77,7 @@ IDebugProperty2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md)
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - interop assemblies, determining command status
 - command handling with interop assemblies, status
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5473fffa00723735b022412e7f37f184e043df4b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ef6940aef83ad3865385b4e39fd9cfd62b8866d7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963449"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090906"
 ---
 # <a name="determine-command-status-by-using-interop-assemblies"></a>Определение состояния команды с помощью сборок взаимодействия
 Пакет VSPackage должен отследить состояние команд, которые он может выполнять. Среда не может определить, когда команда, обрабатываемая в VSPackage, станет включенной или отключенной. Пакет VSPackage служит для информирования среды о состояниях команд, например о состоянии общих команд, таких как **вырезание**, **копирование** и **Вставка**.
@@ -35,6 +35,6 @@ ms.locfileid: "99963449"
 ## <a name="status-notification-failure"></a>Сбой уведомления о состоянии
  Сбой VSPackage для уведомления среды об изменении состояния команды может привести к непротиворечивости пользовательского интерфейса. Помните, что любое из меню или команд контекстного меню может быть размещено пользователем на панели инструментов. Поэтому обновление пользовательского интерфейса происходит только при открытии меню или контекстного меню.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Как пакеты VSPackage добавляют элементы пользовательского интерфейса](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Реализация](../../extensibility/internals/command-implementation.md)

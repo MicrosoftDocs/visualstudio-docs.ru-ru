@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - attach views to document data
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 97926070bd06e4e8a99a4d6b2fe59e4ea57233ef
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8a034fc1c7cded7de4ead38cfba5d3410341c95d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99929229"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057420"
 ---
 # <a name="how-to-attach-views-to-document-data"></a>Как присоединить представления к данным документа
 Если у вас есть новое представление документа, вы можете присоединить его к существующему объекту данных документа.
@@ -44,6 +44,6 @@ ms.locfileid: "99929229"
 ## <a name="robust-programming"></a>Отказоустойчивость
  Когда Visual Studio вызывает реализацию <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> метода, он передает указатель на существующий объект данных документа в `punkDocDataExisting` параметре, если он существует. Изучите объект данных документа, возвращенный в `punkDocDataExisting` , чтобы определить, подходит ли объект данных документа для редактора, как описано в шаге 4 процедуры, описанной в этом разделе. Если это уместно, Фабрика редактора должна предоставить второе представление для данных, как описано в статье [Поддержка нескольких представлений документов](../extensibility/supporting-multiple-document-views.md). В противном случае он должен отобразить соответствующее сообщение об ошибке.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Поддержка нескольких представлений документов](../extensibility/supporting-multiple-document-views.md)
 - [Данные документа и представление документа в пользовательских редакторах](../extensibility/document-data-and-document-view-in-custom-editors.md)

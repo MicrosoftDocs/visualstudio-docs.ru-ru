@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
 ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3fe647d8a5a4bf3485b1d7b9f7b9699997bf3da6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 869f0997ee166b9b7eb29c1a313854437d670ee4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965438"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057823"
 ---
 # <a name="type-visualizer-and-custom-viewer"></a>Визуализатор типов и пользовательское средство просмотра
 Визуализатор типов — это компонент, отображающий фрагмент данных в определенном формате. Формат полностью зависит от того, кто реализует визуализатор, является ли он конечным пользователем или сторонним поставщиком визуализаторов.
@@ -31,7 +31,7 @@ ms.locfileid: "99965438"
 ## <a name="support-for-custom-viewers-in-an-expression-evaluator"></a>Поддержка пользовательских средств просмотра в вычислителе выражений
  EE также может поддерживать пользовательские средства просмотра, в которых сам EE предоставляет код для просмотра типа данных. Пользовательское средство просмотра реализует интерфейс [идебугкустомвиевер](../../extensibility/debugger/reference/idebugcustomviewer.md) , который обрабатывает все обязанности по отображению данных в любом нужном формате. средство просмотра имеет полный контроль над отображением и даже позволяет изменять данные. Любые пользовательские средства просмотра, предоставляемые EE, поставляются вместе с EE при отгрузке продукта.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Компоненты отладчика](../../extensibility/debugger/debugger-components.md)
 - [Средство оценки выражений](../../extensibility/debugger/expression-evaluator.md)
 - [Модуль отладки](../../extensibility/debugger/debug-engine.md)

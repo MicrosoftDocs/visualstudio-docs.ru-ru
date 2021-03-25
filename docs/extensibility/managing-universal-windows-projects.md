@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 03d4fbd509cbbb408bdcd0465ba4460f8c3b1e9f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8af418d8ffcaad18aca4497078f4e24f9bb679fd
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943248"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090646"
 ---
 # <a name="manage-universal-windows-projects"></a>Управление универсальными проектами Windows
 
@@ -31,7 +31,7 @@ ms.locfileid: "99943248"
 
 2. Добавьте ссылку на *Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll* и *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll* (в разделе **Extensions** ).
 
-3. Откройте *TestUniversalProject.CS* и добавьте следующие `using` директивы:
+3. Откройте *тестуниверсалпрожект. CS* и добавьте следующие `using` директивы:
 
     ```csharp
     using EnvDTE;
@@ -425,9 +425,9 @@ ms.locfileid: "99943248"
 
       В этой процедуре прослушиватель событий добавляется в общий проект и проект платформы. Затем при переименовании одного файла в общем проекте и другом файле в проекте платформы можно просмотреть события, которые запускаются для каждой операции переименования.
 
-2. Добавьте прослушиватель событий. Добавьте в проект новый файл класса и вызовите его *HierarchyEventListener.CS*.
+2. Добавьте прослушиватель событий. Добавьте в проект новый файл класса и вызовите его *хиерарчевентлистенер. CS*.
 
-3. Откройте файл *HierarchyEventListener.CS* и добавьте следующие директивы using:
+3. Откройте файл *хиерарчевентлистенер. CS* и добавьте следующие директивы using:
 
    ```csharp
    using Microsoft.VisualStudio.Shell.Interop;
@@ -551,7 +551,7 @@ ms.locfileid: "99943248"
     this.ModifyFileNameInProject(sharedHier, fullPath);
     ```
 
-11. Постройте и запустите проект. Создайте приложение универсального концентратора C# в экспериментальном экземпляре, откройте меню **Сервис** и выберите команду **вызвать тестуниверсалпрожект** и проверьте текст в области вывода общие. Необходимо изменить имя первого элемента в общем проекте (предполагается, что он будет файлом *app. XAML* ), и вы увидите, что <xref:EnvDTE.ProjectItemsEventsClass.ItemRenamed> событие запущено. В этом случае, поскольку при переименовании файла *app. xaml* *app.XAML.CS* также должны отображаться четыре события (два для каждого проекта платформы). (События DTE не отслеживания элементов в общем проекте.) Вы должны увидеть два <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemDeleted%2A> события (по одному для каждого проекта платформы), но не <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemAdded%2A> события.
+11. Постройте и запустите проект. Создайте приложение универсального концентратора C# в экспериментальном экземпляре, откройте меню **Сервис** и выберите команду **вызвать тестуниверсалпрожект** и проверьте текст в области вывода общие. Необходимо изменить имя первого элемента в общем проекте (предполагается, что он будет файлом *app. XAML* ), и вы увидите, что <xref:EnvDTE.ProjectItemsEventsClass.ItemRenamed> событие запущено. В этом случае, так как при переименовании *app. XAML* будет также выполнено переименование *app. XAML. CS* , вы увидите четыре события (по два для каждого проекта платформы). (События DTE не отслеживания элементов в общем проекте.) Вы должны увидеть два <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemDeleted%2A> события (по одному для каждого проекта платформы), но не <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemAdded%2A> события.
 
 12. Теперь попробуем переименовать файл в проекте платформы, и вы увидите разницу в возможностях событий. Добавьте следующий код в `ShowMessageBox` после вызова `ModifyFileName` .
 

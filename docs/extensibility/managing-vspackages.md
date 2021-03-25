@@ -10,17 +10,17 @@ helpviewer_keywords:
 - delay loading
 - VSPackages, loading
 ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b0e3b95ee3c715eb21028b6c156b7a62ea82d41
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a62581e036b70a10db533dc46d0787cd558afe29
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943222"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090633"
 ---
 # <a name="manage-vspackages"></a>Управление пакетами VSPackage
 В большинстве случаев вам не нужно беспокоиться об управлении пакетами VSPackage, так как шаблоны проектов и элементов регистрируются и загружаются автоматически. Однако в некоторых случаях для управления пакетом может потребоваться несколько дополнительных изучений.
@@ -46,5 +46,5 @@ ms.locfileid: "99943222"
 ## <a name="troubleshoot-vspackages"></a>Устранение неполадок пакетов VSPackage
  Узнайте о методах устранения неполадок пакетов VSPackage, которые не загружаются или в которых возникают ошибки: [Устранение неполадок пакетов VSPackage](../extensibility/troubleshooting-vspackages.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../extensibility/internals/vspackages.md)

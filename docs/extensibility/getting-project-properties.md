@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project properties, displaying in tool window
 - tool windows, displaying project properties
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e89a19ee51a62e8d92c0ec8984e912703e2b92b5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8de3f32951cb70b8115781ce067950c7e518b102
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968194"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057667"
 ---
 # <a name="get-project-properties"></a>Получение свойств проекта
 
@@ -38,7 +38,7 @@ ms.locfileid: "99968194"
 
 ### <a name="to-display-project-properties-in-a-tool-window"></a>Отображение свойств проекта в окне инструментов
 
-1. В файле ProjectPropertiesToolWindowCommand.cs добавьте следующие директивы using.
+1. В файле Прожектпропертиестулвиндовкомманд. cs добавьте следующие директивы using.
 
     ```csharp
     using EnvDTE;
@@ -46,9 +46,9 @@ ms.locfileid: "99968194"
 
     ```
 
-2. В *прожектпропертиестулвиндовконтрол. XAML* удалите существующую кнопку и добавьте TreeView из панели элементов. Кроме того, можно удалить обработчик событий щелчка из файла *ProjectPropertiesToolWindowControl.XAML.CS* .
+2. В *прожектпропертиестулвиндовконтрол. XAML* удалите существующую кнопку и добавьте TreeView из панели элементов. Можно также удалить обработчик событий щелчка из файла *прожектпропертиестулвиндовконтрол. XAML. CS* .
 
-3. В *ProjectPropertiesToolWindowCommand.CS* используйте метод, `ShowToolWindow()` чтобы открыть проект и прочитать его свойства, а затем добавьте свойства в TreeView. Код для Шовтулвиндов должен выглядеть следующим образом:
+3. В *прожектпропертиестулвиндовкомманд. CS* используйте метод, `ShowToolWindow()` чтобы открыть проект и прочитать его свойства, а затем добавьте свойства в TreeView. Код для Шовтулвиндов должен выглядеть следующим образом:
 
     ```csharp
     private void ShowToolWindow(object sender, EventArgs e)

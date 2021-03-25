@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - tool windows, dynamic
 ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1998091559f78ed7c7eb8d9585206cf0217d8b2d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 357644f67da9a3bbc468d708cf39e44f737dbf0f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99946596"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090425"
 ---
 # <a name="open-a-dynamic-tool-window"></a>Открытие динамического окна инструментов
 Окна инструментов обычно открываются из команды меню или эквивалентного сочетания клавиш. Иногда может потребоваться окно инструментов, которое открывается каждый раз, когда применяется конкретный контекст пользовательского интерфейса, и закрывается, когда контекст пользовательского интерфейса больше не применяется. Эти типы окон инструментов называются *динамическими* или *видимыми*.
@@ -34,9 +34,9 @@ ms.locfileid: "99946596"
 
 ## <a name="to-open-a-dynamic-tool-window"></a>Открытие динамического окна инструментов
 
-1. Создайте проект VSIX с именем **динамиктулвиндов** и добавьте шаблон элемента окна инструментов с именем *DynamicWindowPane.CS*. Дополнительные сведения см. в разделе [Создание расширения с помощью окна инструментов](../extensibility/creating-an-extension-with-a-tool-window.md).
+1. Создайте проект VSIX с именем **динамиктулвиндов** и добавьте шаблон элемента окна инструментов с именем *динамиквиндовпане. CS*. Дополнительные сведения см. в разделе [Создание расширения с помощью окна инструментов](../extensibility/creating-an-extension-with-a-tool-window.md).
 
-2. В файле *DynamicWindowPanePackage.CS* найдите объявление динамиквиндовпанепаккаже. Добавьте <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> атрибуты и <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute> для регистрации окна инструментов.
+2. В файле *динамиквиндовпанепаккаже. CS* найдите объявление динамиквиндовпанепаккаже. Добавьте <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> атрибуты и <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute> для регистрации окна инструментов.
 
     ```vb
     [ProvideToolWindow(typeof(DynamicWindowPane)]

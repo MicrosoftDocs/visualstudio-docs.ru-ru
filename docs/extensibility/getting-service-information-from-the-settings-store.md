@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 57a273d994e6b8a4b34a139ab98713cc8c6cd83b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1a39987e13ed3af4bc19c3a80baf0049467daf3a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968129"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057654"
 ---
 # <a name="get-service-information-from-the-settings-store"></a>Получение сведений о службе из хранилища параметров
 С помощью хранилища параметров можно найти все доступные службы или определить, установлена ли определенная служба. Необходимо иметь представление о типе класса службы.
@@ -24,7 +24,7 @@ ms.locfileid: "99968129"
 
 1. Создайте проект VSIX с именем `FindServicesExtension` , а затем добавьте пользовательскую команду с именем `FindServicesCommand` . Дополнительные сведения о создании пользовательской команды см. в разделе [Создание расширения с помощью команды меню](../extensibility/creating-an-extension-with-a-menu-command.md) .
 
-2. В *FindServicesCommand.CS* добавьте следующие директивы using:
+2. В *финдсервицескомманд. CS* добавьте следующие директивы using:
 
     ```csharp
     using System.Collections.Generic;

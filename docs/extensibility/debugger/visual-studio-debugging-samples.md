@@ -9,17 +9,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], samples
 - Debugging SDK, samples
 ms.assetid: fbcc42a7-7851-487f-b981-8c4ae7ec7347
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 55927f75f8d47b278809ec13acd621dbfac1cba4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3fce37ed432e4adfe266490766050fe777809b74
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965386"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057706"
 ---
 # <a name="visual-studio-debugging-samples"></a>Примеры отладки Visual Studio
 В двух примерах показано, как расширить отладчик Visual Studio с помощью [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] .

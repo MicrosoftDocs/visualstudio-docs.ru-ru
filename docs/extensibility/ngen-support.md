@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: conceptual
 ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: cc674fbc8930415584eb5bed64f8c9cc67e0a8a2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0f8de3b662875a4af0423930eecfdd77e4e05b08
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99886656"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090594"
 ---
 # <a name="ngen-support-in-vsix-v3"></a>Поддержка NGen в VSIX v3
 

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - source control plug-ins, MSSCCPRJ.SCC file
 - MSSCCPRJ.SCC file
 ms.assetid: 6f2e39d6-b79d-407e-976f-b62a3cedd378
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f55e99d9df10ef2f96761a9436597d227cf0cd93
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 945d1a4d1acde0ac3fef9918123f963cf27127f1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99886695"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090555"
 ---
 # <a name="mssccprjscc-file"></a>МССККПРЖ. Файл SCC
 При помещении решения или проекта Visual Studio в систему управления версиями с помощью интегрированной среды разработки среда IDE получает два ключевых фрагмента информации. Эти сведения поступают из подключаемого модуля системы управления версиями в виде строк. Эти строки "Аукспас" и "ProjName" непрозрачны для интегрированной среды разработки, но они используются подключаемым модулем для нахождение решения или проекта в системе управления версиями. Интегрированная среда разработки обычно получает эти строки в первый раз, вызывая [сккжетпрожпас](../extensibility/sccgetprojpath-function.md), а затем сохраняет их в файле решения или проекта для будущих вызовов [сккопенпрожект](../extensibility/sccopenproject-function.md). При внедрении в файлы решения и проекта строки "Аукспас" и "ProjName" не обновляются автоматически при подразделении, разветвлении или копировании файлов решения и проекта в системе управления версиями. Чтобы убедиться, что файлы решения и проекта указывают на правильное расположение в системе управления версиями, пользователи должны вручную обновить строки. Так как строки должны быть непрозрачными, возможно, не всегда ясно, как их следует обновлять.
@@ -74,6 +74,6 @@ ms.locfileid: "99886695"
 
  В этом разделе нет конечного разделителя. Имя файла, а также все литералы, отображаемые в файле, определяются в файле заголовка SCC. h. Дополнительные сведения см. [в разделе строки, используемые в качестве ключей для поиска подключаемого модуля системы управления версиями](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подключаемые модули системы управления версиями](../extensibility/source-control-plug-ins.md)
 - [Строки, используемые в качестве ключей для поиска подключаемого модуля системы управления версиями](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)

@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 04/02/2018
 ms.topic: conceptual
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e12c418365ad7127823a115aa1ed66b06ff6e156
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4579f148d2e27961fe1c579ffe3583e0e6be806c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945816"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057602"
 ---
 # <a name="get-started-with-roslyn-analyzers"></a>Начало работы с анализаторами Roslyn
 
@@ -33,7 +33,7 @@ ms.locfileid: "99945816"
 
 [Несколько примеров на сайте GitHub, сгруппированных в три вида анализаторов](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Справочник по версии пакета платформы компилятора .NET](roslyn-version-support.md)
 - [Дополнительные документы на сайте OSS для GitHub](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)

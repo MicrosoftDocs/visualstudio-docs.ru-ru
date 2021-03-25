@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - THREADPROPERTY_FIELDS enumeration
 ms.assetid: 5b88acb9-03ea-4c29-a788-f0087dccbe23
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 698c803304cf5efd3375b6d49e4dedbc4622f4c1
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 81d185a80761e42e706dc3ef36da056bb37b0b1c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221838"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070873"
 ---
 # <a name="threadproperty_fields"></a>THREADPROPERTY_FIELDS
 Указывает, какие сведения о потоке необходимо получить.
@@ -75,7 +75,7 @@ public enum enum_THREADPROPERTY_FIELDS {
  `TPF_ALLFIELDS`\
  Задает все поля.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эти значения передаются в качестве аргумента в метод [жетсреадпропертиес](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) , чтобы указать, какие поля структуры [среадпропертиес](../../../extensibility/debugger/reference/threadproperties.md) должны быть инициализированы.
 
  Эти значения также используются в `dwFields` члене `THREADPROPERTIES` структуры для указания того, какие поля используются и являются допустимыми.

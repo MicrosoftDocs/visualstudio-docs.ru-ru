@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio SDK, VSIX project template
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 231b7e1595a7674280a56b4655643c2b77baeb85
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 56573ee1add273c76ab96657c74207c3e2b620c3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945803"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057641"
 ---
 # <a name="get-started-with-the-vsix-project-template"></a>Начало работы с шаблоном проекта VSIX
 

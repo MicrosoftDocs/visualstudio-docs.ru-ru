@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - objects, interfaces
 ms.assetid: 8a5ab7a4-3668-4f78-9c08-04c5af7090f2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: abee929ecb92605d9fd6dd576ecdf63a124349db
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dba3e410934211e72599a30fff02f875c288c33c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926889"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090412"
 ---
 # <a name="objects"></a>Объекты
 Ниже приведены справочные сведения об объектах, которые используются для создания экземпляра текстового редактора.

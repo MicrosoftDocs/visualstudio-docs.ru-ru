@@ -10,17 +10,17 @@ helpviewer_keywords:
 - package dll
 - vsix reference
 ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: cb035f9174085667eb229ab5003d8f997eaae84a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 48c6ac0abd5ffb6c36dc894829e29c9304563a5e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953036"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057407"
 ---
 # <a name="how-to-add-a-dependency-to-a-vsix-package"></a>Как добавить зависимость в пакет VSIX
 
@@ -48,7 +48,7 @@ ms.locfileid: "99953036"
 
 Всиксинсталлер обнаружит более ранние версии Visual Studio и сообщит пользователю о необходимости последующего обновления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Справочник по схеме расширения VSIX 1,0](/previous-versions/dd393700(v=vs.110))
 - [Анатомия пакета VSIX](../extensibility/anatomy-of-a-vsix-package.md)

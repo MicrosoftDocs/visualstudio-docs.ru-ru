@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSPackages, debugging
 - VSPackages, troubleshooting
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6f2fa3bec68a40ca2157281205781900b6f4d050
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f02a8dd1497680239db9363a2e0682082f0c68d8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883354"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057342"
 ---
 # <a name="how-to-use-the-activity-log"></a>Как использовать журнал действий
 Пакеты VSPackage могут записывать сообщения в журнал действий. Эта функция особенно полезна для отладки пакетов VSPackage в розничных средах.
@@ -64,7 +64,7 @@ ms.locfileid: "99883354"
 
 Журнал действий следует получить непосредственно перед записью в него. Не кэшировать или не сохраняйте журнал действий для будущего использования.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>
