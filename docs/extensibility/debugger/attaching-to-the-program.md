@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
 ms.assetid: 9a3f5b83-60b5-4ef0-91fe-a432105bd066
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5b1f411b6ca79fec85f4557ce379c341942e0b84
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d880edbea79f56cbd2c90905b0bc2f712dba59b1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943478"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055275"
 ---
 # <a name="attach-to-the-program"></a>Присоединение к программе
 После регистрации программ с соответствующим портом необходимо подключить отладчик к программе, которую необходимо отладить.
@@ -59,7 +59,7 @@ ms.locfileid: "99943478"
     > [!NOTE]
     > Это не тот же `IDebugProgram2` объект, который был передан в `IDebugEngine2::Attach` метод. Ранее переданный `IDebugProgram2` объект распознается только портом и является отдельным объектом.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Вложение на основе запуска](../../extensibility/debugger/launch-based-attachment.md)
 - [Отправка событий](../../extensibility/debugger/sending-events.md)
 - [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)

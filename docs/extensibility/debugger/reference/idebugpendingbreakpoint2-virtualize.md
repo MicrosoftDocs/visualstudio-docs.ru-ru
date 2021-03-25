@@ -9,20 +9,20 @@ helpviewer_keywords:
 - Virtualize method
 - IDebugPendingBreakpoint2::Virtualize method
 ms.assetid: 58c8e9a5-4494-47c2-bddb-56f628da6a2d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2ea6d6231a99f730969c44e7ced83cb48d0db4b4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: fa2d3dcab7e5e71140b308dc825417c03e79d356
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102169760"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105084523"
 ---
 # <a name="idebugpendingbreakpoint2virtualize"></a>IDebugPendingBreakpoint2::Virtualize
 Переключает виртуализированное состояние этой ожидающей точки останова. Если ожидающая точка останова виртуализирована, модуль отладки попытается привязать его каждый раз, когда в программу будет загружен новый код.
@@ -48,7 +48,7 @@ int Virtualize(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Возвращает значение `E_BP_DELETED` , если точка останова была удалена.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Виртуальная точка останова привязывается каждый раз при загрузке кода.
 
 ## <a name="example"></a>Пример
@@ -86,5 +86,5 @@ HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

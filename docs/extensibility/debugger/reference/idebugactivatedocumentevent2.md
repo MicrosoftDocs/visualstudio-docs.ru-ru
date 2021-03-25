@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugActivateDocumentEvent2 interface
 ms.assetid: 6f37edd7-a48c-4b41-b160-dff9be63a284
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 557cb86765c06c8589f30a013a1087764f3f909e
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: dbf24620b3dfa508a52463598219be4b2d7439a8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102145460"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094409"
 ---
 # <a name="idebugactivatedocumentevent2"></a>IDebugActivateDocumentEvent2
 Модуль отладки (DE) использует этот интерфейс для запроса загрузки документа.
@@ -43,7 +43,7 @@ IDebugActivateDocumentEvent2 : IUnknown
 |[GetDocument](../../../extensibility/debugger/reference/idebugactivatedocumentevent2-getdocument.md)|Возвращает документ для активации.|
 |[GetDocumentContext](../../../extensibility/debugger/reference/idebugactivatedocumentevent2-getdocumentcontext.md)|Возвращает контекст документа, описывающий расположение в документе.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Типичный сценарий, в котором используется этот интерфейс, заключается в том, что при возникновении ошибки синтаксического анализа в коде скрипта на HTML-странице Скрипт отправит этот интерфейс SDM, чтобы можно было отобразить документ с ошибкой синтаксического анализа.
 
 ## <a name="requirements"></a>Требования
@@ -53,7 +53,7 @@ IDebugActivateDocumentEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

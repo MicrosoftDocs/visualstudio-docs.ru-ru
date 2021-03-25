@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
 ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1b23cd7c09f3eeac2bfe85de882ff42affaa652
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2f261d6492943ab0b0da878097685ae2773ddff4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99920090"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055301"
 ---
 # <a name="attach-directly-to-a-program"></a>Прямое подключение к программе
 Пользователи, которые хотят отлаживать программы в уже запущенном процессе, обычно следуют этому процессу:
@@ -42,6 +42,6 @@ ms.locfileid: "99920090"
 
    Второе исключение заключается в том, что события запуска, отправленные с помощью DE-подключения к уже запущенной программе, обычно не включают в себя событие точки входа.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Отправка событий запуска после запуска](../../extensibility/debugger/sending-startup-events-after-a-launch.md)
 - [Задачи отладки](../../extensibility/debugger/debugging-tasks.md)

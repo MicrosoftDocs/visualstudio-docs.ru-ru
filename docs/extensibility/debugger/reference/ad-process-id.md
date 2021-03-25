@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - AD_PROCESS_ID union
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c56bc1941bcff5d70dbcf0cb3a126c1f434d3f24
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 479a30c85fe16830d49c3d44dc2daea4eed9f31c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144680"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094488"
 ---
 # <a name="ad_process_id"></a>AD_PROCESS_ID
 Указывает идентификатор процесса, который может быть либо системным ИДЕНТИФИКАТОРом, либо идентификатором GUID.
@@ -48,7 +48,7 @@ public struct AD_PROCESS_ID {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `ProcessIdType`\
 Значение из перечисления [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md) , указывающее способ интерпретации `ProcessId` объединения (или для управляемого кода, к которому необходимо получить доступ).
 
@@ -60,7 +60,7 @@ public struct AD_PROCESS_ID {
 
 Заполнение Двунусед.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура передается следующим методам:
 
 - [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)
@@ -84,7 +84,7 @@ public struct AD_PROCESS_ID {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)
 - [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)

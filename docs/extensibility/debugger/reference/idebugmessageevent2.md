@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMessageEvent2 interface
 ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9c84bf93a50ce9a5e530ebb7143d7b1c69f50360
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: c5593e822b974ddb7c666f622192e3e4630b7222
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102172277"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058434"
 ---
 # <a name="idebugmessageevent2"></a>IDebugMessageEvent2
 Этот интерфейс используется модулем отладки (DE) для отправки в Visual Studio сообщения, требующего от пользователя ответа.
@@ -45,7 +45,7 @@ IDebugMessageEvent2 : IUnknown
 |[GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)|Возвращает отображаемое сообщение.|
 |[SetResponse](../../../extensibility/debugger/reference/idebugmessageevent2-setresponse.md)|Задает ответ, если он есть, из окна сообщения.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  DE будет использовать этот интерфейс, если ему требуется определенный ответ от пользователя на определенное сообщение. Например, если после попытки удаленного подключения к программе в DE возвращается сообщение "доступ запрещен", программа отправит это сообщение в Visual Studio в `IDebugMessageEvent2` событии с стилем окна сообщения `MB_RETRYCANCEL` . Это позволяет пользователю повторить попытку или отменить операцию присоединения.
 
  Параметр DE указывает, как должно обрабатываться это сообщение, следуя соглашениям функции Win32 `MessageBox` (Дополнительные сведения см. в [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) ).
@@ -59,8 +59,8 @@ IDebugMessageEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
 - [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md)

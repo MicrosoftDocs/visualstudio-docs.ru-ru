@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2 interface
 ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 04d9795388b2a079d0eb7ac1d787bf92de6cdff4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f6b1c30b2da2862e17a1ebf16cc41008341127c5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165856"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075761"
 ---
 # <a name="idebugreference2"></a>IDebugReference2
 Этот интерфейс представляет ссылку на свойство кадра стека или другое свойство.
@@ -55,7 +55,7 @@ IDebugReference2 : IUnknown
 |[SetReferenceType](../../../extensibility/debugger/reference/idebugreference2-setreferencetype.md)|Задает этот тип ссылки.|
 |[Сравнить](../../../extensibility/debugger/reference/idebugreference2-compare.md)|Сравнивает эту ссылку с другой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!NOTE]
 > Использование "Свойства" не следует путать с тем, что это означает переменную-член класса, хотя `IDebugReference2` может представлять такую сущность.
@@ -73,8 +73,8 @@ IDebugReference2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], launching the debugger
 - debugger [Debugging SDK], launching
 ms.assetid: f24da1a1-f923-48b4-989f-18a22b581d1b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b9f8bc85672fc89205ab25fa9954e1c28e10f859
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 67764a7f59c1b44e7e8cbc7a81befb120c541461
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99926386"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094670"
 ---
 # <a name="launch-the-debugger"></a>Запуск отладчика
 Для запуска отладчика необходимо отправить правильную последовательность методов и событий с соответствующими атрибутами.
@@ -33,7 +33,7 @@ ms.locfileid: "99926386"
 
      Если `S_FALSE` возвращается, подсистема отладки (de) загружается в процесс виртуальной машины.
 
-     -или-
+     или
 
      Если `S_OK` возвращает, то de загружается в процессе SDM. Затем SDM выполняет следующие задачи:
 
@@ -53,6 +53,6 @@ ms.locfileid: "99926386"
 
 8. Параметр DE отправляет [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) в SDM с `EVENT_SYNC` атрибутом.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Вызов событий отладчика](../../extensibility/debugger/calling-debugger-events.md)
 - [Запуск программы](../../extensibility/debugger/launching-a-program.md)

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - expression evaluators, architecture
 - debugging [Debugging SDK], expression evaluators
 ms.assetid: aad7c4c6-1dc1-4d32-b975-f1fdf76bdeda
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ac81d386f0e1104879701faba230d5384259fa25
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 31b382f4765a115657fb213f39530e88e4008c95
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921405"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094735"
 ---
 # <a name="expression-evaluator-architecture"></a>Архитектура средства оценки выражений
 > [!IMPORTANT]
@@ -39,7 +39,7 @@ ms.locfileid: "99921405"
 ### <a name="evaluate-the-expression"></a>Вычисление выражения
  Visual Studio вызывает либо [евалуатесинк](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) , либо [евалуатеасинк](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) для вычисления проанализированного выражения. Оба эти метода вызывают [евалуатесинк](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) ( `IDebugExpression2::EvaluateSync` вызывает метод немедленно, в то время как `IDebugExpression2::EvaluateAsync` вызывает метод через фоновый поток) для вычисления проанализированного выражения и возврата интерфейса [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) , представляющего значение и тип проанализированного выражения. `IDebugParsedExpression::EvaluateSync` использует предоставленную SH, Address и BINDER для преобразования проанализированного выражения в фактическое значение, представленное `IDebugProperty2` интерфейсом.
 
-### <a name="for-example"></a>Например.
+### <a name="for-example"></a>Например:
  После попадания точки останова в работающую программу пользователь выбирает просмотр переменной в диалоговом окне **Быстрая проверка** . В этом диалоговом окне отображается имя переменной, ее значение и тип. Обычно пользователь может изменить значение.
 
  При отображении диалогового окна **Быстрая проверка** имя проверяемой переменной отправляется в виде текста в [парсетекст](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md). Он возвращает объект [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) , представляющий проанализированное выражение, в данном случае — переменную. Затем вызывается [евалуатесинк](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) для создания `IDebugProperty2` объекта, представляющего значение и тип переменной, а также ее имя. Эти сведения отображаются.
@@ -53,7 +53,7 @@ ms.locfileid: "99921405"
 
  [Интерфейсы средства оценки ключевых выражений](../../extensibility/debugger/key-expression-evaluator-interfaces.md) Описывает ключевые интерфейсы, необходимые при записи EE, а также контекст оценки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Написание вычислителя выражений CLR](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Отображение локальных переменных](../../extensibility/debugger/displaying-locals.md)
 - [Изменение значения локального](../../extensibility/debugger/changing-the-value-of-a-local.md)

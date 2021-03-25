@@ -10,17 +10,17 @@ helpviewer_keywords:
 - cascading submenus
 - menus, creating cascading submenus
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b784cae836f1a5cae520a9650c8f396ccc960a72
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cc6d521e699beb2345ba76e2e617ff749886eee9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951515"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094904"
 ---
 # <a name="add-a-submenu-to-a-menu"></a>Добавление подменю в меню
 В этом пошаговом руководстве показано, как добавить [меню в строку меню Visual Studio](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) , показывая, как добавить подменю в меню **тестмену** .
@@ -85,7 +85,7 @@ ms.locfileid: "99951515"
 
 ## <a name="add-a-command"></a>Добавление команды
 
-1. Откройте *TestCommand.CS* и добавьте следующий идентификатор команды после существующего идентификатора команды.
+1. Откройте *тесткомманд. CS* и добавьте следующий идентификатор команды после существующего идентификатора команды.
 
     ```csharp
     public const int cmdidTestSubCmd = 0x0105;
@@ -155,7 +155,7 @@ ms.locfileid: "99951515"
 
 5. В меню **тестмену** щелкните **подменю** , а затем выберите команду **Test подзадач**. Появится окно сообщения, в котором отобразится текст "команда теста внутри Тесткомманд. Субитемкаллбакк ()".
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Добавление меню в строку меню Visual Studio](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
 - [Команды, меню и панели инструментов](../extensibility/internals/commands-menus-and-toolbars.md)

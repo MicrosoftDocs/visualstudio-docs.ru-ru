@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - breakpoints
 ms.assetid: acfcabed-9f2f-436c-ad18-7ca2f45d631b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fa9f244ec60e336e9a7596ff839842211d516b7d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b834d9b80d8abca12ea9230d3b451fb4e251859e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930815"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055210"
 ---
 # <a name="breakpoints-visual-studio-sdk"></a>Точки останова (пакет SDK для Visual Studio)
 Существует три типа точек останова: ожидание, привязка и ошибка.
@@ -46,7 +46,7 @@ ms.locfileid: "99930815"
 
 - Представляется интерфейсом [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Programs](../../extensibility/debugger/programs.md)
 - [Основные понятия отладчика](../../extensibility/debugger/debugger-concepts.md)
 - [Контекст кода](../../extensibility/debugger/code-context.md)

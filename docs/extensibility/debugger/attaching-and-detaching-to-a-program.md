@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debug engines, attaching to programs
 - debug engines, detaching from programs
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d41f9e3f88f28dbbb83e9c7e00fe8b8afd434c26
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fb51cb3e6c16916e3778dde06fb2ac274608ed70
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837753"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055314"
 ---
 # <a name="attaching-and-detaching-to-a-program"></a>Присоединение и отсоединение программы
 Для подключения отладчика необходимо отправить правильную последовательность методов и событий с соответствующими атрибутами.
@@ -51,5 +51,5 @@ ms.locfileid: "99837753"
 
 6. Параметр DE отправляет [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Вызов событий отладчика](../../extensibility/debugger/calling-debugger-events.md)

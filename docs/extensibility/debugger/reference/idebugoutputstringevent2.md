@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugOutputStringEvent2 interface
 ms.assetid: 86596fd1-cecc-4813-8add-dc3d70068f9b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 604eace2f5f4be7a35b6f4b736722b435cf06928
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 4576914ada9a575569ce09c120dbbd9bc11fdfa9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102169955"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105084653"
 ---
 # <a name="idebugoutputstringevent2"></a>IDebugOutputStringEvent2
 Этот интерфейс отправляется модулем отладки (DE) в Диспетчер отладки сеансов (SDM) для вывода строки.
@@ -42,7 +42,7 @@ IDebugOutputStringEvent2 : IUnknown
 |------------|-----------------|
 |[GetString](../../../extensibility/debugger/reference/idebugoutputstringevent2-getstring.md)|Возвращает отображаемое сообщение.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Например, в неуправляемом коде строка для вывода может быть создана, когда отлаживаемая программа отправляет строку в `OutputDebugString` функцию Win32. Эта строка перехватывается методом DE и отправляется в SDM в качестве `IDebugOutputStringEvent2` события.
 
  Используйте [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md) для отправки сообщения, требующего ответа пользователя.
@@ -56,7 +56,7 @@ IDebugOutputStringEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)
 - [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

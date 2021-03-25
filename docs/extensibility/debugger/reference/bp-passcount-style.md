@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_PASSCOUNT_STYLE structure
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e216b61d6fed41571baa7f68201d96f84532fc3a
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 39a0dba08aa74386c442a7732b6522d8ee27652c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144173"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094475"
 ---
 # <a name="bp_passcount_style"></a>BP_PASSCOUNT_STYLE
 Указывает условие, связанное с числом проходов точки останова, которое вызывает срабатывание точки останова.
@@ -60,7 +60,7 @@ public enum enum_BP_PASSCOUNT_STYLE {
 `BP_PASSCOUNT_MOD`\
 Указывает число проходов по модулю. Например, если число проходов имеет тип, `BP_PASSCOUNT_MOD` а значение счетчика Pass равно 4, то точка останова срабатывает каждый раз, когда число попаданий кратно 4.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Используется для `stylePassCount` элемента структуры [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) , которая в свою очередь является членом структур [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) и [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) .
 
 ## <a name="requirements"></a>Требования

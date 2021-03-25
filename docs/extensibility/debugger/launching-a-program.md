@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debug engines, launching
 - programs, launching
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: de29b012914ac9997a78674fd3215f2c15d43c6e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a21036d3a9661306d1efff5a66ae47f8f7404209
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945920"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094722"
 ---
 # <a name="launch-a-program"></a>Запуск программы
 Пользователи, желающие выполнить отладку программы, могут нажать клавишу **F5** , чтобы запустить отладчик из интегрированной среды разработки. Это запускает серию событий, которые в конечном итоге присоединяются к подсистеме отладки (DE), которая в свою очередь подключена или подключена к программе следующим образом:
@@ -27,7 +27,7 @@ ms.locfileid: "99945920"
 
 2. Если указан параметр DE, то метод DE вызывает операционную систему для запуска программы. Как следствие запуска программы, среда выполнения программы загружается. Например, если программа написана на языке MSIL, для запуска программы будет вызвана среда CLR.
 
-    -или-
+    или
 
     Если параметр DE не указан, порт вызывает операционную систему для запуска программы, что приводит к загрузке среды выполнения программы.
 

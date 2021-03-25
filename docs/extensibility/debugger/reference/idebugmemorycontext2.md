@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryContext2 interface
 ms.assetid: 3a544c8b-11dc-46bb-8549-261e4ac5bbc4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 20750397eafa392ee7ad8bd742b0126b1fb9deeb
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 5a967c992fc55065c50dbbe173495e7c1199df59
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102166350"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058486"
 ---
 # <a name="idebugmemorycontext2"></a>IDebugMemoryContext2
 Этот интерфейс представляет собой расположение в адресном пространстве компьютера, на котором выполняется отлаживаемая программа.
@@ -46,7 +46,7 @@ IDebugMemoryContext2 : IUnknown
 |[Subtract](../../../extensibility/debugger/reference/idebugmemorycontext2-subtract.md)|Вычитает указанное значение из адреса текущего контекста, чтобы создать новый контекст.|
 |[Сравнить](../../../extensibility/debugger/reference/idebugmemorycontext2-compare.md)|Сравнивает два контекста способом, указанным в параметре Compare flags.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Окно **памяти** Visual Studio вызывает [жетмемориконтекст](../../../extensibility/debugger/reference/idebugproperty2-getmemorycontext.md) , чтобы получить `IDebugMemoryContext2` интерфейс, содержащий вычисленное выражение, используемое для адреса памяти. Затем этот контекст передается в [реадат](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md) и [вритеат](../../../extensibility/debugger/reference/idebugmemorybytes2-writeat.md) , чтобы указать адрес для чтения или записи.
 
 ## <a name="requirements"></a>Требования
@@ -56,8 +56,8 @@ IDebugMemoryContext2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetMemoryContext](../../../extensibility/debugger/reference/idebugproperty2-getmemorycontext.md)
 - [GetMemoryContext](../../../extensibility/debugger/reference/idebugreference2-getmemorycontext.md)
 - [ReadAt](../../../extensibility/debugger/reference/idebugmemorybytes2-readat.md)

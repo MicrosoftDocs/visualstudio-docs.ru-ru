@@ -7,17 +7,17 @@ ms.topic: overview
 helpviewer_keywords:
 - debugging [Debugging SDK], tasks
 ms.assetid: 5d60e9e8-305e-4a48-829f-b9440fc8af7b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f27bc3f261e66791f41034923989b2cd61e09db6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 69cc1d40b2a0e61c0cf7ad32cb8187d0dad16994
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904774"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094774"
 ---
 # <a name="debug-tasks"></a>Задачи отладки
 Для отладки программы ее необходимо запустить и подключить к ней модуль отладки (DE), или же модуль отладки должен быть подключен к ранее запущенной программе. После подключения модуль отладки должен создать определенные события запуска. В ответ пакет отладки пытается привязать точки останова, заданные в интегрированной среде разработки. Когда программа достигает привязанной точки останова, она останавливается и ожидает ввода пользователя.

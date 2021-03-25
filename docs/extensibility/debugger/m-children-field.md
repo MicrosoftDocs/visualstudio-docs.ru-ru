@@ -6,17 +6,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - m_children field, ContingentProperties class [.NET Framework debug engines]
 ms.assetid: 0a3b5653-7bc0-4a7a-8963-9020bc52b9cb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5aaf29d76a7bbd81a416c86360f315bc5c09b76c
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 90394afd982f22977d3d3ed74850032bfb5634c8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158873"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105094696"
 ---
 # <a name="m_children-field"></a>m_children поле
 Список дочерних задач, зарегистрированных в этой задаче.
@@ -38,5 +38,5 @@ ms.locfileid: "102158873"
 
  Если задача завершена, другие потоки могут получить доступ к этому полю, если они не добавляют ничего в него или не удаляют что-либо из него.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Класс Континжентпропертиес](../../extensibility/debugger/contingentproperties-class-internal-members.md)
