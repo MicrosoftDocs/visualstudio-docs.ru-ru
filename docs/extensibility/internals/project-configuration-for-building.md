@@ -8,17 +8,17 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], configuration for building
 - project configurations, building
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b8891d5e68623312049e60730b0239bf7c06e83c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b817607f765626a6b63693e681306309512fdb7d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954479"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074448"
 ---
 # <a name="project-configuration-for-building"></a>Конфигурация проекта для сборки
 Список конфигураций решения для данного решения управляется с помощью диалогового окна конфигурации решения.
@@ -57,7 +57,7 @@ ms.locfileid: "99954479"
 
  Кроме того, можно указать сетку в окне зависимости проекта. Дополнительные сведения см. в разделе [Свойства отображение сетки](../../extensibility/internals/properties-display-grid.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Управление параметрами конфигурации](../../extensibility/internals/managing-configuration-options.md)
 - [Конфигурация проекта для управления развертыванием](../../extensibility/internals/project-configuration-for-managing-deployment.md)
 - [Конфигурация проекта для вывода](../../extensibility/internals/project-configuration-for-output.md)

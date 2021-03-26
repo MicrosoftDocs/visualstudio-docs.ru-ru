@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_TYPE enumeration
 ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3e310154bc62cdea1fb9069cc868cf9e20335d06
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 23f7b6c42b1c4736ba0eb76a451bb91e74ca5ff5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151109"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089099"
 ---
 # <a name="bp_type"></a>BP_TYPE
 Указывает, находится ли точка останова в расположении кода, является расположением данных или другим типом точки останова.
@@ -60,7 +60,7 @@ public enum enum_BP_TYPE {
 `BPT_SPECIAL`\
 Указывает точку останова, которая не является ни кодом, ни типом данных. Этот тип является устаревшим и не должен использоваться.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Передается в качестве параметра методам [жетбреакпоинттипе](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getbreakpointtype.md) и [жетбреакпоинттипе](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getbreakpointtype.md) .
 
 ## <a name="requirements"></a>Требования

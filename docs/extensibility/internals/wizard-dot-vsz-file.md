@@ -9,17 +9,17 @@ helpviewer_keywords:
 - vsz files
 - wizards, files
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5fa9b9e06ccb20e6a2859770c0637fc85422fd0a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2663a6b05780b16d05b419c00aba904ded848796
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935864"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074240"
 ---
 # <a name="wizard-vsz-file"></a>Файл мастера (VSZ-файл)
 
@@ -38,7 +38,7 @@ Param="WIZARDUI = FALSE"
 
 Ниже приведены части файла VSZ.
 
-|Часть|Описание|
+|Отделение|Описание|
 |----------|-----------------|
 |всвизард|Первый параметр в файле представляет собой номер версии формата файла шаблона. Этот номер версии должен быть 6,0, 7,0, 7,1 или 8,0. Другие числа не могут быть запущены и приводят к ошибке недопустимого формата.|
 |Мастер|Это поле содержит идентификатор ProgID в мастере, а также строковое представление идентификатора CLSID мастера, созданного интегрированной средой разработки.|
@@ -48,8 +48,8 @@ Param="WIZARDUI = FALSE"
 
 Чтобы добавить код локали по умолчанию в VSZ-файл, укажите значение `FALLBACK_LCID` = XXXX, где XXXX — это идентификатор локали, например 1033 для английского языка. Если `FALLBACK_LCID` параметр определен, мастер использует указанный идентификатор языкового стандарта, если текущий идентификатор не найден.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-- [Настраиваемые параметры](../../extensibility/internals/custom-parameters.md)
-- [Мастера](../../extensibility/internals/wizards.md)
+- [Пользовательские параметры](../../extensibility/internals/custom-parameters.md)
+- [Мастеры](../../extensibility/internals/wizards.md)
 - [Файлы описания каталога шаблона (VSDIR-файлы)](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)

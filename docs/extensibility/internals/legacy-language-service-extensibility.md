@@ -8,17 +8,17 @@ helpviewer_keywords:
 - language services
 - Visual Studio, language services
 ms.assetid: 2700cd4d-5f68-43fc-b62f-dc80c3f3aa85
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a6a886cce4140ed31fa7d472de7e78a42d810d49
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f22d6997d932884e5aeb8d794b7884b40a8d5dab
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839655"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074500"
 ---
 # <a name="legacy-language-service-extensibility"></a>Расширяемость языковой службы прежних версий
 Языковая служба предоставляет зависящую от языка поддержку редактирования исходного кода в интегрированной среде разработки.
@@ -27,7 +27,7 @@ ms.locfileid: "99839655"
 
  В этом разделе обсуждается структура и реализация устаревшей языковой службы.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Миграция языковой службы прежних версий](../../extensibility/internals/migrating-a-legacy-language-service.md)
 
  В этой статье объясняется, как обновить языковую службу с Visual Studio 2008 до последней версии.

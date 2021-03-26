@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], providing wizard support
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 828a08cfe2841595e0ed3a9f1e3d79973a6e6756
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b5c5cb9649689f711844f97e0b57ab23248e9a00
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943385"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074162"
 ---
 # <a name="wizards"></a>Мастера
 После создания мастера обычно требуется добавить его в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированную среду разработки (IDE), чтобы другие пользователи могли его использовать. Добавленный мастер отобразится в диалоговых окнах **Добавление нового проекта** или **Добавление нового элемента** . Чтобы открыть диалоговое окно **Добавление нового проекта** или **Добавление нового элемента** , щелкните правой кнопкой мыши открытое решение в **Обозреватель решений**, выберите команду **Добавить**, а затем — **Новый проект** или **новый элемент**.
@@ -30,7 +30,7 @@ ms.locfileid: "99943385"
 
  В подразделах этого раздела обсуждаются файлы, которые вы реализуете для [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] создания диалоговых окон **Добавление нового проекта** и **Добавление нового элемента** для перечисления мастера между доступными мастерами и шаблонами, а также требования, которым должен соответствовать мастер для правильной работы в интегрированной среде разработки.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Файлы описания каталога шаблона (VSDIR-файлы)](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
 
  Содержит обзор файлов описания каталога шаблонов и объясняет, как они работают в интегрированной среде разработки для отображения папок, файлов Wizard. vsz и файлов шаблонов, связанных с проектом в диалоговых окнах.
@@ -47,7 +47,7 @@ ms.locfileid: "99943385"
 
  Объясняет, как реализуются мастера и что происходит, когда интегрированная среда разработки передает контекстные параметры в реализацию.
 
-- [Настраиваемые параметры](../../extensibility/internals/custom-parameters.md)
+- [Пользовательские параметры](../../extensibility/internals/custom-parameters.md)
 
  Объясняется, как использовать пользовательские параметры для управления работой мастера после запуска мастера.
 

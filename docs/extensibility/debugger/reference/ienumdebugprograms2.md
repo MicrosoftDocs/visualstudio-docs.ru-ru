@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPrograms2
 ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b0a593d6168b7d34f97802a0b3b1b0a5c141821
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: d7f9a981146d5e024333f17557f4fdbc3d35bc05
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102224230"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082937"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 Этот интерфейс перечисляет программы, запущенные в текущем сеансе отладки.
@@ -46,7 +46,7 @@ IEnumDebugPrograms2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugprograms2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugprograms2-getcount.md)|Возвращает количество программ в перечислителе.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Visual Studio использует этот интерфейс для:
 
 - Заполните окно " **модули** " (вызвав [енумпрограмс](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) , а затем вызвав [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) для каждой программы).
@@ -64,7 +64,7 @@ IEnumDebugPrograms2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [EnumPrograms](../../../extensibility/debugger/reference/idebugengine2-enumprograms.md)
 - [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)

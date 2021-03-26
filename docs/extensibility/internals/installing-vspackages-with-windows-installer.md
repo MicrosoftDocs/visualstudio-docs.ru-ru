@@ -8,24 +8,24 @@ helpviewer_keywords:
 - installation [Visual Studio SDK], with Windows Installer
 - VSPackages, deploying
 ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c3ab4493d1d3acce3ad28c834136d25264a74180
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1638f6d041dda28ca79492ba2c8e6ef772ce8bc7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839824"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074672"
 ---
 # <a name="installing-vspackages-with-windows-installer"></a>Установка пакетов VSPackage с помощью установщика Windows
 Интеграция пакета VSPackage в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] требует больше, чем просто копирование файлов на компьютер пользователя. Установщик VSPackage должен установить пакет VSPackage и зависимые от него файлы, а также зарегистрировать и интегрировать их в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] . Пакет VSPackage может использовать преимущества функций интеграции, таких как отображение значка на [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] экране-заставке и диалоговом окне о программе.
 
  Файлы Microsoft установщик Windows являются рекомендуемым способом распространения пакетов VSPackage. Простые в использовании пакеты установщик Windows могут работать в любой операционной системе Windows, поддерживаемой [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] . Дополнительные сведения см. в разделе [установщик Windows](/previous-versions/2kt85ked(v=vs.120)).
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Основные сведения об установщике Windows](../../extensibility/internals/windows-installer-basics.md)
 
  Содержит общие сведения о установщик Windows.

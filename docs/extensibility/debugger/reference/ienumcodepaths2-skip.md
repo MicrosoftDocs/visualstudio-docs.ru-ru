@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumCodePaths2::Skip
 ms.assetid: 356472d8-68b2-4b7e-b5f0-1f16d4ee80af
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c05084efe0c4e1fa119b0e76978c4094b87a0d1f
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: bc453d9b12171a3aad070b1b7774ebfabc0d1dc0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102225153"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105083301"
 ---
 # <a name="ienumcodepaths2skip"></a>IEnumCodePaths2::Skip
 Пропускает заданное число элементов.
@@ -47,8 +47,8 @@ int Skip(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK`. Возвращает `S_FALSE` `celt` , если больше числа оставшихся элементов; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Если `celt` задает значение, превышающее число оставшихся элементов, перечисление устанавливается в конец и `S_FALSE` возвращается.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)

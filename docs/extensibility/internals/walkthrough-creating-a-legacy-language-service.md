@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - language services [managed package framework], creating
 ms.assetid: 6a5dd2c2-261b-4efd-a3f4-8fb90b73dc82
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 61f4dfd8068cc44fca97eb5e07ddbf62b21ee1f2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ded5624aed40ac2e878c44fd8dabc7d35c4d1ac8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899908"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074279"
 ---
 # <a name="walkthrough-creating-a-legacy-language-service"></a>Пошаговое руководство. Создание языковой службы прежних версий
 Использование классов языка Managed Package Framework (MPF) для реализации языковой службы в [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] — это просто. Для размещения языковой службы, самой языковой службы и средства синтаксического анализа для вашего языка требуется пакет VSPackage.
@@ -44,11 +44,11 @@ ms.locfileid: "99899908"
 
     Вы можете использовать любое нужное имя. Эти процедуры, описанные здесь, предполагают, что Милангуажепаккаже в качестве имени.
 
-3. Выберите в [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] качестве языка и параметр для создания нового файла ключа. Нажмите кнопку **Далее**.
+3. Выберите в [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] качестве языка и параметр для создания нового файла ключа. Щелкните **Далее**.
 
-4. Введите соответствующие сведения о компании и пакете. Нажмите кнопку **Далее**.
+4. Введите соответствующие сведения о компании и пакете. Щелкните **Далее**.
 
-5. Выберите **команду меню**. Нажмите кнопку **Далее**.
+5. Выберите **команду меню**. Щелкните **Далее**.
 
     Если вы не собираетесь поддерживать фрагменты кода, можно просто нажать кнопку Готово и пропустить следующий шаг.
 
@@ -68,11 +68,11 @@ ms.locfileid: "99899908"
 
 4. Убедитесь, что в списке Шаблоны выбран **класс** .
 
-5. Введите **MyLanguageService.CS** в качестве имени файла класса и нажмите кнопку **Добавить**.
+5. Введите **милангуажесервице. CS** в поле имя файла класса и нажмите кнопку **Добавить**.
 
      Вы можете использовать любое нужное имя. Эти процедуры предполагаются `MyLanguageService` в качестве имени.
 
-6. В файле MyLanguageService.cs добавьте следующие `using` директивы.
+6. В файле Милангуажесервице. cs добавьте следующие `using` директивы.
 
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#1](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_1.cs)]
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#1](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_1.vb)]
@@ -88,7 +88,7 @@ ms.locfileid: "99899908"
 
 ### <a name="register-the-language-service"></a>Регистрация языковой службы
 
-1. Откройте файл MyLanguagePackagePackage.cs и добавьте следующие `using` директивы:
+1. Откройте файл Милангуажепаккажепаккаже. cs и добавьте следующие `using` директивы:
 
      [!code-vb[CreatingALanguageService(ManagedPackageFramework)#3](../../extensibility/internals/codesnippet/VisualBasic/walkthrough-creating-a-legacy-language-service_3.vb)]
      [!code-csharp[CreatingALanguageService(ManagedPackageFramework)#3](../../extensibility/internals/codesnippet/CSharp/walkthrough-creating-a-legacy-language-service_3.cs)]
@@ -132,5 +132,5 @@ ms.locfileid: "99899908"
 
      Например, введите, `public override` чтобы просмотреть список всех методов, которые могут быть переопределены в этом классе.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Реализация языковой службы прежних версий](../../extensibility/internals/implementing-a-legacy-language-service1.md)

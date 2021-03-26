@@ -8,17 +8,17 @@ helpviewer_keywords:
 - shell, Visual Studio
 - Visual Studio, shell
 ms.assetid: cb124ef4-1a6b-4bfe-bfbf-295ef9c07f36
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9ebc01c76c17319ebcfe2b61c06a6f2365a68122
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5dafd90294fd0968c78846d4162c1ff02c584f3f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941623"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074344"
 ---
 # <a name="visual-studio-shell"></a>Visual Studio Shell
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]Оболочка является основным агентом интеграции в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] . Оболочка предоставляет необходимые функции, позволяющие использовать пакеты VSPackage для совместного использования общих служб. Поскольку цель архитектуры заключается в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] том, чтобы направить в пакеты VSPackage основную функциональность, оболочка — это платформа для обеспечения базовой функциональности и поддержки перекрестной связи между компонентами пакетов VSPackage.
@@ -80,7 +80,7 @@ ms.locfileid: "99941623"
 
 - **Панель элементов**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>
 - <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBoundBreakpoint2 interface
 ms.assetid: df33c52e-ded2-48a0-951d-1f36c8fc922e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c2726a2422c49335d9c95e7d500381ad1fdc0108
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: b8a48ffcb3c0409839ec9323679e396a7e23b8f3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102167481"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088826"
 ---
 # <a name="idebugboundbreakpoint2"></a>IDebugBoundBreakpoint2
 Этот интерфейс представляет точку останова, привязанную к расположению кода.
@@ -48,7 +48,7 @@ IDebugBoundBreakpoint2 : IUnknown
 |[SetHitCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-sethitcount.md)|Задает число попаданий для этой привязанной точки останова.|
 |[SetCondition](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setcondition.md)|Задает или изменяет условие, связанное с этой привязанной точкой останова.|
 |[SetPassCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setpasscount.md)|Задает или изменяет число проходов, связанных с этой привязанной точкой останова.|
-|[Удаление](../../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md)|Удаляет точку останова.|
+|[Удалить](../../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md)|Удаляет точку останова.|
 
 ## <a name="requirements"></a>Требования
  Заголовок: мсдбг. h
@@ -57,7 +57,7 @@ IDebugBoundBreakpoint2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [GetBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2-getbreakpoint.md)
 - [Вперед](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-next.md)
 - [Выполняется](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)

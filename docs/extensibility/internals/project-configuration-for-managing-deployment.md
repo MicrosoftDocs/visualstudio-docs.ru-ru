@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project configurations, managing deployment
 - projects [Visual Studio SDK], configuration for managing deployment
 ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ebdc1dc529e73e17ba55a0b4766f11dced4addcb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 589403f126a4fd614911c1deb99e9acd32d1ec7d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893650"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074422"
 ---
 # <a name="project-configuration-for-managing-deployment"></a>Конфигурация проекта для управления развертыванием
 Развертывание — это процесс физического перемещения выходных элементов из процесса сборки в ожидаемое расположение для отладки и установки. Например, веб-приложение может быть построено на локальном компьютере, а затем помещено на сервер.
@@ -39,7 +39,7 @@ ms.locfileid: "99893650"
 
   Конфигурации могут задавать зависимости, влияющие на операции сборки или развертывания. Сборки или развертывания зависимостей — это проекты, которые должны быть созданы или развернуты до или после построения или развертывания конфигураций. Сборки зависимостей между проектами описаны в <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> интерфейсе и развертывают зависимости с помощью <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> интерфейса. Дополнительные сведения см. в разделе [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Управление параметрами конфигурации](../../extensibility/internals/managing-configuration-options.md)
 - [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md)
 - [Конфигурация проекта для вывода](../../extensibility/internals/project-configuration-for-output.md)

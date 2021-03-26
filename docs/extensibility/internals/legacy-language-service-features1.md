@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services [managed package framework]
 ms.assetid: a646e4f0-767d-4cd1-8e1a-9a2aa210a1b7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d34ce48d9543107831ec358a9cf7eeed74d2787b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2bb5169eeb53aa16d0827cdf50cb50d0db34d996
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839668"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074526"
 ---
 # <a name="legacy-language-service-features-1"></a>Функции языковой службы прежних версий 1
 Языковая служба управляемого пакета (MPF) может поддерживать одну или несколько [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] функций, таких как выделение синтаксиса, IntelliSense и проверка точки останова. Каждая функция может быть реализована независимо от других, но для всех требуется средство синтаксического анализа и сканер, за исключением выделения синтаксиса, для которого требуется только сканер.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Парные фигурные скобки в языковой службе прежних версий](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md)
 
  Описывает, что требуется для поддержки сопоставления пар языков, также известных как Парные фигурные скобки.

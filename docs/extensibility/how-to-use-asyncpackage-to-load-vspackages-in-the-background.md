@@ -5,22 +5,22 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 ms.workload:
 - vssdk
-ms.openlocfilehash: e8b5917a42e7083f7357ce76762bf8b51a1b60f9
-ms.sourcegitcommit: d10f37dfdba5d826e7451260c8370fd1efa2c4e4
+ms.openlocfilehash: 516b6797d622a3f88ed1fcd37b87ecd117d4e8a8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96993488"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074825"
 ---
 # <a name="how-to-use-asyncpackage-to-load-vspackages-in-the-background"></a>Как использовать AsyncPackage для загрузки пакетов VSPackage в фоновом режиме
 Загрузка и инициализация пакета VS могут привести к диску ввода-вывода. Если такие операции ввода-вывода выполняются в потоке пользовательского интерфейса, это может привести к проблемам реагирования. Чтобы устранить эту эту необходимость, в Visual Studio 2015 появился  <xref:Microsoft.VisualStudio.Shell.AsyncPackage> класс, позволяющий загружать пакеты в фоновом потоке.
 
 ## <a name="create-an-asyncpackage"></a>Создание AsyncPackage
- Вы можете начать с создания проекта VSIX (**файл**  >  **создать**  >  **проект**  >  **Visual C#**  >  **расширение**  >  **VSIX**) и добавить пакет VSPackage в проект (щелкните правой кнопкой мыши проект и **добавьте**  >  **новый элемент**  >  **C# item**  >  **Extensibility**  >  **Visual Studio** Расширяемость элемента C#). Затем можно создать службы и добавить эти службы в пакет.
+ Вы можете начать с создания проекта VSIX (**файл**  >  **создать**  >  **проект**  >  **Visual C#**  >  **расширение**  >  **VSIX**) и добавить пакет VSPackage в проект (щелкните правой кнопкой мыши проект и **добавьте**  >  **новый элемент**  >    >    >  **Visual Studio** Расширяемость элемента C#). Затем можно создать службы и добавить эти службы в пакет.
 
 1. Создайте производный пакет от <xref:Microsoft.VisualStudio.Shell.AsyncPackage> .
 

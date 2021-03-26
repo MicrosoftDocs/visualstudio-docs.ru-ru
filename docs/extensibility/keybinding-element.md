@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSCT XML schema elements, KeyBindings
 - KeyBinding element (VSCT XML schema)
 ms.assetid: e55a1098-15df-42a9-9f87-e3a99cf437dd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ce96da36a8c6eff0fda71d8a5d077721876ab8b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9162d9b21c54577e48f4dced6ddddd7138c9de66
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943352"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074097"
 ---
 # <a name="keybinding-element"></a>Настраиваемое сочетание клавиш, элемент
 Элемент настраиваемое сочетание клавиш задает сочетания клавиш для команд.
@@ -38,15 +38,15 @@ ms.locfileid: "99943352"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|guid|Обязательный элемент.|
-|идентификатор|Обязательный элемент.|
-|редактор|Обязательный элемент. GUID редактора указывает контекст редактирования, для которого это сочетание клавиш будет активно. Значение области глобальной привязки — "guidVSStd97".|
-|key1|Обязательный элемент. Допустимые значения включают все буквенно-цифровые типабле, а также двузначные шестнадцатеричные значения, начинающиеся с 0x и [VK_constants](/windows/desktop/inputdev/virtual-key-codes).|
-|mod1|Необязательный элемент. Любое сочетание **клавиш CTRL**, **ALT** и **SHIFT** , разделенное пробелом.|
-|key2|Необязательный элемент. Допустимые значения включают все буквенно-цифровые типабле, а также двузначные шестнадцатеричные значения, начинающиеся с 0x и [VK_constants](/windows/desktop/inputdev/virtual-key-codes).|
-|mod2|Необязательный элемент. Любое сочетание **клавиш CTRL**, **ALT** и **SHIFT** , разделенное пробелом.|
-|эмулятор|Необязательный элемент.|
-|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|guid|Обязательный.|
+|идентификатор|Обязательный.|
+|редактор|Обязательный. GUID редактора указывает контекст редактирования, для которого это сочетание клавиш будет активно. Значение области глобальной привязки — "guidVSStd97".|
+|key1|Обязательный. Допустимые значения включают все буквенно-цифровые типабле, а также двузначные шестнадцатеричные значения, начинающиеся с 0x и [VK_constants](/windows/desktop/inputdev/virtual-key-codes).|
+|mod1|Необязательный параметр. Любое сочетание **клавиш CTRL**, **ALT** и **SHIFT** , разделенное пробелом.|
+|key2|Необязательный параметр. Допустимые значения включают все буквенно-цифровые типабле, а также двузначные шестнадцатеричные значения, начинающиеся с 0x и [VK_constants](/windows/desktop/inputdev/virtual-key-codes).|
+|mod2|Необязательный параметр. Любое сочетание **клавиш CTRL**, **ALT** и **SHIFT** , разделенное пробелом.|
+|эмулятор|Необязательный параметр.|
+|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,6 +72,6 @@ ms.locfileid: "99943352"
 </KeyBindings>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Сочетания клавиш, элемент](../extensibility/keybindings-element.md)
 - [Файлы таблицы команд Visual Studio (. vsct)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

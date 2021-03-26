@@ -10,17 +10,17 @@ helpviewer_keywords:
 - SccStatus enumerator
 - file status code enumerator
 ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 981e4e4561db7bc7fb8a9f0ce92522d34e4b34fa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: af2ff3293a55dc76925aedd7a029e1bfdd367186
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874052"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074955"
 ---
 # <a name="file-status-code-enumerator"></a>Перечислитель кода состояния файла
 `SccStatus`Перечислитель содержит именованные постоянные значения, которые определяют состояние файла в системе управления версиями. Это перечисление используется [скккуеринфо](../extensibility/sccqueryinfo-function.md) и `POPLISTFUNC` функцией обратного вызова (Дополнительные сведения см. в разделе [поплистфунк](../extensibility/poplistfunc.md) ).
@@ -50,7 +50,7 @@ enum SccStatus {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
  Не удалось получить состояние SCC_STATUS_INVALID; не полагайтесь на нее.
 
  Файл SCC_STATUS_NOTCONTROLLED не находится в системе управления версиями.
@@ -87,7 +87,7 @@ enum SccStatus {
 
  SCC_STATUS_RESERVED_2 зарезервировано для внутреннего использования.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подключаемые модули системы управления версиями](../extensibility/source-control-plug-ins.md)
 - [SccQueryInfo](../extensibility/sccqueryinfo-function.md)
 - [POPLISTFUNC](../extensibility/poplistfunc.md)

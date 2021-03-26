@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IPropertyProxyEESide interface
 ms.assetid: cf227cf8-39d9-4758-8f7e-a697aebb1926
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 80a295ad68341cfa4675d36b22d5de042078a0a3
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: ce7f950455a6b6a6ae2089e762db1aa02428f6a5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222612"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082402"
 ---
 # <a name="ipropertyproxyeeside"></a>IPropertyProxyEESide
 Этот интерфейс предоставляет методы для просмотра данных в связанном объекте. Этот интерфейс является частью поддержки визуализаторов типов.
@@ -47,7 +47,7 @@ IPropertyProxyEESide : IUnknown
 |[InPlaceUpdateObject](../../../extensibility/debugger/reference/ipropertyproxyeeside-inplaceupdateobject.md)|Создает ссылку на существующее хранилище данных.|
 |[ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)|Извлекает сведения о конкретной сборке в контексте сборки, содержащей этот объект.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Визуализатор типов использует этот интерфейс для доступа к значениям, связанным с объектом, частью которого является этот интерфейс. Доступ к данным осуществляется через интерфейс [иидатастораже](../../../extensibility/debugger/reference/ieedatastorage.md) , который предоставляет представление данных только для чтения.
 
 ## <a name="requirements"></a>Требования
@@ -57,8 +57,8 @@ IPropertyProxyEESide : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [Визуализатор типов и пользовательское средство просмотра](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

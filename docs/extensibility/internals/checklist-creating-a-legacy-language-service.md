@@ -8,17 +8,17 @@ helpviewer_keywords:
 - language services
 - language services, native code
 ms.assetid: 8b73b341-a33a-4ab5-9390-178c9e563d2d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 823d46453ac6ad4a1a5a42c1f7d18a079b39d12d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 111e72714f4afd56b7b53e9cc48329ba6ce68162
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99905864"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074799"
 ---
 # <a name="checklist-create-a-legacy-language-service"></a>Контрольный список: создание языковой службы прежних версий
 В следующем контрольном списке перечислены основные шаги, которые необходимо выполнить, чтобы создать языковую службу для [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] базового редактора. Чтобы интегрировать языковую службу в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] , необходимо создать средство оценки выражений отладки. Дополнительные сведения см. в разделе [написание вычислительных выражений CLR](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) в [расширяемости отладчика Visual Studio](../../extensibility/debugger/visual-studio-debugger-extensibility.md).
@@ -125,6 +125,6 @@ ms.locfileid: "99905864"
 
   - Предоставьте весь контекст пользователя, реализовав <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> интерфейс.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Разработка языковой службы прежних версий](../../extensibility/internals/developing-a-legacy-language-service.md)
 - [Написание вычислителя выражений CLR](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
