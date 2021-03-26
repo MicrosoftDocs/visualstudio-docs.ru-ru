@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_PASSCOUNT structure
 ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9c1e44ede0f39b3d1b33967311365508da6a701d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: afb94436897224bc9c6896a601447e9d9a1c8b6f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144160"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096737"
 ---
 # <a name="bp_passcount"></a>BP_PASSCOUNT
 Описывает количество и условия срабатывания условной точки останова.
@@ -42,14 +42,14 @@ public struct BP_PASSCOUNT {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwPassCount`\
 Количество проходов через точку останова перед ее срабатыванием.
 
 `stylePassCount`\
 Значение из перечисления [BP_PASSCOUNT_STYLE](../../../extensibility/debugger/reference/bp-passcount-style.md) , указывающее стиль числа проходов точки останова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура является членом структуры [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) .
 
 Эта структура также передается в качестве параметра методам[сетпасскаунт](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setpasscount.md) и[сетпасскаунт](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setpasscount.md) .
@@ -61,7 +61,7 @@ public struct BP_PASSCOUNT {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [SetPassCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setpasscount.md)

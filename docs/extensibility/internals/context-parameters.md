@@ -8,17 +8,17 @@ helpviewer_keywords:
 - wizards, context parameters
 - context parameters
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 72d2c6ded39564b91ba4f7b74fe2985aab14a7ce
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 14d60aa31fb586651ea6e2b00a8f8038bfaa42b9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99852639"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057082"
 ---
 # <a name="context-parameters"></a>Контекстные параметры
 В [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE) можно добавлять мастера в диалоговые окна **Новый проект**, **Добавить новый элемент** или **Добавить подпроект** . Добавленные мастера можно найти в меню **файл** или щелкнув правой кнопкой мыши проект в **Обозреватель решений**. Интегрированная среда разработки передает параметры контекста в реализацию мастера. Параметры контекста определяют состояние проекта, когда интегрированная среда разработки вызывает мастер.
@@ -60,10 +60,10 @@ ms.locfileid: "99852639"
 | `InstallationDirectory` | Путь к каталогу [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] установки. |
 | `Silent` | Логическое значение, указывающее, должен ли мастер выполняться автоматически, как если бы было нажато кнопку **Готово** ( `TRUE` ). |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2>
-- [Пользовательские параметры](../../extensibility/internals/custom-parameters.md)
-- [Мастера](../../extensibility/internals/wizards.md)
+- [Настраиваемые параметры](../../extensibility/internals/custom-parameters.md)
+- [Мастеры](../../extensibility/internals/wizards.md)
 - [Файл мастера (VSZ)](../../extensibility/internals/wizard-dot-vsz-file.md)
 - [Параметры контекста для запуска мастеров](/previous-versions/tz690efs(v=vs.140))

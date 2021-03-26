@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project factories
 - projects [Visual Studio SDK], project factories
 ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5e90b12b12589fff89f4df1241eb73504e8bdb74
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 40b7c3fbe5b5b7fd59fe0e57376290181f3e9a20
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99903139"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056807"
 ---
 # <a name="create-project-instances-by-using-project-factories"></a>Создание экземпляров проекта с помощью фабрик проекта
 Типы проектов в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] используют *фабрику проектов* для создания экземпляров объектов Project. Фабрика проектов аналогична фабрике класса Standard для создаваемых COM-объектов. Однако объекты проекта не могут быть созданы одновременно. их можно создать только с помощью фабрики проектов.
@@ -46,7 +46,7 @@ ms.locfileid: "99903139"
 
    Проект также может использовать файлы без файлов и, вместо этого, хранить свое состояние проекта в механизме хранения, отличном от файловой системы, такой как база данных или веб-сервер. В этом случае параметр имени файла, передаваемый в `CreateProject` метод, фактически не является путем файловой системы, а уникальной строкой — URL-адресом для обнаружения данных проекта. Вам не нужно копировать файлы шаблонов, которые передаются в, `CreateProject` чтобы запустить соответствующую последовательность построения для выполнения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterProjectTypes>

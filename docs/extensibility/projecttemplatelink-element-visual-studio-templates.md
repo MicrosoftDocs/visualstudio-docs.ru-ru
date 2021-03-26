@@ -11,17 +11,17 @@ helpviewer_keywords:
 - <ProjectTemplateLink> element [Visual Studio Templates]
 - ProjectTemplateLink element [Visual Studio Templates]
 ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dba5063080fb45c366e7a1b76461b0a0d8978f7d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8f1dc03239481e59d26445161dcd7c0137b18d75
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915152"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068665"
 ---
 # <a name="projecttemplatelink-element-visual-studio-templates"></a>Элемент ProjectTemplateLink (шаблоны Visual Studio)
 Указывает путь к *VSTEMPLATE* -файлу одного проекта в многопроектном шаблоне.

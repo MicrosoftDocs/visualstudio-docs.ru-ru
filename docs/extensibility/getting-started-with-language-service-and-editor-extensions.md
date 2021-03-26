@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 200339b8fc7bbaf524d920ff4a7520c20d09ffc7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1afec04882d5d52bffac509dd1d1202ccf9ea449
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99844636"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057615"
 ---
 # <a name="get-started-with-language-service-and-editor-extensions"></a>Приступая к работе с расширениями языковой службы и редактора
 
@@ -53,9 +53,9 @@ ms.locfileid: "99844636"
 
 - Элементов оформления
 
-- Параметры
+- Варианты
 
-- технология IntelliSense
+- IntelliSense
 
   Дополнительные сведения о точках расширения редактора см. в разделе [точки расширения языковой службы и редактора](../extensibility/language-service-and-editor-extension-points.md).
 
@@ -96,6 +96,6 @@ ms.locfileid: "99844636"
 
 - [Пошаговое руководство. Использование сочетания клавиш с расширением редактора](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Точки расширения языковой службы и редактора](../extensibility/language-service-and-editor-extension-points.md)

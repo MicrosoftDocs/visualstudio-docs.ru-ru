@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccHistory function
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5b7e1cd6fa6d5b9b3a5ab42cd1b4cafec215deca
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 11a3056e34d15e2e04b687a518e86041dc270997
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220577"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063855"
 ---
 # <a name="scchistory-function"></a>Функция SccHistory
 Эта функция отображает журнал указанных файлов.
@@ -75,7 +75,7 @@ SCCRTN SccHistory(
 |SCC_E_PROJNOTOPEN|Проект не был открыт.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой. Не удалось получить журнал файлов.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  В подключаемом модуле системы управления версиями может отображаться собственное диалоговое окно для отображения журнала каждого файла с использованием в `hWnd` качестве родительского окна. Кроме того, можно использовать необязательную функцию обратного вызова текстового вывода, предоставляемую для [сккопенпрожект](../extensibility/sccopenproject-function.md) , если она поддерживается.
 
  Обратите внимание, что при определенных обстоятельствах анализируемый файл может измениться во время выполнения этого вызова. Например, [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] команда History дает пользователю возможность получить старую версию файла. В этом случае подключаемый модуль системы управления версиями возвращает, `SCC_I_RELOAD` чтобы предупредить интегрированную среду разработки о необходимости перезагрузки файла.
@@ -83,6 +83,6 @@ SCCRTN SccHistory(
 > [!NOTE]
 > Если подключаемый модуль системы управления версиями не поддерживает эту функцию для массива файлов, можно отобразить только историю файлов для первого файла.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccOpenProject](../extensibility/sccopenproject-function.md)

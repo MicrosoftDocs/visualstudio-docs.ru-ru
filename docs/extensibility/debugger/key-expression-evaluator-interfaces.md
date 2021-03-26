@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, interfaces
 ms.assetid: 1cac9aa3-0867-4e12-a16e-1e90abbc0fb6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 95c32b76893e0de7f31e56df81bf12c831452bfe
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a3d4ddf94219e389ca327fbe8f8c78604c0221f5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945933"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059734"
 ---
 # <a name="key-expression-evaluator-interfaces"></a>Интерфейсы средства оценки ключевых выражений
 > [!IMPORTANT]
@@ -58,5 +58,5 @@ ms.locfileid: "99945933"
 
      Этот интерфейс представляет значение и его тип и является результатом вычисления выражения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Контекст оценки](../../extensibility/debugger/evaluation-context.md)

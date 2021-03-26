@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], enumerating locals
 - expression evaluation, enumerating locals
 ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 27a42c5c2ce14002802c095363644fa7340e02dd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0acacea8ec19319b7c07ff9d9a549410c57862e0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840630"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097049"
 ---
 # <a name="enumerate-locals"></a>Перечислить локальные переменные
 > [!IMPORTANT]
@@ -247,7 +247,7 @@ STDMETHODIMP CFieldProperty::EnumChildren(
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пример реализации локальных переменных](../../extensibility/debugger/sample-implementation-of-locals.md)
 - [Реализация Жетмесодпроперти](../../extensibility/debugger/implementing-getmethodproperty.md)
 - [Контекст оценки](../../extensibility/debugger/evaluation-context.md)

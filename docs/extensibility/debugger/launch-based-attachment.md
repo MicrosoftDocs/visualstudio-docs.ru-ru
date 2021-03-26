@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debug engines, launching
 - debug engines, attaching to programs
 ms.assetid: 362f00ac-1909-4a3a-bacb-c0ceb5549816
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1f898bcb040b5b46144fd7c4f3fc2260b480872d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fe698d8d1b29f02ae3971fc95a66c4823f7252c7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945946"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059721"
 ---
 # <a name="launch-based-attachment"></a>Вложение на основе запуска
 Вложение на основе запуска для программы является автоматическим. Если процесс, в котором размещается программа, запускается SDM, то во вложении на основе запуска следует путь, аналогичный методу ручного вложения. Дополнительные сведения см. в разделе [Присоединение к программе](../../extensibility/debugger/attaching-to-the-program.md).
@@ -34,6 +34,6 @@ ms.locfileid: "99945946"
 
 4. Отправьте объект события [IDebugThreadCreateEvent2](../../extensibility/debugger/reference/idebugthreadcreateevent2.md) , чтобы УВЕДОМИТь SDM о том, что для запущенного процесса был создан новый поток.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Отправка необходимых событий](../../extensibility/debugger/sending-the-required-events.md)
 - [Включение отладки программы](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

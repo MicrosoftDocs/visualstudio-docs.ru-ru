@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccPopulateDirList function
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 991803511e48e72012c868eaa4b0afbd889b2380
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 5d04fc7796db57dedcf8af495c67876cd4974ab1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221513"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063751"
 ---
 # <a name="sccpopulatedirlist-function"></a>Функция SccPopulateDirList
 Эта функция определяет, какие каталоги и (при необходимости) файлы хранятся в системе управления версиями с учетом списка каталогов для проверки.
@@ -69,10 +69,10 @@ SCCRTN SccPopulateDirList(
 |SCC_OK|Операция успешно завершена.|
 |SCC_E_UNKNOWNERROR|Произошла ошибка.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Функция обратного вызова передается только этим каталогам и (необязательно) именам файлов, фактически находящиеся в репозитории системы управления версиями.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Битовые флаги, используемые конкретными командами](../extensibility/bitflags-used-by-specific-commands.md)
 - [POPDIRLISTFUNC](../extensibility/popdirlistfunc.md)

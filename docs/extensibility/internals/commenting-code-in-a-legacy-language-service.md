@@ -8,17 +8,17 @@ helpviewer_keywords:
 - comments, supporting in language services [managed package framework]
 - language services [managed package framework], commenting code
 ms.assetid: 9600d6f0-e2b6-4fe0-b935-fb32affb97a4
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d53117456318039837a371f68745b4688cbbd087
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c712f1458aa182abcf9e10bee6c6cf90e11b194d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884706"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057108"
 ---
 # <a name="comment-code-in-a-legacy-language-service"></a>Код комментария в языковой службе прежних версий
 Языки программирования обычно предоставляют средства для добавления заметок или комментирования кода. Комментарий — это раздел текста, содержащий дополнительные сведения о коде, но пропускаемый во время компиляции или интерпретации.
@@ -63,6 +63,6 @@ namespace MyLanguagePackage
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции устаревшей языковой службы](../../extensibility/internals/legacy-language-service-features1.md)
 - [Регистрация языковой службы прежних версий](../../extensibility/internals/registering-a-legacy-language-service1.md)

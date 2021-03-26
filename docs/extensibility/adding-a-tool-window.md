@@ -8,17 +8,17 @@ helpviewer_keywords:
 - tutorials
 - tool windows
 ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f3c84eafcfe19efdf6427db10f65dcf24504b598
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 314a684e34c91f43abe9babe4cdd6efc8a15cc35
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951437"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085524"
 ---
 # <a name="add-a-tool-window"></a>Добавление окна инструментов
 
@@ -117,7 +117,7 @@ ms.locfileid: "99951437"
     </Button>
     ```
 
-3. Откройте *FirstToolWindowCommand.CS* и добавьте следующие строки в класс сразу после существующих полей.
+3. Откройте *фирсттулвиндовкомманд. CS* и добавьте следующие строки в класс сразу после существующих полей.
 
     ```csharp
     public const string guidFirstToolWindowPackageCmdSet = "00000000-0000-0000-0000-0000";  // get the GUID from the .vsct file
@@ -143,7 +143,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
 ## <a name="instantiate-the-tool-window-and-toolbar"></a>Создание экземпляра окна инструментов и панели инструментов
 Добавьте панель инструментов и команду меню, которая вызывает диалоговое окно **открытия файла** и воспроизводит выбранный файл мультимедиа.
 
-1. Откройте *FirstToolWindow.CS* и добавьте следующие `using` директивы:
+1. Откройте *фирсттулвиндов. CS* и добавьте следующие `using` директивы:
 
     ```csharp
     using System.ComponentModel.Design;
@@ -188,7 +188,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
     }
     ```
 
-6. Добавьте команду меню на панель инструментов. В классе FirstToolWindowCommand.cs добавьте следующую директиву using:
+6. Добавьте команду меню на панель инструментов. В классе Фирсттулвиндовкомманд. cs добавьте следующую директиву using:
 
     ```csharp
     using System.Windows.Forms;
@@ -255,9 +255,9 @@ public System.Windows.Controls.MediaElement MediaPlayer
 
 ## <a name="set-the-default-position-for-the-tool-window"></a>Задание расположения по умолчанию для окна инструментов
 
-Затем укажите расположение по умолчанию в интегрированной среде разработки для окна инструментов. Сведения о конфигурации для окна инструментов находятся в файле *FirstToolWindowPackage.CS* .
+Затем укажите расположение по умолчанию в интегрированной среде разработки для окна инструментов. Сведения о конфигурации для окна инструментов находятся в файле *фирсттулвиндовпаккаже. CS* .
 
-1. В *FirstToolWindowPackage.CS* найдите <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> атрибут `FirstToolWindowPackage` класса, который передает тип фирсттулвиндов в конструктор. Чтобы указать расположение по умолчанию, необходимо добавить дополнительные параметры в конструктор, как показано ниже.
+1. В *фирсттулвиндовпаккаже. CS* найдите <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> атрибут `FirstToolWindowPackage` класса, который передает тип фирсттулвиндов в конструктор. Чтобы указать расположение по умолчанию, необходимо добавить дополнительные параметры в конструктор, как показано ниже.
 
     ```csharp
     [ProvideToolWindow(typeof(FirstToolWindow),
@@ -282,5 +282,5 @@ public System.Windows.Controls.MediaElement MediaPlayer
 
     Вы должны слышать звук подвеска.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Команды, меню и панели инструментов](../extensibility/internals/commands-menus-and-toolbars.md)

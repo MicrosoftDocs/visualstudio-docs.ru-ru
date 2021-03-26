@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DBGPROP_INFO_FLAGS enumeration
 ms.assetid: 1c7fe777-615e-4929-9ed4-970d9fe0eb81
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 63467e93b80648e6a00728dc66971b7c9b3c9b24
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 84e52867c44fa1387aaf7501a827168651099e9c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170527"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096217"
 ---
 # <a name="debugprop_info_flags"></a>DEBUGPROP_INFO_FLAGS
 Указывает, какие сведения следует получить об объекте свойства отладки.
@@ -111,7 +111,7 @@ public enum enum_DEBUGPROP_INFO_FLAGS {
 `DEBUGPROP_INFO_All`\
 Указывает маску всех флагов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти значения передаются методам [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md), [енумчилдрен](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md)и [енумпропертиес](../../../extensibility/debugger/reference/idebugstackframe2-enumproperties.md) , чтобы указать, какие поля должны быть инициализированы структурой [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) .
 
 Эти значения также используются для `dwFields` элемента `DEBUG_PROPERTY_INFO` структуры, чтобы указать, какие поля структуры используются и допустимы при возврате структуры.

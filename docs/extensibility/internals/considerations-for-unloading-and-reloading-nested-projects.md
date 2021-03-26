@@ -8,17 +8,17 @@ helpviewer_keywords:
 - nested projects, unloading and reloading
 - projects [Visual Studio SDK], unloading and reloading nested
 ms.assetid: 06c3427e-c874-45b1-b9af-f68610ed016c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ed91ac56929682205937122a4521ad7233af675f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9852454d487ab2a7ee08218c9712aa0afc1467ad
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884654"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057075"
 ---
 # <a name="considerations-for-unloading-and-reloading-nested-projects"></a>Рекомендации по выгрузке и перезагрузке вложенных проектов
 
@@ -36,7 +36,7 @@ ms.locfileid: "99884654"
 
 Для обработки этого процесса родительский проект вызывает `QueryInterface` <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents> интерфейс. `IVsFireSolutionEvents` содержит функции, которые сообщают интегрированной среде разработки о необходимости вызова `OnBeforeUnloadProject` события для выгрузки вложенного проекта, а затем вызывают `OnAfterLoadProject` событие для повторной загрузки того же проекта.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>
 - [Вложенные проекты](../../extensibility/internals/nesting-projects.md)

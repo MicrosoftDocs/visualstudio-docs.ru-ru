@@ -9,17 +9,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
 ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a9b8db832207eff93e08f123db57b4beef4eb7f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4c79d27c01035f83b506ffad4ec138c8c68f98d2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840604"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097036"
 ---
 # <a name="evaluate-expressions"></a>Вычисление выражений
 Выражения создаются на основе строк, переданных из окна " **Автоматические**", " **Контрольные значения**", " **Быстрая проверка**" или " **Интерпретация** ". При вычислении выражения создается печатная строка, содержащая имя и тип переменной или аргумента и его значение. Эта строка отображается в соответствующем окне интегрированной среды разработки.
@@ -33,7 +33,7 @@ ms.locfileid: "99840604"
 
  Чтобы включить вычисление выражений, в DE должны быть реализованы интерфейсы [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) и [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) . Для синхронной и асинхронной вычислений требуется реализация метода [IDebugProperty2:: GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Кадры стека](../../extensibility/debugger/stack-frames.md)
 - [Контекст вычисления выражения](../../extensibility/debugger/expression-evaluation-context.md)
 - [Задачи отладки](../../extensibility/debugger/debugging-tasks.md)

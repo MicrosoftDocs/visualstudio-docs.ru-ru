@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcessEx2::Attach method
 ms.assetid: f3334ed7-39bf-4d02-a338-36f567b9b287
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1938ae8299612caabe2fe684b7b5c1af685d4596
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: da538b5ba91a976e96f447ba63843f20ae0b6f62
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102149747"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105076372"
 ---
 # <a name="idebugprocessex2attach"></a>IDebugProcessEx2::Attach
 Этот метод информирует процесс о том, что сеанс теперь отлаживается процесс.
@@ -47,8 +47,8 @@ int Attach(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Переданный интерфейс `pSession` должен обрабатываться только как файл cookie, значение, однозначно идентифицирующее диспетчер отладки сеанса, присоединенный к этому процессу; ни один из методов предоставленного интерфейса не работает.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)

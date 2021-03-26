@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_REFERENCE_INFO structure
 ms.assetid: 24b83d00-d756-42a1-8083-730f998761dc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e210875f88a7c8246eff3bfcf0721d6866602b7e
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 729dab8cc7a8b2960c699cce503400d97c6fa398
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170540"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096243"
 ---
 # <a name="debug_reference_info"></a>DEBUG_REFERENCE_INFO
 Описывает ссылку.
@@ -52,7 +52,7 @@ public struct DEBUG_REFERENCE_INFO {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwFields`\
 Сочетание флагов из перечисления [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md) , которое указывает, какие поля заполняются.
 
@@ -74,7 +74,7 @@ public struct DEBUG_REFERENCE_INFO {
 `m_pReference`\
 Объект [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) , указывающий справочные сведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура передается в вызов метода [жетреференцеинфо](../../../extensibility/debugger/reference/idebugreference2-getreferenceinfo.md) , который должен быть заполнен. Эта структура также возвращается как часть списка из интерфейса [IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md) , который, в свою очередь, возвращается из вызова метода [енумчилдрен](../../../extensibility/debugger/reference/idebugreference2-enumchildren.md) .
 
 ## <a name="requirements"></a>Требования
@@ -84,7 +84,7 @@ public struct DEBUG_REFERENCE_INFO {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
 - [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md)

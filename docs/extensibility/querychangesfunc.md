@@ -10,17 +10,17 @@ helpviewer_keywords:
 - QUERYCHANGESFUNC callback function
 - QUERYCHANGESDATA structure
 ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8abe32abcb79fada541124f50a750fb4c1edde58
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cc797d68f6df6d9aab93554ba95955a7d9f45eea
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910873"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068626"
 ---
 # <a name="querychangesfunc"></a>QUERYCHANGESFUNC
 Это функция обратного вызова, используемая операцией [скккуеричанжес](../extensibility/sccquerychanges-function.md) для перечисления коллекции имен файлов и определения состояния каждого файла.
@@ -98,7 +98,7 @@ struct QUERYCHANGESDATA_W
 
  Лплатестнаме текущее имя файла для этого элемента.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции обратного вызова, реализованные интегрированной средой разработки](../extensibility/callback-functions-implemented-by-the-ide.md)
 - [SccQueryChanges](../extensibility/sccquerychanges-function.md)
 - [Коды ошибок](../extensibility/error-codes.md)

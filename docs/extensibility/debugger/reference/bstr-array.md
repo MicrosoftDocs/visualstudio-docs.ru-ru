@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BSTR_ARRAY structure
 ms.assetid: 48da37f7-a237-48a9-9ff9-389c1a00862c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f5fb882bb31f6fd525d00dc134e042e9bce9398f
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 5af4c0efe53625063d4bb714f3d323bef28c5954
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170976"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096620"
 ---
 # <a name="bstr_array"></a>BSTR_ARRAY
 Структура, описывающая массив строк.
@@ -42,14 +42,14 @@ struct BSTR_ARRAY {
 }
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwCount`\
 Количество строк в `Members` массиве.
 
 `Members`\
 Массив строк.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура возвращается методом [енумперсистедпортс](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md) .
 
  [Только C++] Каждая отдельная строка должна быть освобождена с помощью `SysFreeString` , а `Members` массив должен быть освобожден с использованием `CoTaskMemFree` .
@@ -61,6 +61,6 @@ struct BSTR_ARRAY {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [EnumPersistedPorts](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md)

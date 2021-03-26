@@ -11,18 +11,18 @@ f1_keywords:
 helpviewer_keywords:
 - PromptForSaveOnCreation element [Visual Studio project templates]
 ms.assetid: 75174674-0c3c-4b57-b2fd-6ea8e817b67d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: c95f643c11919d19f3cb4fd827bca98a4f7b50b5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5bc3c28bcfa35dac23c96d9a566b9767f8db9c1c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915131"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068647"
 ---
 # <a name="promptforsaveoncreation-element-visual-studio-templates"></a>Элемент PromptForSaveOnCreation (шаблоны Visual Studio)
 
@@ -61,7 +61,7 @@ ms.locfileid: "99915131"
  Текст должен иметь значение `true` или `false` , `true` что означает, что пользователю будет предложено указать место сохранения при создании нового проекта.
 
 ## <a name="remarks"></a>Remarks
- Параметр `PromptForSaveOnCreation` является необязательным элементом. Значение по умолчанию — `false`.
+ Параметр `PromptForSaveOnCreation` является необязательным элементом. Значение по умолчанию — `false`.
 
  Временные проекты — это проекты, которые можно создавать и изменять без сохранения содержимого этого проекта на диске.
 

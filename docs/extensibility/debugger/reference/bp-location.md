@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_LOCATION union
 ms.assetid: ed1e874c-f289-4c31-8b6c-04dde03ad0f5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 472dc7b2e642608691ea2adb2ad1a7dce170729f
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0ee3c9246c25517c2b0bc095c4035400e43d29b5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144186"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096724"
 ---
 # <a name="bp_location"></a>BP_LOCATION
 Указывает тип структуры, используемой для описания расположения точки останова.
@@ -54,7 +54,7 @@ public struct BP_LOCATION {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `bpLocationType`\
 Значение из перечисления [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md) , используемое для интерпретации `bpLocation` объединения или `unionmemberX` членов.
 
@@ -91,7 +91,7 @@ public struct BP_LOCATION {
 `unionmember4`\
 [Только C#] См. раздел Примечания о том, как интерпретировать.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура является членом структур [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) и [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) .
 
  [Только C#] Элементы обрабатываются в `unionmemberX` соответствии со следующей таблицей. Взгляните на левый столбец для `bpLocationType` значения, затем взгляните на другие столбцы, чтобы определить, что каждый `unionmemberX` элемент представляет и маршалировать `unionmemberX` соответствующим образом. См. пример для интерпретации части этой структуры в C#.
@@ -139,7 +139,7 @@ namespace MyPackage
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md)

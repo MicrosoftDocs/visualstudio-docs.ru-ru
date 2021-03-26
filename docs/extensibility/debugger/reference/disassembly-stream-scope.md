@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DISASSEMBLY_STREAM_SCOPE enumeration
 ms.assetid: 43e2b364-cbbe-4755-a7e6-a03f3054c965
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c688da1c850743f92fb9b87f7f5d72fb66d946d6
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 828d6b9afc659a09a4f1091c741e6246512de025
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170449"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096178"
 ---
 # <a name="disassembly_stream_scope"></a>DISASSEMBLY_STREAM_SCOPE
 Задает область потока дизассемблированного кода.
@@ -60,7 +60,7 @@ public enum enum_DISASSEMBLY_STREAM_SCOPE {
 `DSS_ALL`\
 Указывает Дизассемблированный код для всего адресного пространства.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Передается в качестве аргумента в метод [жетдисассемблистреам](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md) и возвращается методом [superscope](../../../extensibility/debugger/reference/idebugdisassemblystream2-getscope.md) .
 
 Эти значения можно объединить с помощью побитовой операции `OR` .

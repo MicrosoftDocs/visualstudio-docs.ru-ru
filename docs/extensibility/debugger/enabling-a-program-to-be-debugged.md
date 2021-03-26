@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], enabling for programs
 ms.assetid: 61d24820-0cd9-48b6-8674-6813f7493237
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9dd31a9ff81493d0a315efc0ce0b607af0c6e422
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4ed7ce97e6ff7e8801953877ed80afa7ca262f20
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840669"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097231"
 ---
 # <a name="enable-a-program-to-be-debugged"></a>Включение отладки программы
 Прежде чем модуль отладки (DE) сможет выполнить отладку программы, необходимо сначала запустить DE или присоединить его к существующей программе.

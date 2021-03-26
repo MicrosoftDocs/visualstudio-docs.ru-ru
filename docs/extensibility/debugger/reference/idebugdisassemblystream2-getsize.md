@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetSize
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 94207c8e14306049068e838971aa778290de2ba6
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: de1d7a544987b3a70e3798a77b55d81f5a43e1fa
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154370"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105066962"
 ---
 # <a name="idebugdisassemblystream2getsize"></a>IDebugDisassemblyStream2::GetSize
 Возвращает размер в инструкциях этого потока дизассемблированного кода.
@@ -47,10 +47,10 @@ int GetSize(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Значение, возвращаемое этим методом, можно использовать для выделения массива структур [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) , которые затем передаются в метод [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
 - [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)
 - [Чтение](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)

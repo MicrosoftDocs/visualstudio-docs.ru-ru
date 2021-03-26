@@ -8,19 +8,19 @@ f1_keywords:
 helpviewer_keywords:
 - BP_LOCATION_CODE_FILE_LINE structure
 ms.assetid: 3ff32032-d412-44d3-91bf-870cc354a09e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
-ms.openlocfilehash: 2ad3452e0fce6ec7339fe2d8e67a2aee4585828c
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 3711123fd41a0c5cc4adc2e2d90791cf6fe483bf
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144394"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078231"
 ---
 # <a name="bp_location_code_file_line"></a>BP_LOCATION_CODE_FILE_LINE
 Содержит данные для расположения точки останова в указанной строке в файле исходного кода.
@@ -34,14 +34,14 @@ typedef struct _BP_LOCATION_CODE_FILE_LINE {
 } BP_LOCATION_CODE_FILE_LINE;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `bstrContext`\
 Контекст точки останова, обычно имя метода или функции, как показано в стеке вызовов.
 
 `pDocPos`\
 Объект [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) , представляющий расположение точки останова в документе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура является членом структуры [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) в составе объединения.
 
 ## <a name="requirements"></a>Требования
@@ -51,7 +51,7 @@ typedef struct _BP_LOCATION_CODE_FILE_LINE {
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md)
 - [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

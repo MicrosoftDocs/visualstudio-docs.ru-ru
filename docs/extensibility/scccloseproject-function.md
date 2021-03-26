@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccCloseProject function
 ms.assetid: 259c2069-d349-4814-810f-1c3151b7fb84
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f3fb9208619639a8f1c767cbf12a2de0ed24768f
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 05dbf0552242bdc1a21ec6dd81a592711f50f391
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220876"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085641"
 ---
 # <a name="scccloseproject-function"></a>Функция Сккклосепрожект
 Эта функция закрывает проект, помечая конец конкретного сеанса.
@@ -44,10 +44,10 @@ SCCRTN SccCloseProject (
 |SCC_E_NOTAUTHORIZED|Пользователю не разрешено выполнять эту операцию.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  [Сккопенпрожект](../extensibility/sccopenproject-function.md) всегда вызывается перед этой функцией. После вызова этой функции следует вызов `SccOpenProject` функции или [сккунинитиализе](../extensibility/sccuninitialize-function.md), который полностью завершает подключение к системе управления версиями.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccOpenProject](../extensibility/sccopenproject-function.md)
 - [SccInitialize](../extensibility/sccinitialize-function.md)

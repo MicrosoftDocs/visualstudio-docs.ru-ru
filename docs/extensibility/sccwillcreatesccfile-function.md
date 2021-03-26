@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccWillCreateSccFile function
 ms.assetid: 0d7542f0-4351-41b3-b24c-960ab99c05a1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ee01478858615aad135d07a5c10d5d6c58280926
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 00988afe980a29a7176c8632d95514813efaad37
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221292"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063725"
 ---
 # <a name="sccwillcreatesccfile-function"></a>Функция SccWillCreateSccFile
 Эта функция определяет, поддерживает ли подключаемый модуль системы управления версиями создание МССККПРЖ. Файл SCC для каждого из заданных файлов.
@@ -60,9 +60,9 @@ SCCRTN SccWillCreateSccFile(
 |SCC_E_INVALIDFILEPATH|Один из путей в массиве является недопустимым.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция вызывается со списком файлов, чтобы определить, обеспечивает ли подключаемый модуль системы управления версиями поддержку в МССККПРЖ. Файл SCC для каждого из заданных файлов (Дополнительные сведения о МССККПРЖ. Файле SCC см. в разделе [мссккпрж. Файл SCC](../extensibility/mssccprj-scc-file.md)). Подключаемые модули системы управления версиями могут объявлять, имеют ли они возможность создания МССККПРЖ. Файлы SCC путем объявления `SCC_CAP_SCCFILE` во время инициализации. Подключаемый модуль возвращает `TRUE` или `FALSE` для каждого файла в `pbSccFiles` массиве, чтобы указать, какие из заданных файлов имеют мссккпрж. Поддержка SCC. Если подключаемый модуль возвращает код успешного выполнения из функции, учитываются значения в возвращаемом массиве. В случае сбоя массив пропускается.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Файл MSSCCPRJ.SCC](../extensibility/mssccprj-scc-file.md)

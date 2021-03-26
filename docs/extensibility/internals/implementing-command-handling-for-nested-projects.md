@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - nested projects, implementing command handling
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c23271596353ae289e1b7507b90b40095ca82c15
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fad154fd3739369b0ccf7e5d896d1b9f1728c68e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839889"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085784"
 ---
 # <a name="implementing-command-handling-for-nested-projects"></a>Реализация обработки команд для вложенных проектов
 Интегрированная среда разработки может передавать команды, передаваемые через <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> интерфейс и в <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> вложенные проекты, или же родительские проекты могут фильтровать или переопределять команды.
@@ -53,7 +53,7 @@ ms.locfileid: "99839889"
 
     Родительский проект не должен маршрутизировать команду в дочерний проект. Интегрированная среда разработки выполняет эту задачу.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>
 - [Команды, меню и панели инструментов](../../extensibility/internals/commands-menus-and-toolbars.md)
 - [Проекты вложения](../../extensibility/internals/nesting-projects.md)

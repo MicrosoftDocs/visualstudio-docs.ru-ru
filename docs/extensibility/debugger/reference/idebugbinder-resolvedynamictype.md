@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder::ResolveDynamicType method
 ms.assetid: 2c36ef92-5b44-4cfd-988e-54a2e5a6710c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 548ba7ed326de2310cdc6689088f72c7a97ade7d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 149cb7fc88a5bc3619cb8b87b08bc2018040410a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102174038"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067417"
 ---
 # <a name="idebugbinderresolvedynamictype"></a>IDebugBinder::ResolveDynamicType
 Этот метод возвращает точный тип переменной.
@@ -52,7 +52,7 @@ int ResolveDynamicType(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugDynamicField](../../../extensibility/debugger/reference/idebugdynamicfield.md)

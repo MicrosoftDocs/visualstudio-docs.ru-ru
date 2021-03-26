@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DISASSEMBLY_FLAGS enumeration
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3aeaf00e7073cd1146dcc5856684ed7209e7d800
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 28335176a70213f61bfbb77bf6f91cc6155902e7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170488"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096204"
 ---
 # <a name="disassembly_flags"></a>DISASSEMBLY_FLAGS
 Задает флаги для дизассемблированного кода.
@@ -70,7 +70,7 @@ public enum enum_DISASSEMBLY_FLAGS {
 `DF_DOCUMENT_CHECKSUM`\
 Указывает, что `bstrDocumentUrl` поле содержит данные контрольной суммы после URL-адреса документа. Сведения о том, как хранятся данные контрольной суммы, см. в разделе "Примечания" для структуры [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Используется в качестве `dwFlags` члена структуры [дисассемблидата](../../../extensibility/debugger/reference/disassemblydata.md) .
 
 Эти флаги можно сочетать с помощью побитовой операции `OR` .

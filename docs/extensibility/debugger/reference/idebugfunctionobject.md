@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugFunctionObject interface
 ms.assetid: 8d94e97c-a9d1-400c-8a98-a44b5385b33a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e9a579212a34a10fc9999867d88dfbd277a9c3fe
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0fabd43fe6f7d8ee8e5cddc6cc655088bf4a9abf
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150592"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063556"
 ---
 # <a name="idebugfunctionobject"></a>IDebugFunctionObject
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ IDebugFunctionObject : IDebugObject
 |[CreateStringObject](../../../extensibility/debugger/reference/idebugfunctionobject-createstringobject.md)|Создает строковый объект.|
 |[Вычислить](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md)|Вызывает функцию и возвращает результирующее значение в виде объекта.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот интерфейс позволяет средству оценки выражений представлять функции в дереве синтаксического анализа. `Create`Методы в этом интерфейсе используются для создания объектов, представляющих входные параметры метода. Затем функцию можно выполнить, вызвав метод [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md) , который возвращает объект, представляющий возвращаемое значение функции.
 
 ## <a name="requirements"></a>Требования
@@ -60,6 +60,6 @@ IDebugFunctionObject : IDebugObject
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы вычисления выражений](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

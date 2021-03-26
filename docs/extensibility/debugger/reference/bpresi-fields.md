@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BPRESI_FIELDS enumeration
 ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 91fa2a8b973149cb9365d817e14ac877bfc9f617
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 652d1423b95f923a8413bdec6fbbed528e9f624a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102171035"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096698"
 ---
 # <a name="bpresi_fields"></a>BPRESI_FIELDS
 Задает сведения, которые должны быть получены об успешном разрешении точки останова.
@@ -60,7 +60,7 @@ public enum enum_BPRESI_FIELDS {
 `BPRESI_ALLFIELDS`\
 Задает все поля.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Передается в метод [жетресолутионинфо](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md) , чтобы указать, какие поля структуры [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) должны быть инициализированы.
 
 Эти флаги также используются для указания того, какие поля `BP_RESOLUTION_INFO` структуры используются и являются допустимыми при возврате этой структуры.

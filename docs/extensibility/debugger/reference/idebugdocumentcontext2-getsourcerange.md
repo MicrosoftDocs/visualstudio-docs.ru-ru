@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::GetSourceRange
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6d02dfbd93002bedadd4c82168d498f89050ddc0
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: a66f1b99793b1c8fa8036771d7815f95a395462a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102162905"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105066598"
 ---
 # <a name="idebugdocumentcontext2getsourcerange"></a>IDebugDocumentContext2::GetSourceRange
 Возвращает диапазон исходного кода этого контекста документа.
@@ -52,12 +52,12 @@ int GetSourceRange(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Исходный диапазон — это весь диапазон исходного кода от текущего оператора до предыдущего оператора, который участвовал в коде. Исходный диапазон обычно используется для смешивания инструкций источника, включая комментарии, с кодом в окне дизассемблирования.
 
  Чтобы получить диапазон только для операторов кода, содержащихся в данном контексте документа, вызовите метод [жетстатементранже](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

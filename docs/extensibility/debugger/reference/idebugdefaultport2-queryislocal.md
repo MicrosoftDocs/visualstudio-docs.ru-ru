@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDefaultPort2::QueryIsLocal
 ms.assetid: 1a42e774-c6ed-419a-a0e3-cab5778652ca
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f732de2526aa71698b4c01a636dab541050015a5
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e678e1219bfc9c64fe33be545e82e7fbb596b2db
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150644"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105067131"
 ---
 # <a name="idebugdefaultport2queryislocal"></a>IDebugDefaultPort2::QueryIsLocal
 Этот метод определяет, находится ли этот порт на локальном компьютере.
@@ -38,5 +38,5 @@ int QueryIsLocal();
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает, `S_OK` Если этот порт является локальным (на том же компьютере, что и вызывающий объект), или `S_FALSE` порт находится на другом компьютере.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)

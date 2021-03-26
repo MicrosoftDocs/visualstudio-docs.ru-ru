@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessSecurity interface
 ms.assetid: 8a52ddca-bd99-49c0-9778-469dce7abd44
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b5e2ca72cc3d9c1d204c6fb1f90ccc9b03060cff
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f7466d88be9460a2b4680fc7d14a741df9238ea0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102166103"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105076268"
 ---
 # <a name="idebugprocesssecurity"></a>IDebugProcessSecurity
 `IDebugProcessSecurity` реализуется поставщиком порта для предупреждения пользователя о том, что присоединение к процессу является ненадежным.
@@ -35,7 +35,7 @@ IDebugProcessSecurity : IUnknown
 |[GetUserName](../../../extensibility/debugger/reference/idebugprocesssecurity-getusername.md)|Возвращает имя пользователя от поставщика порта.|
 |[QueryCanSafelyAttach](../../../extensibility/debugger/reference/idebugprocesssecurity-querycansafelyattach.md)|Предупреждает пользователя о том, что присоединение к процессу отладки является ненадежным.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Реализуйте этот интерфейс, чтобы отобразить предупреждение и разрешить пользователю отменять, если процесс, к которому выполняется присоединение, может считаться небезопасным.
 
 ## <a name="requirements"></a>Требования
@@ -45,8 +45,8 @@ IDebugProcessSecurity : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Порты](../../../extensibility/debugger/ports.md)
 - [Поставщики портов](../../../extensibility/debugger/port-suppliers.md)
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

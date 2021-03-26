@@ -9,17 +9,17 @@ helpviewer_keywords:
 - side-by-side installation
 - installation [Visual Studio SDK], side-by-side
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 90acdde2c365effd189efe4437b5e41c39f494b0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 257158ec3c8d4364e1aa52133c457e24fd98cff3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99949640"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078244"
 ---
 # <a name="choose-between-shared-and-versioned-vspackages"></a>Выбор между общими и версиями пакетов VSPackage
 Разные версии Visual Studio могут сосуществовать на одном компьютере. Пакеты VSPackage могут поддерживать любой набор [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] версий.
@@ -63,6 +63,6 @@ ms.locfileid: "99949640"
 
   Помимо планирования двоичной совместимости для двоичных файлов VSPackage, следует также рассмотреть форматы файлов решения и проекта. Если пакет VSPackage создает новый тип проекта, необходимо решить, может ли он работать только в одной версии или в нескольких версиях [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] . Дополнительные сведения см. в разделе [Обновление пользовательских проектов](../extensibility/internals/upgrading-projects.md#upgrading-custom-projects).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Установка пакетов VSPackage с помощью установщик Windows](../extensibility/internals/installing-vspackages-with-windows-installer.md)
 - [Управление компонентами](../extensibility/internals/component-management.md)

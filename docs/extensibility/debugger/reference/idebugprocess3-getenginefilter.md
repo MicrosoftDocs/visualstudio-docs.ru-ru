@@ -7,20 +7,20 @@ helpviewer_keywords:
 - GetEngineFilter
 - IDebugProcess3::GetEngineFilter
 ms.assetid: ccb7ecb0-f189-4e80-b5b2-221a095e01f5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 77ad90af772bb210402cfd43449350ccf0f02058
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 7c2628424f4f5e9446c763324dfcf9ced4f1896e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102158466"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105076567"
 ---
 # <a name="idebugprocess3getenginefilter"></a>IDebugProcess3::GetEngineFilter
 Извлекает массив уникальных идентификаторов для доступных модулей отладки.
@@ -46,6 +46,6 @@ public int GetEngineFilter(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [GUID_ARRAY](../../../extensibility/debugger/reference/guid-array.md)

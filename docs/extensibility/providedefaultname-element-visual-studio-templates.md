@@ -10,17 +10,17 @@ f1_keywords:
 helpviewer_keywords:
 - ProvideDefaultName element [Visual Studio project templates]
 ms.assetid: 7b0e7b20-fd6b-42e2-81d0-e5100cea0528
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f207a4c86a9c76f009341f96a7d562da1e8fb33
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d29ca3075ee6e5ef031bb360ecfd10d6cb341c26
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910962"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068651"
 ---
 # <a name="providedefaultname-element-visual-studio-templates"></a>Элемент Провидедефаултнаме (шаблоны Visual Studio)
 Указывает, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] будет ли система проекта создавать имя по умолчанию для шаблона в диалоговом окне " **Добавление нового элемента** " или " **Создание проекта** ".
@@ -55,7 +55,7 @@ ms.locfileid: "99910962"
  Текст должен иметь значение `true` или `false` , что указывает, следует ли создавать имя по умолчанию для шаблона в диалоговом окне **Добавление нового элемента** или **Создание проекта** .
 
 ## <a name="remarks"></a>Remarks
- Параметр `ProvideDefaultName` является необязательным элементом. Значение по умолчанию — `true`.
+ Параметр `ProvideDefaultName` является необязательным элементом. Значение по умолчанию — `true`.
 
  Если `ProvideDefaultName` элемент имеет `false` значение, поля **Name** диалоговых окон **Добавление нового элемента** и **Новый проект** содержат значения `<Enter_name>` .
 

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_REQUEST_INFO2 structure
 ms.assetid: 008c87f7-a76e-43d3-8904-11b225d6a9a5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1efeceb42d45822f232e5a2e5e2fbe33f9996e34
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 54ab1ec2ad37517a7a7fbfd7059022e1c5a26f82
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102144121"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078205"
 ---
 # <a name="bp_request_info2"></a>BP_REQUEST_INFO2
 Содержит сведения, необходимые для реализации точки останова, включая GUID поставщика, ограничение и точку трассировки.
@@ -64,7 +64,7 @@ public struct BP_REQUEST_INFO2 {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 `dwFields`\
 Сочетание флагов из перечисления [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) , которое указывает, какие поля заполняются.
 
@@ -104,7 +104,7 @@ GUID языка.
 `bstrTracepoint`\
 Имя точки трассировки. Может иметь значение null.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эта структура возвращается методом [GetRequestInfo2](../../../extensibility/debugger/reference/idebugbreakpointrequest3-getrequestinfo2.md) .
 
 ## <a name="requirements"></a>Требования
@@ -114,7 +114,7 @@ GUID языка.
 
 Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Структуры и объединения](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetRequestInfo2](../../../extensibility/debugger/reference/idebugbreakpointrequest3-getrequestinfo2.md)
 - [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)

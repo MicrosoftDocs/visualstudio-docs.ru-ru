@@ -7,20 +7,20 @@ helpviewer_keywords:
 - GetFormalTypeParams
 - IDebugGenericFieldDefinition::GetFormalTypeParams
 ms.assetid: cadbd6a1-bc7c-4aff-8777-5396b7a23c3e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 593e54c67e762d5ad1643f0481554fe98b5ba019
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 3aba284bab3299bf6ef300f9493c20e9c0d230ee
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165479"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063452"
 ---
 # <a name="idebuggenericfielddefinitiongetformaltypeparams"></a>IDebugGenericFieldDefinition::GetFormalTypeParams
 Получает параметры типа с учетом количества параметров.
@@ -56,8 +56,8 @@ int GetFormalTypeParams(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Возврат параметров типа в порядке слева направо. Например, Dictionary \<K,V> возвращает идебугформалженерикпараметерс {K, V}.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

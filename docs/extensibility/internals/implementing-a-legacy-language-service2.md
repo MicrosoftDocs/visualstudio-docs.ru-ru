@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services [managed package framework], implementing
 ms.assetid: 5bcafdc5-f922-48f6-a12e-6c8507a79a05
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f870da49cdf82203e7dd435601f93a75cb16dccd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9bdb0d05faaa139b808d8d117125c5208da470e9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839967"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085823"
 ---
 # <a name="implementing-a-legacy-language-service-2"></a>Реализация языковой службы версии 2
 Чтобы реализовать языковую службу с помощью управляемой платформы пакетов (MPF), необходимо создать класс из <xref:Microsoft.VisualStudio.Package.LanguageService> класса и реализовать следующие абстрактные методы и свойства:
@@ -360,7 +360,7 @@ public enum IconImageIndex
         }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Реализация языковой службы прежних версий](../../extensibility/internals/implementing-a-legacy-language-service1.md)
 - [Обзор языковой службы прежних версий](../../extensibility/internals/legacy-language-service-overview.md)
 - [Регистрация языковой службы прежних версий](../../extensibility/internals/registering-a-legacy-language-service1.md)

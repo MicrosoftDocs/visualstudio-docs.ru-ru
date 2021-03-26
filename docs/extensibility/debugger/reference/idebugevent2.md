@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEvent2 interface
 ms.assetid: de3d714d-96fb-4e12-b66b-a75391472153
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e162e276fc93c9e2c0d4333ac0f5c2630f75618e
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f5406c70703b594236dba47539e5cc76bbe67a73
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152953"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065766"
 ---
 # <a name="idebugevent2"></a>IDebugEvent2
 Этот интерфейс используется для передачи критически важных отладочных данных, таких как остановка в точке останова, и некритически важных данных, например сообщения об отладке.
@@ -42,7 +42,7 @@ IDebugEvent2 : IUnknown
 |------------|-----------------|
 |[GetAttributes](../../../extensibility/debugger/reference/idebugevent2-getattributes.md)|Возвращает атрибуты для данного события отладки.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Более конкретные интерфейсы событий, такие как [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md), не являются производными от интерфейса IDebugEvent2, но реализуются в виде отдельного интерфейса для того же объекта, что и `IDebugEvent2` .
 
 ## <a name="requirements"></a>Требования
@@ -52,7 +52,7 @@ IDebugEvent2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [Событие](../../../extensibility/debugger/reference/idebugportevents2-event.md)
 - [Событие](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

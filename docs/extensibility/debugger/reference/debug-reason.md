@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_REASON enumeration
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9404e4b5cfdd1f1690b0fe76d0cd5e98cc90d2a4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: db5d6697f222015cc4f6dbedbc6258e00c9b285f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102170553"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096256"
 ---
 # <a name="debug_reason"></a>DEBUG_REASON
 Указывает, почему процесс был запущен для отладки.
@@ -65,7 +65,7 @@ public enum enum_DEBUG_REASON {
 `DEBUG_REASON_CAUSALITY`\
 Процесс был запущен из-за JIT *-события* отладки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Возвращается методом [жетдебугреасон](../../../extensibility/debugger/reference/idebugprocess3-getdebugreason.md) .
 
 ## <a name="requirements"></a>Требования

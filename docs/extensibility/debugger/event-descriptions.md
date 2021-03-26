@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], events
 ms.assetid: 09f61652-7e16-4bb0-8055-f61a84bf384e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a2d4ee971e2c53c9431982ef33483471a50c54bc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cd8c6dbb4eddfcffa779b70b17819bf5e92c0c45
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851313"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105096971"
 ---
 # <a name="event-descriptions"></a>Описания событий
 Каждый тип события имеет определенную цель.
@@ -46,5 +46,5 @@ ms.locfileid: "99851313"
 |События изменения имени потока|Посылается, когда пользователь изменяет имя потока.|
 |События изменения имени программы|Посылается, когда пользователь изменяет имя программы.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Отправка событий](../../extensibility/debugger/sending-events.md)

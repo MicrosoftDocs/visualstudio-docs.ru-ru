@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccOpenProject function
 ms.assetid: d609510b-660a-46d7-b93d-2406df20434d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ff0aa402f3c3ba264524d6d4082c4a9fbf57c8ad
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: baada63e84e95fd466e0e5640c592dfe303d8e1a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221552"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063764"
 ---
 # <a name="sccopenproject-function"></a>Функция SccOpenProject
 Эта функция открывает существующий проект системы управления версиями или создает новый.
@@ -92,7 +92,7 @@ SCCRTN SccOpenProject (
 |SCC_E_ACCESSFAILURE|Возникла проблема при доступе к системе управления версиями, возможно, из-за проблем с сетью или состязаниями. Рекомендуется повторить попытку.|
 |SCC_E_NONSPECFICERROR|Неконкретный сбой; система управления версиями не инициализирована.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Интегрированная среда разработки может передать имя пользователя ( `lpUser` ) или просто передать указатель на пустую строку. При наличии имени пользователя подключаемый модуль системы управления версиями должен использовать его по умолчанию. Однако если имя не было передано или если не удалось выполнить вход с указанным именем, подключаемый модуль должен предложить пользователю войти в систему и вернуть допустимое имя в `lpUser` при получении допустимого имени входа `.` , поскольку подключаемый модуль может изменить строку имени пользователя, интегрированная среда разработки всегда будет выделять буфер размера ( `SCC_USER_LEN` + 1 или SCC_USER_SIZE, который содержит пробел для терминатора null).
 
 > [!NOTE]
@@ -115,7 +115,7 @@ SCCRTN SccOpenProject (
 > [!NOTE]
 > Этот `SCC_CAP_REENTRANT` бит появился в версии 1,1 API подключаемого модуля системы управления версиями. Он не задан или не учитывается в версии 1,0, а все подключаемые модули системы управления версиями версии 1,0 считаются нонринтрант.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccCloseProject](../extensibility/scccloseproject-function.md)
 - [SccGetProjPath](../extensibility/sccgetprojpath-function.md)

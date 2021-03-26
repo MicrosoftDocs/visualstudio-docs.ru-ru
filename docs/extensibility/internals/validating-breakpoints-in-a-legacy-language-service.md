@@ -8,17 +8,17 @@ helpviewer_keywords:
 - breakpoint validation
 - language services [managed package framework], breakpoint validation
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 593663c4906cc669c52336ffe6689e8de9fcde48
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 86029300c34e111344157bf39a15dceab8c1b77a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941597"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085797"
 ---
 # <a name="validating-breakpoints-in-a-legacy-language-service"></a>Проверка точек останова в языковой службе прежних версий
 Точка останова указывает, что выполнение программы должно останавливаться в определенной точке во время ее выполнения в отладчике. Пользователь может поместить точку останова в любую строку исходного файла, так как редактор не имеет сведений о том, что представляет собой допустимое расположение для точки останова. При запуске отладчика все отмеченные точки останова (называемые ожидающими точками останова) привязываются к соответствующему расположению в выполняющейся программе. В то же время проверка точек останова выполняется, чтобы убедиться, что они помечают допустимые расположения кода. Например, точка останова в комментарии является недопустимой, так как в исходном коде отсутствует код в этом месте. Отладчик отключает недопустимые точки останова.
@@ -100,5 +100,5 @@ namespace TestLanguagePackage
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции языковой службы прежних версий](../../extensibility/internals/legacy-language-service-features1.md)

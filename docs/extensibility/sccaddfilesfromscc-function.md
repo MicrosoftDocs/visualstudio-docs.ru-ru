@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccAddFilesFromSCC function
 ms.assetid: f21a3500-ade8-4dd8-8647-10e2179be9c1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 27b695b2777aa32f77d49ced7b74436ce870df80
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 056e918642e75bbd74c310499544cb2500428646
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220980"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060475"
 ---
 # <a name="sccaddfilesfromscc-function"></a>Функция Сккаддфилесфромскк
 Эта функция добавляет список файлов из системы управления версиями в текущий открытый проект.
@@ -87,5 +87,5 @@ SCCRTN SccAddFilesFromSCC(
 |SCC_E_NONSPECIFICERROR|Неизвестная ошибка.|
 |SCC_I_RELOADFILE|Необходимо перезагрузить файл или проект.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEventCallback2::Event
 ms.assetid: e5a3345b-d460-4e40-8f5b-3111c56a2ed9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: afa0cfd8f96d21a510370a4fc526a3cae053c77b
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0fec6984ffc30c3c368193079fdabc1752f63a65
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152927"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065805"
 ---
 # <a name="idebugeventcallback2event"></a>IDebugEventCallback2::Event
 Отправляет уведомление о событиях отладки.
@@ -77,12 +77,12 @@ int Event(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  При вызове этого метода `dwAttrib` параметр должен соответствовать значению, возвращенному методом [OutAttribute](../../../extensibility/debugger/reference/idebugevent2-getattributes.md) , как вызвано для объекта события, переданного в `pEvent` параметре.
 
  Все события отладки публикуются асинхронно, независимо от того, является ли событие асинхронным или нет. Когда DE вызывает этот метод, возвращаемое значение не указывает, было ли событие обработано, только было ли получено событие. Фактически, в большинстве случаев событие не было обработано при возврате из этого метода.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

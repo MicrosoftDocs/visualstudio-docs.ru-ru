@@ -9,20 +9,20 @@ helpviewer_keywords:
 - GetMessage method
 - IDebugMessageEvent2::GetMessage method
 ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 26280ca238b5ffc96b0d8b29f1b2d1a424c544d0
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: dc9b1747a504b761b369b2995dfef4c28ff3d012
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102172476"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105058473"
 ---
 # <a name="idebugmessageevent2getmessage"></a>IDebugMessageEvent2::GetMessage
 Возвращает отображаемое сообщение.
@@ -68,7 +68,7 @@ int GetMessage(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)
 - [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md)
 - [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox)

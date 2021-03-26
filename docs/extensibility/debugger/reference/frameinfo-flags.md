@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - FRAMEINFO_FLAGS enumeration
 ms.assetid: 41578062-8455-412a-9d8b-1e1e9dc8d52e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4029212aae6d4557e17c42a0c0e024a83c94b0a1
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: d4214dd81945c3e7e2711a500e2e3a2b173e33e0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150826"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105059266"
 ---
 # <a name="frameinfo_flags"></a>FRAMEINFO_FLAGS
 Задает сведения, которые необходимо получить об объекте кадра стека.
@@ -195,7 +195,7 @@ public enum enum_FRAMEINFO_FLAGS {
 `FIF_DESIGN_TIME_EXPR_EVAL`\
 Сведения о кадре должны быть предоставлены из размещенного домена приложения, а не ведущего процесса.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Эти флаги передаются [методам](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) [енумфрамеинфо](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) и Pass для указания полей, которые должны быть инициализированы в структуре или структурах [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) .
 
 Эти флаги также используются для указания того, какие поля структуры [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) используются и допустимы при возврате структуры. Эти значения можно объединить с помощью побитовой операции `OR` .
