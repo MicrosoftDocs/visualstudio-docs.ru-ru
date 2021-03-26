@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2 interface
 ms.assetid: 8d73df73-cfff-4b8b-b426-d6051edb1939
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b4854150d6581d80804b4c29246bf6db016b5acb
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2f6effa250749f448ed1a02c4b7a699d50b7388e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102159917"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105084406"
 ---
 # <a name="idebugprogram2"></a>IDebugProgram2
 Этот интерфейс представляет программу, выполняемую в процессе.
@@ -69,11 +69,11 @@ IDebugProgram2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Программа — это контейнер потоков, выполняющийся в определенной архитектуре среды выполнения, в то время как процесс состоит из одной или нескольких программ.
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)
 - [Вперед](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)
 - [Событие](../../../extensibility/debugger/reference/idebugportevents2-event.md)

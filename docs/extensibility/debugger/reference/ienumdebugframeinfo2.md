@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugFrameInfo2
 ms.assetid: 994e30ad-435a-4f9e-9272-d96d9e01099c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c347b7cebd9b1417cd0a8e772cd8a247e975ea97
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 6a0351e1eb964506074c13dd68e9eb132ee5b578
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102226388"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091673"
 ---
 # <a name="ienumdebugframeinfo2"></a>IEnumDebugFrameInfo2
 Этот интерфейс перечисляет структуры [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) .
@@ -46,7 +46,7 @@ IEnumDebugFrameInfo2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumdebugframeinfo2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugframeinfo2-getcount.md)|Возвращает число структур [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) в перечислителе.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Visual Studio получает этот интерфейс в качестве первого шага для обработки точки останова, исключения или созданной пользователем паузы в отлаживаемой программе. Список структур [фрамеинфо](../../../extensibility/debugger/reference/frameinfo.md) представляет текущий стек вызовов с текущим вызовом функции в начале списка и самым старым вызовом функции в конце списка. Каждый `FRAMEINFO` представляет кадр стека, контекст, в котором выражения могут оцениваться, и локальные переменные, которые были просмотрены.
 
 ## <a name="requirements"></a>Требования
@@ -56,7 +56,7 @@ IEnumDebugFrameInfo2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)
 - [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)
