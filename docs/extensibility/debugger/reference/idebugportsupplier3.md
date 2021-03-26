@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier3 interface
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8db7c2321d5a309f66b85a3f177e20cb3f9b1244
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: fa17984c9b7f3e87d4a7118188ecc6ca79c5deef
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150397"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105071939"
 ---
 # <a name="idebugportsupplier3"></a>IDebugPortSupplier3
 Этот интерфейс позволяет вызывающему объекту определить, может ли поставщик порта сохранять порты (путем записи их на диск) между вызовами отладчика, а затем получать список сохраненных портов.
@@ -43,7 +43,7 @@ IDebugPortSupplier3 : IDebugPortSupplier2
 |[CanPersistPorts](../../../extensibility/debugger/reference/idebugportsupplier3-canpersistports.md)|Возвращает значение, указывающее, может ли поставщик порта сохранять порты (путем записи на диск) между вызовами отладчика.|
 |[EnumPersistedPorts](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md)|Возвращает объект, который можно использовать для перечисления всех портов, записанных на диск этим поставщиком портов.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Если поставщик порта может сохранять порты между вызовами, он должен реализовать этот интерфейс. Порты должны быть загружены при создании экземпляра поставщика порта и записаны на диск при уничтожении поставщика порта.
 
  Модуль отладки обычно не взаимодействует с поставщиком порта и не будет использовать его для этого интерфейса.
@@ -55,6 +55,6 @@ IDebugPortSupplier3 : IDebugPortSupplier2
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

@@ -10,17 +10,17 @@ helpviewer_keywords:
 - selection, Visual Studio IDE
 - IDE, currency
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0f77afea813158c787978e2ea4dbec1a55e36eca
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0fb65a63b99f625f8d32af8436db753a0f17322e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890634"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080909"
 ---
 # <a name="selection-and-currency-in-the-ide"></a>Выбор и актуальность в интегрированной среде разработки
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]Интегрированная среда разработки (IDE) хранит сведения о выбранных в данный момент объектах пользователями с помощью *контекста* выбора. С контекстом выбора пакеты VSPackage могут принять участие в трассировке валюты двумя способами:
@@ -64,6 +64,6 @@ ms.locfileid: "99890634"
 
 - События, которые изменяют элементы, отслеживаемые в контексте выбора фрейма окна. Примеры включают изменение выбора в DocObject или изменение выбора в окне типа проекта.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Объекты контекста выбора](../../extensibility/internals/selection-context-objects.md)
 - [Обратная связь с пользователем](../../extensibility/internals/feedback-to-the-user.md)

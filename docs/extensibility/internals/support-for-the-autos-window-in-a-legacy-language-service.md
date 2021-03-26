@@ -8,17 +8,17 @@ helpviewer_keywords:
 - language services [managed package framework], Autos window
 - Autos window, supporting in language services [managed package framework]
 ms.assetid: 47d40aae-7a3c-41e1-a949-34989924aefb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b0d02107e8f0128e7a91f679eb8c651515e39ace
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 70a8697027cde07ca2b30d01a73a80d771155c5c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99969909"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080636"
 ---
 # <a name="support-for-the-autos-window-in-a-legacy-language-service"></a>Поддержка окна "видимые" в устаревшей языковой службе
 

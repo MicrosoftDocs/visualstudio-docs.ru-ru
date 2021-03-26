@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortEx2 interface
 ms.assetid: 144724d0-38ee-4c9b-87ca-8a504371182b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 54da202e6bbaf08216b921afbde2e39f1da3a788
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: e26fec4b47a301bfb266f40b41fd88216ccf671f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102142795"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072433"
 ---
 # <a name="idebugportex2"></a>IDebugPortEx2
 Этот интерфейс позволяет диспетчеру отладки сеансов управлять программами и процессами, выполняемыми в порте.
@@ -47,7 +47,7 @@ IDebugPortEx2 : IUnknown
 |[GetPortProcessId](../../../extensibility/debugger/reference/idebugportex2-getportprocessid.md)|Возвращает идентификатор процесса самого порта.|
 |[GetProgram](../../../extensibility/debugger/reference/idebugportex2-getprogram.md)|Возвращает программу, связанную с узлом программы.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Обычно этот интерфейс является частным между SDM и пользовательским поставщиком порта.
 
  При необходимости модуль отладки (DE) может найти этот интерфейс в интерфейсе [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) , переданном в [лаунчсуспендед](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) , и использовать [лаунчсуспендед](../../../extensibility/debugger/reference/idebugportex2-launchsuspended.md) для запуска программы. Однако это не является обязательным требованием, а DE может выполнять любые действия, необходимые для запуска программы запроса.
@@ -59,6 +59,6 @@ IDebugPortEx2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

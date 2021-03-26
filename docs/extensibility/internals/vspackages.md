@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - VSPackages
 ms.assetid: cad0893a-9c5f-45b7-952a-e2294f83e324
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6bd335c5787f86fdbf6434cf3a8f78532c7a6d51
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 695cddbc76f81ee606b2f19d367e503f754f1ed4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899922"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060657"
 ---
 # <a name="vspackages"></a>VSPackages
 Пакеты VSPackage — это программные модули, расширяющие [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированную среду разработки (IDE), предоставляя элементы пользовательского интерфейса, службы, проекты, редакторы и конструкторы.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Выбор расположения файла VSPackage к оболочке Visual Studio](../../extensibility/internals/specifying-vspackage-file-location-to-the-vs-shell.md)
 
  Объясняет, как указать расположение VSPackage для оболочки Visual Studio.

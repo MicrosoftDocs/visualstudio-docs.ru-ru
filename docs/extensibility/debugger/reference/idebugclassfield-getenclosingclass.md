@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugClassField::GetEnclosingClass method
 ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6c08550204c8a2860d8fd7870e4ac949e9e9319c
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: c59eb2559634c67b210f4fc3b4ce41743346c8ea
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164205"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088488"
 ---
 # <a name="idebugclassfieldgetenclosingclass"></a>IDebugClassField::GetEnclosingClass
 Возвращает класс, который заключает в себя этот класс.
@@ -47,7 +47,7 @@ int GetEnclosingClass(
 ## <a name="return-value"></a>Возвращаемое значение
 В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Если класс, представленный этим объектом [идебугклассфиелд](../../../extensibility/debugger/reference/idebugclassfield.md) , является вложенным классом, то `ppClassField` параметр возвращает `IDebugClassField` объект, представляющий включающий класс. Например, с учетом этого определения класса:
 
 ```
@@ -58,5 +58,5 @@ class RootClass {
 
 Вызов `GetEnclosingClass` метода для объекта, `IDebugClassField` представляющего `NestedClass` класс, возвращает объект, `IDebugClassField` представляющий класс `RootClass` .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services, migrating
 ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a0e20c77a1c8a81a29691079ace1e4751135560
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: afe98f2d96618999aa02dd01f03f55395af46e19
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895691"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063270"
 ---
 # <a name="migrating-a-legacy-language-service"></a>Миграция языковой службы прежних версий
 Вы можете перенести устаревшую языковую службу в более позднюю версию Visual Studio, обновив проект и добавив файл Source. extension. vsixmanifest в проект. Сама языковая служба будет работать, как и раньше, поскольку редактор Visual Studio адаптирует его.
@@ -53,7 +53,7 @@ ms.locfileid: "99895691"
 
 4. Откройте решение Режекслангсерв. sln.
 
-5. Откроется окно **одностороннего обновления** . Нажмите кнопку **OK**.
+5. Откроется окно **одностороннего обновления** . Нажмите кнопку **ОК**.
 
 6. Обновите свойства проекта. Откройте окно **свойств проекта** , выбрав узел проекта в **Обозреватель решений**, щелкните правой кнопкой мыши и выберите пункт **Свойства**.
 
@@ -71,13 +71,13 @@ ms.locfileid: "99895691"
 
     - Добавьте ссылку на Microsoft.VisualStudio.Shell.Interop.10.0.dll.
 
-8. Откройте файл VsPkg.cs и измените значение `DefaultRegistryRoot` атрибута на
+8. Откройте файл Вспкг. cs и измените значение `DefaultRegistryRoot` атрибута на
 
     ```
     "Software\\Microsoft\\VisualStudio\\14.0Exp"
     ```
 
-9. В исходном примере не регистрируется языковая служба, поэтому необходимо добавить следующий атрибут в VsPkg.cs.
+9. В исходном примере не регистрируется языковая служба, поэтому необходимо добавить следующий атрибут в Вспкг. cs.
 
     ```
     [ProvideLanguageService(typeof(RegularExpressionLanguageService), "RegularExpressionLanguage", 0, RequestStockColors=true)]
@@ -103,11 +103,11 @@ ms.locfileid: "99895691"
 
     - В **разделе активы** щелкните **создать**, выберите **Тип** в **Microsoft. VisualStudio. VSPackage**, задайте в качестве **источника** **проект в текущем решении**, а затем задайте для **проекта** значение **режекслангсерв**.
 
-    - Сохраните и закройте файл.
+    - Сохраните файл и закройте его.
 
 11. Создайте решение. Созданные файлы развертываются в **%UserProfile%\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\MSIT\ режекслангсерв \\**.
 
 12. Приступите к отладке. Второй экземпляр Visual Studio открыт.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширяемость языковой службы прежних версий](../../extensibility/internals/legacy-language-service-extensibility.md)

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::GetPortSupplierId
 ms.assetid: 741d0829-0943-49bf-b56e-61e836043006
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bbed2ba8dfa46477770815376046083a8f7c92f1
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: a7fa298074f9942d2cf863a7e0e1e8ad71f86ed5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102145395"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072108"
 ---
 # <a name="idebugportsupplier2getportsupplierid"></a>IDebugPortSupplier2::GetPortSupplierId
 Возвращает идентификатор поставщика порта.
@@ -47,5 +47,5 @@ HRESULT GetPortSupplierId(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

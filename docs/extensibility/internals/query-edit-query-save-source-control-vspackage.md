@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Query Edit Query Save events
 - source control packages, Query Edit Query Save events
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e320d6f7b6126736719eb2a428d47a39a61730ae
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9295644a07a1840cd4874b8bfff298ad9d46c928
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837278"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060917"
 ---
 # <a name="query-edit-query-save-source-control-vspackage"></a>Изменение и сохранение запроса (пакет VSPackage системы управления версиями)
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Редакторы могут транслировать события сохранения запроса на изменение (QEQS). [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Заглушка системы управления версиями реализует службу QEQS, так что она является получателем событий QEQS. Затем эти события делегируются в текущий активный пакет VSPackage системы управления версиями. В пакете VSPackage активной системы управления версиями реализован <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> метод и его методы. Методы `IVsQueryEditQuerySave2` интерфейса обычно вызываются непосредственно перед тем, как документ будет изменен в первый раз и непосредственно перед сохранением документа.
@@ -37,5 +37,5 @@ ms.locfileid: "99837278"
 
  Этот метод должен вести себя в транзакционном режиме; то есть, если сохранение отменено для одного файла, сохранение отменяется для всех файлов. И наоборот, если сохранение разрешено, оно должно быть разрешено для всех файлов. Как и в `IVsQueryEditQuerySave2::QueryEditFiles` случае с методом, варианты, которые следует учитывать при реализации `IVsQueryEditQuerySave2::QuerySaveFiles` метода, включают несколько файлов, Специальные файлы, отмену от пользователя и изменения в памяти.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>

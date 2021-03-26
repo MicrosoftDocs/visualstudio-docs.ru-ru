@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCodeContext2::GetLanguageInfo
 ms.assetid: 03002ef1-9fe6-44b6-b23b-ef7b86b2b21b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: dccf0c34b6483ad85cc7bfd9cff7078cc20524f3
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 62d076a2780ab8d49f79379111eaeef9dd1cdc88
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164127"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088384"
 ---
 # <a name="idebugcodecontext2getlanguageinfo"></a>IDebugCodeContext2::GetLanguageInfo
 Возвращает сведения о языке для данного контекста кода.
@@ -52,8 +52,8 @@ int GetLanguageInfo(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  По крайней мере один из параметров должен возвращать значение, отличное от NULL.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

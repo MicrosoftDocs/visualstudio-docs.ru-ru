@@ -8,17 +8,17 @@ helpviewer_keywords:
 - regpkg, registration utility
 - registration, regpkg utility
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2f0ddf9c707de0b30b18761ba5af1ef42e198231
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f5160608379549abbd469bd6cf1c17e4357eac15
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99837251"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060761"
 ---
 # <a name="regpkg-utility"></a>Служебная программа RegPkg
 > [!NOTE]
@@ -56,6 +56,6 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 
  с/regfile или/вргфиле или/ргсфиле или/виксфиле.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../../extensibility/internals/vspackages.md)
 - [Устранение неполадок регистрации пакета RegPkg](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)

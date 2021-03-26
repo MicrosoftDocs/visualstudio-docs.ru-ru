@@ -10,17 +10,17 @@ helpviewer_keywords:
 - RDT_EditLock
 - invisible
 ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a2165bf6d605384e52dbc3cb90b5485d8022ee7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6add02e763c9664c19fe21b1cfc37dd29b3010b9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915232"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060839"
 ---
 # <a name="rdt_readlock-usage"></a>Использование RDT_ReadLock
 

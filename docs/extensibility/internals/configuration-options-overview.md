@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project configurations
 - configuration options, about configuration options
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: aa018d340e016ba5c9f424f705599a150ecdc818
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ad30e3f7b91e8a76715f66d9f6701597f3830bd6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884693"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057134"
 ---
 # <a name="configuration-options-overview"></a>Общие сведения о параметрах конфигурации
 Проекты в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] могут поддерживать несколько конфигураций, которые могут быть построены, отлажены, запущены и (или) развернуты. Конфигурация — это тип сборки, который описывается именованным набором свойств, обычно параметрами компилятора и расположениями файлов. По умолчанию новые решения содержат две конфигурации: *Отладка* и *выпуск*. Эти конфигурации можно применить с помощью параметров по умолчанию или изменить в соответствии с требованиями конкретного решения или проекта. Некоторые пакеты могут быть построены двумя способами: как редактор ActiveX или как компонент на месте. Однако проекты не нуждаются в поддержке нескольких конфигураций. Если доступна только одна конфигурация, эта конфигурация сопоставляется со всеми конфигурациями решения.
@@ -35,7 +35,7 @@ ms.locfileid: "99884693"
 |------------------------|----------------------|----------------------|
 |*Отладка*|\<Debug Win32 settings>|\<Debug Win64 settings>|
 |*Релиз*|\<Release Win32 settings>|\<Release Win64 settings>|
-|*MyConfig*|Недоступно|\<MyConfig Win64 settings>|
+|*MyConfig*|Н/Д|\<MyConfig Win64 settings>|
 
 > [!NOTE]
 > Невозможно создать конфигурацию решения *MyConfig* , которая исключает платформу Win32, если целевой проект не поддерживает Win32.
@@ -70,7 +70,7 @@ ms.locfileid: "99884693"
 
   Дополнительные сведения об интерфейсах объектов конфигурации и интерфейсах объектов поставщика конфигурации на предыдущей схеме см. в разделе [объект конфигурации проекта](../../extensibility/internals/project-configuration-object.md). Кроме того, [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md) содержит дополнительные сведения о интерфейсах объектов зависимостей Configuration Builder и Build, а также о [конфигурации проекта для управления развертыванием](../../extensibility/internals/project-configuration-for-managing-deployment.md) описание интерфейсов, присоединенных к объектам развертывания и развертывания конфигурации. Наконец, [Конфигурация проекта для выходных данных](../../extensibility/internals/project-configuration-for-output.md) описывает интерфейсы выходной группы и объекта вывода, а также использование страниц свойств для просмотра и установки зависящих от конфигурации свойств.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>
 - [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md)
 - [Конфигурация решения](../../extensibility/internals/solution-configuration.md)

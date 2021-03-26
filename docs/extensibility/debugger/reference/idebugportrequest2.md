@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortRequest2 interface
 ms.assetid: 556e610d-7c4b-44a8-965a-76a9d02b601a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ca2d1d59c66c87c2dbb0fc256481d35ad590dbe
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 035b6364b3a1dea400c96bcf179d57d6b4808ad5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102142626"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105072225"
 ---
 # <a name="idebugportrequest2"></a>IDebugPortRequest2
 Этот интерфейс описывает порт. Это описание используется для добавления порта к поставщику порта.
@@ -42,7 +42,7 @@ IDebugPortRequest2 : IUnknown
 |------------|-----------------|
 |[GetPortName](../../../extensibility/debugger/reference/idebugportrequest2-getportname.md)|Возвращает имя создаваемого порта.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Модуль отладки обычно не взаимодействует с поставщиком порта и не будет использовать его для этого интерфейса.
 
 ## <a name="requirements"></a>Требования
@@ -52,7 +52,7 @@ IDebugPortRequest2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)
 - [GetPortRequest](../../../extensibility/debugger/reference/idebugport2-getportrequest.md)

@@ -6,17 +6,17 @@ titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c41b70cf9a4e4e5ae4b1d1ddd2d2a6f6876b9a96
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e3bdcc9c35f5acaf9937bd18b0160f9e5a58161c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99875527"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060591"
 ---
 # <a name="roslyn-analyzers-and-code-aware-library-for-immutablearrays"></a>Анализаторы Roslyn и библиотека с поддержкой кода для Иммутаблеаррайс
 
@@ -66,7 +66,7 @@ Console.WriteLine("b2.Length = { 0}", b2.Length);
 
 В главном меню выберите **файл**  >  **создать**  >  **проект**. В диалоговом окне **Новый проект** в разделе проекты **C#** на панели навигации слева выберите **расширяемость** и в области справа выберите шаблон проект **с исправлением кода** . Введите имя и подтвердите диалоговое окно.
 
-Шаблон открывает файл *DiagnosticAnalyzer.CS* . Выберите вкладку буфер редактора. Этот файл содержит класс анализатора (сформированный на основе имени, присвоенного проекту), производного от класса `DiagnosticAnalyzer` (тип API Roslyn). Новый класс имеет `DiagnosticAnalyzerAttribute` объявление анализатора относится к языку C#, поэтому компилятор обнаруживает и загружает анализатор.
+Шаблон открывает файл *диагностиканализер. CS* . Выберите вкладку буфер редактора. Этот файл содержит класс анализатора (сформированный на основе имени, присвоенного проекту), производного от класса `DiagnosticAnalyzer` (тип API Roslyn). Новый класс имеет `DiagnosticAnalyzerAttribute` объявление анализатора относится к языку C#, поэтому компилятор обнаруживает и загружает анализатор.
 
 ```csharp
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
@@ -309,7 +309,7 @@ private async Task<Document> ChangeToImmutableArrayEmpty(
 
 Весь готовый код можно просмотреть [здесь](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers). Вложенные папки *донотусеиммутаблеаррайколлектионинитиализер* и *Донотусеиммутаблеаррайктор* имеют файл c# для поиска проблем и файл c#, который реализует исправления кода, отображаемые в пользовательском интерфейсе лампочки Visual Studio. Обратите внимание, что завершенный код имеет немного более абстракцию, чтобы избежать повторной выборки \<T> объекта типа ImmutableArray. Он использует вложенные зарегистрированные действия для сохранения объекта типа в контексте, который доступен при выполнении вложенных действий (анализ создания объекта и анализ инициализации коллекции).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [\\\Буилд 2015](https://channel9.msdn.com/events/Build/2015/3-725)
 * [Завершенный код на GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)

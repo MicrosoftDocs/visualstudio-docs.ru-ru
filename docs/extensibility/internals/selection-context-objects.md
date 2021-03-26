@@ -8,17 +8,17 @@ helpviewer_keywords:
 - selection, tracking
 - selection, context objects
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c8fa0303d752351efd87847941037a36f2f90f2b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ca6239264ca1fa42edb0b73e8a96f523cb450857
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911106"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080844"
 ---
 # <a name="selection-context-objects"></a>Объекты контекста выбора
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]Интегрированная среда разработки (IDE) использует объект контекста глобального выделения, чтобы определить, что должно отображаться в интегрированной среде разработки. Каждое окно в интегрированной среде разработки может иметь собственный объект контекста выбора, отправленный в глобальный контекст выбора. Интегрированная среда разработки обновляет глобальный контекст выделения значениями из окна, когда это окно находится в фокусе. Дополнительные сведения см. в статье [отзыв пользователю](../../extensibility/internals/feedback-to-the-user.md).
@@ -41,7 +41,7 @@ ms.locfileid: "99911106"
 
 3. Пакет VSPackage работает с получаемыми событиями, выполняя такие действия, как обновление иерархии, повторная активация средства или выполнение других аналогичных задач.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>
 - [Иерархии в Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

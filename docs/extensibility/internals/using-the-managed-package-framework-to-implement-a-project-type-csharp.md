@@ -9,17 +9,17 @@ helpviewer_keywords:
 - MPF projects
 - managed package framework, creating projects
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c563d127e66b00b3f4358abe0ea86e2384bf371f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cb047c9ef8c5c47c6509a6a5947be77a488e22f5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895379"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060735"
 ---
 # <a name="using-the-managed-package-framework-to-implement-a-project-type-c"></a>Использование платформы управляемых пакетов для реализации типа проекта (C#)
 Платформа управляемых пакетов (MPF) предоставляет классы C#, которые можно использовать или наследовать от, чтобы реализовать собственные типы проектов. В MPF реализовано множество интерфейсов, которые Visual Studio предполагает предоставить для предоставления типа проекта, и вы можете сосредоточиться на реализации конкретных типов проектов.

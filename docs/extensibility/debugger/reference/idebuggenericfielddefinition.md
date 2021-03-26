@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericFieldDefinition interface
 ms.assetid: b5a853b7-221e-4d62-8948-07423089d75d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ae277a6f0523adfc0c9afb0e0cac8765df2d5758
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0c9b2a4b9dbdbf5d1b5faefb8dfbf498f873ec01
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102165414"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063361"
 ---
 # <a name="idebuggenericfielddefinition"></a>IDebugGenericFieldDefinition
 Представляет определение поля для универсального типа управляемого кода.

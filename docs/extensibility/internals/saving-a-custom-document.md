@@ -9,22 +9,22 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], saving custom documents
 - editors [Visual Studio SDK], saving custom documents
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a3be218565feb26d66f623a281fc9277b7fa8fb7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a536a5f0f2b1cac09c65079974c661e09e9139ab
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99958522"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080922"
 ---
 # <a name="saving-a-custom-document"></a>Сохранение настраиваемого документа
 Среда обрабатывает команды **сохранить**, **Сохранить как** и **сохранить все** . Когда пользователь нажимает кнопку **сохранить**, **Сохранить как** **или сохранить все** в меню **файл** или закрывает решение, в результате чего происходит сохранение всего процесса.
 
- ![Сохранение в редакторе клиентов](../../extensibility/internals/media/private.gif "Частные") Сохранение, сохранение как и сохранение всей обработки команд для пользовательского редактора
+ ![Сохранение в редакторе клиентов](../../extensibility/internals/media/private.gif "Личные") Сохранение, сохранение как и сохранение всей обработки команд для пользовательского редактора
 
  Этот процесс описан в следующих шагах.
 
@@ -43,6 +43,6 @@ ms.locfileid: "99958522"
     > [!NOTE]
     > Если вы реализуете собственный механизм сохраняемости, не забудьте вызвать <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> метод для экономии времени. Этот метод проверяет, является ли сохранение файла защищенным (например, если файл не доступен только для чтения).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Открытие и сохранение элементов проекта](../../extensibility/internals/opening-and-saving-project-items.md)

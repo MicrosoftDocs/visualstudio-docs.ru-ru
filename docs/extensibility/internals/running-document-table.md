@@ -11,17 +11,17 @@ helpviewer_keywords:
 - running document table (RDT), edit locks
 - document data objects, running document table
 ms.assetid: bbec74f3-dd8e-48ad-99c1-2df503c15f5a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 863a9b1cdb68218539045c9154fc18d845495222
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 615910684fd79d3cbd8d8a1e012c239e27abc180
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902897"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080974"
 ---
 # <a name="running-document-table"></a>Запуск таблицы документов
 Интегрированная среда разработки поддерживает список всех открытых документов во внутренней структуре, которая называется «выполняемая таблица документов» (РДТ). Этот список включает все открытые документы в памяти независимо от того, редактируются ли эти документы в данный момент. Документ — это любой сохраняемый элемент, включая файлы в проекте или основной файл проекта (например, VCXPROJ-файл).
@@ -58,6 +58,6 @@ ms.locfileid: "99902897"
 
 - Используйте иерархию или идентификатор элемента, чтобы задать в системе проектов полный путь к документу, а затем просмотрите элемент в РДТ.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Использование RDT_ReadLock](../../extensibility/internals/rdt-readlock-usage.md)
 - [Сохранение состояния и запуск таблицы документов](../../extensibility/internals/persistence-and-the-running-document-table.md)

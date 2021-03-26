@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e7b2c8d5f194287f0b654184ddd8716f248ca36
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c53191c5f6e02c0b37d29f89a65119f1edab92ea
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895756"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063322"
 ---
 # <a name="microsoft-help-viewer-sdk"></a>Пакет SDK окна справки (Майкрософт)
 
@@ -51,7 +51,7 @@ ms.locfileid: "99895756"
 
 Поддерживаемые элементы управления для пакета фирменной символики Visual Studio:
 
-- Создание ссылок
+- Ссылки
 
 - CodeSnippet
 
@@ -700,7 +700,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudi
 
 В этом пошаговом руководстве показано, как включить содержимое справки в приложение оболочки Visual Studio, а затем развернуть его.
 
-**Requirements**
+**Требования**
 
 1. [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)]
 

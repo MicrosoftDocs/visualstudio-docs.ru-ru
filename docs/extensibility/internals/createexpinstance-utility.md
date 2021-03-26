@@ -11,17 +11,17 @@ helpviewer_keywords:
 - createexpinstance
 - createexpinst
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7959c0047fee87c92e5359b4f8f2918a7e9f27de
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d0010c4a98d0ea50ec7feb2f7a379f3c84bc3d53
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884589"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056991"
 ---
 # <a name="createexpinstance-utility"></a>Служебная программа CreateExpInstance
 Используйте служебную программу **CreateExpInstance** для создания, сброса или удаления экспериментального экземпляра Visual Studio. Экспериментальный экземпляр можно использовать для отладки и тестирования расширений Visual Studio без изменения базового продукта.
@@ -56,5 +56,5 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
 
  **CreateExpInstance.exe/Reset/Всинстанце = ~/Рутсуффикс = exp**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../../extensibility/internals/vspackages.md)

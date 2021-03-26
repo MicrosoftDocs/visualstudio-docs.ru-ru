@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: conceptual
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b2c3703cf0e95b83492f1cb50548d9a90336e34a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 549575d85de9fc1c37ebc4aa34c05e29837885df
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848147"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060585"
 ---
 # <a name="launch-visual-studio-using-dte"></a>Запуск Visual Studio с помощью DTE
 
@@ -33,7 +33,7 @@ ms.locfileid: "99848147"
 
 3. Добавьте ссылку на EnvDTE.
 
-4. Вставьте приведенный ниже [пример кода](#example-code) в файл *Program.CS* .
+4. Вставьте приведенный ниже [пример кода](#example-code) в файл *Program. CS* .
 
 5. Нажмите клавишу **F5** , чтобы запустить программу. Перед выходом из программы вы увидите Visual Studio 2019 Open.
 
@@ -187,7 +187,7 @@ namespace ConsoleLauncherApp
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расположение Visual Studio](locating-visual-studio.md)
 - [Пошаговое руководство. доступ к объекту DTE из расширения редактора](walkthrough-accessing-the-dte-object-from-an-editor-extension.md)

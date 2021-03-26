@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCodeContext2::GetDocumentContext
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d99b67e76c8cc8719c77c88c8b93ca667c3a025a
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 80420f12369ef038c2faccb51c9b1bfc9b0073a4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164166"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088423"
 ---
 # <a name="idebugcodecontext2getdocumentcontext"></a>IDebugCodeContext2::GetDocumentContext
 Возвращает контекст документа, соответствующий данному контексту кода. Контекст документа представляет собой расположение в исходном файле, соответствующее исходному коду, вызвавшему эту инструкцию.
@@ -47,9 +47,9 @@ int GetDocumentContext(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки. Модуль отладки должен возвращать код сбоя, например, если `E_FAIL` в `out` `null` контексте кода нет связанной с исходным положением.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Как правило, контекст документа можно рассматривать как расположение в исходном файле, в то время как контекст кода является позицией инструкции кода в потоке выполнения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - solution configurations
 ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 99a0de44d5e7ac240187c929a8134ab47c7de55c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c6bf2694b26305cdaefefd61dc1119b7b019b12d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910984"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080792"
 ---
 # <a name="solution-configuration"></a>Конфигурация решения
 Конфигурации решения хранят свойства уровня решения. Они направляют поведение клавиши **Start** (F5) и команд **сборки** . По умолчанию эти команды создают и запускают конфигурацию отладки. Обе команды выполняются в контексте конфигурации решения. Это означает, что пользователь может запустить клавишу F5 и выполнить сборку любого активного решения, настроенного с помощью параметров. Среда разработана для оптимизации решений, а не проектов, когда дело доходит до сборки и запуска.
@@ -51,13 +51,13 @@ ms.locfileid: "99910984"
 
    Указывает, строится ли проект в текущей конфигурации решения. Невыбранные проекты не создаются при вызове команд сборки на уровне решения, несмотря на все зависимости проектов, которые они содержат. Проекты, не выбранные для построения, по-прежнему включены в отладку, запуск, упаковку и развертывание решения.
 
-- Развернуть
+- Развертывание
 
    Указывает, будет ли проект развернут при использовании команд запуска или развертывания с выбранной конфигурацией сборки решения. Флажок для этого поля будет доступен, если проект поддерживает развертывание с помощью реализации <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> интерфейса для его <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> объекта.
 
   После добавления новой конфигурации решения пользователь может выбрать ее из раскрывающегося списка Конфигурация решения на стандартной панели инструментов для построения и (или) запуска этой конфигурации.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Управление параметрами конфигурации](../../extensibility/internals/managing-configuration-options.md)
 - [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md)
 - [Объект конфигурации проекта](../../extensibility/internals/project-configuration-object.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Add New Item dialog box, contributing to
 ms.assetid: b2e53175-9372-4d17-8c2b-9264c9e51e9c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3fdc5705cad0ec696a520350042d7f18aaec146
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8186f25f8e1631f0e13aa7a8f43620812c4c7693
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884641"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057056"
 ---
 # <a name="contribute-to-the-add-new-item-dialog-box"></a>Участие в диалоговом окне "Добавление нового элемента"
 Подтип проекта может предоставлять полный новый каталог элементов для диалогового окна **Добавление нового элемента** путем регистрации **добавления шаблонов элементов** в подразделе реестра **Projects** .
@@ -43,6 +43,6 @@ ms.locfileid: "99884641"
 
  Можно отфильтровать элементы в диалоговом окне **Добавление нового элемента** , реализовав <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg> интерфейс для объекта агрегатора подтипа проекта. Например, подтип проекта, который реализует проект базы данных путем статистической обработки [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] проекта, может фильтровать [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] определенные элементы в диалоговом окне **Добавление нового элемента** путем реализации фильтрации, а в свою очередь может добавлять элементы, относящиеся к проекту базы данных, посредством поддержки `VSHPROPID_ AddItemTemplatesGuid` в <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> . Дополнительные сведения о фильтрации и добавлении элементов в диалоговом окне " **Добавление нового элемента** " см. в разделе [Добавление элементов в диалоговое окно Добавление нового](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)элемента.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
 - [CATID для объектов, которые обычно используются для расширения проектов](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

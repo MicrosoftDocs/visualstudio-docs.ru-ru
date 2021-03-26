@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCodeContext2 interface
 ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 228b6e84ca2f85803c4a248b966698b822bb572f
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0d1fcf5ed3b40d0fafdc8ecf9a88c7000f01d5d4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164101"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088358"
 ---
 # <a name="idebugcodecontext2"></a>IDebugCodeContext2
 Этот интерфейс представляет начальную точку инструкции кода. В настоящее время для большинства архитектур времени выполнения контекст кода можно рассматривать как адрес в потоке выполнения программы.
@@ -43,7 +43,7 @@ IDebugCodeContext2 : IDebugMemoryContext2
 |[GetDocumentContext](../../../extensibility/debugger/reference/idebugcodecontext2-getdocumentcontext.md)|Возвращает контекст документа, соответствующий контексту активного кода.|
 |[GetLanguageInfo](../../../extensibility/debugger/reference/idebugcodecontext2-getlanguageinfo.md)|Возвращает сведения о языке для данного контекста кода.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Основное различие между `IDebugCodeContext2` интерфейсом и интерфейсом [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) заключается в том, что `IDebugCodeContext2` всегда выровняйте инструкции. Это означает, что `IDebugCodeContext2` всегда указывает на начало инструкции, в то время как `IDebugMemoryContext2` может указывать на любой байт памяти в архитектуре времени выполнения. `IDebugCodeContext2` увеличивается на инструкции, а не на базовый размер хранилища (обычно это байт).
 
 ## <a name="requirements"></a>Требования
@@ -53,7 +53,7 @@ IDebugCodeContext2 : IDebugMemoryContext2
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [GetDisassemblyStream](../../../extensibility/debugger/reference/idebugprogram2-getdisassemblystream.md)
 - [CanSetNextStatement](../../../extensibility/debugger/reference/idebugthread2-cansetnextstatement.md)
 - [SetNextStatement](../../../extensibility/debugger/reference/idebugthread2-setnextstatement.md)

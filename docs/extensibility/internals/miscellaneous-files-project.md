@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Solution Items folder
 - files, opening with Miscellaneous Files project
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e22ff1c0f95c78e7e19f8e309d1c37f85c7b9aa5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b79eaaeaf94954e2d3dc1bd855b56bee5b8bdae4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99895704"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063283"
 ---
 # <a name="miscellaneous-files-project"></a>Проект прочих файлов
 Когда пользователь открывает элементы проекта, интегрированная среда разработки присваивает проекту Прочие файлы все элементы, которые не являются членами каких-либо проектов в решении.
@@ -37,7 +37,7 @@ ms.locfileid: "99895704"
 
  В проекте "Прочие файлы" пользователь не должен явно создавать его с помощью диалогового окна " **Новый проект** ". Кроме того, проект прочих файлов не будет постоянно управлять списком членов проекта. Он использует необязательный компонент для записи списка последних использованных файлов для каждого пользователя.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument>
 - <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY>

@@ -9,17 +9,17 @@ helpviewer_keywords:
 - code snippets, supporting in language services [managed package framework]
 - language services [managed package framework], supporting code snippets
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16f0df8a21621b93655935b3cfa27a4b62df63ce
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9578159554f77a9ad7553a56c054a863b3b63fd5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888151"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080766"
 ---
 # <a name="support-for-code-snippets-in-a-legacy-language-service"></a>Поддержка фрагментов кода в языковой службе прежних версий
 Фрагмент кода — это фрагмент кода, который вставляется в исходный файл. Сам фрагмент кода является шаблоном на основе XML с набором полей. Эти поля выделяются после вставки фрагмента и могут иметь различные значения в зависимости от контекста, в котором вставляется фрагмент. Сразу после вставки фрагмента кода языковая служба может отформатировать фрагмент.
@@ -390,7 +390,7 @@ namespace TestLanguagePackage
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции языковой службы прежних версий](../../extensibility/internals/legacy-language-service-features1.md)
 - [Регистрация языковой службы прежних версий](../../extensibility/internals/registering-a-legacy-language-service1.md)
 - [Фрагменты кода](../../ide/code-snippets.md)

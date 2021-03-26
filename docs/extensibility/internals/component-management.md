@@ -8,17 +8,17 @@ helpviewer_keywords:
 - installation [Visual Studio SDK], components
 - installation [Visual Studio SDK], file management
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 44ee1a3afe313cdc11bb28e0a24a89e3e3ad7f0c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9767af4c30957111526303600f9e8eda815b42f0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99852730"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105057095"
 ---
 # <a name="component-management"></a>Управление компонентами
 Единицы задач в установщик Windows называются установщик Windows компонентами (иногда называются Викс или просто компонентами). Идентификатор GUID определяет каждый компонент WIC, который является базовой единицей установки и подсчетом ссылок для настроек, использующих установщик Windows.
@@ -49,6 +49,6 @@ ms.locfileid: "99852730"
 
      В противном случае общие ключи будут перезаписаны при установке другой версии VSPackage. После удаления второй версии файл, на который указывает ключ, исчезнет.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Выбор между общими и версиями пакетов VSPackage](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
 - [Сценарии установки VSPackage](../../extensibility/internals/vspackage-setup-scenarios.md)
