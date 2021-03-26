@@ -8,17 +8,17 @@ helpviewer_keywords:
 - setup, VSPackages
 - launch conditions
 ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 20287ba123c5736c9eb7077622623f4a739bde5c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ffb00ca42376f8b7c150552c862bba7a24a5c1fb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963475"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056770"
 ---
 # <a name="detect-system-requirements"></a>Определение требований к системе
 Пакет VSPackage не может работать, если не установлена Visual Studio. При использовании установщик Windows Майкрософт для управления установкой пакета VSPackage можно настроить установщик, чтобы определить, установлена ли Visual Studio. Кроме того, его можно настроить для проверки системы на наличие других требований, например конкретной версии Windows или определенного объема ОЗУ.
@@ -26,7 +26,7 @@ ms.locfileid: "99963475"
 ## <a name="detect-visual-studio-editions"></a>Обнаружение выпусков Visual Studio
  Чтобы определить, установлен ли выпуск Visual Studio, убедитесь, что значение раздела реестра **Install** — *(REG_DWORD) 1* в соответствующей папке, как указано в следующей таблице. Обратите внимание, что существует иерархия выпусков Visual Studio:
 
-1. Корпорация
+1. Предприятие
 
 2. Professional
 
@@ -47,5 +47,5 @@ ms.locfileid: "99963475"
 ## <a name="detect-when-visual-studio-is-running"></a>Определить, когда работает Visual Studio
  Невозможно правильно зарегистрировать VSPackage, если Visual Studio работает при установке VSPackage. Установщик должен определить, когда работает Visual Studio, а затем отказаться от установки программы. Установщик Windows не позволяет использовать записи таблицы для включения такого обнаружения. Вместо этого необходимо создать пользовательское действие следующим образом: использовать `EnumProcesses` функцию для обнаружения *devenv.exe* процесса, а затем либо задать свойство установщика, которое используется в условии запуска, либо условно отобразить диалоговое окно, предлагающее пользователю закрыть Visual Studio.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Установка пакетов VSPackage с помощью установщик Windows](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccGet function
 ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 799d51c607ce720502c269cf82fe5a857ec7a826
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 172e0ec5fdba4b91c3cf86ea964b4a98a23a5fa8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220837"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060345"
 ---
 # <a name="sccget-function"></a>Функция Сккжет
 Эта функция извлекает копию одного или нескольких файлов для просмотра и компиляции, но не для редактирования. В большинстве систем файлы помечаются как доступные только для чтения.
@@ -76,7 +76,7 @@ SCCRTN SccGet(
 |SCC_I_OPERATIONCANCELED|Операция отменена до завершения.|
 |SCC_E_NOTAUTHORIZED|У пользователя нет разрешений на выполнение этой операции.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция вызывается с количеством и массивом имен извлекаемых файлов. Если IDE передает флаг `SCC_GET_ALL` , это означает, что элементы в `lpFileNames` не являются файлами, а каталогами и все файлы, находящихся в системе управления версиями в указанных каталогах, будут извлечены.
 
  `SCC_GET_ALL`Флаг можно сочетать с `SCC_GET_RECURSIVE` флагом для получения всех файлов в указанных каталогах и всех подкаталогах.
@@ -107,6 +107,6 @@ SCCRTN SccGet(
 
     6. Обновленный файл *b.txt* теперь можно вернуть.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Битфлагс, используемые конкретными командами](../extensibility/bitflags-used-by-specific-commands.md)

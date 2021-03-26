@@ -8,17 +8,17 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], checking items in
 - source control plug-ins, checking items in
 ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ef2baf2158403e8243632bc7ab77e58ea311b67b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b8de88b75b7013b75a35c9e92dc662598185e92b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898103"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080558"
 ---
 # <a name="test-area-4-check-in"></a>Область тестирования 4. Запись после изменения
 Эта область тестирования подключаемого модуля системы управления версиями охватывает отправку обновленных элементов в хранилище версий с помощью команды **возврата** .
@@ -68,5 +68,5 @@ ms.locfileid: "99898103"
 |Добавление проекта в пустое решение в системе управления версиями (диалоговое окно «**Возврат** »)|1. Создайте пустое решение.<br />2. Добавьте решение в систему управления версиями.<br />3. Добавьте новый проект.<br />4. при появлении запроса примите условия поиска решения.<br />5. возврат из диалогового окна " **Возврат** ".|Типичное ожидаемое поведение.|
 |Добавление проекта в пустое решение в системе управления версиями (окно "**незавершенные возвраты** ")|1. Создайте пустое решение.<br />2. Добавьте решение в систему управления версиями.<br />3. Добавьте новый проект.<br />4. при появлении запроса примите условия поиска решения.<br />5. Возврат решения из окна **ожидающих возвратов** .|Типичное ожидаемое поведение.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Руководство по тестированию подключаемых модулей системы управления версиями](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

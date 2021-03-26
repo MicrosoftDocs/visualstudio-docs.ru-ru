@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], supporting
 ms.assetid: 567acde3-354e-4f39-8d99-0ef86c103396
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6923eb7a534a4cacf8062883d073ddddc9395e17
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 56880cab310367a5c4da3af0cf310867a5519495
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892558"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080610"
 ---
 # <a name="supporting-source-control"></a>Поддержка системы управления версиями
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] поддерживает извлечение файлов, возвраты и другие операции системы управления версиями для проекта или редактора. Как клиент системы управления версиями, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] предназначен для взаимодействия с пакетом управления версиями, например [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] , который обеспечивает архивацию, управление версиями и средства управления для динамически определяемого набора файлов.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Модель для пакетов системы управления версиями](../../extensibility/internals/model-for-source-control-packages.md)
 
  Описывает интерфейсы, которые должен реализовать тип проекта для поддержки системы управления версиями.
@@ -43,7 +43,7 @@ ms.locfileid: "99892558"
 
  Описывает, как зарегистрировать проект при его добавлении пользователем в систему управления версиями.
 
-## <a name="reference"></a>Справочные сведения
+## <a name="reference"></a>Справочник
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> Указывает среде или пакету системы управления версиями, что файл будет изменен в памяти или сохранен.
 
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2> Позволяет проектам и иерархиям регистрировать себя в системе управления версиями и получать сведения о состоянии системы управления версиями.

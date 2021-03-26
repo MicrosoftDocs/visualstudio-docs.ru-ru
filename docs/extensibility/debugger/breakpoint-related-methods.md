@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], breakpoint methods
 - breakpoints, methods
 ms.assetid: a6f77bf0-bf81-443f-8683-5f12075bbe10
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c20a92e847f120850d7cbd424cc073018903911d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 06494b5ed6c1826e665f42e180ad8c71de596e30
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99930828"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055247"
 ---
 # <a name="breakpoint-related-methods"></a>Методы, связанные с точкой останова
 Модуль отладки (DE) должен поддерживать настройку точек останова. Отладка Visual Studio поддерживает следующие типы точек останова:
@@ -47,7 +47,7 @@ ms.locfileid: "99930828"
 |[Разрешить](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enable.md)|Переключает включенное состояние ожидающей точки останова.|
 |[EnumBoundBreakpoints](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)|Перечисляет все точки останова, привязанные к ожидающей точке останова.|
 |[EnumErrorBreakpoints](../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)|Перечисляет все точки останова, являющиеся результатом ожидающей точки останова.|
-|[Удаление](../../extensibility/debugger/reference/idebugpendingbreakpoint2-delete.md)|Удаляет отложенную точку останова и все точки останова, привязанные к ней.|
+|[Удалить](../../extensibility/debugger/reference/idebugpendingbreakpoint2-delete.md)|Удаляет отложенную точку останова и все точки останова, привязанные к ней.|
 
  Чтобы перечислить привязанные точки останова и точки останова с ошибками, необходимо реализовать все методы [IEnumDebugBoundBreakpoints2](../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) и [IEnumDebugErrorBreakpoints2](../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md).
 
@@ -59,7 +59,7 @@ ms.locfileid: "99930828"
 |[GetState](../../extensibility/debugger/reference/idebugboundbreakpoint2-getstate.md)|Возвращает состояние привязанной точки останова.|
 |[GetBreakpointResolution](../../extensibility/debugger/reference/idebugboundbreakpoint2-getbreakpointresolution.md)|Возвращает разрешение точки останова, описывающее точку останова.|
 |[Разрешить](../../extensibility/debugger/reference/idebugboundbreakpoint2-enable.md)|Включает или отключает точку останова.|
-|[Удаление](../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md)|Удаляет связанную точку останова.|
+|[Удалить](../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md)|Удаляет связанную точку останова.|
 
  Для разрешения и сведений о запросе требуется реализация следующих методов [IDebugBreakpointResolution2](../../extensibility/debugger/reference/idebugbreakpointresolution2.md) .
 
@@ -84,5 +84,5 @@ ms.locfileid: "99930828"
 
  Для просмотра исходного кода в точке останова необходимо реализовать методы [IDebugStackFrame2:: жетдокументконтекст](../../extensibility/debugger/reference/idebugstackframe2-getdocumentcontext.md) и/или методов [IDebugStackFrame2:: жеткодеконтекст](../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Контроль выполнения и оценка состояния](../../extensibility/debugger/execution-control-and-state-evaluation.md)

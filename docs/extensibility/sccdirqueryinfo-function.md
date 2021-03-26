@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccDirQueryInfo function
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: da0d42e2ef65aefc03e2813f32189876d0c07da1
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 81087d4f4da3435fb7bc80ec4a965394c7d6c7f3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220824"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060332"
 ---
 # <a name="sccdirqueryinfo-function"></a>Функция Сккдиркуеринфо
 Эта функция проверяет список полных каталогов на предмет их текущего состояния.
@@ -61,7 +61,7 @@ LPLONG  lpStatus
 |SCC_E_ACCESSFAILURE|Возникла проблема при доступе к системе управления версиями, возможно, из-за проблем с сетью или состязаниями. Рекомендуется повторить попытку.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Функция заполняет массив возврата битовой маской битов из `SCC_DIRSTATUS` семейства (см. [код состояния каталога](../extensibility/directory-status-code-enumerator.md)), по одной записи для каждого указанного каталога. Массив состояния выделяется вызывающим объектом.
 
  Интегрированная среда разработки использует эту функцию перед переименованием каталога, чтобы проверить, находится ли каталог в системе управления версиями, выполнив запрос на наличие соответствующего проекта. Если каталог не находится в системе управления версиями, интегрированная среда разработки может предоставить пользователю соответствующее предупреждение.
@@ -69,6 +69,6 @@ LPLONG  lpStatus
 > [!NOTE]
 > Если подключаемый модуль системы управления версиями не реализует одно или несколько значений состояния, нереализованные биты должны быть равны нулю.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Код состояния каталога](../extensibility/directory-status-code-enumerator.md)

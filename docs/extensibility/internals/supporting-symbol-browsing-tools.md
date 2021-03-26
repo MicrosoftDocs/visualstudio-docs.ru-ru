@@ -15,17 +15,17 @@ helpviewer_keywords:
 - symbols
 - libraries, symbol-browsing tools
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 377cdd9875ebc2fddd80c673e53ecb318d171e47
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d54f56ae3bc5fd5956f67400d84edfd4c8c9e55c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99875566"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080571"
 ---
 # <a name="supporting-symbol-browsing-tools"></a>Вспомогательные средства просмотра символов
 **Обозреватель объектов**, **представление классов**, **Обозреватель вызовов** и **Поиск результатов поиска символов** предоставляют возможности просмотра символов в Visual Studio. Эти средства отображают иерархические древовидные представления символов и отображают связи между символами в дереве. Символы могут представлять пространства имен, объекты, классы, члены классов и другие элементы языка, содержащиеся в различных компонентах. Компоненты включают в себя проекты Visual Studio, внешние платформа .NET Framework компонентов и типов (TLB) библиотеки. Дополнительные сведения см. [в разделе Просмотр структуры кода](../../ide/viewing-the-structure-of-code.md).
@@ -50,7 +50,7 @@ ms.locfileid: "99875566"
 > [!NOTE]
 > Для реализации собственного поставщика символов кода используйте <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> интерфейсы и.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Практическое руководство. Регистрация библиотеки с помощью диспетчера объектов](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [Практическое руководство. Предоставление списка символов, переданных из библиотеки в диспетчер объектов](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
 - [Практическое руководство. Определение символов в библиотеке](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)

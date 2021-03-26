@@ -5,20 +5,20 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 1f1ede0e642f14581d13d571acf67a952360bf65
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6ce834a2c949c55a6deeb6b7c7d0a9751771e316
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99838699"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080402"
 ---
 # <a name="walkthrough-create-an-sdk-using-c-or-visual-basic"></a>Пошаговое руководство. Создание пакета SDK на C# или Visual Basic
 В этом пошаговом руководстве вы узнаете, как создать простой пакет SDK для математических библиотек с помощью Visual C#, а затем упаковать пакет SDK как расширение Visual Studio (VSIX). Вы выполните следующие процедуры:
@@ -41,7 +41,7 @@ ms.locfileid: "99838699"
 
 4. В **Обозреватель решений** откройте контекстное меню для узла проекта **симплемас** и выберите пункт **Свойства**.
 
-5. Переименуйте **Class1.CS** в **Arithmetic.CS** и обновите его, чтобы он соответствовал следующему коду:
+5. Переименуйте **Class1. CS** в **арифметику. CS** и обновите его, чтобы он соответствовал следующему коду:
 
     [!code-csharp[CreatingAnSDKUsingWinRT#3](../extensibility/codesnippet/CSharp/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_1.cs)]
     [!code-vb[CreatingAnSDKUsingWinRT#3](../extensibility/codesnippet/VisualBasic/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_1.vb)]
@@ -234,7 +234,7 @@ ms.locfileid: "99838699"
     </Page>
     ```
 
-11. Обновите **MainPage.XAML.CS** в соответствии со следующим кодом:
+11. Обновите **MainPage. XAML. CS** , чтобы он соответствовал следующему коду:
 
      [!code-csharp[CreatingAnSDKUsingWinRTDemoApp#2](../extensibility/codesnippet/CSharp/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_5.cs)]
      [!code-vb[CreatingAnSDKUsingWinRTDemoApp#2](../extensibility/codesnippet/VisualBasic/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_5.vb)]
@@ -247,7 +247,7 @@ ms.locfileid: "99838699"
 
     Вы успешно создали и использовали пакет SDK для расширений.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пошаговое руководство. Создание пакета SDK с помощью C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [Пошаговое руководство. Создание пакета SDK с помощью JavaScript](../extensibility/walkthrough-creating-an-sdk-using-javascript.md)
 - [Создание пакета средств разработки](../extensibility/creating-a-software-development-kit.md)

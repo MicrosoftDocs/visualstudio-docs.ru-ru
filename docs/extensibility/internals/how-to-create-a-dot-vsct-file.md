@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - VSCT files, creating
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 66174d5de1abb4f5bdd23eeab0155a795cf0b634
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7fe1d92a9117193a72f579a01f264f1a13be6b6e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99879986"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056614"
 ---
 # <a name="how-to-create-a-vsct-file"></a>Как создать vsct-файл
 
@@ -71,7 +71,7 @@ ms.locfileid: "99879986"
 
 5. В [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] окне командной строки перейдите в каталог.
 
-6. Тип
+6. Type
 
    ```
    perl.exe ConvertCTCtoVSCT.pl PkgCmd.ctc PkgCmd.vsct
@@ -98,7 +98,7 @@ ms.locfileid: "99879986"
 
 3. В командной строке Visual Studio перейдите в каталог, содержащий файлы *. CTO* и *. ctsym* .
 
-4. Тип
+4. Type
 
     ```
     vsct.exe <ctofilename>.cto <vsctfilename>.vsct -S<symfilename>.ctsym
@@ -140,7 +140,7 @@ ms.locfileid: "99879986"
 
      Эта разметка должна идти внутри `ItemGroup` элемента, содержащего внедренные ресурсы.
 
-4. Откройте файл пакета, который обычно называется *\<ProjectName\> Package.CS* или *\<ProjectName\> Package. vb*, в редакторе.
+4. Откройте файл пакета, который обычно называется *\<ProjectName\> Package. CS* или *\<ProjectName\> Package. vb*, в редакторе.
 
 5. Добавьте `ProvideMenuResource` атрибут в класс Package, как показано в следующем примере.
 
@@ -150,7 +150,7 @@ ms.locfileid: "99879986"
 
      Первое значение параметра должно соответствовать значению `ResourceName` атрибута, определенного в файле проекта.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы Author. vsct](../../extensibility/internals/authoring-dot-vsct-files.md)
 - [Файлы таблицы команд Visual Studio (. vsct)](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [Справочник по XML-схеме VSCT](../../extensibility/vsct-xml-schema-reference.md)

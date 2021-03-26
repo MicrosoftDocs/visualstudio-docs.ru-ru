@@ -8,17 +8,17 @@ helpviewer_keywords:
 - running document table (RDT), responding to events
 - running document table (RDT), subscribing to events
 ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d8477f252259f0ca436c4d4f34325c6dbb45565b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1a887e7d50f14c76cf993eae64b0efd88dee2181
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99847977"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056289"
 ---
 # <a name="subscribing-to-an-event"></a>Подписка на событие
 В этом пошаговом руководстве объясняется, как создать окно инструментов, которое реагирует на события в выполняющейся таблице документов (РДТ). В окне инструментов размещается пользовательский элемент управления, реализующий интерфейс <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents> . <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A>Метод подключает интерфейс к событиям.
@@ -47,7 +47,7 @@ ms.locfileid: "99847977"
     </Grid>
     ```
 
-2. Откройте файл RDTExplorerWindow.cs в представлении кода. Добавьте следующие директивы using в начало файла.
+2. Откройте файл Рдтексплорервиндов. cs в представлении кода. Добавьте следующие директивы using в начало файла.
 
     ```csharp
     using Microsoft.VisualStudio;

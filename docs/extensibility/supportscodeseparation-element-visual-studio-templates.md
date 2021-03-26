@@ -12,17 +12,17 @@ helpviewer_keywords:
 - SupportsCodeSeparation element [Visual Studio Templates]
 - <SupportsCodeSeparation> element [Visual Studio Templates]
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a4938d90c3122d7aa42582e68aa087a9068a1ac4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 699d38f712885d1e2b08a111baa7db75fb7829da
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869444"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056133"
 ---
 # <a name="supportscodeseparation-element-visual-studio-templates"></a>Элемент SupportsCodeSeparation (шаблоны проектов Visual Studio)
 Указывает, включен ли флажок « **размещать код в отдельном файле** » в диалоговом окне « **Добавление нового элемента** ».
@@ -57,7 +57,7 @@ ms.locfileid: "99869444"
  Текст должен иметь значение `true` или `false` , что указывает, включен ли флажок " **размещать код в отдельном файле** " в диалоговом окне " **Добавление нового элемента** ".
 
 ## <a name="remarks"></a>Remarks
- Параметр `SupportsCodeSeparation` является необязательным элементом. Значение по умолчанию — `false`.
+ Параметр `SupportsCodeSeparation` является необязательным элементом. Значение по умолчанию — `false`.
 
  `SupportsCodeSeparation`Элемент доступен только для шаблонов веб-элементов.
 
@@ -88,6 +88,6 @@ ms.locfileid: "99869444"
 </VSTemplate>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Справочник по схеме шаблонов Visual Studio](../extensibility/visual-studio-template-schema-reference.md)
 - [Создание шаблонов проектов и элементов](../ide/creating-project-and-item-templates.md)

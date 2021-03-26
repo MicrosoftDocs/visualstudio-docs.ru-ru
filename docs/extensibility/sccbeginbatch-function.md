@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccBeginBatch function
 ms.assetid: 33968183-2e15-4e0d-955b-ca12212d1c25
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b52b82919b10e58772343aee42cb8723b10d6ca3
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 5af4d8fb1d8524f16493603bb5d46ee4bdbd03ba
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221656"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060449"
 ---
 # <a name="sccbeginbatch-function"></a>Функция Сккбегинбатч
 Эта функция запускает пакетную последовательность операций системы управления версиями. Для завершения пакета будет вызван [скцендбатч](../extensibility/sccendbatch-function.md) . Эти пакеты не могут быть вложенными.
@@ -40,11 +40,11 @@ SCCRTN SccBeginBatch(void);
 |SCC_OK|Пакетная операция успешно началась.|
 |SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Пакеты управления версиями используются для выполнения одних и тех же операций в нескольких проектах или нескольких контекстах. Пакеты можно использовать для исключения избыточных диалоговых окон для отдельных проектов из процесса выполнения пакетной операции. `SccBeginBatch`Функция и [скцендбатч](../extensibility/sccendbatch-function.md) используются в качестве пары функций для указания начала и конца операции. Они не могут быть вложенными. `SccBeginBatch` задает флаг, указывающий, что выполняется пакетная операция.
 
  Во время выполнения пакетной операции подключаемый модуль системы управления версиями должен представлять максимум одно диалоговое окно для любого вопроса пользователя и применять ответ от этого диалогового окна во всех последующих операциях.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccEndBatch](../extensibility/sccendbatch-function.md)

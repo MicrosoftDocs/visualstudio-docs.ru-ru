@@ -6,17 +6,17 @@ ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:
 - roslyn package versions
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f76a8dcdbb644fe456c62fca7de6fb7afe96d556
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8fd9e62de70dd5bff81b5fdaee05822c7171981e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935901"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060514"
 ---
 # <a name="net-compiler-platform-package-version-reference"></a>Справочник по версии пакета платформы компилятора .NET
 
@@ -45,7 +45,7 @@ ms.locfileid: "99935901"
 > [!TIP]
 > Для пакетов Roslyn, в которых минимальная поддерживаемая версия Visual Studio является версией Visual Studio 2017, все версии Visual Studio 2019 также поддерживаются, так как они появились позже.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Пакет SDK для .NET Compiler Platform](/dotnet/csharp/roslyn-sdk/)
 - [Начало работы с анализаторами Roslyn](getting-started-with-roslyn-analyzers.md)

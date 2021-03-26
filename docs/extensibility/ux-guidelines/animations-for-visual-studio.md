@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: conceptual
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a7e8ea6514f29b99975b9e291d6a09ed2a0ad54e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 85ebfd4f396a5ae0e04ff5e7cc0f52bba1825ec5
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934016"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060267"
 ---
 # <a name="animations-for-visual-studio"></a>Анимация для Visual Studio
 ## <a name="animation-fundamentals"></a>Основы анимации
@@ -120,7 +120,7 @@ ms.locfileid: "99934016"
 
 - Один элемент из одного модема в другой
 
-##### <a name="state"></a>Область
+##### <a name="state"></a>Состояние
 
 - Обновления содержимого
 
@@ -128,9 +128,9 @@ ms.locfileid: "99934016"
 
 - Ход выполнения
 
-- Ошибки
+- ошибки
 
-##### <a name="structure"></a>structure
+##### <a name="structure"></a>Структура
 
 - Сведение структуры на одном узле
 
@@ -144,7 +144,7 @@ ms.locfileid: "99934016"
 
 - Зеркальное отображение изображений
 
-##### <a name="time"></a>время;
+##### <a name="time"></a>Время
 
 - Показывать изменения со временем, промежуток времени и ролик
 

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccBackgroundGet function
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4df0866458f04081c82796767808194b292866a1
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 6d850b1f8493f3118cb4d3e49915361daa1e4837
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220928"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060462"
 ---
 # <a name="sccbackgroundget-function"></a>Функция Сккбаккграунджет
 Эта функция получает из системы управления версиями каждый из указанных файлов без взаимодействия с пользователем.
@@ -68,11 +68,11 @@ SCCRTN SccBackgroundGet(
 |SCC_E_BACKGROUNDGETINPROGRESS|Фоновое извлечение уже выполняется (подключаемый модуль системы управления версиями должен возвращать этот параметр только в том случае, если он не поддерживает одновременные пакетные операции).|
 |SCC_I_OPERATIONCANCELED|Операция была отменена до ее завершения.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция всегда вызывается в потоке, отличном от того, который загрузил подключаемый модуль системы управления версиями. Эта функция не должна возвращаться, пока она не будет создана. Однако его можно вызывать несколько раз с несколькими списками файлов одновременно.
 
  Использование `dwFlags` аргумента совпадает с параметром [сккжет](../extensibility/sccget-function.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccGet](../extensibility/sccget-function.md)

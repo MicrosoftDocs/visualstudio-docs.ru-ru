@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomAttribute::GetParentField
 ms.assetid: bcdfdf37-bfcf-4988-a7b8-4c731d0af1b0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a4af4569b64a41fc84a09c7e8f2ce0a8f6b42e86
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 7aaa3ea38e5ed0691b8e335a3d39a8a82b7576ef
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154513"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088059"
 ---
 # <a name="idebugcustomattributegetparentfield"></a>IDebugCustomAttribute::GetParentField
 Возвращает поле, к которому присоединен настраиваемый атрибут.
@@ -47,9 +47,9 @@ int GetParentField(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает S_OK; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Вызовите метод [Kind](../../../extensibility/debugger/reference/idebugfield-getkind.md) для возвращенного объекта [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) , чтобы определить, какой тип поля является родительским.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

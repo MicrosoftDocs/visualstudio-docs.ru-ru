@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], local variables
 - expression evaluation, local variables
 ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 18edb87170afd023ab2d17970d172a43b6ef35e8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4bf07dc6f47391af14c878021c742c2cb461bc85
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960940"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070418"
 ---
 # <a name="sample-implementation-of-locals"></a>Пример реализации локальных переменных
 > [!IMPORTANT]
@@ -62,5 +62,5 @@ ms.locfileid: "99960940"
 
  [Пример мицее](/previous-versions/) Демонстрируется один подход к реализации для создания средства оценки выражений для языка Мик.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Отображение локальных переменных](../../extensibility/debugger/displaying-locals.md)

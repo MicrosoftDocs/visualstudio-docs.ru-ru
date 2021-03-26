@@ -10,17 +10,17 @@ helpviewer_keywords:
 - syntax highlighting, supporting in language services [managed package framework]
 - language services [managed package framework], colorization
 ms.assetid: 1ca1736a-f554-42e4-a9c7-fe8c3c1717df
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 14fc4a44a85171d209ec227f20e47775b34be22d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 627c0b5184588f77188928b6355a9034a3a3465e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898260"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080548"
 ---
 # <a name="syntax-colorizing-in-a-legacy-language-service"></a>Цветовая маркировка синтаксиса в языковой службе прежних версий
 Раскраска синтаксиса — это функция, которая заставляет различные элементы языка программирования отображаться в исходном файле в различных цветах и стилях. Для поддержки этой функции необходимо предоставить средство синтаксического анализа или сканер, который может обозначать типы лексических элементов или маркеров в файле. Многие языки различают ключевые слова, разделители (например, круглые или фигурные скобки) и комментарии, размечая их различными способами.
@@ -146,7 +146,7 @@ namespace TestLanguagePackage
         }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции языковой службы прежних версий](../../extensibility/internals/legacy-language-service-features1.md)
 - [Средство синтаксического анализа и сканер языковой службы прежних версий](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)
 - [Регистрация языковой службы прежних версий](../../extensibility/internals/registering-a-legacy-language-service1.md)

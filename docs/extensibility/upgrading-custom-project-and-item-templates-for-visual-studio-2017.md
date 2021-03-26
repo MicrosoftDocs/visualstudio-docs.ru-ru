@@ -6,18 +6,18 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 84e9b08350cf5977269bfbcf28ca5335e17f024d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8442e24bf971b8a2a0bcf5baeeb397e4646ba766
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893409"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060280"
 ---
 # <a name="upgrade-custom-project-and-item-templates-for-visual-studio-2017"></a>Обновление пользовательского шаблоны проектов и элементов для Visual Studio 2017
 
@@ -35,7 +35,7 @@ ms.locfileid: "99893409"
 
 ## <a name="how-to-update-a-vsix-extension-with-project-or-item-templates"></a>Обновление расширения VSIX с помощью шаблонов проектов или элементов
 
-1. Откройте решение в Visual Studio 2017. Вам будет предложено обновить код. Нажмите кнопку **OK**.
+1. Откройте решение в Visual Studio 2017. Вам будет предложено обновить код. Нажмите кнопку **ОК**.
 
 2. После завершения обновления может потребоваться изменить версию целевого объекта установки. В проекте VSIX откройте файл Source. extension. vsixmanifest и выберите вкладку **установки конечных объектов** . Если поле **диапазона версий** имеет значение **[14,0]**, щелкните **изменить** и измените его, включив Visual Studio 2017. Например, можно задать для него значение **[с диагональю 15,0]** , чтобы установить расширение для visual Studio 2015 или visual Studio 2017 либо до **[15,0]** , чтобы установить его только в Visual Studio 2017.
 
@@ -190,7 +190,7 @@ ms.locfileid: "99893409"
 
 Создайте отдельные манифесты для шаблонов проектов и элементов, и они должны указывать на каталог корневого шаблона, как указано выше. Создайте один манифест для каждого расширения и языкового стандарта.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Устранение неполадок обнаружения шаблонов](troubleshooting-template-discovery.md)
 - [Создание пользовательских шаблонов проектов и элементов](creating-custom-project-and-item-templates.md)

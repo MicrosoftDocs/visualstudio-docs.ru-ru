@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer3 interface
 ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1328a97742a4672cdc71805c4c674d66fe05e817
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ab605db6a49b8b7cc9893692ff1bb9e6da15171f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102154617"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088150"
 ---
 # <a name="idebugcoreserver3"></a>IDebugCoreServer3
 Этот интерфейс предоставляет доступ к сведениям о сервере, в котором выполняется процесс.
@@ -49,7 +49,7 @@ IDebugCoreServer3 : IDebugCoreServer2
 |[GetConnectionProtocol](../../../extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol.md)|Извлекает значение, указывающее протокол, используемый для связи с сервером.|
 |[DisableAutoAttach](../../../extensibility/debugger/reference/idebugcoreserver3-disableautoattach.md)|Отключает все параметры автоматического вложения для всех ядер отладчика, о которых известно этот сервер.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Поставщик пользовательского порта получает интерфейс [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) при вызове [события](../../../extensibility/debugger/reference/idebugportevents2-event.md). `IDebugCoreServer3`Интерфейс может быть получен из этого интерфейса.
 
 ## <a name="requirements"></a>Требования
@@ -59,6 +59,6 @@ IDebugCoreServer3 : IDebugCoreServer2
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)

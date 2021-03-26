@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - designers [Visual Studio SDK], undo support
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9e8b7ea0dc29e4f8df9113963a95c363998c758d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6b56eb762cf4a2746af04ed69c7c4c49afc15dec
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850472"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056315"
 ---
 # <a name="supply-undo-support-to-designers"></a>Предоставление поддержки отмены в конструкторах
 
@@ -101,7 +101,7 @@ ms.locfileid: "99850472"
 
 - Конструктор выбирает явное создание блоков отмены с помощью стандартной единицы отмены, предоставляемой реализацией <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> , или реализации, относящейся к Visual Studio <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit> , которая является производной от класса, <xref:System.ComponentModel.Design.UndoEngine.UndoUnit> а также предоставляет реализацию <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit> и <xref:Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit> .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:System.ComponentModel.Design.UndoEngine>
 - <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>

@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::SetLocale
 ms.assetid: cd0d2cf1-2aac-43da-a830-4bb3d696c219
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 54cfd2d9d51cbad414cfb481b88f1e3277500efa
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 8f06ffce2d4fdda772cc29d09057499c32dd6f77
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153915"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105087929"
 ---
 # <a name="idebugengine2setlocale"></a>IDebugEngine2::SetLocale
 Задает языковой стандарт модуля отладки (DE).
@@ -47,8 +47,8 @@ int SetLocale(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот метод вызывается диспетчером отладки сеансов (SDM) для распространения параметров языкового стандарта интегрированной среды разработки, чтобы строки, возвращаемые методом DE, были правильно локализованы.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

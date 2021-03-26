@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccCheckout function
 ms.assetid: 06e9ecd7-fc09-40c1-9dd1-2b56c622c80b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5ed6b494957374244d98f0cca59a063e5a6648c4
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: f93052ebe255cddb4703a8246b7e89c744548a7f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221631"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060384"
 ---
 # <a name="scccheckout-function"></a>Функция Сккчеккаут
 При наличии списка полных имен файлов Эта функция проверяет их на локальном диске. Комментарий применяется ко всем извлеченным файлам. Аргумент комментария может быть `null` строкой.
@@ -81,6 +81,6 @@ SCCRTN SccCheckout (
 |SCC_E_FILEOUTEXCLUSIVE|Другой пользователь выполнил монопольное извлечение этого файла.|
 |SCC_I_OPERATIONCANCELED|Операция была отменена до завершения.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Битфлагс, используемые конкретными командами](../extensibility/bitflags-used-by-specific-commands.md)

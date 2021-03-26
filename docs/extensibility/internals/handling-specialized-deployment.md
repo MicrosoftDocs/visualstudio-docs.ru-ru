@@ -8,17 +8,17 @@ helpviewer_keywords:
 - deploying applications [Visual Studio SDK]
 - specialized deployment
 ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 279732f6019757c1a0d9fef566e8aaf1898dbdfb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9fcba9e5f63497ad81dc6729a3fb757038fc7776
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880063"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056640"
 ---
 # <a name="handle-specialized-deployment"></a>Обрабатывайте специализированное развертывание
 Развертывание является необязательной операцией для проектов. Веб-проект, например, поддерживает развертывание, чтобы проект мог обновить веб-сервер. Аналогично, проект **смарт-устройства** поддерживает развертывание для копирования приложения на целевое устройство. Подтипы проектов могут предоставлять специализированное поведение при развертывании путем реализации <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> интерфейса. Этот интерфейс определяет полный набор операций развертывания:
@@ -291,5 +291,5 @@ ms.locfileid: "99880063"
 > [!NOTE]
 > Все примеры кода, приведенные в этом разделе, являются частями более крупного примера в примерах [VSSDK](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подтипы проектов](../../extensibility/internals/project-subtypes.md)

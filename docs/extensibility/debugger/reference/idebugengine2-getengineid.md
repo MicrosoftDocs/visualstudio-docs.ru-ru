@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::GetEngineID
 ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bf785c906303bab677adadfd081ae6af276a754c
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2d7a483517f89c91005f465c539d2af4b9d442a8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153980"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105088033"
 ---
 # <a name="idebugengine2getengineid"></a>IDebugEngine2::GetEngineID
 Возвращает идентификатор GUID модуля отладки (DE).
@@ -47,7 +47,7 @@ int GetEngineID(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Примеры типичных идентификаторов GUID: `guidScriptEng` , `guidNativeEng` или `guidSQLEng` . Новые модули отладки будут создавать собственные идентификаторы GUID для идентификации.
 
 ## <a name="example"></a>Пример
@@ -67,5 +67,5 @@ HRESULT CEngine::GetEngineId(GUID *pguidEngine) {
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

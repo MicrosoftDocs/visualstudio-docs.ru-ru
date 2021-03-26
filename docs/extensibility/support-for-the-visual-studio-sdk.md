@@ -11,17 +11,17 @@ helpviewer_keywords:
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
 ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 43d9e228f83261c4df2d4cacc84bb8629a259aac
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c0fdcd91766bbf9f181a8d4a14f90fa646a8f46c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965178"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056276"
 ---
 # <a name="support-for-the-visual-studio-sdk"></a>Поддержка пакета SDK для Visual Studio
 Для клиентов, у которых есть вопросы о том, как расширить интегрированную среду разработки (IDE) Visual Studio, доступны несколько вариантов поддержки.
@@ -64,6 +64,6 @@ ms.locfileid: "99965178"
 
 Сведения об индивидуальных запросах на поддержку можно найти по [отдельным запросам на поддержку](https://support.microsoft.com/supportforbusiness/productselection).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Обращайтесь к нам](../ide/feedback-options.md)

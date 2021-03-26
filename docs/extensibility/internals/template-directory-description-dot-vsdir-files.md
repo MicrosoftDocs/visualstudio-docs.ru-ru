@@ -9,17 +9,17 @@ helpviewer_keywords:
 - VSDIR files
 - template directory description files
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0e2b56c061ce6e3124a7ed5a5dc00e41c3964204
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bdd21dfa9fe5aae11553bb0268017690aba46fe9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898239"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080506"
 ---
 # <a name="template-directory-description-vsdir-files"></a>Файлы описания каталога шаблона (VSDIR-файлы)
 Файл описания каталога шаблонов (VSDir) — это текстовый файл, который позволяет интегрированной среде разработки (IDE) отображать папки, файлы Wizard. vsz и файлы шаблонов, связанные с проектом, в диалоговых окнах. Содержимое включает одну запись для каждого файла или папки. Объединяются все файлы VSDir в указанном расположении, хотя для описания нескольких папок, мастеров или файлов шаблонов обычно предоставляется только один VSDir-файл.
@@ -64,6 +64,6 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 
 - При удалении VSZ файлов, папок или файлов шаблонов необходимо также удалить связанные с ними записи из файла VSDir.
 
-## <a name="see-also"></a>См. также раздел
-- [Мастера](../../extensibility/internals/wizards.md)
+## <a name="see-also"></a>См. также
+- [Мастеры](../../extensibility/internals/wizards.md)
 - [Файл мастера (VSZ-файл)](../../extensibility/internals/wizard-dot-vsz-file.md)

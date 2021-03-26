@@ -8,23 +8,23 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::GetMemoryContext
 ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 77bdda6ca03aebdf0e8b10aed24f1f98805f2954
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: ac7cb401df9382aa3951e67bde0edf58bb905a3d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102151341"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105071417"
 ---
 # <a name="idebugreference2getmemorycontext"></a>IDebugReference2::GetMemoryContext
-Возвращает контекст памяти ссылки. Зарезервировано для будущего использования.
+Возвращает контекст памяти ссылки. Зарезервировано для последующего использования.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -47,6 +47,6 @@ int GetMemoryContext (
 ## <a name="return-value"></a>Возвращаемое значение
  Всегда возвращает значение `E_NOTIMPL`.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

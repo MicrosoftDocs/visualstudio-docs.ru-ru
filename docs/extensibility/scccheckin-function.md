@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccCheckin function
 ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a835ead5fb0404b78d9e9c9ecc92ee0c73eaf252
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: d6864549c6825092b6ad26be199f8c7b5ea6bab6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220863"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105060436"
 ---
 # <a name="scccheckin-function"></a>Функция Сккчеккин
 Эта функция возвращает ранее извлеченные файлы в систему управления версиями, сохраняет изменения и создает новую версию. Эта функция вызывается с количеством и массивом имен файлов для возврата.
@@ -76,7 +76,7 @@ SCCRTN SccCheckin (
 |SCC_E_ACCESSFAILURE|Возникла проблема при доступе к системе управления версиями, возможно, из-за проблем с сетью или состязаниями. Рекомендуется повторить попытку.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой. Файл не был возвращен.|
 |SCC_E_NOTCHECKEDOUT|Пользователь не извлек файл, поэтому не может его вернуть.|
-|SCC_E_CHECKINCONFLICT|Не удалось выполнить возврат по следующей причине:<br /><br /> — Другой пользователь был возвращен заранее и `bAutoReconcile` имел значение false.<br /><br /> -или-<br /><br /> — Автоматическое слияние не может быть выполнено (например, если файлы являются двоичными).|
+|SCC_E_CHECKINCONFLICT|Не удалось выполнить возврат по следующей причине:<br /><br /> — Другой пользователь был возвращен заранее и `bAutoReconcile` имел значение false.<br /><br /> или<br /><br /> — Автоматическое слияние не может быть выполнено (например, если файлы являются двоичными).|
 |SCC_E_VERIFYMERGE|Файл был успешно объединен, но не возвращен в ожидании проверки пользователя.|
 |SCC_E_FIXMERGE|Файл был автоматически объединен, но не был возвращен из-за конфликта слияния, который необходимо разрешить вручную.|
 |SCC_E_NOTAUTHORIZED|Пользователю не разрешено выполнять эту операцию.|
@@ -84,10 +84,10 @@ SCCRTN SccCheckin (
 |SCC_I_RELOADFILE|Необходимо перезагрузить файл или проект.|
 |SCC_E_FILENOTEXIST|Локальный файл не найден.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Комментарий применяется ко всем возвращаемым файлам. Аргумент комментария может быть `null` строкой, в этом случае подключаемый модуль системы управления версиями может запрашивать у пользователя строку комментария для каждого файла.
 
  `fOptions`Аргументу можно присвоить значение `SCC_KEEP_CHECKEDOUT` флага, чтобы указать намерение пользователя проверить файл и снова его проверить.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)

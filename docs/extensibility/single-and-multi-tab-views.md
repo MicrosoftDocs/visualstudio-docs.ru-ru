@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - single and multi-tab views
 ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f6cea04557fb0bf3075461b22979cac2168af322
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7c23693b5ae622912695c139714c7e818ed0e868
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942988"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056328"
 ---
 # <a name="single-and-multi-tab-views"></a>Представления с одной и несколькими вкладками
 Редактор может создавать различные типы представлений. Одним из примеров является окно редактора кода, другое — конструктор форм.
@@ -114,7 +114,7 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Поддержка представления нескольких документов](../extensibility/supporting-multiple-document-views.md)
 - [Практическое руководство. Вложение представлений в данные документа](../extensibility/how-to-attach-views-to-document-data.md)
 - [Создание специализированных редакторов и конструкторов](../extensibility/creating-custom-editors-and-designers.md)

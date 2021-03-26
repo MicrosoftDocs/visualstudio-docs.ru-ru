@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - multiple document views
 ms.assetid: c7ec2366-91c4-477f-908d-e89068bdb3e3
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5360f67714e1da4f7372ee51eb4f75cc8835c1fd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e54ee028c6a7db2d5d2ea1ab609be6c2887c9829
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965126"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056211"
 ---
 # <a name="supporting-multiple-document-views"></a>Поддержка представления нескольких документов
 Можно предоставить несколько представлений документа, создав отдельные данные документа и объекты представления документов для редактора. Ниже перечислены некоторые случаи, в которых можно использовать дополнительное представление документа.
@@ -26,7 +26,7 @@ ms.locfileid: "99965126"
 
 - Поддержка представлений форм и кода. необходимо, чтобы редактор предоставил представления различных типов. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]Например, предоставляет как представление формы, так и представление кода.
 
-  Дополнительные сведения см. в описании процедуры CreateEditorInstance в файле EditorFactory.cs в проекте пользовательского редактора, созданном с помощью шаблона пакета Visual Studio. Дополнительные сведения об этом проекте см. [в разделе Пошаговое руководство. Создание пользовательского редактора](../extensibility/walkthrough-creating-a-custom-editor.md).
+  Дополнительные сведения см. в описании процедуры CreateEditorInstance в файле EditorFactory. cs в проекте пользовательского редактора, созданном с помощью шаблона пакета Visual Studio. Дополнительные сведения об этом проекте см. [в разделе Пошаговое руководство. Создание пользовательского редактора](../extensibility/walkthrough-creating-a-custom-editor.md).
 
 ## <a name="synchronizing-views"></a>Синхронизация представлений
  При реализации нескольких представлений объект данных документа отвечает за поддержание синхронизации всех представлений с данными. Интерфейсы обработки событий для можно использовать <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> для синхронизации нескольких представлений с данными.

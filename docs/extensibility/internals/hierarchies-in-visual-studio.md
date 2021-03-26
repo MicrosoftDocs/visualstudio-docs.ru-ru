@@ -8,17 +8,17 @@ helpviewer_keywords:
 - hierarchies, Visual Studio IDE
 - IDE, hierarchies
 ms.assetid: 0a029a7c-79fd-4b54-bd63-bd0f21aa8d30
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 826ef8f7836aaea0b934bb2a7fa8f568492f0b1c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d3fe1487e082907958c1cf8a36f1653efb97c9de
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880012"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056627"
 ---
 # <a name="hierarchies-in-visual-studio"></a>Иерархии в Visual Studio
 В [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE) проект отображается как *Иерархия*. В интегрированной среде разработки иерархия — это дерево узлов, в котором каждый узел имеет набор связанных свойств. *Иерархия проектов* — это контейнер, который содержит элементы проекта, связи элементов и связанные свойства и команды элементов.
@@ -34,7 +34,7 @@ ms.locfileid: "99880012"
 
  Когда пользователь открывает элемент в редакторе, иерархия, управляющая этим элементом, выбирается и становится активной иерархией. Выбранная иерархия определяет набор команд, доступных для работы с элементом. Отслеживание фокуса пользователя таким образом позволяет иерархии отражать текущий контекст пользователя.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Типы проектов](../../extensibility/internals/project-types.md)
 - [Выбор и валюта в интегрированной среде разработки](../../extensibility/internals/selection-and-currency-in-the-ide.md)
 - [Примеры VSSDK](https://github.com/Microsoft/VSSDK-Extensibility-Samples)

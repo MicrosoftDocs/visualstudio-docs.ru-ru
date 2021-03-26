@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccProperties function
 ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 410febfbbb79cb352b6247139a11b1c49f3cde9c
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 56306bb7c248ea500e16964c0929f34a27187298
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220538"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056523"
 ---
 # <a name="sccproperties-function"></a>Функция SccProperties
 Эта функция отображает свойства системы управления версиями для файла или проекта.
@@ -58,10 +58,10 @@ SCCRTN SccProperties (
 |SCC_E_FILENOTCONTROLLED|Указанный файл или проект не находятся в системе управления версиями.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Произошла неизвестная или общая ошибка.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Подключаемый модуль системы управления версиями отображает свойства в отдельном диалоговом окне.
 
  Свойства определяются подключаемым модулем системы управления версиями и могут отличаться от подключаемого модуля к подключаемому модулю. Если подключаемый модуль позволяет пользователю изменить свойства системы управления версиями файла, он должен дать `SCC_I_RELOAD` сигнал интегрированной среде разработки сообщить, что этот файл или проект необходимо перезагрузить.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
