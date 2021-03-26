@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 07/31/2017
 ms.topic: conceptual
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bf32f4cd32ad6e53c1db33f75f68559e84414436
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dc98e3c2717b14ac1933e5b41269af1efb8e932f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942910"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089918"
 ---
 # <a name="colors-and-styling-for-visual-studio"></a>Цвета и стили для Visual Studio
 
@@ -360,10 +360,10 @@ Windows использует несколько высококонтрастны
 
 Заполните реестр двумя значениями:
 
-| Имя | Тип | Данные | Описание |
+| Имя | Type | Данные | Описание |
 | --- | --- | --- | --- |
-| Категория | REG_SZ | Идентификатор GUID | Идентификатор GUID, созданный для задания категории |
-| Пакет | REG_SZ | Идентификатор GUID | Идентификатор GUID службы VSPackage, которая поддерживает категорию |
+| Категория | REG_SZ | Код GUID | Идентификатор GUID, созданный для задания категории |
+| Пакет | REG_SZ | Код GUID | Идентификатор GUID службы VSPackage, которая поддерживает категорию |
 
  Служба, указанная в реестре, должна предоставлять реализацию [ивсфонтандколордефаултс](/dotnet/api/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults) для соответствующей категории.
 
@@ -373,10 +373,10 @@ Windows использует несколько высококонтрастны
 
 Заполните реестр двумя значениями:
 
-| Имя | Тип | Данные | Описание |
+| Имя | Type | Данные | Описание |
 |--- | --- | --- | --- |
-| Категория | REG_SZ | Идентификатор GUID | Идентификатор GUID, созданный для задания категории |
-| Пакет | REG_SZ | Идентификатор GUID | Идентификатор GUID службы VSPackage, которая поддерживает категорию |
+| Категория | REG_SZ | Код GUID | Идентификатор GUID, созданный для задания категории |
+| Пакет | REG_SZ | Код GUID | Идентификатор GUID службы VSPackage, которая поддерживает категорию |
 
 Служба, указанная в реестре, должна обеспечивать реализацию <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> для соответствующей группы.
 

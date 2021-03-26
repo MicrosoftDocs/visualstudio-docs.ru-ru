@@ -6,20 +6,20 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessQueryProperties::QueryProperties
 ms.assetid: 976a9962-b689-45bb-afb6-16b2c5dbc3b8
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 215606f12eb14c4a4b8db8313356a363dea5247e
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2e2f4d36c911e3b41d86e9cc0480c97979d63897
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102149617"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105081390"
 ---
 # <a name="idebugprocessquerypropertiesqueryproperties"></a>IDebugProcessQueryProperties::QueryProperties
 Этот метод запрашивает заданные значения свойств процесса отладки.
@@ -59,8 +59,8 @@ int QueryProperties(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот метод редко используется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)

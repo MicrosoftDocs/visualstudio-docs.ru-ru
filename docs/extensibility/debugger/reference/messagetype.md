@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - MESSAGETYPE enumeration
 ms.assetid: 800cc77d-3c27-4763-a9df-552a9384bd49
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: dd7b10217313be30dd795a8ff108c3c30e214490
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: b85933896dfff38c2d346fd18144710e2e6fc127
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102222436"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091530"
 ---
 # <a name="messagetype"></a>MESSAGETYPE
 Указывает тип и причину сообщения.
@@ -70,7 +70,7 @@ public enum enum_MESSAGETYPE {
  `MT_REASON_MASK`\
  Значение маски, которое позволяет изолировать причину отображения сообщения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эти значения возвращаются методами [жетеррормессаже](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md) [и.](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)
 
  Одно из значений причины можно объединить с одним из значений назначения выходных данных с помощью побитовой операции `OR` .

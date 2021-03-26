@@ -8,17 +8,17 @@ helpviewer_keywords:
 - Strings element (VSCT XML schema)
 - VSCT XML schema elements, Strings
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7951d0c72c3fd6a1897224d9606abdfec9a60053
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a0bd9ad9b8059eb7fd566c1e0c26a938af6d18b2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848016"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089905"
 ---
 # <a name="strings-element"></a>Элемент Strings
 Элемент strings должен содержать по крайней мере дочерний элемент **ButtonText** . Все остальные дочерние элементы являются необязательными. Недопустимые XML-символы, такие как "&" и "<", должны быть закодированы как сущности (" &amp; " и " &lt; " и т. д.).
@@ -41,7 +41,7 @@ ms.locfileid: "99848016"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|язык|Необязательный элемент. Language = ".".|
+|Язык|Необязательный параметр. Language = ".".|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,5 +62,5 @@ ms.locfileid: "99848016"
 |[Элемент Menu](../extensibility/menu-element.md)|Определяет один пункт меню.|
 |[Элемент Combo](../extensibility/combo-element.md)|Определяет команды, которые отображаются в поле со списком.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы таблицы команд Visual Studio (VSCT-файлы)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2418e958c027fea7fd39c93b0d5abbd95d64435b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7e189a2c12e262b81f93f7f8de5e58ea22b1277c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960797"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079440"
 ---
 # <a name="setnotificationforwaitcompletion-method"></a>Метод SetNotificationForWaitCompletion
 Задает или очищает бит состояния TASK_STATE_WAIT_COMPLETION_NOTIFICATION.

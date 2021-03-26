@@ -8,17 +8,17 @@ helpviewer_keywords:
 - CommandFlag element (VSCT XML schema)
 - VSCT XML schema elements, CommandFlag
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f328f2112073c082e276683d32d6ca06276b9829
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1f9f9db3d7a8146bd7b44cf779fd62fd75803d86
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848199"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089645"
 ---
 # <a name="command-flag-eelement"></a>Флаг команды Илемент
 Изменяет свой родительский элемент.
@@ -76,5 +76,5 @@ ms.locfileid: "99848199"
 |[Button, элемент](../extensibility/buttons-element.md)|Предоставляет группу элементов [элемента Button](../extensibility/button-element.md) .|
 |[Элемент menus](../extensibility/menus-element.md)|Определяет все меню, которые реализует VSPackage.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Командная таблица Visual Studio (. Vsct) файлы](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

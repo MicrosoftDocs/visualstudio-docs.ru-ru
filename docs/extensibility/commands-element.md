@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Commands element (VSCT XML schema)
 - VSCT XML schema elements, Commands
 ms.assetid: 47cf16a5-d78b-452e-86f6-b5893856dddf
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 90670188e3ce1aa621e53c69bad6f795ff30fd8b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 671e855a31af17310fdab58689d8775b490cb93a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887436"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089593"
 ---
 # <a name="commands-element"></a>Элемент Commands
 Представляет коллекцию команд на панели инструментов VSPackage. Коллекция может содержать до пяти подразделов следующим образом: меню, группы, кнопки, КомБОС и точечные рисунки.
@@ -90,6 +90,6 @@ ms.locfileid: "99887436"
 <Commands>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Как пакеты VSPackage добавляют элементы пользовательского интерфейса](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Команды, меню и панели инструментов](../extensibility/internals/commands-menus-and-toolbars.md)

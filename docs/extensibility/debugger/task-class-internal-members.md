@@ -8,17 +8,17 @@ helpviewer_keywords:
 - debug engines, Task class [.NET Framework]
 - Task class [.NET Framework debug engines]
 ms.assetid: 28e47c3b-9323-424a-80ac-6cc3bf19e09b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 10fbc46ad66ec6265bac0a3f2fc7c9b2994915d9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bfa57329b3f321d2703683639644783be60d651f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883627"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079375"
 ---
 # <a name="task-class---internal-members"></a>Класс Task — внутренние элементы
 В этой статье описываются внутренние члены <xref:System.Threading.Tasks.Task?displayProperty=fullName> класса, помогающие реализовать пользовательский отладчик. Общие сведения об этом классе см <xref:System.Threading.Tasks.Task> . в справочной статье.
@@ -40,7 +40,7 @@ ms.locfileid: "99883627"
                   System.Threading.ICancelableOperation
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 ### <a name="methods"></a>Методы
 
@@ -81,6 +81,6 @@ ms.locfileid: "99883627"
 
 - `InternalWait`
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:System.Threading.Tasks.Task?displayProperty=fullName>
 - [Внутренние модули параллельного расширения для платформа .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

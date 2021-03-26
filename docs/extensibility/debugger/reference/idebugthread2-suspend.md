@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::Suspend
 ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0f80799961ccce4b3492b46801b1917055742666
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 902418aeb18c149b0732e972a34ed89b56bb22ce
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164452"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105081143"
 ---
 # <a name="idebugthread2suspend"></a>IDebugThread2::Suspend
 Приостанавливает поток.
@@ -47,11 +47,11 @@ HRESULT Suspend (
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Каждый вызов этого метода увеличивает значение счетчика приостановки выше 0. Это число приостановок отображается в окне отладки **потоков** .
 
  Для каждого вызова этого метода должен быть последующий вызов метода [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [Возобновить](../../../extensibility/debugger/reference/idebugthread2-resume.md);

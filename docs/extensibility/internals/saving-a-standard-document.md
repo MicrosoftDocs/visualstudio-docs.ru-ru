@@ -9,22 +9,22 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], saving standard documents
 - persistence, saving standard documents
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 18e7fcb73a5ce89fae0936189eada9e3b959a55f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a1864ec689c1068b97775ca1a8bddbd390e7b43a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99958457"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080896"
 ---
 # <a name="saving-a-standard-document"></a>Сохранение стандартного документа
 Среда обрабатывает команды Сохранить, сохранить как и сохранить все. Когда пользователь выбирает команду **сохранить**, **Сохранить как** или **сохранить все** из меню **файл** или закрывает **решение, в** результате чего выполняется следующий процесс.
 
- ![Стандартный редактор](../../extensibility/internals/media/public.gif "Открытый") Сохранение, сохранение как и сохранение всей обработки команд для стандартного редактора
+ ![Стандартный редактор](../../extensibility/internals/media/public.gif "Общие") Сохранение, сохранение как и сохранение всей обработки команд для стандартного редактора
 
  Этот процесс описан в следующих шагах.
 
@@ -58,6 +58,6 @@ ms.locfileid: "99958457"
 
 2. Вызовите <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2.TransferDocument%2A> `pszMkDocumentNew` метод (, `punkWindowFrame` ), чтобы переместить документ в новую иерархию. Иерархия, выполняющая команду "Сохранить как", вызывает этот метод.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Открытие и сохранение элементов проекта](../../extensibility/internals/opening-and-saving-project-items.md)

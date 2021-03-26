@@ -8,17 +8,17 @@ helpviewer_keywords:
 - command code enumerator
 - source control plug-ins, command code enumeration
 ms.assetid: 5d2c360c-59e4-4da8-bcb4-dd07c7441e40
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2911a39c15fa259057e0b7b48d79e142cda34094
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e2df7ca11d5e93a3ae43d2a6bd1d7ccf8dfe5aa6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938255"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089710"
 ---
 # <a name="command-code-enumerator"></a>Перечислитель кода команды
 Этот перечислитель используется в параметрах [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) и [сккпопулателист](../extensibility/sccpopulatelist-function.md)для указания команды, для которой указаны параметры.
@@ -41,7 +41,7 @@ enum SCCCOMMAND {
 };
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 SCC_COMMAND_GET соответствует [сккжет](../extensibility/sccget-function.md).
 
 SCC_COMMAND_CHECKOUT соответствует [сккчеккаут](../extensibility/scccheckout-function.md).
@@ -64,7 +64,7 @@ SCC_COMMAND_PROPERTIES соответствует [сккпропертиес](.
 
 SCC_COMMAND_OPTIONS соответствует [скксетоптион](../extensibility/sccsetoption-function.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подключаемые модули системы управления версиями](../extensibility/source-control-plug-ins.md)
 - [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)
 - [SccPopulateList](../extensibility/sccpopulatelist-function.md)

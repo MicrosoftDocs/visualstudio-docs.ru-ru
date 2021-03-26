@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - PROVIDER_FIELDS enumeration
 ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: daf2ca4aa53c2800685f8fdbde26c402f217b811
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: a1ab410d9780078cd786b75f14d0321498eca8fd
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102225309"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079544"
 ---
 # <a name="provider_fields"></a>PROVIDER_FIELDS
 Указывает свойства, связанные с поставщиком программы.
@@ -50,7 +50,7 @@ public enum enum_PROVIDER_FIELDS {
  `PFIELD_IS_DEBUGGER_PRESENT`\
  `fIsDebuggerPresent`Поле является допустимым.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эти значения возвращаются в элементе `Fields` структуры [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) , чтобы указать, какие поля структуры были явно заполнены.
 
  Эти значения можно сочетать с помощью побитовой операции `OR` .

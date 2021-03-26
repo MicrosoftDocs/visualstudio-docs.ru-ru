@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - REFERENCE_TYPE enumeration
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 91a77c73d689322faa22ea9ad81c8aacf0616d07
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: e38d23c855af098f2c32e60c1e3fa7d8fece5502
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102225283"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079453"
 ---
 # <a name="reference_type"></a>REFERENCE_TYPE
 Указывает ссылочный тип.
@@ -50,7 +50,7 @@ public enum enum_REFERENCE_TYPE {
  `REF_TYPE_STRONG`\
  Задает строгую ссылку. Не может использоваться вместе с `REF_TYPE_WEAK` .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Используется в качестве `dwRefType` члена структуры [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) .
 
  Передается в качестве параметра в метод [сетреференцетипе](../../../extensibility/debugger/reference/idebugreference2-setreferencetype.md) .

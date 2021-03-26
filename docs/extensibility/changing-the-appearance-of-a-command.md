@@ -9,17 +9,17 @@ helpviewer_keywords:
 - menu commands, changing appearance
 - menus, changing command appearance
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1514fb9409805df91a16678a5cce67ee1f66ab9f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8b6911d865b253ff82ffcc6c4911e0989f109f28
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911237"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089827"
 ---
 # <a name="change-the-appearance-of-a-command"></a>Изменение внешнего вида команды
 Вы можете отправить отзыв пользователю, изменив внешний вид команды. Например, может потребоваться, чтобы команда выглядела иначе, если она недоступна. Можно сделать команды доступными или недоступными, скрыть или показать их, а также установить или снять флажки в меню.
@@ -38,19 +38,19 @@ ms.locfileid: "99911237"
 
 1. Следуйте инструкциям в разделе [изменение текста команды меню](../extensibility/changing-the-text-of-a-menu-command.md) , чтобы создать пункт меню с именем `New Text` .
 
-2. В файле *ChangeMenuText.CS* добавьте следующую инструкцию using:
+2. В файле *чанжеменутекст. CS* добавьте следующую инструкцию using:
 
     ```csharp
     using System.Security.Permissions;
     ```
 
-3. В файле *ChangeMenuTextPackageGuids.CS* добавьте следующую строку:
+3. В файле *чанжеменутекстпаккажегуидс. CS* добавьте следующую строку:
 
     ```csharp
     public const string guidChangeMenuTextPackageCmdSet= "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file
     ```
 
-4. В файле *ChangeMenuText.CS* замените код в методе метода ShowMessageBox следующим кодом:
+4. В файле *чанжеменутекст. CS* замените код в методе метода ShowMessageBox следующим кодом:
 
     ```csharp
     private void Execute(object sender, EventArgs e)
@@ -86,7 +86,7 @@ ms.locfileid: "99911237"
 
 8. В меню **Сервис** должен появиться **новый текст**. Нажмите кнопку **создать текст**. Команда теперь должна быть неактивна.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Команды, меню и панели инструментов](../extensibility/internals/commands-menus-and-toolbars.md)
 - [Как пакеты VSPackage добавляют элементы пользовательского интерфейса](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Расширение меню и команд](../extensibility/extending-menus-and-commands.md)

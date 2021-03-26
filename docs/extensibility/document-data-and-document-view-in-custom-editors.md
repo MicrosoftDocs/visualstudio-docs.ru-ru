@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - document data and document view
 ms.assetid: 71eea623-f566-4feb-84cd-ca1ba71bc493
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89f2903b2ec1308692f629c40af06f89706a427b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 391bec513f1f6d32d7ff2f87d70abdbf491ab8be
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968298"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091244"
 ---
 # <a name="document-data-and-document-view-in-custom-editors"></a>Данные документа и представление документа в пользовательских редакторах
 Пользовательский редактор состоит из двух частей: объекта данных документа и объекта представления документа. Как следует из имен, объект данных документа представляет отображаемые текстовые данные. Аналогичным образом объект представления документа (или "представление") представляет одно или несколько окон, в которых отображается объект данных документа.
@@ -38,7 +38,7 @@ ms.locfileid: "99968298"
 
  Существует два варианта создания представления для пользовательского редактора. Одна из них — модель активации на месте, где представление размещается в окне с помощью элемента управления ActiveX или объекта данных документа. Второй — упрощенная модель внедрения, где представление размещается в [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] и <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> реализуется для обработки команд окна. Сведения о модели активации на месте см. в разделе Встроенная [Активация](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015). Дополнительные сведения о упрощенной модели внедрения см. в разделе [упрощенное внедрение](../extensibility/simplified-embedding.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Поддержка нескольких представлений документов](../extensibility/supporting-multiple-document-views.md)
 - [Упрощенное внедрение](../extensibility/simplified-embedding.md)

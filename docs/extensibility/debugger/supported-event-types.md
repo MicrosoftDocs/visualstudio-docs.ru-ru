@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], supported events
 ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9bf2e154d5803324161e073edbd74e049c0897ca
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 883c9fd51cc4dfc4f2cc2f996d24c0722478505f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960693"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079414"
 ---
 # <a name="supported-event-types"></a>Поддерживаемые типы событий
 В настоящее время отладка Visual Studio поддерживает следующие типы событий:

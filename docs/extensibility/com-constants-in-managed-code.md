@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - managed VSPackages, COM constants and macros
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 448c87bfff021db3df8f72f2f5a42c78cd6ef197
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8aed8ec62278850d0b091320c12ece484778eb15
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99913098"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089736"
 ---
 # <a name="com-constants-in-managed-code"></a>Константы COM в управляемом коде
 Платформа управляемого пакета (MPF) делает некоторые стандартные константы COM доступными для управляемого кода. Эти константы перечислены ниже для справки.
@@ -128,5 +128,5 @@ ms.locfileid: "99913098"
 
  <xref:Microsoft.VisualStudio.VSConstants.DISP_E_UNKNOWNNAME>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Обработка ошибок и возвращаемые значения](../extensibility/error-handling-and-return-values.md)

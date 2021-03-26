@@ -8,17 +8,17 @@ helpviewer_keywords:
 - designers [Visual Studio SDK], initializing
 - designers [Visual Studio SDK], configuring metadata
 ms.assetid: f7fe9a7e-f669-4642-ad5d-186b2e6e6ec9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 57e335839905e828d3587ce82b1e23b0d62ddf65
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 13c65913fe54b9c22eb8fa374b7a16de84438e33
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968324"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091283"
 ---
 # <a name="designer-initialization-and-metadata-configuration"></a>Инициализация конструктора и Настройка метаданных
 
@@ -99,7 +99,7 @@ ms.locfileid: "99968324"
 > [!NOTE]
 > Область конструктора поддерживает только создание компонентов и, следовательно, только компоненты могут иметь локальные метаданные. В приведенном выше примере мы попытались изменить свойство, например `Color` свойство объекта. Если параметр `false` был передан для глобального флага, `CustomBrowser` он никогда не будет отображаться, поскольку конструктор никогда не создает экземпляр `Color` . Установка глобального флага `false` будет полезна для таких компонентов, как элементы управления, таймеры и диалоговые окна.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>
 - <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>

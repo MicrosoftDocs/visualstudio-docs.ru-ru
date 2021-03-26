@@ -8,17 +8,17 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], adding
 - project items [Visual Studio], adding
 ms.assetid: 8c59217f-56e5-4540-a73b-cd10de189373
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ff54e24408577ba8bfbf553a5c641eab2d15814
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3f2c10b310569a412025fd114f7818734106bc18
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906229"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079063"
 ---
 # <a name="add-project-and-project-item-templates"></a>Добавление шаблонов проектов и элементов проектов
 При создании собственных типов проектов необходимо обеспечить поддержку добавления новых проектов и элементов проектов с помощью стандартных [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] диалоговых окон интегрированной среды разработки (IDE). В следующих разделах рассматриваются различные методы добавления проектов и элементов проектов.

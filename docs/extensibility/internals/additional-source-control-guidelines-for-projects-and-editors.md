@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], guidelines for projects and editors
 ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 688c7de73c1a935ed6f7a30c6d956c7db97bdc6f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2509f2f6f9da91c3df60d6b041d5ebb6bdd367b6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906118"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105079011"
 ---
 # <a name="additional-source-control-guidelines-for-projects-and-editors"></a>Дополнительные рекомендации по управлению версиями для проектов и редакторов
 Существует ряд рекомендаций, которым должны соответствовать проекты и редакторы для поддержки системы управления версиями.
@@ -35,5 +35,5 @@ ms.locfileid: "99906118"
 |Сохранение объектов и свойств в прогнозируемом порядке|X|X|Чтобы упростить слияние, сохраните файлы в определенном порядке, например в алфавитном порядке.|
 |Перезагрузить|X|X|При изменении файла на диске редактор должен иметь возможность перезагрузить его. При участии в системе управления версиями среда выполнит повторную загрузку данных, вызвав <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.ReloadDocData%2A> реализацию. Наиболее сложная повторная загрузка происходит, когда выполняется извлечение, когда вызывается Ивскуередиткуерисаве:: <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> и обрабатываются сведения. Однако код перезагрузки должен быть способен работать в этой ситуации.<br /><br /> Среда автоматически перезагружает файлы проекта. Однако проект должен реализовать, <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> если он содержит вложенные иерархии для поддержки перезагрузки вложенных файлов проекта.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Поддержка системы управления версиями](../../extensibility/internals/supporting-source-control.md)

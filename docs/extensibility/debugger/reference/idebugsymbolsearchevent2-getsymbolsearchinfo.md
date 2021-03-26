@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 ms.assetid: ae9eb72b-f2aa-43b8-87ca-da19d2e78d17
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9f03562f3370268f720b2d8053bbd6a2979f6a19
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 18ca042250d532fe886ac969df5a09bd5d1a49f1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102145772"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105081247"
 ---
 # <a name="idebugsymbolsearchevent2getsymbolsearchinfo"></a>IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 Вызывается обработчиком событий для получения результатов о процессе загрузки символов.
@@ -60,10 +60,10 @@ int GetSymbolSearchInfo(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Когда обработчик получает событие [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) после попытки загрузить символы отладки для модуля, обработчик может вызвать сисмесод, чтобы определить результаты этой нагрузки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)
 - [MODULE_INFO_FLAGS](../../../extensibility/debugger/reference/module-info-flags.md)
 - [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md)
