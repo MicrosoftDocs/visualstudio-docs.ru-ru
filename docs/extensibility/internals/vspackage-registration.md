@@ -8,17 +8,17 @@ helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
 ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5ed2dfccb47c980852bcdda423871f7517ef785a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: afa2ac0f8608e7cafe8c465ea5ff0b8c0031dd58
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99900040"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069157"
 ---
 # <a name="vspackage-registration"></a>Регистрация VSPackage
 Пакеты VSPackage должны [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] быть извещены о том, что они установлены и должны быть загружены. Этот процесс выполняется путем записи сведений в реестр. Это типичное задание установщика.
@@ -57,6 +57,6 @@ ms.locfileid: "99900040"
 
 - Коду с собственной регистрацией может быть отказано в доступе к сетевым ресурсам, например библиотекам типов, если компонент указан как Run-from-Source и перечислен в таблице Селфрег. Это может привести к сбою установки компонента во время административной установки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Установщик Windows](/windows/desktop/Msi/windows-installer-portal)
 - [Регистрация управляемого пакета](/previous-versions/bb166783(v=vs.100))

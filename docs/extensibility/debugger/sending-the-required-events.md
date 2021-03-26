@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], required events
 ms.assetid: 08319157-43fb-44a9-9a63-50b919fe1377
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a056f3a7d986ca9abcf82edd3a77aac013665976
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a53f4d7a89b1f5902f576490d827148e9fb816bf
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960823"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105070379"
 ---
 # <a name="send-the-required-events"></a>Отправка необходимых событий
 Используйте эту процедуру для отправки необходимых событий.
@@ -38,5 +38,5 @@ ms.locfileid: "99960823"
 > [!NOTE]
 > Во многих языках используются глобальные инициализаторы или внешние, предварительно скомпилированные функции (из библиотеки CRT или _Main) в начале своего кода. Если язык отлаживаемой программы содержит один из этих типов элементов перед начальной точкой входа, этот код выполняется, а событие точки входа отправляется при достижении точки входа пользователя, такой как **Main** или `WinMain` .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Включение отладки программы](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

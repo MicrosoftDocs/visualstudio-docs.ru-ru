@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPointerObject interface
 ms.assetid: 257fa167-b46e-4ffb-9a12-272efbf26702
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e5275116ae16c03c4784cda7f227c46f57681120
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: af6b8f6022a9363eb5391d6f0519603fa48668c2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102169617"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105087604"
 ---
 # <a name="idebugpointerobject"></a>IDebugPointerObject
 > [!IMPORTANT]
@@ -47,7 +47,7 @@ IDebugPointerObject : IDebugObject
 |[GetBytes](../../../extensibility/debugger/reference/idebugpointerobject-getbytes.md)|Возвращает значение, на которое интерфейс указывает последовательность последовательных байтов.|
 |[SetBytes](../../../extensibility/debugger/reference/idebugpointerobject-setbytes.md)|Задает значение, на которое интерфейс указывает последовательность последовательных байтов.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Средство оценки выражений использует этот интерфейс для представления указателя в дереве синтаксического анализа.
 
 ## <a name="requirements"></a>Требования
@@ -57,6 +57,6 @@ IDebugPointerObject : IDebugObject
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы вычисления выражений](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

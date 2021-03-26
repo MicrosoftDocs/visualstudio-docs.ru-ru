@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModule3::IsUserCode
 ms.assetid: 77022946-bb8b-4114-aa81-614df6e54b13
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a936d4408b2d289477a860ffca3d53ca7b0ad61d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: cbc56943574cc5549e96e3281b4398df7d486f7d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164842"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065610"
 ---
 # <a name="idebugmodule3isusercode"></a>IDebugModule3::IsUserCode
 Получает сведения о том, представляет ли модуль пользовательский код.
@@ -47,5 +47,5 @@ int IsUserCode(
 ## <a name="return-value"></a>Возвращаемое значение
  В случае успеха возвращает `S_OK` ; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

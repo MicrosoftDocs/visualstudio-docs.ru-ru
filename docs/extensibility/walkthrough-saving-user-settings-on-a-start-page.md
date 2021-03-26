@@ -5,18 +5,18 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: e32db6c2aecde61598036b8ba2ed21141e41a4af
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: be270fe8b76b6cd07bd27350eabceb5eecbc446b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888944"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078335"
 ---
 # <a name="walkthrough-save-user-settings-on-a-start-page"></a>Пошаговое руководство. Сохранение параметров пользователя на начальной странице
 
@@ -79,7 +79,7 @@ ms.locfileid: "99888944"
 
 1. В области XAML щелкните правой кнопкой мыши `Click` атрибут <xref:System.Windows.Controls.Button> элемента и выберите команду **Переход к обработчику события**.
 
-     Этот шаг открывает *MyControl.XAML.CS* и создает обработчик заглушки для `Button_Click` события.
+     На этом шаге открывается объект *MyControl. XAML. CS* и создается обработчик заглушки для `Button_Click` события.
 
 2. Добавьте следующие `using` директивы в начало файла.
 
@@ -170,7 +170,7 @@ ms.locfileid: "99888944"
 
 3. В узле **Среда** щелкните **Запуск**, а затем в списке **Настройка начальной страницы** выберите **[установлено расширение] сохранить начальную страницу параметров**.
 
-     Нажмите кнопку **OK**.
+     Нажмите кнопку **ОК**.
 
 4. Закройте начальную страницу, если она открыта, а затем в меню **вид** выберите пункт **Начальная страница**.
 
@@ -198,7 +198,7 @@ ms.locfileid: "99888944"
 
 Этот пользовательский элемент управления можно изменить, чтобы сохранить и получить любое количество пользовательских параметров, используя разные значения из разных обработчиков событий для получения и задания `SettingsStore` Свойства. Если `propertyName` для каждого вызова используется другой параметр <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A> , значения не перезапишут друг друга в реестре.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:EnvDTE80.DTE2?displayProperty=fullName>
 - [Добавление команд Visual Studio на начальную страницу](../extensibility/adding-visual-studio-commands-to-a-start-page.md)

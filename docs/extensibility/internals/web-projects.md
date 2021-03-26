@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - web projects
 ms.assetid: d9c0329f-4b0b-4fda-8061-cce69f2f502d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6b248556c8980c63422c20c160241af42fc6918b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3a7cab5ad2572f775df8702f1d15d3bcf7db1ae8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99886864"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069170"
 ---
 # <a name="web-projects"></a>Веб-проекты
 Система веб-проектов — это система проектов, которая создает веб-проекты. Веб-проекты, в свою очередь, создают веб-приложения. Веб-страницу можно программировать с помощью традиционных языков программирования, таких как [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] или [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] , для получения и обработки данных от пользователя, сохранения их в базе данных и т. д. Веб-страницы со связанным кодом называются смарт-страницами.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Основное](../../extensibility/internals/web-project-essentials.md)
 
  Представляет [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] веб-проекты важных элементов.

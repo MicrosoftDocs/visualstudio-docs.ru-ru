@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccGetUserOption function
 ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c137630e4a29fc534e9bfced16cffe862e07a046
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 262a15069f840c048f574396d5a7ec076760d77e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220629"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063959"
 ---
 # <a name="sccgetuseroption-function"></a>Функция SccGetUserOption
 Эта функция получает разнообразные параметры, относящиеся к пользователю.
@@ -55,13 +55,13 @@ SCCRTN SccGetUserOption(
 |SCC_E_OPNOTSUPPORTED|Параметр не поддерживается.|
 |SCC_E_NONSPECIFICERROR|Произошла неизвестная ошибка.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта команда поддерживает следующие параметры:
 
 |Параметр пользователя|Описание|
 |-----------------|-----------------|
 |`SCC_USEROPT_CHECKOUT_LOCALVER`|Определяет, хочет ли пользователь извлечь локальную версию файлов. `lpVal` назначается `SCC_USEROPT_COLV_YES` (пользователь хочет извлечь локальные файлы) или `SCC_USEROPT_COLV_NO` .|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Код ошибки](../extensibility/error-codes.md)

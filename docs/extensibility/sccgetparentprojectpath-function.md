@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccGetParentProjectPath function
 ms.assetid: 62a71579-36b3-48b9-a1c8-04ab100efa08
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e624d8765da65dc6231c0128e87ffd9d6cdf848d
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 305f226117bbb9cf906231a0b9bbaa24c1d87a8e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220616"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105063985"
 ---
 # <a name="sccgetparentprojectpath-function"></a>Функция Сккжетпарентпрожектпас
 Эта функция определяет родительский путь к проекту для указанного проекта. Эта функция вызывается, когда пользователь добавляет проект Visual Studio в систему управления версиями.
@@ -77,7 +77,7 @@ SCCRTN SccGetParentProjectPath(
 |SCC_E_CONNECTIONFAILURE|Проблема с подключением к хранилищу.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция возвращает код успешного или неуспешного выполнения, и в случае успеха заполняет переменную `lpParentProjPath` полным путем к указанному проекту.
 
  Эта функция возвращает путь к родительскому проекту существующего проекта. Для корневого проекта функция возвращает путь к переданному проекту (то есть тот же корневой путь проекта). Обратите внимание, что путь проекта — это строка, которая имеет смысл только для подключаемого модуля системы управления версиями.
@@ -99,7 +99,7 @@ SCCRTN SccGetParentProjectPath(
 
  Если для записи реестра задано значение DWORD: 00000001, Visual Studio не пытается использовать эти новые функции, а операции добавления в систему управления версиями работают так же, как и в предыдущих версиях Visual Studio.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccCreateSubProject](../extensibility/scccreatesubproject-function.md)
 - [SccGetProjPath](../extensibility/sccgetprojpath-function.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSCT files, compiling
 - command-table file compilation (VSCT files)
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 53e50e408166eb2d2e1545549cdd6c72018c9553
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 20c078d65af6224c65c2c574471b046deaf0cc92
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938789"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069300"
 ---
 # <a name="vsct-compiler-command-line-flags"></a>Флаги командной строки компилятора VSCT
 Компилятор Командная таблица Visual Studio (VSCT) предоставляет параметры командной строки для обеспечения успешной компиляции VSCT-файлов.
@@ -76,7 +76,7 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
 
  Компилятор VSCT также может декомпилировать ранее созданный двоичный файл. Для этого укажите двоичный файл для \<infile> .   Если двоичный файл был создан компилятором VSCT, его символы уже внедрены и будут выдавать выходные данные с символами в \<Symbols> разделе выходных данных. Если двоичный файл был создан компилятором CTC, выходные данные будут содержать фактические идентификаторы GUID и идентификаторы. Если файл *. ctsym, созданный текущими версиями Ctc.exe, находится в той же папке, что и входной двоичный файл, то символы будут загружены из этого файла и использованы для вывода.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы таблицы команд Visual Studio (VSCT-файлы)](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [Справочник по схемам XML VSCT](../../extensibility/vsct-xml-schema-reference.md)
 - [Как добавить элементы пользовательского интерфейса с помощью пакетов VSPackage](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

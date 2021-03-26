@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSIX galleries, private
 - private galleries, VSIX
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d5b58c5885f4fc9bd3765c818ea414bee0dbf3c4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c64c5880fcdb1d6a1fb3d6fc7c71f55abf7cbbc1
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961863"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069040"
 ---
 # <a name="private-galleries"></a>Частные коллекции
 Вы можете совместно использовать элементы управления, шаблоны и средства, которые вы разрабатываете, отправляя их в *частную коллекцию* в интрасети организации следующим образом:
@@ -91,6 +91,6 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 
 3. В области справа выберите расширение, а затем нажмите кнопку **Обновить** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Поиск и использование расширений Visual Studio](../ide/finding-and-using-visual-studio-extensions.md)
 - [Поставка расширений Visual Studio](../extensibility/shipping-visual-studio-extensions.md)

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, application of settings
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 14b466112e3939756142a43568ddc3107e55d659
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 71b4a3de89653ab63f57171bcb52ee32ddfcf07d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906090"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078998"
 ---
 # <a name="application-of-settings-across-multiple-project-connections"></a>Применение параметров в нескольких подключениях к проектам
 Подключаемый модуль системы управления версиями, созданный с помощью API версии 1,2 подключаемого модуля системы управления версиями, может использовать пакетную операцию для выполнения одной и той же операции системы управления версиями в нескольких проектах или нескольких контекстах соединения. Пакеты можно использовать для исключения избыточных диалоговых окон по проекту из интерфейса пользователя.
@@ -36,5 +36,5 @@ ms.locfileid: "99906090"
 
 `SCCBeginBatch`Функция запускает группу операций системы управления версиями. `SccEndBatch`Функция закрывает группу. Группы не могут быть вложенными.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Новые возможности в API подключаемого модуля системы управления версиями, версия 1,2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

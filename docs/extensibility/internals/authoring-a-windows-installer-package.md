@@ -8,17 +8,17 @@ helpviewer_keywords:
 - .msi files, VSPackages
 - msi files, VSPackages
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 445b302c66739c8a35f180686011f3b498f87ada
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: afc21237b72d76b73e619740cab0b196e29e928d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906128"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078959"
 ---
 # <a name="author-a-windows-installer-package"></a>Создание пакета установщик Windows
 Данные установщик Windows модели. Вместо написания процедурного скрипта для копирования файлов и записи записей реестра, например, создаются строки и столбцы в таблицах базы данных, содержащих данные файлов и реестра.
@@ -51,5 +51,5 @@ ms.locfileid: "99906128"
 
    Сведения о коммерческих продуктах, которые интегрируются с с [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] помощью [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] , см. в разделе [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Установка пакетов VSPackage с помощью установщик Windows](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

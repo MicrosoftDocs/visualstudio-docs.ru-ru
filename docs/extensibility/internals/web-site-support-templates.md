@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - we site projects, templates
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 988b81e72ff7714cb8a0983655de551b54c9150c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8c39e900bbdddd1d558bd0604f16924d2536cb98
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99940037"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069106"
 ---
 # <a name="web-site-support-templates"></a>Шаблоны поддержки веб-сайтов
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Шаблоны проектов и элементов веб-сайта предоставляют возможность многократного использования и настраиваемых проектов веб-сайтов, а также заглушки элементов, которые ускоряют процесс разработки, избавляя от необходимости создавать новые проекты и элементы веб-сайта с нуля. Дополнительные сведения о [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] шаблонах см. в разделе [Создание шаблонов проектов и элементов](../../ide/creating-project-and-item-templates.md).
@@ -65,7 +65,7 @@ ms.locfileid: "99940037"
 
 - web.config.
 
-     Корневой файл конфигурации Web. site.
+     Корневой файл конфигурации web.site.
 
 - Приложение. vstemplate
 
@@ -88,7 +88,7 @@ ms.locfileid: "99940037"
 
 - web.config.
 
-- Корневой файл конфигурации Web. site.
+- Корневой файл конфигурации web.site.
 
 - WebService. vstemplate
 
@@ -186,5 +186,5 @@ ms.locfileid: "99940037"
 
      Файл шаблона, который определяет содержимое новой главной страницы и ее зависимого файла (при наличии).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Поддержка веб-сайтов](../../extensibility/internals/web-site-support.md)

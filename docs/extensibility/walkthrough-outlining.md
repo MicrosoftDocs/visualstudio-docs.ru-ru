@@ -7,20 +7,20 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - outlining
 ms.assetid: d75a44aa-265a-44d4-9c28-457f59c4ff9f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - csharp
 - vb
-ms.openlocfilehash: aa66d3b32f6992cb3a5db13bc2b7ee4d5cd9294c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 48454af0c4bb27a1c66cae9fa2d469622856dcc3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951190"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105078426"
 ---
 # <a name="walkthrough-outlining"></a>Пошаговое руководство. Структурирование
 Настройте языковые функции, такие как структурирование, определив типы текстовых областей, которые необходимо развернуть или свернуть. Можно определить регионы в контексте языковой службы или определить собственное расширение имени файла и тип содержимого и применить определение региона только к этому типу или применить определения областей к существующему типу содержимого (например, "Text"). В этом пошаговом руководстве показано, как определить и отобразить области структуры.
@@ -136,5 +136,5 @@ ms.locfileid: "99951190"
 
 4. Должна существовать область структуры, включающая обе скобки. Чтобы свернуть область структуры, щелкните знак "минус" слева от открывающей скобки. Если область свернута, то символ многоточия (..*.*) должен отображаться слева от свернутой области, а всплывающее окно, содержащее текст, нарисованный при **наведении** указателя на многоточие, должно отобразиться.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Пошаговое руководство. Связывание типа содержимого с расширением имени файла](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

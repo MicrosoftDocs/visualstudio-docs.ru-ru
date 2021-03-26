@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Source Control Integration,overview
 - essentials, Source Control Integration
 ms.assetid: 442057cb-fd54-4283-96f8-2f6dc8bf2de7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a549a4f90cca6c17f3ad634551740f91fbe7da6c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 155e662eae0dda6689a233e31fd62bb72259ae8b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846417"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069339"
 ---
 # <a name="source-control-integration-essentials"></a>Основные элементы интеграции системы управления версиями
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] поддерживает два типа интеграции системы управления версиями: подключаемый модуль системы управления версиями, который предоставляет базовые функциональные возможности и создается с помощью интерфейса API подключаемого модуля системы управления версиями (ранее известного как API MSSCCI), и решения интеграции с системой управления версиями на основе VSPackage, которое обеспечивает более надежную функциональность.

@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], configuration details
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b9a3a2f33fcbb94d1e863daf69b8561f7bad4f2a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a5c93e690922057116b395bed3881627e8a37847
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846508"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069352"
 ---
 # <a name="source-control-configuration-details"></a>Сведения о конфигурации системы управления версиями
 Для реализации системы управления версиями необходимо правильно настроить систему проекта или редактор, чтобы сделать следующее:
@@ -52,7 +52,7 @@ ms.locfileid: "99846508"
 
  Для каждого действия Add, Rename и Remove существует `OnQuery*` метод и `OnAfter*` метод. Вызовите `OnQuery*` метод, чтобы запросить разрешение на добавление, переименование или удаление файла или каталога. Вызовите `OnAfter*` метод после добавления, переименования или удаления файла или каталога, а также состояние проекта, отражающее новое состояние.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A>

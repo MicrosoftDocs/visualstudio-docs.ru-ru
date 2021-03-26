@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], design decisions
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b7335e3c5b15365680d70486f5f8ec8d19e90af4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 82afa3bfee446ab5bd214fd5ac58dbfac9523467
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99846495"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105069326"
 ---
 # <a name="source-control-design-decisions"></a>Проектные решения для системы управления версиями
 При реализации системы управления версиями следует рассматривать следующие решения по проектированию.
@@ -36,7 +36,7 @@ ms.locfileid: "99846495"
 
 3. Когда проект или редактор вызывает <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> файл, Специальные файлы, связанные с этим файлом, не изменяются автоматически. Передайте специальные файлы вместе с родительским файлом. Среда обнаружит связь между всеми передаваемыми файлами и соответствующим образом скрывает специальные файлы в пользовательском интерфейсе извлечения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>

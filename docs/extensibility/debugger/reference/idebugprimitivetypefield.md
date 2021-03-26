@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPrimitiveTypeField interface
 ms.assetid: 73a428fd-797e-4ceb-8392-ba16f1c5226b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7ba0fd92098d8089f6d80573c1db53e0b7e003b8
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 28abe0cb35074025263c684f9d9006fbfa7071c3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150306"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105071731"
 ---
 # <a name="idebugprimitivetypefield"></a>IDebugPrimitiveTypeField
 Представляет значение перечисления типа-примитива из интерфейса [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) .
