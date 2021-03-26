@@ -9,18 +9,18 @@ helpviewer_keywords:
 - custom start page
 - start page assembly
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 735e77868b85bdd8f85fb27957602d6759b5b097
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1e5305927ceb634c64e52bb64ce57197f1b6be4c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99879180"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097608"
 ---
 # <a name="add-user-control-to-the-start-page"></a>Добавление пользовательского элемента управления на начальную страницу
 
@@ -108,7 +108,7 @@ ms.locfileid: "99879180"
 
 1. В конструкторе XAML дважды щелкните кнопку **Set Address (задать адрес** ), добавленную в элемент управления.
 
-    Файл *UserControl1.CS* откроется в редакторе кода.
+    Файл *UserControl1. CS* откроется в редакторе кода.
 
 2. Заполните обработчик событий SetButton_Click следующим образом.
 
@@ -191,7 +191,7 @@ ms.locfileid: "99879180"
 
     Должна отобразиться настраиваемая Начальная страница. Если вы хотите изменить какие-либо файлы, необходимо закрыть экспериментальный экземпляр, внести изменения, скопировать и вставить измененные файлы, а затем повторно открыть экспериментальный экземпляр для просмотра изменений.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Элементы управления контейнера WPF](/previous-versions/bb675291(v=vs.110))
 - [Пошаговое руководство. Добавление пользовательского XAML-кода на начальную страницу](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

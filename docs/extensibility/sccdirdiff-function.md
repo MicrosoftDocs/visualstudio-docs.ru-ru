@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccDirDiff function
 ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 98a843c061941765404397186af74ab71923a9da
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 974d0aa22ff3940472be34b691a61632dc742223
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221604"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073980"
 ---
 # <a name="sccdirdiff-function"></a>Функция Сккдирдифф
 Эта функция отображает различия между текущим локальным каталогом на клиентском диске и соответствующим проектом в системе управления версиями.
@@ -70,7 +70,7 @@ SCCRTN SccDirDiff(
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 |SCC_E_FILENOTEXIST|Не удалось найти локальный каталог.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция используется для указания подключаемому модулю системы управления версиями выводить пользователю список изменений в указанном каталоге. Подключаемый модуль открывает собственное окно в выбранном формате, чтобы отобразить различия между каталогом пользователя на диске и соответствующим проектом в системе управления версиями.
 
  Если подключаемый модуль поддерживает сравнение каталогов, он должен поддерживать сравнение каталогов на основе имен файлов, даже если не поддерживаются параметры быстрого сравнения.
@@ -86,5 +86,5 @@ SCCRTN SccDirDiff(
 > [!NOTE]
 > Эта функция использует те же флаги команд, что и [сккдифф](../extensibility/sccdiff-function.md). Однако подключаемый модуль системы управления версиями может не поддерживать операцию "быстрого копирования" для каталогов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccRunScc function
 ms.assetid: bbe7c931-b17a-4779-9cf6-59e5f9f0c172
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca492c35ba061072dc9e4b3d0eabc42476bcd8ed
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: e78e58eafebd06d1ce7c710a31ce295b49f26340
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221370"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073824"
 ---
 # <a name="sccrunscc-function"></a>Функция SccRunScc
 Эта функция вызывает средство администрирования системы управления версиями.
@@ -64,14 +64,14 @@ SCCRTN SccRunScc(
 |SCC_E_FILENOTCONTROLLED|Выбранный файл не находится в системе управления версиями.|
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция позволяет вызывающему объекту получить доступ ко всем возможностям системы управления версиями с помощью внешнего средства администрирования. Если система управления версиями не имеет пользовательского интерфейса, подключаемый модуль системы управления версиями может реализовать интерфейс для выполнения необходимых административных функций.
 
  Эта функция вызывается с количеством и массивом имен файлов для выбранных в настоящий момент файлов. Если средство администрирования поддерживает его, список файлов можно использовать для предварительного выбора файлов в интерфейсе администрирования. в противном случае список можно пропустить.
 
  Эта функция обычно вызывается, когда пользователь выбирает **\<Source Control Server> Запуск** из   ->  меню **системы управления версиями** файлов. Этот пункт меню **запуска** может быть всегда отключен или даже скрыт путем установки записи реестра. Дополнительные сведения см. в разделе [инструкции. Установка подключаемого модуля системы управления версиями](../extensibility/internals/how-to-install-a-source-control-plug-in.md) . Эта функция вызывается, только если [скЦинитиализе](../extensibility/sccinitialize-function.md) возвращает `SCC_CAP_RUNSCC` бит возможностей (Дополнительные сведения об этом и других битах см. в разделе [флаги возможностей](../extensibility/capability-flags.md) ).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Практическое руководство. Установка подключаемого модуля системы управления версиями](../extensibility/internals/how-to-install-a-source-control-plug-in.md)
 - [Флаги возможностей](../extensibility/capability-flags.md)

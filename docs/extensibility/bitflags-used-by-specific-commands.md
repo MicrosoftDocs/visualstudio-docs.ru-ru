@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, bitflags used by specific commands
 ms.assetid: 37969977-6f7d-45c9-ba03-1306ae71f5d1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e018631e24cf7e678072b6b54183fd3c619dc4a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 41f070d61e547724b3067a9f4a1980d658fc30be
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890335"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097296"
 ---
 # <a name="bitflags-used-by-specific-commands"></a>Битфлагс, используемые конкретными командами
 Поведение ряда функций в API подключаемого модуля системы управления версиями можно изменить, задав один или несколько битов в одном значении. Эти значения называются битфлагс. Различные битфлагс, используемые API подключаемого модуля системы управления версиями, подробно описаны в разделе, сгруппированном по функции, которая их использует.
@@ -107,5 +107,5 @@ ms.locfileid: "99890335"
 |`SCC_OPT_SCO_NO`|0L|Параметры ОК, чтобы извлечь из пользовательского интерфейса подключаемого модуля; задан рабочий каталог.|`SCC_OPT_SCCCHECKOUTONLY`|
 |`SCC_OPT_SCO_YES`|1L|Не удается извлечь пользовательский интерфейс подключаемого модуля, Рабочий каталог отсутствует.|`SCC_OPT_SCCCHECKOUTONLY`|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Подключаемые модули системы управления версиями](../extensibility/source-control-plug-ins.md)

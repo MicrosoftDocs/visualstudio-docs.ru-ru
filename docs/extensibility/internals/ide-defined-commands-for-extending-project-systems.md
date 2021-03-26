@@ -8,17 +8,17 @@ helpviewer_keywords:
 - commands, project systems
 - project systems, environment-defined commands
 ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a08d60a52ed970781ceafdb15d0d5c64440f0cd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6fedca7081c531fef257e20e64426f8b35e88e87
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968077"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086005"
 ---
 # <a name="ide-defined-commands-for-extending-project-systems"></a>Команды, определенные в интегрированной среде разработки, для расширения систем проектов
 При необходимости расширить системы проектов можно использовать команды и группы команд, предоставляемые [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной средой разработки.
@@ -71,7 +71,7 @@ ms.locfileid: "99968077"
 |IDG_VS_CTXT_PROJECT_TRANSFER|Команды для операций вырезания, копирования и вставки.|
 |IDG_VS_CTXT_PROJECT_PROPERTIES|Команды, которые предоставляют доступ к диалоговому окну **Свойства проекта** .|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Как добавить элементы пользовательского интерфейса с помощью пакетов VSPackage](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Создание повторно используемых групп кнопок](../../extensibility/creating-reusable-groups-of-buttons.md)

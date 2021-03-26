@@ -9,17 +9,17 @@ helpviewer_keywords:
 - security best practices, VSPackages
 - best practices, security
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a4e706a115e8cec3b13ef58cf6cdef61912f5810
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cca66d6c1fce0deb8103a7d626c16a4e81bc7b5f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99905988"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086213"
 ---
 # <a name="best-practices-for-security-in-vspackages"></a>Рекомендации по обеспечению безопасности в VSPackage
 Чтобы установить [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] на компьютере, необходимо работать в контексте с административными учетными данными. Основной единицей безопасности и развертывания [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] приложения является пакет [VSPackage](../../extensibility/internals/vspackages.md). Пакет VSPackage должен быть зарегистрирован с помощью [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] , который также требует учетных данных администратора.
@@ -32,6 +32,6 @@ ms.locfileid: "99905988"
 
  Дополнительные сведения см. [в разделе рекомендации по безопасному кодированию для платформа .NET Framework](/previous-versions/visualstudio/visual-studio-2008/d55zzx87(v=vs.90)).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Безопасность надстроек](/previous-versions/1326zbk3(v=vs.140))
 - [Безопасность DDEX](/previous-versions/bb163703(v=vs.140))

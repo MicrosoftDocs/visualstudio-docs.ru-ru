@@ -12,17 +12,17 @@ helpviewer_keywords:
 - localize visual studio
 - localize vsct
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: af86f64935d4e99d4c1245669505fcef8ce7ec1f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 141fb0d8ba6746e7d299984461fb3ca739d931d4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893624"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073265"
 ---
 # <a name="localize-menu-commands"></a>Команды меню "локализовать"
 
@@ -112,9 +112,9 @@ ms.locfileid: "99893624"
 
 ## <a name="incorporate-localized-resources-into-the-project"></a>Внедрение локализованных ресурсов в проект
 
-Необходимо изменить файл *AssemblyInfo.CS* и файл проекта, чтобы включить локализованные ресурсы.
+Необходимо изменить файл *AssemblyInfo. CS* и файл проекта, чтобы включить локализованные ресурсы.
 
-1. Из узла **Свойства** в **Обозреватель решений** откройте *AssemblyInfo.CS* или *AssemblyInfo. vb* в редакторе.
+1. Из узла **Свойства** в **Обозреватель решений** откройте *AssemblyInfo. CS* или *AssemblyInfo. vb* в редакторе.
 
 2. Добавьте следующую запись.
 
@@ -167,7 +167,7 @@ ms.locfileid: "99893624"
 
      При этом создается Главная сборка и сборки ресурсов для каждого языка. Сведения о локализации процесса развертывания см. в разделе [Локализация пакетов VSIX](../extensibility/localizing-vsix-packages.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение меню и команд](../extensibility/extending-menus-and-commands.md)
 - [Глобализация и локализация приложений](../ide/globalizing-and-localizing-applications.md)

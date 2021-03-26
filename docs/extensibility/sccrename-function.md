@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccRename function
 ms.assetid: b467ade6-a1db-4c0b-b60f-7850ec4f79eb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dcfb68518f42e969b7c9d52acfb37723e9774f97
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: d9d42e796f1ec2176e9de79ca392aab070581324
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221344"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073837"
 ---
 # <a name="sccrename-function"></a>Функция SccRename
 Эта функция переименовывает файл в системе управления версиями.
@@ -65,8 +65,8 @@ SCCRTN SccRename(
 |SCC_E_OPNOTPERFORMED|Операция не была выполнена.|
 |SCC_E_NONSPECIFICERROR|Произошла неопределенная или общая ошибка.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция может использоваться для переименования файла или перемещения его из одного расположения в другое в системе управления версиями. Подключаемый модуль системы управления версиями не должен пытаться получить доступ к файлу на диске. Переименование локального файла является обязанностью интегрированной среды разработки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)

@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - tool windows, adding search
 ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 71c2f0be2377ea391595b02f5b1e94465cffcf68
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 82176afaacae3b9f4553c8b1b5b41b9a4f10dace
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937105"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097556"
 ---
 # <a name="add-search-to-a-tool-window"></a>Добавление поиска в окно инструментов
 При создании или обновлении окна инструментов в расширении можно добавить те же функциональные возможности поиска, которые появляются в Visual Studio в других местах. Эта функция включает следующие функции:
@@ -67,7 +67,7 @@ ms.locfileid: "99937105"
     </StackPanel>
     ```
 
-3. В файле *TestSearchControl.XAML.CS* добавьте следующую директиву using:
+3. В файле *тестсеарчконтрол. XAML. CS* добавьте следующую директиву using:
 
     ```csharp
     using System.Text;
@@ -90,7 +90,7 @@ ms.locfileid: "99937105"
 
 ## <a name="to-add-a-search-box-to-the-tool-window"></a>Добавление поля поиска в окно инструментов
 
-1. В файле *TestSearch.CS* добавьте в класс следующий код `TestSearch` . Код переопределяет <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled%2A> свойство таким образом, чтобы метод доступа Get возвращал `true` .
+1. В файле *тестсеарч. CS* добавьте в класс следующий код `TestSearch` . Код переопределяет <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled%2A> свойство таким образом, чтобы метод доступа Get возвращал `true` .
 
      Чтобы включить поиск, необходимо переопределить <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.SearchEnabled%2A> свойство. <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>Класс реализует <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch> и предоставляет реализацию по умолчанию, которая не включает поиск.
 
@@ -110,7 +110,7 @@ ms.locfileid: "99937105"
 ## <a name="to-add-the-search-implementation"></a>Добавление реализации поиска
  При включении поиска в <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> , как в предыдущей процедуре, окно инструментов создает узел поиска. Этот узел настраивает и управляет процессами поиска, которые всегда происходят в фоновом потоке. Поскольку <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> класс управляет созданием узла поиска и настройкой поиска, необходимо только создать задачу поиска и предоставить метод поиска. Процесс поиска выполняется в фоновом потоке, а вызовы элемента управления окна инструментов происходят в потоке пользовательского интерфейса. Поэтому для управления вызовами, выполняемыми с элементом управления, необходимо использовать метод [среадхелпер. Invoke *](https://msdn.microsoft.com/data/ee197798(v=vs.85)) .
 
-1. В файл *TestSearch.CS* добавьте следующие `using` директивы:
+1. В файле *тестсеарч. CS* добавьте следующие `using` директивы:
 
     ```csharp
     using System;
@@ -241,7 +241,7 @@ ms.locfileid: "99937105"
 ## <a name="to-customize-the-search-behavior"></a>Настройка поведения поиска
  Изменяя параметры поиска, можно вносить разнообразные изменения в то, как отображается элемент управления поиском и как выполняется поиск. Например, можно изменить водяной знак (текст по умолчанию, отображаемый в поле поиска), минимальную и максимальную ширину элемента управления поиском, а также указать, следует ли отображать индикатор выполнения. Кроме того, можно изменить точку, с которой начинается поиск результатов поиска (по запросу или мгновенного поиска), а также указать, следует ли отображать список терминов, для которых вы недавно искали. Полный список параметров можно найти в <xref:Microsoft.VisualStudio.PlatformUI.SearchSettingsDataSource> классе.
 
-1. В файле * TestSearch.cs * добавьте в класс следующий код `TestSearch` . Этот код включает мгновенный поиск вместо поиска по запросу (это означает, что пользователю не нужно нажать клавишу **Ввод**). Код переопределяет `ProvideSearchSettings` метод в `TestSearch` классе, который необходим для изменения параметров по умолчанию.
+1. В файле * Тестсеарч. cs * добавьте в класс следующий код `TestSearch` . Этот код включает мгновенный поиск вместо поиска по запросу (это означает, что пользователю не нужно нажать клавишу **Ввод**). Код переопределяет `ProvideSearchSettings` метод в `TestSearch` классе, который необходим для изменения параметров по умолчанию.
 
     ```csharp
     public override void ProvideSearchSettings(IVsUIDataSource pSearchSettings)
@@ -288,7 +288,7 @@ ms.locfileid: "99937105"
 ## <a name="to-enable-users-to-refine-their-searches"></a>Предоставление пользователям возможности уточнения поиска
  Можно разрешить пользователям уточнять поиск с помощью таких параметров, как **соответствие регистру** или **слово целиком**. Параметры могут быть логическими, которые отображаются в виде кнопок в виде флажков или команд. В этом пошаговом руководстве вы создадите логический параметр.
 
-1. В файле *TestSearch.CS* добавьте в класс следующий код `TestSearch` . Код переопределяет `SearchOptionsEnum` метод, который позволяет реализации поиска определить, включен ли данный параметр. Код в `SearchOptionsEnum` добавляет параметр для сопоставления регистра с <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumWindowSearchOptions> перечислителем. Параметр для сопоставления регистра также становится доступным в качестве `MatchCaseOption` Свойства.
+1. В файле *тестсеарч. CS* добавьте в класс следующий код `TestSearch` . Код переопределяет `SearchOptionsEnum` метод, который позволяет реализации поиска определить, включен ли данный параметр. Код в `SearchOptionsEnum` добавляет параметр для сопоставления регистра с <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumWindowSearchOptions> перечислителем. Параметр для сопоставления регистра также становится доступным в качестве `MatchCaseOption` Свойства.
 
     ```csharp
     private IVsEnumWindowSearchOptions m_optionsEnum;
@@ -341,7 +341,7 @@ ms.locfileid: "99937105"
 ## <a name="to-add-a-search-filter"></a>Добавление фильтра поиска
  Можно добавить фильтры поиска, позволяющие пользователям уточнить набор целевых объектов поиска. Например, можно фильтровать файлы в проводнике по датам, в которых они были изменены последними, и расширениями имен файлов. В этом пошаговом руководстве вы добавите фильтр только для четных строк. Когда пользователь выбирает этот фильтр, узел поиска добавляет строки, указанные в поисковом запросе. Затем можно найти эти строки в методе поиска и соответствующим образом фильтровать целевые объекты поиска.
 
-1. В файле *TestSearch.CS* добавьте в класс следующий код `TestSearch` . Код реализуется `SearchFiltersEnum` путем добавления <xref:Microsoft.VisualStudio.PlatformUI.WindowSearchSimpleFilter> , который задает фильтрацию результатов поиска таким образом, чтобы отображались только четные линии.
+1. В файле *тестсеарч. CS* добавьте в класс следующий код `TestSearch` . Код реализуется `SearchFiltersEnum` путем добавления <xref:Microsoft.VisualStudio.PlatformUI.WindowSearchSimpleFilter> , который задает фильтрацию результатов поиска таким образом, чтобы отображались только четные линии.
 
     ```csharp
     public override IVsEnumWindowSearchFilters SearchFiltersEnum
@@ -358,7 +358,7 @@ ms.locfileid: "99937105"
 
      Теперь элемент управления поиском отображает фильтр поиска `Search even lines only` . Когда пользователь выбирает фильтр, строка `lines:"even"` появляется в поле поиска. Другие условия поиска могут отображаться одновременно с фильтром. Строки поиска могут располагаться перед фильтром, после фильтра или обоими.
 
-2. В файле *TestSearch.CS* добавьте следующие методы в `TestSearchTask` класс, который находится в `TestSearch` классе. Эти методы поддерживают `OnStartSearch` метод, который вы измените на следующем шаге.
+2. В файле *тестсеарч. CS* добавьте следующие методы в `TestSearchTask` класс, который находится в `TestSearch` классе. Эти методы поддерживают `OnStartSearch` метод, который вы измените на следующем шаге.
 
     ```csharp
     private string RemoveFromString(string origString, string stringToRemove)

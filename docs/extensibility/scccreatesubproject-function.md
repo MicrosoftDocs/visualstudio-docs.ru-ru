@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccCreateSubProject function
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 38fb6a18954b0a2f976fad4b24819a08ed868ab6
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 70568c27afb4bdb5794db64322113dffbd824452
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221617"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105074006"
 ---
 # <a name="scccreatesubproject-function"></a>Функция Скккреатесубпрожект
 Эта функция создает подпроект с заданным именем в существующем родительском проекте, заданном `lpParentProjPath` аргументом.
@@ -83,7 +83,7 @@ SCCRTN SccCreateSubProject(
 |SCC_E_CONNECTIONFAILURE|Возникла проблема с подключением к подключаемому модулю системы управления версиями.|
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Неконкретный сбой.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Если подпроект с таким именем уже существует, функция может изменить имя по умолчанию для создания уникального имени, например, добавив \<number> в него "_". Вызывающий объект должен быть подготовлен для принятия изменений в `lpUser` , `lpSubProjPath` и `lpAuxProjPath` . `lpSubProjPath`Аргументы и `lpAuxProjPath` затем используются при вызове метода [сккопенпрожект](../extensibility/sccopenproject-function.md). Они не должны изменяться вызывающим объектом после возврата. Эти строки предоставляют подключаемому модулю системы управления версиями способ для записи сведений, которые необходимо связать с проектом. В интегрированной среде разработки вызывающей стороны не будут отображаться эти два параметра, так как подключаемый модуль может использовать отформатированную строку, которая может не подойти для просмотра. Функция возвращает код успешного или неуспешного выполнения, и в случае успеха заполняет переменную `lpSubProjPath` полным путем к новому проекту.
 
  Эта функция похожа на [сккжетпрожпас](../extensibility/sccgetprojpath-function.md), за исключением того, что она создает проект автоматически, а не предлагает пользователю выбрать его. При `SccCreateSubProject` вызове функции `lpParentProjName` и `lpAuxProjPath` не будет пустым и будет соответствовать допустимому проекту. Эти строки обычно получаются интегрированной средой разработки из предыдущего вызова `SccGetProjPath` функции или [сккжетпарентпрожектпас](../extensibility/sccgetparentprojectpath-function.md).
@@ -99,7 +99,7 @@ SCCRTN SccCreateSubProject(
 
  Если для записи реестра задано значение DWORD: 00000001, Visual Studio не пытается использовать эти новые функции, а операции добавления в систему управления версиями работают так же, как и в предыдущих версиях Visual Studio.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [SccGetParentProjectPath](../extensibility/sccgetparentprojectpath-function.md)
 - [SccGetProjPath](../extensibility/sccgetprojpath-function.md)

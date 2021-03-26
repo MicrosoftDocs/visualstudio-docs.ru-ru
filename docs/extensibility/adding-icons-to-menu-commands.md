@@ -9,17 +9,17 @@ helpviewer_keywords:
 - toolbars [Visual Studio], adding icons to commands
 - commands [Visual Studio], adding icons
 ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b9f37bd14ed43ab0e165346f8ce09512c3981177
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 01f159b9f07cd0d530039e0d5707cf38d51610ef
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934368"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097594"
 ---
 # <a name="add-icons-to-menu-commands"></a>Добавление значков к командам меню
 Команды могут отображаться как в меню, так и на панелях инструментов. На панелях инструментов обычно команда отображается с помощью значка (для экономии пространства), а в меню отображается команда с текстом и значком.
@@ -83,6 +83,6 @@ ms.locfileid: "99934368"
 
 8. Проверьте значок. Выполните сборку решения и запустите отладку. В экспериментальном экземпляре найдите команду. Он должен содержать добавленный значок.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Расширение меню и команд](../extensibility/extending-menus-and-commands.md)
 - [Справочник по XML-схеме VSCT](../extensibility/vsct-xml-schema-reference.md)

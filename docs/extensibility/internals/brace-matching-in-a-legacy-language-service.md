@@ -8,17 +8,17 @@ helpviewer_keywords:
 - brace matching
 - language services [managed package framework], brace matching
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2bfcb9fdd7eff132d02c7d14be729cd871c8dd8e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a92a3ca34e6314463bbfecbd8c4236789f213635
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99905929"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086109"
 ---
 # <a name="brace-matching-in-a-legacy-language-service"></a>Сопоставление фигурных скобок в языковой службе прежних версий
 Сопоставление фигурных скобок помогает разработчику контролировать элементы языка, которые должны выполняться вместе, например круглые скобки и фигурные скобки. Когда разработчик вводит закрывающую фигурную скобку, выделяется открывающая фигурная скобка.
@@ -137,6 +137,6 @@ namespace TestLanguagePackage
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции устаревшей языковой службы](../../extensibility/internals/legacy-language-service-features1.md)
 - [Анализатор и сканер языковой службы прежних версий](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)

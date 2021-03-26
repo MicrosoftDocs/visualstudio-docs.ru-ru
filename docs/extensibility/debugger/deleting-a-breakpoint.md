@@ -8,17 +8,17 @@ helpviewer_keywords:
 - breakpoints, deleting
 - debugging [Debugging SDK], deleting breakpoints
 ms.assetid: 75a046cc-d20a-4c79-ad2d-1f18426ac5d0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ebd2922f48a53c371f4930e5de1fd86ed6852a0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1d8e0d68f32ece7760805c05fd281b0e62a70003
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99862179"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105097283"
 ---
 # <a name="deleting-a-breakpoint"></a>Удаление точки останова
 Ниже описан процесс удаления ожидающей точки останова.
@@ -29,5 +29,5 @@ ms.locfileid: "99862179"
 > [!NOTE]
 > Можно также удалить одну привязанную точку останова с помощью вызова [IDebugBoundBreakpoint2::D удалить](../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [События отладчика Call](../../extensibility/debugger/calling-debugger-events.md)

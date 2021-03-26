@@ -8,17 +8,17 @@ helpviewer_keywords:
 - source control plug-ins, getting items from source control
 - source control [Visual Studio SDK], getting items from
 ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 83b869a91b823a2f14823ab65a745a3ef6c0d883
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ab6a35aa896d7a68e151007d6f694672f7477688
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99898226"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073434"
 ---
 # <a name="test-area-2-get-from-source-control"></a>Область тестирования 2. Получение элементов из системы управления версиями
 Эта область тестирования охватывает тестовые случаи для получения элементов из хранилища версий с помощью команды Get. Эти тестовые случаи можно применять как к локальным, так и к веб-проектам.
@@ -55,5 +55,5 @@ ms.locfileid: "99898226"
 |Получение файла, который существует локально, то же, что и последняя версия в хранилище версий|1. Создайте новый проект.<br />2. Добавьте элемент в проект.<br />3. размещение проекта в системе управления версиями.<br />4. получение элемента (**файл**, **система управления версиями**, **Получение** \<item> ).|Локальный файл не изменен.|
 |Получение решения с одним проектом|1. Создайте решение с одним проектом.<br />2. Поместите решение в систему управления версиями.<br />3. Удалите все файлы проекта локально.<br />4. получите решение (**файл**, **система управления версиями**, **Get**).|Все удаленные файлы восстанавливаются локально.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Руководство по тестированию подключаемых модулей системы управления версиями](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

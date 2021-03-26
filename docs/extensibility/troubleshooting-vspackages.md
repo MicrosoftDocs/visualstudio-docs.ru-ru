@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSPackages, troubleshooting
 - debugging, VSPackages
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 957488adb36c54355b4fe47577a7cd5b2407864f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e1a52e6e659a3841214db5da7a44431b68ea98e7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893520"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073759"
 ---
 # <a name="troubleshooting-vspackages"></a>Устранение неполадок, связанных с пакетами VSPackage
 Ниже приведены распространенные проблемы, которые могут возникнуть при работе с VSPackage, и советы по устранению проблем.
@@ -78,7 +78,7 @@ ms.locfileid: "99893520"
 
      Хорошей отправной точкой для отладки является конструктор и метод инициализации. Можно также задать точки останова в области, которую требуется вычислить, например команде меню. Чтобы включить точки останова, необходимо запустить в отладчике.
 
-    1. В меню **Проект** выберите **Свойства**.
+    1. В меню **Проект** выберите пункт **Свойства**.
 
     2. В диалоговом окне **страницы свойств** перейдите на вкладку **Отладка** .
 
@@ -113,7 +113,7 @@ ms.locfileid: "99893520"
 
 1. Для управляемого кода убедитесь, что пути ссылок верны.
 
-   1. В меню **Проект** выберите **Свойства**.
+   1. В меню **Проект** выберите пункт **Свойства**.
 
    2. Перейдите на вкладку **ссылки** в диалоговом окне **страницы свойств** и убедитесь, что все пути указаны правильно. Кроме того, можно использовать **Обозреватель объектов** для поиска объектов, на которые имеются ссылки.
 
@@ -125,6 +125,6 @@ ms.locfileid: "99893520"
 
    Убедитесь, что запись InprocServer32 имеет правильный путь к библиотеке DLL VSPackage.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../extensibility/internals/vspackages.md)
 - [Устранение неполадок в Visual Studio](/troubleshoot/visualstudio/welcome-visual-studio/)

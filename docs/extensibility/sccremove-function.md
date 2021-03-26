@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccRemove function
 ms.assetid: 20830fdc-c0e9-4a5f-bf60-33f28874442f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9f55b82ae428870f1d5a08feaa3ae1ef7eb0b5f4
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: d80daf83458c9e05ef0a081348080579e7fafef4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102221422"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073876"
 ---
 # <a name="sccremove-function"></a>Функция SccRemove
 Эта функция удаляет файлы из системы управления версиями.
@@ -80,8 +80,8 @@ SCCRTN SccRemove(
 |SCC_E_NONSPECIFICERROR|Неконкретный сбой; файл не был удален.|
 |SCC_I_OPERATIONCANCELED|Операция была отменена до завершения.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Эта функция удаляет файлы из системы управления версиями, но не удаляет их с локального жесткого диска пользователя.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)

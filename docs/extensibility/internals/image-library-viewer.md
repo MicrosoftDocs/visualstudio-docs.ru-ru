@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc0acd64a61acac2cb30b9251bcb4e528c08f227
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d60443e97bc557bc964d59750417b2662e4c3c8f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99840123"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105085979"
 ---
 # <a name="image-library-viewer"></a>Средство просмотра библиотеки образов
 Средство просмотра библиотеки изображений Visual Studio позволяет загружать и искать манифесты изображений, позволяя пользователю манипулировать ими точно так же, как и в Visual Studio. Пользователь может изменять фон, размеры, DPI, высокую контрастность и другие параметры. Средство также отображает сведения о загрузке для каждого манифеста изображения и отображает сведения об источнике для каждого изображения в манифесте образа. Это средство полезно для следующих средств:
@@ -94,7 +94,7 @@ ms.locfileid: "99840123"
 |манифестфолдер|Папка, содержащая файл манифеста|
 |MyDocuments|Полный путь к папке "Мои документы" текущего пользователя|
 |ProgramFiles|Значение переменной окружения% ProgramFiles%|
-|система|Папка Windows\System32|
+|Система|Папка Windows\System32|
 |WinDir|Значение переменной среды% WinDir%|
 
  **Изображение**
@@ -148,7 +148,7 @@ ms.locfileid: "99840123"
 
 |**Attribute**|**Определение**|
 |-|-|
-|Тип|Необходимости Тип машинного ресурса: XAML или PNG|
+|Type|Необходимости Тип машинного ресурса: XAML или PNG|
 |ID|Необходимости Часть целочисленного идентификатора машинного ресурса|
 
  **ImageList**
