@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionEvaluator interface
 ms.assetid: 0636d8c3-625a-49fa-94b6-516f22b7e1bc
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b2e1fb465155bac2aa4be2b0d0a041715bf63bfa
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: dd14e85d279bd724dcfdf2cd9b71028ac5a4fd87
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152355"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092076"
 ---
 # <a name="idebugexpressionevaluator"></a>IDebugExpressionEvaluator
 > [!IMPORTANT]
@@ -49,7 +49,7 @@ IDebugExpressionEvaluator : IUnknown
 |[Pragma](../../../extensibility/debugger/reference/idebugexpressionevaluator-setlocale.md)|Определяет, какой язык следует использовать для создания печатных результатов.|
 |[SetRegistryRoot](../../../extensibility/debugger/reference/idebugexpressionevaluator-setregistryroot.md)|Задает корень реестра. Используется для параллельной отладки.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 В типичной ситуации модуль отладки (DE) создает экземпляр средства оценки выражений (EE) в результате вызова [парсетекст](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md). Так как язык и поставщик EE, который он хочет использовать, de знает, он получает идентификатор CLSID EE из реестра ( [вспомогательные методы SDK для функции отладки](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) , которые `GetEEMetric` помогают в этом извлечении).
 
 После создания экземпляра EE метод DE вызывает [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) , чтобы проанализировать выражение и сохранить его в объекте [идебугпарседекспрессион](../../../extensibility/debugger/reference/idebugparsedexpression.md) . Позже при вызове [евалуатесинк](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) вычисляется выражение.
@@ -103,7 +103,7 @@ IDebugExpressionEvaluator GetExpressionEvaluator(IDebugSymbolProvider pSymbolPro
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы вычисления выражений](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)
 - [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)

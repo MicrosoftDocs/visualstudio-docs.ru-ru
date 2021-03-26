@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2 interface
 ms.assetid: 99f6cd06-4076-45ee-b2ae-fa2ad627fd18
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 131eacba321bac70c75b77faf33b18aae0135e55
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 0d56687cb3559b5807b488fa44dfdfc4048e4c58
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150267"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105081611"
 ---
 # <a name="idebugprocess2"></a>IDebugProcess2
 Этот интерфейс представляет процесс, выполняемый в порте. Если порт является локальным портом, `IDebugProcess2` обычно он представляет физический процесс на локальном компьютере.
@@ -59,7 +59,7 @@ IDebugProcess2 : IUnknown
 |[CauseBreak](../../../extensibility/debugger/reference/idebugprocess2-causebreak.md)|Запрашивает, что следующая программа, выполняющая код в этом процессе, останавливается.|
 |[GetPort](../../../extensibility/debugger/reference/idebugprocess2-getport.md)|Возвращает порт, на котором выполняется этот процесс.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  `IDebugProcess2`Содержит один или несколько интерфейсов [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) .
 
 ## <a name="requirements"></a>Требования
@@ -69,8 +69,8 @@ IDebugProcess2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)
 - [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)
 - [GetProcess](../../../extensibility/debugger/reference/idebugprogram2-getprocess.md)

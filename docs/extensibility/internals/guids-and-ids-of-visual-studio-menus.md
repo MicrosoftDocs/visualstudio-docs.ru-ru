@@ -12,17 +12,17 @@ helpviewer_keywords:
 - guid
 - menus
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bd2bdc047ddd5a568aca01ed99b6148b0f288faa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d9f5066c5ae5c9fa57517406b8eca388747979c4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970274"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082092"
 ---
 # <a name="guids-and-ids-of-visual-studio-menus"></a>Идентификаторы GUID и идентификаторы меню Visual Studio
 В этой статье перечисляются значения GUID и ID меню и групп в строке меню Visual Studio. Эти значения определены в файлах *. vsct* , которые устанавливаются в составе пакета SDK для Visual Studio. Дополнительные сведения см. в разделе [команды, меню и группы, определяемые интегрированной средой разработки](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
@@ -34,7 +34,7 @@ ms.locfileid: "99970274"
 ## <a name="groups-on-the-visual-studio-menu-bar"></a>Группы в строке меню Visual Studio
  Чтобы добавить меню в строку меню, установите одну из этих групп в качестве родительской.
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Файл/Правка/представление|IDG_VS_MM_FILEEDITVIEW|
 |Рефакторинг|IDG_VS_MM_REFACTORING:|
@@ -69,7 +69,7 @@ ms.locfileid: "99970274"
 
 ### <a name="file-menu-groups"></a>Группы меню "файл"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Создать или открыть|IDG_VS_FILE_FILE|
 |Добавить|IDG_VS_FILE_ADD|
@@ -85,7 +85,7 @@ ms.locfileid: "99970274"
 
 ### <a name="edit-menu-groups"></a>Изменить группы меню
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Отменить/Повторить|IDG_VS_EDIT_UNDOREDO|
 |Вырезать, копировать и вставить|IDG_VS_EDIT_CUTCOPY|
@@ -98,14 +98,14 @@ ms.locfileid: "99970274"
 
 ### <a name="refactor-menu-groups"></a>Группы меню Рефакторинг
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Распространенные|IDG_REFACTORING_COMMON|
 |Продвинутый уровень|IDG_REFACTORING_ADVANCED|
 
 ### <a name="view-menu-groups"></a>Группы меню "вид"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Код формы|IDG_VS_VIEW_FORMCODE|
 |Браузер|IDG_VS_VIEW_BROWSER|
@@ -126,19 +126,19 @@ ms.locfileid: "99970274"
 
 ### <a name="project-menu-groups"></a>Группы меню "проект"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Прочие добавления|IDG_VS_PROJ_MISCADD|
 |Добавить|IDG_VS_PROJ_ADD|
 |Папка|IDG_VS_PROJ_FOLDER|
 |Выгрузить/перезагрузить|IDG_VS_PROJ_UNLOADRELOAD|
-|Справочные сведения|IDG_VS_PROJ_REFERENCE|
-|Параметры|IDG_VS_PROJ_OPTIONS|
+|Справочник|IDG_VS_PROJ_REFERENCE|
+|Варианты|IDG_VS_PROJ_OPTIONS|
 |Параметры|IDG_VS_PROJ_SETTINGS|
 
 ### <a name="build-menu-groups"></a>Группы меню "сборка"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Решение|IDG_VS_BUILD_SOLUTION|
 |Выбор|IDG_VS_BUILD_SELECTION|
@@ -148,32 +148,32 @@ ms.locfileid: "99970274"
 
 ### <a name="tools-menu-groups"></a>Группы меню "Сервис"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Командная строка|IDG_VS_TOOLS_CMDLINE|
 |Фрагменты кода|IDG_VS_TOOLS_SNIPPETS|
 |Подмножество объектов|IDG_VS_TOOLS_OBJSUBSET|
-|Параметры|IDG_VS_TOOLS_OPTIONS|
+|Варианты|IDG_VS_TOOLS_OPTIONS|
 |Другие 2|IDG_VS_TOOLS_OTHER2|
 |Внешние инструменты|IDG_VS_TOOLS_EXT_TOOLS|
 |Внешние настройки|IDG_VS_TOOLS_EXT_CUST|
 
 ### <a name="window-menu-groups"></a>Группы меню "окно"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
 |Оператор new|IDG_VS_WINDOW_NEW|
 |Закрепить/закрыть|IDG_VS_DOCKCLOSE|
 |Закрепить/скрыть|IDG_VS_DOCKHIDE|
 |Упорядочить|IDG_VS_WINDOW_ARRANGE|
 |Навигация|IDG_VS_WINDOW_NAVIGATION|
-|List|IDG_VS_WINDOW_LIST|
+|Список|IDG_VS_WINDOW_LIST|
 
 ### <a name="help-menu-groups"></a>Группы меню "Справка"
 
-|Group|ID|
+|Группа|ID|
 |-----------|--------|
-|Образцы|IDG_VS_HELP_SAMPLES|
+|Примеры|IDG_VS_HELP_SAMPLES|
 |Поддержка|IDG_VS_HELP_SUPPORT|
 |Сведения|IDG_VS_HELP_ABOUT|
 
@@ -215,7 +215,7 @@ ms.locfileid: "99970274"
 |IDG_VS_PGO_SELECTION|IDM_VS_CSCD_PGO_BUILD|IDG_VS_PGO_BUILD_CASCADE_BUILD|
 |||IDG_VS_PGO_BUILD_CASCADE_RUN|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Идентификаторы GUID и идентификаторы панелей инструментов Visual Studio](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md)
 - [Идентификаторы GUID и идентификаторы команд Visual Studio](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md)
 - [Файлы таблицы команд Visual Studio (. vsct)](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

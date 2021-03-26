@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpression2::EvaluateAsync
 ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7b01289c792e887c096d0a9068bac55b21a3a503
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: bea7a5a05dc5277e693d033452f0b4e7342ea946
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152693"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092427"
 ---
 # <a name="idebugexpression2evaluateasync"></a>IDebugExpression2::EvaluateAsync
 Этот метод асинхронно вычисляет выражение.
@@ -56,7 +56,7 @@ int EvaluateAsync(
 |-----------|-----------------|
 |E_EVALUATE_BUSY_WITH_EVALUATION|В настоящее время выполняется вычисление другого выражения, и одновременная Оценка выражений не поддерживается.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Этот метод должен возвращать значение сразу после начала вычисления выражения. Если выражение успешно вычислено, [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) должен быть отправлен в обратный вызов события [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) , как это указано с помощью функции [attach](../../../extensibility/debugger/reference/idebugprogram2-attach.md) или [attach](../../../extensibility/debugger/reference/idebugengine2-attach.md).
 
 ## <a name="example"></a>Пример
@@ -76,7 +76,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
 - [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)
 - [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)

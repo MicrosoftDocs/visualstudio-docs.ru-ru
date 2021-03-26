@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumCodePaths2 interface
 ms.assetid: 17ec9f9e-dc06-4532-b5db-da52efcc8630
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f9758bacf6dc22ad65dc4d8db9b21d0f6728efaf
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: e8ff8b4532ab67a969c8270eeb83bdf715e0b1c0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102227090"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091738"
 ---
 # <a name="ienumcodepaths2"></a>IEnumCodePaths2
 Этот интерфейс представляет список путей кода.
@@ -46,7 +46,7 @@ IEnumCodePaths2 : IUnknown
 |[Клонировать](../../../extensibility/debugger/reference/ienumcodepaths2-clone.md)|Создает перечислитель, который содержит то же состояние перечисления, что и текущий перечислитель.|
 |[GetCount](../../../extensibility/debugger/reference/ienumcodepaths2-getcount.md)|Возвращает число ветвей кода в перечислителе.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Путь к коду представляет точку ветвления или вызов функции в программе. Список путей к коду представляет путь, по которому был выполнен код.
 
 ## <a name="requirements"></a>Требования
@@ -56,5 +56,5 @@ IEnumCodePaths2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)

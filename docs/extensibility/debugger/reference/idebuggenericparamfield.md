@@ -6,17 +6,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField interface
 ms.assetid: ba24f499-5ba7-4c67-83e6-923229b52327
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c4ab1cd79826e2f9f07a4f325d701be4e9eb9c9d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2dc01aaf3485e89ac32b4a4fd86c7491a1f96853
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102172575"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091933"
 ---
 # <a name="idebuggenericparamfield"></a>IDebugGenericParamField
 Представляет параметр для универсального типа управляемого кода.

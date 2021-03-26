@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::GetName
 ms.assetid: a2f66ab5-53e5-4cdc-a1b5-3b8afa8ee646
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 418da1be71b0299c93f2813397c28144425f81a4
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: a9817e68cc01c6a867ee2e53a8824ecd759ee014
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164775"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105081832"
 ---
 # <a name="idebugprocess2getname"></a>IDebugProcess2::GetName
 Возвращает заголовок, понятное имя или имя файла процесса.
@@ -52,6 +52,6 @@ int GetName(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

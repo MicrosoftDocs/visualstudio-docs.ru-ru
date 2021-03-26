@@ -1,5 +1,6 @@
 ---
 title: IDebugExpressionContext2 | Документация Майкрософт
+description: Этот интерфейс представляет контекст для вычисления выражения
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -7,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionContext2 interface
 ms.assetid: 577fdaae-4b2d-4112-9839-ab899535fa6f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 92e2561d28c3d4c7133208c78b9a492bc2614fd3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f6d8745207f1ab075aedd43815e7a97a4f0721bb
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99901654"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092297"
 ---
 # <a name="idebugexpressioncontext2"></a>IDebugExpressionContext2
-Этот интерфейс представляет контекст для вычисления выражения
+Этот интерфейс представляет контекст для вычисления выражения.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -54,7 +55,7 @@ IDebugExpressionContext2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetExpressionContext](../../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md)
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)

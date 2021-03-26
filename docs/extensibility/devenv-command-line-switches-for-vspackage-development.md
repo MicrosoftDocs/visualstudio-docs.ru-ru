@@ -15,17 +15,17 @@ helpviewer_keywords:
 - command line, switches
 - Visual Studio SDK, command-line switches
 ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c6b6260bad412127afe4dd9135ccf66d48e9e3e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 94cca255390d9f5637f0bf4f5b24f2d0fd6b4e83
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99968311"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091270"
 ---
 # <a name="devenv-command-line-switches-for-vspackage-development"></a>Параметры командной строки Devenv для разработки VSPackage
 
@@ -51,7 +51,7 @@ Visual Studio позволяет разработчикам автоматизи
 | `/Setup` | Заставляет Visual Studio объединять метаданные ресурсов, описывающие меню, панели инструментов и группы команд, из всех доступных пакетов VSPackage. Эту команду можно выполнить только от имени администратора. <br /><br /> У этого параметра нет аргументов. Команда `devenv /Setup` обычно выдается в качестве последнего этапа процесса установки. Использование `/Setup` параметра не запускает интегрированную среду разработки.|
 | `/Splash` | Отображает экран-заставку Visual Studio, как обычно, а затем отображает окно сообщения перед отображением основной интегрированной среды разработки. Окно сообщения позволяет изучить экран-заставку (например, для проверки значка продукта VSPackage).<br /><br /> У этого параметра нет аргументов. |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Добавление параметров командной строки](../extensibility/adding-command-line-switches.md)
 - [Параметры командной строки для devenv](../ide/reference/devenv-command-line-switches.md)

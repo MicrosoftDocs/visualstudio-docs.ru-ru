@@ -8,17 +8,17 @@ helpviewer_keywords:
 - statement completion
 - language services, statement completion
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 815b47a700e87852596d7a65e341953f65b66cf9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 63a784c850f4c88ecf17a978a2943577eb988a7b
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99894833"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080779"
 ---
 # <a name="statement-completion-in-a-legacy-language-service"></a>Завершение операторов в языковой службе прежних версий
 Завершение операторов — это процесс, с помощью которого служба языка помогает пользователям завершить ключевое слово языка или элемент, которые они начали вводить в основном редакторе. В этом разделе описывается, как работает завершение операторов и как его реализовать в языковой службе.
@@ -38,5 +38,5 @@ ms.locfileid: "99894833"
 
  При входе триггера в редактор, в частности, в текстовом буфере, языковая служба затем вызывает <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> метод. Это приводит к тому, что редактор выводит пользовательский интерфейс, чтобы пользователь мог выбирать из кандидатов на завершение операторов. Этот метод требует реализации <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> и <xref:Microsoft.VisualStudio.TextManager.Interop.UpdateCompletionFlags> флагов в качестве параметров. Список элементов завершения отображается в списке прокрутки. По мере того, как пользователь продолжит ввод, выбор в списке обновляется, чтобы отразить наиболее близкое совпадение с последними введенными символами. Основной редактор реализует пользовательский интерфейс для завершения операторов, но языковая служба должна реализовать интерфейс, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> чтобы определить набор элементов завершения для инструкции.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Перехват команд языковой службы прежних версий](../../extensibility/internals/intercepting-legacy-language-service-commands.md)

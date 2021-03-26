@@ -8,17 +8,17 @@ helpviewer_keywords:
 - syntax coloring
 - language services, syntax coloring
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c90d64fa3835eb3b0963923ba7b65ad7afb5758a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8b8886daa5bbdd7adb03f9bf90fba7a875ab483a
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965243"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105080532"
 ---
 # <a name="syntax-coloring-in-a-legacy-language-service"></a>Цветовая маркировка синтаксиса в языковой службе прежних версий
 
@@ -64,7 +64,7 @@ Visual Studio использует службу цветового выделе�
 > [!NOTE]
 > Помимо использования цветового интерфейса языковой службы, VSPackage также может использовать механизм выделения цветом текста общего назначения Visual Studio. Дополнительные сведения об этом механизме см. [в разделе Использование шрифтов и цветов](/previous-versions/visualstudio/visual-studio-2015/extensibility/using-fonts-and-colors?preserve-view=true&view=vs-2015).
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Реализация цветовой маркировки синтаксиса](../../extensibility/internals/implementing-syntax-coloring.md)
 
  Описывает, как редактор обращается к цветовой маркировке синтаксиса языковой службы и какую языковую службу необходимо реализовать для поддержки цветового выделения синтаксиса.

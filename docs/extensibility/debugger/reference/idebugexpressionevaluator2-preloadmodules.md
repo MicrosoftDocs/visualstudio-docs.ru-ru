@@ -7,20 +7,20 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2::PreloadModules
 - PreloadModules
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9e341843350abd218f2b9fb33cdb5ad489e62951
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 372984ae42e4bfb07d38dabae83cf1a283be81e4
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152381"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091998"
 ---
 # <a name="idebugexpressionevaluator2preloadmodules"></a>IDebugExpressionEvaluator2::PreloadModules
 Предварительно загружает модули, назначенные указанным поставщиком символов.
@@ -46,7 +46,7 @@ int PreloadModules (
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Этот необязательный метод используется при выполнении присоединения ведущего процесса. Он дает EE возможность "прогрев" в составе подключения.
 
 ## <a name="example"></a>Пример
@@ -78,5 +78,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

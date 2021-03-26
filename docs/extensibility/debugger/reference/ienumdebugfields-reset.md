@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugFields::Reset method
 ms.assetid: 38ff61e4-0120-42e8-971a-16be6050b425
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: fedc24c3f51a2a4cbdfae9464f13791f9d8ec1d1
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: 2edf4751151779297d6ff8ed9ffa930cc7bf3868
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102226609"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105086547"
 ---
 # <a name="ienumdebugfieldsreset"></a>IEnumDebugFields::Reset
 Этот метод сбрасывает перечисление к первому элементу.
@@ -37,14 +37,14 @@ int Reset();
 ```
 
 #### <a name="parameters"></a>Параметры
- None
+ Отсутствуют
 
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  После вызова этого метода следующий вызов [Next](../../../extensibility/debugger/reference/ienumdebugfields-next.md) возвращает первый элемент перечисления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [Вперед](../../../extensibility/debugger/reference/ienumdebugfields-next.md)

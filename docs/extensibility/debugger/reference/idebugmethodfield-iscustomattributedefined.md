@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMethodField::IsCustomAttributeDefined method
 ms.assetid: 1b5d95a8-cc87-4acb-9e6a-3928f3632b7c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0c78e8fb22f78cdb97bd57ee67cfc20cd19f0bde
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: f7cd9e1ae31e893639b41537bb5b09323cc70ff9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164907"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105081897"
 ---
 # <a name="idebugmethodfieldiscustomattributedefined"></a>IDebugMethodField::IsCustomAttributeDefined
 Определяет, определен ли определенный настраиваемый атрибут.
@@ -47,5 +47,5 @@ int IsCustomAttributeDefined(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает S_OK, если для этого метода определен настраиваемый атрибут, в противном случае возвращает значение S_FALSE.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

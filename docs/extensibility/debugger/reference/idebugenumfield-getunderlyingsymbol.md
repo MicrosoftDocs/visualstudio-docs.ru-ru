@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEnumField::GetUnderlyingSymbol method
 ms.assetid: c3b8a117-6708-4cfd-8ffc-5f007d706bc5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7cf657256be2998d1b1fb0c32d12ab9040b14115
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 9343c1b0908c6b132ea982a46623b8c1cf20efc9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153291"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092570"
 ---
 # <a name="idebugenumfieldgetunderlyingsymbol"></a>IDebugEnumField::GetUnderlyingSymbol
 Этот метод возвращает объект [идебугфиелд](../../../extensibility/debugger/reference/idebugfield.md) , представляющий имя перечисления.
@@ -47,10 +47,10 @@ int GetUnderlyingSymbol(
 ## <a name="return-value"></a>Возвращаемое значение
  Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Имя перечисления также содержит тип перечисления, привязанный к расположению в памяти с помощью [BIND](../../../extensibility/debugger/reference/idebugbinder-bind.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [Выполняется](../../../extensibility/debugger/reference/idebugbinder-bind.md)

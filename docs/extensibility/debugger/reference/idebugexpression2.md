@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpression2 interface
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6fe6a6955f5d8d4ae42d51e3623b0c4f966dc416
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 934cef3dfd95b0aeadd588889dad020687d1cfd7
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152667"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092336"
 ---
 # <a name="idebugexpression2"></a>IDebugExpression2
 Этот интерфейс представляет проанализированное выражение, готовое для привязки и вычисления.
@@ -41,10 +41,10 @@ IDebugExpression2 : IUnknown
 |Метод|Описание|
 |------------|-----------------|
 |[EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)|Асинхронно вычисляет это выражение.|
-|[Прервать](../../../extensibility/debugger/reference/idebugexpression2-abort.md)|Завершает вычисление асинхронного выражения.|
+|[Рвал](../../../extensibility/debugger/reference/idebugexpression2-abort.md)|Завершает вычисление асинхронного выражения.|
 |[EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)|Синхронно вычисляет это выражение.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  При остановке программы Диспетчер отладки сеансов (SDM) получает кадр стека от DE к вызову [енумфрамеинфо](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md). Затем SDM вызывает [жетекспрессионконтекст](../../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) для получения интерфейса [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) . За этим следует вызов [парсетекст](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) для создания `IDebugExpression2` интерфейса, который представляет проанализированное выражение, готовое к оценке.
 
  Модель SDM вызывает либо [евалуатесинк](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) , либо [евалуатеасинк](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) , чтобы фактически вычислить выражение и получить значение.
@@ -58,6 +58,6 @@ IDebugExpression2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetExpression](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getexpression.md)

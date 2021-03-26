@@ -8,20 +8,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionContext2::ParseText
 ms.assetid: f58575db-f926-4ac8-83ff-7b3b86ab61e2
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2095a1d6e035c676ab92722f9ae785e1a42c5b78
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 72cb26cf71b2994b25033d61adea52e8439d2fbd
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102152643"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092310"
 ---
 # <a name="idebugexpressioncontext2parsetext"></a>IDebugExpressionContext2::ParseText
 Анализирует выражение в текстовой форме для последующей оценки.
@@ -72,7 +72,7 @@ int ParseText(
 ## <a name="return-value"></a>Возвращаемое значение
 Возвращает значение `S_OK`, если выполнение прошло успешно; в противном случае возвращает код ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 При вызове этого метода модуль отладки (DE) должен проанализировать выражение и проверить его на правильность. `pbstrError`Параметры и `pichError` могут быть заполнены, если выражение является недопустимым.
 
 Обратите внимание, что выражение не вычисляется, только анализируется. Последующий вызов методов [евалуатесинк](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) или [евалуатеасинк](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) оценивает проанализированное выражение.
@@ -126,7 +126,7 @@ HRESULT CEnvBlock::ParseText(
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)
 - [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)

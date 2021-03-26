@@ -9,17 +9,17 @@ helpviewer_keywords:
 - solutions, .sln files
 - .sln files, VSPackages
 ms.assetid: 7d7ef539-2e4b-4637-b853-8ec7626609df
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 97071500b8f3bc6cb4d6c21d264646cac2e7fdb6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 27364382a7e4318fce822b148e9d3df6747bfd1e
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962929"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082001"
 ---
 # <a name="solution-sln-file"></a>Файл решения (SLN)
 
@@ -162,7 +162,7 @@ EndGlobal
 
 Только файл. sln содержит записи в `preSolution` `postSolution` разделах и. В файле SUO Нет похожих разделов, так как решению требуется правильная загрузка этих сведений. Suo-файл содержит пользовательские параметры, такие как закрытые заметки, которые не предназначены для совместного использования или размещения в системе управления исходным кодом.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>
 - [Файл параметров пользователя решения (SUO-файл)](../../extensibility/internals/solution-user-options-dot-suo-file.md)

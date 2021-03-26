@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEnumField interface
 ms.assetid: 42f685bf-0f39-47f4-98b0-6022efe2bf97
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f78e8d2560224ad22a58b74823530b6be4b1efb8
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 18671f8f719dc797709677a14417eaa0a54aaea2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102153213"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105092531"
 ---
 # <a name="idebugenumfield"></a>IDebugEnumField
 Этот интерфейс представляет тип перечисления.
@@ -45,7 +45,7 @@ IDebugEnumField : IDebugContainerField
 |[GetValueFromString](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md)|Возвращает значение, связанное с заданным именем константы перечисления|
 |[GetValueFromStringCaseInsensitive](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstringcaseinsensitive.md)|Возвращает значение, связанное с заданным именем константы перечисления, но без учета регистра.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Это базовый символ, фактически привязанный к расположению с [BIND](../../../extensibility/debugger/reference/idebugbinder-bind.md).
 
 ## <a name="requirements"></a>Требования
@@ -55,7 +55,7 @@ IDebugEnumField : IDebugContainerField
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Интерфейсы поставщика символов](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - Solution Explorer, extending
 - extensibility [Visual Studio], projects and solutions
 ms.assetid: df976c76-27ec-4f00-ab6d-a26a745dc6c7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: dfe2947d60ad5dde6e2f23b9bed59b09e6abe8ea
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d1256b807d67f95aa8ca1e952a4dca7bd550e0fc
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99862126"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105075020"
 ---
 # <a name="extend-the-solution-explorer-filter"></a>Расширение фильтра обозреватель решений
 Можно расширить функциональные возможности фильтра **Обозреватель решений** , чтобы показать или скрыть разные файлы. Например, можно создать фильтр, отображающий только файлы фабрики классов C# в **Обозреватель решений**, как показано в этом пошаговом руководстве.
@@ -60,14 +60,14 @@ ms.locfileid: "99862126"
 
 ### <a name="add-the-filter-code"></a>Добавление кода фильтра
 
-1. Добавьте в файл *FileFilterPackageGuids.CS* несколько идентификаторов GUID:
+1. Добавьте в файл *филефилтерпаккажегуидс. CS* несколько идентификаторов GUID:
 
     ```csharp
     public const string guidFileFilterPackageCmdSetString = "00000000-0000-0000-0000-00000000"; // get your GUID from the .vsct file
     public const int FileFilterId = 0x100;
     ```
 
-2. Добавьте файл класса в проект FileFilter с именем *FileNameFilter.CS*.
+2. Добавьте файл класса в проект FileFilter с именем *филенамефилтер. CS*.
 
 3. Замените пустое пространство имен и пустой класс приведенным ниже кодом.
 
@@ -160,7 +160,7 @@ ms.locfileid: "99862126"
 
     ```
 
-4. В *FileFilter.CS* удалите размещение команд и обработку кода из конструктора FileFilter. Результат должен выглядеть следующим образом:
+4. В *FileFilter. CS* удалите размещение команд и обработку кода из конструктора FileFilter. Результат должен выглядеть следующим образом:
 
     ```csharp
     private FileFilter(Package package)
@@ -176,7 +176,7 @@ ms.locfileid: "99862126"
 
      Удалите `ShowMessageBox()` также метод.
 
-5. В *FileFilterPackage.CS* замените код в `Initialize()` методе следующим кодом:
+5. В *филефилтерпаккаже. CS* замените код в `Initialize()` методе следующим кодом:
 
     ```csharp
     protected override void Initialize()
