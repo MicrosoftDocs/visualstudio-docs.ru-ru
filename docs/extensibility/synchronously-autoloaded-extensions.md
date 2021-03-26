@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 12/11/2019
 ms.topic: conceptual
 ms.assetid: 822e3cf8-f723-4ff1-8467-e0fb42358a1f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 460227b1eb5a1e12ca698f649700586b53bc7254
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 35b63f8e84e6879d09fda4c35924b5b9d1d60ccd
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839339"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105056068"
 ---
 # <a name="synchronously-autoloaded-extensions"></a>Синхронно автозагруженные расширения
 
@@ -23,7 +23,7 @@ ms.locfileid: "99839339"
 
 ![предупреждение о совместимости расширения](media/extension-compatibility-warning-16-1.png.png)
 
-Вы можете выбрать один из следующих вариантов.
+Вы можете:
 
 - Щелкните **Разрешить синхронное автозагрузки** , чтобы разрешить расширения автозагрузки. Чтобы изменить этот параметр в Visual Studio, щелкните Среда, щелкните расширения, а затем установите флажок Разрешить синхронное автозагрузки расширений. 
 
@@ -55,5 +55,5 @@ ms.locfileid: "99839339"
 ## <a name="extension-authors"></a>Авторы расширений
 Авторы расширений могут найти инструкции по миграции пакетов на асинхронные автозагрузки при [переходе на AsyncPackage](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/AsyncPackageMigration).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 Дополнительные сведения о синхронных параметрах автозагрузки в Visual Studio 2019 см. на странице [синхронное поведение автозагрузки](https://devblogs.microsoft.com/visualstudio/updates-to-synchronous-autoload-of-extensions-in-visual-studio-2019/) .

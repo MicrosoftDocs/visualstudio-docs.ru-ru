@@ -8,17 +8,17 @@ helpviewer_keywords:
 - tool windows, adding toolbars
 - toolbars [Visual Studio], adding to tool windows
 ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c0152de94eb74fff902ced4d61c749f7cca3a277
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1847801ed9dcbb1b7c7145c86b1998b54e2bb5d9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951346"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055795"
 ---
 # <a name="add-a-toolbar-to-a-tool-window"></a>Добавление панели инструментов в окно инструментов
 В этом пошаговом руководстве показано, как добавить панель инструментов в окно инструментов.
@@ -86,14 +86,14 @@ ms.locfileid: "99951346"
 
 ## <a name="add-the-toolbar-to-the-tool-window"></a>Добавление панели инструментов в окно инструментов
 
-1. В *TWTestCommandPackageGuids.CS* добавьте следующие строки.
+1. В *твтесткоммандпаккажегуидс. CS* добавьте следующие строки.
 
     ```csharp
     public const string guidTWTestCommandPackageCmdSet = "00000000-0000-0000-0000-0000";  // get the GUID from the .vsct file
     public const int TWToolbar = 0x1000;
     ```
 
-2. В *TestToolWindow.CS* добавьте следующий оператор using.
+2. В *тесттулвиндов. CS* добавьте следующую инструкцию using.
 
     ```csharp
     using System.ComponentModel.Design;
@@ -115,5 +115,5 @@ ms.locfileid: "99951346"
 
 3. На панели инструментов щелкните значок, чтобы отобразить сообщение **Твтесткоммандпаккаже внутри твтулбар. твтесткомманд. менуитемкаллбакк ()**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Добавление панели инструментов](../extensibility/adding-a-toolbar.md)

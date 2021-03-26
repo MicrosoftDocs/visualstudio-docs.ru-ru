@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 59730063-cc29-4dae-baff-2234ad8d0c8f
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5486d5faa4f994883d2a32d152ceec59c65629ab
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7b301770a54baf0416aa9fcc838a9a6633252fbe
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924965"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073135"
 ---
 # <a name="how-to-manage-multiple-threads-in-managed-code"></a>Руководство. Управление несколькими потоками в управляемом коде
 Если у вас есть управляемое расширение VSPackage, вызывающее асинхронные методы или имеющее операции, которые выполняются в потоках, отличных от потока пользовательского интерфейса Visual Studio, следуйте инструкциям, приведенным ниже. Можно защитить поток пользовательского интерфейса, поскольку ему не нужно ждать завершения работы в другом потоке. Вы можете сделать код более эффективным, так как у вас нет дополнительных потоков, которые занимают пространство стека, и вы можете сделать его более надежным и простым в отладке, так как избежать взаимоблокировок и неотвечающего кода.

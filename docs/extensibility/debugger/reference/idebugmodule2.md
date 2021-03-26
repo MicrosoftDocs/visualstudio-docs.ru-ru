@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModule2 interface
 ms.assetid: 24c2a126-f4ab-4891-8509-8ef99b994c08
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b7cc14d4f33924a04b25344c4c624a633b97ff7b
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 848aa60ad7b8343d84489f460cfcb5fb6ec2d77d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102150488"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065558"
 ---
 # <a name="idebugmodule2"></a>IDebugModule2
 Этот интерфейс представляет модуль, то есть исполняемый модуль программы, такой как DLL.
@@ -47,7 +47,7 @@ IDebugModule2 : IUnknown
 |[GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)|Возвращает [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) , описывающий этот модуль.|
 |[ReloadSymbols_Deprecated](../../../extensibility/debugger/reference/idebugmodule2-reloadsymbols-deprecated.md)|УСТАРЕВШИЕ. НЕ ИСПОЛЬЗУЙТЕ. Перезагружает символы для этого модуля.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Сведения о модуле можно отобразить в окне **модули** интегрированной среды разработки.
 
 ## <a name="requirements"></a>Требования
@@ -57,8 +57,8 @@ IDebugModule2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
 - [GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2-getmodule.md)
 - [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)

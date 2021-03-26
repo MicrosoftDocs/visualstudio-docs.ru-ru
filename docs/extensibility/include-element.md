@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Include element (VSCT XML schema)
 - VSCT XML schema elements, Include
 ms.assetid: c923dfe6-084a-4105-aec1-f0a3f8399c54
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6d718178bf7490d29c0668d892add4c302b8925a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fd64f897dc2a089a2e94f5e0c53e3ef116f7b385
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893637"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082105"
 ---
 # <a name="include-element"></a>Включить элемент
 Элемент include указывает файл, который можно найти по указанному пути поиска включаемых файлов для вставки в текущий файл.  Все определенные символы и типы станут частью скомпилированного результата.
@@ -38,8 +38,8 @@ ms.locfileid: "99893637"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|href|Обязательный элемент. Путь к файлу заголовка:<br /><br /> href = "стдидкмд. h"|
-|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|href|Обязательный. Путь к файлу заголовка:<br /><br /> href = "стдидкмд. h"|
+|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,5 +59,5 @@ ms.locfileid: "99893637"
 <Include href="PackagePlacements.vsct"/>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Файлы таблицы команд Visual Studio (. vsct)](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

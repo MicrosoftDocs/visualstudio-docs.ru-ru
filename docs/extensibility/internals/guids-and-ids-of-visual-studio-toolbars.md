@@ -13,17 +13,17 @@ helpviewer_keywords:
 - tool window toolbar
 - guid
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7b4df4bac9fcc933cccc1bd54ced89c416b23863
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8ca3a2ec0b9d0eef7821641eaf05e93f83f94f40
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970222"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082079"
 ---
 # <a name="guids-and-ids-of-visual-studio-toolbars"></a>Идентификаторы GUID и идентификаторы панелей инструментов Visual Studio
 В этом разделе перечисляются идентификаторы GUID и ИДЕНТИФИКАТОРы панелей инструментов, которые включены в интегрированную среду разработки (IDE) Visual Studio, и группы, которые они содержат. Эти значения определены в файлах *. vsct* , которые устанавливаются в составе пакета SDK для Visual Studio. Дополнительные сведения см. в разделе [команды, меню и группы, определяемые интегрированной средой разработки](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
@@ -73,7 +73,7 @@ ms.locfileid: "99970222"
 |Windows|IDG_VS_TOOLSB_WINDOWS|
 |Новые окна|IDG_VS_TOOLSB_NEWWINDOWS|
 |Загрузка и сохранение|IDG_VS_WINDOWUI_LOADSAVE|
-|Индикаторная диаграмма|IDG_VS_TOOLSB_GAUGE|
+|Датчик|IDG_VS_TOOLSB_GAUGE|
 
 ### <a name="build-toolbar-groups"></a>Создание групп панелей инструментов
 
@@ -114,7 +114,7 @@ ms.locfileid: "99970222"
 
 |Окно инструментов|Панель инструментов|Группы|
 |-----------------|-------------|------------|
-|Обозреватель решений|IDM_VS_TOOL_PROJWIN|IDG_VS_PROJ_TOOLBAR1.. 5.0|
+|обозреватель решений|IDM_VS_TOOL_PROJWIN|IDG_VS_PROJ_TOOLBAR1.. 5.0|
 |Обозреватель серверов|guid_SE_MenuGroup: IDM_SE_TOOLBAR_SERVEREXPLORER|IDG_SE_TOOLBAR_REFRESH|
 |Свойства|IDM_VS_TOOL_PROPERTIES|IDG_VS_PROPERTIES_SORT<br /><br /> IDG_VS_PROPERTIES_PAGES|
 |Представление классов|IDM_VS_TOOL_CLASSVIEW|IDG_VS_CLASSVIEW_FOLDERS<br /><br /> IDG_VS_CLASSVIEW_SEARCH<br /><br /> IDG_VS_CLASSVIEW_SETTINGS|
@@ -136,7 +136,7 @@ ms.locfileid: "99970222"
 |Память 1-4|Гуидвсдебугграуп: IDM_MEMORY_WINDOW_TOOLBAR1... четырех|IDG_MEMORY_EXPRESSION1.. четырех<br /><br /> IDG_MEMORY_COLUMNS1.. четырех|
 |Процессы|Гуидвсдебугграуп: IDM_ATTACHED_PROCS_TOOLBAR|IDG_ATTACHED_PROCS_EXECCNTRL IDG_ATTACHED_PROCS_STEPPING<br /><br /> IDG_ATTACHED_PROCS_EXECCNTRL2<br /><br /> IDG_ATTACHED_PROCS_ATTACH<br /><br /> IDG_ATTACHED_PROCS_COLUMNS|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Добавление контроллера меню на панель инструментов](../../extensibility/adding-a-menu-controller-to-a-toolbar.md)
 - [Добавление панели инструментов в окно инструментов](../../extensibility/adding-a-toolbar-to-a-tool-window.md)
 - [Идентификаторы GUID и идентификаторы меню Visual Studio](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md)

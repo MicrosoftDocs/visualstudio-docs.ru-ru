@@ -8,17 +8,17 @@ helpviewer_keywords:
 - getting started, Visual Studio integration
 - Visual Studio, integration
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8c45ff8b0fd2328a6398f844dc1416decc0ea591
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d8101640ce3e4a998d0a97fa1d85ded27fa746d0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848088"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089944"
 ---
 # <a name="starting-to-develop-visual-studio-extensions"></a>Приступая к разработке расширений Visual Studio
 
@@ -95,7 +95,7 @@ ms.locfileid: "99848088"
 
  Вы также можете опубликовать расширение на Visual Studio Marketplace, что делает его видимым для большого числа клиентов Visual Studio. Пример упаковки расширения в Marketplace см. в разделе [Пошаговое руководство. публикация расширения Visual Studio](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). Дополнительные сведения о том, что необходимо сделать для публикации в Marketplace, см. в разделе [Products and Extensions for Visual Studio](/azure/devops/extend/overview?view=vsts&preserve-view=true).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение Visual Studio для Mac](/visualstudio/mac/extending-visual-studio-mac)
 - [Расширение Visual Studio Code](https://code.visualstudio.com/api)

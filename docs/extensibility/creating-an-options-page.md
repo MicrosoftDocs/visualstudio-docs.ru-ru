@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1069109cbda6b0385c9409a12f9f9c674ddec14c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: eb94554b4ac1af30d8187a8ab75aa83f65dccc72
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877490"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055808"
 ---
 # <a name="create-an-options-page"></a>Создание страницы параметров
 
@@ -166,7 +166,7 @@ ms.locfileid: "99877490"
 
 7. Добавьте элемент управления **TextBox** в пользовательский элемент управления.
 
-     В окне **Свойства** на панели инструментов нажмите кнопку **события** , а затем дважды щелкните событие **покинуть** . Новый обработчик событий появится в коде *MyUserControl.CS* .
+     В окне **Свойства** на панели инструментов нажмите кнопку **события** , а затем дважды щелкните событие **покинуть** . Новый обработчик событий появится в коде *MyUserControl. CS* .
 
 8. Добавьте открытое `OptionsPage` поле, `Initialize` метод в класс Control и обновите обработчик событий, чтобы задать значение параметра для содержимого текстового поля:
 
@@ -249,7 +249,7 @@ ms.locfileid: "99877490"
 
      Этот код вызывает метод <xref:Microsoft.VisualStudio.Shell.Package.GetDialogPage%2A> для создания или получения `OptionPageGrid` экземпляра. `OptionPageGrid` вызывает метод <xref:Microsoft.VisualStudio.Shell.DialogPage.LoadSettingsFromStorage%2A> для загрузки параметров, которые являются открытыми свойствами.
 
-2. Теперь добавьте пользовательский шаблон элемента команды с именем **митулсоптионскомманд** для вывода значения. В диалоговом окне **Добавление нового элемента** перейдите в раздел расширяемость **Visual C#**  >   и выберите пункт **пользовательская команда**. В поле **имя** в нижней части окна измените имя файла команд на *MyToolsOptionsCommand.CS*.
+2. Теперь добавьте пользовательский шаблон элемента команды с именем **митулсоптионскомманд** для вывода значения. В диалоговом окне **Добавление нового элемента** перейдите в раздел расширяемость **Visual C#**  >   и выберите пункт **пользовательская команда**. В поле **имя** в нижней части окна измените имя файла команд на *митулсоптионскомманд. CS*.
 
 3. В файле *митулсоптионскомманд* замените текст `ShowMessageBox` метода команды следующим:
 
@@ -268,6 +268,6 @@ ms.locfileid: "99877490"
 
      В окне сообщения отображается текущее значение `OptionInteger` .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Страницы параметров и параметров](../extensibility/internals/options-and-options-pages.md)

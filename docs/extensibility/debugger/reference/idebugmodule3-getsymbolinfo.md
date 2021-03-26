@@ -9,20 +9,20 @@ helpviewer_keywords:
 - GetSymbolInfo method
 - IDebugModule3::GetSymbolInfo method
 ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d2793c9b6d9d88997ce2e4e84c147f87183555cd
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 9cc4c8d7c88e4b973ad7055327da73472a6ed4d2
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102164855"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065532"
 ---
 # <a name="idebugmodule3getsymbolinfo"></a>IDebugModule3::GetSymbolInfo
 Извлекает список путей, в которых выполняется поиск символов, а также результаты поиска по каждому пути.
@@ -56,7 +56,7 @@ int GetSymbolInfo(
 > [!NOTE]
 > Возвращаемая строка (в `MODULE_SYMBOL_SEARCH_INFO` структуре) может быть пустой даже при `S_OK` возвращении. В этом случае поисковые данные для возврата отсутствуют.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Если `bstrVerboseSearchInfo` поле `MODULE_SYMBOL_SEARCH_INFO` структуры не пусто, оно содержит список путей, в которых выполняется поиск, и результаты этого поиска. Список форматируется с помощью пути, за которым следует многоточие ("..."), а затем результат. Если существует несколько пар результатов пути, каждая пара отделяется парой "\r\n" (возврат каретки или перевод строки). Шаблон выглядит следующим образом:
 
 \<path>...\<result> \r\n \<path> ... \<result> \r\n \<path> ...\<result>
@@ -89,7 +89,7 @@ void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)
  **c:\winnt\symbols\user32.pdb... Версия не совпадает.** 
  **\\\symbols\symbols\user32.dll \0a8sd0ad8ad\user32.pdb... Символы загружены.**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md)
 - [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md)

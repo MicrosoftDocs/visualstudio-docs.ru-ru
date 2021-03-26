@@ -9,17 +9,17 @@ helpviewer_keywords:
 - localize extension
 - localized deployment
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d55acd30a0ea5381e9b14cf10c952c5626922c22
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7d2e297484e89f1ae2cfb9f2be7af25f1fe92714
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893611"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073226"
 ---
 # <a name="localizing-vsix-packages"></a>Локализация пакетов VSIX
 

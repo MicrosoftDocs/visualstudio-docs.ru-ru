@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - file extensions, specifying file handlers
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d897cb9bb4697a687bd06eeb02c779e133090e33
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 65705467b1531e139c0ec857d6a7b57015d5f2f9
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848101"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089970"
 ---
 # <a name="specifying-file-handlers-for-file-name-extensions"></a>Указание обработчиков файлов для расширений имен файлов
 Существует несколько способов определить приложение, которое обрабатывает файл с определенным расширением. Команды Опенвислист и Опенвиспрогидс — это два способа указать обработчики файлов в записи реестра для расширения файла.
@@ -79,6 +79,6 @@ HKEY_CLASSES_ROOT\
 
  Если старый идентификатор ProgID имеет связанные с ним команды, эти команды также будут отображаться в разделе **Открыть с** *именем продукта* в контекстном меню.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Сведения о расширениях имен файлов](../extensibility/about-file-name-extensions.md)
 - [Регистрация команд для расширений имен файлов](../extensibility/registering-verbs-for-file-name-extensions.md)

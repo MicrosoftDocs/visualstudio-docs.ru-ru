@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - verbs, setting default
 ms.assetid: 9b6df3bc-d15c-4a5d-9015-948a806193b7
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 157e8b4b4d7a00845fb76e0105414879cb1f472d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 083eef2454a9e805b1cb8b3e85a6d7d81263a0dd
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924851"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073070"
 ---
 # <a name="manage-side-by-side-file-associations"></a>Управление параллельными сопоставлениями файлов
 
@@ -53,7 +53,7 @@ ms.locfileid: "99924851"
 
   **Строки таблицы CustomAction, определяющие последнюю версию Visual Studio**
 
-  |Действие|Тип|Источник|Назначение|
+  |Действие|Type|Источник|Назначение|
   |------------|----------|------------|------------|
   |CA_SetDevenvLatest_2002|51|DEVENV_EXE_LATEST|[DEVENV_EXE_2002]|
   |CA_SetDevenvLatest_2003|51|DEVENV_EXE_LATEST|[DEVENV_EXE_2003]|
@@ -87,7 +87,7 @@ ms.locfileid: "99924851"
 
 - Укажите страницу параметров конфигурации или диалоговое окно, которое позволяет пользователям выбрать сопоставления файлов и освободить Потерянные связи. Попросите пользователей запустить его после удаления.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Регистрация расширений имен файлов для параллельных развертываний](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
 - [Регистрация команд для расширений имен файлов](../extensibility/registering-verbs-for-file-name-extensions.md)

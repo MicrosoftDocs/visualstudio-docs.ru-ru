@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccGetExtendedCapabilities function
 ms.assetid: 588c6a92-2147-4d8b-a357-96ca7da0a092
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e1409753559088c0f8129ebacd17387bfb7d111e
-ms.sourcegitcommit: f33ca1fc99f5d9372166431cefd0e0e639d20719
+ms.openlocfilehash: ca2f2f77c586c5c71658a8f0cab32385eb3f73d3
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220785"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073005"
 ---
 # <a name="sccgetextendedcapabilities-function"></a>Функция Сккжетекстендедкапабилитиес
 Эта функция возвращает дополнительные возможности, поддерживаемые подключаемым модулем системы управления версиями.
@@ -54,10 +54,10 @@ SCCRTN SccGetExtendedCapabilities(
 |SCC_OK|Операция получения возможности успешно завершена.|
 |SCC_E_UNKNOWNERROR<br /><br /> SCC_E_NONSPECIFICERROR|Произошла неизвестная или Неуказанная ошибка.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  Этот метод вызывается по запросу; то есть, когда необходимо проверить возможность, этот метод вызывается для определения того, поддерживается ли эта возможность. Указан только один флаг за раз.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md)
 - [Коды ошибок](../extensibility/error-codes.md)
 - [Флаги возможностей](../extensibility/capability-flags.md)

@@ -8,17 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortEvents2 interface
 ms.assetid: 2c017094-3ba2-4067-83f9-147df1d96bce
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 50dadee6ac2e1d1a441796aac7ca49614b84bcdf
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: d8e1ccbb2726fb0f90fae2d31a4b07daad9bae91
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102169474"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105065389"
 ---
 # <a name="idebugportevents2"></a>IDebugPortEvents2
 Этот интерфейс уведомляет прослушиватель (как правило, диспетчер отладки сеанса [SDM] или модуль отладки) о создании и уничтожении процессов и программ на определенном порте. Эти сведения можно использовать для представления процессов и программ, выполняемых на порту в режиме реального времени.
@@ -42,7 +42,7 @@ IDebugPortEvents2 : IUnknown
 |------------|-----------------|
 |[Событие](../../../extensibility/debugger/reference/idebugportevents2-event.md)|Отправляет события, описывающие создание и уничтожение процессов и программ в порте.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
  `IDebugPortEvents2` также используется SDM для отладки программ, выполняемых в процессе, который уже отлаживается.
 
  События порта передаются в SDM с помощью этого интерфейса.
@@ -54,6 +54,6 @@ IDebugPortEvents2 : IUnknown
 
  Сборка: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>См. также раздел
-- [Базовые интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
+## <a name="see-also"></a>См. также
+- [Основные интерфейсы](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

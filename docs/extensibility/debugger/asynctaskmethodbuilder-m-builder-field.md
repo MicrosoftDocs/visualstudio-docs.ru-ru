@@ -6,17 +6,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - m_builder field, AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: bfaf25a2-0f08-413f-b474-9ce0d97c0eeb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 75c2bfafffd20f32db5d49c5938f25bb693f297d
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 2f870b6c2544c57aeced28692d7be8728b641d9c
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102145707"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105055561"
 ---
 # <a name="asynctaskmethodbuilderm_builder-field"></a>AsyncTaskMethodBuilder.m_builder поле
 Представляет объект универсального конструктора, для которого этот неуниверсальный экземпляр не является делегатом.
@@ -35,6 +35,6 @@ ms.locfileid: "102145707"
 
 ## <a name="remarks"></a>Remarks
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder>
 - [Внутренние модули параллельного расширения для платформа .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

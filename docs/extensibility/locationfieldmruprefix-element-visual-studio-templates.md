@@ -12,17 +12,17 @@ helpviewer_keywords:
 - <LocationFieldMRUPrefix> element [Visual Studio Templates]
 - LocationFieldMRUPrefix element [Visual Studio Templates]
 ms.assetid: 03443691-9eb5-46f4-9169-cc2552a04bcb
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 674773d25e4842aec649fc57daa4972530832f71
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 189c7d0979d125b18db0ee8c467fd9538493a266
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924974"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073213"
 ---
 # <a name="locationfieldmruprefix-element-visual-studio-templates"></a>Элемент Локатионфиелдмрупрефикс (шаблоны Visual Studio)
 

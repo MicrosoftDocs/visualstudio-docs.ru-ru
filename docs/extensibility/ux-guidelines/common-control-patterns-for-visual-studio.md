@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: conceptual
 ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab8f04ff885f4b57d24cb3bc0eb449859fca6271
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e55bb5f4473971f99ce04f9e48b7e05ec13f94c6
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952191"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105090113"
 ---
 # <a name="common-control-patterns-for-visual-studio"></a>Шаблоны распространенных элементов управления для Visual Studio
 ## <a name="common-controls"></a><a name="BKMK_CommonControls"></a> Стандартные элементы управления
@@ -301,7 +301,7 @@ ms.locfileid: "99952191"
 > [!NOTE]
 > Пользователям необходимо перейти к этим кнопкам (нет ключей доступа), поэтому размещайте их в порядке разумности. Сопоставьте `name` свойство кнопки с действием, которое оно принимает, чтобы средства чтения с экрана правильно интерпретировали действие кнопки.
 
-| Компонент | Кнопка |
+| Функция | Кнопка |
 | --- | --- |
 | Добавить | ![Графическая кнопка "Добавить"](../../extensibility/ux-guidelines/media/070703-08_buttonadd.png "070703 — 08_ButtonAdd") |
 | Удалить | ![Графическая кнопка "Переместить"](../../extensibility/ux-guidelines/media/070703-09_buttonremove.png "070703 — 09_ButtonRemove") |
@@ -309,7 +309,7 @@ ms.locfileid: "99952191"
 | Удалить все | ![Графическая кнопка "Переместить все"](../../extensibility/ux-guidelines/media/070703-11_buttonremoveall.png "070703 — 11_ButtonRemoveAll") |
 | вверх | ![Графическая кнопка "Вверх"](../../extensibility/ux-guidelines/media/070703-12_buttonmoveup.png "070703 — 12_ButtonMoveUp") |
 | Вниз | ![Графическая кнопка "Вниз"](../../extensibility/ux-guidelines/media/070703-13_buttonmovedown.png "070703 — 13_ButtonMoveDown") |
-| DELETE | ![Графическая кнопка "Удалить"](../../extensibility/ux-guidelines/media/070703-14_buttondelete.png "070703 — 14_ButtonDelete") |
+| Удалить | ![Графическая кнопка "Удалить"](../../extensibility/ux-guidelines/media/070703-14_buttondelete.png "070703 — 14_ButtonDelete") |
 
 ##### <a name="sizing-and-spacing"></a>Размер и пространство
 Изменение размера для графических кнопок аналогично сокращенной версии кнопки **[обзор...]** (26x23 пикселей):
@@ -365,7 +365,7 @@ ms.locfileid: "99952191"
 
 ![Элемент, который создает контекстное меню, получает фокус на уведомление пользователя о том, какой элемент был выбран.](../../extensibility/ux-guidelines/media/070705-5_contextmenu.png "070705 — 5_ContextMenu")<br />Элемент, который создает контекстное меню, получает фокус на уведомление пользователя о том, какой элемент был выбран.
 
-#### <a name="keyboard"></a>Keyboard (Клавиатура)
+#### <a name="keyboard"></a>Клавиатура
 Представление в виде дерева позволяет выбирать элементы и разворачивать и сворачивать узлы с помощью клавиатуры. Это гарантирует, что Навигация соответствует нашим требованиям специальных возможностей.
 
 ##### <a name="tree-view-control"></a>Элемент управления представлением в виде дерева

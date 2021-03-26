@@ -8,17 +8,17 @@ helpviewer_keywords:
 - VSPackages, autoloading
 - VSPackages, loading
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f87b5bcc94ed11e18de763bd1db7c59bdc4796fc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 39a58bcbad79191f54a7b4eeb2aa12e90d8a6e44
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966387"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073291"
 ---
 # <a name="load-vspackages"></a>Загрузка пакетов VSPackage
 Пакеты VSPackage загружаются в Visual Studio только в том случае, если их функциональные возможности необходимы. Например, пакет VSPackage загружается, когда Visual Studio использует фабрику проекта или службу, реализуемую VSPackage. Эта функция называется отложенной загрузкой, которая используется, когда это возможно, для повышения производительности.
@@ -73,5 +73,5 @@ ms.locfileid: "99966387"
 
      Принудительная загрузка не должна использоваться для связи VSPackage. Используйте вместо этого использование [и предоставление служб](../extensibility/using-and-providing-services.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../extensibility/internals/vspackages.md)

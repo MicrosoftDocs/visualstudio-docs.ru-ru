@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project configurations, output
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6817dbd534d272924e5020b1c4c48753dcd70a54
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 13e37999ad9f3bada375c1897207e1e4c15546e8
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890673"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082014"
 ---
 # <a name="project-configuration-for-output"></a>Конфигурация проекта для вывода
 Каждая конфигурация может поддерживать набор процессов сборки, которые создают выходные элементы, такие как исполняемые или файлы ресурсов. Эти выходные элементы являются частными для пользователя и могут быть помещены в группы, связывающие связанные типы выходных данных, такие как исполняемые файлы (exe, DLL, lib) и исходные файлы (IDL-файлы).
@@ -45,7 +45,7 @@ ms.locfileid: "99890673"
 
  Дополнительные сведения см. в описании реализации `IVsOutputGroup` в примере пользовательского проекта на сайте [MPF for Projects](https://github.com/tunnelvisionlabs/MPFProj10).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Управление параметрами конфигурации](../../extensibility/internals/managing-configuration-options.md)
 - [Конфигурация проекта для сборки](../../extensibility/internals/project-configuration-for-building.md)
 - [Объект конфигурации проекта](../../extensibility/internals/project-configuration-object.md)

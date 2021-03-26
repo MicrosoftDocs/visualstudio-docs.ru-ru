@@ -7,22 +7,22 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, reference
 ms.assetid: 964980ca-21c5-4706-8535-6ea23e1c9cc9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab076cef7aaab96779e303ee7b85c8047eb6b52e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a6788d738d37ac62156958acb15c1bcd5d536515
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99848121"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105089957"
 ---
 # <a name="source-control-plug-ins"></a>Подключаемые модули системы управления версиями
 В разделе Справочник по подключаемому модулю SDK для системы управления версиями содержится полная спецификация интерфейса, позволяющая интегрировать системы управления версиями с [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] . Он задает синтаксис и семантику различных функций и типов данных, которые должен реализовать подключаемый модуль системы управления версиями, для взаимодействия с [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] интегрированной средой разработки (IDE).
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>в этом разделе
 - [Функции API подключаемого модуля системы управления версиями](../extensibility/source-control-plug-in-api-functions.md) Содержит список функций, которые должны быть реализованы с помощью подключаемого модуля системы управления версиями, чтобы обеспечить соответствие интерфейсу API подключаемого модуля системы управления версиями.
 
 - [Функции обратного вызова, реализованные интегрированной средой разработки](../extensibility/callback-functions-implemented-by-the-ide.md) Описывает функции, которые подключаемый модуль системы управления версиями использует для передачи информации обратно в интегрированную среду разработки во время выполнения определенных команд.

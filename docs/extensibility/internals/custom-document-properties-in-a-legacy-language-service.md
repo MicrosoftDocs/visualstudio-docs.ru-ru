@@ -9,17 +9,17 @@ helpviewer_keywords:
 - document properties, custom
 - language services [managed package framework], custom document properties
 ms.assetid: cc714a67-b33e-4440-9203-3c90f648bd9c
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a9bd5b41d1c04e52d16ecb2fc327e648d9f81aa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1e154ba5e6ce4c85f597957b1d6704ca341b3c4d
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902998"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105091153"
 ---
 # <a name="custom-document-properties-in-a-legacy-language-service"></a>Пользовательские свойства документа в языковой службе прежних версий
 Свойства документа можно отобразить в окне " [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **свойства** ". Языки программирования обычно не имеют свойств, связанных с отдельными файлами исходного кода. Однако XML поддерживает свойства документа, которые влияют на кодировку, схему и таблицу стилей.
@@ -399,5 +399,5 @@ namespace TestLanguagePackage
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Функции устаревшей языковой службы](../../extensibility/internals/legacy-language-service-features1.md)

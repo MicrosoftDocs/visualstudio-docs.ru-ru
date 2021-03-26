@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 04/01/2019
 ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 77fdc39ccccb7728749edd55527741c15bb1bcb0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4483d73a5e6124006f09d05065b6f75f7a654e47
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912737"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105082131"
 ---
 # <a name="image-service-and-catalog"></a>Служба образов и каталог
 Этот Cookbook содержит рекомендации и рекомендации по внедрению службы образов Visual Studio и каталога образов, появившихся в Visual Studio 2015.
@@ -127,7 +127,7 @@ ms.locfileid: "99912737"
 |манифестфолдер|Папка, содержащая файл манифеста|
 |MyDocuments|Полный путь к папке "Мои документы" текущего пользователя|
 |ProgramFiles|Значение переменной окружения% ProgramFiles%|
-|система|Папка *Windows\System32*|
+|Система|Папка *Windows\System32*|
 |WinDir|Значение переменной среды% WinDir%|
 
  **Изображение**
@@ -181,7 +181,7 @@ ms.locfileid: "99912737"
 
 |**Attribute**|**Определение**|
 |-|-|
-|Тип|Необходимости Тип машинного ресурса: XAML или PNG|
+|Type|Необходимости Тип машинного ресурса: XAML или PNG|
 |ID|Необходимости Часть целочисленного идентификатора машинного ресурса|
 
  **ImageList**
@@ -718,7 +718,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="samples"></a>Образцы
+### <a name="samples"></a>Примеры
  Некоторые из примеров Visual Studio на сайте GitHub были обновлены, чтобы продемонстрировать, как использовать службу Image Service как часть различных точек расширения Visual Studio.
 
  Проверьте [http://github.com/Microsoft/VSSDK-Extensibility-Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) наличие последних образцов.
@@ -738,7 +738,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  Средство просмотра библиотеки изображений может загружать манифесты изображений и позволяет пользователю управлять ими точно так же, как и Visual Studio, чтобы убедиться, что манифест создан правильно. Пользователь может изменять фон, размеры, параметры DPI, высокая контрастность и другие параметры. Он также отображает сведения о загрузке для поиска ошибок в манифестах и отображает сведения об источнике для каждого изображения в манифесте.
 
-## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
+## <a name="faq"></a>Вопросы и ответы
 
 - Существуют ли зависимости, которые необходимо включить при загрузке \<Reference Include="Microsoft.VisualStudio.*.Interop.14.0.DesignTime" /> ?
 
@@ -1011,7 +1011,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
     |глифграупжшарпинтерфаце|глифитемшорткут|интерфацешорткут|
     |глифграуперрор||StatusError|
     |глифбскфиле||классфиле|
-    |глифассембли||Справочные сведения|
+    |глифассембли||Справочник|
     |глифлибрари||Библиотека|
     |глифвбпрожект||вбпрожектноде|
     |глифкулпрожект||кспрожектноде|

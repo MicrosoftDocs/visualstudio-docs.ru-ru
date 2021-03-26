@@ -5,17 +5,17 @@ ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: conceptual
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
-author: acangialosi
-ms.author: anthc
+author: leslierichardson95
+ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d0a6e955d2ceb4ef8f4f2d4edcd8221badee8caf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2fecad421cca4cdf4644add5e5e7c7a6af4a23c0
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836661"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105073031"
 ---
 # <a name="install-outside-the-extensions-folder"></a>Установка за пределами папки расширений
 
