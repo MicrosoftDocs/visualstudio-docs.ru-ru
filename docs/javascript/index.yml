@@ -10,12 +10,12 @@ metadata:
   ms.author: mikejo
   manager: jillfra
   ms.date: 10/15/2019
-  ms.openlocfilehash: bb5bb2bc31527acc497e429030516cdfdb8ccd2e
-  ms.sourcegitcommit: b8ec700fc4c14c68c6ce280f29c19870261990d8
+  ms.openlocfilehash: 265c9d4eaa2f4f0cc95746bd5747f50c18d77fed
+  ms.sourcegitcommit: 00e16b9afe6b22ba0591e4d0d92690544e6d4357
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/31/2020
-  ms.locfileid: "87453709"
+  ms.lasthandoff: 03/26/2021
+  ms.locfileid: "105617043"
 landingContent:
 - title: Начало работы
   linkLists:
