@@ -11,16 +11,19 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 monikerRange: vs-2019
-ms.openlocfilehash: 95ed318c327735c85fda854d207b36874eeffca7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: add43a5d130d8938193774d50bb643f48ecc3f8c
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970989"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104673051"
 ---
 # <a name="how-to-use-visual-studio-with-a-codespace-preview"></a>Использование Visual Studio с codespace (предварительная версия)
 
-Visual Studio отлично поддерживается разработка в GitHub Codespaces. Вы можете создать среду codespace и подключиться к ней, а затем использовать все возможности Visual Studio для работы над проектами в удаленной, размещенной среде. Несмотря на то, что исходный код и средства находятся в codespace и компиляция и отладка происходят в облаке, процесс разработки идет так же быстро и без задержек, как в локальной среде. Вы можете работать с codespace в предварительной версии Visual Studio 2019 ([подпишитесь на ограниченную общедоступную бета-версию](https://github.com/features/codespaces/signup-vs)).
+> [!Important] 
+> По состоянию на 12 апреля 2021 г. подключение к GitHub Codespaces из Visual Studio 2019 больше не будет поддерживаться, и эта закрытая предварительная версия перестанет использоваться. Мы сосредоточены на разработке интерфейсов для облачных решений внутреннего цикла и VDI, оптимизированных для широкого спектра рабочих нагрузок Visual Studio. Рекомендуем следить за [форумом сообщества разработчиков](https://developercommunity.visualstudio.com/home) Visual Studio, чтобы получать информацию о будущих предварительных версиях и планах. 
+
+Visual Studio отлично поддерживается разработка в GitHub Codespaces. Вы можете создать среду codespace и подключиться к ней, а затем использовать все возможности Visual Studio для работы над проектами в удаленной, размещенной среде. Несмотря на то, что исходный код и средства находятся в codespace и компиляция и отладка происходят в облаке, процесс разработки идет так же быстро и без задержек, как в локальной среде.
 
 > [!NOTE]
 > В этой статье описывается, как с помощью Visual Studio подключиться к GitHub Codespaces. Сведения о подключении к codespace с помощью других клиентов см. в документации по [Visual Studio Code](https://docs.github.com/github/developing-online-with-codespaces/connecting-to-your-codespace-from-visual-studio-code) или [GitHub](https://docs.github.com/github/developing-online-with-codespaces/developing-in-a-codespace).

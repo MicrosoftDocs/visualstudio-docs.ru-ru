@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 3f4b0528-03f0-4a02-b3c3-a39292a9bbe1
-ms.date: 10/28/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Подписки Visual Studio — почему я вижу адреса моих подписчиков в системах Hotmail и (или) Gmail?
-ms.openlocfilehash: fda7dab50c2151049e0feffa50609bf4c38e38cc
-ms.sourcegitcommit: b1b747063ce0bba63ad2558fa521b823f952ab51
+ms.openlocfilehash: 99c22d74a9a6fb57e79f699e548de928ef1ebcb6
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "96189047"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104777004"
 ---
 # <a name="visual-studio-subscriptions--why-do-i-see-personal-accounts-for-my-subscribers"></a>Подписки Visual Studio — почему я вижу личные учетные записи моих подписчиков?
 Когда компания переходит из Volume Licensing Service Center (VLSC) на новый [портал администрирования подписок](https://manage.visualstudio.com) Visual Studio, администраторов удивляет наличие личных адресов электронной почты (например, Hotmail или Outlook) в поле "Адрес электронной почты для входа" у некоторых подписчиков.  
@@ -49,6 +49,9 @@ ms.locfileid: "96189047"
 
 > [!NOTE]
 > При изменении адреса электронной почты для входа обновляется только адрес электронной почты, используемый подписчиком для входа в подписку на https://my.visualstudio.com. Если подписчик уже активировал такие преимущества, как Azure или Pluralsight, используя другой адрес электронной почты, он будет и дальше использовать эти адреса электронной почты для доступа к ним. Для новых преимуществ следует указать новый адрес электронной почты. 
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам администрирования подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vsadminhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 12/02/2020
+ms.date: 03/17/2021
 ms.topic: how-to
 description: Сведения об учебной подписке Pluralsight, входящей в выбранные подписки Visual Studio.
-ms.openlocfilehash: c5503c2adad075bdf6f186567fc372705f1ab55f
-ms.sourcegitcommit: 51e4426889ae5f49c69b122e37b3f48aa7a3925d
+ms.openlocfilehash: 6d12fcf49184d8e8293d4f4e3a3c552e859d3afe
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "100542994"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104671704"
 ---
 # <a name="pluralsight-training-benefits-in-visual-studio-subscriptions"></a>Преимущества обучения Pluralsight в подписках Visual Studio
 
@@ -82,7 +82,7 @@ ms.locfileid: "100542994"
 |             Visual Studio Enterprise (NFR<sup>1</sup>)              |      Программа      | Недоступно |       Н/Д       |
 ||
 
-<sup>1</sup> *Включает:  не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), BizSpark, разработчик ПО и служб MCT, ПО и службы MCT, Most Valuable Professional (MVP), региональный директор (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
+<sup>1</sup> *Включает: не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), BizSpark, разработчик ПО и служб MCT, ПО и службы MCT, Most Valuable Professional (MVP), региональный директор (RD), Microsoft Partner Network (MPN), FTE, Imagine. Не включает: не для перепродажи, базовый (NFR Basic).*
 
 <sup>2</sup> *Преимущество Pluralsight в некоторых подписках Visual Studio продляется после продления подписки. Например, если у вас есть годовая подписка, которую вы продлеваете каждый год, это преимущество доступно вам каждый год. Если у вас есть подписка на несколько лет, преимущество Pluralsight доступно вам в течение срока действия подписки.  Если вы продлеваете подписку на несколько лет, преимущество будет доступно снова после продления.*
 
@@ -110,7 +110,7 @@ ms.locfileid: "100542994"
 
 ## <a name="support-resources"></a>Ресурсы поддержки
 - [Центр справки Pluralsight](https://help.pluralsight.com/help) поможет вам в прохождении курсов Pluralsight и в использовании веб-сайта Pluralsight.
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps Services или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

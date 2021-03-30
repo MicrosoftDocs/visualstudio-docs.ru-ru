@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
-ms.date: 12/02/2020
+ms.date: 03/17/2021
 ms.topic: how-to
 description: Сведения о подписке на Power BI Pro, входящей в некоторые подписки Visual Studio.
-ms.openlocfilehash: 6d64c9e5d15e24dcf53dd5b45261305dffb43353
-ms.sourcegitcommit: 29099741fcf94a5aef2655ee16605728b8b9a0ea
+ms.openlocfilehash: 1801ed8deae3294837078401420e16efdc016979
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96538076"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672908"
 ---
 # <a name="power-bi-pro-in-visual-studio-subscriptions"></a>Power BI Pro в подписках Visual Studio
 
@@ -72,7 +72,7 @@ ms.locfileid: "96538076"
 | Visual Studio Enterprise (ежемесячная облачная) | Azure                                       | Недоступно                                  |Н/Д|
 ||
 
-<sup>1</sup> *Включает:  не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), BizSpark, разработчик ПО и служб MCT, ПО и службы MCT, Most Valuable Professional (MVP), региональный директор (RD).  Не включает следующие категории:  Microsoft Partner Network (MPN), FTE, Imagine.*
+<sup>1</sup> *Включает: не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), BizSpark, разработчик ПО и служб MCT, ПО и службы MCT, Most Valuable Professional (MVP), региональный директор (RD).  Не включает: Microsoft Partner Network (MPN), FTE, Imagine, не для перепродажи, базовый (NFR Basic).*
 
 > [!NOTE]
 > Корпорация Майкрософт больше не предлагает годовые подписки на Visual Studio Professional и Visual Studio Enterprise в рамках облачных подписок. Никаких изменений не предвидится в том, что существующие клиенты могут продлить, изменить или отменить свои подписки. Новым клиентам мы рекомендуем ознакомиться с расценками на Visual Studio и вариантами покупки на этой странице: [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
@@ -110,7 +110,7 @@ ms.locfileid: "96538076"
   - См. [нашу документацию](/power-bi/).
   - Проблемы с регистрацией?  См. руководство по [регистрации в Power BI в качестве отдельного пользователя](/power-bi/service-self-service-signup-for-power-bi)
   - Изучите важные вопросы, получите помощь от сообщества или отправьте запрос на поддержку на [странице поддержки](https://powerbi.microsoft.com/support/).
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps Services или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

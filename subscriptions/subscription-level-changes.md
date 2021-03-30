@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: bb2fa359-8170-4db0-a0c5-d49fc692b0aa
-ms.date: 03/05/2021
+ms.date: 03/18/2021
 ms.topic: conceptual
 description: Узнайте о результатах изменения уровня подписки на Visual Studio.
-ms.openlocfilehash: ac4355149ba66cd06ae5c1abaeb57e7065631050
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: 93ea729280916cb62ba2b87ff820bb25069369d7
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102250145"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672986"
 ---
 # <a name="what-happens-when-you-change-visual-studio-subscription-levels"></a>Что происходит при изменении уровня подписки на Visual Studio
 В подписках на Visual Studio программное обеспечение, инструменты, службы и другие доступные преимущества зависят от уровня подписки.  Как правило, чем выше уровень подписки, тем больше в ней преимуществ.  
@@ -63,7 +63,7 @@ ms.locfileid: "102250145"
 Если вы используете преимущества, предлагаемые в текущей подписке, и переходите на подписку уровнем ниже, в которой они недоступны, вы можете потерять доступ к этим преимуществам.  
 
 ## <a name="support-resources"></a>Ресурсы поддержки
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

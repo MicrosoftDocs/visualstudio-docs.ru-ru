@@ -6,12 +6,12 @@ ms.author: ghogen
 ms.date: 11/20/2019
 ms.technology: vs-azure
 ms.topic: conceptual
-ms.openlocfilehash: 004427ced7d18d9a5af5c863172416fd8637aa69
-ms.sourcegitcommit: b885f26e015d03eafe7c885040644a52bb071fae
+ms.openlocfilehash: 07ecc9a171cf6c0ca254ddbf284f116545ddd0f0
+ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "85536868"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104884087"
 ---
 # <a name="how-visual-studio-builds-containerized-apps"></a>Как Visual Studio создает контейнерные приложения
 
@@ -107,7 +107,7 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 
 |Громкость|Описание|
 |-|-|
-| **Удаленный отладчик** | Содержит компоненты, необходимые для запуска отладчика в контейнере, в соответствии с типом проекта. Более подробное описание приводится |в разделе [Отладка](#debugging).
+| **Удаленный отладчик** | Содержит компоненты, необходимые для запуска отладчика в контейнере, в соответствии с типом проекта. Это объясняется более подробно в разделе [Отладка](#debugging).|
 | **Папка приложения** | Содержит папку проекта, в которой располагается файл Dockerfile.|
 | **Исходная папка** | Содержит контекст сборки, который передается в команды Docker.|
 | **Папки пакетов NuGet** | Содержат пакеты NuGet и резервные папки, которые считываются из файла *obj\{project}.csproj.nuget.g.props* в проекте. |

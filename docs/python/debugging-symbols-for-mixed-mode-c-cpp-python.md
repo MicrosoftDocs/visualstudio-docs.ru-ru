@@ -9,12 +9,12 @@ manager: jmartens
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 52eb7535430248f519654c09924541a6900336cc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d6820b9d94e8b4849c646c16075614aed17a4dd3
+ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99933093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104884139"
 ---
 # <a name="install-debugging-symbols-for-python-interpreters"></a>Установка отладочных символов для интерпретаторов Python
 
@@ -61,7 +61,7 @@ Visual Studio может вывести запрос на использован
 
 ## <a name="official-distributions"></a>Официальные дистрибутивы
 
-| Версия Python | Загрузки |
+| Версия Python | Скачиваемые файлы |
 | --- | --- |
 | 3.5 и более поздние версии | Установите символы с помощью установщика Python. |
 | 3.4.4 | [32-разрядная](https://www.python.org/ftp/python/3.4.4/python-3.4.4-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/3.4.4/python-3.4.4.amd64-pdb.zip) |
@@ -75,6 +75,9 @@ Visual Studio может вывести запрос на использован
 | 3.3.2 | [32-разрядная](https://www.python.org/ftp/python/3.3.2/python-3.3.2-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/3.3.2/python-3.3.2.amd64-pdb.zip) |
 | 3.3.1 | [32-разрядная](https://www.python.org/ftp/python/3.3.1/python-3.3.1-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/3.3.1/python-3.3.1.amd64-pdb.zip) |
 | 3.3.0 | [32-разрядная](https://www.python.org/ftp/python/3.3.0/python-3.3.0-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/3.3.0/python-3.3.0.amd64-pdb.zip) |
+| 2.7.18 | [32-разрядная](https://www.python.org/ftp/python/2.7.18/python-2.7.18-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64-pdb.zip) |
+| 2.7.17 | [32-разрядная](https://www.python.org/ftp/python/2.7.17/python-2.7.17-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/2.7.17/python-2.7.17.amd64-pdb.zip) |
+| 2.7.16 | [32-разрядная](https://www.python.org/ftp/python/2.7.16/python-2.7.16-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64-pdb.zip) |
 | 2.7.15 | [32-разрядная](https://www.python.org/ftp/python/2.7.15/python-2.7.15-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64-pdb.zip) |
 | 2.7.14 | [32-разрядная](https://www.python.org/ftp/python/2.7.14/python-2.7.14-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64-pdb.zip) |
 | 2.7.13 | [32-разрядная](https://www.python.org/ftp/python/2.7.13/python-2.7.13-pdb.zip) - [64-разрядная](https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip) |

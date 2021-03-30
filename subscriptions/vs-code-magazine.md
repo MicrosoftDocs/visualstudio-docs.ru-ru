@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
-ms.date: 01/19/2021
+ms.date: 03/18/2021
 ms.topic: how-to
 description: Узнайте о преимуществе CODE Magazine, предусмотренном подпиской Visual Studio.
-ms.openlocfilehash: a9aabd98fa872846d12e20b3aad3f617d1c97a64
-ms.sourcegitcommit: 59b63039982bb5894eb35d8b544657688731614f
+ms.openlocfilehash: 831885a89b67bc5d9ab50f49c59eb91bc5717262
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597404"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672045"
 ---
 # <a name="code-magazine-included-in-visual-studio-subscriptions"></a>Преимущество CODE Magazine в подписках Visual Studio
 
@@ -58,7 +58,7 @@ CODE Magazine — это ведущий независимый журнал д�
 | Visual Studio Enterprise, Visual Studio Professional (ежемесячная облачная) | Azure | Недоступно | Н/Д |
 | Visual Studio Enterprise NFR<sup>1</sup> | NFR | Недоступно | Н/Д |
 
-<sup>1</sup> *Включает:  не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), FTE, BizSpark, Imagine, Imagine Premium Microsoft Partner Network (MPN), Most Valuable Professional (MVP), региональный директор (RD), разработчик ПО и служб MCT, ПО и службы MCT.*
+<sup>1</sup>  *Включает: не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), FTE, BizSpark, Imagine, Imagine Premium Microsoft Partner Network (MPN), Most Valuable Professional (MVP), региональный директор (RD), разработчик ПО и служб MCT, ПО и службы MCT.  
 
 > [!NOTE]
 > Корпорация Майкрософт больше не предлагает годовые подписки на Visual Studio Professional и Visual Studio Enterprise в рамках облачных подписок. Никаких изменений не предвидится в том, что существующие клиенты могут продлить, изменить или отменить свои подписки. Новым клиентам мы рекомендуем ознакомиться с расценками на Visual Studio и вариантами покупки на этой странице: [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
@@ -74,7 +74,7 @@ CODE Magazine — это ведущий независимый журнал д�
 
 ## <a name="support-resources"></a>Ресурсы поддержки
 - Возникли вопросы о подписке на CODE Magazine?  Обратитесь в [CODE Magazine](https://www.codemag.com/contact) по электронной почте или телефону либо отправьте запрос в службу поддержки через Интернет.
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps Services или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

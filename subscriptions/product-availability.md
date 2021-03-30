@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о доступности продуктов в файлах для загрузки программного обеспечения для подписок Visual Studio
-ms.openlocfilehash: e223946aabd9a0b789f51e80e522c24d8a85dd4c
-ms.sourcegitcommit: 09d1f5cef5360cdc1cdfd4b22a1a426b38079618
+ms.openlocfilehash: 8188395c236ae116c36da7f60f0afb8042cb81b3
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005863"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776627"
 ---
 # <a name="product-availability-for-software-downloads-in-visual-studio-subscriptions"></a>Доступность продуктов в файлах для загрузки программного обеспечения в подписках Visual Studio
 Ваши преимущества подписчика включают в себя доступ к обширному спектру скачиваемого программного обеспечения.
@@ -37,6 +37,9 @@ ms.locfileid: "91005863"
 > При наличии нескольких подписок, связанных с одним и тем же адресом электронной почты, доступное программное обеспечение определяется **самым высоким** уровнем ваших подписок.  Например, если у вас есть подписка Visual Studio Enterprise и подписка Visual Studio Test Professional, у вас будет доступ к программному обеспечению, включенному в подписку Visual Studio Enterprise, независимо от того, какая подписка сейчас используется на портале подписок. 
 
 Что делать, если вы не знаете свой уровень подписки?  Подключитесь к [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) для просмотра всех подписок, назначенных вашему адресу электронной почты. Если на этой странице отображаются не все подписки, возможно, часть из них назначена другому адресу электронной почты.  Чтобы увидеть их, войдите с соответствующим адресом электронной почты.
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vssubscriberhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

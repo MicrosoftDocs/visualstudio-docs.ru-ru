@@ -2,7 +2,7 @@
 title: Учебник. Открытие проекта из репозитория в Visual Studio 2019
 description: Узнайте, как открывать проекты из репозитория Git или Azure DevOps с помощью Visual Studio 2019.
 ms.custom: get-started
-ms.date: 02/11/2021
+ms.date: 03/18/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -15,12 +15,12 @@ ms.workload:
 - dotnet
 - dotnetcore
 monikerRange: vs-2019
-ms.openlocfilehash: 5a637b2536c05e8f5678989f47dba61cd6ec7381
-ms.sourcegitcommit: 15109ead7991f52092502518a6f4d9061cc22cd2
+ms.openlocfilehash: 76dcd5061e2e12688f5119598071c3235e620967
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100335475"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104671717"
 ---
 # <a name="tutorial-open-a-project-from-a-repo"></a>Учебник. Открытие проекта из репозитория
 
@@ -53,6 +53,9 @@ ms.locfileid: "100335475"
    ![Снимок экрана: диалоговое окно "Сведения о пользователе Git", где нужно ввести или изменить сведения учетной записи, в Visual Studio 2019 версии 16.8 или более поздней](../ide/media/vs-2019/git-user-information-dialog.png)
 
     Нажмите кнопку **Сохранить**, чтобы добавить эту информацию в GITCONFIG-файл. (Или нажмите кнопку **Отменить**, чтобы сделать это позже.)
+
+    > [!TIP]
+    > Дополнительные сведения о входе в Visual Studio см. на странице [Вход в Visual Studio](../ide/signing-in-to-visual-studio.md). Дополнительные сведения о том, как использовать учетную запись GitHub для входа, см. на странице [Работа с учетными записями GitHub в Visual Studio](../ide/work-with-github-accounts.md).
 
     Затем Visual Studio автоматически загрузит и откроет решение из репозитория.
 
@@ -207,5 +210,6 @@ ms.locfileid: "100335475"
 
 - [Открытие проекта из репозитория в Visual Studio 2017](tutorial-open-project-from-repo-visual-studio-2017.md)
 - [Новый интерфейс Git в Visual Studio 2019](../ide/git-with-visual-studio.md)
+- [Наглядное сравнение Git и Team Explorer](../ide/git-team-explorer-feature-comparison.md)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/) (Azure DevOps Services. Начало работы с Azure Repos и Visual Studio)
 - [Microsoft Learn. Начало работы с Azure DevOps](/learn/modules/get-started-with-devops/)

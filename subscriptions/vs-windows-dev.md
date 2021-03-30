@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 02/09/2021
+ms.date: 03/17/2021
 ms.topic: how-to
 description: Сведения об учетной записи разработчика Windows, входящей в вашу подписку Visual Studio.
-ms.openlocfilehash: a988dabb5849d13733c72ebb5976be489f67dd95
-ms.sourcegitcommit: 0f3606917cf5451e8c4e0b2e0c3fbb9113429645
+ms.openlocfilehash: 4ea61f0bdb131c20412c0b99bbd09cbc44777fb7
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100089597"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672765"
 ---
 # <a name="windows-developer-account-in-visual-studio-subscriptions"></a>Учетная запись разработчика Windows в подписках Visual Studio
 Учетная запись разработчика Windows, включенная в выбранные подписки Visual Studio, позволяет отправлять в Магазин Windows платные и бесплатные приложения Windows.
@@ -55,7 +55,7 @@ ms.locfileid: "100089597"
 | Visual Studio Enterprise, Visual Studio Professional (ежемесячная облачная) | Azure                                       | Недоступно                                                           |Н/Д|
 ||
 
-<sup>1</sup> *Включает:  не для перепродажи (NFR), сотрудник с полной занятостью, отраслевой партнер Visual Studio (VSIP), BizSpark, разработчик ПО и служб MCT, Most Valuable Professional (MVP), региональный директор (RD). Не включает следующие категории:  Microsoft Partner Network (MPN), Imagine, ПО и службы MCT.*
+<sup>1</sup> *Включает: не для перепродажи (NFR), сотрудник с полной занятостью, отраслевой партнер Visual Studio (VSIP), BizSpark, разработчик ПО и служб MCT, Most Valuable Professional (MVP), региональный директор (RD). Не включает: Microsoft Partner Network (MPN), Imagine, ПО и службы MCT, не для перепродажи, базовый (NFR Basic).*
 
 > [!NOTE]
 > Корпорация Майкрософт больше не предлагает годовые подписки на Visual Studio Professional и Visual Studio Enterprise в рамках облачных подписок. Никаких изменений не предвидится в том, что существующие клиенты могут продлить, изменить или отменить свои подписки. Новым клиентам мы рекомендуем ознакомиться с расценками на Visual Studio и вариантами покупки на этой странице: [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
@@ -65,7 +65,7 @@ ms.locfileid: "100089597"
 ## <a name="support-resources"></a>Ресурсы поддержки
 - Нужна помощью с учетной записью разработчика Windows?  Изучите ресурсы в разделе [поддержки](https://developer.microsoft.com/windows/support) в [центре разработчика Windows](https://developer.microsoft.com/windows).
 - [Разработка для Windows](/windows/)
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps Services или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

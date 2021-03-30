@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о предлагаемых подписках, применяемых правилах и количестве подписок, предлагаемых в MPN.
-ms.openlocfilehash: 47b13147e87880ea90c07ee4746d5359571719b0
-ms.sourcegitcommit: 09d1f5cef5360cdc1cdfd4b22a1a426b38079618
+ms.openlocfilehash: eab7779c7aedbbe7116a6227b16b6b3f4f15471c
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005837"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776757"
 ---
 # <a name="visual-studio-subscriptions-offered-to-partners-in-the-microsoft-partner-network-mpn"></a>Подписки Visual Studio для партнеров в Microsoft Partner Network (MPN)
 
@@ -71,11 +71,10 @@ ms.locfileid: "91005837"
 Чтобы воспользоваться подписками Visual Studio, предоставленными через MPN, лицензированные пользователи должны войти в Visual Studio, указав идентификатор или имя пользователя, использованные для активации подписки Visual Studio. Для разблокировки продукта не предоставляются ключи. Вход — это единственный способ запуска Visual Studio. Подписчик Visual Studio может работать автономно в течение 30 дней, затем Visual Studio прекратит работу. При работе в сети Visual Studio время от времени автоматически обновляет состояние лицензии пользователя, чтобы проверить срок действия подписки.
 
 ## <a name="resources"></a>Ресурсы
-
 - [Руководство по программам Microsoft Partner Network](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf?tpqid=300-000121)
 - [Назначение подписок Visual Studio сотрудникам MPN](manage-mpn-subscriptions.md)
 - [Условия использования](https://www.microsoft.com/useterms/) — на подписки Visual Studio, предоставляемые через MPN, распространяются условия лицензии для подписок Visual Studio, не предназначенных для перепродажи.
-
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vssubscriberhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

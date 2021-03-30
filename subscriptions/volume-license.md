@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 7aaa4727-00ef-41dc-937d-8d46973aaf56
-ms.date: 03/08/2021
+ms.date: 03/18/2021
 ms.topic: conceptual
 description: Узнайте, как администраторы по соглашениям корпоративного лицензирования могут получить доступ к порталу администрирования подписок Visual Studio.
-ms.openlocfilehash: 4704b3258eedf8fd1639804a8792a1c18fafce77
-ms.sourcegitcommit: f9ed9c4c6c166ef9826feb21dcb9c4d47ed14e1a
+ms.openlocfilehash: 0ab0ca532c1c2cdb848a3f6df9862c1d80518248
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "102607292"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672534"
 ---
 # <a name="accessing-the-admin-portal-as-an-admin-on-a-volume-license-agreement"></a>Доступ к порталу администрирования от имени администратора в рамках соглашения корпоративного лицензирования
 
@@ -26,7 +26,7 @@ ms.locfileid: "102607292"
 Это относится ко всем типам соглашений корпоративного лицензирования, в том числе: Соглашения Enterprise, корпоративные подписки, Select, Select Plus, Open, Open License, правительственные и академические соглашения. 
 
 ## <a name="resources"></a>Ресурсы
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://visualstudio.microsoft.com/subscriptions/support/).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

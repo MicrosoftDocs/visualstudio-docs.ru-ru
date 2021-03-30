@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 12/02/2020
+ms.date: 03/17/2021
 ms.topic: conceptual
 description: Сведения о преимуществе поддержки сообщества разработчиков, включенном в некоторые подписки Visual Studio.
-ms.openlocfilehash: 1b90a18c251e96f3c815129d81b3b09611594e99
-ms.sourcegitcommit: 29099741fcf94a5aef2655ee16605728b8b9a0ea
+ms.openlocfilehash: 68629db57397d42f91c778ee075f3a51ce2a9c78
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96538050"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104671993"
 ---
 # <a name="developer-community-support-forum-in-visual-studio-subscriptions"></a>Доступ к форуму поддержки сообщества разработчиков в рамках подписок Visual Studio
 Вы можете размещать свои вопросы, находить ответы и делиться своими знаниями на форумах сообщества разработчиков.
@@ -49,7 +49,7 @@ ms.locfileid: "96538050"
 |                                       MSDN Platforms (стандартная)                                       |    Корпоративная лицензия, розничная версия     |   Доступно    |    Да     |
 | Visual Studio Enterprise (ежемесячная облачная), Visual Studio Professional (ежемесячная облачная)|        Все        | Недоступно |     Нет     |
 
-<sup>1</sup> *Включает:  не для перепродажи (NFR), Microsoft FTE, Most Valuable Professional (MVP), региональный директор (RD), отраслевой партнер Visual Studio (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT).*
+<sup>1</sup> *Включает: не для перепродажи (NFR), Microsoft FTE, Most Valuable Professional (MVP), региональный директор (RD), отраслевой партнер Visual Studio (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT).  Не включает: не для перепродажи, базовый (NFR Basic)*
 
 > [!NOTE]
 > Корпорация Майкрософт больше не предлагает годовые подписки на Visual Studio Professional и Visual Studio Enterprise в рамках облачных подписок. Никаких изменений не предвидится в том, что существующие клиенты могут продлить, изменить или отменить свои подписки. Новым клиентам мы рекомендуем ознакомиться с расценками на Visual Studio и вариантами покупки на этой странице: [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
@@ -57,7 +57,7 @@ ms.locfileid: "96538050"
 Что делать, если вы не знаете свой уровень подписки?  Подключитесь к [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) для просмотра всех подписок, назначенных вашему адресу электронной почты. Если на этой странице отображаются не все подписки, возможно, часть из них назначена другому адресу электронной почты.  Чтобы увидеть их, войдите с соответствующим адресом электронной почты.
 
 ## <a name="support-resources"></a>Ресурсы поддержки
-- Вам нужна помощь по вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio?  Обратитесь в [службу поддержки по подпискам на Visual Studio](https://visualstudio.microsoft.com/subscriptions/support/).
+- Вам нужна помощь по вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio?  Обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
 - У вас есть вопросы о Visual Studio IDE, Azure DevOps Services или других продуктах или службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
-ms.date: 03/09/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о максимально эффективном использовании подписок Visual Studio
-ms.openlocfilehash: a865bfa5cf7d55504e022efb1b134bddde7d231c
-ms.sourcegitcommit: a731a9454f1fa6bd9a18746d8d62fe2e85e5ddb1
+ms.openlocfilehash: fce096a0999fefe16abc009c04f87cf4eff35748
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "92904687"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776836"
 ---
 # <a name="managing-subscriptions"></a>Управление подписками
 
@@ -112,6 +112,9 @@ ms.locfileid: "92904687"
 > [!NOTE]
 > - Если вы решили закрыть учетную запись Майкрософт или Azure AD, ваши личные данные будут немедленно преобразованы в анонимные.
 > - Мы не удаляем личные данные полностью при наличии активных подписок.
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vssubscriberhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

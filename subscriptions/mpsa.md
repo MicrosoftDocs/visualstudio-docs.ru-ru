@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
-ms.date: 03/05/2021
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Узнайте об управлении подписками Visual Studio в рамках соглашения о продуктах и службах Майкрософт (MPSA)
-ms.openlocfilehash: 49f18b540d27678b46a5fa111c76a069b705309d
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: 63124e8853184fde04db7bc202e5acea3cfbe89f
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249462"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776536"
 ---
 # <a name="visual-studio-subscriptions-in-a-microsoft-products-and-services-agreement-mpsa"></a>Подписки Visual Studio в соглашении о продуктах и службах Майкрософт (MPSA)
 Если вы приобрели Подписки Visual Studio по программе MPSA, то существуют несколько моментов, которые следует учесть перед тем, как вы сможете стать администратором подписок Visual Studio и назначать подписки своим пользователям. Если вы уже назначены в качестве администратора, то можете перейти непосредственно на [портал администрирования подписок Visual Studio](https://manage.visualstudio.com/).
@@ -56,6 +56,9 @@ ms.locfileid: "102249462"
 
 > [!NOTE]
 > После завершения процесса перехвата домена вы станете удовлетворять пяти условиям из раздела "Перед установлением связи с арендатором (управляемый арендатор)". После выполнения всех условий останется только связаться со службой поддержки MPSA для подготовки дополнительных администраторов подписок Visual Studio.
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам администрирования подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vsadminhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

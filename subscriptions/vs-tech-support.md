@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 12/02/2020
+ms.date: 03/17/2021
 ms.topic: how-to
 description: Сведения о том, как активировать преимущество технической поддержки, входящее в вашу подписку Visual Studio.
-ms.openlocfilehash: ea67dde54dd66af6d20b7f9af84d2bfe80211444
-ms.sourcegitcommit: 29099741fcf94a5aef2655ee16605728b8b9a0ea
+ms.openlocfilehash: 77856cf8a1f3497f66e89110e7b951c768da8c28
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96537972"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672137"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Активация и использование преимущества технической поддержки в подписках Visual Studio
 Преимущество технической поддержки в подписках Visual Studio предназначено для решения проблем, связанных с заменой и ремонтом, в **нерабочей среде** для продуктов, которые все еще находятся на этапе основной поддержки [жизненного цикла поддержки](https://support.microsoft.com/lifecycle/search). Стандартная и годовая облачная подписки на Visual Studio Enterprise получают право на четыре обращения в службу поддержки, а стандартная и годовая облачная подписки на Visual Studio Professional — на два в течение 1 года с активации преимущества. Необходимо активировать преимущество в срок действия подписки.
@@ -116,12 +116,15 @@ ms.locfileid: "96537972"
 | Visual Studio Enterprise, Visual Studio Professional (ежемесячная облачная) | Azure                                       | Недоступно                                                           |Н/Д|
 ||
 
-<sup>1</sup> *Включает: Imagine Premium, BizSpark. Не включает следующие категории: не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), Microsoft Partner Network (MPN), FTE, разработчик ПО и служб MCT, Imagine Standard, Most Valuable Professional (MVP), региональный директор (RD), ПО и службы MCT.*
+<sup>1</sup> *Включает: Imagine Premium, BizSpark. Не включает: не для перепродажи (NFR), отраслевой партнер Visual Studio (VSIP), Microsoft Partner Network (MPN), FTE, разработчик ПО и служб MCT, Imagine Standard, Most Valuable Professional (MVP), региональный директор (RD), ПО и службы MCT. Не включает: не для перепродажи, базовый (NFR Basic)*
 
 <sup>2</sup> *Включает: Imagine Standard.*
 
 Что делать, если вы не знаете свой уровень подписки?  Подключитесь к [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) для просмотра всех подписок, назначенных вашему адресу электронной почты. Если на этой странице отображаются не все подписки, возможно, часть из них назначена другому адресу электронной почты.  Чтобы увидеть их, войдите с соответствующим адресом электронной почты.
 
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://my.visualstudio.com/gethelp).
+- 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)
 - [Документация по Azure DevOps](/azure/devops/)

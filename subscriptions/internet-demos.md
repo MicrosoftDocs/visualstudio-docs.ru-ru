@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 1c5ede60-cb5a-4d5f-a6a2-a1f536f6c4ad
-ms.date: 10/28/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Узнайте, как использовать ключи продуктов для поддержки интернет-демонстраций в службах терминалов и включения доступа RDS
-ms.openlocfilehash: 9a63436e38779a51ba414969b36a2bb166e6cab9
-ms.sourcegitcommit: f1d47655974a2f08e69704a9a0c46cb007e51589
+ms.openlocfilehash: c074dfe12ed7c1fea5ad60f7e0c8019e133a6d1b
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92904616"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776549"
 ---
 # <a name="internet-demonstrations-via-terminal-services"></a>Интернет-демонстрации в службах терминалов
 Подписка Visual Studio позволяет вам предоставлять конечным пользователям доступ к интернет-демонстрациям программ через службы терминалов (Windows Server 2003 или Windows Server 2008) или службы удаленного рабочего стола (Windows Server 2008 R2 и более поздней версии). Это обеспечивает одновременный доступ к демонстрации до 200 анонимных пользователей. В демонстрации не должны использоваться производственные данные. Подписчики Visual Studio могут демонстрировать свои приложения конечным пользователям. Интернет-демонстрация с использованием служб терминалов или служб удаленного рабочего стола — это единственная возможность конечных пользователей без подписок Visual Studio взаимодействовать с демонстрационным приложением, если программное обеспечение предоставляется по подпискам Visual Studio.
@@ -35,8 +35,11 @@ ms.locfileid: "92904616"
 - Для демонстрации приложения можно использовать до 200 одновременных подключений пользователей.
 - Подписчик Visual Studio должен приобрести ключи продукта, чтобы разрешить подключения пользователей.
 
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vssubscriberhelp).
+
 ## <a name="see-also"></a>См. также
-- [Документации по Windows Server](/windows-server/)
+- [Документация по Windows Server](/windows-server/)
 - [Документация по Visual Studio](/visualstudio/)
 - [Документация по Azure DevOps](/azure/devops/)
 - [Документация по Azure](/azure/)

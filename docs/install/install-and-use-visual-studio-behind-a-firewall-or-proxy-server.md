@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 44af5c5a00e1ca26eb545b0973090486f6d320ea
-ms.sourcegitcommit: 99b66b0f4ced46ead0b2506a103f974f40cc0076
+ms.openlocfilehash: b1452976a2710026b71e89614e776134e8a36ae1
+ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103295708"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104884126"
 ---
 # <a name="install-and-use-visual-studio-and-azure-services-behind-a-firewall-or-proxy-server"></a>Установка и использование Visual Studio и служб Azure, расположенных за брандмауэром или прокси-сервером
 
@@ -113,8 +113,8 @@ ms.locfileid: "103295708"
 | Служба <br>надстройка <br> манифеста <br>Проверка <br>Служба | verificationservice.osi.office.net | https/443 | Используется для проверки манифестов веб-надстроек Office |
 | Веб-надстройки для SharePoint и <br>Office Add-ins | sharepoint.com<br> microsoft.com/microsoft-365<br> microsoftonline.com <br> outlook.com | https/443 | Используется для публикации и тестирования надстроек SharePoint и Office в SharePoint Online и Microsoft 365 |
 | Узел службы <br>тестирования<br> Узел | | http/12292 | Правило брандмауэра, которое создается автоматически для тестирования надстроек SharePoint с помощью рабочих процессов |
-| Автоматически собранные <br>статистические данные о надежности <br>и другие <br>программы улучшения качества <br>программного обеспечения (CEIP)<br> для пакета Azure SDK и <br>инструментов SQL <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Используется для отправки статистических данных о надежности (данных об аварийном завершении или отсутствии отклика) от пользователя в корпорацию Майкрософт. Фактические дампы аварийного завершения или отсутствия отклика по-прежнему будут отправляться, даже если включены Отчеты об ошибках Windows. Не будут отправляться только статистические данные. <br>Используется, чтобы выявить анонимное использование расширения пакета SDK для Azure Tools и средств SQL в Visual Studio |
-| Visual Studio <br> программного обеспечения <br>Visual Studio <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https/443 | Используется для сбора данных об анонимном использовании и журналов ошибок <br><br>Используется для отслеживания проблем блокировки пользовательского интерфейса |
+| Автоматически собранные <br>статистические данные о надежности <br>и другие <br>программы улучшения качества <br>программного обеспечения (CEIP)<br> для пакета Azure SDK и <br>инструментов SQL <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Используется для отправки статистических данных о надежности (данных об аварийном завершении или отсутствии отклика) от пользователя в корпорацию Майкрософт. Фактические дампы аварийного завершения или отсутствия отклика по-прежнему будут отправляться, даже если включены Отчеты об ошибках Windows. Не будут отправляться только статистические данные. <br>Используется, чтобы выявить шаблоны использования для расширения пакета SDK для Azure Tools и средств SQL в Visual Studio |
+| Visual Studio <br> программного обеспечения <br>Visual Studio <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https/443 | Используется для сбора шаблонов использования и журналов ошибок <br><br>Используется для отслеживания проблем блокировки пользовательского интерфейса |
 | Создание и<br>администрирование <br>ресурсов Azure | management.azure.com <br>management.core.windows.net | https/443 | Используется для создания Веб-сайтов Azure и других ресурсов для поддержки публикаций веб-приложений, Функций Azure или веб-заданий |
 | Рекомендации по <br>проверкам и расширениям <br>обновленного инструментария для веб-публикации | marketplace.visualstudio.com | https/443 | Используется для проверки доступности обновленного инструментария для публикации. Если эта конечная точка отключена, потенциально рекомендуемое расширение для веб-публикации может не отображаться |
 | Сведения об обновленной <br>конечной точке для создания ресурсов Azure | \*.blob.core.windows.net | https/443 | Применяется для обновления конечных точек, используемых при создании ресурсов Azure для определенных служб Azure. Если эта конечная точка отключена, будут использоваться расположения последней скачанной или встроенной конечной точки |

@@ -11,19 +11,19 @@ helpviewer_keywords:
 - Visual Studio terminal
 ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
-ms.openlocfilehash: 406ef4e7d475df82a0e36732dd5e777959ea3b96
-ms.sourcegitcommit: 79a6be815244f1cfc7b4123afff29983fce0555c
+ms.openlocfilehash: fb2c99037577528b77ab5c1b0c74bf7af9e73d1b
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102249748"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672329"
 ---
 # <a name="developer-command-prompt-and-developer-powershell"></a>Командная строка разработчика и PowerShell для разработчиков
 
 В Visual Studio 2019 есть две оболочки командной строки для разработчиков:
 
-- **Командная строка разработчика для Visual Studio** — стандартная командная строка с определенными переменными среды, упрощающая работу с инструментами разработки.
-- **PowerShell для разработчиков** — более функциональное средство, чем командная строка. Например, в нем можно передать результат одной команды (называемой *cmdlet* ) в другой cmdlet. В этой оболочке доступны те же переменные среды, что и в Командной строке разработчика.
+- **Командная строка разработчика для Visual Studio** — стандартная командная строка с определенными переменными среды, упрощающая работу с инструментами разработки. Доступно с версии Visual Studio 2015.
+- **PowerShell для разработчиков Visual Studio** — более функциональное средство, чем командная строка. Например, в нем можно передать результат одной команды (называемой *cmdlet* ) в другой cmdlet. В этой оболочке доступны те же переменные среды, что и в Командной строке разработчика. Доступно с версии Visual Studio 2019.
 
 В обеих оболочках заданы определенные переменные среды. Это упрощает работу с инструментами командной строки. Открыв эти оболочки, можно выполнять команды для различных служебных программ, не указывая их расположения. В оболочках доступны следующие команды и инструменты:
 
@@ -40,10 +40,6 @@ ms.locfileid: "102249748"
 :::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Терминал Visual Studio с несколькими вкладками":::
 
 При запуске в Visual Studio одной из оболочек как отдельного приложения или в окне терминала открывается каталог текущего решения (если оно загружено). Это упрощает выполнение команд для решения или его проектов.
-
-## <a name="prerequisites"></a>Предварительные требования
-
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
 
 ## <a name="start-the-shell-from-inside-visual-studio"></a>Запуск оболочки из Visual Studio
 

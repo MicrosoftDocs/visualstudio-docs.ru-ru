@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 89e3fcf9-fe5d-4266-8dd7-5567d05fe869
-ms.date: 10/28/2020
+ms.date: 03/21/2021
 ms.topic: conceptual
 description: Сведения о том, как получить ключи продукта в подписках Visual Studio и управлять ими.
-ms.openlocfilehash: a5da818a059709d311b87572f71b78a51dbb7deb
-ms.sourcegitcommit: a731a9454f1fa6bd9a18746d8d62fe2e85e5ddb1
+ms.openlocfilehash: ad9672d089c6e50aa879b38841c468f235347963
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "92903995"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776770"
 ---
 # <a name="using-product-keys-in-visual-studio-subscriptions"></a>Использование ключей продукта в подписках Visual Studio
 
@@ -78,6 +78,9 @@ ms.locfileid: "92903995"
 |
 
 Вы можете запросить ключ на странице скачивания для продукта или выполнить поиск нужного ключа на странице [Ключи продуктов](https://my.visualstudio.com/productkeys).
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vssubscriberhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

@@ -11,25 +11,25 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 monikerRange: vs-2019
-ms.openlocfilehash: 374e07735667a2a8891824b23d49b061651b3b95
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a4bf2cf948b6df65ee0407c1cc736e8056820a54
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99911726"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672791"
 ---
 # <a name="what-is-github-codespaces-preview"></a>Что такое GitHub Codespaces? (предварительная версия)
 
+> [!Important] 
+> По состоянию на 12 апреля 2021 г. подключение к GitHub Codespaces из Visual Studio 2019 больше не будет поддерживаться, и эта закрытая предварительная версия перестанет использоваться. Мы сосредоточены на разработке интерфейсов для облачных решений внутреннего цикла и VDI, оптимизированных для широкого спектра рабочих нагрузок Visual Studio. Рекомендуем следить за [форумом сообщества разработчиков](https://developercommunity.visualstudio.com/home) Visual Studio, чтобы получать информацию о будущих предварительных версиях и планах. 
+
 Добро пожаловать в Codespaces! Мы рады приветствовать вас здесь.
 
-GitHub Codespaces предоставляет облачную среду разработки для любых задач, будь то долгосрочный проект или краткосрочное действие, такое как проверка запроса на вытягивание. Вы можете работать с codespace в предварительной версии Visual Studio 2019 ([подпишитесь на ограниченную общедоступную бета-версию](https://github.com/features/codespaces/signup-vs)).
+GitHub Codespaces предоставляет облачную среду разработки для любых задач, будь то долгосрочный проект или краткосрочное действие, такое как проверка запроса на вытягивание.
 
 Кроме того, GitHub Codespaces предоставляет множество преимуществ DevOps, таких как повторяемость и надежность, которые обычно были свойственны рабочим нагрузкам. Вы также можете персонализировать GitHub Codespaces, чтобы получить предпочитаемые вами средства, процессы и конфигурации.
 
 В этом документе описываются основные понятия и приводятся общие сведения о функциях Codespaces. Если вы хотите приступить к работе, ознакомьтесь со статьей [Использование Visual Studio с codespace](use-visual-studio-with-codespaces.md).
-
-> [!IMPORTANT]
-> Чтобы использовать GitHub Codespaces, необходимо подписаться на ограниченную [общедоступную бета-версию](https://github.com/features/codespaces/signup-vs). В период бета-тестирования GitHub не дает никаких гарантий относительно доступности Codespaces. Дополнительные сведения о подписке на бета-версию см. в разделе [Сведения о Codespaces](https://docs.github.com/github/developing-online-with-codespaces/about-codespaces#joining-the-beta).
 
 ## <a name="concepts-and-features"></a>Концепции и функции
 

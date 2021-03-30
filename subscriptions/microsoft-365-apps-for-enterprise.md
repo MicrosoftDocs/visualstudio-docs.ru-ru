@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
-ms.date: 06/24/2020
+ms.date: 03/21/2021
 ms.topic: how-to
 description: Сведения о преимуществе "Приложения Microsoft 365 для предприятий" и о его установке
-ms.openlocfilehash: d23f8cccd284972d05d7085aea7e0b1cab0f275d
-ms.sourcegitcommit: 29099741fcf94a5aef2655ee16605728b8b9a0ea
+ms.openlocfilehash: e1d629aae2d3c9e5d906a5593c287bd0b3250446
+ms.sourcegitcommit: d7d9fb79448b3534923cc95071d1f91eabde88e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96537829"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104776718"
 ---
 # <a name="microsoft-365-apps-for-enterprise-in-visual-studio-subscriptions"></a>Приложения Microsoft 365 для предприятий в подписках Visual Studio
 Преимущество "Приложения Microsoft 365 для предприятий" (ранее Office 365 профессиональный плюс) доступно в выбранных подписках Visual Studio. 
@@ -34,7 +34,7 @@ ms.locfileid: "96537829"
    > [!div class="mx-imgBorder"]
    > ![Сведения о клиенте для преимущества "Приложения Microsoft 365 для предприятий"](_img/microsoft-365-apps-for-enterprise/get-to-know-you.png "Укажите свои контактные данные.")
 
-1. В диалоговом окне "Создайте идентификатор пользователя" создайте имя пользователя и пароль для своего клиента, а затем нажмите **Создать учетную запись**.
+1. В диалоговом окне "Создайте идентификатор пользователя" укажите имя пользователя и пароль для своего клиента, а затем нажмите кнопку **Создать учетную запись**.
    > [!div class="mx-imgBorder"]
    > ![Создание идентификатора пользователя для преимущества "Приложения Microsoft 365 для предприятий"](_img/microsoft-365-apps-for-enterprise/create-your-user-id.png "Создайте идентификатор пользователя и пароль.")
 
@@ -74,7 +74,7 @@ ms.locfileid: "96537829"
 
 ## <a name="support-resources"></a>Ресурсы поддержки
 - Для получения технической поддержки по любому из компонентов преимущества "Приложения Microsoft 365 для предприятий" перейдите на страницу https://support.microsoft.com/allproducts и выберите продукт.
-- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://visualstudio.microsoft.com/subscriptions/support/) Visual Studio.
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок](https://aka.ms/vssubscriberhelp) Visual Studio.
 - У вас есть вопросы о среде IDE Visual Studio, Azure DevOps или других продуктах либо службах Visual Studio?  Перейдите на [страницу поддержки Visual Studio](https://visualstudio.microsoft.com/support/).
 
 ## <a name="see-also"></a>См. также

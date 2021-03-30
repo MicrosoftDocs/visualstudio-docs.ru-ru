@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
-ms.date: 10/26/2020
+ms.date: 03/19/2021
 ms.topic: how-to
 description: Узнайте, какие преимущества доступны в подписках и как их активировать.
-ms.openlocfilehash: 351d81f29d01ec8322fcd6602d3ac4afccdb8ca1
-ms.sourcegitcommit: 8efe6b45d65f9db23f5575c15155fe363fa12cdb
+ms.openlocfilehash: 13c0633c7d775b082bf10cf21421ec843092231d
+ms.sourcegitcommit: d8d230791890cda532c263d04288dc13d2261c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92750143"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104757637"
 ---
 # <a name="about-your-subscription-benefits"></a>Сведения о преимуществах в подписке
 Подписчикам Visual Studio доступны разные преимущества в зависимости от уровня подписки. Есть несколько важных моментов, которые следует учитывать при работе с преимуществами.
@@ -42,6 +42,9 @@ ms.locfileid: "92750143"
 
 ## <a name="benefits-that-become-temporarily-unavailable"></a>Временно недоступные преимущества
 Хотя это случается редко, но иногда из-за технических проблем преимущество может быть недоступным в течение короткого времени. В таких случаях мы изменим плитку преимущества на [портале Подписок на Visual Studio](https://my.visualstudio.com/benefits), чтобы проинформировать вас о том, что это преимущество временно недоступно. Когда проблема будет устранена, плитка вернется в исходное состояние, а преимущество снова станет доступным.
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vssubscriberhelp).
 
 ## <a name="see-also"></a>См. также
 - [Документация по Visual Studio](/visualstudio/)

@@ -11,14 +11,18 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 monikerRange: vs-2019
-ms.openlocfilehash: 1a94915748f6c7cedb19a0b27c67eb67d6086963
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ebd64a314f1c4d6afd7b6e6fcc3b38148ff68225
+ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99971145"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "104672973"
 ---
 # <a name="supported-visual-studio-features-preview"></a>Поддерживаемые функции Visual Studio (предварительная версия)
+
+> [!Important] 
+> По состоянию на 12 апреля 2021 г. подключение к GitHub Codespaces из Visual Studio 2019 больше не будет поддерживаться, и эта закрытая предварительная версия перестанет использоваться. Мы сосредоточены на разработке интерфейсов для облачных решений внутреннего цикла и VDI, оптимизированных для широкого спектра рабочих нагрузок Visual Studio. Рекомендуем следить за [форумом сообщества разработчиков](https://developercommunity.visualstudio.com/home) Visual Studio, чтобы получать информацию о будущих предварительных версиях и планах. 
+
 
 Visual Studio предоставляет богатый набор возможностей разработки при подключении к codespace. Вы получаете знакомые вам средства внутреннего цикла Visual Studio для редактирования, отладки, тестирования и управления версиями исходного кода, а также компоненты для повышения производительности, такие как шаблоны проектов, расширенная навигация по коду и IntelliSense.
 

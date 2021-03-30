@@ -4,15 +4,15 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 36f0d9f1-fe28-469f-a54c-dc46638270a8
-ms.date: 09/03/2020
+ms.date: 03/19/2021
 ms.topic: how-to
 description: Узнайте, как приобрести ежемесячные подписки Visual Studio с помощью портала администрирования подписок
-ms.openlocfilehash: f6b835969fff3a8316a2b46c6e15217ebe3e33b1
-ms.sourcegitcommit: a731a9454f1fa6bd9a18746d8d62fe2e85e5ddb1
+ms.openlocfilehash: 931f297a650926e4da5c13271a58091c9f00ddd3
+ms.sourcegitcommit: d8d230791890cda532c263d04288dc13d2261c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "92467600"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104757650"
 ---
 # <a name="add-new-monthly-visual-studio-subscriptions-to-the-subscriptions-administration-portal"></a>Добавление новых ежемесячных подписок Visual Studio на портале администрирования подписок
 При покупке новых ежемесячных подписок Visual Studio с использованием подписки Azure может потребоваться добавить их на портал администрирования подписок, чтобы назначить их пользователям.  
@@ -40,6 +40,9 @@ ms.locfileid: "92467600"
 ## <a name="things-to-keep-in-mind"></a>Важные аспекты
 - Возможность добавления новых ежемесячных подписок будет доступна только при первом их приобретении.  После добавления ежемесячных подписок мы проверяем наличие новых при каждом вашем входе на портал. 
 - При обнаружении новых подписок они могут быть уже назначены подписчикам.  Это связано с тем, что у вас есть другие администраторы с доступом к подписке Azure и они уже назначили новые подписки Visual Studio пользователям.  Теперь, когда вы также добавили их на портал, эти подписки можно администрировать. 
+
+## <a name="support-resources"></a>Ресурсы поддержки
+- По вопросам администрирования подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://aka.ms/vsadminhelp).
 
 ## <a name="next-steps"></a>Следующие шаги
 Теперь, когда вы добавили подписки, эти подписки можно назначить пользователям.  Это можно сделать несколькими способами:
