@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0c5ac6cf82d39790fa2d7762fea6b711a546da24
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 6f3932658442774ad6f54bd5e6243fe73679b38f
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105080753"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214035"
 ---
 # <a name="support-for-project-and-configuration-properties"></a>Поддержка свойств конфигурации и проекта
 Окно **Свойства** в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среде разработки (IDE) может отображать свойства проекта и конфигурации. Можно предоставить страницу свойств для собственного типа проекта, чтобы пользователь мог задать свойства приложения.
@@ -72,8 +72,8 @@ ms.locfileid: "105080753"
 ## <a name="provideobjectattribute-and-registry-path"></a>Провидеобжектаттрибуте и путь реестра
  Классы, производные от `SettingsPage` , предназначены для совместного использования в пакетах VSPackage. Чтобы пакет VSPackage может создать класс, производный от `SettingsPage` , добавьте `Microsoft.VisualStudio.Shell.ProvideObjectAttribute` в класс, производный от `Microsoft.VisualStudio.Shell.Package` .
 
- [!code-csharp[VSSDKSupportProjectConfigurationProperties#1](../../extensibility/internals/codesnippet/CSharp/support-for-project-and-configuration-properties_1.cs)]
- [!code-vb[VSSDKSupportProjectConfigurationProperties#1](../../extensibility/internals/codesnippet/VisualBasic/support-for-project-and-configuration-properties_1.vb)]
+ :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdksupportprojectconfigurationproperties/cs/vssdksupportprojectconfigurationpropertiespackage.cs" id="Snippet1":::
+ :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdksupportprojectconfigurationproperties/vb/vssdksupportprojectconfigurationpropertiespackage.vb" id="Snippet1":::
 
  Пакет VSPackage, к которому присоединен атрибут, не важен. При регистрации VSPackage с помощью [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] регистрируется идентификатор класса (CLSID) любого объекта, который может быть создан, чтобы <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry.CreateInstance%2A> можно было создать его.
 
@@ -87,12 +87,12 @@ ms.locfileid: "105080753"
 
  Рассмотрим следующий фрагмент кода:
 
- [!code-vb[VSSDKSupportProjectConfigurationProperties#2](../../extensibility/internals/codesnippet/VisualBasic/support-for-project-and-configuration-properties_2.vb)]
- [!code-csharp[VSSDKSupportProjectConfigurationProperties#2](../../extensibility/internals/codesnippet/CSharp/support-for-project-and-configuration-properties_2.cs)]
+ :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdksupportprojectconfigurationproperties/vb/myprojectpropertypage.vb" id="Snippet2":::
+ :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdksupportprojectconfigurationproperties/cs/myprojectpropertypage.cs" id="Snippet2":::
 
  `MyConfigProp`Свойство конфигурации отображается на странице свойств Конфигурация как **свойство config** в категории " **Моя Категория**". Если выбран этот параметр, описание « **мое описание**» отображается на панели «Описание».
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 - [Добавление и удаление страниц свойств](../../extensibility/adding-and-removing-property-pages.md)
 - [Проекты](../../extensibility/internals/projects.md)
 - [Файлы описания каталога шаблона (VSDIR-файлы)](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)

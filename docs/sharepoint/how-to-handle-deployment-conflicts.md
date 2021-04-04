@@ -11,12 +11,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 7c163aa10bdcb3ee28de6d6950dd15f85df876bc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b09db3fecde5d4b87b24963930b2783b0c68052c
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99885616"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106213983"
 ---
 # <a name="how-to-handle-deployment-conflicts"></a>Как справляться с конфликтами развертывания
   Можно предоставить собственный код для управления конфликтами развертывания для элемента проекта SharePoint. Например, можно определить, существуют ли уже какие-либо файлы текущего элемента проекта в расположении развертывания, а затем удалить развернутые файлы перед развертыванием текущего элемента проекта. Дополнительные сведения о конфликтах развертывания см. в разделе [Расширение упаковки и развертывания SharePoint](../sharepoint/extending-sharepoint-packaging-and-deployment.md).
@@ -44,8 +44,8 @@ ms.locfileid: "99885616"
 
  Для простоты в <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> обработчике событий в этом примере предполагается, что существует конфликт развертывания (то есть всегда добавляется новый <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentConflict> объект), а `Resolve` метод просто возвращает **значение true** , чтобы указать, что конфликт был разрешен. В реальной ситуации <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> обработчик событий сначала определит, существует ли конфликт между файлом в текущем элементе проекта и файлом в расположении развертывания, а затем добавить <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentConflict> объект, только если существует конфликт. Например, можно использовать `e.ProjectItem.Files` свойство в обработчике событий для анализа файлов в элементе проекта, а для анализа файлов в расположении развертывания можно вызвать команду SharePoint. Аналогично, в реальной ситуации `Resolve` метод может вызвать команду SharePoint для разрешения конфликта на сайте SharePoint. Дополнительные сведения о создании команд SharePoint см. [в разделе инструкции. Создание команды SharePoint](../sharepoint/how-to-create-a-sharepoint-command.md).
 
- [!code-vb[SPExtensibility.ProjectItemExtension.DeploymentConflict#1](../sharepoint/codesnippet/VisualBasic/deploymentconflict/extension/deploymentconflictextension.vb#1)]
- [!code-csharp[SPExtensibility.ProjectItemExtension.DeploymentConflict#1](../sharepoint/codesnippet/CSharp/deploymentconflict/extension/deploymentconflictextension.cs#1)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/deploymentconflict/extension/deploymentconflictextension.vb" id="Snippet1":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/deploymentconflict/extension/deploymentconflictextension.cs" id="Snippet1":::
 
 ## <a name="compile-the-code"></a>Компиляция кода
  Для этого примера требуются ссылки на следующие сборки:

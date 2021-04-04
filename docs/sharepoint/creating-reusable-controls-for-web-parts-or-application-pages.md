@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 01d8602971e2a89aef8cf8451d1273fa28c70f05
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b61474f4290771fb139d511296580ec1ef0f8820
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99949133"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106213918"
 ---
 # <a name="create-reusable-controls-for-web-parts-or-application-pages"></a>Создание многократно используемых элементов управления для веб-частей или страниц приложений
   Visual Studio позволяет создавать пользовательские элементы управления с возможностью повторного использования, которые можно размещать на страницах приложений и в веб-частях, используемых в SharePoint. Эти элементы управления называются пользовательскими. Пользовательский элемент управления — это своего рода составной элемент управления, который во многом работает так же, как веб-страница ASP.NET: вы можете добавлять в него существующие элементы управления веб-сервера и разметку, а также определять для него свойства и методы. Затем вы можете внедрять их в веб-страницы ASP.NET, где они будут действовать как единое целое.
@@ -47,8 +47,8 @@ ms.locfileid: "99949133"
 
  Чтобы включить пользовательский элемент управления в веб-часть, добавьте его в коллекцию <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> веб-части в файле кода веб-части. В следующем примере пользовательский элемент управления добавляется в коллекцию <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> веб-части.
 
- [!code-vb[SP_VisualWebPart#5](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1.vb#5)]
- [!code-csharp[SP_VisualWebPart#5](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1.cs#5)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1.vb" id="Snippet5":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1.cs" id="Snippet5":::
 
 ## <a name="debug-a-user-control"></a>Отладка пользовательского элемента управления
  Для отладки пользовательского элемента управления убедитесь, что он включен на странице приложения или в веб-части вашего проекта SharePoint. После этого можно отлаживать код в пользовательском элементе управления так же, как код в любом проекте Visual Studio.

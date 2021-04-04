@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a500d63eb497ce6d2b23860cd3793cbc2632b819
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: f9e69f635b18d4ed67b78751ac6179cad04f002c
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105078465"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217532"
 ---
 # <a name="walkthrough-highlight-text"></a>Пошаговое руководство. выделение текста
 Можно добавить различные визуальные эффекты в редактор, создав компоненты компонентов Managed Extensibility Framework (MEF). В этом пошаговом руководстве показано, как выделить каждое вхождение текущего слова в текстовом файле. Если слово встречается в текстовом файле более одного раза и курсор находится в одном месте, выделяется каждое вхождение.
@@ -201,8 +201,9 @@ ms.locfileid: "105078465"
 
 5. Также необходимо добавить `TagsChanged` событие, вызываемое методом Update.
 
-     [!code-csharp[VSSDKHighlightWordTest#10](../extensibility/codesnippet/CSharp/walkthrough-highlighting-text_1.cs)]
-     [!code-vb[VSSDKHighlightWordTest#10](../extensibility/codesnippet/VisualBasic/walkthrough-highlighting-text_1.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkhighlightwordtest/cs/highlightwordtag.cs" id="Snippet10":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkhighlightwordtest/vb/highlightwordtag.vb" id="Snippet10":::
+
 
 6. `UpdateAtCaretPosition()`Метод находит каждое слово в текстовом буфере, идентичное слову, где расположен курсор, и конструирует список <xref:Microsoft.VisualStudio.Text.SnapshotSpan> объектов, соответствующих вхождениям слова. Затем вызывается метод `SynchronousUpdate` , который вызывает `TagsChanged` событие.
 
@@ -407,5 +408,5 @@ ms.locfileid: "105078465"
 
 4. Поместите курсор в одно из вхождений "Hello". Каждое вхождение должно быть выделено синим цветом.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 - [Пошаговое руководство. Связывание типа содержимого с расширением имени файла](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

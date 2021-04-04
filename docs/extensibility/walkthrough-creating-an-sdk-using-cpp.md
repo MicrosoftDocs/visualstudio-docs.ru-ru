@@ -10,12 +10,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5d4baeb8a93a1bb5e70f3ee6266bb1a832a2a3fe
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 743759896bf1de104825825d450be081ab2cc666
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105080415"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217428"
 ---
 # <a name="walkthrough-create-an-sdk-using-c"></a>Пошаговое руководство. Создание пакета SDK с помощью C++
 В этом пошаговом руководстве показано, как создать собственный пакет SDK для математической библиотеки C++, упаковать пакет SDK как расширение Visual Studio (VSIX) и использовать его для создания приложения. Пошаговое руководство делится на следующие этапы.
@@ -37,11 +37,11 @@ ms.locfileid: "105080415"
 
 3. Обновите *нативемас. h* в соответствии с приведенным ниже кодом.
 
-     [!code-cpp[CreatingAnSDKUsingCpp#1](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_1.h)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemath/nativemath.h" id="Snippet1":::
 
 4. Обновите *нативемас. cpp* в соответствии с этим кодом:
 
-     [!code-cpp[CreatingAnSDKUsingCpp#2](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_2.cpp)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemath/nativemath.cpp" id="Snippet2":::
 
 5. В **Обозреватель решений** откройте контекстное меню **решения "нативемас"** и выберите команду **добавить**  >  **Новый проект**.
 
@@ -49,11 +49,11 @@ ms.locfileid: "105080415"
 
 7. Обновите *Class1. h* , чтобы он соответствовал этому коду:
 
-     [!code-cpp[CreatingAnSDKUsingCpp#3](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_3.h)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathwrt/class1.h" id="Snippet3":::
 
 8. Обновите *Class1. cpp* , чтобы он соответствовал этому коду:
 
-     [!code-cpp[CreatingAnSDKUsingCpp#4](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_4.cpp)]
+     :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathwrt/class1.cpp" id="Snippet4":::
 
 9. В строке меню последовательно выберите **Сборка** > **Собрать решение**.
 
@@ -67,7 +67,8 @@ ms.locfileid: "105080415"
 
 4. Используйте следующий XML-код, чтобы заменить существующий XML.
 
-    [!code-xml[CreatingAnSDKUsingCpp#6](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml)]
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathvsix/source.extension.vsixmanifest" id="Snippet6":::
+
 
 5. В **Обозреватель решений** откройте контекстное меню проекта **нативемасвсикс** и выберите команду **добавить**  >  **новый элемент**.
 
@@ -75,7 +76,7 @@ ms.locfileid: "105080415"
 
 7. Используйте этот XML-код для замены содержимого файла:
 
-     [!code-xml[CreatingAnSDKUsingCpp#5](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_5.xml)]
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcpp/cpp/nativemathvsix/sdkmanifest.xml" id="Snippet5":::
 
 8. В **Обозреватель решений** в проекте **нативемасвсикс** создайте следующую структуру папок:
 
@@ -108,8 +109,21 @@ ms.locfileid: "105080415"
      Скопируйте *$SolutionRoot $ \дебуг\нативемасврт\нативемасврт.при* и вставьте его в папку *$SolutionRoot $ \нативемасвсикс\референцес\коммонконфигуратион\неутрал* .
 
 11. В папке *$SolutionRoot $ \NativeMathVSIX\DesignTime\Debug\x86 \\* создайте текстовый файл с именем *нативемассдк. props*, а затем вставьте в него следующее содержимое:
-
-    [!code-xml[CreatingAnSDKUsingCpp#7](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml)]
+   
+    ```xml
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+      <PropertyGroup>
+        <NativeMathSDKPath>$(FrameworkSDKRoot)\..\..\UAP\v0.8.0.0\ExtensionSDKs\NativeMathSDK\1.0\</NativeMathSDKPath>
+        <IncludePath>$(NativeMathSDKPath)DesignTime\CommonConfiguration\Neutral\Include;$(IncludePath)</IncludePath>
+        <LibraryPath>$(NativeMathSDKPath)DesignTime\Debug\x86;$(LibraryPath)</LibraryPath>
+      </PropertyGroup>
+      <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+         <Link>
+           <AdditionalDependencies>NativeMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+         </Link>
+      </ItemDefinitionGroup>
+    </Project>
+    ```
 
 12. В строке меню выберите **Просмотреть**  >  **другие**  >  **окна свойств** Windows (клавиатура: нажмите клавишу **F4** ).
 
@@ -155,15 +169,15 @@ ms.locfileid: "105080415"
 
 6. В **Обозреватель решений** откройте **MainPage. XAML**, а затем используйте следующий XAML для замены его содержимого:
 
-    [!code-xml[CreatingAnSDKUsingCppDemoApp#1](../extensibility/codesnippet/Xaml/walkthrough-creating-an-sdk-using-cpp_8.xaml)]
+    :::code language="xml" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml" id="Snippet1":::
 
 7. Обновите *MainPage. XAML. h* , чтобы сопоставить этот код:
 
-    [!code-cpp[CreatingAnSDKUsingCppDemoApp#2](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_9.h)]
+    :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml.h" id="Snippet2":::
 
 8. Обновите *MainPage. XAML. cpp* , чтобы сопоставить этот код:
 
-     [!code-cpp[CreatingAnSDKUsingCppDemoApp#3](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_10.cpp)]
+    :::code language="cpp" source="../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml.cpp" id="Snippet3":::
 
 9. Нажмите клавишу **F5** , чтобы запустить приложение.
 
