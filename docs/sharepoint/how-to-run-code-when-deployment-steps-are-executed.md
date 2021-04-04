@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0b3037c0ec983b9f496947feba41938111fafc38
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 74db1b73dded52ba15ea860873c49c0264f7fea7
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851586"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214412"
 ---
 # <a name="how-to-run-code-when-deployment-steps-are-executed"></a>Инструкции. выполнение кода при выполнении шагов развертывания
   Если требуется выполнить дополнительные задачи для шага развертывания в проекте SharePoint, можно обработать события, вызываемые элементами проекта SharePoint до и после того, как Visual Studio выполнит каждый шаг развертывания. Дополнительные сведения см. в разделе [Расширение упаковки и развертывания SharePoint](../sharepoint/extending-sharepoint-packaging-and-deployment.md).
@@ -41,8 +41,8 @@ ms.locfileid: "99851586"
 ## <a name="example"></a>Пример
  В следующем примере кода показано, как управлять <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepCompleted> событиями и в расширении для элемента проекта экземпляра списка. Это расширение записывает дополнительное сообщение в окно **вывода** , когда Visual Studio перезапускает пул приложений при развертывании и отзыве решения.
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#4](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/handledeploymentstepevents.vb#4)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#4](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/handledeploymentstepevents.cs#4)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/handledeploymentstepevents.vb" id="Snippet4":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/handledeploymentstepevents.cs" id="Snippet4":::
 
 ## <a name="compile-the-code"></a>Компиляция кода
  Для этого примера требуются ссылки на следующие сборки:

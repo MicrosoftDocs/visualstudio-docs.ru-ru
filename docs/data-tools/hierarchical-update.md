@@ -23,12 +23,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 05575e6cc75468a85a3dd410ea59bebca79eee0f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d43d4267ce0e180a525e990e372b7a6773a9cc51
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99858843"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106215816"
 ---
 # <a name="hierarchical-update"></a>Иерархическое обновление
 
@@ -93,8 +93,8 @@ ms.locfileid: "99858843"
 
 2. Добавьте строку кода для вызова метода `OrdersBindingSource.EndEdit` после строки, вызывающей метод `CustomersBindingSource.EndEdit`. Код в событии нажатия кнопки **Сохранить** должен выглядеть примерно следующим образом:
 
-     [!code-vb[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/VisualBasic/hierarchical-update_1.vb)]
-     [!code-csharp[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/CSharp/hierarchical-update_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/VB/Form1.vb" id="Snippet1":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/CS/Form1.cs" id="Snippet1":::
 
 Кроме фиксации изменений в связанной дочерней таблице перед сохранением данных в базе данных, вам также может понадобиться фиксировать недавно созданные родительские записи перед добавлением новых дочерних записей в базу данных. Иными словами, может потребоваться добавить новую родительскую запись ( `Customer` ) к набору данных до того, как ограничения внешнего ключа позволят добавить новые дочерние записи ( `Orders` ) в набор данных. Для этого можно использовать дочернее событие `BindingSource.AddingNew`.
 
@@ -109,8 +109,8 @@ ms.locfileid: "99858843"
 
 2. Добавьте строку кода в обработчик событий, который вызывает `CustomersBindingSource.EndEdit` метод. Код в обработчике событий `OrdersBindingSource_AddingNew` должен выглядеть примерно следующим образом:
 
-     [!code-vb[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/VisualBasic/hierarchical-update_2.vb)]
-     [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/CSharp/hierarchical-update_2.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/VB/Form1.vb" id="Snippet2":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/CS/Form1.cs" id="Snippet2":::
 
 ## <a name="tableadaptermanager-reference"></a>Справочник по TableAdapterManager
 

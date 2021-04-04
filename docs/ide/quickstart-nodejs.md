@@ -2,7 +2,7 @@
 title: Создание первого приложения Node.js
 ms.custom: SEO-VS-2020
 description: В этом кратком руководстве вы создадите приложение Node.js в Visual Studio.
-ms.date: 06/27/2018
+ms.date: 03/25/2021
 ms.technology: vs-javascript
 ms.topic: quickstart
 ms.devlang: javascript
@@ -14,12 +14,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: c342018a2331b27a411b5efc23af1438fa18518d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ecd65c0348ac16a2097061726e3896961ae04482
+ms.sourcegitcommit: 00e16b9afe6b22ba0591e4d0d92690544e6d4357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99932622"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "105617056"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-nodejs-app"></a>Краткое руководство. Создание первого приложения Node.js с помощью Visual Studio
 
@@ -115,5 +115,8 @@ ms.locfileid: "99932622"
 > [!div class="nextstepaction"]
 > [Развертывание приложения в службе приложений Linux](../javascript/publish-nodejs-app-azure.md)
 
-- [Руководство по Node.js и выпуску Express](../javascript/tutorial-nodejs.md)
-- [Руководство по Node.js и React](../javascript/tutorial-nodejs-with-react-and-jsx.md)
+> [!div class="nextstepaction"]
+> [Руководство по Node.js и выпуску Express](../javascript/tutorial-nodejs.md)
+
+> [!div class="nextstepaction"]
+> [Руководство по Node.js и React](../javascript/tutorial-nodejs-with-react-and-jsx.md)

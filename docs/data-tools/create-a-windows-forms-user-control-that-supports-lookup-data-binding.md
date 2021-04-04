@@ -17,12 +17,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 0eeb3e768370066bf93afc766d4d7f67d8d39a1d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 796fc389a7cd7d0c587f955792a96d0f2f07a20c
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99859077"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106215972"
 ---
 # <a name="create-a-windows-forms-user-control-that-supports-lookup-data-binding"></a>Создание пользовательского элемента управления Windows Forms с подстановочной привязкой данных
 
@@ -110,8 +110,8 @@ ms.locfileid: "99859077"
 
 2. Замените код в `LookupBox` следующим кодом:
 
-     [!code-vb[VbRaddataDisplaying#5](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.vb)]
-     [!code-csharp[VbRaddataDisplaying#5](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb" id="Snippet5":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/LookupBox.cs" id="Snippet5":::
 
 3. В меню **Построение** выберите пункт **Построить решение**.
 
@@ -157,7 +157,7 @@ ms.locfileid: "99859077"
 
 6. Выберите **LookupBox** в списке **Связанные элементы управления** диалогового окна **Настройка данных интерфейса пользователя**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
 8. Щелкните стрелку раскрывающегося списка в столбце **CustomerID** и выберите **LookupBox**.
 

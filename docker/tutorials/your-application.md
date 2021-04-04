@@ -9,12 +9,12 @@ ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
 - azure
-ms.openlocfilehash: f5f5fdd51e4aa13df66470534303f7fba19e44ab
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1b92792cf9db0090c52f583754e56c306e6d7234
+ms.sourcegitcommit: 155d5f0fd54ac1d20df2f5b0245365924faa3565
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99841670"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106082582"
 ---
 # <a name="build-and-run-the-todo-sample-app"></a>Сборка и запуск примера приложения Todo
 
@@ -30,7 +30,7 @@ ms.locfileid: "99841670"
 
 1. Убедитесь, что на локальном компьютере установлен Docker для Windows или Docker Community Edition. См. [документацию по установке Docker для Windows](https://docs.docker.com/docker-for-windows/install/). Процесс установки создает ZIP-файл, содержащий пример, доступный по адресу localhost.
 
-1. [Скачайте ZIP-файл](http://localhost/assets/app.zip). Откройте ZIP-файл и извлеките его содержимое.
+1. [Скачайте ZIP-файл](https://github.com/docker/getting-started/tree/master/app). Откройте ZIP-файл и извлеките его содержимое.
 
 1. После извлечения используйте любой редактор кода, чтобы открыть проект. Если вам требуется редактор, можно использовать [Visual Studio Code](https://code.visualstudio.com/). Вы должны увидеть `package.json` и два подкаталога (`src` и `spec`).
 

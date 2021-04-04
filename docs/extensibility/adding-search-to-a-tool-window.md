@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 82176afaacae3b9f4553c8b1b5b41b9a4f10dace
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: ca1998b5ca3ad78b269c50244ddf51796c9e4005
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105097556"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106215530"
 ---
 # <a name="add-search-to-a-tool-window"></a>Добавление поиска в окно инструментов
 При создании или обновлении окна инструментов в расширении можно добавить те же функциональные возможности поиска, которые появляются в Visual Studio в других местах. Эта функция включает следующие функции:
@@ -79,8 +79,8 @@ ms.locfileid: "105097556"
 
      Этот код добавляет открытое <xref:System.Windows.Controls.TextBox> свойство с именем **сеарчресултстекстбокс** и общедоступное строковое свойство с именем **сеарчконтент**. В конструкторе Сеарчресултстекстбокс устанавливается в текстовое поле, а Сеарчконтент инициализируется набором строк, разделенных символами новой строки. Содержимое текстового поля также инициализируется набором строк.
 
-     [!code-csharp[ToolWindowSearch#1](../extensibility/codesnippet/CSharp/adding-search-to-a-tool-window_1.cs)]
-     [!code-vb[ToolWindowSearch#1](../extensibility/codesnippet/VisualBasic/adding-search-to-a-tool-window_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/toolwindowsearch/cs/mycontrol.xaml.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/toolwindowsearch/vb/mycontrol.xaml.vb" id="Snippet1":::
 
 5. Выполните сборку решения и запустите отладку. Откроется экспериментальный экземпляр Visual Studio.
 

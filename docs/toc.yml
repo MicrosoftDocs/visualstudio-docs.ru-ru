@@ -906,6 +906,7 @@
 - name: Отладка >>
   href: debugger/index.yml
 - name: Управление версиями
+  expanded: true
   items:
     - name: Новый интерфейс Git в Visual Studio
       href: ide/git-with-visual-studio.md
