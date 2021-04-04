@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: bc664a50fc307c59d5c168b26c8af1bc6181ebad
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 13a2f2c147bbf175a7601cd465dc8acbba9b5388
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99918717"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217753"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-2"></a>Пошаговое руководство. Создание элемента проекта столбца сайта с помощью шаблона проекта, часть 2
   После определения пользовательского типа элемента проекта SharePoint и связывания его с шаблоном проекта в Visual Studio может также потребоваться создать мастер для шаблона. Мастер можно использовать для получения сведений от пользователей, если они используют шаблон для создания нового проекта, содержащего элемент проекта. Собранные сведения можно использовать для инициализации элемента проекта.
@@ -204,22 +204,22 @@ ms.locfileid: "99918717"
 
 1. В проекте Прожекттемплатевизард откройте файл кода Коммандидс и замените все содержимое этого файла следующим кодом.
 
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#5](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/commandids.cs#5)]
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#5](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/commandids.vb#5)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/commandids.cs" id="Snippet5":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/commandids.vb" id="Snippet5":::
 
 #### <a name="to-create-the-wizard-model"></a>Создание модели мастера
 
 1. Откройте файл кода Ситеколумнвизардмодел и замените все содержимое этого файла следующим кодом.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#6](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/sitecolumnwizardmodel.vb#6)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#6](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/sitecolumnwizardmodel.cs#6)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/sitecolumnwizardmodel.vb" id="Snippet6":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/sitecolumnwizardmodel.cs" id="Snippet6":::
 
 #### <a name="to-create-the-project-signing-manager"></a>Создание диспетчера подписывания проекта
 
 1. Откройте файл кода Прожектсигнингманажер и замените все содержимое этого файла следующим кодом.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#8](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.vb#8)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#8](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.cs#8)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.vb" id="Snippet8":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.cs" id="Snippet8":::
 
 ## <a name="create-the-wizard-ui"></a>Создание пользовательского интерфейса мастера
  Добавьте XAML, чтобы определить пользовательский интерфейс окна мастера и два пользовательских элемента управления, которые предоставляют пользовательский интерфейс для страниц мастера, и добавьте код для определения поведения окна и пользовательских элементов управления. Создаваемый Мастер напоминает встроенный мастер для проектов SharePoint в Visual Studio.
@@ -233,7 +233,7 @@ ms.locfileid: "99918717"
 
 2. В представлении XAML конструктора замените текущий код XAML следующим кодом XAML. XAML определяет пользовательский интерфейс, включающий заголовок, объект <xref:System.Windows.Controls.Grid> , содержащий страницы мастера, и кнопки навигации в нижней части окна.
 
-     [!code-xml[SPExtensibility.ProjectItem.SiteColumn#10](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml#10)]
+     :::code language="xml" source="../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml" id="Snippet10":::
 
     > [!NOTE]
     > Окно, созданное в этом XAML, является производным от <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> базового класса. При добавлении пользовательского диалогового окна WPF в Visual Studio рекомендуется создать производное диалоговое окно от этого класса, чтобы обеспечить единообразное оформление с помощью других диалоговых окон Visual Studio и избежать проблем модального диалогового окна, которые могут возникнуть в противном случае. Дополнительные сведения см. в разделе [Создание модальных диалоговых окон и управление ими](../extensibility/creating-and-managing-modal-dialog-boxes.md).
@@ -248,8 +248,8 @@ ms.locfileid: "99918717"
 
 5. Замените содержимое этого файла, за исключением `using` объявлений в верхней части файла, на следующий код.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#4](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.vb#4)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#4](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.cs#4)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.vb" id="Snippet4":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.cs" id="Snippet4":::
 
 #### <a name="to-create-the-first-wizard-page-ui"></a>Создание первого пользовательского интерфейса страницы мастера
 
@@ -257,7 +257,7 @@ ms.locfileid: "99918717"
 
 2. В представлении XAML конструктора замените текущий код XAML следующим кодом XAML. XAML определяет пользовательский интерфейс, содержащий текстовое поле, в котором пользователи могут ввести URL-адрес локальных сайтов, которые будут использоваться для отладки. Пользовательский интерфейс также включает переключатели, с помощью которых пользователи могут указать, является ли проект изолированным.
 
-     [!code-xml[SPExtensibility.ProjectItem.SiteColumn#11](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/page1.xaml#11)]
+     :::code language="xml" source="../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/page1.xaml" id="Snippet11":::
 
 3. При разработке проекта Visual Basic удалите `ProjectTemplateWizard` пространство имен из `Page1` имени класса в `x:Class` атрибуте `UserControl` элемента. Он находится в первой строке XAML. По завершении первая строка должна выглядеть следующим образом.
 
@@ -267,8 +267,8 @@ ms.locfileid: "99918717"
 
 4. Замените содержимое файла «файл кода. XAML», за исключением `using` объявлений в верхней части файла, следующим кодом.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#2](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.vb#2)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#2](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.cs" id="Snippet2":::
 
 #### <a name="to-create-the-second-wizard-page-ui"></a>Создание второго пользовательского интерфейса страницы мастера
 
@@ -278,7 +278,7 @@ ms.locfileid: "99918717"
 
 2. В представлении XAML замените текущий код XAML следующим кодом XAML. XAML определяет пользовательский интерфейс, который включает раскрывающийся список для выбора базового типа столбца сайта, поле со списком для указания встроенной или пользовательской группы, в которой будет отображаться столбец сайта в коллекции, и текстовое поле для указания имени столбца сайта.
 
-     [!code-xml[SPExtensibility.ProjectItem.SiteColumn#12](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/page2.xaml#12)]
+     :::code language="xml" source="../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/page2.xaml" id="Snippet12":::
 
 3. При разработке проекта Visual Basic удалите `ProjectTemplateWizard` пространство имен из `Page2` имени класса в `x:Class` атрибуте `UserControl` элемента. Он находится в первой строке XAML. По завершении первая строка должна выглядеть следующим образом.
 
@@ -288,8 +288,8 @@ ms.locfileid: "99918717"
 
 4. Замените содержимое файла кода программной части для файла Page2. XAML, за исключением `using` объявлений в верхней части файла, следующим кодом.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#3](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page2.xaml.vb#3)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#3](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page2.xaml.cs#3)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page2.xaml.vb" id="Snippet3":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page2.xaml.cs" id="Snippet3":::
 
 ## <a name="implement-the-wizard"></a>Реализация мастера
  Определите основные функциональные возможности мастера, реализовав <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> интерфейс. Этот интерфейс определяет методы, которые Visual Studio вызывает при запуске и завершении работы мастера, а также в определенные моменты времени при запуске мастера.
@@ -300,8 +300,8 @@ ms.locfileid: "99918717"
 
 2. Замените все содержимое этого файла следующим кодом.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#7](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/sitecolumnprojectwizard.vb#7)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#7](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/sitecolumnprojectwizard.cs#7)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/sitecolumnprojectwizard.vb" id="Snippet7":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/sitecolumnprojectwizard.cs" id="Snippet7":::
 
 ## <a name="create-the-sharepoint-commands"></a>Создание команд SharePoint
  Создайте две пользовательские команды, вызывающие объектную модель сервера SharePoint. Одна команда определяет, является ли допустимым URL-адрес сайта, который пользователь вводит в мастере. Вторая команда получает все типы полей с указанного сайта SharePoint, чтобы пользователи могли выбрать, какой из них будет использоваться в качестве базового для нового столбца сайта.
@@ -312,8 +312,8 @@ ms.locfileid: "99918717"
 
 2. Замените все содержимое этого файла следующим кодом.
 
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#9](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/sharepointcommands/commands.vb#9)]
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#9](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/sharepointcommands/commands.cs#9)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/sharepointcommands/commands.vb" id="Snippet9":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/sharepointcommands/commands.cs" id="Snippet9":::
 
 ## <a name="checkpoint"></a>Контрольная точка
  На этом этапе в пошаговом руководстве весь код для мастера теперь находится в проекте. Выполните сборку проекта, чтобы убедиться, что компиляция выполняется без ошибок.
@@ -337,7 +337,7 @@ ms.locfileid: "99918717"
     <ProjectItem ReplaceParameters="false" TargetFileName="key.snk">key.snk</ProjectItem>
     ```
 
-4. Сохраните и закройте файл.
+4. Сохраните файл и закройте его.
 
 5. В узле **ситеколумнпрожекттемплате** откройте файл ProjectTemplate. csproj или ProjectTemplate. vbproj, а затем удалите `PropertyGroup` из него следующий элемент.
 
@@ -354,7 +354,7 @@ ms.locfileid: "99918717"
     <None Include="key.snk" />
     ```
 
-7. Сохраните и закройте файл.
+7. Сохраните файл и закройте его.
 
 ## <a name="associating-the-wizard-with-the-project-template"></a>Связывание мастера с шаблоном проекта
  После реализации мастера необходимо связать мастер с шаблоном проекта **столбца сайта** . Для этого необходимо выполнить три процедуры.
@@ -408,7 +408,7 @@ ms.locfileid: "99918717"
 
      Дополнительные сведения об `WizardExtension` элементе см. в разделе [визардекстенсион element &#40;Visual Studio templates&#41;](../extensibility/wizardextension-element-visual-studio-templates.md).
 
-3. Сохраните и закройте файл.
+3. Сохраните файл и закройте его.
 
 ## <a name="add-replaceable-parameters-to-the-elementsxml-file-in-the-project-template"></a>Добавление заменяемых параметров в файл Elements.xml в шаблоне проекта
  Добавьте несколько заменяемых параметров в файл *Elements.xml* в проекте ситеколумнпрожекттемплате. Эти параметры инициализируются в `RunStarted` методе `SiteColumnProjectWizard` класса, который был определен ранее. Когда пользователь создает проект столбца сайта, Visual Studio автоматически заменяет эти параметры в файле *Elements.xml* в новом проекте значениями, указанными в мастере.
@@ -433,7 +433,7 @@ ms.locfileid: "99918717"
 
      Новый XML изменяет значения `Name` `DisplayName` атрибутов,, `Type` и `Group` на настраиваемые заменяемые параметры.
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 ## <a name="add-the-wizard-to-the-vsix-package"></a>Добавление мастера в пакет VSIX
  Чтобы развернуть мастер с помощью пакета VSIX, содержащего шаблон проекта столбца сайта, добавьте ссылки на проект мастера и проект команд SharePoint в файл Source. extension. vsixmanifest в проекте VSIX.

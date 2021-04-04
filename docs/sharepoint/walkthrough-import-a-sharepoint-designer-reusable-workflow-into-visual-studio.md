@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: d4c12626550e36acc1a135258750f2d96ac5e81d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0c78a7b1ea0e8de96146367782d9de274f413a5f
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952594"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217610"
 ---
 # <a name="walkthrough-import-a-sharepoint-designer-reusable-workflow"></a>Пошаговое руководство. Импорт рабочего процесса для повторного использования в SharePoint Designer
 
@@ -216,13 +216,13 @@ ms.locfileid: "99952594"
 
 15. Добавьте следующий фрагмент в существующие директивы **using** или **Imports** :
 
-     [!code-csharp[SP_SPDWFImport#1](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#1)]
-     [!code-vb[SP_SPDWFImport#1](../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb" id="Snippet1":::
 
 16. Замените на `codeActivity1_ExecuteCode` следующий:
 
-     [!code-csharp[SP_SPDWFImport#2](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#2)]
-     [!code-vb[SP_SPDWFImport#2](../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb" id="Snippet2":::
 
 ## <a name="deploy-the-project-and-associate-the-workflow"></a>Развертывание проекта и связывание рабочего процесса
  Затем запустите WorkflowImportProject1, чтобы развернуть его на сайте SharePoint, а затем свяжите рабочий процесс с списком задач, чтобы просмотреть и протестировать измененный, преобразованный рабочий процесс.

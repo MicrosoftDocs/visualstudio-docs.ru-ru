@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 4fe2da1bc6aefefb92fbd6f7d11613372b8b7742
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 47fcc7e388f240d8b9636a733df4b6b8767f0df4
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99879700"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106218013"
 ---
 # <a name="how-to-add-a-filter-descriptor-to-a-finder-method"></a>Как добавить дескриптор фильтра в метод Finder
   Дескрипторы фильтров позволяют потребителям модели передавать значения методам перед их выполнением. Дополнительные сведения см. в разделе [Проектирование модели подключения к бизнес-данным](../sharepoint/designing-a-business-data-connectivity-model.md).
@@ -66,8 +66,8 @@ ms.locfileid: "99879700"
     > [!NOTE]
     > Замените значение `ServerName` поля именем сервера.
 
-     [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
-     [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs" id="Snippet11":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
 
 ## <a name="see-also"></a>См. также раздел
 - [Как добавить метод Finder](../sharepoint/how-to-add-a-finder-method.md)

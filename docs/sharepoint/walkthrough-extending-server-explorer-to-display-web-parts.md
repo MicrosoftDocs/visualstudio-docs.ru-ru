@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: aa190ea6d5376c00584cc5936d1074d245b9509e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 276315b7f470777da30fda33b15bac995deb07fd
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952672"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217675"
 ---
 # <a name="walkthrough-extend-server-explorer-to-display-web-parts"></a>Пошаговое руководство. расширение обозреватель сервера для показа веб-частей
   В Visual Studio можно использовать узел **подключения SharePoint** **Обозреватель сервера** для просмотра компонентов на сайтах SharePoint. Однако по умолчанию **Обозреватель сервера** не отображает некоторые компоненты. В этом пошаговом руководстве вы расширяете **Обозреватель сервера** , чтобы на каждом подключенном сайте SharePoint отображалась Галерея веб-частей.
@@ -216,8 +216,8 @@ ms.locfileid: "99952672"
     > [!NOTE]
     > После добавления этого кода в проекте будут обнаружены ошибки компиляции, но они исчезнут при добавлении кода в последующих шагах.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/sitenodeextension.cs#1)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/sitenodeextension.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/sitenodeextension.vb" id="Snippet1":::
 
 ## <a name="define-a-node-type-that-represents-a-web-part"></a>Определение типа узла, представляющего веб-часть
  Создайте класс, определяющий новый тип узла, представляющий веб-часть. Visual Studio использует этот новый тип узла для отображения дочерних узлов в узле **коллекции веб-частей** . Каждый дочерний узел представляет отдельную веб-часть на сайте SharePoint.
@@ -228,8 +228,8 @@ ms.locfileid: "99952672"
 
 1. В проекте Вебпартнодикстенсион откройте файл кода Вебпартнодетипепровдер и вставьте в него следующий код.
 
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#2](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb#2)]
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#2](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodetypeprovider.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodetypeprovider.cs" id="Snippet2":::
 
 ## <a name="define-the-web-part-data-class"></a>Определение класса данных веб-части
  Определите класс, содержащий данные об отдельной веб-части на сайте SharePoint. Далее в этом пошаговом руководстве вы создадите пользовательскую команду SharePoint, которая извлекает данные о каждой веб-части на сайте, а затем назначает данные экземплярам этого класса.
@@ -238,8 +238,8 @@ ms.locfileid: "99952672"
 
 1. В проекте Вебпартнодикстенсион откройте файл кода Вебпартнодеинфо и вставьте в него следующий код.
 
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodeinfo.vb#3)]
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodeinfo.cs#3)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodeinfo.vb" id="Snippet3":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodeinfo.cs" id="Snippet3":::
 
 ## <a name="define-the-ids-for-the-sharepoint-commands"></a>Определение идентификаторов для команд SharePoint
  Определите несколько строк, которые определяют пользовательские команды SharePoint. Эти команды будут реализованы далее в этом пошаговом руководстве.
@@ -248,8 +248,8 @@ ms.locfileid: "99952672"
 
 1. В проекте Вебпартнодикстенсион откройте файл кода Вебпарткоммандидс и вставьте в него следующий код.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#4](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartcommandids.cs#4)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#4](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartcommandids.vb#4)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartcommandids.cs" id="Snippet4":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartcommandids.vb" id="Snippet4":::
 
 ## <a name="create-the-custom-sharepoint-commands"></a>Создание настраиваемых команд SharePoint
  Создайте пользовательские команды, вызывающие объектную модель сервера для SharePoint, чтобы получить данные о веб-части на сайте SharePoint. Каждая команда — это метод, к которому <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> применен объект.
@@ -258,8 +258,8 @@ ms.locfileid: "99952672"
 
 1. В проекте Вебпарткоммандс откройте файл кода Вебпарткоммандс и вставьте в него следующий код.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#6](../sharepoint/codesnippet/CSharp/WebPartNode/WebPartCommands/WebPartCommands.cs#6)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#6](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartcommands/webpartcommands.vb#6)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/WebPartNode/WebPartCommands/WebPartCommands.cs" id="Snippet6":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartcommands/webpartcommands.vb" id="Snippet6":::
 
 ## <a name="checkpoint"></a>Контрольная точка
  На этом этапе в этом пошаговом руководстве весь код узла **коллекции веб-частей** и команд SharePoint теперь находится в проектах. Выполните сборку решения, чтобы обеспечить компиляцию обоих проектов без ошибок.

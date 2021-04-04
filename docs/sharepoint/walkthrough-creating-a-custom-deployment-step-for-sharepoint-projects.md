@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 8d42726cddb0565af66e161b41c16c94cfe2cb2b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 77c80134ad63346b363c072ef2eff7e49978501f
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839140"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217935"
 ---
 # <a name="walkthrough-create-a-custom-deployment-step-for-sharepoint-projects"></a>Пошаговое руководство. Создание настраиваемого шага развертывания для проектов SharePoint
   При развертывании проекта SharePoint Visual Studio выполняет ряд шагов по развертыванию в определенном порядке. Visual Studio включает множество встроенных шагов по развертыванию, но вы также можете создать собственный.
@@ -151,8 +151,8 @@ ms.locfileid: "99839140"
     > [!NOTE]
     > После добавления этого кода в проекте будут обнаружены ошибки компиляции, но они исчезнут при добавлении кода в последующих шагах.
 
-     [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#1](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/upgradestep.cs#1)]
-     [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#1](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/upgradestep.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/upgradestep.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/upgradestep.vb" id="Snippet1":::
 
 ## <a name="create-a-deployment-configuration-that-includes-the-custom-deployment-step"></a>Создание конфигурации развертывания, включающей этап настраиваемого развертывания
  Создайте расширение проекта для новой конфигурации развертывания, включающее несколько встроенных шагов развертывания и новый шаг развертывания обновления. Создавая это расширение, вы помогаете разработчикам SharePoint использовать шаг развертывания обновления в проектах SharePoint.
@@ -163,8 +163,8 @@ ms.locfileid: "99839140"
 
 1. В проекте **деплойментстепекстенсион** откройте файл кода деплойментконфигуратионекстенсион и вставьте в него следующий код.
 
-     [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#2](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/deploymentconfigurationextension.cs#2)]
-     [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#2](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/deploymentconfigurationextension.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/deploymentconfigurationextension.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/deploymentconfigurationextension.vb" id="Snippet2":::
 
 ## <a name="create-the-custom-sharepoint-commands"></a>Создание настраиваемых команд SharePoint
  Создайте две пользовательские команды, вызывающие серверную объектную модель для SharePoint. Одна команда определяет, было ли уже развернуто решение. другая команда обновляет решение.
@@ -173,8 +173,8 @@ ms.locfileid: "99839140"
 
 1. В проекте **шарепоинткоммандс** откройте файл кода Commands и вставьте в него следующий код.
 
-     [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#4](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/SharePointCommands/Commands.cs#4)]
-     [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#4](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/sharepointcommands/commands.vb#4)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/SharePointCommands/Commands.cs" id="Snippet4":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/sharepointcommands/commands.vb" id="Snippet4":::
 
 ## <a name="checkpoint"></a>Контрольная точка
  На этом этапе в этом пошаговом руководстве весь код для этапа настраиваемого развертывания и команды SharePoint теперь находятся в проектах. Создайте их, чтобы убедиться, что они компилируются без ошибок.

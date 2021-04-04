@@ -13,12 +13,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: e4853dfbffdf07d3b605b13c5fce749a30285c27
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: daf4f722eb51a08e7a6ddb287e5b54956ecdfe73
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99866337"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216024"
 ---
 # <a name="typed-vs-untyped-datasets"></a>Типизированные и нетипизированные наборы данных
 Типизированный набор данных — это набор данных, который сначала является производным от базового <xref:System.Data.DataSet> класса, а затем использует сведения из **Конструктор наборов данных**, которые хранятся в XSD-файле, для создания нового строго типизированного класса DataSet. Сведения из схемы (таблицы, столбцы и т. д.) создаются и компилируются в этот новый класс DataSet в виде набора объектов и свойств первого класса. Поскольку типизированный набор данных наследуется от базового <xref:System.Data.DataSet> класса, типизированный класс предполагает все функциональные возможности <xref:System.Data.DataSet> класса и может использоваться с методами, принимающими экземпляр <xref:System.Data.DataSet> класса в качестве параметра.
@@ -28,13 +28,13 @@ ms.locfileid: "99866337"
 ## <a name="contrast-data-access-in-typed-and-untyped-datasets"></a>Сравните доступ к данным в типизированных и нетипизированных наборах данных
 Класс для типизированного набора данных имеет объектную модель, в которой ее свойства принимают фактические имена таблиц и столбцов. Например, при работе с типизированным набором данных можно ссылаться на столбец с помощью следующего кода:
 
-[!code-csharp[VbRaddataDatasets#4](../data-tools/codesnippet/CSharp/typed-vs-untyped-datasets_1.cs)]
-[!code-vb[VbRaddataDatasets#4](../data-tools/codesnippet/VisualBasic/typed-vs-untyped-datasets_1.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs" id="Snippet4":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb" id="Snippet4":::
 
 В отличие от этого, при работе с нетипизированным набором данных эквивалентный код будет следующим:
 
-[!code-csharp[VbRaddataDatasets#5](../data-tools/codesnippet/CSharp/typed-vs-untyped-datasets_2.cs)]
-[!code-vb[VbRaddataDatasets#5](../data-tools/codesnippet/VisualBasic/typed-vs-untyped-datasets_2.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs" id="Snippet5":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb" id="Snippet5":::
 
 Типизированный доступ не только упрощает чтение, но и полностью поддерживается технологией IntelliSense в **редакторе кода** Visual Studio. Помимо упрощения работы с, синтаксис типизированного набора данных обеспечивает проверку типов во время компиляции, что значительно сокращает вероятность ошибок при присвоении значений элементам набора данных. Если изменить имя столбца в <xref:System.Data.DataSet> классе, а затем скомпилировать приложение, появится сообщение об ошибке сборки. Дважды щелкнув ошибку сборки в **список задач**, можно перейти непосредственно к строке или строкам кода, ссылающимся на старое имя столбца. Доступ к таблицам и столбцам в типизированном наборе данных также выполняется немного быстрее во время выполнения, так как доступ определяется во время компиляции, а не через коллекции во время выполнения.
 

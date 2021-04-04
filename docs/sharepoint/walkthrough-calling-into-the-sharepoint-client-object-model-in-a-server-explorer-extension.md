@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: a095e9d1e8fc48500bceac06732150a3067e2dd2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dee53642e042c8d4db88bdba7c093f327527798d
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937684"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217025"
 ---
 # <a name="walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension"></a>Пошаговое руководство. вызов клиентской объектной модели SharePoint в расширении обозреватель сервера
   В этом пошаговом руководстве показано, как вызвать клиентскую объектную модель SharePoint из расширения для узла **подключений SharePoint** в **Обозреватель сервера**. Дополнительные сведения об использовании объектной модели клиента SharePoint см. в разделе [Вызов объектных моделей SharePoint](../sharepoint/calling-into-the-sharepoint-object-models.md).
@@ -166,8 +166,8 @@ ms.locfileid: "99937684"
     > [!NOTE]
     > После добавления этого кода в проекте будут обнаружены ошибки компиляции. Эти ошибки исчезнут при добавлении кода в последующих шагах.
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNode#1](../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/sitenodeextension.cs#1)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNode#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/sitenodeextension.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/sitenodeextension.vb" id="Snippet1":::
 
 ## <a name="define-a-node-type-that-represents-a-web-part"></a>Определение типа узла, представляющего веб-часть
  Создайте класс, определяющий новый тип узла, представляющий веб-часть. Visual Studio использует этот новый тип узла для отображения дочерних узлов в узле **коллекции веб-частей** . Каждый из этих дочерних узлов представляет собой отдельную веб-часть на сайте SharePoint.
@@ -178,8 +178,8 @@ ms.locfileid: "99937684"
 
 1. Вставьте следующий код в файл кода **вебпартнодетипепровидер** для проекта **вебпартнодикстенсион** .
 
-     [!code-csharp[SPExtensibility.SPExplorer.WebPartNode#2](../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/webpartnodetypeprovider.cs#2)]
-     [!code-vb[SPExtensibility.SPExplorer.WebPartNode#2](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/webpartnodetypeprovider.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb" id="Snippet2":::
 
 ## <a name="checkpoint"></a>Контрольная точка
  На этом этапе в этом пошаговом руководстве весь код для узла **коллекции веб-частей** теперь находится в проекте. Выполните сборку проекта **вебпартнодикстенсион** , чтобы убедиться, что компиляция выполняется без ошибок.

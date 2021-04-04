@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 9c10c2bc69086e3c98633ba746c1e6fc8d7f2a20
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1f77e0044b8ae3c7456a31bb9c9153ba9e9f4c99
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99889698"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106218039"
 ---
 # <a name="extend-the-sharepoint-connections-node-in-server-explorer"></a>Расширение узла подключений SharePoint в обозревателе сервера
   В Visual Studio можно подключаться к локальным сайтам SharePoint на компьютере разработчика с помощью узла " **подключения SharePoint** " в окне **Обозреватель сервера** . Этот узел отображает многие компоненты локальных сайтов SharePoint в иерархическом древовидном представлении. Например, можно просматривать списки, библиотеки документов и типы содержимого на локальных сайтах. Дополнительные сведения об использовании **Обозреватель сервера** для подключения к локальным сайтам SharePoint см. в разделе [Просмотр подключений sharepoint с помощью обозреватель сервера](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md).
@@ -50,8 +50,8 @@ ms.locfileid: "99889698"
 
  В следующем примере кода показано, как получить объект данных для узла списка. Чтобы увидеть этот пример в контексте более крупного примера, см. раздел [как получить данные для встроенного узла SharePoint в обозреватель сервера](../sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer.md).
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#11](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb#11)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#11](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs#11)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb" id="Snippet11":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs" id="Snippet11":::
 
  В следующей таблице перечислены типы объектов данных для каждого встроенного типа узла.
 
@@ -61,7 +61,7 @@ ms.locfileid: "99889698"
 |Тип содержимого|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IContentTypeNodeInfo>|
 |Функция|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IFeatureNodeInfo>|
 |Поле|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IFieldNodeInfo>|
-|List|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IListNodeInfo>|
+|Список|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IListNodeInfo>|
 |Шаблон списка|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IListTemplateNodeInfo>|
 |Представление списка (Microsoft. SharePoint. View)|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IListViewNodeInfo>|
 |Сопоставление рабочего процесса|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.IWorkflowAssociationNodeInfo>|

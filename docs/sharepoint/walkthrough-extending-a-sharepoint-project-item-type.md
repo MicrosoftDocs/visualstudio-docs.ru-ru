@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 74d57ae4beca074fbf7711ea3d732d903d8faa4b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a91cbd863ed613804418cd5d1666412a01f8f542
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99952685"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217701"
 ---
 # <a name="walkthrough-extend-a-sharepoint-project-item-type"></a>Пошаговое руководство. расширение типа элемента проекта SharePoint
   Элемент проекта **модели подключения к бизнес-данным** можно использовать для создания модели для службы подключения к бизнес-данным (BDC) в SharePoint. По умолчанию при создании модели с помощью этого элемента проекта данные в модели не отображаются для пользователей. Кроме того, необходимо создать внешний список в SharePoint, чтобы позволить пользователям просматривать данные.
@@ -136,8 +136,8 @@ ms.locfileid: "99952685"
     > [!NOTE]
     > После добавления этого кода в проекте будут обнаружены ошибки компиляции. Эти ошибки исчезнут при добавлении кода в последующих шагах.
 
-     [!code-csharp[SPExtensibility.ProjectItemExtension.BDCGenerateExternalDataLists#1](../sharepoint/codesnippet/CSharp/generateexternaldatalists/bdcprojectitemextension/projectitemextension.cs#1)]
-     [!code-vb[SPExtensibility.ProjectItemExtension.BDCGenerateExternalDataLists#1](../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/projectitemextension.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/generateexternaldatalists/bdcprojectitemextension/projectitemextension.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/projectitemextension.vb" id="Snippet1":::
 
 ## <a name="create-the-external-data-lists"></a>Создание списков внешних данных
  Добавьте частичное определение `GenerateExternalDataListsExtension` класса, который создает внешний список данных для каждой сущности в модели BDC. Чтобы создать список внешних данных, этот код сначала считывает данные сущности в модели BDC, анализируя XML-данные в файле модели BDC. Затем он создает экземпляр списка, основанный на модели BDC, и добавляет этот экземпляр списка в проект.
@@ -146,8 +146,8 @@ ms.locfileid: "99952685"
 
 1. Вставьте следующий код в файл кода Женератикстерналдаталистс.
 
-     [!code-vb[SPExtensibility.ProjectItemExtension.BDCGenerateExternalDataLists#2](../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.vb#2)]
-     [!code-csharp[SPExtensibility.ProjectItemExtension.BDCGenerateExternalDataLists#2](../sharepoint/codesnippet/CSharp/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.cs" id="Snippet2":::
 
 ## <a name="checkpoint"></a>Контрольная точка
  На этом этапе в этом пошаговом руководстве весь код для расширения элемента проекта теперь находится в проекте. Выполните сборку решения, чтобы убедиться, что проект компилируется без ошибок.

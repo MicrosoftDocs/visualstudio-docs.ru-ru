@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: b9ccf478a084b8dedabc6f470a333e3fe4b54eb7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 07f3b90df070eca4e17e5bba9fa6a9e3582bd238
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99918734"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217803"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-1"></a>Пошаговое руководство. Создание элемента проекта столбца сайта с помощью шаблона проекта, часть 1
   Проекты SharePoint — это контейнеры для одного или нескольких элементов проектов SharePoint. Вы можете расширить систему проектов SharePoint в Visual Studio, создав собственные типы элементов проектов SharePoint и связав их с шаблоном проекта. В этом пошаговом руководстве будет определен тип элемента проекта для создания столбца сайта, а затем будет создан шаблон проекта, который можно использовать для создания нового проекта, содержащего элемент проекта столбца сайта.
@@ -150,8 +150,8 @@ ms.locfileid: "99918734"
 
 1. В файле кода **ситеколумнпрожектитемтипепровидер** замените код по умолчанию следующим кодом, а затем сохраните файл.
 
-     [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs#1)]
-     [!code-vb[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb" id="Snippet1":::
 
 ## <a name="create-a-visual-studio-project-template"></a>Создание шаблона проекта Visual Studio
  Создав шаблон проекта, вы разрешите другим разработчикам создавать проекты SharePoint, содержащие элементы проекта столбца сайта. Шаблон проекта SharePoint включает файлы, необходимые для всех проектов в Visual Studio, таких как *CSPROJ* -или *VBPROJ* -и *VSTEMPLATE* -файлы, а также файлы, относящиеся к проектам SharePoint. Дополнительные сведения см. в разделе [Создание шаблонов элементов и шаблонов проектов для элементов проектов SharePoint](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).
@@ -218,14 +218,14 @@ ms.locfileid: "99918734"
 
      `OutputSubPath`Элемент задает дополнительные папки в пути, по которому создается шаблон проекта при построении проекта. Указанные здесь папки гарантируют, что шаблон проекта будет доступен только тогда, когда клиенты открывают диалоговое окно **Новый проект** , разверните узел **SharePoint** , а затем выберите узел **2010** .
 
-5. Сохраните и закройте файл.
+5. Сохраните файл и закройте его.
 
 6. В **Обозреватель решений** откройте контекстное меню проекта **ситеколумнпрожекттемплате** и выберите **Перезагрузить проект**.
 
 ## <a name="edit-the-project-template-files"></a>Изменение файлов шаблонов проектов
  В проекте Ситеколумнпрожекттемплате измените следующие файлы, чтобы определить поведение шаблона проекта:
 
-- *AssemblyInfo.CS* или *AssemblyInfo. vb*
+- *AssemblyInfo. CS* или *AssemblyInfo. vb*
 
 - *Elements.xml*
 
@@ -241,9 +241,9 @@ ms.locfileid: "99918734"
 
   В следующих процедурах вы добавите в некоторые из этих файлов заменяемые параметры. Заменяемый параметр — это маркер, который начинается и заканчивается знаком доллара ($). Когда пользователь использует этот шаблон проекта для создания проекта, Visual Studio автоматически заменяет эти параметры в новом проекте на конкретные значения. Дополнительные сведения см. в разделе [Заменяемые параметры](../sharepoint/replaceable-parameters.md).
 
-#### <a name="to-edit-the-assemblyinfocs-or-assemblyinfovb-file"></a>Изменение файла AssemblyInfo.cs или AssemblyInfo. vb
+#### <a name="to-edit-the-assemblyinfocs-or-assemblyinfovb-file"></a>Изменение файла AssemblyInfo. cs или AssemblyInfo. vb
 
-1. В проекте Ситеколумнпрожекттемплате откройте файл *AssemblyInfo.CS* или *AssemblyInfo. vb* , а затем добавьте следующий оператор в его верхнюю часть:
+1. В проекте Ситеколумнпрожекттемплате откройте файл *AssemblyInfo. CS* или *AssemblyInfo. vb* , а затем добавьте следующий оператор в его верхнюю часть:
 
     ```vb
     Imports System.Security
@@ -255,7 +255,7 @@ ms.locfileid: "99918734"
 
      Если свойство **"изолированное решение"** проекта SharePoint имеет значение **true**, Visual Studio добавляет в <xref:System.Security.AllowPartiallyTrustedCallersAttribute> файл кода AssemblyInfo. Однако файл кода AssemblyInfo в шаблоне проекта не импортирует <xref:System.Security> пространство имен по умолчанию. Чтобы избежать ошибок компиляции, необходимо добавить инструкцию **using** или **Imports** .
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 #### <a name="to-edit-the-elementsxml-file"></a>Изменение файла Elements.xml
 
@@ -275,7 +275,7 @@ ms.locfileid: "99918734"
 
      Новый XML-файл добавляет `Field` элемент, определяющий имя столбца сайта, его базовый тип и группу, в которой будет перечисляться столбец сайта в коллекции. Дополнительные сведения о содержимом этого файла см. в разделе [схема определения поля](/previous-versions/office/developer/sharepoint-2010/ms196289(v=office.14)).
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 #### <a name="to-edit-the-sharepointprojectitemspdata-file"></a>Изменение файла Шарепоинтпрожектитем. данных
 
@@ -299,7 +299,7 @@ ms.locfileid: "99918734"
 
      Дополнительные сведения о содержимом файлов *данных с данными* см. в разделе [Справочник по схеме элементов проекта SharePoint](../sharepoint/sharepoint-project-item-schema-reference.md).
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 #### <a name="to-edit-the-feature1feature-file"></a>Изменение файла Feature1. feature
 
@@ -325,7 +325,7 @@ ms.locfileid: "99918734"
 
      Дополнительные сведения о файлах *Feature* см. в разделе [Создание шаблонов элементов и шаблонов проектов для элементов проектов SharePoint](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 #### <a name="to-edit-the-packagepackage-file"></a>Изменение файла пакета. Package
 
@@ -350,7 +350,7 @@ ms.locfileid: "99918734"
 
      Дополнительные сведения о *пакетных* файлах см. в разделе [Создание шаблонов элементов и шаблонов проектов для элементов проектов SharePoint](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 #### <a name="to-edit-the-sitecolumnprojecttemplatevstemplate-file"></a>Изменение файла ситеколумнпрожекттемплате. vstemplate
 
@@ -438,7 +438,7 @@ ms.locfileid: "99918734"
 
      Дополнительные сведения о содержимом *VSTEMPLATE* файлов см. в разделе [Справочник по схеме шаблонов Visual Studio](../extensibility/visual-studio-template-schema-reference.md).
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 #### <a name="to-edit-the-projecttemplatecsproj-or-projecttemplatevbproj-file"></a>Изменение файла projecttemplate. csproj или projecttemplate. vbproj
 
@@ -633,7 +633,7 @@ ms.locfileid: "99918734"
 
     - Добавляет элементы для каждого файла по умолчанию в проекте, например *Elements.xml* и *шарепоинтпрожектитем. данных*.
 
-2. Сохраните и закройте файл.
+2. Сохраните файл и закройте его.
 
 ## <a name="create-a-vsix-package-to-deploy-the-project-template"></a>Создание пакета VSIX для развертывания шаблона проекта
  Чтобы развернуть расширение, используйте проект VSIX в решении **ситеколумнпрожектитем** для создания пакета VSIX. Сначала настройте пакет VSIX, изменив файл Source. extension. vsixmanifest, который включен в проект VSIX. Затем создайте пакет VSIX, создав решение.

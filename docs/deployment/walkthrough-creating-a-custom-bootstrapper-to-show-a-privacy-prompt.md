@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b2f36ee884beb3b79244e4621ba305c06aafe8ff
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 96cfbf8693ce23dbc0b0584c7742607224aeab4f
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915759"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216947"
 ---
 # <a name="walkthrough-create-a-custom-bootstrapper-with-a-privacy-prompt"></a>Пошаговое руководство. Создание пользовательского загрузчика с предупреждением о конфиденциальности
 Можно настроить автоматическое обновление приложений ClickOnce при доступности сборок с более новыми версиями файлов и версий сборок. Чтобы обеспечить согласие клиентов на такое поведение, можно отобразить запрос о конфиденциальности. Затем они могут выбрать, предоставлять ли приложению разрешение на автоматическое обновление. Если приложение не может обновляться автоматически, оно не устанавливается.
@@ -43,7 +43,7 @@ ms.locfileid: "99915759"
 
 #### <a name="to-create-a-consent-dialog-box"></a>Создание диалогового окна «согласие»
 
-1. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+1. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 2. В диалоговом окне **Новый проект** щелкните **Windows**, а затем — **виндовсформсаппликатион**.
 
@@ -81,32 +81,33 @@ ms.locfileid: "99915759"
 
 18. В файле кода Form1 добавьте следующий код для обработчика событий CheckedChanged.
 
-     [!code-csharp[ConsentDialog#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_1.cs)]
-     [!code-vb[ConsentDialog#1](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet1":::
 
 19. Обновите конструктор класса, чтобы отключить кнопку " **продолжать** " по умолчанию.
 
-     [!code-csharp[ConsentDialog#6](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_2.cs)]
-     [!code-vb[ConsentDialog#6](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet6":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet6":::
 
 20. В файле кода Form1 добавьте следующий код для логической переменной, чтобы определить, не отправлял ли конечный пользователь на обновления в сети.
 
-     [!code-csharp[ConsentDialog#3](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_3.cs)]
-     [!code-vb[ConsentDialog#3](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_3.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet3":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet3":::
 
 21. В конструкторе дважды щелкните кнопку " **Далее** ", чтобы создать обработчик событий щелчка.
 
 22. В файле кода Form1 добавьте следующий код в обработчик событий Click для кнопки **продолжения** .
 
-     [!code-csharp[ConsentDialog#2](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_4.cs)]
-     [!code-vb[ConsentDialog#2](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_4.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet2":::
+
 
 23. В конструкторе дважды щелкните кнопку **Отмена** , чтобы создать обработчик событий щелчка.
 
 24. В файле кода Form1 добавьте следующий код для обработчика событий Click для кнопки **Отмена** .
 
-     [!code-csharp[ConsentDialog#4](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_5.cs)]
-     [!code-vb[ConsentDialog#4](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_5.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet4":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet4":::
 
 25. Обновите приложение, чтобы оно возвращало ошибку, если конечный пользователь не имеет согласия на обновления в сети.
 
@@ -118,7 +119,7 @@ ms.locfileid: "99915759"
 
     3. Добавьте в файл кода *Module1. vb* следующий код.
 
-        [!code-vb[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]
+       :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/module1.vb" id="Snippet7":::
 
     4. В меню **проект** выберите пункт **Свойства консентдиалог** и перейдите на вкладку **приложение** .
 
@@ -131,9 +132,9 @@ ms.locfileid: "99915759"
 
        Только для разработчиков на Visual C#:
 
-       Откройте файл кода *Program.CS* и добавьте следующий код.
+       Откройте файл кода *Program. CS* и добавьте следующий код.
 
-       [!code-csharp[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]
+       :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/program.cs" id="Snippet5":::
 
 26. В меню **Сборка** выберите **BuildSolution**.
 
@@ -245,7 +246,7 @@ ms.locfileid: "99915759"
     > [!NOTE]
     > Возможно, потребуется закрыть и снова открыть Visual Studio, чтобы открыть диалоговое окно "согласие на обновление" в диалоговом окне "необходимые компоненты".
 
-5. Нажмите кнопку **OK**.
+5. Нажмите кнопку **ОК**.
 
 ## <a name="create-and-test-the-setup-program"></a>Создание и тестирование программы установки
  После установки приложения согласия на обновление в качестве необходимого компонента можно создать установщик и загрузчик для приложения.
@@ -274,7 +275,7 @@ ms.locfileid: "99915759"
 
 8. Нажмите кнопку сведения, чтобы отобразить следующее сообщение об ошибке: диалоговое окно согласия обновления компонента не удалось установить со следующим сообщением об ошибке: "соглашение об автоматическом обновлении не принято". Не удалось установить следующие компоненты:-диалоговое окно согласия на обновление
 
-9. Нажмите кнопку **Закрыть**.
+9. Щелкните **Закрыть**.
 
 #### <a name="to-create-and-test-the-setup-program-by-clicking-i-agree"></a>Чтобы создать и протестировать программу установки, нажмите кнопку Принимаю
 

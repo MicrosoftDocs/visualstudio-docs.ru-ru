@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: b5a9ea96820aafe32ca119d7e6d08057b91206fd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4e22ade9b2414e1d598065bb9e417c4706f75a07
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99943826"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217181"
 ---
 # <a name="how-to-execute-a-sharepoint-command"></a>Инструкции: выполнение команды SharePoint
   Если вы хотите использовать объектную модель сервера в расширении инструментов SharePoint, необходимо создать пользовательскую *команду SharePoint* для вызова API. После определения команды и ее развертывания с помощью расширения инструментов SharePoint расширение может выполнить команду для вызова серверной объектной модели SharePoint. Чтобы выполнить команду, используйте один из методов ExecuteCommand <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> объекта.
@@ -56,8 +56,8 @@ ms.locfileid: "99943826"
 ## <a name="example"></a>Пример
  В следующем примере кода показано, как использовать <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection.ExecuteCommand%2A> перегрузку для вызова `Contoso.Commands.UpgradeSolution` команды, описанной в разделе [инструкции. Создание команды SharePoint](../sharepoint/how-to-create-a-sharepoint-command.md).
 
- [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#6](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/upgradestep.cs#6)]
- [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#6](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/upgradestep.vb#6)]
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/upgradestep.cs" id="Snippet6":::
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/upgradestep.vb" id="Snippet6":::
 
  `Execute`Метод, показанный в этом примере, является реализацией <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentStep.Execute%2A> метода <xref:Microsoft.VisualStudio.SharePoint.Deployment.IDeploymentStep> интерфейса на настраиваемом шаге развертывания. Чтобы просмотреть этот код в контексте более крупного примера, см. раздел [Пошаговое руководство. Создание настраиваемого шага развертывания для проектов SharePoint](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
 

@@ -19,12 +19,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9aad1bff0b70f87ff271f6d09cc7f8d34179136d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b22c555b961809d84778df5996455f186efc01f1
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99858570"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216219"
 ---
 # <a name="pass-data-between-forms"></a>Передача данных между формами
 
@@ -154,7 +154,7 @@ ms.locfileid: "99858570"
     > [!NOTE]
     > Проверьте правильность синтаксиса параметров для своей базы данных. Например, в Microsoft Access предложение WHERE должно выглядеть следующим образом: `WHERE CustomerID = ?`.
 
-6. Нажмите кнопку **Далее**.
+6. Щелкните **Далее**.
 
 7. Для поля **заполнить Дататаблемесод имя** введите `FillByCustomerID` .
 
@@ -168,8 +168,8 @@ ms.locfileid: "99858570"
 
 2. Добавьте следующий код в **Form2** после метода `Form2_Load`:
 
-     [!code-vb[VbRaddataDisplaying#1](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_1.vb)]
-     [!code-csharp[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form2.vb" id="Snippet1":::
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form2.cs" id="Snippet1":::
 
 ## <a name="create-a-method-on-form1-to-pass-data-and-display-form2"></a>Создание метода на Form1 для передачи данных и показа Form2
 
@@ -183,10 +183,10 @@ ms.locfileid: "99858570"
 
 4. Обновите определение метода в соответствии со следующим примером:
 
-     [!code-csharp[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
-     [!code-vb[VbRaddataDisplaying#2](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_2.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form1.cs" id="Snippet2":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet2":::
 
-## <a name="run-the-app"></a>Запуск приложения
+## <a name="run-the-app"></a>Запустите приложение
 
 - Нажмите клавишу **F5** для запуска приложения.
 

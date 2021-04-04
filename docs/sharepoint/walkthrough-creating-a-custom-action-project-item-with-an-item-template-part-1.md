@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: e7427c0866806c705ed28a049b33024771631c0a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 71e9d83cbe3459abb05e24b127e54651aade8ee5
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839127"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217961"
 ---
 # <a name="walkthrough-create-a-custom-action-project-item-with-an-item-template-part-1"></a>Пошаговое руководство. Создание элемента проекта настраиваемого действия с помощью шаблона элемента, часть 1
   Вы можете расширить систему проектов SharePoint в Visual Studio, создав собственные типы элементов проектов. В этом пошаговом руководстве будет создан элемент проекта, который можно добавить в проект SharePoint для создания настраиваемого действия на сайте SharePoint. Настраиваемое действие добавляет пункт меню в меню **действия сайта** сайта SharePoint.
@@ -152,8 +152,8 @@ ms.locfileid: "99839127"
 
 2. Замените код в этом файле следующим кодом.
 
-     [!code-csharp[SPExtensibility.ProjectItem.CustomAction#1](../sharepoint/codesnippet/CSharp/customactionprojectitem/projectitemtypedefinition/customaction.cs#1)]
-     [!code-vb[SPExtensibility.ProjectItem.CustomAction#1](../sharepoint/codesnippet/VisualBasic/customactionprojectitem/projectitemdefinition/customaction.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/customactionprojectitem/projectitemtypedefinition/customaction.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/customactionprojectitem/projectitemdefinition/customaction.vb" id="Snippet1":::
 
 ## <a name="create-an-icon-for-the-project-item-in-solution-explorer"></a>Создание значка для элемента проекта в обозреватель решений
  При создании пользовательского элемента проекта SharePoint можно связать изображение (значок или растровое изображение) с элементом проекта. Это изображение отображается рядом с элементом проекта в **Обозреватель решений**.

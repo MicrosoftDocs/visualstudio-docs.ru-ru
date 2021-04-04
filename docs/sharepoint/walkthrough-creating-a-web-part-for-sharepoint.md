@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0f2d14bfd069fcf5064c9d8643393e28e52570be
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3e018085bd9900a9ee04f838b7c802afd2acc4fe
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99918634"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217714"
 ---
 # <a name="walkthrough-create-a-web-part-for-sharepoint"></a>Пошаговое руководство: создание веб-части для SharePoint
 
@@ -82,14 +82,14 @@ ms.locfileid: "99918634"
 
 Вы можете указать, какие элементы управления должны отображаться в веб-части, добавив их в коллекцию Controls класса веб-части.
 
-1. В **Обозреватель решений** откройте *WebPart1. vb* (в Visual Basic) или *WebPart1.CS* (в C#).
+1. В **Обозреватель решений** откройте *WebPart1. vb* (в Visual Basic) или *WebPart1. CS* (в C#).
 
      Файл кода веб-части откроется в редакторе кода.
 
 2. Добавьте следующие директивы в начало файла кода веб-части.
 
-     [!code-csharp[SP_WebPart#1](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#1)]
-     [!code-vb[SP_WebPart#1](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet1":::
 
 3. Добавьте в класс `WebPart1` приведенный далее код. Этот код объявляет следующие поля:
 
@@ -101,13 +101,13 @@ ms.locfileid: "99918634"
 
    - Строка, содержащая путь к файлу данных сотрудника.
 
-     [!code-csharp[SP_WebPart#2](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#2)]
-     [!code-vb[SP_WebPart#2](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet2":::
 
 4. Добавьте в класс `WebPart1` приведенный далее код. Этот код добавляет пользовательское свойство с именем `DataFilePath` в веб-часть. Пользовательское свойство — это свойство, которое может быть задано пользователем в SharePoint. Это свойство получает и задает расположение XML-файла данных, который используется для заполнения сетки данных.
 
-     [!code-csharp[SP_WebPart#3](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#3)]
-     [!code-vb[SP_WebPart#3](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#3)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet3":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet3":::
 
 5. Замените метод `CreateChildControls` приведенным ниже кодом. Этот код выполняет следующие задачи:
 
@@ -115,8 +115,8 @@ ms.locfileid: "99918634"
 
    - Привязывает сетку данных к XML-файлу, содержащему данные о сотрудниках.
 
-     [!code-csharp[SP_WebPart#4](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#4)]
-     [!code-vb[SP_WebPart#4](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#4)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet4":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet4":::
 
 6. Добавьте следующий метод в класс `WebPart1`. Этот код выполняет следующие задачи:
 
@@ -124,8 +124,8 @@ ms.locfileid: "99918634"
 
    - Обрабатывает событие, возникающее при выборе пользователем команды в меню команд. Этот код фильтрует список сотрудников, отображаемых в сетке данных.
 
-     [!code-csharp[SP_WebPart#5](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#5)]
-     [!code-vb[SP_WebPart#5](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#5)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet5":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet5":::
 
 ## <a name="test-the-web-part"></a>Тестирование веб-части
 

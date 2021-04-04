@@ -37,12 +37,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: fb5ace269d7770d0e7d360734268d3e7adfda319
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 45ff4336859fe0294232e9ca1d99513665d8e975
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99866129"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216479"
 ---
 # <a name="windows-communication-foundation-services-and-wcf-data-services-in-visual-studio"></a>Службы Windows Communication Foundation и службы данных WCF в Visual Studio
 
@@ -64,13 +64,13 @@ WCF Data Services — это реализация стандарта Open Data 
 
 Служба WCF построена на интерфейсе, который определяет контракт между службой и клиентом. Он помечается атрибутом <xref:System.ServiceModel.ServiceContractAttribute>, как показано в следующем коде.
 
-[!code-csharp[WCFWalkthrough#6](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.cs)]
-[!code-vb[WCFWalkthrough#6](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet6":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet6":::
 
 Вы определяете функции или методы, предоставляемые службой WCF, помечая их атрибутом <xref:System.ServiceModel.OperationContractAttribute>.
 
-[!code-csharp[WCFWalkthrough#1](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.cs)]
-[!code-vb[WCFWalkthrough#1](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
 
 Кроме того, вы можете предоставить сериализованные данные, пометив составной тип атрибутом <xref:System.Runtime.Serialization.DataContractAttribute>. Это позволяет выполнять привязку данных в клиенте.
 
@@ -88,8 +88,8 @@ WCF Data Services — это реализация стандарта Open Data 
 
 После создания клиента WCF вы можете ссылаться на эту службу в своем коде так же, как на любой другой объект. Например, чтобы вызвать метод `GetData`, показанный ранее, вы должны написать код, похожий на следующий:
 
-[!code-csharp[WCFWalkthrough#3](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_3.cs)]
-[!code-vb[WCFWalkthrough#3](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_3.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
 
 ## <a name="wcf-tools-in-visual-studio"></a>Инструменты WCF в Visual Studio
 

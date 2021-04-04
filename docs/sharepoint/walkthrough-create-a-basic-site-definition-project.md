@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: def1ae862a7b9ba4def62cb590260c5a18758929
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a505ff059b347c6adbef15a8fe8bcfe7b274eaa4
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937710"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106218026"
 ---
 # <a name="walkthrough-create-a-basic-site-definition-project"></a>Пошаговое руководство. Создание базового проекта определения сайта
   В этом пошаговом руководстве показано, как создать базовое определение сайта, содержащее визуальную веб-часть с некоторыми элементами управления. Для простоты в создаваемой визуальной веб-части есть только несколько элементов управления. Тем не менее можно создать более сложные определения сайтов SharePoint, которые содержат дополнительные функциональные возможности.
@@ -51,7 +51,7 @@ ms.locfileid: "99937710"
 
 1. В строке меню выберите **Файл** > **Создать** > **Проект**. Если в интегрированной среде разработки настроено использование параметров Visual Basic разработки, в строке меню выберите **файл**  >  **создать проект**.
 
-    Откроется диалоговое окно **Создание проекта** .
+    Откроется диалоговое окно **Новый проект** .
 
 2. Разверните узел **Visual C#** или узел **Visual Basic** , разверните узел **SharePoint** , а затем выберите узел **2010** .
 
@@ -112,10 +112,10 @@ ms.locfileid: "99937710"
     </table>
     ```
 
-6. В разделе *VisualWebPart1. ascx* откройте файл *VisualWebPart1.ascx.CS* (для [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)] ) или *VisualWebPart1. ascx. vb* (для [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] ), а затем добавьте следующий код:
+6. В разделе *VisualWebPart1. ascx* откройте файл *VisualWebPart1. ascx. CS* (для [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)] ) или *VisualWebPart1. ascx. vb* (для [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] ), а затем добавьте следующий код:
 
-     [!code-vb[SP_SimpleSiteDef#1](../sharepoint/codesnippet/VisualBasic/testsitedefvb/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.vb#1)]
-     [!code-csharp[SP_SimpleSiteDef#1](../sharepoint/codesnippet/CSharp/testsitedef/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.cs#1)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/testsitedefvb/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet1":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/testsitedef/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet1":::
 
      Этот код добавляет функции для нажатия кнопки веб-части.
 

@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c4863fb40bc6f70556d8f00305d882e6edd93a0e
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: a80fc4fbfaf9a308492345ba897363d31d4669ca
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105074396"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216544"
 ---
 # <a name="resources-in-vspackages"></a>Ресурсы в пакетах VSPackage
 Локализованные ресурсы можно внедрять в встроенные библиотеки DLL пользовательского интерфейса, управляемые вспомогательные библиотеки DLL или в самом управляемом пакете VSPackage.
@@ -44,8 +44,8 @@ ms.locfileid: "105074396"
 
   Чтобы <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> указать [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] , что управляемые ресурсы доступны, можно использовать атрибут.
 
-  [!code-csharp[VSSDKResources#1](../../extensibility/internals/codesnippet/CSharp/resources-in-vspackages_1.cs)]
-  [!code-vb[VSSDKResources#1](../../extensibility/internals/codesnippet/VisualBasic/resources-in-vspackages_1.vb)]
+  :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdkresources/cs/vssdkresourcespackage.cs" id="Snippet1":::
+  :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdkresources/vb/vssdkresourcespackage.vb" id="Snippet1":::
 
   <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>Таким образом, этот параметр указывает, что [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] при поиске ресурсов следует пропускать неуправляемые вспомогательные библиотеки DLL, например с помощью <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString%2A> . Если [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] встречает два или больше ресурсов с одинаковым идентификатором ресурса, используется первый найденный ресурс.
 
@@ -87,6 +87,6 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
 
  При [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] запросе ресурса из пакета VSPackage после установки этот пакет, скорее всего, уже загружен и инициализирован, поэтому снижение производительности будет минимальным.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 - [Управление пакетами VSPackage](../../extensibility/managing-vspackages.md)
 - [Локализованные ресурсы в приложениях MFC: вспомогательные библиотеки DLL](/cpp/build/localized-resources-in-mfc-applications-satellite-dlls)

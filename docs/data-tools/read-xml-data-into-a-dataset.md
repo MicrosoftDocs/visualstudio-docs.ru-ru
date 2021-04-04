@@ -22,12 +22,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9fb859d61ab31a554579f72121a18a541b2995a7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b3a238bf325819b340b983618b5aac8f723184f4
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99858557"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216193"
 ---
 # <a name="read-xml-data-into-a-dataset"></a>Считывание XML-данных в набор данных
 
@@ -143,9 +143,9 @@ ADO.NET предоставляет простые методы для работ
     |-------------|--------------|-------------|
     |`TextBox1`|**Multiline**|`true`|
     ||**ScrollBars**|**По вертикали**|
-    |`Button1`|**Имя**|`ReadXmlButton`|
+    |`Button1`|**имя**;|`ReadXmlButton`|
     ||**Text**|`Read XML`|
-    |`Button2`|**Имя**|`ShowSchemaButton`|
+    |`Button2`|**имя**;|`ShowSchemaButton`|
     ||**Text**|`Show Schema`|
 
 ## <a name="create-the-dataset-that-receives-the-xml-data"></a>Создание набора данных, который получает XML-данные
@@ -174,8 +174,8 @@ ADO.NET предоставляет простые методы для работ
 
 3. Введите следующий код в `ReadXmlButton_Click` обработчик событий:
 
-     [!code-csharp[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_1.cs)]
-     [!code-vb[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/CS/Form1.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form1.vb" id="Snippet2":::
 
 4. В `ReadXMLButton_Click` коде обработчика событий измените `filepath =` запись на правильный путь.
 
@@ -191,8 +191,8 @@ ADO.NET предоставляет простые методы для работ
 
 3. Вставьте в обработчик события `ShowSchemaButton_Click` следующий код.
 
-     [!code-csharp[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
-     [!code-vb[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/CS/Form1.cs" id="Snippet3":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form1.vb" id="Snippet3":::
 
 ## <a name="test-the-form"></a>Тестирование формы
 
@@ -212,7 +212,7 @@ ADO.NET предоставляет простые методы для работ
 
 В этом пошаговом руководстве рассматриваются основы чтения XML-файла в наборе данных, а также создание схемы на основе содержимого XML-файла. Ниже приведены некоторые задачи, которые можно выполнить далее.
 
-- Изменить данные в наборе данных и записать их обратно в формате XML. Для получения дополнительной информации см. <xref:System.Data.DataSet.WriteXml%2A>.
+- Изменить данные в наборе данных и записать их обратно в формате XML. Дополнительные сведения см. в разделе <xref:System.Data.DataSet.WriteXml%2A>.
 
 - Измените данные в наборе данных и запишите их в базу данных.
 

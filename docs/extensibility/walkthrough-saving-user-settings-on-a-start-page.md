@@ -11,12 +11,12 @@ manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: be270fe8b76b6cd07bd27350eabceb5eecbc446b
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 2f7dddfca06d7bc475286c73087828305464daa5
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105078335"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217220"
 ---
 # <a name="walkthrough-save-user-settings-on-a-start-page"></a>Пошаговое руководство. Сохранение параметров пользователя на начальной странице
 
@@ -83,7 +83,7 @@ ms.locfileid: "105078335"
 
 2. Добавьте следующие `using` директивы в начало файла.
 
-     [!code-csharp[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/startpagedte/cs/startpagecontrol/mycontrol.xaml.cs" id="Snippet11":::
 
 3. Добавьте закрытое `SettingsStore` свойство, как показано в следующем примере.
 
@@ -198,7 +198,7 @@ ms.locfileid: "105078335"
 
 Этот пользовательский элемент управления можно изменить, чтобы сохранить и получить любое количество пользовательских параметров, используя разные значения из разных обработчиков событий для получения и задания `SettingsStore` Свойства. Если `propertyName` для каждого вызова используется другой параметр <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A> , значения не перезапишут друг друга в реестре.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - <xref:EnvDTE80.DTE2?displayProperty=fullName>
 - [Добавление команд Visual Studio на начальную страницу](../extensibility/adding-visual-studio-commands-to-a-start-page.md)

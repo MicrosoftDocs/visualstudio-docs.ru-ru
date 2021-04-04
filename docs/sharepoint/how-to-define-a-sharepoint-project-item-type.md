@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: f94a93e8797922ef7629853e8261383984bb3ef9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 16e7070769edf3ee65ee425a7f9cb5062da315cd
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99885629"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216830"
 ---
 # <a name="how-to-define-a-sharepoint-project-item-type"></a>Как определить тип элемента проекта SharePoint
   Определите тип элемента проекта, если требуется создать пользовательский элемент проекта SharePoint. Дополнительные сведения см. в разделе [Определение пользовательских типов элементов проектов SharePoint](../sharepoint/defining-custom-sharepoint-project-item-types.md).
@@ -51,8 +51,8 @@ ms.locfileid: "99885629"
 ## <a name="example"></a>Пример
  В следующем примере кода показано, как определить простой тип элемента проекта. Этот тип элемента проекта записывает сообщение в окно **вывода** и **Список ошибок** окно, когда пользователь добавляет элемент проекта этого типа в проект.
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#2](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectitemtype.vb#2)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#2](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectitemtype.cs#2)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectitemtype.vb" id="Snippet2":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectitemtype.cs" id="Snippet2":::
 
  В этом примере используется служба проекта SharePoint для записи сообщения в окно **вывода** и **Список ошибок** окно. Дополнительные сведения см. [в статье Использование службы проектов SharePoint](../sharepoint/using-the-sharepoint-project-service.md).
 

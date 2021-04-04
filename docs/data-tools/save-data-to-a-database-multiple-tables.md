@@ -18,12 +18,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 75800c5a2b5ff62addec3c914905ae67ac171b95
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6f4b174e10eae63044c547d8ed87c46db03d23c6
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99866584"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216050"
 ---
 # <a name="save-data-to-a-database-multiple-tables"></a>Сохранение данных в базе данных (несколько таблиц)
 
@@ -133,8 +133,8 @@ ms.locfileid: "99866584"
 
 2. Замените код в обработчике событий на вызов методов `Update` связанных адаптеров таблицы. Следующий код сначала создает три временные таблицы данных для хранения обновленной информации для каждого <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState.Deleted>, <xref:System.Data.DataRowState.Added> и <xref:System.Data.DataRowState.Modified>). Обновления выполняются в правильном порядке. Код должен выглядеть следующим образом:
 
-     [!code-vb[VbRaddataSaving#10](../data-tools/codesnippet/VisualBasic/save-data-to-a-database-multiple-tables_1.vb)]
-     [!code-csharp[VbRaddataSaving#10](../data-tools/codesnippet/CSharp/save-data-to-a-database-multiple-tables_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form4.vb" id="Snippet10":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form4.cs" id="Snippet10":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
 

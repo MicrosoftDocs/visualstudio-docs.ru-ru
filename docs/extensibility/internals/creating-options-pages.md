@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e7513617ab4ee4a051dd48cd110ecb2c5e22495
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: f7b1b8b92f978739bfa4e540013347e216781cd4
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056844"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217246"
 ---
 # <a name="create-options-pages"></a>Создание страниц параметров
 В [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] платформе управляемых пакетов классы, производные от <xref:Microsoft.VisualStudio.Shell.DialogPage> расширения [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной среды разработки, добавляют страницы **параметров** в меню **Сервис** .
@@ -65,15 +65,15 @@ ms.locfileid: "105056844"
  Следующий класс определяет минимальную страницу параметров "Hello World". При открытии пользователь может задать `HelloWorld` свойство public в сетке свойств.
 
 ### <a name="code"></a>Код
- [!code-csharp[UI_UserSettings_ToolsOptionPages#11](../../extensibility/internals/codesnippet/CSharp/creating-options-pages_1.cs)]
- [!code-vb[UI_UserSettings_ToolsOptionPages#11](../../extensibility/internals/codesnippet/VisualBasic/creating-options-pages_1.vb)]
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/cs/class1.cs" id="Snippet11":::
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/vb/class1.vb" id="Snippet11":::
 
 ### <a name="description"></a>Описание
  Применение следующего атрибута к классу Package делает страницу параметров доступной при загрузке пакета. Числа — это произвольные идентификаторы ресурсов для категории и страницы, а логическое значение в конце указывает, поддерживает ли страница автоматизацию.
 
 ### <a name="code"></a>Код
- [!code-csharp[UI_UserSettings_ToolsOptionPages#07](../../extensibility/internals/codesnippet/CSharp/creating-options-pages_2.cs)]
- [!code-vb[UI_UserSettings_ToolsOptionPages#07](../../extensibility/internals/codesnippet/VisualBasic/creating-options-pages_2.vb)]
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/cs/uiusersettingstoolsoptionspagespackage.cs" id="Snippet07":::
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/vb/uiusersettingstoolsoptionspagespackage.vb" id="Snippet07":::
 
 ### <a name="description"></a>Описание
  Следующий обработчик событий отображает результат в зависимости от значения свойства, заданного на странице Параметры. <xref:Microsoft.VisualStudio.Shell.Package.GetDialogPage%2A>Для доступа к свойствам, предоставляемым страницей, в нем используется метод с результатом явного приведения к типу настраиваемой страницы параметров.
@@ -81,9 +81,9 @@ ms.locfileid: "105056844"
  В случае проекта, созданного шаблоном пакета, вызовите эту функцию из функции, `MenuItemCallback` чтобы присоединить ее к команде по умолчанию, добавленной в меню **Сервис** .
 
 ### <a name="code"></a>Код
- [!code-csharp[UI_UserSettings_ToolsOptionPages#08](../../extensibility/internals/codesnippet/CSharp/creating-options-pages_3.cs)]
- [!code-vb[UI_UserSettings_ToolsOptionPages#08](../../extensibility/internals/codesnippet/VisualBasic/creating-options-pages_3.vb)]
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/cs/uiusersettingstoolsoptionspagespackage.cs" id="Snippet08":::
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages/vb/uiusersettingstoolsoptionspagespackage.vb" id="Snippet08":::
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 - [Расширение параметров пользователя и параметров](../../extensibility/extending-user-settings-and-options.md)
 - [Поддержка автоматизации для страниц параметров](../../extensibility/internals/automation-support-for-options-pages.md)

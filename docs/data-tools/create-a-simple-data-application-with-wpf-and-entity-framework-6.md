@@ -11,12 +11,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 52c9d8ca4af6467c6db21be64083b5bf64af0b6a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e3432dd9a72fa71ea1e749dd28e80a3d55cce19c
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99859194"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216063"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>Создание простого приложения для обработки данных с помощью WPF и Entity Framework 6
 
@@ -60,7 +60,7 @@ ms.locfileid: "99859194"
 
 ## <a name="create-the-model"></a>Создание модели
 
-1. Щелкните правой кнопкой мыши узел проекта в **Обозреватель решений** и выберите команду **Добавить**  >  **новый элемент**. В левой области в узле C# выберите **данные** и в средней области выберите **ADO.NET EDM**.
+1. Щелкните правой кнопкой мыши узел проекта в **обозревателе решений** и последовательно выберите **Добавить** > **Новый элемент**. В левой области в узле C# выберите **данные** и в средней области выберите **ADO.NET EDM**.
 
    ![Новый элемент модели Entity Framework](../data-tools/media/raddata-ef-new-project-item.png)
 
@@ -130,9 +130,9 @@ ms.locfileid: "99859194"
 
      ![Перетаскивание классов Orders в виде сетки](../data-tools/media/raddata-drag-orders-classes-as-grid.png)
 
-7. Visual Studio создала весь код привязки, который подключает элементы управления пользовательского интерфейса к событиям в модели. Для того чтобы увидеть некоторые данные, необходимо написать код для заполнения модели. Сначала перейдите по адресу *MainWindow.XAML.CS* и добавьте член данных в класс MainWindow для контекста данных. Этот объект, который был создан для вас, действует примерно так же, как элемент управления, отслеживающий изменения и события в модели. Вы также добавите элементы данных CollectionViewSource для клиентов и заказов, а также связанную логику инициализации конструктора. Начало класса должно выглядеть следующим образом:
+7. Visual Studio создала весь код привязки, который подключает элементы управления пользовательского интерфейса к событиям в модели. Для того чтобы увидеть некоторые данные, необходимо написать код для заполнения модели. Сначала перейдите к файлу *MainWindow. XAML. CS* и добавьте член данных в класс MainWindow для контекста данных. Этот объект, который был создан для вас, действует примерно так же, как элемент управления, отслеживающий изменения и события в модели. Вы также добавите элементы данных CollectionViewSource для клиентов и заказов, а также связанную логику инициализации конструктора. Начало класса должно выглядеть следующим образом:
 
-     [!code-csharp[MainWindow#1](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#1)]
+     :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet1":::
 
      Добавьте `using` директиву для System. Data. Entity, чтобы перевести метод расширения нагрузки в область:
 
@@ -142,7 +142,8 @@ ms.locfileid: "99859194"
 
      Теперь прокрутите вниз и найдите `Window_Loaded` обработчик событий. Обратите внимание, что в Visual Studio добавлен объект CollectionViewSource. Представляет объект Норсвиндентитиес, выбранный при создании модели. Вы уже добавили это, так что вам это не нужно. Выполним замену кода в `Window_Loaded` , чтобы метод теперь выглядел следующим образом:
 
-     [!code-csharp[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]
+     :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
+
 
 8. Нажмите клавишу **F5**. Вы должны увидеть сведения для первого клиента, полученного в CollectionViewSource. Их заказы также должны отображаться в сетке данных. Форматирование не имеет ничего хорошего, так что давайте исправляется. Можно также создать способ просмотра других записей и выполнения базовых операций CRUD.
 
@@ -421,9 +422,10 @@ ms.locfileid: "99859194"
 
 Код программной части является минимальным, за исключением методов Add и DELETE. Навигация выполняется путем вызова методов для свойства View объекта CollectionViewSource. В этом `DeleteOrderCommandHandler` примере показано, как выполнить каскадное удаление в заказе. Сначала необходимо удалить связанные с ним Order_Details. `UpdateCommandHandler`Добавляет нового клиента или заказа в коллекцию или просто обновляет существующего клиента или заказ с учетом изменений, внесенных пользователем в текстовые поля.
 
-Добавьте эти методы обработчика в класс MainWindow в *MainWindow.XAML.CS*. Если CollectionViewSource для таблицы Customers имеет другое имя, необходимо изменить имя в каждом из этих методов:
+Добавьте эти методы обработчика в класс MainWindow в *MainWindow. XAML. CS*. Если CollectionViewSource для таблицы Customers имеет другое имя, необходимо изменить имя в каждом из этих методов:
 
-[!code-csharp[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]
+:::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet3":::
+
 
 ## <a name="run-the-application"></a>Выполнение приложения
 

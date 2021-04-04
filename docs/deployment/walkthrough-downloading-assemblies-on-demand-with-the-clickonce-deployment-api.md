@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: a87bcd8b51bc393921d21d838943d5e1fe8f02a2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 316be1f0a8fa881f781d983cfe9ed663e5907749
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99917345"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216908"
 ---
 # <a name="walkthrough-download-assemblies-on-demand-with-the-clickonce-deployment-api"></a>Пошаговое руководство. Загрузка сборок по запросу с помощью API развертывания ClickOnce
 По умолчанию все сборки, включенные в [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] приложение, загружаются при первом запуске приложения. Однако у вас могут быть части приложения, которые используются небольшим набором пользователей. В этом случае рекомендуется скачивать сборку только при создании одного из ее типов. В следующем примере показано, как пометить определенные сборки в приложении как "необязательные" и скачивать их с помощью классов в пространстве имен <xref:System.Deployment.Application>, когда среда CLR нуждается в них.
@@ -56,10 +56,10 @@ ms.locfileid: "99917345"
 
 5. С помощью блокнота или другого текстового редактора определите класс `DynamicClass` с именем и одним свойством с именем `Message` .
 
-    [!code-vb[ClickOnceLibrary#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]
-    [!code-csharp[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceLibrary/VB/Class1.vb" id="Snippet1":::
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceLibrary/CS/Class1.cs" id="Snippet1":::
 
-6. Сохраните текст в виде файла с именем *ClickOnceLibrary.CS* или *ClickOnceLibrary. vb* в зависимости от используемого языка в каталоге *кликконцеондеманд* .
+6. Сохраните текст в виде файла с именем *ClickOnceLibrary. CS* или *ClickOnceLibrary. vb* в зависимости от используемого языка в каталоге *кликконцеондеманд* .
 
 7. Скомпилируйте файл в сборку.
 
@@ -79,14 +79,14 @@ ms.locfileid: "99917345"
 
 9. Создайте новый файл в текстовом редакторе и введите следующий код. Этот код создает Windows Forms приложение, которое скачивает сборку ClickOnceLibrary, когда это необходимо.
 
-     [!code-csharp[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
-     [!code-vb[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceOnDemandCmdLine/CS/Form1.cs" id="Snippet1":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceOnDemandCmdLine/VB/Form1.vb" id="Snippet1":::
 
 10. В коде нахождение вызова <xref:System.Reflection.Assembly.LoadFile%2A> .
 
 11. Задайте `PublicKeyToken` значение, полученное ранее.
 
-12. Сохраните файл как *Form1.CS* или *Form1. vb*.
+12. Сохраните файл как *Form1. CS* или *Form1. vb*.
 
 13. Скомпилируйте его в исполняемый файл с помощью следующей команды.
 

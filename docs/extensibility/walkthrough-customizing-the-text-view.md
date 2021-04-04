@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 17aa8644fc4823df5b68378e9045fa190980306d
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 5ef4d0b408afc00a806e73d1e2eae7a07dde7814
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105080311"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216856"
 ---
 # <a name="walkthrough-customize-the-text-view"></a>Пошаговое руководство. Настройка представления текста
 Можно настроить представление текста, изменив любое из следующих свойств в его сопоставлении в формате редактора:
@@ -51,8 +51,8 @@ ms.locfileid: "105080311"
 
 2. Затем добавьте следующие `using` директивы:
 
-    [!code-csharp[VSSDKViewPropertyTest#1](../extensibility/codesnippet/CSharp/walkthrough-customizing-the-text-view_1.cs)]
-    [!code-vb[VSSDKViewPropertyTest#1](../extensibility/codesnippet/VisualBasic/walkthrough-customizing-the-text-view_1.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkviewpropertytest/cs/viewpropertymodifier.cs" id="Snippet1":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkviewpropertytest/vb/viewpropertymodifier.vb" id="Snippet1":::
 
 3. Объявите класс с именем `TestViewCreationListener` , наследуемый от <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener> . Экспортируйте этот класс со следующими атрибутами:
 
@@ -60,20 +60,20 @@ ms.locfileid: "105080311"
 
    - <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> для указания роли этого прослушивателя.
 
-     [!code-csharp[VSSDKViewPropertyTest#2](../extensibility/codesnippet/CSharp/walkthrough-customizing-the-text-view_2.cs)]
-     [!code-vb[VSSDKViewPropertyTest#2](../extensibility/codesnippet/VisualBasic/walkthrough-customizing-the-text-view_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkviewpropertytest/cs/viewpropertymodifier.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkviewpropertytest/vb/viewpropertymodifier.vb" id="Snippet2":::
 
 4. В этом классе импортируйте <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMapService> .
 
-    [!code-csharp[VSSDKViewPropertyTest#3](../extensibility/codesnippet/CSharp/walkthrough-customizing-the-text-view_3.cs)]
-    [!code-vb[VSSDKViewPropertyTest#3](../extensibility/codesnippet/VisualBasic/walkthrough-customizing-the-text-view_3.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkviewpropertytest/cs/viewpropertymodifier.cs" id="Snippet3":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkviewpropertytest/vb/viewpropertymodifier.vb" id="Snippet3":::
 
 ## <a name="change-the-view-properties"></a>Изменение свойств представления
 
 1. Настройте <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> метод таким образом, чтобы свойства представления изменялись при открытии представления. Чтобы внести изменения, сначала найдите объект <xref:System.Windows.ResourceDictionary> , соответствующий аспекту представления, которое необходимо найти. Затем измените соответствующее свойство в словаре ресурсов и задайте свойства. Выполните пакетную обработку вызовов <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.SetProperties%2A> метода, вызвав <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.BeginBatchUpdate%2A> метод до задания свойств, а затем <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.EndBatchUpdate%2A> после установки свойств.
 
-     [!code-csharp[VSSDKViewPropertyTest#4](../extensibility/codesnippet/CSharp/walkthrough-customizing-the-text-view_4.cs)]
-     [!code-vb[VSSDKViewPropertyTest#4](../extensibility/codesnippet/VisualBasic/walkthrough-customizing-the-text-view_4.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkviewpropertytest/cs/viewpropertymodifier.cs" id="Snippet4":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkviewpropertytest/vb/viewpropertymodifier.vb" id="Snippet4":::
 
 ## <a name="build-and-test-the-code"></a>Сборка и тестирование кода
 
@@ -93,5 +93,5 @@ ms.locfileid: "105080311"
 
 5. Включите видимый пробел. (В меню **Правка** наведите указатель на пункт **Дополнительно** и выберите пункт **Показать пустое пространство**). Введите в текст некоторые вкладки. Должны отобразиться красные стрелки, представляющие вкладки.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 - [Точки расширения языковой службы и редактора](../extensibility/language-service-and-editor-extension-points.md)

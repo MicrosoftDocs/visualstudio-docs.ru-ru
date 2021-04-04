@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 51b80124f7cf550843ad346e9d1e1c0b21ccd0f7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7cc3d29d4991b6cfb712e4754f066edbb66f0b71
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923354"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216687"
 ---
 # <a name="how-to-create-a-sharepoint-command"></a>Как создать команду SharePoint
   Если вы хотите использовать объектную модель сервера в расширении инструментов SharePoint, необходимо создать пользовательскую *команду SharePoint* для вызова API. Команда SharePoint определяется в сборке, которая может напрямую вызывать серверную объектную модель.
@@ -64,8 +64,8 @@ ms.locfileid: "99923354"
 ## <a name="example"></a>Пример
  В следующем примере кода показана команда SharePoint с идентификатором `Contoso.Commands.UpgradeSolution` . Эта команда использует интерфейсы API в серверной модели объектов для обновления до развернутого решения.
 
- [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#5](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/SharePointCommands/Commands.cs#5)]
- [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#5](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/sharepointcommands/commands.vb#5)]
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/SharePointCommands/Commands.cs" id="Snippet5":::
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/sharepointcommands/commands.vb" id="Snippet5":::
 
  Помимо неявного первого <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> параметра, эта команда также имеет пользовательский строковый параметр, содержащий полный путь к WSP-файлу, который обновляется на сайте SharePoint. Чтобы просмотреть этот код в контексте более крупного примера, см. раздел [Пошаговое руководство. Создание настраиваемого шага развертывания для проектов SharePoint](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
 

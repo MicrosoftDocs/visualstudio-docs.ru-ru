@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 237cd28bffece4517e80b979602ac8d2ed357aa2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 87f5b0cf86178b88b1611f4b0ce8a4bbacde780e
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882691"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216804"
 ---
 # <a name="how-to-add-a-specific-finder-method"></a>Как добавить конкретный метод поиска
   Можно вернуть один экземпляр сущности, создав *конкретный метод поиска* . Служба подключения к бизнес-данным (BDC) выполняет конкретный метод поиска, когда пользователь выбирает сущность в веб-части данных или во внешнем списке. Дополнительные сведения см. в разделе [Проектирование модели подключения к бизнес-данным](../sharepoint/designing-a-business-data-connectivity-model.md).
@@ -84,8 +84,8 @@ ms.locfileid: "99882691"
      > [!NOTE]
      > Замените значение `ServerName` поля именем сервера.
 
-     [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
-     [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
 
 ## <a name="see-also"></a>См. также раздел
 - [Проектирование модели подключения к бизнес-данным](../sharepoint/designing-a-business-data-connectivity-model.md)

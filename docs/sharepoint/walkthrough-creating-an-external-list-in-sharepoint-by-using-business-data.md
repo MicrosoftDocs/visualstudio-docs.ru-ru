@@ -21,12 +21,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: dbf996a2d44f94e4571a332fa7a86d861d820d45
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0811b029bf7e4705bc0c3689eff73f38280c3b3d
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99847717"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217688"
 ---
 # <a name="walkthrough-create-an-external-list-in-sharepoint-by-using-business-data"></a>Пошаговое руководство. Создание внешнего списка в SharePoint с помощью бизнес-данных
 
@@ -114,9 +114,9 @@ ms.locfileid: "99847717"
 
 3. В конструкторе откройте контекстное меню для **сущности Entity1** и выберите команду **Удалить**.
 
-4. В **Обозреватель решений** откройте контекстное меню для *сущности Entity1. vb* (в Visual Basic) или *Entity1.CS* (в C#), а затем выберите **Удалить**.
+4. В **Обозреватель решений** откройте контекстное меню для *сущности Entity1. vb* (в Visual Basic) или *сущности Entity1. CS* (в C#), а затем выберите **Удалить**.
 
-5. Откройте контекстное меню для *Entity1Service. vb* (в Visual Basic) или *Entity1Service.CS* (в C#), а затем выберите **Удалить**.
+5. Откройте контекстное меню для *Entity1Service. vb* (в Visual Basic) или *Entity1Service. CS* (в C#), а затем выберите **Удалить**.
 
 ## <a name="add-an-entity-to-the-model"></a>Добавление сущности в модель
 
@@ -126,7 +126,7 @@ ms.locfileid: "99847717"
 
 2. На вкладке **BusinessDataConnectivity** в **области элементов** добавьте **сущность** в конструктор BDC.
 
-     Новая сущность появится в конструкторе. Visual Studio добавляет файл с именем *ентитисервице. vb* (в Visual Basic) или *EntityService.CS* (в C#) в проект.
+     Новая сущность появится в конструкторе. Visual Studio добавляет файл с именем *ентитисервице. vb* (в Visual Basic) или *ентитисервице. CS* (в C#) в проект.
 
 3. В строке меню выберите **вид**  >    >  **окно** свойств.
 
@@ -188,7 +188,7 @@ ms.locfileid: "99847717"
     |----------|---------------|
     |FirstName|System.String|
     |LastName|System.String|
-    |Номер телефона|System.String|
+    |Телефон|System.String|
     |EmailAddress|System.String|
     |EmailPromotion|System.Int32|
     |NameStyle|System.Boolean|
@@ -208,8 +208,8 @@ ms.locfileid: "99847717"
     > [!NOTE]
     > Замените значение `ServerName` поля именем сервера.
 
-     [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
-     [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
 
 ## <a name="add-a-finder-method"></a>Добавление метода поиска
 
@@ -236,8 +236,8 @@ ms.locfileid: "99847717"
      > [!NOTE]
      > Замените значение `ServerName` поля именем сервера.
 
-     [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
-     [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet2":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet2":::
 
 ## <a name="test-the-project"></a>Тестирование проекта
 

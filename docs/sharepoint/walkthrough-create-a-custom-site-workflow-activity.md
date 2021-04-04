@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: f2b722ccef084286287b9825c43fa9069f64dcc4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 29a3cd6fe37ec824a3db3a2c83aad7434d0018cb
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937723"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106218052"
 ---
 # <a name="walkthrough-create-a-custom-site-workflow-activity"></a>Пошаговое руководство: Создание пользовательского действия рабочего процесса сайта
   В этом пошаговом руководстве показано, как создать настраиваемое действие для рабочего процесса уровня сайта с помощью [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] . (Рабочие процессы на уровне сайта применяются ко всему сайту, а не только к списку на сайте.) Настраиваемое действие создает список объявлений резервной копии, а затем копирует в него содержимое списка объявлений.
@@ -91,8 +91,8 @@ ms.locfileid: "99937723"
 
 3. Замените весь код в Class1 следующим кодом:
 
-     [!code-csharp[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
-     [!code-vb[SP_AnnBackup#1](../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs" id="Snippet1":::
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb" id="Snippet1":::
 
 4. Сохраните проект, а затем в строке меню выберите **Сборка**  >  **собрать решение**.
 

@@ -21,12 +21,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 8037b8d19bad19485e9ed8f7926e6a3e45b8fef1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 47c17c66a1def3c3fa774437825fe15b3f9ff534
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99866909"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216284"
 ---
 # <a name="fill-datasets-by-using-tableadapters"></a>Заполнение наборов данных с помощью адаптеров таблицы
 
@@ -56,8 +56,8 @@ ms.locfileid: "99866909"
 
 Хотя адаптеры таблиц разработаны с **Конструктор наборов данных**, классы TableAdapter не создаются как вложенные классы  <xref:System.Data.DataSet> . Они находятся в отдельных пространствах имен, относящихся к каждому набору данных. Например, если имеется набор данных с именем `NorthwindDataSet` , адаптеры таблиц TableAdapter, связанные с  <xref:System.Data.DataTable> s в, `NorthwindDataSet` будут находиться в `NorthwindDataSetTableAdapters` пространстве имен. Чтобы получить доступ к определенному адаптеру TableAdapter программным путем, необходимо объявить новый экземпляр TableAdapter. Пример:
 
-[!code-csharp[VbRaddataTableAdapters#7](../data-tools/codesnippet/CSharp/fill-datasets-by-using-tableadapters_1.cs)]
-[!code-vb[VbRaddataTableAdapters#7](../data-tools/codesnippet/VisualBasic/fill-datasets-by-using-tableadapters_1.vb)]
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Class1.cs" id="Snippet7":::
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Class1.vb" id="Snippet7":::
 
 ## <a name="associated-datatable-schema"></a>Связанная схема DataTable
 

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0f55eb3ba06f2541bf1f4777c24927993444c6b1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8f01d3c15490a19c8cb5071cf7677fcf2b2a5384
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99873610"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216622"
 ---
 # <a name="how-to-create-a-sharepoint-project-item-extension"></a>Как создать расширение элемента проекта SharePoint
   Расширение элемента проекта создается, если требуется добавить функциональные возможности в элемент проекта SharePoint, уже установленный в Visual Studio. Дополнительные сведения см. в разделе [расширение элементов проектов SharePoint](../sharepoint/extending-sharepoint-project-items.md).
@@ -49,8 +49,8 @@ ms.locfileid: "99873610"
 ## <a name="example"></a>Пример
  В следующем примере кода показано, как создать простое расширение для элемента проекта приемника событий. Каждый раз, когда пользователь добавляет элемент проекта приемника событий в проект SharePoint, это расширение записывает сообщение в окно **вывода** и **Список ошибок** окно.
 
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#1](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectitemextension.cs#1)]
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#1](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectitemextension.vb#1)]
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/projectitemextension.cs" id="Snippet1":::
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/projectitemextension.vb" id="Snippet1":::
 
  В этом примере используется служба проекта SharePoint для записи сообщения в окно **вывода** и **Список ошибок** окно. Дополнительные сведения см. [в статье Использование службы проектов SharePoint](../sharepoint/using-the-sharepoint-project-service.md).
 

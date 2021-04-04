@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: c9d50de6630a813a9c8c7a075af6f921608fcd93
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 305220a8206cc84e55ed7319b5ce6ce1c8058b3c
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851534"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217038"
 ---
 # <a name="walkthrough-add-feature-event-receivers"></a>Пошаговое руководство. Добавление приемников событий компонентов
 Приемники событий компонентов — это методы, которые выполняются при возникновении одного из следующих событий, связанных с функциями, в SharePoint.
@@ -85,16 +85,16 @@ ms.locfileid: "99851534"
 
 2. В узле **компоненты** откройте контекстное меню для **Feature1** и выберите **Добавить приемник событий** , чтобы добавить приемник событий в компонент.
 
-     При этом в Feature1 добавляется файл кода. В этом случае он называется либо *Feature1.EventReceiver.CS* , либо *Feature1. евентрецеивер. vb* в зависимости от языка разработки проекта.
+     При этом в Feature1 добавляется файл кода. В этом случае он именуется как *Feature1. евентрецеивер. CS* или *Feature1. евентрецеивер. vb* в зависимости от языка разработки проекта.
 
 3. Если проект написан на [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)], добавьте следующий код в начало приемника событий, если он еще не находится там:
 
-     [!code-csharp[SP_FeatureEvt#1](../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs#1)]
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs" id="Snippet1":::
 
 4. Класс приемника событий содержит несколько закомментированных методов, действующих как события. Замените метод **FeatureDeactivating** следующим:
 
-     [!code-vb[SP_FeatureEvt#2](../sharepoint/codesnippet/VisualBasic/featureevt2vb/features/feature1/feature1.eventreceiver.vb#2)]
-     [!code-csharp[SP_FeatureEvt#2](../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs#2)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/featureevt2vb/features/feature1/feature1.eventreceiver.vb" id="Snippet2":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs" id="Snippet2":::
 
 ## <a name="test-the-feature-event-receiver"></a>Тестирование приемника событий компонента
  Затем отключите функцию, чтобы проверить, выводит ли метод **FeatureDeactivating** объявление в список объявлений SharePoint.

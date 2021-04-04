@@ -16,12 +16,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 25bdda6a1b62f47c752a2975fa3acfd1379a470c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ff8c641cc0b817b5f2a145af49c5e0accdc295d0
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99867152"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216336"
 ---
 # <a name="create-a-windows-forms-user-control-that-supports-complex-data-binding"></a>Создание пользовательского элемента управления Windows Forms со сложной привязкой данных
 
@@ -97,8 +97,8 @@ ms.locfileid: "99867152"
 
 1. Замените код в `ComplexDataGridView` следующим кодом:
 
-    [!code-csharp[VbRaddataDisplaying#4](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.cs)]
-    [!code-vb[VbRaddataDisplaying#4](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-complex-data-binding_1.vb)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/ComplexDataGridView.cs" id="Snippet4":::
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/ComplexDataGridView.vb" id="Snippet4":::
 
 1. В меню **Построение** выберите пункт **Построить решение**.
 

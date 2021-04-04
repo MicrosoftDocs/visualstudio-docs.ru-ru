@@ -19,12 +19,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 8b5228d463bebf7ed57c68cbcf16a1d767d94917
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6e1046dfd114e4cad69445b8f4e1432c03aac0e5
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99858674"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216466"
 ---
 # <a name="insert-new-records-into-a-database"></a>Вставка новых записей в базу данных
 
@@ -52,8 +52,8 @@ ms.locfileid: "99858674"
 
    В следующем коде показано, как добавить новую запись в, <xref:System.Data.DataTable> а затем вызвать метод, `TableAdapter.Update` чтобы сохранить новую строку в базе данных. (В этом примере используется `Region` Таблица в базе данных Northwind.)
 
-   [!code-vb[VbRaddataSaving#14](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_1.vb)]
-   [!code-csharp[VbRaddataSaving#14](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_1.cs)]
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb" id="Snippet14":::
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs" id="Snippet14":::
 
 ### <a name="to-insert-new-records-into-a-database-by-using-the-tableadapterinsert-method"></a>Вставка новых записей в базу данных с помощью метода TableAdapter. INSERT
 
@@ -66,8 +66,8 @@ ms.locfileid: "99858674"
 > [!NOTE]
 > Если у вас нет доступного экземпляра, создайте экземпляр TableAdapter, который вы хотите использовать.
 
-[!code-vb[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_2.vb)]
-[!code-csharp[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_2.cs)]
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
 
 ## <a name="insert-new-records-by-using-command-objects"></a>Вставка новых записей с помощью командных объектов
 
@@ -79,8 +79,8 @@ ms.locfileid: "99858674"
 
 В следующем примере демонстрируется вставка записей в базу данных с помощью командного объекта. Данные вставляются в `Region` таблицу базы данных Northwind.
 
-[!code-vb[VbRaddataSaving#16](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_3.vb)]
-[!code-csharp[VbRaddataSaving#16](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_3.cs)]
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet16":::
 
 ## <a name="net-security"></a>Безопасность в .NET
 

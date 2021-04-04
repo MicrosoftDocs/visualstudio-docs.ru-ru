@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: be772075be27cc8d6e58b6b54bb281a127f4677f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e7c0a13879850bbd31112ddcb3193d027abeb5d1
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99878127"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216362"
 ---
 # <a name="how-to-add-a-custom-sharepoint-node-to-server-explorer"></a>Как добавить пользовательский узел SharePoint к обозреватель сервера
   В **Обозреватель сервера** можно добавить пользовательские узлы в узле " **подключения SharePoint** ". Это полезно, если требуется отобразить дополнительные компоненты SharePoint, которые не отображаются в **Обозреватель сервера** по умолчанию. Дополнительные сведения см. в разделе [Расширение узла подключений SharePoint в обозревателе серверов](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
@@ -54,8 +54,8 @@ ms.locfileid: "99878127"
 
      В следующем примере кода показано, как определить новый узел. В этом примере предполагается, что проект содержит значок с именем Кустомчилднодеикон в качестве внедренного ресурса.
 
-     [!code-vb[SPExtensibility.ProjectSystemExtension.General#6](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorernode.vb#6)]
-     [!code-csharp[SPExtensibility.ProjectSystemExtension.General#6](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorernode.cs#6)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorernode.vb" id="Snippet6":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorernode.cs" id="Snippet6":::
 
 ### <a name="to-add-the-new-node-as-a-child-of-an-existing-node"></a>Добавление нового узла в качестве дочернего для существующего узла
 
@@ -77,14 +77,14 @@ ms.locfileid: "99878127"
 
      В следующем примере кода показано, как добавить новый узел в качестве дочернего узла узла сайта SharePoint в **Обозреватель сервера**.
 
-     [!code-vb[SPExtensibility.ProjectSystemExtension.General#7](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorernode.vb#7)]
-     [!code-csharp[SPExtensibility.ProjectSystemExtension.General#7](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorernode.cs#7)]
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorernode.vb" id="Snippet7":::
+     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorernode.cs" id="Snippet7":::
 
 ## <a name="complete-example"></a>Полный пример
  В следующем примере кода приведен полный код для определения простого узла и добавления его в качестве дочернего узла узла сайта SharePoint в **Обозреватель сервера**.
 
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#5](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorernode.vb#5)]
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#5](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorernode.cs#5)]
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorernode.vb" id="Snippet5":::
+ :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorernode.cs" id="Snippet5":::
 
 ## <a name="compiling-the-code"></a>Компиляция кода
  В этом примере предполагается, что проект содержит значок с именем Кустомчилднодеикон в качестве внедренного ресурса. Для этого примера также требуются ссылки на следующие сборки:

@@ -18,12 +18,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9030740a25312ea1463b950e34061884e9487ba4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 42974852a3051fd3473b6b23d880eeb38b966b95
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99858531"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216206"
 ---
 # <a name="save-a-dataset-as-xml"></a>Сохранение набора данных в формате XML
 
@@ -37,15 +37,15 @@ ms.locfileid: "99858531"
 
 - Метод <xref:System.Data.DataSet.GetXml%2A> возвращает <xref:System.String>. Объявите переменную типа <xref:System.String> и присвойте ей результаты <xref:System.Data.DataSet.GetXml%2A> метода.
 
-     [!code-vb[VbRaddataSaving#12](../data-tools/codesnippet/VisualBasic/save-a-dataset-as-xml_1.vb)]
-     [!code-csharp[VbRaddataSaving#12](../data-tools/codesnippet/CSharp/save-a-dataset-as-xml_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet12":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet12":::
 
 ## <a name="to-save-the-data-in-a-dataset-as-xml-to-a-file"></a>Сохранение данных в наборе данных в виде XML-файла
 
 - <xref:System.Data.DataSet.WriteXml%2A>Метод имеет несколько перегрузок. Объявите переменную и присвойте ей допустимый путь для сохранения файла. В следующем примере кода показано, как сохранить данные в файл:
 
-     [!code-vb[VbRaddataSaving#13](../data-tools/codesnippet/VisualBasic/save-a-dataset-as-xml_2.vb)]
-     [!code-csharp[VbRaddataSaving#13](../data-tools/codesnippet/CSharp/save-a-dataset-as-xml_2.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet13":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet13":::
 
 ## <a name="see-also"></a>См. также раздел
 
