@@ -15,12 +15,12 @@ ms.author: ornella
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: c6a4c2ce57e231cb174bb14a1a15e9089db8e6ad
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 341d0e54af991390a3ff5146a29d9e66ad7c737e
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99868768"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214152"
 ---
 # <a name="step-7-keep-pairs-visible"></a>Шаг 7. Отмена исчезновения пар значков
 Игра работает правильно, пока игрок выбирает только пары значков, которые не совпадают. Но давайте посмотрим, что произойдет, когда игрок выберет совпадающую пару. Вместо того чтобы значки исчезали благодаря включению таймера (с помощью метода <xref:System.Windows.Forms.Timer.Start>), игра должна сбрасываться и больше не отслеживать метки с помощью ссылочных переменных `firstClicked` и `secondClicked`. Но цвета двух меток, которые были выбраны, не должны сбрасываться.
@@ -29,8 +29,8 @@ ms.locfileid: "99868768"
 
 1. Добавьте следующий оператор `if` в конец кода метода обработчика событий `label_Click()` перед оператором, который запускает таймер. Внимательно просмотрите код при добавлении его в программу. Рассмотрим, как работает код.
 
-     [!code-csharp[VbExpressTutorial4Step7#9](../ide/codesnippet/CSharp/step-7-keep-pairs-visible_1.cs)]
-     [!code-vb[VbExpressTutorial4Step7#9](../ide/codesnippet/VisualBasic/step-7-keep-pairs-visible_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step7/cs/form1.cs" id="Snippet9":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
 
      > [!IMPORTANT]
      > Используйте элемент управления языка программирования в правом верхнем углу этой страницы, чтобы просмотреть фрагмент кода на C# или Visual Basic.<br><br>![Элемент управления языка программирования для Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)

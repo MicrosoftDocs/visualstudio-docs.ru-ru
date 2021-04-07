@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 4ea04a9c70f23c30a5f603fa9411780223fff563
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1a1f115dfff92b1c5e5979e62af257cde6a92360
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99883055"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216596"
 ---
 # <a name="walkthrough-test-first-development-with-the-generate-from-usage-feature"></a>Пошаговое руководство. Основанная на тестировании разработка с помощью возможности "Создание в результате использования"
 
@@ -92,8 +92,8 @@ Visual Studio создает типы и члены, практически не
 
 1. Добавьте в метод теста `DefaultAutomobileIsInitializedCorrectly` приведенную ниже строку кода.
 
-     [!code-csharp[VbTDDWalkthrough#1](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.cs)]
-     [!code-vb[VbTDDWalkthrough#1](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbtddwalkthrough/cs/unittest1.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbtddwalkthrough/vb/unittest1.vb" id="Snippet1":::
 
 2. Так как код ссылается на два неопределенных свойства `Automobile`, под `Model` и `TopSpeed` появляется волнистая линия подчеркивания. Наведите указатель мыши на `Model` и выберите значок **Быстрые действия** в виде лампочки с ошибкой, а затем выберите **Создайте свойство "Automobile.Model"** .
 
@@ -106,8 +106,8 @@ Visual Studio создает типы и члены, практически не
 
 1. Добавьте приведенный ниже дополнительный тестовый метод в класс `AutomobileTest` .
 
-     [!code-csharp[VbTDDWalkthrough#2](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.cs)]
-     [!code-vb[VbTDDWalkthrough#2](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbtddwalkthrough/cs/intermediate.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbtddwalkthrough/vb/intermediate.vb" id="Snippet2":::
 
 2. Под красной волнистой линией щелкните значок **Быстрые действия** в виде лампочки с ошибкой и выберите пункт **Создать конструктор в "Automobile"** .
 
@@ -120,8 +120,8 @@ Visual Studio создает типы и члены, практически не
 
 1. Добавьте приведенные ниже строки в метод `AutomobileWithModelNameCanStart` .
 
-     [!code-csharp[VbTDDWalkthrough#3](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.cs)]
-     [!code-vb[VbTDDWalkthrough#3](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbtddwalkthrough/cs/unittest1.cs" id="Snippet3":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbtddwalkthrough/vb/unittest1.vb" id="Snippet3":::
 
 2. Щелкните значок **Быстрые действия** в виде лампочки с ошибкой для вызова метода `myAuto.Start`, а затем выберите пункт **Создать метод "Automobile.Start"** .
 
@@ -145,13 +145,13 @@ Visual Studio создает типы и члены, практически не
 
 1. Добавьте приведенный ниже код в конструктор по умолчанию, чтобы свойства `Model`, `TopSpeed` и `IsRunning` были инициализированы правильными значениями по умолчанию `"Not specified"`, `-1`и `False` (`false` для C#).
 
-     [!code-csharp[VbTDDWalkthrough#5](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.cs)]
-     [!code-vb[VbTDDWalkthrough#5](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbtddwalkthrough/cs/automobile.cs" id="Snippet5":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbtddwalkthrough/vb/automobile.vb" id="Snippet5":::
 
 2. При вызове метода `Start` он должен устанавливать флажок `IsRunning` в значение true только в том случае, если свойство `Model` или `TopSpeed` имеет значение, отличное от значения по умолчанию. Удалите `NotImplementedException` из тела метода и добавьте приведенный ниже код.
 
-     [!code-csharp[VbTDDWalkthrough#6](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.cs)]
-     [!code-vb[VbTDDWalkthrough#6](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbtddwalkthrough/cs/automobile.cs" id="Snippet6":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbtddwalkthrough/vb/automobile.vb" id="Snippet6":::
 
 ### <a name="run-the-tests-again"></a>Повторный запуск тестов
 

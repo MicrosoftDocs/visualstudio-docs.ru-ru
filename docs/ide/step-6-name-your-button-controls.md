@@ -15,12 +15,12 @@ ms.author: ornella
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 0f6612806f8bf1453cf28f9d75c78588c2074bb0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f69a87d923eebaea03c9c8a38496c4c379db8aba
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99868885"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214217"
 ---
 # <a name="step-6-name-your-button-controls"></a>Шаг 6. Присвоение имен элементам управления "Кнопка"
 
@@ -80,9 +80,9 @@ ms.locfileid: "99868885"
 
     Ниже показан новый код, который представлен в редакторе кода.
 
-    [!code-csharp[VbExpressTutorial1Step6_#2](../ide/codesnippet/CSharp/step-6-name-your-button-controls_2.cs)]
+    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step6/cs/form1.cs" id="Snippet2":::
 
-    [!code-vb[VbExpressTutorial1Step6_#2](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_2.vb)]
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step6/vb/form1.vb" id="Snippet2":::
 
     > [!NOTE]
     > В вашем коде обработчики событий могут не отображаться в "верблюжьем" стиле.

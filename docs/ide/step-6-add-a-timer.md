@@ -15,12 +15,12 @@ ms.author: ornella
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 77daa47cdd6336849903202233392d3eecc33c1a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f59375e9e64e6a7302d65b8c940d82b63adef54f
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99868898"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214204"
 ---
 # <a name="step-6-add-a-timer"></a>Шаг 6. Добавление таймера
 Затем добавьте в игру "Подбери пару" элемент управления <xref:System.Windows.Forms.Timer>. Таймер ожидает заданное число миллисекунд, а затем вызывает событие, называемое *тактом*. Это бывает удобно для запуска действия или повтора действия с определенной периодичностью. В этом случае таймер нужен для того, чтобы игроки могли выбрать два значка, а если они не совпадают, скрыть их через небольшой отрезок времени.
@@ -39,8 +39,8 @@ ms.locfileid: "99868898"
 
 3. Выберите значок элемента управления "Таймер" в **конструкторе Windows Forms**, а затем нажмите клавишу **ВВОД** или дважды щелкните таймер, чтобы добавить пустой обработчик событий Tick. Замените код следующим кодом или вручную введите следующий код в обработчик событий.
 
-     [!code-csharp[VbExpressTutorial4Step6#7](../ide/codesnippet/CSharp/step-6-add-a-timer_1.cs)]
-     [!code-vb[VbExpressTutorial4Step6#7](../ide/codesnippet/VisualBasic/step-6-add-a-timer_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
 
       > [!IMPORTANT]
       > Используйте элемент управления языка программирования в правом верхнем углу этой страницы, чтобы просмотреть фрагмент кода на C# или Visual Basic.<br><br>![Элемент управления языка программирования для Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
@@ -52,8 +52,8 @@ ms.locfileid: "99868898"
 
 4. Чтобы увидеть работу нового таймера, перейдите к редактору кода и добавьте следующий код в начало и конец метода обработчика событий `label_Click()`. (Вы добавляете два оператора `if` в начало метода и три оператора в конец. Остальная часть метода остается неизменной.)
 
-     [!code-csharp[VbExpressTutorial4Step6#8](../ide/codesnippet/CSharp/step-6-add-a-timer_2.cs)]
-     [!code-vb[VbExpressTutorial4Step6#8](../ide/codesnippet/VisualBasic/step-6-add-a-timer_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
 
      Код в начале метода проверяет, запущен ли таймер, обращаясь к значению свойству **Enabled**. Таким образом, если игрок выбирает первый и второй элемент управления Label и таймер запускается, выбор третьего элемента управления Label ни к чему не приведет. Он также не позволяет проигрывателю быстро щелкнуть третий раз, прежде чем в игре можно будет щелкнуть первый раз. 
 

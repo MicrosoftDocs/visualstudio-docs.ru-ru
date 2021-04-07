@@ -15,12 +15,12 @@ ms.author: ornella
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 52b7ee88f53fc9ce30467bd42a271d39cc912ec1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0c33294f90839185d3b857eaec54d667c6575258
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99950917"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214334"
 ---
 # <a name="step-2-create-a-random-addition-problem"></a>Шаг 2. Создание задачи на сложение случайных чисел
 
@@ -39,8 +39,8 @@ ms.locfileid: "99950917"
 
 3. Создайте объект <xref:System.Random>, добавив оператор `new` в начале кода следующим образом.
 
-     [!code-csharp[VbExpressTutorial3Step2#1](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_1.cs)]
-     [!code-vb[VbExpressTutorial3Step2#1](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_1.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet1":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet1":::
 
      [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
@@ -57,13 +57,13 @@ ms.locfileid: "99950917"
 
      Для добавления целочисленной переменной используется синтаксис, похожий на тот, с помощью которого вы добавили объект Random, как показано в следующем коде.
 
-     [!code-csharp[VbExpressTutorial3Step2#2](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_2.cs)]
-     [!code-vb[VbExpressTutorial3Step2#2](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_2.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet2":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet2":::
 
 5. Добавьте метод с именем `StartTheQuiz()`, который использует метод <xref:System.Random.Next> объекта Random для отображения случайных чисел в метках. В конечном итоге метод `StartTheQuiz()` подставит числа для всех задач и затем запустит таймер, поэтому добавьте комментарий. Функция должна выглядеть следующим образом.
 
-     [!code-csharp[VbExpressTutorial3Step2#3](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_3.cs)]
-     [!code-vb[VbExpressTutorial3Step2#3](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_3.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet3":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet3":::
 
      Обратите внимание, что при вводе точки (.) после слова `randomizer` в коде открывается окно IntelliSense, в котором отображаются все методы объекта Random, которые можно вызвать. Например, IntelliSense указывает метод `Next()`, как показано ниже.
 
@@ -77,8 +77,8 @@ ms.locfileid: "99950917"
 
      Более внимательно ознакомимся с этими операторами.
 
-     [!code-csharp[VbExpressTutorial3Step2#18](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_4.cs)]
-     [!code-vb[VbExpressTutorial3Step2#18](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_4.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet18":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet18":::
 
      Операторы задают свойства **Text** двух меток — **plusLeftLabel** и **plusRightLabel** — так, чтобы они отображали два случайных числа. Для преобразования чисел в текст необходимо использовать метод `ToString()` целого числа. (В программировании под "строкой" понимается текст. Элементы управления Label могут отображать только текст, но не числа.
 
@@ -88,8 +88,8 @@ ms.locfileid: "99950917"
 
 7. Добавьте следующие два оператора.
 
-     [!code-csharp[VbExpressTutorial3Step2#4](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_5.cs)]
-     [!code-vb[VbExpressTutorial3Step2#4](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_5.vb)]
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet4":::
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet4":::
 
      Первый оператор вызывает новый метод `StartTheQuiz()`. Второй оператор устанавливает свойству **Enabled** элемента управления **startButton** значение **False**, чтобы игрок не мог нажать кнопку в процессе работы головоломки.
 

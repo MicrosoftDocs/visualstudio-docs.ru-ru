@@ -11,12 +11,12 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.openlocfilehash: 9dc515b35fd57368e2be4742cb685be9414734ec
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a823d6a519da286e5c6df8947d64934a244c1985
+ms.sourcegitcommit: 9c831a7f39e5b3e3c5db000b2545715bf12225f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99878699"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "105933775"
 ---
 # <a name="how-to-create-project-templates"></a>Практическое руководство. Создание шаблонов проектов
 
@@ -68,3 +68,4 @@ ms.locfileid: "99878699"
 - [Создание шаблонов проектов и элементов](../ide/creating-project-and-item-templates.md)
 - [Практическое руководство. Создание шаблонов элементов](../ide/how-to-create-item-templates.md)
 - [Начало работы с шаблоном проекта VSIX](../extensibility/getting-started-with-the-vsix-project-template.md)
+- [Настройка шаблонов проектов и элементов](customizing-project-and-item-templates.md)

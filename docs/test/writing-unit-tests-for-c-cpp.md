@@ -1,19 +1,19 @@
 ---
 title: Написание модульных тестов для C/C++
 description: Вы можете писать модульные тесты для C++ в Visual Studio с помощью различных платформ тестирования, включая CTest, Boost.Test и Google Test.
-ms.date: 02/08/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: corob
 manager: markl
 ms.workload:
 - cplusplus
 author: corob-msft
-ms.openlocfilehash: cf6287ebdb4c2df6145a0e60e22ac1197a517fde
-ms.sourcegitcommit: fcfd0fc7702a47c81832ea97cf721cca5173e930
+ms.openlocfilehash: d20bcdef769d8cd751230000b0e4d4319b10e46f
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97729370"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217467"
 ---
 # <a name="write-unit-tests-for-cc-in-visual-studio"></a>Написание модульных тестов для C/C++ в Visual Studio
 
@@ -92,7 +92,7 @@ ms.locfileid: "97729370"
 ### <a name="write-test-methods"></a>Написание методов теста
 
 > [!NOTE]
-> В этом разделе представлен синтаксис при использовании платформы модульного тестирования Майкрософт для C/C++. Он описан здесь: [Справочник по API Microsoft.VisualStudio.TestTools.CppUnitTestFramework](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). Документацию по Google Test см. на странице [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) (Начало работы с Google Test). Сведения о Boost.Test см. на странице [Библиотека Boost.Test: среда модульного тестирования](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
+> В этом разделе представлен синтаксис при использовании платформы модульного тестирования Майкрософт для C/C++. Он описан здесь: [Справочник по API Microsoft.VisualStudio.TestTools.CppUnitTestFramework](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). Документацию по Google Test см. на странице [Google Test Primer](https://github.com/google/googletest/blob/master/docs/primer.md) (Начало работы с Google Test). Сведения о Boost.Test см. на странице [Библиотека Boost.Test: среда модульного тестирования](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
 
 В *CPP*-файле в тестовом проекте определены класс-заглушка и метод-заглушка. Они служат примером того, как следует писать код теста. В сигнатурах используются макросы TEST_CLASS и TEST_METHOD, что позволяет обнаруживать методы в окне **обозревателя тестов**.
 

@@ -15,12 +15,12 @@ ms.author: ornella
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 238f6a2b6492fdd4ac04e0b596bbfbc304529786
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f64189cbde62ea70ae51fcdcbb8869377dd865f1
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99950839"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214308"
 ---
 # <a name="step-3-add-a-countdown-timer"></a>Шаг 3. Добавление таймера с обратным отсчетом
 
@@ -33,8 +33,8 @@ ms.locfileid: "99950839"
 
 1. Добавьте целочисленную переменную с именем **timeLeft** точно так же, как в предыдущей процедуре. Код должен выглядеть так, как показано ниже.
 
-     [!code-vb[VbExpressTutorial3Step3#5](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_1.vb)]
-     [!code-csharp[VbExpressTutorial3Step3#5](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_1.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet5":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet5":::
 
      [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
@@ -54,8 +54,8 @@ ms.locfileid: "99950839"
 
 5. Добавьте в новый метод обработчика событий следующие операторы.
 
-     [!code-vb[VbExpressTutorial3Step3#6](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_2.vb)]
-     [!code-csharp[VbExpressTutorial3Step3#6](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_2.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet6":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet6":::
 
      Основываясь на добавленных операторах, таймер каждую секунду проверяет, истекло ли время, путем проверки того, является ли целочисленная переменная **timeLeft** больше 0. Если она больше 0, время еще осталось. Таймер сначала вычитает 1 из значения переменной timeLeft, а затем обновляет свойство **Text** элемента управления **timeLabel**, чтобы показать игроку, сколько осталось секунд.
 
@@ -91,8 +91,8 @@ ms.locfileid: "99950839"
 
      Внимательно рассмотрите оператор, который вы добавили в блок `else`, чтобы отобразить ответ на задачу на сложение.
 
-     [!code-vb[VbExpressTutorial3Step3#24](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_3.vb)]
-     [!code-csharp[VbExpressTutorial3Step3#24](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_3.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet24":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet24":::
 
      Оператор `addend1 + addend2` складывает значения двух переменных. Первая часть (`sum.Value`) использует свойство **Value** элемента управления NumericUpDown суммы для отображения правильного ответа. Это же свойство позднее используется для проверки ответов на головоломку.
 
@@ -100,8 +100,8 @@ ms.locfileid: "99950839"
 
 6. Добавьте три строки в конец метода `StartTheQuiz()`, чтобы код выглядел так, как показано ниже.
 
-     [!code-vb[VbExpressTutorial3Step3#7](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_4.vb)]
-     [!code-csharp[VbExpressTutorial3Step3#7](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_4.cs)]
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet7":::
+     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet7":::
 
      Теперь при запуске головоломки переменная **timeLeft** устанавливается равной 30, а свойство **Text** элемента управления **timeLabel** устанавливается равным 30 секундам. После этого метод <xref:System.Windows.Forms.Timer.Start> элемента управления Timer начинает обратный отсчет. (Ответ пока не проверяется — это делается позже.)
 
