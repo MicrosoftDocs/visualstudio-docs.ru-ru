@@ -1,45 +1,46 @@
 ---
 title: Страница справки по умолчанию, вызываемая клавишей F1, для текстового редактора
 description: Страница по умолчанию для запросов справки по клавише F1 для Visual Studio и текстового редактора
-ms.date: 08/20/2020
+ms.date: 03/25/2021
 ms.topic: troubleshooting
-ms.custom: contperf-fy21q1
+ms.custom: contperf-fy21q3
 robots: noindex,nofollow
 f1_keywords:
 - vs.texteditor
 manager: jmartens
 author: mikejo5000
 ms.author: mikejo
-ms.openlocfilehash: 6d30a7bf02202b8114e594c94f7564a1d8683e32
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6d22a07e29b45362324074329aabfddf2b247a6b
+ms.sourcegitcommit: 00e16b9afe6b22ba0591e4d0d92690544e6d4357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961655"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "105616913"
 ---
-# <a name="f1-help-for-the-text-editor"></a>Справка по клавише F1 для текстового редактора
+# <a name="code-editor-f1-help"></a>Справка F1 редактора кода
 
 Похоже, нам не удалось найти то, что вы искали. Приносим свои извинения. Вы можете помочь нам улучшить наши продукты, оставив отзыв с помощью кнопок в нижней части этой страницы или воспользовавшись одной из следующих рекомендаций.
 
-## <a name="cursor-position"></a>Позиция курсора
+## <a name="get-help-for-your-programming-language"></a>Требуется справка по языку программирования?
 
-Если вам нужна справка по клавише F1 по ключевому слову или имени API, до нажатия **F1** убедитесь, что курсор располагается внутри слова или справа от него. Если проблема не исчезла, воспользуйтесь одной из следующих рекомендаций.
+- [Руководство по программированию на C#](/dotnet/csharp/programming-guide/) и [справочник по языку](/dotnet/csharp/language-reference/).
+- [Функции языка Visual Basic](/dotnet/visual-basic/programming-guide/language-features/) и [справочник по языку](/dotnet/visual-basic/language-reference/).
+- [Документация по Python.](https://docs.python.org/)
+- [Справочник по языку C/C++ и стандартным библиотекам.](/cpp/cpp/c-cpp-language-and-standard-libraries)
+- [Руководство по F#.](/dotnet/fsharp/)
+- [Документация по TypeScript.](https://www.typescriptlang.org/docs)
 
-## <a name="find-help-on-a-keyword-or-api"></a>Поиск справки по ключевому слову или API
-
-- Справку по C# см. в [руководстве по программированию на C#](/dotnet/csharp/programming-guide/) или в [справочнике по языку](/dotnet/csharp/language-reference/).
-- Справку по Visual Basic см. в статье о [функциях языка Visual Basic](/dotnet/visual-basic/programming-guide/language-features/) или в [справочнике по языку](/dotnet/visual-basic/language-reference/).
-- Справку по Python см. в [документации по Python](https://docs.python.org/).
-- Справку по C++ см. в [справочнике по языку C/C++ и стандартным библиотекам](/cpp/cpp/c-cpp-language-and-standard-libraries).
-- Справочные сведения о F# см. в [руководстве по F#](/dotnet/fsharp/).
-- Справку по TypeScript см. в [документации по TypeScript](https://www.typescriptlang.org/docs).
-
-## <a name="search-for-help-on-a-keyword-or-api-name"></a>Поиск справки по ключевому слову или имени API
+## <a name="search-for-help-on-keyword-api-name-file-type-or-ui-settings"></a>Поиск справки по ключевому слову, имени API, типу файла или параметрам пользовательского интерфейса
 
 Если вы ищете справку по клавише F1 по окну, ключевому слову или имени API:
+
 - Попробуйте выполнить поиск на сайте [docs.microsoft.com](/).
 - Попробуйте воспользоваться поисковой системой.
 - Поиск документации в [обозревателе API .NET](/dotnet/api/).
+
+## <a name="cursor-position"></a>Позиция курсора
+
+Если вам нужна справка по клавише F1 по ключевому слову или имени API, до нажатия **F1** убедитесь, что курсор располагается внутри слова или справа от него.
 
 ## <a name="find-the-source-code-for-an-api"></a>Поиск исходного кода для API
 

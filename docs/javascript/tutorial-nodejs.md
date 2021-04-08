@@ -1,7 +1,7 @@
 ---
 title: Создание приложения Node.js и Express
 description: Из этого руководства вы узнаете, как в Visual Studio создать простое приложение Node.js с помощью платформы веб-приложений Express.
-ms.date: 04/20/2020
+ms.date: 03/25/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: d3b8413673318f2e0cd2a5f00cfb9d1d7f0b4097
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b3ffe7d2ac219f35d987a3f52551350a2af0fa5c
+ms.sourcegitcommit: 00e16b9afe6b22ba0591e4d0d92690544e6d4357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99957534"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "105617030"
 ---
 # <a name="tutorial-create-a-nodejs-and-express-app-in-visual-studio"></a>Учебник. Создание приложения Node.js и Express в Visual Studio
 
@@ -273,3 +273,6 @@ IntelliSense — это средство Visual Studio, которое помо�
 
 > [!div class="nextstepaction"]
 > [Развертывание приложения в службе приложений Linux](../javascript/publish-nodejs-app-azure.md)
+
+> [!div class="nextstepaction"]
+> [Расширение языковой службы AngularJS](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)

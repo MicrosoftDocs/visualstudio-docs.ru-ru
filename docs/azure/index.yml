@@ -10,12 +10,12 @@ metadata:
   ms.topic: landing-page
   ms.date: 12/05/2019
   ms.author: ghogen
-  ms.openlocfilehash: e2a545d1b9165a158f7d1913668e983386127874
-  ms.sourcegitcommit: e38419bb842d587fd9e37c24b6cf3fc5c2e74817
+  ms.openlocfilehash: 7a7740ad4fffd80bc4b96ef7096b3bdd7c7a31bd
+  ms.sourcegitcommit: 2a50f4c1705baeee5c05580f04e3f468550f44e3
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 10/09/2020
-  ms.locfileid: "91860533"
+  ms.lasthandoff: 04/05/2021
+  ms.locfileid: "106381585"
 landingContent:
 - title: Развертывание в службе приложений Azure
   linkLists:
@@ -85,10 +85,12 @@ landingContent:
       url: azure-sql-database-add-connected-service.md
     - text: Хранилище Azure
       url: vs-azure-tools-connected-services-storage.md
-- title: Облачные службы Azure
+- title: Oблачныe службы Azure
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Создание и развертывание в Облачных службах (расширенная поддержка)
+      url: cloud-services-extended-support.md
     - text: Создание и настройка проектов облачных служб Azure
       url: vs-azure-tools-azure-project-create.md
     - text: Отладка облачных служб локально и в Azure

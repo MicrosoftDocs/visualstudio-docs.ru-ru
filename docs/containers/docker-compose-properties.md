@@ -7,12 +7,12 @@ ms.author: ghogen
 ms.date: 08/12/2019
 ms.technology: vs-azure
 ms.topic: reference
-ms.openlocfilehash: 0a27535e9c07f87391b3cdfd8440578e36feee9e
-ms.sourcegitcommit: d577818d3d8e365baa55c6108fa8159c46ed8b43
+ms.openlocfilehash: 4478656af7fff4cfd3a0fdafefe623af5811154f
+ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97846819"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105068301"
 ---
 # <a name="docker-compose-build-properties"></a>Свойства сборки Docker Compose
 
@@ -39,11 +39,12 @@ ms.locfileid: "97846819"
 |AdditionalComposeFilePaths|DCPROJ|Указывает дополнительные файлы Compose в списке, разделенном точкой с запятой, которые будут отправлены в docker-compose.exe для всех команд. Относительные пути от файла проекта docker-compose (DCPROJ) разрешены.|-|
 |DockerComposeBaseFilePath|DCPROJ|Указывает первую часть имен файлов docker-compose без расширения *YML*. Пример: <br>1.  DockerComposeBaseFilePath равен NULL или не определен: используется базовый путь к файлу *docker-compose*, и файлы будут называться *docker-compose.yml* и *docker-compose.override.yml*.<br>2.   DockerComposeBaseFilePath = *mydockercompose*: файлы будут называться *mydockercompose.yml* и *mydockercompose.override.yml*.<br> 3.  DockerComposeBaseFilePath = *..\mydockercompose*: файлы будут располагаться на один уровень выше. |docker-compose|
 |DockerComposeBuildArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose build`. Например: `--parallel --pull` |
-|DockerComposeDownArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose down`. Например: `--timeout 500`|-|  
+|DockerComposeDownArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose down`. Например: `--timeout 500`|-|
+|DockerComposeProjectName| DCPROJ | Если указано, переопределяет имя проекта для проекта docker-compose. | dockercompose + автоматически сгенерированный хэш |
 |DockerComposeProjectPath|CSPROJ или VBPROJ|Относительный путь к файлу проекта docker-compose (DCPROJ). Задайте это свойство при публикации проекта службы, чтобы можно было найти связанные параметры сборки образа, хранящиеся в файле docker-compose.yml.|-|
 |DockerComposeUpArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose up`. Например: `--timeout 500`|-|
 |DockerDevelopmentMode|DCPROJ| Определяет, включена ли оптимизация "сборка в узле" (отладка в быстром режиме).  Допустимые значения: **Fast** и **Regular**. | Быстрый |
-|DockerLaunchAction| DCPROJ | Указывает действие запуска, выполняемое при нажатии клавиши F5 или клавиш CTRL+F5.  Допустимые значения: None, LaunchBrowser и LaunchWCFTestClient|Отсутствуют|
+|DockerLaunchAction| DCPROJ | Указывает действие запуска, выполняемое при нажатии клавиши F5 или клавиш CTRL+F5.  Допустимые значения: None, LaunchBrowser и LaunchWCFTestClient.|Отсутствуют|
 |DockerLaunchBrowser| DCPROJ | Указывает, следует ли запускать браузер. Игнорируется, если задано свойство DockerLaunchAction. | False |
 |DockerServiceName| DCPROJ|Если указано свойство DockerLaunchAction или DockerLaunchBrowser, DockerServiceName — это имя службы, которую следует запустить.  Используйте это свойство, чтобы указать, какой из множества проектов, на которые может ссылаться файл docker-compose, будет запущен.|-|
 |DockerServiceUrl| DCPROJ | URL-адрес, используемый при запуске браузера.  Допустимые токены замены: "{ServiceIPAddress}", "{ServicePort}" и "{Scheme}".  Пример: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|

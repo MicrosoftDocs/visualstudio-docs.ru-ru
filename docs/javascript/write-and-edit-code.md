@@ -1,7 +1,7 @@
 ---
 title: Общие сведения о редактировании для разработчиков JavaScript
 description: В этом вводном руководстве по редактору кода Visual Studio мы продемонстрируем несколько методов, которые упрощают написание, понимание кода JavaScript и навигацию по нему в Visual Studio.
-ms.date: 12/13/2018
+ms.date: 03/25/2021
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -10,12 +10,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: cec6a19d525f89b5ca8873344d3dce9c830fd4c3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b1d9fb7cdc850bc54298cd3d82d52786a9e6a639
+ms.sourcegitcommit: 00e16b9afe6b22ba0591e4d0d92690544e6d4357
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935694"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "105616965"
 ---
 # <a name="learn-to-use-the-code-editor-for-javascript"></a>Узнайте, как использовать редактор кода для JavaScript
 
@@ -48,7 +48,7 @@ ms.locfileid: "99935694"
 
 IntelliSense также может отображать сведения о типах при наведении указателя мыши на элементы программы.
 
-Чтобы предоставить IntelliSense нужную информацию, языковая служба может использовать файлы TypeScript *d.ts* и комментарии JSDoc. Для самых распространенных библиотек JavaScript автоматически извлекаются файлы *d.ts*. Дополнительные сведения о получении информации для IntelliSense вы найдете в статье [IntelliSense для JavaScript](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json).
+Чтобы предоставить IntelliSense нужную информацию, языковая служба может использовать файлы TypeScript *d.ts* и комментарии JSDoc. Для самых распространенных библиотек JavaScript автоматически извлекаются файлы *d.ts*. Дополнительные сведения о получении информации для IntelliSense см. в статье [IntelliSense для JavaScript](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json). Если вы заинтересованы в программировании на AngularJS в Visual Studio, для получения IntelliSense можно использовать [расширение языковой службы AngularJS](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) для Visual Studio.
 
 ## <a name="check-syntax"></a>Проверка синтаксиса
 
