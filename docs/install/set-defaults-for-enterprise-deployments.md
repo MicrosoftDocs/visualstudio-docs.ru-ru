@@ -1,7 +1,7 @@
 ---
 title: Настройка параметров по умолчанию для корпоративного развертывания
 description: Сведения о доменных политиках и других операциях настройки для корпоративного развертывания Visual Studio.
-ms.date: 03/30/2019
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -18,12 +18,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 8fd5e96246778e1a8fd4ec1d87221ff04e8647cd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9d3d6f658e3d24f3c82737c0c457323b9d4eb4b6
+ms.sourcegitcommit: 56060e3186086541d9016d4185e6f1bf3471e958
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959276"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106547470"
 ---
 # <a name="set-defaults-for-enterprise-deployments-of-visual-studio"></a>Настройка параметров по умолчанию для корпоративного развертывания Visual Studio
 
@@ -50,12 +50,30 @@ ms.locfileid: "99959276"
 
 Вы можете задать указанные ниже значения реестра.
 
-| **Название** | **Тип** | **Default** | **Описание** |
+::: moniker range="vs-2017"
+| **имя**; | **Тип** | **По умолчанию** | **Описание** |
 | -------- | -------- | ----------- | --------------- |
-| `CachePath` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | Каталог, где хранятся манифесты пакетов и полезные данные (необязательно). Дополнительные сведения см. в статье об [отключении или перемещении кэша пакетов](disable-or-move-the-package-cache.md). |
-| `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Сохранение полезных данных пакетов даже после их установки. Это значение можно изменить в любое время. После отключения этой политики удаляются все кэшированные полезные данные пакетов для экземпляров, которые вы восстанавливаете или изменяете. Дополнительные сведения см. в статье об [отключении или перемещении кэша пакетов](disable-or-move-the-package-cache.md). |
-| `SharedInstallationPath` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | Каталог, в котором устанавливаются некоторые пакеты, используемые совместно несколькими версиями экземпляров Visual Studio. Это значение можно изменить в любое время, но все изменения повлияют только на будущие установки. Все уже установленные продукты необходимо оставить на прежних местах, так как при перемещении они могут работать неправильно. |
+| `CachePath` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | Каталог, где хранятся манифесты пакетов и полезные данные (необязательно). Дополнительные сведения см. в статье [Отключение или перемещение кэша пакетов](disable-or-move-the-package-cache.md). |
+| `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Сохранение полезных данных пакетов даже после их установки. Это значение можно изменить в любое время. После отключения этой политики удаляются все кэшированные полезные данные пакетов для экземпляров, которые вы восстанавливаете или изменяете. Дополнительные сведения см. в статье [Отключение или перемещение кэша пакетов](disable-or-move-the-package-cache.md). |
+| `SharedInstallationPath` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | Каталог, в котором устанавливаются некоторые пакеты, используемые совместно несколькими версиями экземпляров Visual Studio. Это значение можно изменить в любое время, но все изменения повлияют только на будущие операции установки. Все уже установленные продукты необходимо оставить на прежних местах, так как при перемещении они могут работать неправильно. |
 | `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Программа установки не может автоматически скачивать обновления для всех установленных продуктов Visual Studio. Это значение можно изменить в любое время. |
+| `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Позволяет применять обновления администратора к клиентскому компьютеру. Если это значение отсутствует или равно 0, обновления администратора будут заблокированы. Это значение применяется для административного использования. Дополнительные сведения см. в статье [Включение обновлений администратора Visual Studio с помощью Microsoft Endpoint Configuration Manager](enabling-administrator-updates.md). | 
+| `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Указывает, что пользователь не хочет получать обновления администратора Visual Studio. Отсутствие значения реестра или установленное значение 0 означает, что пользователь Visual Studio хочет получать обновления администратора для Visual Studio. Это применимо для пользователя-разработчика (если у него есть права администратора на клиентском компьютере). Дополнительные сведения см. в статье [Применение обновлений администратора](../install/applying-administrator-updates.md#understanding-configuration-options). | 
+| `UpdateConfigurationFile` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | Путь к файлу для настройки административных обновлений. Дополнительные сведения см. в разделе [Методы настройки обновлений администратора](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update). | 
+::: moniker-end
+
+::: moniker range="vs-2019"
+| **имя**; | **Тип** | **По умолчанию** | **Описание** |
+| -------- | -------- | ----------- | --------------- |
+| `CachePath` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | Каталог, где хранятся манифесты пакетов и полезные данные (необязательно). Дополнительные сведения см. в статье [Отключение или перемещение кэша пакетов](disable-or-move-the-package-cache.md). |
+| `KeepDownloadedPayloads` | `REG_DWORD` | 1 | Сохранение полезных данных пакетов даже после их установки. Это значение можно изменить в любое время. После отключения этой политики удаляются все кэшированные полезные данные пакетов для экземпляров, которые вы восстанавливаете или изменяете. Дополнительные сведения см. в статье [Отключение или перемещение кэша пакетов](disable-or-move-the-package-cache.md). |
+| `SharedInstallationPath` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | Каталог, в котором устанавливаются некоторые пакеты, используемые совместно несколькими версиями экземпляров Visual Studio. Это значение можно изменить в любое время, но все изменения повлияют только на будущие операции установки. Все уже установленные продукты необходимо оставить на прежних местах, так как при перемещении они могут работать неправильно. |
+| `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | Программа установки не может автоматически скачивать обновления для всех установленных продуктов Visual Studio. Это значение можно изменить в любое время. |
+| `AdministratorUpdatesEnabled` | `REG_DWORD` | 1 | Позволяет применять обновления администратора к клиентскому компьютеру. Если это значение отсутствует или равно 0, обновления администратора будут заблокированы. Это значение применяется для административного использования. Дополнительные сведения см. в статье [Включение обновлений администратора Visual Studio с помощью Microsoft Endpoint Configuration Manager](enabling-administrator-updates.md). | 
+| `AdministratorUpdatesOptOut` | `REG_DWORD` | 1 | Указывает, что пользователь не хочет получать обновления администратора Visual Studio. Отсутствие значения реестра или установленное значение 0 означает, что пользователь Visual Studio хочет получать обновления администратора для Visual Studio. Это применимо для пользователя-разработчика (если у него есть права администратора на клиентском компьютере). Дополнительные сведения см. в статье [Применение обновлений администратора](../install/applying-administrator-updates.md#understanding-configuration-options). | 
+| `UpdateConfigurationFile` | `REG_SZ` либо `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\updates.config | Путь к файлу для настройки административных обновлений. Дополнительные сведения см. в разделе [Методы настройки обновлений администратора](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update). | 
+| `BaselineStickinessVersions2019` | `REG_SZ` либо `REG_EXPAND_SZ` | `ALL` или `16.4.0,16.7.0,16.9.0` | Версии, разрешающие обновлениям оставаться на указанных базовых планах обслуживания. Дополнительные сведения см. на странице со статьей [Применение обновлений администратора](../install/applying-administrator-updates.md#understanding-configuration-options). | 
+::: moniker-end
 
 > [!IMPORTANT]
 > Если вы измените политику реестра `CachePath` после любой установки, необходимо перенести существующий кэш пакетов в новое расположение и проверить его защиту, чтобы `SYSTEM` и `Administrators` имели полный доступ, а `Everyone` — доступ на чтение.
@@ -66,5 +84,6 @@ ms.locfileid: "99959276"
 ## <a name="see-also"></a>См. также раздел
 
 - [Установка Visual Studio](install-visual-studio.md)
+- [Руководство администратора Visual Studio](visual-studio-administrator-guide.md)
 - [Отключение или перемещение кэша пакетов](disable-or-move-the-package-cache.md)
 - [Использование параметров командной строки для установки Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

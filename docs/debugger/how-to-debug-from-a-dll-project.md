@@ -2,7 +2,7 @@
 title: Отладка из проекта DLL | Документация Майкрософт
 description: Отладку проекта библиотеки DLL можно запустить из самого проекта, указав вызывающее приложение в свойствах проекта. Дополнительные сведения см. в этой статье.
 ms.custom: SEO-VS-2020
-ms.date: 10/10/2018
+ms.date: 3/30/2021
 ms.topic: how-to
 dev_langs:
 - CSharp
@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 1f6063c5a0343951bb098c6937ce13dac7100d4a
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 7846cc3fd17b46365da59f6fe1a744032cb8ba14
+ms.sourcegitcommit: 155d5f0fd54ac1d20df2f5b0245365924faa3565
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102160439"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106083646"
 ---
 # <a name="how-to-debug-from-a-dll-project-in-visual-studio-c-c-visual-basic-f"></a>Практическое руководство. Отладка из проекта DLL в Visual Studio (C#, C++, Visual Basic, F#)
 
@@ -81,7 +81,13 @@ ms.locfileid: "102160439"
 
 1. Убедитесь, что в поле **Конфигурация решений** установлено значение **Отладка**. Нажмите клавишу **F5**, щелкните зеленую стрелку **Запуск** или выберите **Отладка** > **Начать отладку**.
 
-Если отладка не достигает точек останова, убедитесь, что выходные данные библиотеки DLL (по умолчанию — папка *\<project>\Debug*) — это расположение, которое вызывает вызывающее приложение.
+Дополнительные советы.
+
+- Если отладка не достигает точек останова, убедитесь, что выходные данные библиотеки DLL (по умолчанию — папка *\<project>\Debug*) — это расположение, которое вызывает вызывающее приложение.
+
+- Если вы хотите прервать выполнение кода в управляемом вызывающем приложении из собственной библиотеки DLL или наоборот, включите [отладку в смешанном режиме](../debugger/how-to-debug-in-mixed-mode.md).
+
+- В некоторых сценариях может потребоваться сообщить отладчику, где найти исходный код. Дополнительные сведения см. в разделе [Использование страниц "Символы не загружены" или "Нет исходного кода"](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#use-the-no-symbols-loadedno-source-loaded-pages).
 
 ## <a name="see-also"></a>См. также
 - [Отладка проектов DLL](../debugger/debugging-dll-projects.md)

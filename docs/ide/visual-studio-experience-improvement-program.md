@@ -8,16 +8,16 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 60a67da568703282a3ae469afa4dbc15c53cf4ba
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6c7f425d87ba6316c3a3cab66f2b342b4c1141f4
+ms.sourcegitcommit: 5c0e20fc6005bc1f8ca38f4122378c4ac21ba89a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99873948"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106110601"
 ---
 # <a name="visual-studio-customer-experience-improvement-program"></a>Программа улучшения качества программного обеспечения Visual Studio
 
-Программа улучшения качества программного обеспечения Visual Studio (VSCEIP) помогает Майкрософт совершенствовать Visual Studio. Эта программа [собирает сведения об ошибках](../ide/diagnostic-data-collection.md), компьютерном оборудовании и использовании Visual Studio, не прерывая работу пользователей на компьютере. Собранные сведения помогают корпорации Майкрософт понять, какие функции нуждаются в улучшении. В этом документе описано, как принять участие в программе VSCEIP или отказаться.
+Программа улучшения качества программного обеспечения Visual Studio (VSCEIP) помогает Майкрософт совершенствовать Visual Studio. Эта программа [собирает сведения об ошибках](../ide/diagnostic-data-collection.md), компьютерном оборудовании и использовании Visual Studio, не прерывая работу пользователей на компьютере. Собранные сведения помогают корпорации Майкрософт понять, какие функции нуждаются в улучшении. В этом документе описано, как принять участие в программе VSCEIP или отказаться. Явный отказ предполагает отказ от **необязательного** сбора диагностических данных. Чтобы обеспечить безопасность, актуальность и производительность Visual Studio, **требуется** сбор некоторых диагностических данных. На этот процесс сбора ваш явный отказ от VSCEIP не повлияет.
 
 [!INCLUDE [gdpr-hybrid-note](../misc/includes/gdpr-hybrid-note.md)]
 > [!NOTE]

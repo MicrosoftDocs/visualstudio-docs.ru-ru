@@ -2,7 +2,7 @@
 title: Средства для обнаружения экземпляров Visual Studio и управления ими
 titleSuffix: ''
 description: Сведения о средствах, с помощью которых можно обнаруживать экземпляры Visual Studio, установленные на клиентских компьютерах, и управлять ими.
-ms.date: 08/14/2017
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,34 +16,51 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: efd4091407d228a15cc80971d759e5371bddd3ff
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2b6b641081c9b969cadd2c9517967adb8cc4cb1e
+ms.sourcegitcommit: 56060e3186086541d9016d4185e6f1bf3471e958
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959263"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106547444"
 ---
 # <a name="tools-for-detecting-and-managing-visual-studio-instances"></a>Средства для обнаружения экземпляров Visual Studio и управления ими
 
-Имеется ряд средств, с помощью которых можно обнаруживать экземпляры Visual Studio, установленные на клиентских компьютерах, а также управлять ими.
+Существует ряд средств, с помощью которых можно обнаруживать и администрировать экземпляры Visual Studio, установленные на клиентских компьютерах.
 
 ## <a name="detecting-existing-visual-studio-instances"></a>Обнаружение существующих экземпляров Visual Studio
 
-Мы предлагаем несколько средств, предназначенных для обнаружения установленных экземпляров Visual Studio на клиентских компьютерах и управления ими:
+Следующие средства и служебные программы помогут вам обнаруживать и администрировать экземпляры Visual Studio, установленные на клиентских компьютерах:
 
-* [vswhere](https://github.com/microsoft/vswhere). Исполняемый файл, входящий в состав Visual Studio и доступный для отдельного распространения, который поможет вам найти расположение всех экземпляров Visual Studio на конкретном компьютере.
-* [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell). Скрипты PowerShell, которые позволяют определить установленные экземпляры Visual Studio с помощью API конфигурации установки.
-* [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples). Образцы на языках C# и C++, демонстрирующие применение API конфигурации установки для запроса существующей установки.
-
-Кроме того, [API конфигурации установки](<xref:Microsoft.VisualStudio.Setup.Configuration>) реализует интерфейсы для разработчиков, которые хотят создавать свои собственные служебные программы для опроса экземпляров Visual Studio.
+* [**vswhere**](https://github.com/microsoft/vswhere) — исполняемый файл, входящий в состав Visual Studio и доступный для отдельного распространения, который поможет вам найти расположение всех экземпляров Visual Studio на конкретном компьютере.
+* [**VSSetup.PowerShell**](https://github.com/microsoft/vssetup.powershell) — скрипты PowerShell, которые позволяют определить установленные экземпляры Visual Studio с помощью API конфигурации установки.
+* [**VS-Setup-Samples**](https://github.com/microsoft/vs-setup-samples) — примеры на языках C# и C++, демонстрирующие применение API конфигурации установки для запрашивания существующей установки.
+* [**Инструментарий управления Windows (WMI)** ](https://docs.microsoft.com/windows/win32/wmisdk/wmi-start-page) — сведения об экземпляре Visual Studio можно запросить с помощью класса MSFT_VSInstance в Visual Studio. 
+* [**API конфигурации установки**](<xref:Microsoft.VisualStudio.Setup.Configuration>) — реализует интерфейсы для разработчиков, которые хотят создавать собственные служебные программы для опроса экземпляров Visual Studio.
+* [**Инвентаризация программного обеспечения Microsoft Endpoint Configuration Manager**](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) — может использоваться для сбора сведений об экземплярах Visual Studio на клиентских устройствах. 
 
 ## <a name="using-vswhereexe"></a>С помощью vswhere.exe
 
-`vswhere.exe` автоматически включается в состав Visual Studio (начиная с Visual Studio 2017 версии 15.2 и более поздних), либо его можно скачать на [странице выпусков vswhere](https://github.com/Microsoft/vswhere/releases). Используйте `vswhere -?`, чтобы получить информацию об этом средстве. Следующий пример команды выводит в формате JSON полный список выпусков Visual Studio, включая предыдущие и предварительные версии продукта:
+`vswhere.exe` по умолчанию входит в состав Visual Studio 2017 и более поздних версий, а также предлагается для скачивания на [странице выпусков vswhere](https://github.com/Microsoft/vswhere/releases). Используйте `vswhere -?`, чтобы получить информацию об этом средстве. Например, эта команда выводит в формате JSON полный список выпусков Visual Studio, включая предыдущие и предварительные версии продукта:
 
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
+
+## <a name="using-windows-management-instrumentation-wmi"></a>Использование инструментария управления Windows (WMI)
+
+Если на компьютере установлен компонент Visual Studio Client Detector Utility, можно запросить сведения об экземпляре Visual Studio с помощью инструментария WMI. Visual Studio Client Detector Utility устанавливается по умолчанию при установке всех обновлений Visual Studio 2017 и Visual Studio 2019, выпущенных начиная с 12 мая 2020 г. Этот компонент также доступен в [каталоге Центра обновления Майкрософт](https://catalog.update.microsoft.com/), если вы хотите установить его отдельно.  Чтобы узнать, как использовать этот компонент для получения сведений об экземпляре Visual Studio, откройте PowerShell с правами администратора на клиентском компьютере и введите следующую команду:
+
+```cmd
+Get-CimInstance MSFT_VSInstance
+```
+
+## <a name="using-microsoft-endpoint-configuration-manager"></a>Использование Microsoft Endpoint Configuration Manager 
+
+Возможности [инвентаризации программного обеспечения Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) можно использовать для запрашивания и сбора сведений об экземплярах Visual Studio на клиентских устройствах. Например, следующий запрос вернет отображаемое имя, версию и имя устройства, на котором установлен экземпляр Visual Studio, для всех установленных экземпляров Visual Studio 2017 и 2019: 
+
+```WQL 
+select distinct SMS_G_System_COMPUTER_SYSTEM.Name, SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName, SMS_G_System_ADD_REMOVE_PROGRAMS.Version from SMS_R_System inner join SMS_G_System_COMPUTER_SYSTEM on SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceId inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "Visual Studio %[a-z]% 201[7,9]" 
+``` 
 
 ::: moniker range="vs-2017"
 
@@ -80,6 +97,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-* [Руководство администратора Visual Studio](visual-studio-administrator-guide.md)
+* [Руководство администратора Visual Studio](../install/visual-studio-administrator-guide.md)

@@ -1,5 +1,6 @@
 ---
 title: Преобразование класса в абстрактный
+description: Узнайте, как сделать класс абстрактным после написания абстрактного метода.
 ms.date: 11/03/2020
 ms.topic: reference
 author: mikadumont
@@ -10,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 7b44c8331c10bc0cf2f87e19094a77c0cbec251a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ac3d6b9cef8d20d85049da830dfb830321faab75
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99919422"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106214542"
 ---
 # <a name="make-class-abstract"></a>Преобразование класса в абстрактный
 

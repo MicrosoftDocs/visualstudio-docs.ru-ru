@@ -1,5 +1,6 @@
 ---
 title: Использование сопоставления шаблонов
+description: Узнайте, как использовать сопоставление шаблонов C#.
 ms.date: 11/03/2020
 ms.topic: reference
 author: mikadumont
@@ -9,12 +10,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 89369eeb07594a9dcac3f0687a6b957adaddec09
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f8ae039144d0c66f362b88cbbace142ccff77281
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99889802"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106217987"
 ---
 # <a name="use-pattern-matching"></a>Использование сопоставления шаблонов
 

@@ -2,18 +2,18 @@
 title: Интерфейс GIT в Visual Studio
 titleSuffix: ''
 description: Узнайте, как повысить продуктивность с помощью нового интегрированного интерфейса GIT в Visual Studio 2019.
-ms.date: 03/16/2021
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
 monikerRange: vs-2019
-ms.openlocfilehash: e33b91088022a4588773737b2820677c84a65807
-ms.sourcegitcommit: 3a855d3513407ea78336386dc3be0b75142614b0
+ms.openlocfilehash: b58a60efbf2c602706eed6d9278574d1bf1fffcc
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "103622651"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106216765"
 ---
 # <a name="git-experience-in-visual-studio"></a>Интерфейс GIT в Visual Studio
 
@@ -202,9 +202,10 @@ Visual Studio также позволяет выполнить фиксацию 
 
 ## <a name="see-also"></a>См. также раздел
 
+- [Начало работы с Git и GitHub в Visual Studio](/learn/modules/visual-studio-github-push/) — руководство в Microsoft Learn
 - Видео [Начало работы с Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) на YouTube
 - Запись блога [Объявление о выпуске интерфейса Git в Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/)
-- [Запуск нового интерфейса GIT](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) на YouTube
+- [Запуск нового интерфейса Git](https://www.youtube.com/watch?v=UHrAg3iKoe0&t) — видео на YouTube
 - Видео, посвященное [новому интерфейсу GIT](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience), на Channel 9 и [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
 - Запись блога [Новые интересные обновления для интерфейса GIT в Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/)
 - Запись блога [Улучшенный интерфейс GIT в Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/)

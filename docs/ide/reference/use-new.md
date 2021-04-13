@@ -1,5 +1,6 @@
 ---
 title: Использование new()
+description: Узнайте, как использовать `new()`, если вы не можете использовать `var`.
 ms.date: 11/03/2020
 ms.topic: reference
 author: mikadumont
@@ -9,12 +10,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: a129e94f6009eec51995b6a4e170f0a804e6407f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 889be18ab342f515bf5add266088a7ee69c087c1
+ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99889815"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106218078"
 ---
 # <a name="use-new"></a>Используйте `new()`.
 

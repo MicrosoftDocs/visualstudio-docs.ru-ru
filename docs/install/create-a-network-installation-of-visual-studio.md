@@ -1,7 +1,7 @@
 ---
 title: Создание сетевой установки
 description: Узнайте, как создать сетевую точку установки для развертывания Visual Studio на предприятии.
-ms.date: 08/27/2020
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,21 +15,21 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: b572a6854d505704accd79cc4da2ac4e52c193d6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 748f0da7810918d8b41247059277fb73158f1bc9
+ms.sourcegitcommit: 56060e3186086541d9016d4185e6f1bf3471e958
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850180"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106547431"
 ---
 # <a name="create-a-network-installation-of-visual-studio"></a>Создание сетевой установки Visual Studio
 
-Обычно администратор предприятия создает точку сетевой установки для развертывания на клиентских рабочих станциях. Среда Visual Studio разработана таким образом, чтобы вы могли кэшировать файлы для первоначальной установки вместе со всеми обновлениями продуктов в одну папку. (Этот процесс также известен как _создание макета_.)
-
-Это сделано для того, чтобы клиентские рабочие станции могли использовать то же сетевое расположение для управления установкой, даже если они еще не были обновлены до последнего сервисного обновления.
+Иногда администратору предприятия нужно создать точку сетевой установки, содержащую файлы Visual Studio, которые можно развернуть на клиентских рабочих станциях. Это позволяет упростить сценарии, в которых клиентские компьютеры могут иметь ограниченные разрешения или ограниченный доступ к Интернету, или когда внутренним командам требуется провести тестирование совместимости до того, как их организация перейдет на использование конкретной версии набора инструментов разработчика. Мы разработали Visual Studio таким образом, чтобы администратор мог _создать макет сети_, создавая, по сути, файловый кэш, расположенный во внутренней статической сетевой папке, включающей все файлы Visual Studio для первоначальной установки и всех будущих обновлений продукта.
 
  > [!NOTE]
- > Если вы используете в организации несколько версий Visual Studio (например, Visual Studio Professional и Visual Studio Enterprise), вам нужно создать отдельную сетевую папку установки для каждого выпуска.
+ >  - Если вы используете в организации несколько версий Visual Studio (например, Visual Studio 2019 Professional и Visual Studio 2019 Enterprise), вам нужно создать отдельную сетевую папку установки для каждого выпуска.
+ >  - Принять решение о том, каким образом клиенты будут получать обновления продукта, рекомендуется _перед_ первоначальной установкой клиента.  Это позволит упростить правильную настройку параметров конфигурации. Доступны следующие варианты: клиенты могут получать обновления из расположения макета сети или из Интернета. 
+ >  - Исходный макет установки Visual Studio и все последующие обновления продукта должны находиться в одном сетевом каталоге, чтобы обеспечить правильную работу функций восстановления и удаления. 
 
 ## <a name="download-the-visual-studio-bootstrapper"></a>Скачивание загрузчика Visual Studio
 
@@ -37,64 +37,72 @@ ms.locfileid: "99850180"
 
 ::: moniker range="vs-2017"
 
-Сведения о том, как получить начальный загрузчик для Visual Studio 2017, см. на странице скачиваемых материалов [Предыдущие версии Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/).
-
-Исполняемый файл программы установки &mdash; а точнее файл начального загрузчика &mdash; должен иметь одно из перечисленных ниже имен или похожее на него.
+Чтобы получить последнюю версию начального загрузчика для Visual Studio 2017 версии 15.9, перейдите на страницу с [предыдущими версиями Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/) и скачайте один из следующих файлов начального загрузчика:
 
 | Выпуск | имя_файла |
 |-------------|-----------------------|
-|Visual Studio Enterprise | **vs_enterprise.exe** |
-|Visual Studio Professional | **vs_professional.exe** |
-|Visual Studio Build Tools   | **vs_buildtools.exe** |
+|Visual Studio 2017 Enterprise версии 15.9 | vs_enterprise.exe |
+|Visual Studio 2017 Professional версии 15.9 | vs_professional.exe |
+|Visual Studio 2017 Build Tools версии 15.9  | vs_buildtools.exe |
 
-Другие поддерживаемые начальные загрузчики: **vs_feedbackclient.exe**, **vs_teamexplorer.exe**, **vs_testagent.exe**, **vs_testcontroller.exe** и **vs_testprofessional.exe**.
+Другие поддерживаемые начальные загрузчики: vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe и vs_testprofessional.exe.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-Исполняемый файл программы установки &mdash; а точнее файл начального загрузчика &mdash; должен иметь одно из перечисленных ниже имен или похожее на него.
+Начните со скачивания начального загрузчика Visual Studio 2019 с [веб-страницы загрузки Visual Studio](https://visualstudio.microsoft.com/downloads) или страницы с [выпусками Visual Studio 2019](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) для выбранной версии и выпуска Visual Studio.  Исполняемый файл программы установки, &mdash;а точнее файл начального загрузчика&mdash;, должен иметь одно из перечисленных ниже имен или похожее на него.
 
 |Выпуск | Скачать|
 |-------------|-----------------------|
-|Visual Studio Enterprise | [**vs_enterprise.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
-|Visual Studio Professional | [**vs_professional.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
-| Visual Studio Build Tools   | [**vs_buildtools.exe**](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019) |
+|Visual Studio Enterprise | [vs_enterprise.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=enterprise&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
+|Visual Studio Professional | [vs_professional.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=professional&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=network+install&utm_content=download+vs2019) |
+| Visual Studio Build Tools   | [vs_buildtools.exe](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=buildtools&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=offline+install&utm_content=download+vs2019) |
 
 Другие поддерживаемые начальные загрузчики: [vs_teamexplorer.exe](https://download.visualstudio.microsoft.com/download/pr/f6473c9f-a5f6-4249-af28-c2fd14b6a0fb/4026077127d25d33789f3882998266946608d8ada378b6ed7c8fff8c07f3dde2/vs_TeamExplorer.exe), [vs_testagent.exe](https://download.visualstudio.microsoft.com/download/pr/f6473c9f-a5f6-4249-af28-c2fd14b6a0fb/1383bf8bcda3d0e986a2e42c14114aaea8a7b085d31aa0623c9f70b2bad130e4/vs_TestAgent.exe) и [vs_testcontroller.exe](https://download.visualstudio.microsoft.com/download/pr/f6473c9f-a5f6-4249-af28-c2fd14b6a0fb/54dcf24b76e7cd9fb8be0ac518a9dfba6daf18fe9b2aa1543411b1cda8820918/vs_TestController.exe).
 
 ::: moniker-end
 
+::: moniker range="vs-2017"
+
 >[!TIP]
->Если вы ранее скачали файл начального загрузчика и хотите проверить его версию, вот как это сделать. В Windows откройте проводник, щелкните правой кнопкой мыши файл начального загрузчика, выберите **Свойства**, перейдите на вкладку **Подробно**, а затем найдите номер в строке **Версия продукта**. Чтобы сопоставить этот номер с выпуском Visual Studio, перейдите на страницу [Номера сборки и даты выпуска Visual Studio](visual-studio-build-numbers-and-release-dates.md).
+>Если вы ранее скачали файл начального загрузчика и хотите проверить его версию, сделайте следующее. В Windows откройте проводник, щелкните правой кнопкой мыши файл начального загрузчика, выберите **Свойства**, перейдите на вкладку **Подробно**, а затем найдите номер в строке **Версия продукта**. Чтобы сопоставить этот номер с выпуском Visual Studio, перейдите на страницу [Номера сборки и даты выпуска Visual Studio](visual-studio-build-numbers-and-release-dates.md).
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+>[!TIP]
+>Если вы ранее скачали файл начального загрузчика и хотите проверить его версию, сделайте следующее. В Windows откройте проводник, щелкните правой кнопкой мыши файл начального загрузчика, выберите **Свойства**, перейдите на вкладку **Подробно**, а затем найдите номер в строке **Версия продукта**. Чтобы сопоставить этот номер с выпуском Visual Studio, перейдите на страницу [Выпуски Visual Studio 2019](https://docs.microsoft.com/visualstudio/releases/2019/history).
+
+::: moniker-end
 
 ## <a name="create-an-offline-installation-folder"></a>Создание папки автономной установки
 
-Для выполнения этого действия необходимо подключение к Интернету. Чтобы создать автономную установку со всеми языками и функциями, используйте одну из команд, подобную приведенным в следующих примерах.
+Для выполнения этого действия необходимо подключение к Интернету. 
+
+Откройте командную строку, перейдите в каталог, в который был скачан начальный загрузчик, и используйте параметры начального загрузчика, как указано на странице [Использование параметров командной строки для установки Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md), чтобы создать и обслуживать кэш сетевой установки. Стандартные примеры создания начальных схем показаны ниже и приведены в статье [Примеры параметров командной строки для установки Visual Studio](../install/command-line-parameter-examples.md).  
 
    > [!IMPORTANT]
-   > Полный макет для языкового стандарта одного языка требует около 35 ГБ дискового пространства для Visual Studio Community и 42 Гб для Visual Studio Enterprise. Для каждого дополнительного [языкового стандарта](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) требуется около половины указанного количества ГБ. Дополнительные сведения см. в разделе [Настройка сетевого макета](#customize-the-network-layout).
-   >
-   > [!TIP]
-   > Эти команды необходимо выполнять из каталога загрузки. На компьютере с ОС Windows 10 это обычно каталог `C:\Users\<username>\Downloads`.
-
-- Команда для выпуска Visual Studio Enterprise:
+   > Полный начальный макет для языкового стандарта одного языка требует около 35 ГБ дискового пространства для Visual Studio Community и 42 Гб для Visual Studio Enterprise. Для каждого дополнительного [языкового стандарта](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) требуется около половины указанного количества ГБ. Дополнительные сведения см. в разделе [Настройка сетевого макета](#customize-the-network-layout). Помните, что последующие обновления макета также должны храниться в этом же сетевом расположении, поэтому следует иметь в виду, что с течением времени размер содержимого каталога в расположении макета сети может значительно увеличиться.  
+   
+- Чтобы создать начальный макет Visual Studio Enterprise со всеми языками и функциями, выполните:
 
   ```vs_enterprise.exe --layout c:\VSLayout```
 
-- Команда для выпуска Visual Studio Professional:
+- Чтобы создать начальный макет Visual Studio Professional со всеми языками и функциями, выполните:
 
   ```vs_professional.exe --layout c:\VSLayout```
 
 ## <a name="modify-the-responsejson-file"></a>Редактирование файла response.json
 
-В файле response.json вы можете задать новые значения по умолчанию, которые будут использоваться при запуске программы установки.  Например, можно настроить файл `response.json` для автоматического выбора конкретного набора рабочих нагрузок. Подробнее см. в статье об [автоматизации установки Visual Studio с помощью файла ответов](automated-installation-with-response-file.md).
+В файле `response.json` можно задать новые значения по умолчанию, которые будут использоваться при запуске программы установки.  Например, можно настроить файл `response.json` для автоматического выбора конкретного набора рабочих нагрузок. Можно также настроить файл `response.json`, чтобы указать должен ли клиент получать обновленные файлы только из расположения макета сети. Подробнее см. в статье об [автоматизации установки Visual Studio с помощью файла ответов](../install/automated-installation-with-response-file.md). 
 
-Если возникнет проблема с начальным загрузчиком Visual Studio, вызывающим ошибку при связывании с файлом response.json, ознакомьтесь с разделом о сбое анализа идентификатора родительского процесса в статье [Исправление ошибок сети при установке или использовании Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process), чтобы получить необходимые инструкции.
+Если возникнет проблема с начальным загрузчиком Visual Studio, вызывающим ошибку при связывании с файлом `response.json`, ознакомьтесь со статьей [Исправление ошибок сети при установке или использовании Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process).
 
 ## <a name="copy-the-layout-to-a-network-share"></a>Копирование макета в общую сетевую папку
 
-Разместите макет на общем сетевом ресурсе, чтобы запускать его с других компьютеров.
+Разместите макет в сетевой папке, чтобы запускать его с других клиентских компьютеров.
 
 В следующем примере используется [xcopy](/windows-server/administration/windows-commands/xcopy/). Можно также использовать [robocopy](/windows-server/administration/windows-commands/robocopy/).
 
@@ -166,17 +174,7 @@ xcopy /e c:\VSLayout \\server\products\VS2019
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional
     ```
 
-::: moniker range="vs-2017"
-
-### <a name="new-in-version-153"></a>Новые возможности в версии 15.3
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-
 ### <a name="save-your-layout-options"></a>Сохранение параметров макета
-
-::: moniker-end
 
 При выполнении команды макета указанные параметры (например, рабочие нагрузки и языки) будут сохранены. Все предыдущие параметры будут включены в последующие команды макета.  Ниже приведен пример макета с одной рабочей нагрузкой только для английского языка.
 
@@ -255,29 +253,13 @@ vs_enterprise.exe --layout c:\VSLayout --all
 
 ## <a name="how-to-create-a-layout-for-a-previous-visual-studio-release"></a>Как создать макет для предыдущего выпуска Visual Studio
 
-::: moniker range="vs-2017"
+Сначала нужно понять, что существует два типа начальных загрузчиков Visual Studio: один, который можно охарактеризовать словами "последний", "текущий", "популярный", "рекомендуемый", и второй, который, по существу, означает "фиксированная версия". Оба типа файлов начального загрузчика имеют одно и то же имя, и чтобы отличать их, необходимо обращать внимание на место, из которого каждый из них получен. Начальные загрузчики Visual Studio, доступные на [странице загрузки Visual Studio](https://visualstudio.microsoft.com/downloads), считаются популярными начальными загрузчиками Visual Studio и всегда устанавливают (или обновляют) последний выпуск, доступный в канале во время выполнения загрузчика. Начальные загрузчики Visual Studio, доступные на странице [выпусков Visual Studio 2019](https://docs.microsoft.com/visualstudio/releases/2019/history) или встроенные в обновление администратора в Каталоге Центра обновления Майкрософт, устанавливают определенную фиксированную версию продукта. 
 
-> [!NOTE]
-> Начальные загрузчики Visual Studio, доступные на веб-сайте [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017), скачивают и устанавливают последний выпуск Visual Studio, доступный на момент очередного запуска.
->
-> Если вы скачаете *загрузчик* Visual Studio сегодня, но запустите его через шесть месяцев, будет установлен выпуск Visual Studio, актуальный на момент запуска загрузчика.
->
-> Если же вы создадите *макет* и используете его для установки, на основе этого макета будет установлена определенная версия Visual Studio, включенная в этот макет. Даже если в Интернете уже существует новая версия, вы получите только ту версию Visual Studio, которая включена в ваш макет.
+Если вы скачаете популярный загрузчик Visual Studio сегодня, но запустите его через шесть месяцев, будет установлен выпуск Visual Studio, актуальный на момент запуска загрузчика. Он позволяет всегда устанавливать последние версии и поддерживать актуальность продукта.
 
-::: moniker-end
+Если вы скачаете загрузчик по фиксированной ссылке или запустите обновление администратора, скачанное из Каталога Майкрософт, всегда будет устанавливаться определенная версия продукта независимо от того, когда был запущен загрузчик.
 
-::: moniker range="vs-2019"
-
-> [!NOTE]
-> Начальные загрузчики Visual Studio, доступные на веб-сайте [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads), скачивают и устанавливают последний выпуск Visual Studio, доступный на момент очередного запуска.
->
-> Если вы скачаете *загрузчик* Visual Studio сегодня, но запустите его через шесть месяцев, будет установлен выпуск Visual Studio, актуальный на момент запуска загрузчика.
->
-> Если же вы создадите *макет* и используете его для установки, на основе этого макета будет установлена определенная версия Visual Studio, включенная в этот макет. Даже если в Интернете уже существует новая версия, вы получите только ту версию Visual Studio, которая включена в ваш макет.
-
-::: moniker-end
-
-Если вам нужно создать макет для более ранней версии Visual Studio, откройте страницу [https://my.visualstudio.com](https://my.visualstudio.com) и скачайте фиксированную (fixed) версию начального загрузчика Visual Studio.
+Наконец, можно создать макет сети с помощью любого из этих начальных загрузчиков, и версия, которая будет создана в макете, будет зависеть от используемого начального загрузчика. Например, это может быть фиксированная или текущая версия. Затем макет сети можно обновить с помощью любого более позднего начального загрузчика либо использовать пакет обновления администратора из Каталога Центр обновления Майкрософт. Независимо от способа обновления итоговый обновленный макет будет сохранен в кэше пакетов, содержащем определенную версию продукта, и будет работать как начальный загрузчик, использующий фиксированную ссылку. Таким образом, при установке из макета клиент установит конкретную версию Visual Studio, которая существует в макете (несмотря на то, что в Интернете может существовать новая версия). 
 
 ### <a name="how-to-get-support-for-your-offline-installer"></a>Техническая поддержка по вопросам, связанным с автономным установщиком
 

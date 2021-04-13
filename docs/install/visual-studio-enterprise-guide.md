@@ -1,7 +1,7 @@
 ---
 title: Руководство по Visual Studio Enterprise
 description: Настройка Visual Studio в корпоративной среде и устранение неполадок.
-ms.date: 07/29/2020
+ms.date: 04/06/2021
 ms.custom: seodec18
 ms.topic: overview
 helpviewer_keywords:
@@ -16,18 +16,20 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: e653d7ae5f2408fd8438cbdf69a28648c6bcc446
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e5e8a28ac89c2bea85aee8323060bf948266ad2e
+ms.sourcegitcommit: 56060e3186086541d9016d4185e6f1bf3471e958
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99967115"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106547392"
 ---
 # <a name="visual-studio-enterprise-guide"></a>Руководство по Visual Studio Enterprise
 Начните с этой статьи, если вы хотите сэкономить время, настраивая Visual Studio в корпоративной среде. Это корпоративное руководство содержит советы, которые помогут вам установить и обновить Visual Studio в общих корпоративных сценариях, а также устранить возникающие проблемы. Кроме того, вы узнаете, как сообщить о проблеме, если вам нужна помощь. 
 
 ## <a name="get-started"></a>Начало работы 
-Узнайте, как развернуть Visual Studio на предприятии в подключенных и автономных средах. 
+Узнайте, как развернуть Visual Studio на предприятии в подключенных и автономных средах.
+
+- **[Включение обновлений администратора с использованием Microsoft Endpoint Configuration Manager (SCCM).](enabling-administrator-updates.md)**  Обновления Visual Studio включены в [каталог Центра обновления Майкрософт](https://www.catalog.update.microsoft.com/Home.aspx) и [Windows Server Update Services (WSUS)](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus). Администраторы предприятия могут скачать обновление и распространить его на клиентские компьютеры Visual Studio в организации с помощью стандартных средств развертывания, таких как Microsoft Endpoint Configuration Manager (SCCM).
 
 - **Общие сведения о вариантах корпоративного развертывания в подключенных средах.** Руководство администратора [Visual Studio](visual-studio-administrator-guide.md) включает рекомендации для системных администраторов на основе разных сценариев. 
 
@@ -43,17 +45,19 @@ ms.locfileid: "99967115"
 
 Узнайте, как установить Visual Studio в распространенных корпоративных сценариях. 
 
-- **[Использование параметров командной строки для установки Visual Studio.](use-command-line-parameters-to-install-visual-studio.md)** Узнайте, как использовать разные параметры для управления установкой Visual Studio и ее настройки. Автоматизируйте процесс установки или создайте кэш файлов установки для последующего использования. 
+- **[Использование параметров командной строки для установки Visual Studio.](use-command-line-parameters-to-install-visual-studio.md)** Узнайте, как использовать разные параметры для управления установкой Visual Studio и ее настройки. Автоматизируйте процесс установки или создайте кэш файлов установки для последующего использования. Дополнительные сведения см. в разделе с [примерами параметров командной строки](command-line-parameter-examples.md).
 
-- **См. [примеры параметров командной строки для установки Visual Studio](command-line-parameter-examples.md).** Чтобы продемонстрировать варианты использования параметров командной строки для установки Visual Studio на практике, здесь приводится несколько примеров, которые вы можете настроить в соответствии со своими требованиями. 
+- **[Создание сетевой установки Visual Studio.](create-a-network-installation-of-visual-studio.md)** Кэшируйте файлы для первоначальной установки вместе со всеми обновлениями продуктов в одной папке. 
 
-- **[Установка и использование Visual Studio и служб Azure, расположенных за брандмауэром или прокси-сервером.](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)** Если ваша организация использует средства обеспечения безопасности, например брандмауэр или прокси-сервер, значит есть URL-адреса доменов, которые нужно добавить в список разрешений, а также порты и протоколы, которые нужно открыть, чтобы обеспечить оптимальные установку и использование Visual Studio и служб Azure. 
+- **[Установка и использование Visual Studio и служб Azure, расположенных за брандмауэром или прокси-сервером.](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)** Если ваша организация использует средства обеспечения безопасности, такие как брандмауэр или прокси-сервер, значит есть URL-адреса доменов, которые нужно добавить в список разрешений, а также порты и протоколы, которые нужно открыть, чтобы оптимизировать установку и использование Visual Studio и служб Azure. 
 
-- **[Создание сетевой установки Visual Studio.](create-a-network-installation-of-visual-studio.md)** Кэшируйте файлы для первоначальной установки вместе со всеми обновлениями продуктов в одной папке.  
+- **[Установка сертификатов, необходимых для установки в автономном режиме.](../install/install-certificates-for-visual-studio-offline.md)** Установите необходимые сертификаты, если клиентский компьютер полностью отключен от Интернета.
 
 ## <a name="update-visual-studio"></a>Обновление Visual Studio 
 
 Узнайте, как успешно обновить Visual Studio и устранить проблемы с обновлением. 
+
+- **[Применение обновлений администратора с использованием Microsoft Endpoint Configuration Manager (SCCM).](../install/applying-administrator-updates.md)** Узнайте о распространении компонентов, средств безопасности и обновлений качества Visual Studio с помощью SCCM. 
 
 - **[Обновление сетевой установки Visual Studio.](update-a-network-installation-of-visual-studio.md)** Вы можете обновить макет сетевой установки Visual Studio, включив последнее обновление продукта, чтобы использовать его в качестве точки установки обновлений Visual Studio и обеспечить поддержку уже развернутых установок на клиентских рабочих станциях.
 
@@ -70,3 +74,4 @@ ms.locfileid: "99967115"
 ## <a name="see-also"></a>См. также 
 
 - [Руководство по повышению производительности при работе в Visual Studio](../ide/productivity-features.md)
+

@@ -4,17 +4,17 @@ description: Сведения о создаваемых системой Visual 
 ms.custom: SEO-VS-2020
 ms.date: 05/24/2018
 ms.topic: conceptual
-author: jillre
-ms.author: michma
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 7a6df4a90d8ddb31db88bb91ff4e874cadd3c589
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d357b5e21ca86d7ccf11f576a15bbd0e7a90e466
+ms.sourcegitcommit: a339547aa2f4e0f64b7afbcc3e1ade0a4f9287d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99894664"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106171840"
 ---
 # <a name="system-generated-logs-collected-by-visual-studio"></a>Созданные системой журналы, собираемые Visual Studio
 
@@ -70,7 +70,7 @@ Visual Studio собирает создаваемые системой журн
 
 ## <a name="opt-out-of-data-collection"></a>Отказ от сбора данных
 
-Учитывая цели сбора данных и ограничения, налагаемые на доступ к данным и их хранение, мы рекомендуем использовать параметры конфиденциальности по умолчанию для Windows и Visual Studio. Тем не менее вы можете [отказаться от участия](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) в программе улучшения Visual Studio в любой момент. Сведения о том, как отключить сбор данных журналов, созданных системой, для всех программ, см. в статье [Диагностика, отзывы и конфиденциальность в Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy). Конкретные параметры зависят от используемой версии Windows.
+Учитывая цели сбора данных и ограничения, налагаемые на доступ к данным и их хранение, мы рекомендуем использовать параметры конфиденциальности по умолчанию для Windows и Visual Studio. Тем не менее вы можете [отказаться от участия](../ide/visual-studio-experience-improvement-program.md#opt-in-or-out) в программе улучшения Visual Studio в любой момент. Явный отказ предполагает отказ от **необязательного** сбора диагностических данных. Чтобы обеспечить безопасность, актуальность и производительность Visual Studio, **требуется** сбор некоторых диагностических данных. На этот процесс сбора ваш явный отказ от VSCEIP не повлияет. Сведения о том, как отключить сбор данных журналов, созданных системой, для всех программ, см. в статье [Диагностика, отзывы и конфиденциальность в Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy). Конкретные параметры зависят от используемой версии Windows.
 
 ## <a name="see-also"></a>См. также
 

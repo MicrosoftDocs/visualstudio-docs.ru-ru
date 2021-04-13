@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: ca82beef26f897b2f5d3a145c968c11efaabc294
-ms.sourcegitcommit: f1dff6c4532c43b0444aa12ea57e90bb7dba6fba
+ms.openlocfilehash: 89a84198256657ae7f94d0a923780163bee73e48
+ms.sourcegitcommit: 5c0e20fc6005bc1f8ca38f4122378c4ac21ba89a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104806060"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106110614"
 ---
 # <a name="tutorial-get-started-with-the-flask-web-framework-in-visual-studio"></a>Руководство. Начало работы с веб-платформой Flask в Visual Studio
 
@@ -221,17 +221,17 @@ def hello():
 
 ### <a name="question-how-does-flask-work-with-variable-url-routes-and-query-parameters"></a>Вопрос. Как Flask обрабатывает переменные маршруты URL-адресов и параметры запроса?
 
-Ответ. В маршруте можно пометить любую переменную с помощью `<variable_name>`, и Flask передаст эту переменную в функцию с помощью именованного аргумента. Переменная может быть частью URL-пути или параметра запроса. Например, маршрут в виде `'/hello/<name>` формирует строковый аргумент `name` в функции и, используя `?message=<msg>` в маршруте, выполняет анализ значения, заданного для параметра запроса "message=", а затем передает его в функцию в качестве `msg`:
+Ответ. В маршруте можно пометить любую переменную с помощью `<variable_name>`, и Flask передаст эту переменную в функцию с помощью именованного аргумента в URL-адресе. Например, маршрут в форме `/hello/<name>` создает строковый аргумент `name` для функции. Параметры запроса доступны через свойство `request.args`, в частности, через метод `request.args.get`. Дополнительные сведения см. в разделе [Объект запроса](https://flask.palletsprojects.com/en/1.1.x/quickstart/#the-request-object) в документации по Flask.
 
 ```python
-@app.route('/hello/<name>?message=<msg>')
-def hello(name, msg):
-    return "Hello " + name + "! Message is " + msg + "."
+# URL: /hello/<name>?message=Have%20a%20nice%20day
+@app.route('/hello/<name>')
+def hello(name):
+    msg = request.args.get('message','')
+    return "Hello " + name + "! "+ msg + "."
 ```
 
 Чтобы изменить тип, установите для переменной префикс `int`, `float`, `path` (принимает символы косой черты для разграничения имен папок) и `uuid`. Дополнительные сведения см. в разделе [Правила переменных](https://flask.palletsprojects.com/en/1.0.x/quickstart/#variable-rules) в документации по Flask.
-
-Параметры запроса также доступны через свойство `request.args`, в частности, через метод `request.args.get`. Дополнительные сведения см. в разделе [Объект запроса](https://flask.palletsprojects.com/en/1.0.x/quickstart/#the-request-object) в документации по Flask.
 
 ### <a name="question-can-visual-studio-generate-a-requirementstxt-file-from-a-virtual-environment-after-i-install-other-packages"></a>Вопрос. Может ли Visual Studio создать файл requirements.txt из виртуального окружения после установки других пакетов?
 
