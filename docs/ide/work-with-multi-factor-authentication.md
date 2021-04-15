@@ -4,18 +4,18 @@ ms.date: 05/27/2020
 ms.custom: SEO-VS-2020
 ms.topic: conceptual
 description: Сведения о том, как использовать Visual Studio с учетными записями, которые используют многофакторную идентификацию.
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 monikerRange: '>=vs-2019'
-ms.openlocfilehash: 6b85d64d3f84bce34f2a9b30d9caf01127149abc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6935c2f37f75f0318ec9402c3fcd0ff763555032
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99878491"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296018"
 ---
 # <a name="how-to-use-visual-studio-with-accounts-that-require-multi-factor-authentication"></a>Использование Visual Studio с учетными записями, которые требуют многофакторную идентификацию
 

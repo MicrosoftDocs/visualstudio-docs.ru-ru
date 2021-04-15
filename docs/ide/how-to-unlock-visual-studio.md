@@ -4,19 +4,19 @@ description: Сведения о продлении срока действия 
 ms.date: 12/18/2019
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.openlocfilehash: 3dd2a688ef70064f44caccfd7c64150b7c649769
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b78db14b149b094550ce025ab3750742401fddbe
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869132"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107295472"
 ---
 # <a name="extend-a-trial-version-or-update-a-license"></a>Расширение пробной версии или обновление лицензии
 
@@ -68,14 +68,14 @@ ms.locfileid: "99869132"
 
 Если срок действия подписки истек и у вас больше нет доступа к Visual Studio, продлите подписку или добавьте другую учетную запись с подпиской. Чтобы просмотреть дополнительные сведения о лицензии, щелкните **Файл** > **Параметры учетной записи**. Сведения отображаются в правой части окна. При наличии другой подписки, связанной с другой учетной записью, добавьте эту учетную запись в список **Все учетные записи** в левой части диалогового окна, щелкнув ссылку **Добавить учетную запись**.
 
-## <a name="get-support"></a>Получение поддержки
+## <a name="get-support"></a>Техническая поддержка
 
 Иногда возникают проблемы. В случае возникновения проблем рассмотрите следующие варианты поддержки:
 
 * Сообщите о проблемах с продуктом с помощью функции [Сообщить о проблеме](how-to-report-a-problem-with-visual-studio.md).
 * Найдите ответы на вопросы о подписках, учетных записях и выставлении счетов на странице [вопросов и ответов относительно поддержки по подпискам](https://visualstudio.microsoft.com/subscriptions/support/).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Вход в Visual Studio](../ide/signing-in-to-visual-studio.md)
 * [Сравнение выпусков Visual Studio 2019](https://visualstudio.microsoft.com/vs/compare/)

@@ -3,19 +3,19 @@ title: Visual Studio на устройствах ARM
 description: Рекомендации по использованию Visual Studio на устройствах с процессорами на базе ARM.
 ms.date: 09/10/2020
 ms.topic: conceptual
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: d42f16e62437eac856c63e5436f4d3243bbae004
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 31fb209a3f19c052c19e98691b8643bb098887ee
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99889776"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107295810"
 ---
 # <a name="visual-studio-on-arm-powered-devices"></a>Visual Studio на устройствах ARM
 

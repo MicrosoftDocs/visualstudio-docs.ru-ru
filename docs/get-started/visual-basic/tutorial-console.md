@@ -7,19 +7,19 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: vb
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 70782687b6220adf1c61c5b2bb6487d68fde70f4
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 075c84433e5784106bbe1f9c6ac6f58d9613bfdb
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101682619"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107295498"
 ---
 # <a name="tutorial-get-started-with-visual-basic-in-visual-studio"></a>Руководство. Начало работы с Visual Basic в Visual Studio
 
@@ -101,13 +101,13 @@ ms.locfileid: "101682619"
    >
    > Затем нажмите кнопку **Изменить** в Visual Studio Installer. Вам может быть предложено сохранить результаты работы; в таком случае сделайте это. Выберите **Продолжить**, чтобы установить рабочую нагрузку. После этого вернитесь к шагу 2 в процедуре [Создание проекта](#create-a-project).
 
-1. В поле **Имя проекта** окна **Настроить новый проект** введите *WhatIsYourName*. Затем щелкните **Далее**.
+1. В поле **Имя проекта** окна **Настроить новый проект** введите *WhatIsYourName*. Нажмите кнопку **Далее**.
 
    :::image type="content" source="./media/vs-2019/vb-name-your-project-whatname.png" alt-text="В окне &quot;Настроить новый проект&quot; назовите проект &quot;WhatIsYourName&quot;":::
 
 1. В окне **Дополнительные сведения** для целевой платформы должна быть указана версия **.NET Core 3.1**. Если это не так, выберите **.NET Core 3.1**. Затем нажмите **Создать**.
 
-   :::image type="content" source="./media/vs-2019/vb-target-framework.png" alt-text="Проверка того, что в окне &quot;Дополнительные сведения&quot; указано .NET Core 3.1":::
+   :::image type="content" source="./media/vs-2019/vb-target-framework.png" alt-text="Проверка того, что в окне &quot;Дополнительные сведения&quot; выбрана версия .NET Core 3.1":::
 
    Новый проект открывается в Visual Studio.
 

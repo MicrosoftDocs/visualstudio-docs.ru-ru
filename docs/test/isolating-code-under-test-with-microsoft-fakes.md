@@ -12,12 +12,12 @@ author: mikejo5000
 dev_langs:
 - VB
 - CSharp
-ms.openlocfilehash: e7e7672ca93c47370f746358203c37826a1b3ad3
-ms.sourcegitcommit: e262f4c2a147c3fa2d27de666aae3a0497317867
+ms.openlocfilehash: 8800116393df30df59b9fbe9544c1bbd0ee1bc18
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "100006417"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107295654"
 ---
 # <a name="isolate-code-under-test-with-microsoft-fakes"></a>Изоляция тестируемого кода с помощью Microsoft Fakes
 
@@ -264,7 +264,7 @@ System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
     <ItemGroup>
-        <Reference Include="FakesAssemblies\System.Fakes.dll">
+        <Reference Include="FakesAssemblies\System.Fakes.dll"/>
     </ItemGroup>
 </Project>
 ```

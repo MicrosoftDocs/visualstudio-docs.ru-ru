@@ -6,17 +6,17 @@ ms.custom: seodec18, contperf-fy21q1
 ms.date: 09/11/2020
 ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 2bc45ae5732db5033a1b123ef18cda27c426fd6f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 749814dc6fd20107a2a1d2d5c0c26c7a4bad421b
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99878530"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296811"
 ---
 # <a name="sign-in-to-visual-studio"></a>Выполните вход в Visual Studio
 

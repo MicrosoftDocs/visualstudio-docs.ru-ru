@@ -10,17 +10,17 @@ dev_langs:
 - CSharp
 - vb
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 931bd4191331f229f40a813b605eac7f69a1427a
-ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
+ms.openlocfilehash: ffaa3986ee5ef23f007d6e66a30b75eb8b06bff4
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106214282"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296265"
 ---
 # <a name="step-4-add-a-click-event-handler-to-each-label"></a>Шаг 4. Добавление обработчика событий Click к каждому элементу управления Label
 

@@ -1,19 +1,19 @@
 ---
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.date: 04/25/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
-ms.openlocfilehash: ec1aa8ca289ebb5d434ad70f16f0018ac4c96ee3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: aba4605626585ff8f789baf7862ffdd54f49faa0
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850179"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296990"
 ---
-| **Value** | **Результат** |
+| **Значение** | **Результат** |
 | --------- | ---------- |
 | 0 | Операция выполнена успешно. |
 | 1602 | Операция отменена |
@@ -24,4 +24,4 @@ ms.locfileid: "99850179"
 | 5005 | Ошибка синтаксического анализа командной строки начального загрузчика |
 | 5007 | Операция была заблокирована — компьютер не соответствует требованиям |
 | –1073741510 | Работа установщика Microsoft Visual Studio была прервана (пользователем или внешним процессом) |
-| Другие<br>(например,<br>–1, 1, 1603) | Произошел сбой — проверьте журналы для получения дополнительных сведений |
+| Другое<br>(например,<br>–1, 1, 1603) | Произошел сбой — проверьте журналы для получения дополнительных сведений |

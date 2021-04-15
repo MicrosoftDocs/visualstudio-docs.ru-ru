@@ -3,15 +3,15 @@ title: Обзор процессов сборки и отладки с помо�
 author: ghogen
 description: Обзор процессов сборки и отладки с помощью инструментов для работы с контейнерами
 ms.author: ghogen
-ms.date: 11/20/2019
+ms.date: 03/15/2021
 ms.technology: vs-azure
 ms.topic: conceptual
-ms.openlocfilehash: 07ecc9a171cf6c0ca254ddbf284f116545ddd0f0
-ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
+ms.openlocfilehash: 6b860abeab0745ebae580e3020c94e446f2441c8
+ms.sourcegitcommit: c875360278312457f4d2212f0811466b4def108d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104884087"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107315957"
 ---
 # <a name="how-visual-studio-builds-containerized-apps"></a>Как Visual Studio создает контейнерные приложения
 
@@ -26,7 +26,7 @@ ms.locfileid: "104884087"
 При многоэтапной сборке образы контейнеров создаются в несколько шагов, на каждом из которых формируются промежуточные образы. Возьмем для примера типичный файл Dockerfile, создаваемый Visual Studio. Первый этап — `base`.
 
 ```
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-stretch-slim AS base
+FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
@@ -37,24 +37,24 @@ EXPOSE 443
 Следующий этап — `build`. Выглядит он так:
 
 ```
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.1-buster-slim AS build
 WORKDIR /src
 COPY ["WebApplication43/WebApplication43.csproj", "WebApplication43/"]
 RUN dotnet restore "WebApplication43/WebApplication43.csproj"
 COPY . .
 WORKDIR "/src/WebApplication43"
-RUN dotnet build "WebApplication43.csproj" -c Release -o /app
+RUN dotnet build "WebApplication43.csproj" -c Release -o /app/build
 ```
 
 Как вы видите, на этапе `build` вместо продолжения работы с образом base берется другой исходный образ из реестра (`sdk`, а не `aspnet`).  Образ `sdk` содержит все средства сборки и поэтому гораздо больше, чем образ aspnet, который содержит только компоненты времени выполнения. Причина использования отдельного образа становится очевидной, если посмотреть на остальную часть файла Dockerfile:
 
 ```
 FROM build AS publish
-RUN dotnet publish "WebApplication43.csproj" -c Release -o /app
+RUN dotnet publish "WebApplication43.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app .
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication43.dll"]
 ```
 

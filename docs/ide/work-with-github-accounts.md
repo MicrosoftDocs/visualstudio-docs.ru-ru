@@ -4,18 +4,18 @@ ms.date: 11/16/2020
 ms.custom: ''
 ms.topic: conceptual
 description: Сведения о том, как работать с учетными записями GitHub в Visual Studio.
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 monikerRange: '>=vs-2019'
-ms.openlocfilehash: 9da0f2c2df796f50530f19252c7236c2bb606a10
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9f55a233cc2550cd452851edc9092b4b2f4f2411
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99960485"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296369"
 ---
 # <a name="work-with-github-accounts-in-visual-studio"></a>Работа с учетными записями GitHub в Visual Studio
 

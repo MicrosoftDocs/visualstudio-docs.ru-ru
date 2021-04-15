@@ -6,17 +6,17 @@ ms.date: 10/16/2019
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 ms.topic: tutorial
 ms.technology: vs-ide-general
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: cfb5a8af72d7c41cdee913ee94c382c57e8cf5dc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: af9e8e71a7188e8ee2c8f0a7809830f82fb8f15a
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99971418"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296655"
 ---
 # <a name="tutorial-3-create-a-matching-game"></a>Руководство 3. Создание соответствующей игры
 

@@ -7,17 +7,17 @@ ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: cdfd4294511752e201c2291a03f89d0bded2506b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7f66ce33d104a06e49db8b740b22abcb9c587c33
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99971457"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296772"
 ---
 # <a name="tutorial-1-create-a-picture-viewer"></a>Руководство 1. Создание приложения для просмотра рисунков
 

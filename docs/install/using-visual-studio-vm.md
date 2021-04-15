@@ -10,19 +10,19 @@ helpviewer_keywords:
 - virtual machine
 - installation
 - visual studio
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 7111c53a498fe10710ec2b328600052a7d4de0cd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 339b3661760ee539bb4135c59863e7e9fdae5afc
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935642"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107295823"
 ---
 # <a name="visual-studio-images-on-azure"></a><a id="top"> </a> Образы Visual Studio в Azure
 

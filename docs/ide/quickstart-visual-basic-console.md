@@ -7,19 +7,19 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
 ms.devlang: vb
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 34b412d254d0775b57f2c9befaae71ce25c6ae75
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 3a103c672b6539f5893cf52a6e83acde6c87176d
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683863"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107296642"
 ---
 # <a name="quickstart-create-your-first-console-app-in-visual-studio-with-visual-basic"></a>Краткое руководство. Создание первого консольного приложения на Visual Basic в Visual Studio
 
@@ -72,7 +72,7 @@ ms.locfileid: "101683863"
 
    ![Просмотр окна "Создание проекта"](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. В окне **Создание проекта** выберите значение **Visual Basic** в списке языков. Затем выберите **Windows** в списке платформ и вариант **Консоль** в списке типов проектов.
+1. В окне **Создание проекта** выберите **Visual Basic** в списке языков. Затем выберите **Windows** в списке платформ и **Консоль** в списке типов проектов.
 
    Применив фильтры по языку, платформе и типу проекта, выберите шаблон **Консольное приложение** и щелкните **Далее**.
 
@@ -113,14 +113,14 @@ ms.locfileid: "101683863"
 
 При этом окно консоли отображается на короткое время и затем сразу же закрывается. Это происходит потому, что метод `Main` завершается после выполнения его единственного оператора, после чего завершается работа приложения.
 
-### <a name="add-some-code"></a>Добавление кода
+### <a name="add-some-code&quot;></a>Добавление кода
 
 Давайте добавим код, чтобы приостановить выполнение приложения и запросить ввод данных пользователем.
 
 1. Добавьте следующий код сразу после вызова метода <xref:System.Console.WriteLine%2A>:
 
    ```vb
-   Console.Write("Press any key to continue...")
+   Console.Write(&quot;Press any key to continue...")
    Console.ReadKey(true)
    ```
 
