@@ -10,18 +10,18 @@ user.type: subscriber
 tags: download, activate, licensing
 subscription.type: vl, cloud, retail, partner
 sap.id: af210210-e3e1-2b2e-8d79-9bd20e851241
-ms.openlocfilehash: ac57b500685ae885d5cd68c5901a6ee2617462d0
-ms.sourcegitcommit: bbf532e50b9140724c1a0f66f9a35862bf6e4a97
+ms.openlocfilehash: 755574a0ae60b078a2ea5414e43e16c80c91fa67
+ms.sourcegitcommit: f6aa84e34c2f41877b84c01e7ead956a1b4c24f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107291408"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "107513263"
 ---
 ## <a name="visual-studio-ide-technical-support"></a>Техническая поддержка Visual Studio IDE  
 
 Поддержка Подписок Visual Studio предусматривает помощь в вопросах, связанных с продажами, подписками, учетными записями и выставлением счетов. Если у вас возник технический вопрос или проблема с Visual Studio IDE, отправьте запрос в [службу технической поддержки Visual Studio](https://visualstudio.microsoft.com/vs/support/). Прежде чем использовать ограниченное количество [обращений в службу технической поддержки Visual Studio](https://docs.microsoft.com/visualstudio/subscriptions/vs-tech-support), которое может быть предусмотрено вашей подпиской Visual Studio, мы рекомендуем обратиться к другим Интернет-ресурсам.
 
-Если у вас возникли проблемы с установкой Visual Studio, воспользуйтесь пошаговыми указаниями в статье [Устранение неполадок при установке и обновлении Visual Studio](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues?view=vs-2019). Также доступен [чат по вопросам установки](https://visualstudio.microsoft.com/vs/support/#talktous), предназначенный для оказания помощи при проблемах с установкой (только на английском языке).
+Если у вас возникли проблемы с установкой Visual Studio, воспользуйтесь пошаговыми указаниями в статье [Устранение неполадок при установке и обновлении Visual Studio](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues). Также доступен [чат по вопросам установки](https://visualstudio.microsoft.com/vs/support/#talktous), предназначенный для оказания помощи при проблемах с установкой (только на английском языке).
 
 
 ## <a name="developer-community--visual-studio-ide"></a>Сообщество разработчиков | Интегрированная среда разработки Visual Studio
