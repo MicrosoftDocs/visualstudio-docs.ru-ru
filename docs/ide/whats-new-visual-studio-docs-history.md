@@ -15,16 +15,62 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: bbad51f6d06c221118ffda01e1c7e93374eea2ff
-ms.sourcegitcommit: 3a855d3513407ea78336386dc3be0b75142614b0
+ms.openlocfilehash: 05af4933569e988b35bea9763a27d8f68aae3627
+ms.sourcegitcommit: be14ae4b95e289f16e9444293bb2ec997d4b4d72
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "103622573"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "107031597"
 ---
 # <a name="history-of-whats-new-in-visual-studio-docs"></a>История новых возможностей в документации по Visual Studio
 
-Добро пожаловать в историю изменений документации по Visual Studio. В этой статье приведены основные изменения в документации до февраля 2021 г. (начиная с июля 2020 г.). Последние изменения см. в разделе [Документация по Visual Studio. Обновления в документации за июль 2020 г.](whats-new-visual-studio-docs.md)
+Добро пожаловать в историю изменений документации по Visual Studio. В этой статье приведены основные изменения в документации до марта 2021 г. (начиная с июля 2020 г.). Последние изменения см. в разделе [Документация по Visual Studio. Обновления в документации за июль 2020 г.](whats-new-visual-studio-docs.md)
+
+## <a name="february-2021"></a>Февраль 2021 года
+
+### <a name="debugger"></a>Отладчик
+
+**Обновленные статьи**
+
+- [Использование точек останова в отладчике Visual Studio](../debugger/using-breakpoints.md) — обновления для специальных возможностей
+
+### <a name="get-started"></a>Начало работы
+
+**Обновленные статьи**
+
+- [Учебник. Открытие проекта из репозитория в Visual Studio 2017](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md) — обновление ссылок "См. также" в статье "Открытие проекта из репозитория" для VS2017
+- [Учебник. Открытие проекта из репозитория](../get-started/tutorial-open-project-from-repo-visual-studio-2019.md) — добавление ссылки в версию страницы "Открытие проекта из репозитория" для VS2017
+
+### <a name="ide"></a>IDE
+
+**Обновленные статьи**
+
+- [Устранение неполадок и создание журналов по проблемам MSBuild](./msbuild-logs.md) — добавление инструкций по использованию расширения средств системы проектов
+
+### <a name="install"></a>Установка
+
+**Обновленные статьи**
+
+- [Обновление Visual Studio с использованием минимального автономного макета](../install/update-minimal-layout.md)
+  - Добавление примера VS2017 в таблицу параметров
+  - Добавление примеров для VS2017
+
+### <a name="msbuild"></a>MSBuild
+
+**Новые статьи**
+
+- [MSB3644: ссылочные сборки для версии платформы "FrameworkVersion" не найдены](../msbuild/errors/msb3644.md) — ошибки MSBuild
+- [MSB8036: версия "version" Windows SDK не найдена](../msbuild/errors/msb8036.md) — ошибки MSBuild
+
+### <a name="test"></a>Тест
+
+**Обновленные статьи**
+
+- [Использование платформы модульного тестирования Майкрософт для C++ в Visual Studio](../test/how-to-use-microsoft-test-framework-for-cpp.md) — небольшие обновления и изменения содержимого
+- [Написание модульных тестов для библиотек DLL C++ в Visual Studio](../test/how-to-write-unit-tests-for-cpp-dlls.md) — небольшие обновления и изменения содержимого
+- [Выполнение модульных тестов с помощью Обозревателя тестов](../test/run-unit-tests-with-test-explorer.md) — обновления для специальных возможностей
+- [Пошаговое руководство. Создание и запуск модульных тестов для управляемого кода](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) — обновления для специальных возможностей
+- [Изоляция тестируемого кода с помощью Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) — явное упоминание .NET 5.0 в документации по Fakes
 
 ## <a name="january-2021"></a>Январь 2021 г.
 ### <a name="azure"></a>Azure

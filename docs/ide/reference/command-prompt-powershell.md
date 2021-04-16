@@ -1,8 +1,8 @@
 ---
-title: Оболочки командной строки для разработчиков
-description: Узнайте, как найти и использовать Командную строку разработчика для Visual Studio, PowerShell для разработчиков и терминал Visual Studio, которые упрощают работу с инструментами .NET и C++.
-ms.date: 03/04/2021
-ms.custom: contperf-fy21q3
+title: Оболочки командной строки и командная строка для разработчиков
+description: Запускается из меню "Инструменты" > "Командная строка". Командная строка разработчика, PowerShell для разработчиков и терминал в Visual Studio позволяют вам удобнее пользоваться инструментами .NET и C++.
+ms.date: 04/11/2021
+ms.custom: contperf-fy21q4
 helpviewer_keywords:
 - Visual Studio command prompt
 - command prompt, Visual Studio
@@ -11,27 +11,21 @@ helpviewer_keywords:
 - Visual Studio terminal
 ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
-ms.openlocfilehash: fb2c99037577528b77ab5c1b0c74bf7af9e73d1b
-ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
+ms.openlocfilehash: 57cbc93f4b6e8cf64dd5149462788e0cde833350
+ms.sourcegitcommit: 52b093e000334f53d87c6165d1418347e4f45dec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104672329"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107221735"
 ---
-# <a name="developer-command-prompt-and-developer-powershell"></a>Командная строка разработчика и PowerShell для разработчиков
+# <a name="visual-studio-developer-command-prompt-and-developer-powershell"></a>Командная строка разработчика и PowerShell для разработчиков в Visual Studio
 
 В Visual Studio 2019 есть две оболочки командной строки для разработчиков:
 
 - **Командная строка разработчика для Visual Studio** — стандартная командная строка с определенными переменными среды, упрощающая работу с инструментами разработки. Доступно с версии Visual Studio 2015.
+
 - **PowerShell для разработчиков Visual Studio** — более функциональное средство, чем командная строка. Например, в нем можно передать результат одной команды (называемой *cmdlet* ) в другой cmdlet. В этой оболочке доступны те же переменные среды, что и в Командной строке разработчика. Доступно с версии Visual Studio 2019.
 
-В обеих оболочках заданы определенные переменные среды. Это упрощает работу с инструментами командной строки. Открыв эти оболочки, можно выполнять команды для различных служебных программ, не указывая их расположения. В оболочках доступны следующие команды и инструменты:
-
-- [`MSBuild`](../../msbuild/msbuild-command-line-reference.md) для сборки проекта или решения;
-- [инструменты .NET Framework](/dotnet/framework/tools/index), такие как [`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool) и [`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler);
-- средства компиляции C/C++, такие как [`CL`](/cpp/build/reference/compiler-command-line-syntax) и [`NMAKE`](/cpp/build/reference/running-nmake);
-- дополнительные средства сборки C/C++, такие как [`LIB`](/cpp/build/reference/lib-reference) И [`DUMPBIN`](/cpp/build/reference/dumpbin-reference);
-- [команды .NET для CLI](/dotnet/core/tools/index), такие как [`dotnet`](/dotnet/core/tools/dotnet) и [`dotnet run`](/dotnet/core/tools/dotnet-run) (эти команды также доступны в стандартной командной строке).
 
 :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Командная строка разработчика для Visual Studio с информацией об инструменте Clrver":::
 
@@ -41,7 +35,22 @@ ms.locfileid: "104672329"
 
 При запуске в Visual Studio одной из оболочек как отдельного приложения или в окне терминала открывается каталог текущего решения (если оно загружено). Это упрощает выполнение команд для решения или его проектов.
 
-## <a name="start-the-shell-from-inside-visual-studio"></a>Запуск оболочки из Visual Studio
+В обеих оболочках заданы определенные переменные среды. Это упрощает работу с инструментами командной строки. Открыв эти оболочки, можно выполнять команды для различных служебных программ, не указывая их расположения. 
+
+|Популярные команды|Описание|
+|--|--|
+|[`MSBuild`](../../msbuild/msbuild-command-line-reference.md)|Сборка проекта или решения|
+|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| [Инструменты .NET Framework](/dotnet/framework/tools/index) для CLR.|
+|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|[Инструменты .NET Framework](/dotnet/framework/tools/index) для дизассемблера.|
+|[`dotnet`](/dotnet/core/tools/dotnet)|[Команда CLI .NET](/dotnet/core/tools/index)|
+|[`dotnet run`](/dotnet/core/tools/dotnet-run)|[Команда CLI .NET](/dotnet/core/tools/index)|
+|[`CL`](/cpp/build/reference/compiler-command-line-syntax)|Средство компиляции C/C++|
+|[`NMAKE`](/cpp/build/reference/running-nmake)|Средство компиляции C/C++|
+|[`LIB`](/cpp/build/reference/lib-reference)| Средство сборки С/C++|
+|[`DUMPBIN`](/cpp/build/reference/dumpbin-reference)| Средство сборки С/C++|
+
+
+## <a name="start-in-visual-studio"></a>Запуск в Visual Studio
 
 Выполните следующие действия, чтобы открыть в Visual Studio Командную строку разработчика или PowerShell для разработчиков:
 
@@ -51,9 +60,9 @@ ms.locfileid: "104672329"
 
    ![Пункт меню "Командная строка" в Visual Studio](./media/developer-command-prompt-for-vs/vs-menu.png)
 
-## <a name="use-the-windows-start-menu"></a>Использование меню "Пуск" в Windows
+## <a name="start-from-windows-menu"></a>Запуск из меню Windows
 
-В зависимости от версии Visual Studio, дополнительно установленных пакетов SDK и рабочих нагрузок может иметься несколько вариантов командных строк. Если описанные ниже действия не дадут результата, можно попробовать [найти файлы на компьютере вручную](#manually-locate-the-file) или [запустить оболочку из Visual Studio](#start-the-shell-from-inside-visual-studio).
+Другой способ запуска оболочек — из меню "Пуск". В зависимости от версии Visual Studio, дополнительно установленных пакетов SDK и рабочих нагрузок может иметься несколько вариантов командных строк. 
 
 ### <a name="windows-10"></a>Windows 10
 
@@ -85,7 +94,7 @@ ms.locfileid: "104672329"
 
 Если установлены другие пакеты SDK, например, [пакет SDK для Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk) или [предыдущих версий](https://developer.microsoft.com/windows/downloads/sdk-archive), могут появиться дополнительные командные строки. Требуемая версия командной строки указана в документации по соответствующим инструментам.
 
-## <a name="manually-locate-the-file"></a>Поиск файла вручную
+## <a name="start-from-file-browser"></a>Запуск из обозревателя файлов 
 
 Обычно ярлыки для установленных оболочек помещаются в папку **меню "Пуск"** для Visual Studio, например в *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*. Но если поиск командной строки не дает ожидаемых результатов, попробуйте вручную найти нужные файлы на компьютере.
 

@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d57fa806ae565d0752fb9970c3f335295e83535
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: ee849354d82b11b8d94a737a2b546f686d04d34a
+ms.sourcegitcommit: 3985d0ae8d6332f4682c82a10897763173d52961
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101684222"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107386041"
 ---
 # <a name="how-to-debug-for-absolute-beginners"></a>Принципы отладки для начинающих
 
@@ -70,7 +70,7 @@ ms.locfileid: "101684222"
 
 Чтобы задать точку останова в Visual Studio, достаточно щелкнуть в левом поле рядом с интересующей вас строкой кода. Также для этого можно поместить указатель мыши в нужную строку и нажать клавишу **F9**.
 
-Чтобы продемонстрировать это, мы рассмотрим пример кода, который уже содержит несколько ошибок. В этом случае мы используем C#, однако функции отладки также работают для Visual Basic, C++, JavaScript, Python и других поддерживаемых языков.
+Чтобы продемонстрировать это, мы рассмотрим пример кода, который уже содержит несколько ошибок. В этом случае мы используем C#, однако функции отладки также работают для Visual Basic, C++, JavaScript, Python и других поддерживаемых языков. Также предоставлен пример кода для Visual Basic, но снимки экрана приведены для C#.
 
 ### <a name="create-a-sample-app-with-some-bugs"></a>Создание образца приложения с ошибками
 
@@ -85,19 +85,21 @@ ms.locfileid: "101684222"
 1. Запустите Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    На начальном экране выберите **Создать проект**. В поле поиска введите **консоль**, выберите **C#** в качестве языка, а затем выберите **Консольное приложение** для .NET Core. Нажмите кнопку **Далее**. Введите имя проекта, например **ConsoleApp-FirstApp**, и щелкните **Далее**.
+    На начальном экране выберите **Создать проект**. В поле поиска введите **консоль**, выберите **C#** или **Visual Basic** в качестве языка, а затем выберите **Консольное приложение** для .NET Core. Нажмите кнопку **Далее**. Введите имя проекта, например **ConsoleApp-FirstApp**, и нажмите кнопку **Далее**.
 
     Выберите рекомендуемую версию целевой платформы (.NET Core 3.1) или .NET 5 и щелкните **Создать**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    В верхней строке меню последовательно выберите **Файл**  > **Создать**  > **Проект**. В левой области диалогового окна **Новый проект** в разделе **Visual C#** выберите **Консольное приложение**, а затем в средней области выберите **Консольное приложение (.NET Core)** . Введите такое имя, как **ConsoleApp-FirstApp**, и нажмите кнопку **ОК**.
+    В верхней строке меню последовательно выберите **Файл**  > **Создать**  > **Проект**. В левой области диалогового окна **Новый проект** в разделе **Visual C#** или **Visual Basic** выберите **Консольное приложение**, а затем в средней области выберите **Консольное приложение (.NET Core)** . Введите имя, например **ConsoleApp-FirstApp**, и нажмите кнопку **ОК**.
     ::: moniker-end
 
     Если вы не видите шаблон проекта **Консольное приложение** для .NET Core, выберите **Средства** > **Получить средства и компоненты**, после чего запустится Visual Studio Installer. Выберите рабочую нагрузку **Кроссплатформенная разработка .NET Core** и щелкните **Изменить**.
 
     Visual Studio создаст консольный проект и откроет его в обозревателе решений (правая область).
 
-1. Откройте файл *Program.cs* и замените все его содержимое по умолчанию следующим кодом.
+1. Откройте файл *Program.cs* (или *Program.vb*) и замените все его содержимое по умолчанию следующим кодом. (Сначала выберите вкладку для нужного языка: C# или Visual Basic.)
+
+   #### <a name="c"></a>[C#](#tab/csharp)
 
     ```csharp
     using System;
@@ -178,6 +180,109 @@ ms.locfileid: "101684222"
     }
     ```
 
+   #### <a name="visual-basic"></a>[Visual Basic](#tab/visualbasic)
+
+    ```vb
+    Imports System
+    Imports System.Collections.Generic
+
+    Namespace ConsoleApp_FirstApp
+        Friend Class Program
+            Public Shared Sub Main(ByVal args As String())
+                Console.WriteLine("Welcome to Galaxy News!")
+                Call IterateThroughList()
+                Console.ReadKey()
+            End Sub
+
+            Private Shared Sub IterateThroughList()
+                Dim theGalaxies = New List(Of Galaxy) From {
+                    New Galaxy() With {
+                        .Name = "Tadpole",
+                        .MegaLightYears = 400,
+                        .GalaxyType = New GType("S"c)
+                    },
+                    New Galaxy() With {
+                        .Name = "Pinwheel",
+                        .MegaLightYears = 25,
+                        .GalaxyType = New GType("S"c)
+                    },
+                    New Galaxy() With {
+                        .Name = "Cartwheel",
+                        .MegaLightYears = 500,
+                        .GalaxyType = New GType("L"c)
+                    },
+                    New Galaxy() With {
+                        .Name = "Small Magellanic Cloud",
+                        .MegaLightYears = 0.2,
+                        .GalaxyType = New GType("I"c)
+                    },
+                    New Galaxy() With {
+                        .Name = "Andromeda",
+                        .MegaLightYears = 3,
+                        .GalaxyType = New GType("S"c)
+                    },
+                    New Galaxy() With {
+                        .Name = "Maffei 1",
+                        .MegaLightYears = 11,
+                        .GalaxyType = New GType("E"c)
+                    }
+                }
+    
+                For Each theGalaxy As Galaxy In theGalaxies
+                    Console.WriteLine(theGalaxy.Name & "  " & theGalaxy.MegaLightYears & ",  " & theGalaxy.GalaxyType)
+                Next
+
+            End Sub
+        End Class
+    
+        Public Class Galaxy
+            Public Property Name As String
+            Public Property MegaLightYears As Double
+            Public Property GalaxyType As Object
+        End Class
+    
+        Public Class GType
+    
+            Shared Operator &(ByVal left As String, ByVal right As GType) As String
+                Return New String(left & right.ToString())
+            End Operator
+            Public Sub New(ByVal type As Char)
+                Select Case type
+                    Case "S"c
+                        MyGType = GType.Type.Spiral
+                    Case "E"c
+                        MyGType = GType.Type.Elliptical
+                    Case "l"c
+                        MyGType = GType.Type.Irregular
+                    Case "L"c
+                        MyGType = GType.Type.Lenticular
+                    Case Else
+                End Select
+    
+            End Sub
+    
+            Private _MyGType As String
+            Public Property MyGType As Object
+                Get
+                    Return _MyGType
+                End Get
+                Set(ByVal value As Object)
+                    _MyGType = value.ToString()
+                End Set
+            End Property
+    
+            Private Enum Type
+                Spiral
+                Elliptical
+                Irregular
+                Lenticular
+            End Enum
+        End Class
+    End Namespace
+    ```
+
+    ---
+
     Этот код выводит список, содержащий название галактики, расстояние до нее, а также тип галактики. При отладке важно учитывать предназначение кода. Ниже показан формат одной строки списка, который должен выводить код.
 
     *название галактики*, *расстояние*, *тип галактики*.
@@ -214,6 +319,8 @@ ms.locfileid: "101684222"
 
 1. Во время выполнения приложения щелкните в левом поле рядом с вызовом метода `Console.WriteLine`, чтобы задать точку останова в этой строке кода.
 
+    #### <a name="c"></a>[C#](#tab/csharp)
+
     ```csharp
     foreach (Galaxy theGalaxy in theGalaxies)
     {
@@ -221,6 +328,15 @@ ms.locfileid: "101684222"
     }
     ```
 
+    #### <a name="visual-basic"></a>[Visual Basic](#tab/visualbasic)
+
+    ```vb
+    For Each theGalaxy As Galaxy In theGalaxies
+        Console.WriteLine(theGalaxy.Name & "  " & theGalaxy.MegaLightYears & ",  " & theGalaxy.GalaxyType)
+    Next
+    ```
+
+    ---
     В месте установки точки останова в левом поле появится красный круг.
 
     Поскольку возникшая проблема связана с выходными данными, необходимо начать отладку с проверки кода, который выполняется перед установкой выходных данных.
@@ -235,9 +351,12 @@ ms.locfileid: "101684222"
 
     Изначально вы ожидаете, что в окно консоли будет выведено именно значение Spiral. Таким образом, вам следует проверить это значение в коде во время выполнения приложения. В этом сценарии мы используем неправильный API. Посмотрим, сможем ли мы исправить проблему во время выполнения кода в отладчике.
 
-1. Во время отладки этого же кода установите указатель мыши в конец элемента `theGalaxy.GalaxyType` и измените его на `theGalaxy.GalaxyType.MyGType`. Несмотря на допустимость такого изменения, в редакторе кода отображается ошибка, свидетельствующая о невозможности выполнить компиляцию.
+1. Во время отладки этого же кода установите указатель мыши в конец элемента `theGalaxy.GalaxyType` и измените его на `theGalaxy.GalaxyType.MyGType`. Несмотря на допустимость такого изменения, в редакторе кода отображается ошибка, свидетельствующая о невозможности выполнить компиляцию. (В Visual Basic этой ошибки не возникнет, и этот раздел кода будет работать)
 
     ![Снимок экрана: отладчик Visual Studio со строкой кода, выделенной красным, и окном сообщения "Изменить и продолжить" с выбранной кнопкой "Изменить".](../debugger/media/beginners-edit.png)
+
+   > [!NOTE]
+   > Чтобы выполнить отладку примера кода Visual Basic, пропустите несколько следующих шагов до инструкции, по которой нужно щелкнуть **Перезапустить** ![Перезапустить приложение](../debugger/media/dbg-tour-restart.png "RestartApp").
 
 1. Щелкните **Изменить** в окне сообщения **Изменить и продолжить**. Сообщение об ошибке будет выведено в окне **Список ошибок**. Эта ошибка указывает, что `'object'` не содержит определение для `MyGType`.
 
@@ -274,11 +393,21 @@ ms.locfileid: "101684222"
     Maffei 1,  Elliptical
     ```
 
-1. Задайте точку останова на этой строке кода.
+1. Установите точку останова в этой строке кода перед инструкцией switch (перед инструкцией Select в Visual Basic).
+
+    #### <a name="c"></a>[C#](#tab/csharp)
 
     ```csharp
     public GType(char type)
     ```
+
+    #### <a name="visual-basic"></a>[Visual Basic](#tab/visualbasic)
+
+    ```vb
+    Public Sub New(ByVal type As Char)
+    ```
+
+    ---
 
     Здесь задается тип галактики, поэтому нам необходимо изучить эту строку более пристально.
 
@@ -296,7 +425,7 @@ ms.locfileid: "101684222"
 
     При нажатии клавиши **F11** отладчик переходит на одну инструкцию вперед и выполняет соответствующий код. Клавиша **F10** (**Шаг с обходом**) имеет схожую функцию и также полезна при работе с отладчиком.
 
-1. Нажимайте клавишу **F11** до тех пор, пока вы не остановитесь в строке кода с инструкцией `switch` для значения I. Здесь вы увидите очевидную ошибку, связанную с опечаткой. Вы ожидали, что код будет выполнен дальше до места, где для `MyGType` задается тип Irregular, однако вместо этого отладчик полностью пропускает этот код и приостанавливает работу в разделе `default` инструкции `switch`.
+1. Нажимайте клавишу **F11** до тех пор, пока вы не остановитесь в строке кода с инструкцией `switch` для значения "I" (инструкция `Select` для Visual Basic). Здесь вы увидите очевидную ошибку, связанную с опечаткой. Вы ожидали, что код будет выполнен дальше до места, где для `MyGType` задается тип галактики Irregular, однако вместо этого отладчик полностью пропускает этот код и приостанавливает работу в разделе `default` инструкции `switch` (инструкция `Else` для Visual Basic).
 
     ![Поиск опечатки](../debugger/media/beginners-typo.png)
 

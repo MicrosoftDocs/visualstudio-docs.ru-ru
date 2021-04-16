@@ -14,18 +14,18 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: d1ed2fd5fe9e49ab947752f84accb326499392fb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0a8f4d5612fe8ceaa4470f441133767178b119cc
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836426"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107295446"
 ---
 # <a name="assembly-information-dialog-box"></a>Диалоговое окно "Сведения о сборке"
 
 Диалоговое окно "Сведения о сборке" используется для указания значений глобальных атрибутов сборки .NET Framework, хранящихся в файле AssemblyInfo, который автоматически создается в проекте. У проектов Visual Basic этот файл находится в узле **Мой проект** в обозревателе решений (чтобы увидеть его, щелкните **Показать все файлы**). У проектов C# он находится в разделе **Свойства**. Дополнительные сведения см. в разделе [Атрибуты (C#)](/dotnet/csharp/programming-guide/concepts/attributes/index).
 
-Чтобы открыть это диалоговое окно, выберите узел проекта в **обозревателе решений**, а затем в меню **Проект** выберите пункт **Свойства**. На странице **Приложение** нажмите кнопку **Сведения о сборке**.
+Чтобы открыть это диалоговое окно, выберите узел проекта в **Обозревателе решений**, а затем в меню **Проект** выберите **Свойства**. На странице **Приложение** выберите **Сведения о сборке**.
 
 ## <a name="uielement-list"></a>Список элементов пользовательского интерфейса
 
@@ -65,7 +65,7 @@ ms.locfileid: "99836426"
 Указывает, будут ли типы в сборке доступными для модели COM. Соответствует <xref:System.Runtime.InteropServices.ComVisibleAttribute>.
 
 > [!NOTE]
-> Дополнительные сведения об установке этих свойств при создании пакета NuGet в библиотеке классов .NET Framework см. в разделе [Настройка свойств проекта для пакета](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package).
+> Дополнительные сведения об установке этих свойств при создании пакета NuGet в библиотеке классов .NET Framework см. в разделе [Настройка свойств проекта для пакета](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package). Дополнительные сведения о лицензировании и выражениях, связанных с пакетом NuGet, см. на странице [licenses.nuget.org](/nuget/nuget-org/licenses.nuget.org/).
 
 ## <a name="see-also"></a>См. также раздел
 
