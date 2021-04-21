@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 57c33dc89bdec39b62dbec6a74a152ba816dda88
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f03175abb843abefe5266724890457c795369d63
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99961356"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824436"
 ---
 # <a name="walkthrough-change-cached-data-in-a-workbook-on-a-server"></a>Пошаговое руководство. изменение кэшированных данных в книге на сервере
   В этом пошаговом руководстве показано, как изменить набор данных, кэшированный в Microsoft Office книгу Excel, не запуская Excel с помощью <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> класса.
@@ -70,7 +70,7 @@ ms.locfileid: "99961356"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 3. В области Шаблоны разверните узел **Visual C#** или **Visual Basic**, а затем выберите пункт **Windows**.
 
@@ -82,11 +82,11 @@ ms.locfileid: "99961356"
 
 7. Убедитесь, что в диалоговом окне **Новый проект** не установлен флажок **создать каталог для решения** .
 
-8. Нажмите кнопку **OK**.
+8. Нажмите кнопку **ОК**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Добавляет проект **AdventureWorksDataset** в **Обозреватель решений** и открывает файл кода **Class1.CS** или **Class1. vb** .
+     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Добавляет проект **AdventureWorksDataset** в **Обозреватель решений** и открывает файл кода **Class1. CS** или **Class1. vb** .
 
-9. В **Обозреватель решений** щелкните правой кнопкой мыши **Class1.CS** или **Class1. vb** и выберите команду **Удалить**. Этот файл не требуется для этого пошагового руководства.
+9. В **Обозреватель решений** щелкните правой кнопкой мыши **Class1. CS** или **Class1. vb** и выберите команду **Удалить**. Этот файл не требуется для этого пошагового руководства.
 
 ## <a name="define-a-dataset-in-the-class-library-project"></a>Определение набора данных в проекте библиотеки классов
  Определите типизированный набор данных, содержащий данные из базы данных AdventureWorksLT для SQL Server 2005. Далее в этом пошаговом руководстве вы будете ссылаться на этот набор данных из проекта книги Excel и проекта консольного приложения.
@@ -140,7 +140,7 @@ ms.locfileid: "99961356"
 
 5. В поле **имя** введите **адвентуреворксрепорт**. Не изменяйте расположение.
 
-6. Нажмите кнопку **OK**.
+6. Нажмите кнопку **ОК**.
 
      Откроется **Мастер проектов набора средств Visual Studio для Office** .
 
@@ -153,7 +153,7 @@ ms.locfileid: "99961356"
 
 ### <a name="to-add-the-dataset-to-the-data-sources-in-the-excel-workbook-project"></a>Добавление набора данных в источники данных в проекте книги Excel
 
-1. В **Обозреватель решений** дважды щелкните **Sheet1.CS** или **Sheet1. vb** в проекте **адвентуреворксрепорт** .
+1. В **Обозреватель решений** дважды щелкните **Лист1. CS** или **Sheet1. vb** в проекте **адвентуреворксрепорт** .
 
      Книга откроется в конструкторе.
 
@@ -202,12 +202,12 @@ ms.locfileid: "99961356"
 
 ### <a name="to-initialize-the-dataset-in-the-workbook"></a>Инициализация набора данных в книге
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши файл **Sheet1.CS** или **Sheet1. vb** и выберите пункт **Просмотреть код**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши файл **Sheet1. CS** или **Sheet1. vb** и выберите пункт **Просмотреть код**.
 
 2. Замените обработчик событий `Sheet1_Startup` следующим кодом. Этот код использует экземпляр `ProductTableAdapter` класса, который определен в проекте **AdventureWorksDataset** для заполнения кэшированного набора данных данными, если в настоящее время он пуст.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#8](../vsto/codesnippet/CSharp/AdventureWorksDataSet/AdventureWorksReport/Sheet1.cs#8)]
-     [!code-vb[Trin_CachedDataWalkthroughs#8](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/AdventureWorksReport/Sheet1.vb#8)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/AdventureWorksReport/Sheet1.cs" id="Snippet8":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/AdventureWorksReport/Sheet1.vb" id="Snippet8":::
 
 ## <a name="checkpoint"></a>Контрольная точка
  Создайте и запустите проект книги Excel, чтобы убедиться, что он компилируется и выполняется без ошибок. Эта операция также заполняет кэшированный набор данных и сохраняет данные в книге.
@@ -239,9 +239,9 @@ ms.locfileid: "99961356"
 
 4. В поле **имя** введите объект **записи**. Не изменяйте расположение.
 
-5. Нажмите кнопку **OK**.
+5. Нажмите кнопку **ОК**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Добавляет проект **записи** в **Обозреватель решений** и открывает файл кода **Program.CS** или **Module1. vb** .
+     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Добавляет проект **записи** в **Обозреватель решений** и открывает файл кода **Program. CS** или **Module1. vb** .
 
 ## <a name="change-data-in-the-cached-dataset-by-using-the-console-application"></a>Изменение данных в кэшированном наборе данных с помощью консольного приложения
  Используйте <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> класс в консольном приложении для считывания данных в локальный `AdventureWorksLTDataSet` объект, изменения этих данных, а затем сохраните их обратно в кэшированный набор данных.
@@ -252,18 +252,18 @@ ms.locfileid: "99961356"
 
 2. На вкладке **.NET** выберите **Microsoft. VisualStudio. Tools. Applications**.
 
-3. Нажмите кнопку **OK**.
+3. Нажмите кнопку **ОК**.
 
 4. В **Обозреватель решений** щелкните правой кнопкой мыши проект **записи** и выберите команду **Добавить ссылку**.
 
 5. На вкладке **проекты** выберите **AdventureWorksDataset** и нажмите кнопку **ОК**.
 
-6. Откройте файл *Program.CS* или *Module1. vb* в редакторе кода.
+6. Откройте файл *Program. CS* или *Module1. vb* в редакторе кода.
 
 7. Добавьте следующий оператор **using** (для C#) или **Imports** (for Visual Basic) в начало файла кода.
 
-    [!code-csharp[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#1)]
-    [!code-vb[Trin_CachedDataWalkthroughs#1](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#1)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs" id="Snippet1":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb" id="Snippet1":::
 
 8. Добавьте в метод `Main` следующий код. Этот код объявляет следующие объекты:
 
@@ -276,8 +276,8 @@ ms.locfileid: "99961356"
      > [!NOTE]
      > В следующем коде предполагается, что вы используете книгу с расширением *xlsx* . Если книга в проекте имеет другое расширение файла, при необходимости измените путь.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#6)]
-     [!code-vb[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb" id="Snippet6":::
 
 9. Добавьте следующий код в `Main` метод после кода, добавленного на предыдущем шаге. Этот код выполняет следующие задачи:
 
@@ -289,8 +289,8 @@ ms.locfileid: "99961356"
 
    - Он сохраняет изменения в кэшированном наборе данных в книге.
 
-     [!code-csharp[Trin_CachedDataWalkthroughs#7](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#7)]
-     [!code-vb[Trin_CachedDataWalkthroughs#7](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#7)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs" id="Snippet7":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb" id="Snippet7":::
 
 10. В **Обозреватель решений** щелкните правой кнопкой мыши проект **записи** , наведите указатель на пункт **Отладка** и выберите команду **запустить новый экземпляр**.
 
@@ -313,6 +313,6 @@ ms.locfileid: "99961356"
 
 4. Закройте книгу.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Пошаговое руководство. Вставка данных в книгу на сервере](../vsto/walkthrough-inserting-data-into-a-workbook-on-a-server.md)

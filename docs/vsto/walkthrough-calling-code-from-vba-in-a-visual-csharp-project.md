@@ -21,12 +21,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: a026732f9b49107b8c113796251e1a2b916cf9a3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 260872096f36f91a2618f636e297d3c48b3fe51b
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906480"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824475"
 ---
 # <a name="walkthrough-call-code-from-vba-in-a-visual-c-project"></a>Пошаговое руководство. вызов кода из VBA в проекте Visual C#
   В этом пошаговом руководстве показано, как вызвать метод в настройке на уровне документа для Microsoft Office Excel из кода Visual Basic для приложений (VBA) в книге. Данная процедура состоит из трех основных этапов: добавление метода в класс ведущего элемента `Sheet1` , представление метода коду VBA в книге и вызов метода из кода VBA в книге.
@@ -99,7 +99,7 @@ ms.locfileid: "99906480"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 3. В области шаблонов разверните узел **Visual C#**, а затем узел **Office/SharePoint**.
 
@@ -109,7 +109,7 @@ ms.locfileid: "99906480"
 
 6. В поле **Имя** введите **CallingCodeFromVBA**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      Откроется **Мастер проектов набора средств Visual Studio для Office** .
 
@@ -161,15 +161,15 @@ ms.locfileid: "99906480"
 
 2. Добавьте в класс `Sheet1` приведенный далее код. Метод `CreateVstoNamedRange` создает новый объект <xref:Microsoft.Office.Tools.Excel.NamedRange> в указанном диапазоне. При этом также создается обработчик событий для события <xref:Microsoft.Office.Tools.Excel.NamedRange.Selected> в <xref:Microsoft.Office.Tools.Excel.NamedRange>. Далее в этом пошаговом руководстве будет вызван метод `CreateVstoNamedRange` из кода VBA в документе.
 
-     [!code-csharp[Trin_CallingCSCustomizationFromVBA#2](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs" id="Snippet2":::
 
 3. Добавьте следующий метод в класс `Sheet1`. Этот метод переопределяет метод <xref:Microsoft.Office.Tools.Excel.WorksheetBase.GetAutomationObject%2A> для возврата текущего экземпляра класса `Sheet1` .
 
-     [!code-csharp[Trin_CallingCSCustomizationFromVBA#3](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs" id="Snippet3":::
 
 4. Примените следующие атрибуты перед первой строкой объявления класса `Sheet1` . Эти атрибуты делают класс видимым для модели COM, но без создания интерфейса класса.
 
-     [!code-csharp[Trin_CallingCSCustomizationFromVBA#1](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs" id="Snippet1":::
 
 ## <a name="extract-an-interface-for-the-sheet1-class"></a>Извлечение интерфейса для класса Sheet1
  Перед предоставлением метода `CreateVstoNamedRange` коду VBA необходимо создать открытый интерфейс, который определяет данный метод, а также предоставить этот интерфейс модели COM.
@@ -182,13 +182,13 @@ ms.locfileid: "99906480"
 
 3. В диалоговом окне **Извлечение интерфейса** в поле **Выбрать открытые методы для создания интерфейса** выберите значение для метода `CreateVstoNamedRange` .
 
-4. Нажмите кнопку **OK**.
+4. Нажмите кнопку **ОК**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] создает новый интерфейс с именем `ISheet1`и изменяет определение класса `Sheet1` , чтобы он реализовал интерфейс `ISheet1` . [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] также открывает файл **ISheet1.CS** в редакторе кода.
+     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] создает новый интерфейс с именем `ISheet1`и изменяет определение класса `Sheet1` , чтобы он реализовал интерфейс `ISheet1` . [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] также открывает файл **ISheet1. CS** в редакторе кода.
 
 5. В файле **ISheet1.cs** замените объявление интерфейса `ISheet1` на следующий код. Этот код делает интерфейс `ISheet1` общедоступным и применяет атрибут <xref:System.Runtime.InteropServices.ComVisibleAttribute> , чтобы сделать интерфейс видимым для модели COM.
 
-     [!code-csharp[Trin_CallingCSCustomizationFromVBA#4](../vsto/codesnippet/CSharp/CallingCodeFromVBA/ISheet1.cs#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/CallingCodeFromVBA/ISheet1.cs" id="Snippet4":::
 
 6. Выполните построение проекта.
 
@@ -248,7 +248,7 @@ ms.locfileid: "99906480"
 
 - Вызов кода в надстройке VSTO из VBA. Дополнительные сведения см. [в разделе Пошаговое руководство. вызов кода в надстройке VSTO из VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Объединение настроек VBA и параметров на уровне документа](../vsto/combining-vba-and-document-level-customizations.md)
 - [Программы настройки на уровне документа](../vsto/programming-document-level-customizations.md)
 - [Руководство. предоставление кода коду VBA в Visual Basicном проекте](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)

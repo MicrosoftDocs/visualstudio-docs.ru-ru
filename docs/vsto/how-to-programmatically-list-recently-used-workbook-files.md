@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 75405c7a2e02189e205edf6615c5d95a8f1d023c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ba7ca717af4330e8fb3c102b3a5fe5bf7d9162b6
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99963150"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825333"
 ---
 # <a name="how-to-programmatically-list-recently-used-workbook-files"></a>Руководство. программный список недавно использованных файлов книг
   <xref:Microsoft.Office.Interop.Excel._Application.RecentFiles%2A>Свойство возвращает коллекцию, содержащую имена всех файлов, которые отображаются в списке недавно использовавшихся файлов Microsoft Office Excel. Длина списка зависит от числа файлов, которые пользователь выбрал для удержания. Результаты можно отобразить в диапазоне.
@@ -34,10 +34,10 @@ ms.locfileid: "99963150"
 
 1. Пройдите по списку последних файлов и отобразите имена в ячейках относительно <xref:Microsoft.Office.Interop.Excel.Range> объекта.
 
-     [!code-csharp[Trin_VstcoreExcelAutomationAddIn#9](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#9)]
-     [!code-vb[Trin_VstcoreExcelAutomationAddIn#9](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#9)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs" id="Snippet9":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet9":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Работа с книгами](../vsto/working-with-workbooks.md)
 - [Элемент управления NamedRange](../vsto/namedrange-control.md)
 - [Необязательные параметры в решениях Office](../vsto/optional-parameters-in-office-solutions.md)

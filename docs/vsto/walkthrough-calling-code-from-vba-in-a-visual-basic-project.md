@@ -22,12 +22,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: bcb13ec0e26b1668a397d56982d049bf9ebcceb0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f4fe056f70e0af03809b43d60968bd8a1a50bf08
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906550"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824488"
 ---
 # <a name="walkthrough-call-code-from-vba-in-a-visual-basic-project"></a>Пошаговое руководство. вызов кода из VBA в Visual Basicном проекте
   В этом пошаговом руководстве показано, как вызвать метод в настройке на уровне документа для Microsoft Office Word из кода Visual Basic для приложений (VBA) в документе. Данная процедура состоит из трех основных этапов: добавление метода в класс ведущего элемента `ThisDocument` , представление метода коду VBA и вызов метода из кода VBA в документе.
@@ -98,7 +98,7 @@ ms.locfileid: "99906550"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**. Если интерфейс IDE настроен на использование параметров разработки Visual Basic, последовательно выберите в меню **Файл** пункт **Создать проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**. Если интерфейс IDE настроен на использование параметров разработки Visual Basic, последовательно выберите в меню **Файл** пункт **Создать проект**.
 
 3. В области шаблонов разверните узел **Visual Basic**, а затем узел **Office/SharePoint**.
 
@@ -108,7 +108,7 @@ ms.locfileid: "99906550"
 
 6. В поле **Имя** введите **CallingCodeFromVBA**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      Откроется **Мастер проектов набора средств Visual Studio для Office** .
 
@@ -160,7 +160,7 @@ ms.locfileid: "99906550"
 
 2. Добавьте следующий метод в класс `ThisDocument`. Этот метод создает таблицу с двумя строками и столбцами в начале документа. Параметры указывают текст, который отображается в первой строке. Далее в этом пошаговом руководстве данный метод будет вызываться из кода VBA в документе.
 
-     [!code-vb[Trin_CallingVBCustomizationFromVBA#1](../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb" id="Snippet1":::
 
 3. Выполните построение проекта.
 
@@ -218,7 +218,7 @@ ms.locfileid: "99906550"
 
 - Вызов кода в надстройке VSTO из VBA. Дополнительные сведения см. [в разделе Пошаговое руководство. вызов кода в надстройке VSTO из VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Объединение настроек VBA и параметров на уровне документа](../vsto/combining-vba-and-document-level-customizations.md)
 - [Программы настройки на уровне документа](../vsto/programming-document-level-customizations.md)
 - [Руководство. предоставление кода коду VBA в Visual Basicном проекте](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)

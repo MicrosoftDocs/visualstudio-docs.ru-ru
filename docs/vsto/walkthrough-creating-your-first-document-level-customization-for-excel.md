@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: ae0f4982ca325970b8b7965c956a7d2dea4bf60f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9254aa5fd465c14e24133df59bbcee46f3c1acf4
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966673"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826906"
 ---
 # <a name="walkthrough-create-your-first-document-level-customization-for-excel"></a>Пошаговое руководство. Создание первой настройки уровня документа для Excel
 
@@ -58,7 +58,7 @@ ms.locfileid: "99966673"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 ::: moniker range="vs-2017"
 3. В области шаблонов разверните узел **Visual C#** или **Visual Basic**, а затем узел **Office/SharePoint**.
 
@@ -68,7 +68,7 @@ ms.locfileid: "99966673"
 
 6. В поле **имя** введите **фирстворкбуккустомизатион**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
 8. Выберите **создать новый документ** в **мастере инструменты Visual Studio для проектов Office** и нажмите кнопку **ОК**.
 ::: moniker-end
@@ -77,7 +77,7 @@ ms.locfileid: "99966673"
 
      [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
 
-4. Нажмите кнопку **Далее**.
+4. Щелкните **Далее**.
 
 5. Введите **фирстворкбуккустомизатион** в поле **имя** в диалоговом окне **Настройка нового проекта** и нажмите кнопку **создать**.
 
@@ -140,8 +140,8 @@ ms.locfileid: "99966673"
 
 2. Замените обработчик событий `Sheet1_Startup` следующим кодом. Когда Sheet1 открывается, этот код добавляет вторую строку текста на лист.
 
-     [!code-csharp[Trin_ExcelWorkbookTutorial#1](../vsto/codesnippet/CSharp/Trin_ExcelWorkbookTutorial/Sheet1.cs#1)]
-     [!code-vb[Trin_ExcelWorkbookTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ExcelWorkbookTutorial/Sheet1.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelWorkbookTutorial/Sheet1.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelWorkbookTutorial/Sheet1.vb" id="Snippet1":::
 
 ## <a name="test-the-project"></a>Тестирование проекта
 
@@ -185,7 +185,7 @@ ms.locfileid: "99966673"
 
 - Развертывание настроек уровня документа для Excel: [развертывание решения Office](../vsto/deploying-an-office-solution.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Общие сведения о разработке решений Office &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Решения Excel](../vsto/excel-solutions.md)

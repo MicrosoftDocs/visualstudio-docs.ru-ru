@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 35fad43f78d654cfaf9e06c1f432c620da830dd4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3f022deca9b8cd1b8f00bf847ab0bfdc7882a45f
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99885577"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828271"
 ---
 # <a name="associate-a-web-page-with-an-outlook-folder"></a>Связывание веб-страницы с папкой Outlook
 
@@ -30,9 +30,9 @@ ms.locfileid: "99885577"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## <a name="example"></a>Пример
- [!code-csharp[Trin_OL_HTMLFolder#1](../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs" id="Snippet1":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Работа с папками](../vsto/working-with-folders.md)
 - [Как программно получить папку по имени](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)
 - [Руководство. Программное создание пользовательских элементов папки](../vsto/how-to-programmatically-create-custom-folder-items.md)

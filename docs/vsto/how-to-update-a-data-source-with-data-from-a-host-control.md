@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 4df11976832359363c639a49dd767e7e87b41a26
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9aab30b9c2fa363ef68d7d3f70ca05ca6c387a3c
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99894443"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828934"
 ---
 # <a name="how-to-update-a-data-source-with-data-from-a-host-control"></a>Руководство. Обновление источника данных с помощью данных из элемента управления ведущего приложения
   Вы можете привязать элемент управления ведущего приложения к источнику данных и обновлять источник данных с помощью изменений, внесенных в данные в элементе управления. Этот процесс включает два основных этапа.
@@ -49,8 +49,8 @@ ms.locfileid: "99894443"
 
      В следующем примере выполняется сохранение изменений, внесенных в элемент управления <xref:Microsoft.Office.Tools.Excel.NamedRange> в листе Excel, в источнике данных. В этом примере предполагается, что имеется элемент управления <xref:Microsoft.Office.Tools.Excel.NamedRange> с именем `namedRange1` , свойство <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> которого привязано к полю в источнике данных.
 
-     [!code-csharp[Trin_VstcoreDataExcel#1](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#1)]
-     [!code-vb[Trin_VstcoreDataExcel#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet1":::
 
 ### <a name="automatically-update-the-in-memory-data-source"></a>Автоматическое обновление источника данных в памяти
  Вы также можете настроить элемент управления, чтобы он автоматически обновлял источник данных в памяти. В проекте уровня документа это можно сделать с помощью кода или конструктора. В проекте надстройки VSTO необходимо использовать код.
@@ -68,8 +68,8 @@ ms.locfileid: "99894443"
 
      В следующем примере элемент управления <xref:Microsoft.Office.Tools.Excel.NamedRange> настраивается для автоматического обновления источника данных при изменении значения в этом элементе управления. В этом примере предполагается, что имеется элемент управления <xref:Microsoft.Office.Tools.Excel.NamedRange> с именем `namedRange1` , свойство <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> которого привязано к полю в источнике данных.
 
-     [!code-csharp[Trin_VstcoreDataExcel#19](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#19)]
-     [!code-vb[Trin_VstcoreDataExcel#19](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#19)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet19":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet19":::
 
 #### <a name="to-set-a-control-to-automatically-update-the-in-memory-data-source-by-using-the-designer"></a>Установка автоматического обновления источника данных в памяти элементом управления с помощью конструктора
 
@@ -103,8 +103,8 @@ ms.locfileid: "99894443"
 
      В следующем примере кода предполагается, что проект содержит <xref:System.Windows.Forms.BindingSource> с именем `customersBindingSource`.
 
-     [!code-csharp[Trin_VstcoreDataExcel#20](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#20)]
-     [!code-vb[Trin_VstcoreDataExcel#20](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#20)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet20":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet20":::
 
 2. Вызовите `Update` метод созданного адаптера TableAdapter в проекте.
 
@@ -112,10 +112,10 @@ ms.locfileid: "99894443"
 
      В следующем примере кода предполагается, что у вас есть соединение с таблицей Customers в базе данных Northwind, а проект содержит TableAdapter с именем `customersTableAdapter` и типизированный набор данных с именем `northwindDataSet` .
 
-     [!code-csharp[Trin_VstcoreDataExcel#21](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#21)]
-     [!code-vb[Trin_VstcoreDataExcel#21](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#21)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet21":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet21":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Привязка данных к элементам управления в решениях Office](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Сохранение данных обратно в базу данных](../data-tools/save-data-back-to-the-database.md)
 - [Обновление данных с помощью адаптера таблицы TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 43104ad8b26045056ca8d8d653fcb9625734f7eb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fd3509ab674faa220ed7bbea15a9762f52b1a525
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899433"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828284"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-word"></a>Пошаговое руководство. Создание первой надстройки VSTO для Word
   В этом вводном пошаговом руководстве показано, как создать надстройку VSTO для Microsoft Office Word. Функции, создаваемые в таком решении, доступны для самого приложения независимо от того, какие документы открыты.
@@ -54,7 +54,7 @@ ms.locfileid: "99899433"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 3. В области шаблонов разверните узел **Visual C#** или **Visual Basic**, а затем узел **Office/SharePoint**.
 
@@ -64,7 +64,7 @@ ms.locfileid: "99899433"
 
 6. В поле **имя** введите **фирствордаддин**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] создает проект **фирствордаддин** и открывает файл кода ThisAddIn в редакторе.
 
@@ -81,15 +81,15 @@ ms.locfileid: "99899433"
 
     Когда пользователь сохраняет документ, обработчик событий добавляет новый текст в начало документа.
 
-    [!code-vb[Trin_WordAddInTutorial#1](../vsto/codesnippet/VisualBasic/FirstWordAddIn/ThisAddIn.vb#1)]
-    [!code-csharp[Trin_WordAddInTutorial#1](../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs#1)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstWordAddIn/ThisAddIn.vb" id="Snippet1":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs" id="Snippet1":::
 
    > [!NOTE]
    > Этот код использует значение индекса 1 для доступа к первому абзацу в коллекции <xref:Microsoft.Office.Interop.Word._Document.Paragraphs%2A>. Хотя Visual Basic и Visual C# используют массивы, которые начинаются с 0, нижней границей массива для большинства коллекций в объектной модели Word является 1. Дополнительные сведения см. [в статье написание кода в решениях Office](../vsto/writing-code-in-office-solutions.md).
 
 2. Если используется C#, добавьте в обработчик событий `ThisAddIn_Startup` указанный ниже код. Он используется для подключения обработчика событий `Application_DocumentBeforeSave` к событию <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> .
 
-    [!code-csharp[Trin_WordAddInTutorial#2](../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs#2)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs" id="Snippet2":::
 
    Для изменения документа при его сохранении в приведенных выше примерах кода используются следующие объекты.
 
@@ -135,7 +135,7 @@ ms.locfileid: "99899433"
 
 - Развертывание надстроек VSTO для Word: [развертывание решения Office](../vsto/deploying-an-office-solution.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения о разработке решений Office &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Решения Word](../vsto/word-solutions.md)
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)

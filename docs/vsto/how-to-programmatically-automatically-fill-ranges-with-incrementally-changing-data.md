@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 64af8ddfa0d3d086b661483e76cb9b2bd82ae5c9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 615331181b9402e0d2062142ad266bdd41dca4eb
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99892077"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824943"
 ---
 # <a name="how-to-programmatically-automatically-fill-ranges-with-incrementally-changing-data"></a>Руководство. программное автоматическое заполнение диапазонов путем постепенного изменения данных
   <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A>Метод <xref:Microsoft.Office.Interop.Excel.Range> объекта позволяет автоматически заполнять диапазон на листе значениями. Чаще всего <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> метод используется для хранения инкрементно увеличивающихся или уменьшающихся значений в диапазоне. Поведение можно указать, предоставив необязательную константу из <xref:Microsoft.Office.Interop.Excel.XlAutoFillType> перечисления.
@@ -40,8 +40,8 @@ ms.locfileid: "99892077"
     > Нельзя передать <xref:Microsoft.Office.Tools.Excel.NamedRange> элемент управления вместо <xref:Microsoft.Office.Interop.Excel.Range> . Дополнительные сведения см. в разделе [программные ограничения ведущих элементов и элементов управления ведущего приложения](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
 
 ## <a name="example"></a>Пример
- [!code-csharp[Trin_VstcoreExcelAutomation#49](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#49)]
- [!code-vb[Trin_VstcoreExcelAutomation#49](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#49)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet49":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet49":::
 
 ## <a name="compile-the-code"></a>Компиляция кода
  Первая ячейка диапазона, который необходимо заполнить, должна содержать начальное значение.
@@ -54,7 +54,7 @@ ms.locfileid: "99892077"
 
 - Столбец D включает ряд чисел, увеличивающийся по двум для каждой строки. Для начальных значений введите **4** в ячейке D1 и **6** в ячейке D2.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Работа с диапазонами](../vsto/working-with-ranges.md)
 - [Как программно ссылаться на диапазоны листов в коде](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)
 - [Руководство. Программное применение стилей к диапазонам в книгах](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)

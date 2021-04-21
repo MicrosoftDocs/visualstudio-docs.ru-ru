@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: b3305fdc8f4fbadb3dcdd9775c3a6fe3dac3a1fb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ec1c670867fae277a3c3c8290cd34d0d4be7ddf3
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937398"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824969"
 ---
 # <a name="walkthrough-program-against-events-of-a-namedrange-control"></a>Пошаговое руководство. Программирование событий элемента управления NamedRange
   В этом пошаговом руководстве показано, как добавить <xref:Microsoft.Office.Tools.Excel.NamedRange> элемент управления в Microsoft Office лист Excel и программировать его события с помощью средств разработки Office в Visual Studio.
@@ -73,7 +73,7 @@ ms.locfileid: "99937398"
 
 3. Убедитесь, что в редактируемом текстовом поле отображается **$A $1** и выбрана ячейка **a1** . Если это не так, щелкните ячейку **a1** , чтобы выбрать ее.
 
-4. Нажмите кнопку **OK**.
+4. Нажмите кнопку **ОК**.
 
      Ячейка **a1** преобразуется в диапазон с именем `namedRange1` . На листе нет видимых индикаторов, но оно `namedRange1` отображается в поле **имя** (расположено прямо над листом слева), если выбрана ячейка **a1** .
 
@@ -81,7 +81,7 @@ ms.locfileid: "99937398"
 
 6. Убедитесь, что в редактируемом текстовом поле отображается **$B $3** и выбрана ячейка **B3** . Если это не так, щелкните ячейку **B3** , чтобы выбрать ее.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      Ячейка **B3** преобразуется в диапазон с именем `namedRange2` .
 
@@ -101,16 +101,16 @@ ms.locfileid: "99937398"
 
 ### <a name="to-insert-text-into-namedrange2-based-on-the-beforedoubleclick-event"></a>Вставка текста в NamedRange2 на основе события Бефоредаублекликк
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1.CS** и выберите **Просмотреть код**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1. CS** и выберите **Просмотреть код**.
 
 2. Добавьте код, чтобы `namedRange1_BeforeDoubleClick` обработчик событий выглядел следующим образом:
 
-     [!code-csharp[Trin_VstcoreHostControlsExcel#24](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#24)]
-     [!code-vb[Trin_VstcoreHostControlsExcel#24](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#24)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet24":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb" id="Snippet24":::
 
 3. В C# необходимо добавить обработчики событий для именованного диапазона, как показано в приведенном <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> ниже событии. Сведения о создании обработчиков событий см. в разделе [инструкции. Создание обработчиков событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreHostControlsExcel#25](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#25)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet25":::
 
 ## <a name="add-code-to-respond-to-the-change-event"></a>Добавление кода для реагирования на событие изменения
 
@@ -118,8 +118,8 @@ ms.locfileid: "99937398"
 
 1. Добавьте код, чтобы `NamedRange1_Change` обработчик событий выглядел следующим образом:
 
-     [!code-csharp[Trin_VstcoreHostControlsExcel#26](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#26)]
-     [!code-vb[Trin_VstcoreHostControlsExcel#26](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#26)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet26":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb" id="Snippet26":::
 
     > [!NOTE]
     > Поскольку двойной щелчок по ячейке в диапазоне Excel переходит в режим правки, <xref:Microsoft.Office.Tools.Excel.NamedRange.Change> событие возникает при перемещении выделения за пределы диапазона, даже если текст не изменяется.
@@ -130,8 +130,8 @@ ms.locfileid: "99937398"
 
 1. Добавьте код, чтобы обработчик событий **NamedRange1_SelectionChange** выглядел следующим образом:
 
-     [!code-csharp[Trin_VstcoreHostControlsExcel#27](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#27)]
-     [!code-vb[Trin_VstcoreHostControlsExcel#27](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#27)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet27":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb" id="Snippet27":::
 
     > [!NOTE]
     > Поскольку двойной щелчок по ячейке в диапазоне Excel приводит к перемещению выделения в диапазон, <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange> событие возникает до <xref:Microsoft.Office.Tools.Excel.NamedRange.BeforeDoubleClick> возникновения события.
@@ -158,7 +158,7 @@ ms.locfileid: "99937398"
 
 - Развертывание проекта. Дополнительные сведения см. в разделе [развертывание решения Office](../vsto/deploying-an-office-solution.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения о ведущих элементах и элементах управления ведущего приложения](../vsto/host-items-and-host-controls-overview.md)
 - [Автоматизация Excel с помощью расширенных объектов](../vsto/automating-excel-by-using-extended-objects.md)
 - [Элемент управления NamedRange](../vsto/namedrange-control.md)

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 4449e286fed0572e2dfc1ed855daf834400bd4e4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fcb2bcc91eb1d19309904caae16701b814113089
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966634"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824410"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-excel"></a>Пошаговое руководство. Создание первой надстройки VSTO для Excel
   В этом вводном пошаговом руководстве показано, как создавать надстройки уровня приложения для Microsoft Office Excel. Функции, создаваемые в подобном решении, доступны для приложения независимо от того, какие книги открыты.
@@ -56,7 +56,7 @@ ms.locfileid: "99966634"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 3. В области шаблонов разверните узел **Visual C#** или **Visual Basic**, а затем узел **Office/SharePoint**.
 
@@ -66,7 +66,7 @@ ms.locfileid: "99966634"
 
 6. В поле **Имя** введите **FirstExcelAddIn**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] создает проект **проект firstexceladdin** и открывает файл кода ThisAddIn в редакторе.
 
@@ -83,12 +83,12 @@ ms.locfileid: "99966634"
 
     Когда пользователь сохраняет книгу, обработчик событий добавляет новый текст в начало активного листа.
 
-    [!code-vb[Trin_ExcelAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ExcelAddInTutorial/ThisAddIn.vb#1)]
-    [!code-csharp[Trin_ExcelAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ExcelAddInTutorial/ThisAddIn.cs#1)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelAddInTutorial/ThisAddIn.cs" id="Snippet1":::
 
 2. Если используется C#, добавьте в обработчик событий `ThisAddIn_Startup` указанный ниже код. Он используется для подключения обработчика событий `Application_WorkbookBeforeSave` к событию <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> .
 
-    [!code-csharp[Trin_ExcelAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ExcelAddInTutorial/ThisAddIn.cs#2)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelAddInTutorial/ThisAddIn.cs" id="Snippet2":::
 
    Для изменения книги при ее сохранении в приведенных выше примерах кода используются следующие объекты:
 
@@ -134,7 +134,7 @@ ms.locfileid: "99966634"
 
 - Развертывание надстроек VSTO для Excel: [развертывание решения Office](../vsto/deploying-an-office-solution.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения о разработке решений Office &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Решения Excel](../vsto/excel-solutions.md)
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
