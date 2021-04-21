@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 843718ea49ae7df7d34775283ce8120f077b0a0f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 177b21e2278153693601adf7b7dc18b751cf184e
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99925511"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824852"
 ---
 # <a name="walkthrough-create-a-master-detail-relation-using-a-cached-dataset"></a>Пошаговое руководство. Создание связи "основной/подробности" с помощью кэшированного набора данных
   В этом пошаговом руководстве демонстрируется создание связи "основной/подробности" на листе и кэширование данных, чтобы решение можно было использовать в автономном режиме.
@@ -138,16 +138,16 @@ ms.locfileid: "99925511"
 
 ### <a name="to-initialize-the-data-and-the-controls"></a>Инициализация данных и элементов управления
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1.CS** и выберите в контекстном меню пункт **Просмотреть код** .
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1. CS** и выберите в контекстном меню пункт **Просмотреть код** .
 
 2. Добавьте следующий код в метод, `Sheet1_Startup` чтобы задать текст для кнопок.
 
-     [!code-vb[Trin_VstcoreDataExcel#15](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#15)]
-     [!code-csharp[Trin_VstcoreDataExcel#15](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#15)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb" id="Snippet15":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs" id="Snippet15":::
 
 3. Для только C# добавьте обработчики событий для событий нажатия кнопки в `Sheet1_Startup` метод.
 
-     [!code-csharp[Trin_VstcoreDataExcel#16](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#16)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs" id="Snippet16":::
 
 ## <a name="add-code-to-enable-scrolling-through-the-records"></a>Добавление кода для включения прокрутки записей
  Добавьте код в <xref:System.Windows.Forms.Control.Click> обработчик событий каждой кнопки, чтобы перемещаться по записям.
@@ -156,13 +156,13 @@ ms.locfileid: "99925511"
 
 1. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `Button1` и добавьте следующий код для перемещения назад по записям:
 
-     [!code-vb[Trin_VstcoreDataExcel#17](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#17)]
-     [!code-csharp[Trin_VstcoreDataExcel#17](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#17)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb" id="Snippet17":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs" id="Snippet17":::
 
 2. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `Button2` и добавьте следующий код для перехода по записям:
 
-     [!code-vb[Trin_VstcoreDataExcel#18](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#18)]
-     [!code-csharp[Trin_VstcoreDataExcel#18](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#18)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb" id="Snippet18":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs" id="Snippet18":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать книгу, чтобы убедиться, что данные отображаются должным образом, и вы можете использовать решение в автономном режиме.
@@ -190,7 +190,7 @@ ms.locfileid: "99925511"
 
 - Разверните решение. Дополнительные сведения см. в статье [развертывание решения Office](../vsto/deploying-an-office-solution.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Привязка данных к элементам управления в решениях Office](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Данные в решениях Office](../vsto/data-in-office-solutions.md)
 - [Кэширование данных](../vsto/caching-data.md)

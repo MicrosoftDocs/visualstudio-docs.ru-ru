@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 6fd35551c5c40494c169fb569113e3530f633a6f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dce8bb0667cecbe073c734595d341f9c7b7ccac9
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99940804"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826087"
 ---
 # <a name="threading-support-in-office"></a>Поддержка потоков в Office
   В этой статье содержатся сведения о поддержке потоков в объектной модели Microsoft Office. Объектная модель Office не является потокобезопасной, но можно работать с несколькими потоками в решении Office. Приложения Office являются серверами модели COM. COM позволяет клиентам вызывать серверы COM в произвольных потоках. Для COM-серверов, которые не являются потокобезопасными, COM предоставляет механизм сериализации одновременных вызовов, чтобы только один логический поток выполнялся на сервере в любое время. Этот механизм известен как модель однопотокового подразделения (STA). Поскольку вызовы сериализуются, вызывающие объекты могут блокироваться на периоды времени, когда сервер занят или обрабатывает другие вызовы в фоновом потоке.
@@ -65,15 +65,15 @@ ms.locfileid: "99940804"
 ## <a name="start-the-thread-correctly"></a>Правильно запустить поток
  При создании нового потока STA перед запуском потока задайте для состояния подразделения значение STA. В следующем примере кода показано, как это сделать.
 
- [!code-csharp[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs#5)]
- [!code-vb[Trin_VstcoreCreatingExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb#5)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs" id="Snippet5":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb" id="Snippet5":::
 
  Дополнительные сведения см. в разделе рекомендации по [управляемому потоку](/dotnet/standard/threading/managed-threading-best-practices).
 
 ## <a name="modeless-forms"></a>Немодальные формы
  Немодальная форма позволяет выполнить некоторый тип взаимодействия с приложением во время отображения формы. Пользователь взаимодействует с формой, и форма взаимодействует с приложением без закрытия. Объектная модель Office поддерживает управляемые немодальные формы; Однако они не должны использоваться в фоновом потоке.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Работа с потоками (C#)](/dotnet/csharp/programming-guide/concepts/threading/index)
 - [Работа с потоками (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/threading/index)
 - [Использование потоков и потоков](/dotnet/standard/threading/using-threads-and-threading)

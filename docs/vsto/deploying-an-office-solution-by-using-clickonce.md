@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: da527da4504d4c2d9375aee0209b0e261fe5fd0a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 03b4f3d2f1a342f6c1977d616793634500850e7a
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877938"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828622"
 ---
 # <a name="deploy-an-office-solution-by-using-clickonce"></a>Развертывание решения Office с помощью ClickOnce
   Решение Office можно развернуть быстрее, если использовать ClickOnce. При публикации обновлений решение автоматически обнаруживает и устанавливает их. Однако для использования ClickOnce необходимо устанавливать решение отдельно для каждого пользователя компьютера. Поэтому следует рассмотреть возможность использования установщик Windows (*. msi*), если решение на одном компьютере будет выполняться более чем одним пользователем.
@@ -218,8 +218,8 @@ ms.locfileid: "99877938"
 
    - Удаляет файл, когда пользователь удаляет решение.
 
-     [!code-vb[Trin_ExcelWorkbookPDA#7](../vsto/codesnippet/VisualBasic/trin_excelworkbookpda/filecopypda/class1.vb#7)]
-     [!code-csharp[Trin_ExcelWorkbookPDA#7](../vsto/codesnippet/CSharp/trin_excelworkbookpda/filecopypda/class1.cs#7)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_excelworkbookpda/filecopypda/class1.vb" id="Snippet7":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_excelworkbookpda/filecopypda/class1.cs" id="Snippet7":::
 
 ### <a name="build-and-publish-the-solution"></a>Сборка и публикация решения
 
@@ -458,7 +458,7 @@ ms.locfileid: "99877938"
 > [!NOTE]
 > Локальные данные сохраняются только для одной предыдущей версии решения. Если выполнить откат двух версий, локальные данные не будут сохранены. Дополнительные сведения о локальных данных см. [в разделе доступ к локальным и удаленным данным в приложениях ClickOnce](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Развертывание решения Office](../vsto/deploying-an-office-solution.md)
 - [Публикация решений Office](../vsto/deploying-an-office-solution-by-using-clickonce.md)

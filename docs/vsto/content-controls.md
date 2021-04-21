@@ -40,12 +40,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: ce692bf10c5473c648fd6587b6b6568d369ed496
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b0d55daba4dee07454a31fcb6fc5fa210e8bcc34
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99948001"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825060"
 ---
 # <a name="content-controls"></a>Элементы управления содержимым
   Элементы управления содержимым позволяют разрабатывать документы и шаблоны, которые имеют следующие возможности и функции.
@@ -165,7 +165,7 @@ ms.locfileid: "99948001"
 |---------------|-----------------------------|----------------------------------------------------------------|
 |<xref:System.Boolean><br /><br /> <xref:System.Byte><br /><br /> <xref:System.Char><br /><br /> <xref:System.Double><br /><br /> <xref:System.Enum><br /><br /> <xref:System.Guid><br /><br /> <xref:System.Int16><br /><br /> <xref:System.Int32><br /><br /> <xref:System.Int64><br /><br /> <xref:System.SByte><br /><br /> <xref:System.Single><br /><br /> <xref:System.String><br /><br /> <xref:System.TimeSpan><br /><br /> <xref:System.UInt16><br /><br /> <xref:System.UInt32><br /><br /> <xref:System.UInt64>|<xref:Microsoft.Office.Tools.Word.PlainTextContentControl>|<xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl><br /><br /> <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl><br /><br /> <xref:Microsoft.Office.Tools.Word.DatePickerContentControl><br /><br /> <xref:Microsoft.Office.Tools.Word.RichTextContentControl>|
 |<xref:System.DateTime>|<xref:Microsoft.Office.Tools.Word.DatePickerContentControl>|<xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl><br /><br /> <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl><br /><br /> <xref:Microsoft.Office.Tools.Word.PlainTextContentControl><br /><br /> <xref:Microsoft.Office.Tools.Word.RichTextContentControl>|
-|<xref:System.Drawing.Image><br /><br /> Массив <xref:System.Byte>|<xref:Microsoft.Office.Tools.Word.PictureContentControl>|Отсутствуют|
+|<xref:System.Drawing.Image><br /><br /> Массив <xref:System.Byte>|<xref:Microsoft.Office.Tools.Word.PictureContentControl>|Нет|
 
  В проектах на уровне документа и проектах надстроек VSTO для привязки элемента управления содержимым к источнику данных программным образом можно использовать метод <xref:System.Windows.Forms.ControlBindingsCollection.Add%2A> свойства <xref:System.Windows.Forms.IBindableComponent.DataBindings%2A> элемента управления. В этом случае передайте **текст** строки в параметр *PropertyName* <xref:System.Windows.Forms.ControlBindingsCollection.Add%2A> метода. Свойство **Text** является свойством привязки данных по умолчанию для элементов управления содержимым.
 
@@ -233,10 +233,10 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 ### <a name="check-box-content-controls-in-word-projects"></a><a name="checkbox"></a> Элементы управления содержимым "флажок" в проектах Word
  В Word 2010 появился новый тип элемента управления содержимым, который представляет флажок. Тем не менее, не [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] предоставляет соответствующий тип чеккбоксконтентконтрол для использования в проектах Office. Чтобы создать содержимое элемента управления "флажок" в [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] или Word 2010, используйте метод <xref:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl%2A> для создания объекта <xref:Microsoft.Office.Tools.Word.ContentControl> и передайте значение <xref:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox> в этот метод для указания элемента управления содержимым "флажок". В следующем примере кода показано, как это сделать.
 
- [!code-vb[Trin_ContentControlReference#800](../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb#800)]
- [!code-csharp[Trin_ContentControlReference#800](../vsto/codesnippet/CSharp/trin_wordcontentcontrolreference/checkbox.cs#800)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb" id="Snippet800":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordcontentcontrolreference/checkbox.cs" id="Snippet800":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Автоматизация Word с помощью расширенных объектов](../vsto/automating-word-by-using-extended-objects.md)
 - [Как добавить элементы управления содержимым в документы Word](../vsto/how-to-add-content-controls-to-word-documents.md)
 - [Пошаговое руководство. Создание шаблона с помощью элементов управления содержимым](../vsto/walkthrough-creating-a-template-by-using-content-controls.md)

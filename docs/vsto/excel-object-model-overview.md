@@ -21,12 +21,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: a49dcc36d4079a6a945806b3112e3949ddcd79e2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 509378b13e48f21a1148d700addd9ac4e78985e9
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910294"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825697"
 ---
 # <a name="excel-object-model-overview"></a>Общие сведения об объектной модели Excel
   Для разработки решений, использующих Microsoft Office Excel, необходимо взаимодействие с объектами, предоставляемыми объектной моделью Excel. В этом разделе представлены наиболее важные объекты:
@@ -50,7 +50,7 @@ ms.locfileid: "99910294"
   В этом разделе приводится краткий обзор объектной модели Excel. Дополнительные сведения о всей объектной модели Excel см. в разделе [использование документации по объектной модели](#ExcelOMDocumentation)Excel.
 
 ## <a name="access-objects-in-an-excel-project"></a>Доступ к объектам в проекте Excel
- При создании нового проекта надстройки VSTO для Excel Visual Studio автоматически создает файл кода *ThisAddIn. vb* или *ThisAddIn.CS* . Доступ к объекту приложения можно получить с помощью свойства `Me.Application` или `this.Application`.
+ При создании нового проекта надстройки VSTO для Excel Visual Studio автоматически создает файл кода *ThisAddIn. vb* или *ThisAddIn. CS* . Доступ к объекту приложения можно получить с помощью свойства `Me.Application` или `this.Application`.
 
  При создании нового проекта уровня документа для Excel можно создать новый проект книги Excel или шаблона Excel. Visual Studio автоматически создает в новом проекте Excel (как для проектов книги, так и для проектов шаблона) следующие файлы кода:
 
@@ -63,8 +63,8 @@ ms.locfileid: "99910294"
 
  Класс `Globals` в проекте можно использовать для получения доступа к объекту `ThisWorkbook`, `Sheet1`, `Sheet2` или `Sheet3` вне соответствующего класса. Дополнительные сведения см. [в разделе Глобальный доступ к объектам в проектах Office](../vsto/global-access-to-objects-in-office-projects.md). В следующем примере вызывается <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A> метод независимо от того, `Sheet1` помещается ли код в один из классов `Sheet` *n* или `ThisWorkbook` класса.
 
- [!code-csharp[Trin_VstcoreExcelAutomation#82](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#82)]
- [!code-vb[Trin_VstcoreExcelAutomation#82](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#82)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet82":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet82":::
 
  Поскольку данные в документе Excel хорошо структурированы, объектная модель имеет прямую иерархическую структуру. Excel предоставляет сотни объектов, с которыми вы можете взаимодействовать, но можно получить хорошее начало работы с объектной моделью, посвященную небольшому подмножеству доступных объектов. К числу этих объектов относятся следующие четыре:
 

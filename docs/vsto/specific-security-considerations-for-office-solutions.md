@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 57b330884ef6638e5c853cfb5670e3552aca46cc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 58cd5f7a26be57ce0cb742e153d88ee455b2f85b
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99940830"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826113"
 ---
 # <a name="specific-security-considerations-for-office-solutions"></a>Конкретные вопросы безопасности для решений Office
   Средства безопасности, предоставляемые Microsoft .NET Framework и Microsoft Office, помогают защитить решения Office от различных угроз безопасности. В этом разделе описываются некоторые из этих угроз и даются рекомендации по защите от них. Здесь также приводятся сведения о влиянии параметров безопасности Microsoft Office на решения Office.
@@ -67,13 +67,13 @@ ms.locfileid: "99940830"
 
  Следующий пример кода отображает предупреждение системы безопасности, если система безопасности объектной модели включена. Свойство `To` класса `Microsoft.Office.Interop.Outlook.MailItem` ограничивается системой безопасности объектной модели. `Microsoft.Office.Interop.Outlook.MailItem`Объект не является доверенным, так как код получает его из объекта `Microsoft.Office.Interop.Outlook.Application` , созданного с помощью оператора **New** , вместо того чтобы получать его из `Application` поля.
 
- [!code-csharp[Trin_VstcoreOutlookSecurity#1](../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs#1)]
- [!code-vb[Trin_VstcoreOutlookSecurity#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb" id="Snippet1":::
 
  В следующем примере кода показано, как использовать свойство Restricted для `Microsoft.Office.Interop.Outlook.MailItem` объекта, который является доверенным для системы безопасности объектной модели. Код использует доверенное поле `Application` для получения `Microsoft.Office.Interop.Outlook.MailItem`.
 
- [!code-csharp[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs#2)]
- [!code-vb[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#2)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs" id="Snippet2":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb" id="Snippet2":::
 
 > [!NOTE]
 > Если Outlook используется с Exchange, получение всех объектов Outlook из `ThisAddIn.Application` не гарантирует, что надстройка VSTO будет иметь доступ ко всей объектной модели Outlook. Например, если администратор Exchange настраивает Outlook для автоматического запрета всех попыток доступа к сведениям об адресе с помощью объектной модели Outlook, то Outlook не разрешает доступ к свойству To из предыдущего примера кода, даже если в примере кода используется доверенное `ThisAddIn.Application` поле.
@@ -117,5 +117,5 @@ ms.locfileid: "99940830"
 
 6. В области сведений установите флажок **Все надстройки приложений должны быть подписаны надежными издателями** или **Отключить все надстройки приложений**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Безопасные решения Office](../vsto/securing-office-solutions.md)
