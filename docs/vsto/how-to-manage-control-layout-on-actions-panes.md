@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 49739b6011fcf977db84a3350929a56514040975
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 182dee248f161f3dde721c50ee996d6f621dd9af
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99918594"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107827453"
 ---
 # <a name="how-to-manage-control-layout-on-actions-panes"></a>Руководство. Управление макетом элементов управления на панелях действий
   По умолчанию панель действий закреплена справа от документа или листа; Однако его можно прикрепить к левому, верхнему или нижнему краю. Если вы используете несколько пользовательских элементов управления, можно написать код для правильного размещения пользовательских элементов управления на панели действия. Дополнительные сведения см. в разделе [Общие сведения о панели действий](../vsto/actions-pane-overview.md).
@@ -40,34 +40,34 @@ ms.locfileid: "99918594"
 
 1. Откройте проект уровня документа для Microsoft Office слово, которое содержит панель действий с несколькими пользовательскими элементами управления или вложенными элементами управления панели действий. Дополнительные сведения см. в разделе [руководство. Добавление панели действий в документы Word или книги Excel](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).
 
-2. Щелкните правой кнопкой мыши **ThisDocument.CS** или **ThisDocument. vb** в **Обозреватель решений** а затем нажмите кнопку **Просмотреть код**.
+2. Щелкните правой кнопкой мыши **ThisDocument. CS** или **ThisDocument. vb** в **Обозреватель решений** и выберите пункт **Просмотреть код**.
 
 3. В <xref:Microsoft.Office.Tools.ActionsPane.OrientationChanged> обработчике событий панели действия проверьте, является ли ориентация панели действий горизонтальной.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#30](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#30)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#30](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#30)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet30":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet30":::
 
 4. Если ориентация горизонтальна, выровнять элементы управления панели действий слева. в противном случае поверх остальных столбцов.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#31](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#31)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#31](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#31)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet31":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet31":::
 
 5. В C# необходимо добавить обработчик событий для `ActionsPane` <xref:Microsoft.Office.Tools.Word.Document.Startup> обработчика событий. Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#32](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#32)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet32":::
 
 6. Запустите проект и убедитесь, что элементы управления панели действий расположены слева направо, если панель действий закреплена в верхней части документа, а элементы управления расположены сверху вниз, когда панель действий закреплена в правой части документа.
 
 ## <a name="example"></a>Пример
- [!code-csharp[Trin_VstcoreActionsPaneWord#29](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#29)]
- [!code-vb[Trin_VstcoreActionsPaneWord#29](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#29)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet29":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet29":::
 
 ## <a name="compile-the-code"></a>Компиляция кода
  Для этого примера требуются:
 
 - Проект уровня документа Word с панелью действий, которая содержит несколько пользовательских элементов управления или вложенные элементы управления панели действий.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Обзор панели действий](../vsto/actions-pane-overview.md)
 - [Как добавить панель действий в документы Word или книги Excel](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
 - [Как добавить панель действий в документы Word или книги Excel](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)

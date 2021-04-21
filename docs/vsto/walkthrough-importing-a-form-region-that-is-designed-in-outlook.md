@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 4b60060f8db2bf2bb1abf42803a8c80333ee5fc0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4ce8c334be74f2643bfc7fa263b01a74db109eb7
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99969156"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107827751"
 ---
 # <a name="walkthrough-import-a-form-region-that-is-designed-in-outlook"></a>Пошаговое руководство. импорт области формы, разработанной в Outlook
   В этом пошаговом руководстве демонстрируется создание области формы в Microsoft Office Outlook, а также ее импорт в проект надстройки Outlook VSTO с помощью мастера **Создать область формы** . Создание области формы в Outlook позволяет добавить собственные элементы управления Outlook в область формы, связанную с данными Outlook. После импорта области формы можно обрабатывать события каждого элемента управления.
@@ -151,7 +151,7 @@ ms.locfileid: "99969156"
 
 7. На странице **Укажите классы сообщений, в которых будет отображаться эта область формы** в поле **В каких классах пользовательских сообщений будет отображаться эта область формы?** введите **IPM.Task.TaskFormRegion**, а затем нажмите кнопку **Готово**.
 
-     В проект добавляется файл *TaskFormRegion.CS* или *TaskFormRegion. vb* .
+     В проект добавляется файл *TaskFormRegion. CS* или *TaskFormRegion. vb* .
 
 ## <a name="handle-the-events-of-controls-on-the-form-region"></a>Обработку событий элементов управления в области формы
  После импорта области формы в проект можно добавить код, который обрабатывает событие `Microsoft.Office.Interop.Outlook.OlkCommandButton.Click` кнопки, добавленной в область формы в Outlook.
@@ -160,14 +160,14 @@ ms.locfileid: "99969156"
 
 ### <a name="to-handle-the-events-of-controls-on-the-form-region"></a>Обработка событий элементов управления в области формы
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши *TaskFormRegion.CS* или *TaskFormRegion. vb* и выберите пункт **Просмотреть код**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши *TaskFormRegion. CS* или *TaskFormRegion. vb* и выберите команду **Просмотреть код**.
 
-    *TaskFormRegion.CS* или *TaskFormRegion. vb* откроется в редакторе кода.
+    *TaskFormRegion. CS* или *TaskFormRegion. vb* откроется в редакторе кода.
 
 2. Добавьте в класс `TaskFormRegion` приведенный далее код. Этот код заполняет поле со списком в области формы строкой темы каждой задачи из папки задач Outlook.
 
-    [!code-csharp[Trin_Outlook_FR_Import#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#1)]
-    [!code-vb[Trin_Outlook_FR_Import#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#1)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet1":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet1":::
 
 3. Добавьте в класс `TaskFormRegion` приведенный далее код. Этот код выполняет следующие задачи:
 
@@ -177,13 +177,13 @@ ms.locfileid: "99969156"
 
    - добавляет тему задачи в скрытое поле области формы. Значения в скрытом поле сохраняются как часть элемента Outlook.
 
-     [!code-csharp[Trin_Outlook_FR_Import#2](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#2)]
-     [!code-vb[Trin_Outlook_FR_Import#2](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet2":::
 
 4. Добавьте в класс `TaskFormRegion` приведенный далее код. В этом коде представлен вспомогательный метод `FindTaskBySubjectName` , описанный в предыдущем шаге.
 
-    [!code-csharp[Trin_Outlook_FR_Import#3](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#3)]
-    [!code-vb[Trin_Outlook_FR_Import#3](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#3)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet3":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet3":::
 
 5. Добавьте в класс `TaskFormRegion` приведенный далее код. Этот код выполняет следующие задачи:
 
@@ -193,8 +193,8 @@ ms.locfileid: "99969156"
 
    - добавляет значения `Microsoft.Office.Interop.Outlook.TaskItem.Subject` и `Microsoft.Office.Interop.Outlook.TaskItem.PercentComplete` в список зависимых задач.
 
-     [!code-csharp[Trin_Outlook_FR_Import#4](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#4)]
-     [!code-vb[Trin_Outlook_FR_Import#4](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet4":::
 
 6. Замените обработчик событий `TaskFormRegion_FormRegionShowing` следующим кодом. Этот код выполняет следующие задачи:
 
@@ -202,8 +202,8 @@ ms.locfileid: "99969156"
 
    - вызывает вспомогательный метод `RefreshTaskListBox` при появлении области формы. В этом случае отображаются зависимые задачи, добавленные в список во время предыдущего открытия элемента.
 
-     [!code-csharp[Trin_Outlook_FR_Import#5](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs#5)]
-     [!code-vb[Trin_Outlook_FR_Import#5](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Import/TaskFormRegion.cs" id="Snippet5":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Import_O12/TaskFormRegion.vb" id="Snippet5":::
 
 ## <a name="test-the-outlook-form-region"></a>Тестирование области формы Outlook
  Чтобы протестировать область формы, добавьте в нее задачи из списка обязательных задач. Обновите состояние завершения обязательной задачи, а затем просмотрите обновленное состояние завершения задачи в списке обязательных задач.
@@ -253,7 +253,7 @@ ms.locfileid: "99969156"
 
 - Дополнительные сведения о добавлении настраиваемой области задач в Outlook см. в разделе [настраиваемые области задач](../vsto/custom-task-panes.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Доступ к области формы во время выполнения](../vsto/accessing-a-form-region-at-run-time.md)
 - [Создание областей формы Outlook](../vsto/creating-outlook-form-regions.md)
 - [Рекомендации по созданию областей формы Outlook](../vsto/guidelines-for-creating-outlook-form-regions.md)

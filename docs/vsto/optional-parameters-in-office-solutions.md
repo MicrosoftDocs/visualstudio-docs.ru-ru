@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: d6824d53d552a27a68a49d63497156147283fd29
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9c95842ac2c6d77a2312ac5c4c197ba22ed2020e
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99847704"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825424"
 ---
 # <a name="optional-parameters-in-office-solutions"></a>Необязательные параметры в решениях Office
   Многие методы в объектных моделях приложений Microsoft Office принимают необязательные параметры. При использовании Visual Basic для разработки решения Office в Visual Studio значение для необязательных параметров передавать не нужно, так как для каждого отсутствующего параметра автоматически используется значение по умолчанию. В большинстве случаев в проектах Visual C# также можно опускать необязательные параметры. Однако нельзя опустить необязательные параметры **ref** `ThisDocument` класса в проектах уровня документа Word.
@@ -40,19 +40,19 @@ ms.locfileid: "99847704"
 ## <a name="example-in-excel"></a>Пример в Excel
  Метод <xref:Microsoft.Office.Tools.Excel.Worksheet.CheckSpelling%2A> имеет много необязательных параметров. Как показано в следующем примере кода, для одних параметров можно указать значения, а для других — принять значение по умолчанию. В этом примере требуется проект на уровне документа с классом листа под именем `Sheet1`.
 
- [!code-csharp[Trin_VstrefGeneralExcel#1](../vsto/codesnippet/CSharp/excelworkbook1/Sheet1.cs#1)]
- [!code-vb[Trin_VstrefGeneralExcel#1](../vsto/codesnippet/VisualBasic/excelworkbook1/Sheet1.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/excelworkbook1/Sheet1.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/excelworkbook1/Sheet1.vb" id="Snippet1":::
 
 ## <a name="example-in-word"></a>Пример в Word
  Метод <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> имеет много необязательных параметров. Как показано в следующем примере кода, для одних параметров можно указать значения, а для других — принять значение по умолчанию.
 
- [!code-vb[Trin_VstrefGeneralWord#1](../vsto/codesnippet/VisualBasic/worddocument1/ThisDocument.vb#1)]
- [!code-csharp[Trin_VstrefGeneralWord#1](../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs#1)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/worddocument1/ThisDocument.vb" id="Snippet1":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs" id="Snippet1":::
 
 ## <a name="use-optional-parameters-of-methods-in-the-thisdocument-class-in-visual-c-document-level-projects-for-word"></a>Использование необязательных параметров методов в классе ThisDocument в проектах уровня документа Visual C# для Word
  Объектная модель Word содержит множество методов с необязательными параметрами **ref** , которые принимают <xref:System.Object> значения. Однако нельзя опустить необязательные параметры **ref** методов созданного `ThisDocument` класса в проектах уровня документа Visual C# для Word. Visual C# позволяет опускать необязательные параметры **ref** только для методов интерфейсов, а не классов. Например, следующий пример кода не компилируется, так как нельзя опустить необязательные параметры **ref** <xref:Microsoft.Office.Tools.Word.DocumentBase.CheckSpelling%2A> метода `ThisDocument` класса.
 
- [!code-csharp[Trin_VstrefGeneralWord#3](../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs#3)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs" id="Snippet3":::
 
  При вызове методов класса `ThisDocument` следуйте приведенным ниже рекомендациям:
 
@@ -62,14 +62,14 @@ ms.locfileid: "99847704"
 
   В следующем примере кода показано, как вызвать <xref:Microsoft.Office.Tools.Word.DocumentBase.CheckSpelling%2A> метод, указав значение для параметра *игнореупперкасе* и приняв значение по умолчанию для других параметров.
 
-  [!code-csharp[Trin_VstrefGeneralWord#4](../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs#4)]
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs" id="Snippet4":::
 
   Если вы хотите написать код, который опускает необязательные параметры **ref** метода в `ThisDocument` классе, можно также вызвать тот же метод для <xref:Microsoft.Office.Interop.Word.Document> объекта, возвращаемого <xref:Microsoft.Office.Tools.Word.Document.InnerObject%2A> свойством, и опустить параметры из этого метода. Это можно сделать, так как <xref:Microsoft.Office.Interop.Word.Document> — интерфейс, а не класс.
 
-  [!code-csharp[Trin_VstrefGeneralWord#5](../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs#5)]
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs" id="Snippet5":::
 
   Дополнительные сведения о параметрах типа Value и Reference см. в статьях [Передача аргументов по значению и по ссылке &#40;Visual Basic&#41;](/dotnet/visual-basic/programming-guide/language-features/procedures/passing-arguments-by-value-and-by-reference) (для Visual Basic) и [Передача параметров &#40;&#35; руководство по программированию с ](/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters)&#41;.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Разработка решений Office](../vsto/developing-office-solutions.md)
 - [Написание кода в решениях Office](../vsto/writing-code-in-office-solutions.md)

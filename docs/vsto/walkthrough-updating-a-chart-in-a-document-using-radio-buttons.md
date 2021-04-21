@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0db8cd113983231ee45252fec8fb47e3a7b75b7d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4d6689d82051ef5f8c887c19ec91cbb6d513b8b8
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937333"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828206"
 ---
 # <a name="walkthrough-update-a-chart-in-a-document-using-radio-buttons"></a>Пошаговое руководство. Обновление диаграммы в документе с помощью переключателей
   В данном пошаговом руководстве описывается использование переключателей в настройке уровня документа для Microsoft Office Word, позволяющих пользователям выбирать стили диаграмм в документе.
@@ -139,34 +139,34 @@ ms.locfileid: "99937333"
 
 2. Добавьте код, чтобы создать событие `SelectionChanged` и свойство `Selection` в классе `ChartOptions`.
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#9](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#9)]
-     [!code-vb[Trin_VstcoreProgrammingControlsWord#9](../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb#9)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs" id="Snippet9":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb" id="Snippet9":::
 
 ### <a name="to-handle-the-checkedchange-event-of-the-radio-buttons"></a>Обработка события переключателей CheckedChange
 
 1. Установите тип диаграммы в обработчике событий `CheckedChanged` переключателя `areaBlockChart`, а затем породите событие.
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#10](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#10)]
-     [!code-vb[Trin_VstcoreProgrammingControlsWord#10](../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb#10)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs" id="Snippet10":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb" id="Snippet10":::
 
 2. Установите тип диаграммы в обработчик событий `CheckedChanged` переключателя `barChart`.
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#11](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#11)]
-     [!code-vb[Trin_VstcoreProgrammingControlsWord#11](../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb#11)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs" id="Snippet11":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb" id="Snippet11":::
 
 3. Установите тип диаграммы в обработчик событий `CheckedChanged` переключателя `columnChart`.
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#12](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#12)]
-     [!code-vb[Trin_VstcoreProgrammingControlsWord#12](../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb#12)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs" id="Snippet12":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb" id="Snippet12":::
 
 4. Установите тип диаграммы в обработчик событий `CheckedChanged` переключателя `lineChart`.
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#13](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#13)]
-     [!code-vb[Trin_VstcoreProgrammingControlsWord#13](../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb#13)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs" id="Snippet13":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb" id="Snippet13":::
 
 5. В языке программирования C# для переключателей должны быть добавлены обработчики событий. Код можно добавить в конструктор `ChartOptions` под вызовом `InitializeComponent`. Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#14](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#14)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs" id="Snippet14":::
 
 ## <a name="add-the-user-control-to-the-document"></a>Добавление пользовательского элемента управления в документ
  При построении решения новый пользовательский элемент управления автоматически добавляется на **панель элементов**. Затем можно перетащить элемент управления из **области элементов** в документ.
@@ -177,7 +177,7 @@ ms.locfileid: "99937333"
 
      Пользовательский элемент управления **чартоптионс** добавляется на **панель элементов**.
 
-2. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisDocument. vb** или **ThisDocument.CS** и выберите пункт **Конструктор представлений**.
+2. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisDocument. vb** или **ThisDocument. CS** и выберите пункт **Конструктор представлений**.
 
 3. Перетащите `ChartOptions` элемент управления из **области элементов** в документ.
 
@@ -190,12 +190,12 @@ ms.locfileid: "99937333"
 
 1. Добавьте следующий обработчик событий в класс `ThisDocument`.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsWord#15](../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb#15)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#15](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#15)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet15":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet15":::
 
 2. В языке программирования C# в событие <xref:Microsoft.Office.Tools.Word.Document.Startup> должен быть добавлен обработчик события для пользовательского элемента управления.
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsWord#16](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#16)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet16":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно проверить документ и убедиться, что при выборе переключателя стиль диаграммы обновляется правильно.
@@ -215,7 +215,7 @@ ms.locfileid: "99937333"
 
 - Изменение форматирования путем выбора стиля из поля со списком. Дополнительные сведения см. в разделе [Пошаговое руководство. изменение форматирования документа с помощью элементов управления CheckBox](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Пошаговые руководства с использованием Word](../vsto/walkthroughs-using-word.md)
 - [Примеры и пошаговые руководства по разработке решений Office](../vsto/office-development-samples-and-walkthroughs.md)
 - [Ограничения элементов управления Windows Forms в документах Office](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

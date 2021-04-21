@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: c0f24c7270dc3c174be124506e1e36dafe7581f6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1ac42954e32b30a293abbe031218213948fb103a
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937385"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824982"
 ---
 # <a name="walkthrough-insert-text-into-a-document-from-an-actions-pane"></a>Пошаговое руководство. Вставка текста в документ из панели действий
   В этом пошаговом руководстве показано, как создать панель действий в Microsoft Office документе Word. Панель действий содержит два элемента управления, которые собираются входные данные и затем отправляют текст в документ.
@@ -115,7 +115,7 @@ ms.locfileid: "99937385"
     |Свойство|Значение|
     |--------------|-----------|
     |**Имя**|**getName**|
-    |**Size**|**130, 20**|
+    |**Размер**|**130, 20**|
 
 5. Добавьте второй элемент управления **Label** в элемент управления панели действий и измените свойство **Text** на **Address**.
 
@@ -126,14 +126,14 @@ ms.locfileid: "99937385"
     |**Имя**|**выадресовать**|
     |**Принимает возврат**|**True**|
     |**Multiline**|**True**|
-    |**Size**|**130, 40**|
+    |**Размер**|**130, 40**|
 
 7. Добавьте элемент управления **"Кнопка"** в элемент управления панели действий и измените следующие свойства.
 
     |Свойство|Значение|
     |--------------|-----------|
     |**Имя**|**addText**|
-    |**Text**|**Insert**|
+    |**Text**|**Вставить**|
 
 ## <a name="add-code-to-insert-text-into-the-document"></a>Добавление кода для вставки текста в документ
  В области действия напишите код, который вставляет текст из текстовых полей в соответствующие <xref:Microsoft.Office.Tools.Word.Bookmark> элементы управления в документе. Класс можно использовать `Globals` для доступа к элементам управления в документе из элементов управления на панели действия. Дополнительные сведения см. [в разделе Глобальный доступ к объектам в проектах Office](../vsto/global-access-to-objects-in-office-projects.md).
@@ -142,12 +142,12 @@ ms.locfileid: "99937385"
 
 1. Добавьте следующий код в <xref:System.Windows.Forms.Control.Click> обработчик событий кнопки **addText** .
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#8](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs#8)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/InsertTextControl.vb#8)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs" id="Snippet8":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/InsertTextControl.vb" id="Snippet8":::
 
 2. В C# необходимо добавить обработчик событий для нажатия кнопки. Этот код можно поместить в `InsertTextControl` конструктор после вызова `InitializeComponent` . Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#9](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs#9)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs" id="Snippet9":::
 
 ## <a name="add-code-to-show-the-actions-pane"></a>Добавление кода для отображения панели действий
  Чтобы отобразить панель действий, добавьте созданный элемент управления в коллекцию элементов управления.
@@ -156,13 +156,13 @@ ms.locfileid: "99937385"
 
 1. Создайте новый экземпляр элемента управления панели действий в `ThisDocument` классе.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#10](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#10)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#10)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet10":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet10":::
 
 2. Добавьте следующий код в <xref:Microsoft.Office.Tools.Word.Document.Startup> обработчик событий `ThisDocument` .
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#11](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#11)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#11)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet11":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet11":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Протестируйте документ, чтобы убедиться, что панель действий открывается при открытии документа и текст, введенный в текстовые поля, вставляется в закладки при нажатии кнопки.
@@ -182,7 +182,7 @@ ms.locfileid: "99937385"
 
 - Привязка данных к элементам управления на панели действий. Дополнительные сведения см. в разделе [Пошаговое руководство. Привязка данных к элементам управления на панели действий Word](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Обзор панели действий](../vsto/actions-pane-overview.md)
 - [Как добавить панель действий в документы Word или книги Excel](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
 - [Как добавить панель действий в книги Excel](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))

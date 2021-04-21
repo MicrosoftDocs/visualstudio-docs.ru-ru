@@ -21,12 +21,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 1dc962e372f4406fffb5cf8a6357f3826f0c8845
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cc333871d4f371530db84a0c4f07ab891db2a937
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942260"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825476"
 ---
 # <a name="how-to-protect-parts-of-documents-by-using-content-controls"></a>Пошаговое руководство. Защита частей документов с помощью элементов управления содержимым
   При защите части документа вы запрещаете пользователям изменять или удалять содержимое в ней. Для защиты частей документа Microsoft Office с помощью элементов управления содержимым можно использовать несколько способов:
@@ -52,7 +52,7 @@ ms.locfileid: "99942260"
 
     - Чтобы запретить пользователям удалять элемент управления, установите для **локкконтентконтрол** значение **true**.
 
-3. Нажмите кнопку **OK**.
+3. Нажмите кнопку **ОК**.
 
 ### <a name="to-protect-a-content-control-at-run-time"></a>Защита элемента управления содержимым во время выполнения
 
@@ -60,13 +60,13 @@ ms.locfileid: "99942260"
 
      В следующем примере кода показано использование свойств <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContents%2A> и <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContentControl%2A> двух разных объектов <xref:Microsoft.Office.Tools.Word.RichTextContentControl> в проекте на уровне документа. Для выполнения этого кода добавьте код в класс `ThisDocument` в проекте и вызовите метод `AddProtectedContentControls` обработчика событий `ThisDocument_Startup` .
 
-     [!code-csharp[Trin_ContentControlHowToProtect#2](../vsto/codesnippet/CSharp/Trin_ContentControlHowToProtect/ThisDocument.cs#2)]
-     [!code-vb[Trin_ContentControlHowToProtect#2](../vsto/codesnippet/VisualBasic/Trin_ContentControlHowToProtect/ThisDocument.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ContentControlHowToProtect/ThisDocument.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ContentControlHowToProtect/ThisDocument.vb" id="Snippet2":::
 
      В следующем примере кода показано использование свойств <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContents%2A> и <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContentControl%2A> двух разных объектов <xref:Microsoft.Office.Tools.Word.RichTextContentControl> в проекте надстройки VSTO. Для выполнения этого кода добавьте код в класс `ThisAddIn` в проекте и вызовите метод `AddProtectedContentControls` обработчика событий `ThisAddIn_Startup` .
 
-     [!code-vb[Trin_WordAddInDynamicControls#14](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#14)]
-     [!code-csharp[Trin_WordAddInDynamicControls#14](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#14)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet14":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet14":::
 
 ## <a name="protect-a-part-of-a-document-that-is-not-in-a-content-control"></a>Защита части документа, не входящего в элемент управления содержимым
  Вы можете запретить пользователям изменять часть документа, поместив ее в <xref:Microsoft.Office.Tools.Word.GroupContentControl>. Это полезно в следующих случаях:
@@ -97,15 +97,15 @@ ms.locfileid: "99942260"
 
      Следующий пример кода для проекта уровня документа добавляет текст в первый абзац документа, выделяет первый абзац и создает экземпляр <xref:Microsoft.Office.Tools.Word.GroupContentControl>. Для выполнения этого кода добавьте код в класс `ThisDocument` в проекте и вызовите метод `ProtectFirstParagraph` обработчика событий `ThisDocument_Startup` .
 
-     [!code-csharp[Trin_ContentControlHowToProtect#1](../vsto/codesnippet/CSharp/Trin_ContentControlHowToProtect/ThisDocument.cs#1)]
-     [!code-vb[Trin_ContentControlHowToProtect#1](../vsto/codesnippet/VisualBasic/Trin_ContentControlHowToProtect/ThisDocument.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ContentControlHowToProtect/ThisDocument.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ContentControlHowToProtect/ThisDocument.vb" id="Snippet1":::
 
      Следующий пример кода для проекта надстройки VSTO добавляет текст в первый абзац активного документа, выделяет первый абзац и создает экземпляр <xref:Microsoft.Office.Tools.Word.GroupContentControl>. Для выполнения этого кода добавьте код в класс `ThisAddIn` в проекте и вызовите метод `ProtectFirstParagraph` обработчика событий `ThisAddIn_Startup` .
 
-     [!code-vb[Trin_WordAddInDynamicControls#15](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#15)]
-     [!code-csharp[Trin_WordAddInDynamicControls#15](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#15)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet15":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet15":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Автоматизация Word с помощью расширенных объектов](../vsto/automating-word-by-using-extended-objects.md)
 - [Элементы управления содержимым](../vsto/content-controls.md)
 - [Как добавить элементы управления содержимым в документы Word](../vsto/how-to-add-content-controls-to-word-documents.md)

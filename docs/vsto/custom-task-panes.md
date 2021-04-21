@@ -27,12 +27,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 8ed86cb10f6521e5863562cdb67e768b1a2367d1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6c35d963b426fe24a43bef24617f79c042c272e9
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850039"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828167"
 ---
 # <a name="custom-task-panes"></a>Настраиваемые области задач
   Области задач — это панели пользовательского интерфейса, которые обычно прикрепляются к одной стороне окна в приложении Microsoft Office. Настраиваемые области задач позволяют создать собственную область задач и предоставлять пользователям знакомый интерфейс для доступа к возможностям вашего решения. Например, интерфейс может содержать элементы управления, которые выполняют код для изменения документов или отображения данных из источника данных.
@@ -66,8 +66,8 @@ ms.locfileid: "99850039"
 ### <a name="instantiate-the-custom-task-pane"></a>Создание экземпляра настраиваемой области задач
  После создания пользовательского элемента управления, содержащего пользовательский интерфейс настраиваемой области задач, необходимо создать экземпляр <xref:Microsoft.Office.Tools.CustomTaskPane>. Для этого необходимо передать пользовательский элемент управления в <xref:Microsoft.Office.Tools.CustomTaskPaneCollection> в надстройке VSTO путем вызова одного из методов <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A>. Эта коллекция предоставляется как поле `CustomTaskPanes` класса `ThisAddIn`. Код в следующем примере должен выполняться из класса `ThisAddIn`.
 
- [!code-vb[Trin_TaskPaneBasic#2](../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb#2)]
- [!code-csharp[Trin_TaskPaneBasic#2](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#2)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb" id="Snippet2":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs" id="Snippet2":::
 
  Методы <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> возвращают новый объект <xref:Microsoft.Office.Tools.CustomTaskPane>. Этот объект можно использовать для изменения внешнего вида области задач и реагирования на инициируемые пользователем события.
 
@@ -217,7 +217,7 @@ ms.locfileid: "99850039"
 
 - [Microsoft.Office.Interop.PowerPoint.EApplication_Event. Виндовдеактивате](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Как добавить настраиваемую область задач в приложение](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
 - [Пошаговое руководство. Автоматизация приложения с помощью настраиваемой области задач](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)
 - [Пошаговое руководство. Синхронизация настраиваемой области задач с помощью кнопки на ленте](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)

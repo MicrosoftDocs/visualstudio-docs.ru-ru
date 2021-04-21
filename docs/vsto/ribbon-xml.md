@@ -25,12 +25,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 69ca0269859db9e1a69904c2211b8f4d1ad45710
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a84a0c21bba42263e7b4dad9ad9118f462389ad6
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99879297"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107827504"
 ---
 # <a name="ribbon-xml"></a>Ribbon XML
   Элемент Лента (XML) позволяет настраивать ленту с помощью XML. Используйте элемент Лента (XML), если требуется настроить ленту способом, который не поддерживается элементом Лента (визуальный конструктор). Сравнение того, что можно делать с каждым элементом, см. в разделе [лента Обзор ленты](../vsto/Ribbon-overview.md).
@@ -51,8 +51,8 @@ ms.locfileid: "99879297"
 
  В следующем примере кода переопределяется метод `CreateRibbonExtensibilityObject` и возвращается XML-класс ленты с именем MyRibbon.
 
- [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
- [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
 
 ## <a name="define-the-behavior-of-the-custom-ribbon"></a>Определение поведения настраиваемой ленты
  Вы можете реагировать на действия пользователя, такие как нажатие кнопки на ленте, путем создания *методов обратного вызова*. Методы обратного вызова похожи на события в элементах управления Windows Forms, но они идентифицируются атрибутом в XML-коде элемента пользовательского интерфейса. Вы записываете методы в классе ленты, а элемент управления вызывает метод, который имеет то же имя, что и значение атрибута. Например, можно создать метод обратного вызова, который вызывается, когда пользователь нажимает кнопку на ленте. Для создания метода обратного вызова необходимо выполнить два действия.
@@ -92,8 +92,8 @@ ms.locfileid: "99879297"
 
   Все методы обратного вызова имеют параметр <xref:Microsoft.Office.Core.IRibbonControl> , который представляет элемент управления, вызвавший метод. Этот параметр позволяет повторно использовать один и тот же метод обратного вызова для нескольких элементов управления. В следующем примере кода демонстрируется метод обратного вызова **onAction** , который выполняет различные задачи в зависимости от того, какой элемент управления щелкает пользователь.
 
-  [!code-csharp[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs#2)]
-  [!code-vb[Trin_RibbonOutlookBasic#2](../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb#2)]
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs" id="Snippet2":::
+  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb" id="Snippet2":::
 
 ## <a name="ribbon-xml-file-reference"></a><a name="RibbonDescriptorFile"></a> Справочник по XML-файлу ленты
  Вы можете определить пользовательскую ленту, добавив элементы и атрибуты в XML-файл ленты. По умолчанию XML-файл ленты содержит следующий XML-код.
@@ -125,7 +125,7 @@ ms.locfileid: "99879297"
 
  Эти элементы имеют атрибуты, определяющие внешний вид и поведение настраиваемой ленты. В следующей таблице указаны атрибуты по умолчанию в XML-файле ленты.
 
-|Атрибут|Родительский элемент|Описание|
+|attribute|Родительский элемент|Описание|
 |---------------|--------------------|-----------------|
 |**onLoad**|**customUI**|Определяет метод, который вызывается, когда приложение загружает ленту.|
 |**idMso**|**вкладке**|Определяет встроенную вкладку, отображаемую на ленте.|
@@ -145,7 +145,7 @@ ms.locfileid: "99879297"
 |`OnLoad`|Назначает параметр <xref:Microsoft.Office.Core.IRibbonControl> полю `Ribbon` . Microsoft Office приложения вызывают этот метод при загрузке пользовательской ленты. Это поле можно использовать для динамического обновления настраиваемой ленты. Дополнительные сведения см. в технической статье [Настройка пользовательского интерфейса ленты Office (2007) для разработчиков (часть 1 из 3)](/previous-versions/office/developer/office-2007/aa338202(v=office.12)).|
 |`GetResourceText`|Вызывается методом `GetCustomUI` для получения содержимого XML-файла ленты.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения о ленте](../vsto/ribbon-overview.md)
 - [Пошаговое руководство. Создание настраиваемой вкладки с помощью XML-ленты](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
 - [Настройка пользовательского интерфейса Office](../vsto/office-ui-customization.md)

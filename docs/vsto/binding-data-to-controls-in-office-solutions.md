@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 459c50b5f8135756f85de852a62de44b3878148d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ccc45e9ec389e265e69c81baaf569aa3eb3c978b
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882483"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825632"
 ---
 # <a name="bind-data-to-controls-in-office-solutions"></a>Привязка данных к элементам управления в решениях Office
   Вы можете привязать элементы управления Windows Forms и *элементы управления ведущего приложения* в документе Microsoft Office Word или листе Microsoft Office Excel к источнику данных, чтобы эти элементы управления автоматически отображали данные. Можно привязывать данные к элементам управления в проектах уровня документа и уровня приложения.
@@ -43,8 +43,8 @@ ms.locfileid: "99882483"
 
  Следующий пример демонстрирует способ привязки свойства <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> к элементу данных в проекте уровня документа.
 
- [!code-vb[Trin_BindableComponent#4](../vsto/codesnippet/VisualBasic/Trin_BindableComponent/Sheet1.vb#4)]
- [!code-csharp[Trin_BindableComponent#4](../vsto/codesnippet/CSharp/Trin_BindableComponent/Sheet1.cs#4)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_BindableComponent/Sheet1.vb" id="Snippet4":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_BindableComponent/Sheet1.cs" id="Snippet4":::
 
  Пошаговые руководства, демонстрирующие простую привязку данных, см. в разделе [Пошаговое руководство. Простая привязка данных в проекте уровня](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md) документа для проекта уровня документа и [Пошаговое руководство. Простая привязка данных в проекте надстройки VSTO](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md) для проекта надстройки VSTO.
 
@@ -55,8 +55,8 @@ ms.locfileid: "99882483"
 
  В следующем примере кода создается <xref:System.Data.DataSet> с двумя объектами <xref:System.Data.DataTable> и заполняется данными одна из таблиц. Затем этот код привязывает <xref:Microsoft.Office.Tools.Excel.ListObject> к таблице, содержащей данные. Этот пример предназначен для проекта уровня документа Excel.
 
- [!code-csharp[Trin_ExcelListObject#18](../vsto/codesnippet/CSharp/Trin_ExcelListObject/Trin_ExcelListObject.cs#18)]
- [!code-vb[Trin_ExcelListObject#18](../vsto/codesnippet/VisualBasic/Trin_ExcelListObject/Sheet1.vb#18)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelListObject/Trin_ExcelListObject.cs" id="Snippet18":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelListObject/Sheet1.vb" id="Snippet18":::
 
  Пошаговые руководства, демонстрирующие сложную привязку данных, см. в разделе [Пошаговое руководство. сложная привязка данных в проекте уровня](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md) документа для проекта уровня документа и [Пошаговое руководство. сложная привязка данных в проекте надстройки VSTO](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md) для проекта надстройки VSTO.
 
@@ -99,7 +99,7 @@ ms.locfileid: "99882483"
 
  Дополнительные сведения см. в разделе [инструкции. Обновление источника данных с помощью данных из элемента управления ведущего приложения](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Привязка данных и Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)
 - [Пошаговое руководство. Создание элемента управления с простой привязкой в форме Windows Forms](/dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)
 - [Привязка элементов управления Windows Forms к данным в Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

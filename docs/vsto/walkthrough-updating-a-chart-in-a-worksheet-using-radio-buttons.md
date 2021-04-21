@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: b1c9da3b1d019c77988ef01e1b3c019dd3f1d775
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3d61579181f00d97a74cc48e022bb5d93a05c0f0
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937320"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828180"
 ---
 # <a name="walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons"></a>Пошаговое руководство. Обновление диаграммы на листе с помощью переключателей
   В этом пошаговом руководстве показаны основные принципы использования переключателей на листе Excel Microsoft Office, чтобы дать пользователю возможность быстро переключаться между параметрами. В этом случае параметры изменяют стиль диаграммы.
@@ -99,7 +99,7 @@ ms.locfileid: "99937320"
 
 2. Нажмите кнопку **Обзор** и перейдите к книге, созданной ранее в этом пошаговом руководстве.
 
-3. Нажмите кнопку **OK**.
+3. Нажмите кнопку **ОК**.
 
      Visual Studio откроет новую книгу Excel в конструкторе и добавит проект " **Моя диаграмма Excel** " в **Обозреватель решений**.
 
@@ -171,34 +171,34 @@ ms.locfileid: "99937320"
 
 2. Добавьте код в `ChartOptions` класс, чтобы создать `SelectionChanged` событие и `Selection` свойство.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#13](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#13)]
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#13](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#13)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb" id="Snippet13":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs" id="Snippet13":::
 
 ### <a name="to-handle-the-checkedchanged-event-of-the-radio-buttons"></a>Работа с событием CheckedChanged переключателей
 
 1. Установите тип диаграммы в обработчике событий `CheckedChanged` переключателя `areaBlockChart`, а затем породите событие.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#14](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#14)]
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#14](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#14)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb" id="Snippet14":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs" id="Snippet14":::
 
 2. Установите тип диаграммы в обработчик событий `CheckedChanged` переключателя `barChart`.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#15](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#15)]
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#15](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#15)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb" id="Snippet15":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs" id="Snippet15":::
 
 3. Установите тип диаграммы в обработчик событий `CheckedChanged` переключателя `columnChart`.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#16](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#16)]
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#16](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#16)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb" id="Snippet16":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs" id="Snippet16":::
 
 4. Установите тип диаграммы в обработчик событий `CheckedChanged` переключателя `lineChart`.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#17](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#17)]
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#17](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#17)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb" id="Snippet17":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs" id="Snippet17":::
 
 5. В языке программирования C# для переключателей должны быть добавлены обработчики событий. Код можно добавить в конструктор `ChartOptions` под вызовом `InitializeComponent`. Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#18](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#18)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs" id="Snippet18":::
 
 ## <a name="add-the-user-control-to-the-worksheet"></a>Добавление пользовательского элемента управления на лист
  При построении решения новый пользовательский элемент управления автоматически добавляется на **панель элементов**. Затем можно перетащить элемент управления с **панели элементов** на лист.
@@ -209,7 +209,7 @@ ms.locfileid: "99937320"
 
      Пользовательский элемент управления **чартоптионс** добавляется на **панель элементов**.
 
-2. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1.CS** и выберите пункт **Конструктор представлений**.
+2. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1. CS**, а затем выберите пункт **Конструктор представлений**.
 
 3. Перетащите элемент управления **чартоптионс** с **панели элементов** на лист.
 
@@ -224,12 +224,12 @@ ms.locfileid: "99937320"
 
 1. Добавьте следующий обработчик событий в класс `Sheet1`.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#19](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#19)]
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#19](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#19)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet19":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet19":::
 
 2. В C# необходимо добавить обработчик событий для пользовательского элемента управления в <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> событие, как показано ниже. Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-cs[Trin_VstcoreProgrammingControlsExcel#20](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#20)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet20":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать книгу, чтобы убедиться, что диаграмма правильно оформлена при выборе переключателя.
@@ -251,5 +251,5 @@ ms.locfileid: "99937320"
 
 - Изменение форматирования листа с помощью флажков. Дополнительные сведения см. в разделе [Пошаговое руководство. изменение форматирования листа с помощью элементов управления CheckBox](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Пошаговые руководства с использованием Excel](../vsto/walkthroughs-using-excel.md)

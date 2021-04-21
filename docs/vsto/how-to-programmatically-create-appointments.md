@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 2d9e9ccd2d69c1f0956a3160589ab2204059d83e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8b2125291331de76605c0bcad449b97f36a640cf
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99964099"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107827634"
 ---
 # <a name="how-to-programmatically-create-appointments"></a>Руководство. Программное создание встреч
   В этом примере создается встреча и добавляются получатели в приглашение на встречу.
@@ -28,9 +28,9 @@ ms.locfileid: "99964099"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## <a name="example"></a>Пример
- [!code-csharp[Trin_OL_CreateAppts#1](../vsto/codesnippet/CSharp/Trin_OL_CreateAppts/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CreateAppts/thisaddin.cs" id="Snippet1":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Работа с элементами календаря](../vsto/working-with-calendar-items.md)
 - [Руководство. Программное создание пользовательского календаря](../vsto/how-to-programmatically-create-a-custom-calendar.md)
 - [Руководство. Программное добавление записи в контакты Outlook](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)

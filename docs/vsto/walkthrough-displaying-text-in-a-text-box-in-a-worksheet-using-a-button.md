@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 270754005704d91569f014ed2e0be382bc2dd707
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b1209bf903f5a5b9c0005d9ba4ba6a891752aedd
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906470"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107827790"
 ---
 # <a name="walkthrough-display-text-in-a-text-box-in-a-worksheet-using-a-button"></a>Пошаговое руководство. Отображение текста в текстовом поле листа с помощью кнопки
   В этом пошаговом руководстве показаны основные сведения об использовании кнопок и текстовых полей на Microsoft Office листах Excel и о создании проектов Excel с помощью средств разработки Office в Visual Studio. Чтобы увидеть результат как завершенный пример, см. Пример элементов управления Excel в разделе [примеры разработки Office и пошаговые руководства](../vsto/office-development-samples-and-walkthroughs.md).
@@ -87,12 +87,12 @@ ms.locfileid: "99906470"
 
 2. Добавьте следующий код в <xref:System.Windows.Forms.Control.Click> обработчик событий кнопки:
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#11](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#11)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#11](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#11)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet11":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet11":::
 
 3. В C# необходимо добавить обработчик событий в <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> событие, как показано ниже. Сведения о создании обработчиков событий см. в разделе [инструкции. Создание обработчиков событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#12](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#12)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet12":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать книгу, чтобы убедиться, что сообщение **Hello World!** отображается в текстовом поле при нажатии кнопки.
@@ -112,7 +112,7 @@ ms.locfileid: "99906470"
 
 - Использование флажков для изменения форматирования. Дополнительные сведения см. в разделе [Пошаговое руководство. изменение форматирования листа с помощью элементов управления CheckBox](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Добавление Windows Forms элементов управления в документы Office](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [Пошаговые руководства с использованием Excel](../vsto/walkthroughs-using-excel.md)
 - [Ограничения элементов управления Windows Forms в документах Office](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

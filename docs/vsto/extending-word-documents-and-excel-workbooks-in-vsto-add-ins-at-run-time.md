@@ -21,12 +21,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 465e28ed0c632bba45fac1670dd40cd90ef417f0
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 90dac328f336f7204bc9a70a0dbc543ec996922a
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970378"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825671"
 ---
 # <a name="extend-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time"></a>Расширение документов Word и книг Excel в надстройках VSTO во время выполнения
   Надстройку VSTO можно использовать для настройки документов Word и книг Excel одним из описанных ниже способов.
@@ -59,22 +59,22 @@ ms.locfileid: "99970378"
 
 - В следующем примере кода показано, как создать ведущий элемент для активного документа.
 
-     [!code-vb[Trin_WordAddInDynamicControls#8](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#8)]
-     [!code-csharp[Trin_WordAddInDynamicControls#8](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#8)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet8":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet8":::
 
 #### <a name="to-generate-a-host-item-for-an-excel-workbook"></a>Создание ведущего элемента для книги Excel
 
 - В следующем примере кода показано, как создать ведущий элемент для активной книги.
 
-     [!code-vb[Trin_ExcelAddInDynamicControls#2](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#2)]
-     [!code-csharp[Trin_ExcelAddInDynamicControls#2](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#2)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb" id="Snippet2":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs" id="Snippet2":::
 
 #### <a name="to-generate-a-host-item-for-an-excel-worksheet"></a>Создание ведущего элемента для листа Excel
 
 - В следующем примере кода показано, как создать ведущий элемент для активного листа проекта.
 
-     [!code-vb[Trin_ExcelAddInDynamicControls#1](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#1)]
-     [!code-csharp[Trin_ExcelAddInDynamicControls#1](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb" id="Snippet1":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs" id="Snippet1":::
 
 ### <a name="generate-listobject-host-controls"></a>Создание элементов управления ведущего приложения ListObject
  Если метод `GetVstoObject` используется для расширения объекта <xref:Microsoft.Office.Interop.Excel.ListObject>, возвращается объект <xref:Microsoft.Office.Tools.Excel.ListObject>. <xref:Microsoft.Office.Tools.Excel.ListObject>Компонент имеет все функции исходного <xref:Microsoft.Office.Interop.Excel.ListObject> . Она также обладает дополнительными функциональными возможностями и может быть привязана к данным с помощью Windows Forms модели привязки данных. Дополнительные сведения см. в разделе [элемент управления ListObject](../vsto/listobject-control.md).
@@ -83,8 +83,8 @@ ms.locfileid: "99970378"
 
 - В следующем примере кода показано, как создать объект <xref:Microsoft.Office.Tools.Excel.ListObject> для первого объекта <xref:Microsoft.Office.Interop.Excel.ListObject> в активном листе проекта.
 
-     [!code-vb[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#3)]
-     [!code-csharp[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#3)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb" id="Snippet3":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs" id="Snippet3":::
 
 ### <a name="add-managed-controls-to-documents-and-worksheets"></a><a name="AddControls"></a> Добавление управляемых элементов управления в документы и листы
  После создания объекта <xref:Microsoft.Office.Tools.Word.Document> или <xref:Microsoft.Office.Tools.Excel.Worksheet>в документ или на лист можно добавить элементы управления, которым соответствуют эти расширенные объекты. Чтобы добавить элементы управления, используйте `Controls` свойство объекта <xref:Microsoft.Office.Tools.Word.Document> или <xref:Microsoft.Office.Tools.Excel.Worksheet> . Дополнительные сведения см. [в разделе Добавление элементов управления в документы Office во время выполнения](../vsto/adding-controls-to-office-documents-at-run-time.md).
@@ -105,25 +105,25 @@ ms.locfileid: "99970378"
 ### <a name="example-that-uses-native-word-objects"></a>Пример, в котором используются собственные объекты Word
  В следующем примере кода показано, как обрабатывать событие уровня приложения для документов Word. Метод `CreateDocument` создает новый документ, а затем определяет обработчик событий <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> , который предотвращает сохранение этого документа. Событие — это событие уровня приложения, которое вызывается для <xref:Microsoft.Office.Interop.Word.Application> объекта, и обработчик событий должен сравнить `Doc` параметр с `document1` объектом, чтобы определить `document1` , представляет ли сохраненный документ.
 
- [!code-vb[Trin_WordAddInDynamicControls #12](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#12)]
- [!code-csharp[Trin_WordAddInDynamicControls#12](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#12)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet12":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet12":::
 
 ### <a name="examples-that-use-a-host-item"></a>Примеры использования ведущего элемента
  В следующем примере кода данная процедура упрощена за счет обработки события <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> ведущего документа <xref:Microsoft.Office.Tools.Word.Document> . `CreateDocument2`Метод в этих примерах создает <xref:Microsoft.Office.Tools.Word.Document> , который расширяет `document2` объект, а затем определяет <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> обработчик событий, который предотвращает сохранение документа. Обработчик событий вызывается только в том случае `document2` , если сохранен, и может отменить действие сохранения без дополнительной работы, чтобы проверить, какой документ был сохранен.
 
  Следующий пример кода демонстрирует эту задачу.
 
- [!code-vb[Trin_WordAddInDynamicControls #13](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#13)]
- [!code-csharp[Trin_WordAddInDynamicControls#13](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#13)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet13":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet13":::
 
 ## <a name="determine-whether-an-office-object-has-been-extended"></a><a name="HasVstoObject"></a> Определение того, был ли расширен объект Office
  Чтобы определить, создан ли уже расширенный объект для определенного собственного объекта Office, воспользуйтесь методом `HasVstoObject`. Этот метод возвращает **значение true** , если расширенный объект уже был создан.
 
- Воспользуйтесь методом `Globals.Factory.HasVstoMethod`. Передайте собственный объект Word или Excel (например, <xref:Microsoft.Office.Interop.Word.Document> или <xref:Microsoft.Office.Interop.Excel.Worksheet>), который необходимо протестировать для расширенного объекта.
+ Используйте метод `Globals.Factory.HasVstoMethod`. Передайте собственный объект Word или Excel (например, <xref:Microsoft.Office.Interop.Word.Document> или <xref:Microsoft.Office.Interop.Excel.Worksheet>), который необходимо протестировать для расширенного объекта.
 
  Метод `HasVstoObject` полезен в ситуации, когда код необходимо запускать только при условии, что заданный объект Office имеет расширенный объект. Например, если у вас есть Надстройка VSTO для Word, которая обрабатывает <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> событие для удаления управляемых элементов управления из документа перед сохранением, используйте `HasVstoObject` метод, чтобы определить, был ли документ расширен. Если документ не был расширен, он не может иметь управляемые элементы управления, а обработчик событий может возвращать значение без попытки очистки элементов управления в документе.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
 - [Добавление элементов управления в документы Office во время выполнения](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Общие сведения о ведущих элементах и элементах управления ведущего приложения](../vsto/host-items-and-host-controls-overview.md)

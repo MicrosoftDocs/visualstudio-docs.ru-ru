@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: fea8a8f73155875f9a10e9d8138ee4b345d531d4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 129b1bda44abf7283efe1996f1898491025ee9d9
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942156"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825450"
 ---
 # <a name="how-to-remove-managed-code-extensions-from-documents"></a>Руководство. Удаление расширений управляемого кода из документов
   Сборку настройки можно программным образом удалить из документа или книги, которая является частью настройки уровня документа для Microsoft Office Word или Microsoft Office Excel. Пользователи могут открывать документы и просматривать содержимое, но любой настраиваемый пользовательский интерфейс (UI), добавляемый в документы, не будет отображаться, и код не будет выполняться.
@@ -41,18 +41,18 @@ ms.locfileid: "99942156"
 
 2. Добавьте следующий оператор **Imports** или **using** в начало файла кода.
 
-     [!code-csharp[Trin_VstcoreDeployment#1](../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs#1)]
-     [!code-vb[Trin_VstcoreDeployment#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet1":::
 
 3. Вызовите статический <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.RemoveCustomization%2A> метод <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> класса и укажите путь к документу решения для параметра.
 
      В следующем примере кода предполагается, что вы удаляете настройку из документа с именем *WordDocument1.docx* , который находится на рабочем столе.
 
-     [!code-csharp[Trin_VstcoreDeployment#2](../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs#2)]
-     [!code-vb[Trin_VstcoreDeployment#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet2":::
 
 4. Выполните сборку проекта и запустите приложение на компьютере, на котором нужно удалить настройку. На компьютере должна быть установлена среда выполнения средств Visual Studio 2010 для Office.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Управление документами на сервере с помощью класса ServerDocument](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
 - [Как присоединить расширения управляемого кода к документам](../vsto/how-to-attach-managed-code-extensions-to-documents.md)

@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: fc61f66b2aefaf0e43b1b5af819e0e244feec114
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f3d77085808fb54cd0a0517cc6d039e2345a1872
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910306"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107827985"
 ---
 # <a name="globalization-and-localization-of-excel-solutions"></a>Глобализация и локализация решений Excel
   Этот раздел содержит информацию об особенностях решений Microsoft Office Excel, которые будут выполняться на компьютерах, имеющих настройки Windows, отличные от настроек в английском формате. Большинство аспектов глобализации и локализации решений Microsoft Office аналогичны аспектам, возникающим при создании других типов решений с помощью Visual Studio. Общие сведения см. в разделе [Глобализация и локализация приложений](../ide/globalizing-and-localizing-applications.md).
@@ -81,15 +81,15 @@ Application.ActiveCell.Value2 = "05/12/04"
 
  Пример:
 
- [!code-vb[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#6)]
- [!code-csharp[Trin_VstcoreCreatingExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#6)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet6":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs" id="Snippet6":::
 
  При возможности следует работать со строго типизированными данными вместо строковых литералов. Например, вместо сохранения даты в строковом литерале можно сохранить ее как <xref:System.Double>, после чего преобразовать ее в объект <xref:System.DateTime> для последующей обработки.
 
  В примере кода ниже дата, введенная пользователем в ячейке A5, сохраняется как <xref:System.Double>, после чего преобразуется в объект <xref:System.DateTime> и отображается в ячейке A7. Ячейка A7 должна иметь формат даты.
 
- [!code-vb[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb#7)]
- [!code-csharp[Trin_VstcoreCreatingExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs#7)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet7":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs" id="Snippet7":::
 
 ### <a name="excel-worksheet-functions"></a>Функции листа Excel
  Для большинства языковых версий Excel производится внутреннее преобразование имен функций листов. Однако из-за возможных проблем с языком и COM-взаимодействием рекомендуется использовать в коде только английские имена функций.
@@ -97,7 +97,7 @@ Application.ActiveCell.Value2 = "05/12/04"
 ### <a name="applications-that-use-external-data"></a>Приложения, использующие внешние данные
  Любой код, открывающий или иным образом использующий внешние данные, например файлы, которые содержат разделенные запятыми значения (CSV-файлы), экспортированные из устаревших систем, может работать некорректно, если экспорт таких файлов производится с использованием какого-либо формата, кроме en-US. Это обычно не сказывается на доступе к базам данных, так как все значения представляются в двоичном формате. Исключением являются случаи, когда даты в базе данных сохраняются в виде строк или выполняются операции, не предусматривающие двоичный формат. Кроме того, при построении SQL-запросов, использующих данные Excel, может потребоваться их представление в формате en-US в зависимости от используемой функции.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Как ориентироваться на многоязыковой пользовательский интерфейс Office](../vsto/how-to-target-the-office-multilingual-user-interface.md)
 - [Разработка и создание решений Office](../vsto/designing-and-creating-office-solutions.md)

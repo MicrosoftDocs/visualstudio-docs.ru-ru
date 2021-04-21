@@ -21,12 +21,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 2a0511fd103345859f96b18f333465106505057a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1514410094deaf9c77e088c3b69e2d39d29175c2
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99953985"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825593"
 ---
 # <a name="how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml"></a>Как экспортировать ленту из конструктора лент в XML-ленту
   Элемент **Лента (визуальный конструктор)** не поддерживает все возможные типы настройки ленты. Чтобы настроить ленту с дополнительными способами, можно экспортировать ленту из конструктора в XML-ленту и изменить XML-код напрямую.
@@ -54,8 +54,8 @@ ms.locfileid: "99953985"
 
      После раскомментирования кода он должен выглядеть следующим образом. В этом примере вызывается класс Ribbon `MyRibbon` .
 
-     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
-     [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
 
 6. Переключитесь в файл кода XML ленты и найдите `Ribbon Callbacks` регион.
 
@@ -67,7 +67,7 @@ ms.locfileid: "99953985"
 
      Сведения о написании методов обратного вызова и использовании модели программирования RibbonX см. в разделе [RIBBON XML](../vsto/ribbon-xml.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения о ленте](../vsto/ribbon-overview.md)
 - [Конструктор лент](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)
