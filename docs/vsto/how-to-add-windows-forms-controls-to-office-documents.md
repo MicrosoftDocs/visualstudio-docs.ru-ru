@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 8d2f8d54e791acd7d027350caa3ce88c8eea9959
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e5a196c54a513376edef5c837a429bece6dd7b16
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954154"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824839"
 ---
 # <a name="how-to-add-windows-forms-controls-to-office-documents"></a>Добавление Windows Forms элементов управления в документы Office
   Вы можете добавить элементы управления Windows Forms в документы Microsoft Office Word и Microsoft Office Excel во время разработки в проектах уровня документа. Во время выполнения можно добавлять элементы управления в настройки уровня документа и в надстройки VSTO. Например, можно добавить <xref:Microsoft.Office.Tools.Excel.Controls.ComboBox> элемент управления на лист, чтобы пользователи могли выбирать из списка параметров.
@@ -110,8 +110,8 @@ ms.locfileid: "99954154"
 
      В следующем примере кода показано, как добавить в <xref:Microsoft.Office.Tools.Excel.Controls.Button> ячейку **C5** `Sheet1` в проекте уровня документа для Excel.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#4](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#4)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#4)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet4":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet4":::
 
 ## <a name="add-controls-at-run-time-in-vsto-add-ins"></a><a name="runtimeaddin"></a> Добавление элементов управления во время выполнения в надстройках VSTO
  Вы можете добавить элементы управления Windows Forms программным способом в любой открытый документ во время выполнения. Сначала создайте ведущий элемент, основанный на открытом документе или листе. Затем в Word используйте методы свойства <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> нового ведущего элемента. В Excel используйте методы свойства <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> нового ведущего элемента. У каждого метода есть несколько перегрузок, которые позволяют указать расположение элемента управления разными способами.
@@ -129,10 +129,10 @@ ms.locfileid: "99954154"
 
      В следующем примере кода показано, как добавить <xref:Microsoft.Office.Tools.Word.Controls.Button> в первый абзац активного документа с помощью надстройки VSTO для Word.
 
-     [!code-vb[Trin_WordAddInDynamicControls#7](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#7)]
-     [!code-csharp[Trin_WordAddInDynamicControls#7](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#7)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet7":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet7":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения об элементах управления Windows Forms в документах Office](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Добавление элементов управления в документы Office во время выполнения](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Руководство. изменение размеров элементов управления в ячейках листа](../vsto/how-to-resize-controls-within-worksheet-cells.md)

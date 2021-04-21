@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 7b62d3fed62b4d17b9f1918b76760593b38d83a9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7b42c10fd82ec077b295a8bc683fa138c2eb095b
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927825"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825749"
 ---
 # <a name="how-to-resize-controls-within-worksheet-cells"></a>Руководство. изменение размеров элементов управления в ячейках листа
   При изменении размера столбцов или строк на листе все элементы управления ведущего приложения в ячейках автоматически изменяются по высоте или ширине ячейки, размер которой был изменен. По умолчанию размеры элементов управления Windows Forms не изменяются автоматически.
@@ -54,8 +54,8 @@ ms.locfileid: "99927825"
 
 1. Добавьте элемент управления в диапазон a1.
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#5)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#5)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet5":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet5":::
 
      При изменении размера ячейки, содержащей элемент управления, размер элемента управления изменяется в соответствии с ячейкой.
 
@@ -72,10 +72,10 @@ ms.locfileid: "99927825"
 
 1. Вызовите свойство размещения элемента управления и задайте для него значение <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating> .
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#6)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#6)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet6":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet6":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Элементы управления в документах Office](../vsto/controls-on-office-documents.md)
 - [Добавление Windows Forms элементов управления в документы Office](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [Как скрыть элементы управления на листах при печати](../vsto/how-to-hide-controls-on-worksheets-when-printing.md)

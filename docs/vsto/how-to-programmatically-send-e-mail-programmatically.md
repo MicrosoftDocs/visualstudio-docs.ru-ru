@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: c2b702d2986315ce32a9ab489db239f2c784f3e6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fa6a45a199d4edce924f0e36a971026726d96eca
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877867"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824800"
 ---
 # <a name="how-to-programmatically-send-email"></a>Руководство. Программная отправка электронной почты
   В этом примере в адреса электронной почты отправляются контакты с доменным именем **example.com** .
@@ -32,7 +32,7 @@ ms.locfileid: "99877867"
 [!include[Add-ins note](includes/addinsnote.md)]
 
 ## <a name="example"></a>Пример
- [!code-csharp[Trin_OL_ProgramEmail#1](../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs" id="Snippet1":::
 
 ## <a name="compile-the-code"></a>Компиляция кода
  Для этого примера требуются:
@@ -42,7 +42,7 @@ ms.locfileid: "99877867"
 ## <a name="robust-programming"></a>Отказоустойчивость
  Не удаляйте код фильтра, который ищет доменное имя **example.com**. При удалении фильтра решение будет отправлять сообщения всем контактам по электронной почте.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Работа с элементами почты](../vsto/working-with-mail-items.md)
 - [Руководство. Программное создание элемента электронной почты](../vsto/how-to-programmatically-create-an-e-mail-item.md)
 - [Руководство. программный доступ к контактам Outlook](../vsto/how-to-programmatically-access-outlook-contacts.md)

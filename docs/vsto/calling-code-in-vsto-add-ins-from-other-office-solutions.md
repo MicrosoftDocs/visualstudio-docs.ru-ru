@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: deb8fec9212c686bce670df6bab23ed56e51741f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2519c9d1a22eb6f5577a258fb9b465cfd7caafc2
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99903802"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826984"
 ---
 # <a name="call-code-in-vsto-add-ins-from-other-office-solutions"></a>Вызов кода в надстройках VSTO из других решений Office
   Объект в надстройке VSTO можно предоставить другим решениям, включая другие решения Microsoft Office. Это полезно, если надстройка VSTO предоставляет службу, доступ к которой нужно предоставить другим решениям. Например, если у вас есть Надстройка VSTO для Microsoft Office Excel, которая выполняет вычисления с финансовыми данными из веб-службы, другие решения могут выполнять эти вычисления, вызывая надстройку VSTO для Excel во время выполнения.
@@ -78,8 +78,8 @@ ms.locfileid: "99903802"
 
    Следующие примеры кода демонстрируют класс `AddInUtilities` с методом `ImportData` , который может вызываться другими решениями. Чтобы просмотреть этот код в контексте более полного пошагового руководства, см. раздел [Пошаговое руководство. вызов кода в надстройке VSTO из VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
-   [!code-csharp[Trin_AddInInteropWalkthrough #3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
-   [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]
+   :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs" id="Snippet3":::
+   :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb" id="Snippet3":::
 
 ### <a name="expose-classes-to-vba"></a>Предоставление классов коду VBA
  Если вы выполните приведенные выше действия, код VBA сможет вызывать только те методы, которые будут объявлены в интерфейсе. Код VBA не может вызывать остальные методы в классе, включая методы, получаемые классом из базовых классов, таких как <xref:System.Object>.
@@ -96,8 +96,8 @@ ms.locfileid: "99903802"
 ### <a name="override-the-requestcomaddinautomationservice-method"></a>Переопределение метода Рекуесткомаддинаутоматионсервице
  Следующий пример кода демонстрирует переопределение метода <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> в классе `ThisAddIn` в надстройке VSTO. В этом примере предполагается, что вы определили класс с именем `AddInUtilities` , который требуется предоставить другим решениям. Чтобы просмотреть этот код в контексте более полного пошагового руководства, см. раздел [Пошаговое руководство. вызов кода в надстройке VSTO из VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
- [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
- [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb" id="Snippet1":::
 
  При загрузке надстройки VSTO [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] вызывает метод <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> . Среда выполнения присваивает возвращенный объект свойству Комаддин. Object <xref:Microsoft.Office.Core.COMAddIn> объекта, который представляет вашу надстройку VSTO. Этот объект <xref:Microsoft.Office.Core.COMAddIn> доступен для других решений Office, а также для решений, отвечающих за автоматизацию Office.
 
@@ -144,7 +144,7 @@ utilities.ImportData();
 
  В этом примере при попытке привести значение свойства Комаддин. Object к `AddInUtilities` классу, а не к `IAddInUtilities` интерфейсу, код выдаст исключение <xref:System.InvalidCastException> .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
 - [Пошаговое руководство. вызов кода в надстройке VSTO из VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)
 - [Разработка решений Office](../vsto/developing-office-solutions.md)

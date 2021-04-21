@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 75df7a3a9ddfa6009b0002bfe83b57f2d91e6e0d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 377c3405211c91712f8754131d8379c3dae7e820
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906566"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824553"
 ---
 # <a name="walkthrough-bind-data-to-controls-on-an-excel-actions-pane"></a>Пошаговое руководство. Привязка данных к элементам управления в области действий Excel
   В этом пошаговом руководстве демонстрируется привязка данных к элементам управления на панели действий в Microsoft Office Excel. Элементы управления показывают отношение «Основной/подробности» между таблицами в базе данных SQL Server.
@@ -77,7 +77,7 @@ ms.locfileid: "99906566"
 
 4. Выберите подключение данных к образцу базы данных Northwind SQL Server или добавьте новое соединение с помощью кнопки **создать подключение** .
 
-5. Нажмите кнопку **Далее**.
+5. Щелкните **Далее**.
 
 6. Снимите флажок сохранить подключение, если оно выбрано, и нажмите кнопку **Далее**.
 
@@ -142,29 +142,29 @@ ms.locfileid: "99906566"
 
 2. Добавьте следующий код в <xref:System.Windows.Forms.UserControl.Load> событие элемента управления панели действий.
 
-     [!code-vb[Trin_VstcoreActionsPaneExcel#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ActionsControl.vb#1)]
-     [!code-csharp[Trin_VstcoreActionsPaneExcel#1](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ActionsControl.cs#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ActionsControl.vb" id="Snippet1":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ActionsControl.cs" id="Snippet1":::
 
 3. В C# необходимо создать обработчик событий для `ActionsControl` . Этот код можно поместить в `ActionsControl` конструктор. Дополнительные сведения о создании обработчиков событий см. в разделе [инструкции. Создание обработчиков событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreActionsPaneExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ActionsControl.cs#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ActionsControl.cs" id="Snippet2":::
 
 ## <a name="show-the-actions-pane"></a>Отображение панели "действия"
  Панель действий не отображается, пока элемент управления не будет добавлен во время выполнения.
 
 #### <a name="to-show-the-actions-pane"></a>Отображение панели «действия»
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши *ThisWorkbook. vb* или *ThisWorkbook.CS* и выберите пункт **Просмотреть код**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши *ThisWorkbook. vb* или *ThisWorkbook. CS* и выберите пункт **Просмотреть код**.
 
 2. Создайте новый экземпляр пользовательского элемента управления в `ThisWorkbook` классе.
 
-     [!code-csharp[Trin_VstcoreActionsPaneExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs#3)]
-     [!code-vb[Trin_VstcoreActionsPaneExcel#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet3":::
 
 3. В <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> обработчике событий объекта `ThisWorkbook` добавьте элемент управления на панель действия.
 
-     [!code-csharp[Trin_VstcoreActionsPaneExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs#4)]
-     [!code-vb[Trin_VstcoreActionsPaneExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet4":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать документ, чтобы убедиться, что панель действий открывается при открытии документа и что элементы управления имеют связь «основной/подробности».
@@ -179,14 +179,14 @@ ms.locfileid: "99906566"
 
 4. Выберите различные компании, чтобы убедиться, что название компании и сведения о продукте изменяются соответствующим образом.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Next Steps
  Ниже приводятся некоторые из возможных последующих задач.
 
 - Привязка данных к элементам управления в Word. Дополнительные сведения см. в разделе [Пошаговое руководство. Привязка данных к элементам управления на панели действий Word](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
 
 - Развертывание проекта. Дополнительные сведения см. в статье [развертывание решения Office с помощью ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Обзор панели действий](../vsto/actions-pane-overview.md)
 - [Руководство. Управление макетом элементов управления на панелях действий](../vsto/how-to-manage-control-layout-on-actions-panes.md)
 - [Привязка данных к элементам управления в решениях Office](../vsto/binding-data-to-controls-in-office-solutions.md)

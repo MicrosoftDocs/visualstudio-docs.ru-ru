@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 2dc5708da09074c7d973336958c9e89c16bf9da6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a85f46cf9c234ad662966372a8d014ae0f98be84
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927669"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826373"
 ---
 # <a name="walkthrough-complex-data-binding-in-a-document-level-project"></a>Пошаговое руководство. сложная привязка данных в проекте уровня документа
   В этом пошаговом руководстве демонстрируются основы сложной привязки данных в проекте уровня документа. Можно привязать несколько ячеек в Microsoft Office листе Excel к полям базы данных SQL Server Northwind.
@@ -117,16 +117,16 @@ ms.locfileid: "99927669"
 
 ### <a name="to-initialize-the-control"></a>Инициализация элемента управления
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1.CS** и выберите в контекстном меню пункт **Просмотреть код** .
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1. CS** и выберите в контекстном меню пункт **Просмотреть код** .
 
 2. Добавьте следующий код в метод, `Sheet1_Startup` чтобы задать текст для b `utton` .
 
-    [!code-csharp[Trin_VstcoreDataExcel#8](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#8)]
-    [!code-vb[Trin_VstcoreDataExcel#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb#8)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs" id="Snippet8":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb" id="Snippet8":::
 
 3. Только для C# добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события в `Sheet1_Startup` метод.
 
-    [!code-csharp[Trin_VstcoreDataExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#9)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs" id="Snippet9":::
 
    Теперь добавьте код, обрабатывающий <xref:System.Windows.Forms.Control.Click> событие кнопки.
 
@@ -137,8 +137,8 @@ ms.locfileid: "99927669"
 
 1. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `button` и добавьте следующий код, чтобы зафиксировать все изменения, внесенные в набор данных, обратно в базу данных.
 
-     [!code-csharp[Trin_VstcoreDataExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs#10)]
-     [!code-vb[Trin_VstcoreDataExcel#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb#10)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs" id="Snippet10":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb" id="Snippet10":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать книгу, чтобы убедиться, что данные отображаются должным образом, и что вы можете управлять данными в объекте списка.
@@ -181,7 +181,7 @@ ms.locfileid: "99927669"
 
 2. Добавьте следующие сведения в пустую строку.
 
-   |EmployeeID|LastName|FirstName|Название|
+   |EmployeeID|LastName|FirstName|Заголовок|
    |----------------|--------------|---------------|-----------|
    |10|Ito|Shu|Sales Manager|
 
@@ -226,7 +226,7 @@ ms.locfileid: "99927669"
 
 - Создание связи "основной/подробности" между полем и таблицей. Дополнительные сведения см. в разделе [Пошаговое руководство. Создание связи с основными сведениями с помощью кэшированного набора данных](../vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Привязка данных к элементам управления в решениях Office](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Данные в решениях Office](../vsto/data-in-office-solutions.md)
 - [Пошаговое руководство. Простая привязка данных в проекте уровня документа](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md)

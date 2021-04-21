@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 16f735e2902527307ac812922495a2a0cb3b377e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a6bcc134096284579e1097edf0e958105f48cfcb
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966595"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824293"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-outlook"></a>Пошаговое руководство. Создание первой надстройки VSTO для Outlook
   В этом пошаговом руководстве показано, как создать надстройку VSTO для Microsoft Office Outlook. Функции, создаваемые в подобном решении, доступны для приложения независимо от того, какой элемент Outlook открыт. Дополнительные сведения см. в статье [Общие сведения о разработке решений Office &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
@@ -56,7 +56,7 @@ ms.locfileid: "99966595"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 3. В области шаблонов разверните узел **Visual C#** или **Visual Basic**, а затем узел **Office/SharePoint**.
 
@@ -66,7 +66,7 @@ ms.locfileid: "99966595"
 
 6. В поле **Имя** введите **FirstOutlookAddIn**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] создает проект **FirstOutlookAddIn** и открывает файл кода **ThisAddIn** в редакторе.
 
@@ -81,20 +81,20 @@ ms.locfileid: "99966595"
 
 1. В файле кода ThisAddIn объявите поле с именем `inspectors` в классе `ThisAddIn` . Поле `inspectors` содержит ссылку на коллекцию окон инспектора в текущем экземпляре Outlook. Эта ссылка не позволит сборщику мусора освободить память, содержащую обработчик событий для <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> .
 
-    [!code-vb[Trin_OutlookAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#1)]
-    [!code-csharp[Trin_OutlookAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#1)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs" id="Snippet1":::
 
 2. Замените метод `ThisAddIn_Startup` приведенным ниже кодом. Этот код присоединяет обработчик событий к <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> .
 
-    [!code-vb[Trin_OutlookAddInTutorial#2](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#2)]
-    [!code-csharp[Trin_OutlookAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#2)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet2":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs" id="Snippet2":::
 
 3. В файл кода ThisAddIn добавьте в класс `ThisAddIn` указанный ниже код. Он присоединяет обработчик событий к <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> .
 
     Когда пользователь создает сообщение, этот обработчик событий добавляет текст в строку темы и текст сообщения.
 
-    [!code-vb[Trin_OutlookAddInTutorial#3](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#3)]
-    [!code-csharp[Trin_OutlookAddInTutorial#3](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#3)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet3":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs" id="Snippet3":::
 
    Для изменения каждого нового сообщения в приведенных выше примерах кода используются следующие объекты.
 
@@ -139,7 +139,7 @@ ms.locfileid: "99966595"
 
 - Развертывание надстроек VSTO для Outlook. Дополнительные сведения см. в разделе [развертывание решения Office](../vsto/deploying-an-office-solution.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
 - [Решения Outlook](../vsto/outlook-solutions.md)
 - [Настройка пользовательского интерфейса Office](../vsto/office-ui-customization.md)

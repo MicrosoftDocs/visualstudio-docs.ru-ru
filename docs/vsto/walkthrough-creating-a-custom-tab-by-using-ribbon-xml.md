@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 569a3bea98095afebb243c521db02410879b0b59
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a5d7992462ac3ece9782b0168feedd87577c2d0e
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99920358"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826334"
 ---
 # <a name="walkthrough-create-a-custom-tab-by-using-ribbon-xml"></a>Пошаговое руководство. Создание настраиваемой вкладки с помощью XML-ленты
   В этом пошаговом руководстве показано, как создать настраиваемую вкладку ленты с помощью элемента **Лента (XML)** .
@@ -56,7 +56,7 @@ ms.locfileid: "99920358"
 
      Дополнительные сведения см. в разделе [как создавать проекты Office в Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] открывает файл кода **ThisAddIn.CS** или **ThisAddIn. vb** и добавляет проект **мириббонаддин** в **Обозреватель решений**.
+     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] открывает файл кода **ThisAddIn. CS** или **ThisAddIn. vb** и добавляет проект **мириббонаддин** в **Обозреватель решений**.
 
 ## <a name="create-the-vsto-add-ins-tab"></a>Создание вкладки надстроек VSTO
  Чтобы создать вкладку **надстройки** , добавьте в проект элемент **Лента (XML)** . Далее в этом пошаговом руководстве мы добавим некоторые кнопки на эту вкладку.
@@ -69,14 +69,14 @@ ms.locfileid: "99920358"
 
 3. Измените имя новой ленты на **MyRibbon** и нажмите кнопку **Добавить**.
 
-     В конструкторе откроется файл **MyRibbon.CS** или **MyRibbon. vb** . В проект также добавляется XML-файл с именем **MyRibbon.xml** .
+     В конструкторе откроется файл **MyRibbon. CS** или **MyRibbon. vb** . В проект также добавляется XML-файл с именем **MyRibbon.xml** .
 
-4. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisAddIn.CS** или **ThisAddIn. vb** и выберите пункт **Просмотреть код**.
+4. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisAddIn. CS** или **ThisAddIn. vb** и выберите пункт **Просмотреть код**.
 
 5. Добавьте следующий код в класс **ThisAddin** . Этот код переопределяет метод `CreateRibbonExtensibilityObject` и возвращает XML-класс ленты в приложение Office.
 
-     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
-     [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
 
 6. В **Обозреватель решений** щелкните правой кнопкой мыши проект **мириббонаддин** и выберите пункт **Сборка**. Убедитесь, что сборка проекта выполняется без ошибок.
 
@@ -107,22 +107,22 @@ ms.locfileid: "99920358"
 
 ### <a name="to-add-callback-methods-for-the-buttons"></a>Добавление методов обратного вызова для кнопок
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **MyRibbon.CS** или **MyRibbon. vb** и выберите команду **Открыть**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **MyRibbon. CS** или **MyRibbon. vb** и выберите команду **Открыть**.
 
-2. Добавьте следующий код в начало файла **MyRibbon.CS** или **MyRibbon. vb** . Этот код создает псевдоним для пространства имен <xref:Microsoft.Office.Interop.Word>.
+2. Добавьте следующий код в начало файла **MyRibbon. CS** или **MyRibbon. vb** . Этот код создает псевдоним для пространства имен <xref:Microsoft.Office.Interop.Word>.
 
-     [!code-csharp[Trin_RibbonButtons#1](../vsto/codesnippet/CSharp/Trin_RibbonButtons/MyRibbon.cs#1)]
-     [!code-vb[Trin_RibbonButtons#1](../vsto/codesnippet/VisualBasic/Trin_RibbonButtons/MyRibbon.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_RibbonButtons/MyRibbon.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonButtons/MyRibbon.vb" id="Snippet1":::
 
 3. Добавьте следующий метод в класс `MyRibbon`. Это метод обратного вызова для кнопки **Вставить текст** , который добавляет строку в активный документ в текущем положении курсора.
 
-     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#2](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs#2)]
-     [!code-vb[Trin_Ribbon_Custom_Tab_XML#2](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb" id="Snippet2":::
 
 4. Добавьте следующий метод в класс `MyRibbon`. Это метод обратного вызова для кнопки **Вставить таблицу** , который добавляет таблицу в активный документ в текущем положении курсора.
 
-     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs#3)]
-     [!code-vb[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb" id="Snippet3":::
 
 ## <a name="testing-the-vsto-add-in"></a>Тестирование надстройки VSTO
  При запуске проекта открывается Word, а на ленте появляется вкладка с именем **надстройки** . Нажмите кнопки **Вставить текст** и **Вставить таблицу** на вкладке **надстройки** , чтобы проверить код.
@@ -156,7 +156,7 @@ ms.locfileid: "99920358"
 
 - Настройка пользовательского интерфейса для Microsoft Office Outlook с помощью областей формы Outlook. Дополнительные сведения см. в разделе [Пошаговое руководство. Проектирование области формы Outlook](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Общие сведения о ленте](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)
 - [Пошаговое руководство. Создание настраиваемой вкладки с помощью конструктора лент](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)

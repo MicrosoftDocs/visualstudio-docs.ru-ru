@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 1c610bdc33564e3e211d1ec5aab943af4eec49d1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0df6aef3c83d66b84f569e85e953fde8a3f0e16c
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99965802"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826776"
 ---
 # <a name="access-data-in-documents-on-the-server"></a>Доступ к данным в документах на сервере
   Вы можете программировать данные в настройке на уровне документа без использования объектной модели Microsoft Office Word или Microsoft Office Excel. Это означает, что вы можете получить доступ к данным, содержащимся в документе на сервере, на котором не установлен Word или Excel. Например, код на сервере (например, на [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] странице) может настраивать данные в документе и отсылать настроенный документ конечному пользователю. Когда конечный пользователь открывает документ, код привязки данных в сборке решения привязывает пользовательские данные к документу. Это возможно, поскольку данные в документе отделены от пользовательского интерфейса. Дополнительные сведения см. [в разделе кэшированные данные в настройках уровня документа](../vsto/cached-data-in-document-level-customizations.md).
@@ -45,8 +45,8 @@ ms.locfileid: "99965802"
 
   В следующем примере кода показано, как получить доступ к кэшированной строке в `Sheet1` классе проекта книги Excel. Этот пример является частью более крупного примера, предоставляемого для <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.Save%2A> метода.
 
-  [!code-csharp[Trin_ServerDocument#12](../vsto/codesnippet/CSharp/Trin_ServerDocument/Form1.cs#12)]
-  [!code-vb[Trin_ServerDocument#12](../vsto/codesnippet/VisualBasic/Trin_ServerDocument/Form1.vb#12)]
+  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ServerDocument/Form1.cs" id="Snippet12":::
+  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ServerDocument/Form1.vb" id="Snippet12":::
 
 ## <a name="modify-data-in-the-cache"></a>Изменение данных в кэше
  Для изменения объекта кэшированных данных обычно выполняются следующие действия.
@@ -66,8 +66,8 @@ ms.locfileid: "99965802"
 
  В следующем примере кода показано, как изменить значение кэшированной строки в `Sheet1` классе проекта книги Excel. Этот пример является частью более крупного примера, предоставляемого для <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.Save%2A> метода.
 
- [!code-csharp[Trin_ServerDocument#11](../vsto/codesnippet/CSharp/Trin_ServerDocument/Form1.cs#11)]
- [!code-vb[Trin_ServerDocument#11](../vsto/codesnippet/VisualBasic/Trin_ServerDocument/Form1.vb#11)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ServerDocument/Form1.cs" id="Snippet11":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ServerDocument/Form1.vb" id="Snippet11":::
 
 ### <a name="modify-null-values-in-the-data-cache"></a>Изменение значений NULL в кэше данных
  В кэше данных не хранятся объекты, имеющие значение **null** при сохранении и закрытии документа. Это ограничение имеет несколько последствий при изменении кэшированных данных.
@@ -79,7 +79,7 @@ ms.locfileid: "99965802"
 ## <a name="access-typed-datasets-in-the-cache"></a>Доступ к типизированным наборам данных в кэше
  Если требуется получить доступ к данным в типизированном наборе данных как из решения Office, так и из приложения, находящегося за пределами Office, например Windows Forms приложения или [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] проекта, необходимо определить типизированный набор данных в отдельной сборке, на которую есть ссылки в обоих проектах. Если добавить типизированный набор данных в каждый проект с помощью мастера **настройки источника данных** или **Конструктор наборов данных**, платформа .NET Framework будет обрабатывать типизированные наборы данных в двух проектах как разные типы. Дополнительные сведения о создании типизированных наборов данных см. [в разделе Создание и Настройка наборов данных в Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 - [Доступ к данным в документах на сервере](../vsto/accessing-data-in-documents-on-the-server.md)
 - [Кэшированные данные в настройках уровня документа](../vsto/cached-data-in-document-level-customizations.md)

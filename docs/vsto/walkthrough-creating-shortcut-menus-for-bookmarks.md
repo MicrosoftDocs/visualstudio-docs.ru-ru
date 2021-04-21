@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: aabc7dec0a9965a055bce07cafeca25ac0165037
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 48381d452b0c67a34581092a47896aba60e7125c
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937424"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826308"
 ---
 # <a name="walkthrough-create-shortcut-menus-for-bookmarks"></a>Пошаговое руководство. создание контекстных меню для закладок
   В этом пошаговом руководстве показано, как создать контекстное меню для <xref:Microsoft.Office.Tools.Word.Bookmark> элементов управления в настройке уровня документа для Word. Когда пользователь щелкает правой кнопкой мыши текст закладки, появляется контекстное меню с параметрами пользователя для форматирования текста.
@@ -46,7 +46,7 @@ ms.locfileid: "99937424"
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] либо [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
+- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] или [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]
 
 ## <a name="create-the-project"></a><a name="BKMK_CreateProject"></a> Создание проекта
  Первым шагом является создание проекта документа Word в Visual Studio.
@@ -92,7 +92,7 @@ ms.locfileid: "99937424"
 
 1. Добавьте в проект элемент **XML ленты** . Дополнительные сведения см. [в разделе инструкции. Приступая к настройке ленты](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
-2. В **Обозреватель решений** выберите **ThisDocument.CS** или **ThisDocument. vb**.
+2. В **Обозреватель решений** выберите **ThisDocument. CS** или **ThisDocument. vb**.
 
 3. В строке меню выберите **Вид** > **Код**.
 
@@ -100,8 +100,8 @@ ms.locfileid: "99937424"
 
 4. Добавьте следующий код в класс **ThisDocument** . Этот код переопределяет метод Креатериббонекстенсибилитйобжект и возвращает класс XML ленты в приложение Office.
 
-     [!code-csharp[Trin_Word_Document_Menus#1](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs#1)]
-     [!code-vb[Trin_Word_Document_Menus#1](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb" id="Snippet1":::
 
 5. В **обозревателе решений** выберите XML-файл ленты. По умолчанию XML-файл ленты называется Ribbon1.xml.
 
@@ -131,10 +131,10 @@ ms.locfileid: "99937424"
 
 9. Объявите следующие переменные и переменную закладки на уровне класса.
 
-     [!code-csharp[Trin_Word_Document_Menus#2](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs#2)]
-     [!code-vb[Trin_Word_Document_Menus#2](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb" id="Snippet2":::
 
-10. В **Обозреватель решений** выберите файл кода ленты. По умолчанию файл кода ленты называется **Ribbon1.CS** или **Ribbon1. vb**.
+10. В **Обозреватель решений** выберите файл кода ленты. По умолчанию файл кода ленты называется **Ribbon1. CS** или **Ribbon1. vb**.
 
 11. В строке меню выберите **Вид** > **Код**.
 
@@ -142,8 +142,8 @@ ms.locfileid: "99937424"
 
 12. В файле кода ленты добавьте следующий метод. Это метод обратного вызова для двух кнопок, добавленных в контекстное меню документа. Этот метод определяет, отображаются ли эти кнопки в контекстном меню. Кнопки Полужирный и курсив отображаются, только если щелкнуть правой кнопкой мыши текст в закладке.
 
-     [!code-csharp[Trin_Word_Document_Menus#5](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/ribbon1.cs#5)]
-     [!code-vb[Trin_Word_Document_Menus#5](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/ribbon1.vb#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_word_document_menus.cs/ribbon1.cs" id="Snippet5":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/ribbon1.vb" id="Snippet5":::
 
 ## <a name="format-the-text-in-the-bookmark"></a><a name="BKMK_formattextbkmk"></a> Форматирование текста в закладке
 
@@ -151,10 +151,10 @@ ms.locfileid: "99937424"
 
 1. В файле кода ленты добавьте `ButtonClick` обработчик событий, чтобы применить форматирование к закладке.
 
-     [!code-csharp[Trin_Word_Document_Menus#6](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/ribbon1.cs#6)]
-     [!code-vb[Trin_Word_Document_Menus#6](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/ribbon1.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_word_document_menus.cs/ribbon1.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/ribbon1.vb" id="Snippet6":::
 
-2. **Обозреватель решений** выберите **ThisDocument.CS** или **ThisDocument. vb**.
+2. **Обозреватель решений** выберите **ThisDocument. CS** или **ThisDocument. vb**.
 
 3. В строке меню выберите **Вид** > **Код**.
 
@@ -162,15 +162,15 @@ ms.locfileid: "99937424"
 
 4. Добавьте следующий код в класс **ThisDocument** .
 
-     [!code-csharp[Trin_Word_Document_Menus#3](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs#3)]
-     [!code-vb[Trin_Word_Document_Menus#3](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb" id="Snippet3":::
 
     > [!NOTE]
     > Необходимо написать код, обрабатывающий случаи, когда закладки перекрываются. Если нет, по умолчанию код будет вызываться для всех закладок в выделенном фрагменте.
 
 5. В C# необходимо добавить обработчики событий для элементов управления Bookmark в <xref:Microsoft.Office.Tools.Word.Document.Startup> событие. Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_Word_Document_Menus#4](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs" id="Snippet4":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Протестируйте документ, чтобы убедиться, что пункты меню полужирный и курсив отображаются в контекстном меню при щелчке правой кнопкой мыши по тексту в закладке и что текст имеет правильный формат.
@@ -194,7 +194,7 @@ ms.locfileid: "99937424"
 
 - Используйте флажок, чтобы изменить форматирование закладки. Дополнительные сведения см. в разделе [Пошаговое руководство. изменение форматирования документа с помощью элементов управления CheckBox](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Пошаговые руководства с использованием Word](../vsto/walkthroughs-using-word.md)
 - [Настройка пользовательского интерфейса Office](../vsto/office-ui-customization.md)
 - [Автоматизация Word с помощью расширенных объектов](../vsto/automating-word-by-using-extended-objects.md)

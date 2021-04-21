@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0080c9b0ddd7ffba4730a8cfb305bc34b6ba1690
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cd89cb1e2991f48fefd9984eaa6d5894d9b506c1
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99964320"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826581"
 ---
 # <a name="how-to-create-and-modify-custom-document-properties"></a>Как создавать и изменять пользовательские свойства документа
   Перечисленные выше приложения Microsoft Office предоставляют встроенные свойства, которые хранятся в документах. Кроме того, можно создавать и изменять настраиваемые свойства документа при наличии дополнительных сведений, которые необходимо хранить вместе с документом.
@@ -33,13 +33,13 @@ ms.locfileid: "99964320"
  В следующем примере показано, как добавить пользовательское свойство в настройку уровня документа для Excel и присвоить ему значение.
 
 ## <a name="example"></a>Пример
- [!code-vb[Trin_VstcoreProgramming#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb#6)]
- [!code-csharp[Trin_VstcoreProgramming#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs#6)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb" id="Snippet6":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs" id="Snippet6":::
 
 ## <a name="robust-programming"></a>Отказоустойчивость
  При попытке доступа к свойству `Value` для неопределенного свойства возникает исключение.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
 - [Программы настройки на уровне документа](../vsto/programming-document-level-customizations.md)
 - [Руководство. чтение и запись в свойства документа](../vsto/how-to-read-from-and-write-to-document-properties.md)

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 4bd636070a8375b6761cb2d3ab62d08be4302db4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7f78ca406d19461de7fa8e2a8c147b1003c9c852
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937502"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826971"
 ---
 # <a name="walkthrough-create-a-template-by-using-content-controls"></a>Пошаговое руководство. Создание шаблона с помощью элементов управления содержимым
   В этом пошаговом руководстве показано, как создать настройку на уровне документа, использующую элементы управления содержимым, для создания структурированного и повторно используемого содержимого в шаблоне Microsoft Office Word.
@@ -77,8 +77,8 @@ ms.locfileid: "99937502"
    |-|
    |**Имя сотрудника**|
    |**Дата приема на работу**|
-   |**Заголовок**|
-   |**Picture**|
+   |**Title**|
+   |**Снимки**|
 
 4. Щелкните первую ячейку во втором столбце (рядом с **именем сотрудника**).
 
@@ -139,17 +139,17 @@ ms.locfileid: "99937502"
 
 ### <a name="to-modify-the-ui-of-the-content-controls-programmatically"></a>Изменение пользовательского интерфейса элементов управления содержимым программным способом
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisDocument.CS** или **ThisDocument. vb** и выберите пункт **Просмотреть код**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisDocument. CS** или **ThisDocument. vb** и выберите пункт **Просмотреть код**.
 
 2. Добавьте в класс `ThisDocument` приведенный далее код. В этом коде объявляются несколько объектов, которые вы будете использовать позже в этом пошаговом руководстве.
 
-     [!code-vb[Trin_ContentControlTemplateWalkthrough#1](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#1)]
-     [!code-csharp[Trin_ContentControlTemplateWalkthrough#1](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet1":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet1":::
 
 3. Добавьте в метод `ThisDocument_Startup` класса `ThisDocument` следующий код. Этот код добавляет записи в таблицы <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> и <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> и задает замещающий текст, отображаемый в каждом из этих элементов управления, прежде чем пользователь изменяет их.
 
-     [!code-vb[Trin_ContentControlTemplateWalkthrough#2](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#2)]
-     [!code-csharp[Trin_ContentControlTemplateWalkthrough#2](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#2)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet2":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet2":::
 
 ## <a name="prevent-users-from-editing-the-employee-table"></a>Запретить пользователям изменять таблицу сотрудников
  Используйте объект <xref:Microsoft.Office.Tools.Word.GroupContentControl>, объявленный ранее, для защиты таблицы сотрудников. После применения защиты пользователи по-прежнему смогут редактировать элементы управления содержимым в таблице. Однако они не смогут изменять текст в первом столбце или изменять таблицу иным способом, например добавляя или удаляя строки и столбцы. Дополнительные сведения об использовании <xref:Microsoft.Office.Tools.Word.GroupContentControl> для защиты части документа см. в разделе [элементы управления содержимым](../vsto/content-controls.md).
@@ -158,8 +158,8 @@ ms.locfileid: "99937502"
 
 1. Добавьте следующий код в метод `ThisDocument_Startup` класса `ThisDocument` после кода, добавленного на предыдущем шаге. Этот код предотвращает изменение таблицы сотрудников, помещая таблицу внутри объекта <xref:Microsoft.Office.Tools.Word.GroupContentControl>, объявленного ранее.
 
-     [!code-vb[Trin_ContentControlTemplateWalkthrough#3](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#3)]
-     [!code-csharp[Trin_ContentControlTemplateWalkthrough#3](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#3)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet3":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet3":::
 
 ## <a name="add-the-tables-to-the-building-block-collection"></a>Добавление таблиц в коллекцию стандартных блоков
  Добавьте таблицы в коллекцию стандартных блоков документа в шаблоне, чтобы пользователи могли вставлять таблицы, созданные вами в документе. Дополнительные сведения о стандартных блоках документов см. в разделе [элементы управления содержимым](../vsto/content-controls.md).
@@ -168,13 +168,13 @@ ms.locfileid: "99937502"
 
 1. Добавьте следующий код в метод `ThisDocument_Startup` класса `ThisDocument` после кода, добавленного на предыдущем шаге. Этот код добавляет новые стандартные блоки, содержащие таблицы, в коллекцию Microsoft. Office. Interop. Word. Буилдингблоккентриес, которая содержит все повторно используемые стандартные блоки в шаблоне. Новые стандартные блоки определяются в новой категории с именем **Employee и Customer** , и им назначается тип стандартного блока `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1` .
 
-     [!code-vb[Trin_ContentControlTemplateWalkthrough#4](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#4)]
-     [!code-csharp[Trin_ContentControlTemplateWalkthrough#4](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#4)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet4":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet4":::
 
 2. Добавьте следующий код в метод `ThisDocument_Startup` класса `ThisDocument` после кода, добавленного на предыдущем шаге. Этот код удаляет таблицы из шаблона. Таблицы более не нужны, поскольку вы добавили их в коллекцию повторно используемых стандартных блоков в шаблоне. Код сначала переводит документ в режим конструктора, чтобы можно было удалить защищенную таблицу сотрудников.
 
-     [!code-vb[Trin_ContentControlTemplateWalkthrough#5](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#5)]
-     [!code-csharp[Trin_ContentControlTemplateWalkthrough#5](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#5)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet5":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet5":::
 
 ## <a name="create-a-content-control-that-displays-the-building-blocks"></a>Создание элемента управления содержимым, отображающего стандартные блоки
  Создайте элемент управления содержимым, предоставляющий доступ к стандартным блокам (таблицам), созданным ранее. Пользователи могут щелкнуть этот элемент управления, чтобы добавить таблицы в документ.
@@ -183,8 +183,8 @@ ms.locfileid: "99937502"
 
 1. Добавьте следующий код в метод `ThisDocument_Startup` класса `ThisDocument` после кода, добавленного на предыдущем шаге. Этот код инициализирует объект <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl>, объявленный ранее. Компонент <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> отображает все стандартные блоки, определенные в категории **Employee и Customer** , с типом стандартного блока `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1` .
 
-     [!code-vb[Trin_ContentControlTemplateWalkthrough#6](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#6)]
-     [!code-csharp[Trin_ContentControlTemplateWalkthrough#6](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#6)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet6":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet6":::
 
 ## <a name="test-the-project"></a>Тестирование проекта
  Пользователи могут щелкнуть элементы управления коллекции стандартных блоков в документе, чтобы вставить таблицу сотрудников или отзывов. Пользователи могут ввести или выбрать ответы в элементах управления содержимым в обеих таблицах. Пользователи могут изменять другие части таблицы отзывов, но они не смогут менять другие части таблицы сотрудников.
@@ -236,7 +236,7 @@ ms.locfileid: "99937502"
 
 - Привязка элементов управления содержимым к фрагментам XML-кода, которые также называют пользовательскими XML-частями, внедренным в документ. Дополнительные сведения см. [в разделе Пошаговое руководство. Привязка элементов управления содержимым к пользовательским XML-частям](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Автоматизация Word с помощью расширенных объектов](../vsto/automating-word-by-using-extended-objects.md)
 - [Элементы управления содержимым](../vsto/content-controls.md)
 - [Как добавить элементы управления содержимым в документы Word](../vsto/how-to-add-content-controls-to-word-documents.md)

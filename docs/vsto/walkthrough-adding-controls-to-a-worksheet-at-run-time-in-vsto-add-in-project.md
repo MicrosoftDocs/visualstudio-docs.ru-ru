@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: bc6c608d406cabe6962a47dae4c86fa7503a05a1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 178180e8c698ca56b15e46bcbe65877d68c6b2a1
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99921782"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824683"
 ---
 # <a name="walkthrough-add-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project"></a>Пошаговое руководство. Добавление элементов управления на лист во время выполнения в проекте надстройки VSTO
   Вы можете добавить элементы управления на любой открытый лист с помощью надстройки VSTO для Excel. В этом пошаговом руководстве показано, как с помощью ленты предоставить пользователям возможность добавлять <xref:Microsoft.Office.Tools.Excel.Controls.Button>, <xref:Microsoft.Office.Tools.Excel.NamedRange> и <xref:Microsoft.Office.Tools.Excel.ListObject> на лист. Дополнительные сведения см. [в разделе Добавление элементов управления в документы Office во время выполнения](../vsto/adding-controls-to-office-documents-at-run-time.md).
@@ -65,7 +65,7 @@ ms.locfileid: "99921782"
 
 2. В диалоговом окне **Добавление нового элемента** выберите **Лента (визуальный конструктор)**, а затем нажмите кнопку **добавить**.
 
-     Файл с именем **Ribbon1.CS** или **Ribbon1. vb** откроется в конструкторе лент и отобразит вкладку и группу по умолчанию.
+     В конструкторе лент откроется файл с именем **Ribbon1. CS** или **Ribbon1. vb** и отобразится вкладка и группа по умолчанию.
 
 3. Перетащите элемент управления **CheckBox** с вкладки **Элементы управления ленты Office** панели элементов в группу **group1**.
 
@@ -76,7 +76,7 @@ ms.locfileid: "99921782"
     |Свойство|Значение|
     |--------------|-----------|
     |**Имя**|**Button**|
-    |**Label**|**Button**|
+    |**Label**|**Кнопка**|
 
 6. Добавьте второй флажок в **group1**, а затем измените следующие свойства.
 
@@ -105,10 +105,10 @@ ms.locfileid: "99921782"
 
      Этот код использует метод `GetVstoObject` для получения ведущего элемента, представляющего первый лист в книге, а затем добавляет элемент управления <xref:Microsoft.Office.Tools.Excel.Controls.Button> в выбранную ячейку.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#2](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#2)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#2](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet2":::
 
-3. В **Обозреватель решений** выберите *Ribbon1.CS* или *Ribbon1. vb*.
+3. В **Обозреватель решений** выберите *Ribbon1. CS* или *Ribbon1. vb*.
 
 4. В меню **вид** выберите **конструктор**.
 
@@ -118,8 +118,8 @@ ms.locfileid: "99921782"
 
      Этот код использует метод `GetVstoObject` для получения ведущего элемента, представляющего первый лист в книге, а затем определяет элемент управления <xref:Microsoft.Office.Tools.Excel.NamedRange> для выбранных ячеек.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#3](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#3)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#3](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet3":::
 
 7. В конструкторе ленты дважды щелкните элемент **ListObject**.
 
@@ -127,31 +127,31 @@ ms.locfileid: "99921782"
 
      Этот код использует метод `GetVstoObject` для получения ведущего элемента, представляющего первый лист в книге, а затем определяет элемент управления <xref:Microsoft.Office.Tools.Excel.ListObject> для выбранных ячеек.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#4](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#4)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#4](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet4":::
 
 9. Добавьте следующие операторы в начало файла кода ленты.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#1](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#1)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#1](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb" id="Snippet1":::
 
 ## <a name="remove-controls-from-the-worksheet"></a>Удаление элементов управления из листа
  Элементы управления не сохраняются при сохранении и закрытии листа. Все созданные элементы управления Windows Forms следует удалить программными средствами до сохранения листа, при этом только контур элемента управления появится при повторном открытии книги. Добавьте код в событие <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave>, которое удаляет элементы управления Windows Forms из коллекции элементов управления созданного ведущего элемента управления. Дополнительные сведения см. [в разделе Сохранение динамических элементов управления в документах Office](../vsto/persisting-dynamic-controls-in-office-documents.md).
 
 ### <a name="to-remove-controls-from-the-worksheet"></a>Удаление элементов управления с листа
 
-1. В **Обозреватель решений** выберите *ThisAddIn.CS* или *ThisAddIn. vb*.
+1. В **Обозреватель решений** выберите *ThisAddIn. CS* или *ThisAddIn. vb*.
 
 2. В меню **Вид** выберите пункт **Код**.
 
 3. Добавьте следующий метод в класс `ThisAddIn`. Этот код получает первый лист в книге, а затем использует метод `HasVstoObject`, чтобы проверить, содержит ли лист созданный объект листа. Если созданный объект листа содержит элементы управления, код получает его и проходит по коллекции элементов управления, удаляя элементы управления.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#6](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#6)]
-     [!code-vb[Trin_Excel_Dynamic_Controls#6](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb" id="Snippet6":::
 
 4. В C# необходимо создать обработчик для события <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave>. Этот код можно поместить в методе `ThisAddIn_Startup`. Дополнительные сведения о создании обработчиков событий см. в разделе [инструкции. Создание обработчиков событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md). Замените метод `ThisAddIn_Startup` приведенным ниже кодом.
 
-     [!code-csharp[Trin_Excel_Dynamic_Controls#5](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs" id="Snippet5":::
 
 ## <a name="test-the-solution"></a>Тестирование решения
  Добавьте элементы управления на лист, выбрав их на пользовательской вкладке ленты. При сохранении листа эти элементы управления будут удалены.
@@ -189,7 +189,7 @@ ms.locfileid: "99921782"
 
 - Дополнительные сведения о сохранении элементов управления на листе см. в разделе примеры динамических элементов управления надстройки VSTO для Excel в разделе [образцы разработки Office и пошаговые руководства](../vsto/office-development-samples-and-walkthroughs.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Решения Excel](../vsto/excel-solutions.md)
 - [Общие сведения об элементах управления Windows Forms в документах Office](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Элементы управления в документах Office](../vsto/controls-on-office-documents.md)

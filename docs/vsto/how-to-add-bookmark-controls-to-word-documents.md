@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: c5330d4419c065d7209900bfd4fa404663be185d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0a5520582db9919417b1c70d773355901ac0b0a5
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99917468"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826607"
 ---
 # <a name="how-to-add-bookmark-controls-to-word-documents"></a>Руководство. Добавление элементов управления Bookmark в документы Word
   В проектах на уровне документа элементы управления <xref:Microsoft.Office.Tools.Word.Bookmark> можно добавлять в документ во время разработки или во время выполнения. В проектах надстроек VSTO вы можете добавлять элементы управления <xref:Microsoft.Office.Tools.Word.Bookmark> в любой открытый документ во время выполнения.
@@ -66,7 +66,7 @@ ms.locfileid: "99917468"
 
 3. Выберите текст или другие элементы, которые необходимо включить в закладку.
 
-4. Нажмите кнопку **OK**.
+4. Нажмите кнопку **ОК**.
 
      Если вы не хотите использовать имя закладки по умолчанию, измените его в окне **Свойства** .
 
@@ -91,8 +91,8 @@ ms.locfileid: "99917468"
 
 1. Вставьте следующий код в обработчике событий `ThisDocument_Startup` в проекте, чтобы добавить элемент управления <xref:Microsoft.Office.Tools.Word.Bookmark> в первый абзац документа.
 
-     [!code-csharp[Trin_VstcoreHostControlsWord#1](../vsto/codesnippet/CSharp/trin_vstcorehostcontrolsword/ThisDocument.cs#1)]
-     [!code-vb[Trin_VstcoreHostControlsWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsWordVB/ThisDocument.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorehostcontrolsword/ThisDocument.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsWordVB/ThisDocument.vb" id="Snippet1":::
 
     > [!NOTE]
     > Если необходимо создать элемент управления <xref:Microsoft.Office.Tools.Word.Bookmark> на основе существующего <xref:Microsoft.Office.Interop.Word.Bookmark>, используйте метод <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> и передайте его в существующий <xref:Microsoft.Office.Interop.Word.Bookmark>.
@@ -114,8 +114,8 @@ ms.locfileid: "99917468"
 
      Следующий пример кода добавляет новый <xref:Microsoft.Office.Tools.Word.Bookmark> в начало активного документа. Чтобы использовать этот пример, запустите его из обработчика событий `ThisAddIn_Startup` в проекте надстройки VSTO Word.
 
-     [!code-vb[Trin_WordAddInDynamicControls#4](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#4)]
-     [!code-csharp[Trin_WordAddInDynamicControls#4](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#4)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet4":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet4":::
 
 #### <a name="to-add-a-bookmark-control-that-is-based-on-a-native-bookmark-control"></a>Добавление элемента управления Bookmark, основанного на собственном элементе управления Bookmark
 
@@ -123,10 +123,10 @@ ms.locfileid: "99917468"
 
      В следующем примере кода создается новый объект <xref:Microsoft.Office.Tools.Word.Bookmark> , основанный на первом объекте <xref:Microsoft.Office.Interop.Word.Bookmark> в активном документе. Чтобы использовать этот пример, запустите его из обработчика событий `ThisAddIn_Startup` в проекте надстройки VSTO Word.
 
-     [!code-vb[Trin_WordAddInDynamicControls#5](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#5)]
-     [!code-csharp[Trin_WordAddInDynamicControls#5](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#5)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet5":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet5":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Автоматизация Word с помощью расширенных объектов](../vsto/automating-word-by-using-extended-objects.md)
 - [Общие сведения о ведущих элементах и элементах управления ведущего приложения](../vsto/host-items-and-host-controls-overview.md)
 - [Добавление элементов управления в документы Office во время выполнения](../vsto/adding-controls-to-office-documents-at-run-time.md)

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: a5a89716797ec460b461f79c94df8cea475532a8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8a7bc48df6e30381ff275b9f11dabe04a25d6dd7
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99885564"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825931"
 ---
 # <a name="how-to-programmatically-display-a-string-in-a-worksheet-cell"></a>Руководство. программное отображение строки в ячейке листа
   В этом примере показано, как программным способом отобразить текст в ячейке. Чтобы отобразить текст в ячейке, используйте либо <xref:Microsoft.Office.Tools.Excel.NamedRange> элемент управления, либо собственный объект диапазона Excel.
@@ -35,8 +35,8 @@ ms.locfileid: "99885564"
 
 1. Присвойте <xref:Microsoft.Office.Tools.Excel.NamedRange> элементу управления значение **Hello World**.
 
-     [!code-csharp[Trin_VstcoreExcelAutomation#68](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#68)]
-     [!code-vb[Trin_VstcoreExcelAutomation#68](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#68)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet68":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet68":::
 
 ## <a name="use-a-native-excel-range"></a>Использовать собственный диапазон Excel
  Следующий код создает новый диапазон программным способом, а затем присваивает ему значение.
@@ -45,10 +45,10 @@ ms.locfileid: "99885564"
 
 1. Получите диапазон в ячейке **a1** `Sheet1` и задайте для него значение **Hello World**.
 
-     [!code-csharp[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#69)]
-     [!code-vb[Trin_VstcoreExcelAutomation#69](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#69)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet69":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet69":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Пошаговое руководство. получение данных с помощью формы Windows](../vsto/walkthrough-collecting-data-using-a-windows-form.md)
 - [Устранение неполадок решений Office](../vsto/troubleshooting-office-solutions.md)
 - [Элемент управления NamedRange](../vsto/namedrange-control.md)

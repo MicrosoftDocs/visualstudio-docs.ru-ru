@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 7599348b0c44b7239305bb5af49ee2f5c51d882b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d94891520695117c7a395f81feda81e52f909fe6
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906594"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824501"
 ---
 # <a name="walkthrough-bind-data-to-controls-on-a-word-actions-pane"></a>Пошаговое руководство. Привязка данных к элементам управления в области действий Word
   В этом пошаговом руководстве демонстрируется привязка данных к элементам управления на панели действий в Word. Элементы управления показывают отношение «Основной/подробности» между таблицами в базе данных SQL Server.
@@ -89,7 +89,7 @@ ms.locfileid: "99906594"
 
 4. Выберите подключение данных к образцу базы данных Northwind SQL Server или добавьте новое соединение с помощью кнопки **создать подключение** .
 
-5. Нажмите кнопку **Далее**.
+5. Щелкните **Далее**.
 
 6. Снимите флажок сохранить соединение, если он установлен, а затем нажмите кнопку **Далее**.
 
@@ -134,8 +134,8 @@ ms.locfileid: "99906594"
 
     |Свойство|Значение|
     |--------------|-----------|
-    |**Имя**|**Insert**|
-    |**Text**|**Insert**|
+    |**Имя**|**Вставить**|
+    |**Text**|**Вставить**|
 
 12. Измените размер пользовательского элемента управления в соответствии с элементами управления.
 
@@ -146,12 +146,12 @@ ms.locfileid: "99906594"
 
 1. В <xref:System.Windows.Forms.UserControl.Load> обработчике событий `ActionsControl` класса добавьте следующий код.
 
-     [!code-vb[Trin_VstcoreActionsPaneWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb#1)]
-     [!code-csharp[Trin_VstcoreActionsPaneWord#1](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs#1)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb" id="Snippet1":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs" id="Snippet1":::
 
 2. В C# необходимо присоединить обработчик событий к <xref:System.Windows.Forms.UserControl.Load> событию. Этот код можно поместить в `ActionsControl` конструктор после вызова метода `InitializeComponent` . Дополнительные сведения о создании обработчиков событий см. в разделе [инструкции. Создание обработчиков событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#33](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs#33)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs" id="Snippet33":::
 
 ### <a name="to-set-data-binding-properties-of-the-controls"></a>Задание свойств привязки данных элементов управления
 
@@ -178,43 +178,43 @@ ms.locfileid: "99906594"
 
 1. В `ActionsControl` классе создайте метод для форматирования заголовков таблицы.
 
-     [!code-vb[Trin_VstcoreActionsPaneWord#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb#2)]
-     [!code-csharp[Trin_VstcoreActionsPaneWord#2](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs#2)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb" id="Snippet2":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs" id="Snippet2":::
 
 ### <a name="to-create-the-table"></a>Создание таблицы
 
 1. В `ActionsControl` классе напишите метод, который создаст таблицу, если она еще не существует, и добавить данные из панели действия в таблицу.
 
-     [!code-vb[Trin_VstcoreActionsPaneWord#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb#3)]
-     [!code-csharp[Trin_VstcoreActionsPaneWord#3](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs#3)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb" id="Snippet3":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs" id="Snippet3":::
 
 ### <a name="to-insert-text-into-a-word-table"></a>Вставка текста в таблицу Word
 
 1. Добавьте следующий код в <xref:System.Windows.Forms.Control.Click> обработчик событий кнопки **вставки** .
 
-     [!code-vb[Trin_VstcoreActionsPaneWord#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb#4)]
-     [!code-csharp[Trin_VstcoreActionsPaneWord#4](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs#4)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ActionsControl.vb" id="Snippet4":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs" id="Snippet4":::
 
 2. В C# необходимо создать обработчик событий для <xref:System.Windows.Forms.Control.Click> события кнопки.  Этот код можно поместить в <xref:System.Windows.Forms.UserControl.Load> обработчик событий `ActionsControl` класса.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#5](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ActionsControl.cs" id="Snippet5":::
 
 ## <a name="show-the-actions-pane"></a>Отображение панели "действия"
  Панель действий отображается после добавления к ней элементов управления.
 
 ### <a name="to-show-the-actions-pane"></a>Отображение панели «действия»
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisDocument. vb** или **ThisDocument.CS** и выберите в контекстном меню пункт **Просмотреть код** .
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **ThisDocument. vb** или **ThisDocument. CS** и выберите в контекстном меню пункт **Просмотреть код** .
 
 2. Создайте новый экземпляр элемента управления в верхней части `ThisDocument` класса, чтобы он выглядел так, как показано в следующем примере.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#6](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#6)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet6":::
 
 3. Добавьте код в <xref:Microsoft.Office.Tools.Word.Document.Startup> обработчик событий класса, `ThisDocument` чтобы он выглядел как в следующем примере.
 
-     [!code-csharp[Trin_VstcoreActionsPaneWord#7](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#7)]
-     [!code-vb[Trin_VstcoreActionsPaneWord#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#7)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet7":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet7":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать документ, чтобы убедиться, что панель действий отображается при открытии документа. Проверьте отношение "основной/подробности" в элементах управления на панели "действия" и убедитесь, что данные заполнены в таблице Word при нажатии кнопки " **Вставить** ".
@@ -238,7 +238,7 @@ ms.locfileid: "99906594"
 
 - Развертывание проекта. Дополнительные сведения см. в статье [развертывание решения Office с помощью ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Обзор панели действий](../vsto/actions-pane-overview.md)
 - [Как добавить панель действий в документы Word или книги Excel](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
 - [Привязка данных к элементам управления в решениях Office](../vsto/binding-data-to-controls-in-office-solutions.md)

@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 6306b13cc40d8b93de734168fe1e6df92c256d21
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f053e87f8cdfd2bdf87bbdf4b7d115f6d9bbec26
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99888697"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107823994"
 ---
 # <a name="ribbon-object-model-overview"></a>Общие сведения об объектной модели ленты
   [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]Предоставляет объектную модель со строгой типизацией, которую можно использовать для получения и задания свойств элементов управления ленты во время выполнения. Например, можно динамически заполнять элементы управления меню или отображать или скрывать элементы управления в зависимости от контекста. На ленту можно также добавить вкладки, группы и элементы управления, но только перед загрузкой ленты приложением Office. Дополнительные сведения см. в разделе [Задание свойств, которые становятся доступны только для чтения](#SettingReadOnlyProperties).
@@ -50,13 +50,13 @@ ms.locfileid: "99888697"
 |Имя элемента управления|Имя класса|
 |------------------|----------------|
 |**Box**|<xref:Microsoft.Office.Tools.Ribbon.RibbonBox>|
-|**Button**|<xref:Microsoft.Office.Tools.Ribbon.RibbonButton>|
+|**Кнопка**|<xref:Microsoft.Office.Tools.Ribbon.RibbonButton>|
 |**ButtonGroup**|<xref:Microsoft.Office.Tools.Ribbon.RibbonButtonGroup>|
 |**CheckBox**|<xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox>|
 |**ComboBox**|<xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox>|
 |**Крывающихся**|<xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown>|
 |**Поле**|<xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox>|
-|**Коллекции**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|
+|**Галерея**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>|
 |**Группа**|<xref:Microsoft.Office.Tools.Ribbon.RibbonGroup>|
 |**Label**|<xref:Microsoft.Office.Tools.Ribbon.RibbonLabel>|
 |**Меню**|<xref:Microsoft.Office.Tools.Ribbon.RibbonMenu>|
@@ -111,12 +111,12 @@ ms.locfileid: "99888697"
 
  Добавьте следующий код.
 
- [!code-csharp[Trin_Ribbon_ObjectModel#1](../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/Ribbon1.Designer.cs#1)]
- [!code-vb[Trin_Ribbon_ObjectModel#1](../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/Ribbon1.Designer.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/Ribbon1.Designer.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/Ribbon1.Designer.vb" id="Snippet1":::
 
  В проектах Visual C#, обновленных с Visual Studio 2008, конструктор отображается в файле кода ленты.
 
- В проектах Visual Basic или в проектах Visual C#, созданных в [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] , конструктор отображается в файле кода конструктора лент. Этот файл называется *йоурриббонитем*. Designer.cs или *йоурриббонитем*. Designer. vb. Чтобы просмотреть этот файл в Visual Basic проектах, необходимо сначала нажать кнопку " **Показать все файлы** " в Обозреватель решений.
+ В проектах Visual Basic или в проектах Visual C#, созданных в [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] , конструктор отображается в файле кода конструктора лент. Этот файл называется *йоурриббонитем*. Designer. cs или *йоурриббонитем*. Designer. vb. Чтобы просмотреть этот файл в Visual Basic проектах, необходимо сначала нажать кнопку " **Показать все файлы** " в Обозреватель решений.
 
 ### <a name="set-properties-in-the-createribbonextensibilityobject-method"></a>Задание свойств в методе Креатериббонекстенсибилитйобжект
  Свойства `Ribbon` элемента управления можно задать при переопределении `CreateRibbonExtensibilityObject` метода в `ThisAddin` `ThisWorkbook` классе, или `ThisDocument` проекта. Дополнительные сведения о `CreateRibbonExtensibilityObject` методе см. в разделе [Лента Overview](../vsto/ribbon-overview.md).
@@ -125,8 +125,8 @@ ms.locfileid: "99888697"
 
  Добавьте следующий код.
 
- [!code-vb[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb#2)]
- [!code-csharp[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs#2)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb" id="Snippet2":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs" id="Snippet2":::
 
 ### <a name="properties-that-become-read-only"></a><a name="ReadOnlyProperties"></a> Свойства, которые становятся доступны только для чтения
  В следующей таблице показаны свойства, которые можно задать только до загрузки ленты.
@@ -157,7 +157,7 @@ ms.locfileid: "99888697"
 |**сизестринг**|<xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox>|
 |**стартфромскратч**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|
 |**Вкладки**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|
-|**Заголовок**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSeparator>|
+|**Title**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSeparator>|
 
 ### <a name="set-properties-for-ribbons-that-appear-in-outlook-inspectors"></a>Задание свойств для лент, отображаемых в инспекторах Outlook
  Новый экземпляр ленты создается каждый раз, когда пользователь открывает инспектор, в котором отображается лента. Однако свойства, перечисленные в таблице выше, можно задать только до создания первого экземпляра ленты. После создания первого экземпляра эти свойства становятся доступны только для чтения, поскольку первый экземпляр определяет XML-файл, используемый Outlook для загрузки ленты.
@@ -172,7 +172,7 @@ ms.locfileid: "99888697"
 
 |Событие|Описание|
 |-----------|-----------------|
-|Нажмите кнопку|Происходит при щелчке элемента управления.|
+|Щелкните|Происходит при щелчке элемента управления.|
 |TextChanged|Происходит при изменении текста поля ввода или поля со списком.|
 |итемслоадинг|Происходит, когда коллекция Items элемента управления запрашивается в Office. Office кэширует коллекцию Items до тех пор, пока код не изменит свойства элемента управления или не вызовите <xref:Microsoft.Office.Core.IRibbonUI.InvalidateControl%2A> метод.|
 |ButtonClick|Происходит при нажатии кнопки в <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery> или <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown> .|
@@ -186,7 +186,7 @@ ms.locfileid: "99888697"
 |*отправителя*|Объект <xref:System.Object>, представляющий элемент управления, который вызвал событие.|
 |*e*|Объект <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs>, содержащий свойство <xref:Microsoft.Office.Core.IRibbonControl>. Этот элемент управления используется для доступа к любому свойству, недоступному в объектной модели ленты, предоставляемой [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] .|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Доступ к ленте во время выполнения](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Общие сведения о ленте](../vsto/ribbon-overview.md)
 - [Как приступить к настройке ленты](../vsto/how-to-get-started-customizing-the-ribbon.md)

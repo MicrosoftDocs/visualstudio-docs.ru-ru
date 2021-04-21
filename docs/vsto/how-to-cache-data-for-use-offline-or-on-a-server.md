@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: ab53676d6c00fdda3bb7f4554321f0c0550e5748
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 07d7a33d90fd9d05c041ddc27f92a5b6a59bb75e
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954050"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825996"
 ---
 # <a name="how-to-cache-data-for-use-offline-or-on-a-server"></a>Как кэшировать данные для использования в автономном режиме или на сервере
   Можно пометить элемент данных для кэширования в документе, чтобы он был доступен в автономном режиме. Это также делает возможным обработку данных в документе другим кодом, когда документ хранится на сервере.
@@ -42,8 +42,8 @@ ms.locfileid: "99954050"
 
 2. Примените <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> к элементу атрибут, чтобы пометить элемент данных, который будет храниться в кэше данных документа. В следующем примере этот атрибут применяется к объявлению поля для <xref:System.Data.DataSet> .
 
-     [!code-csharp[Trin_VstcoreDataExcel#11](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#11)]
-     [!code-vb[Trin_VstcoreDataExcel#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#11)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet11":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet11":::
 
 3. Добавьте код для создания экземпляра элемента данных и, если это применимо, для его загрузки из базы данных.
 
@@ -61,7 +61,7 @@ ms.locfileid: "99954050"
 
 4. В окне **Свойства** задайте для свойства **модификаторы** значение **Public** (по умолчанию это **внутренний**).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Кэширование данных](../vsto/caching-data.md)
 - [Руководство. программный кэш источника данных в документе Office](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
 - [Пошаговое руководство. кэширование данных в документе, защищенном паролем](../vsto/how-to-cache-data-in-a-password-protected-document.md)

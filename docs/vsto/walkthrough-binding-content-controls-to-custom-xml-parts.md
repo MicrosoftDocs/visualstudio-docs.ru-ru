@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 8e5e3d58ac858afe905aae38c84e6403b43fb789
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6e4a10949f463cc769890b828ba39de30a9b4c1c
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99906624"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824579"
 ---
 # <a name="walkthrough-bind-content-controls-to-custom-xml-parts"></a>Пошаговое руководство. Привязка элементов управления содержимым к пользовательским XML-частям
   В этом пошаговом руководстве показано, как привязать элементы управления содержимым в настройке на уровне документа для Word к XML-данным, хранящимся в документе.
@@ -80,7 +80,7 @@ ms.locfileid: "99906624"
    |-|
    |**Имя сотрудника**|
    |**Дата приема на работу**|
-   |**Заголовок**|
+   |**Title**|
 
 4. Во втором столбце таблицы выберите первую строку (рядом с **именем сотрудника**).
 
@@ -227,24 +227,24 @@ ms.locfileid: "99906624"
 
 ### <a name="to-add-a-custom-xml-part-to-the-document"></a>Порядок добавления пользовательской XML-части в документ
 
-1. В **Обозреватель решений** откройте контекстное меню для  **ThisDocument.CS** или **ThisDocument. vb**, а затем выберите **Просмотреть код**.
+1. В **Обозреватель решений** откройте контекстное меню для  **ThisDocument. CS** или **ThisDocument. vb**, а затем выберите **Просмотреть код**.
 
 2. Добавьте в класс `ThisDocument` следующие объявления. В этом коде объявляются несколько объектов, которые будут использоваться для добавления пользовательской XML-части в документ.
 
-     [!code-csharp[Trin_ContentControlXmlPartWalkthrough#1](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#1)]
-     [!code-vb[Trin_ContentControlXmlPartWalkthrough#1](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb" id="Snippet1":::
 
 3. Добавьте следующий метод в класс `ThisDocument`. Этот метод получает содержимое файла данных XML, внедренного в сборку в качестве ресурса, и возвращает содержимое в виде XML-строки.
 
-     [!code-csharp[Trin_ContentControlXmlPartWalkthrough#3](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#3)]
-     [!code-vb[Trin_ContentControlXmlPartWalkthrough#3](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb" id="Snippet3":::
 
 4. Добавьте следующий метод в класс `ThisDocument`. Метод `AddCustomXmlPart` создает пользовательскую XML-часть, которая содержит XML-строку, передаваемую в метод.
 
      Чтобы пользовательская XML-часть создавалась всего один раз, метод создает ее, только если пользовательская XML-часть с соответствующим идентификатором GUID еще не существует в документе. При первом вызове этого метода он сохраняет значение свойства <xref:Microsoft.Office.Core._CustomXMLPart.Id%2A> в строке `employeeXMLPartID`. Значение `employeeXMLPartID` строки хранится в документе, поскольку он был объявлен с помощью атрибута <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute>.
 
-     [!code-csharp[Trin_ContentControlXmlPartWalkthrough#4](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#4)]
-     [!code-vb[Trin_ContentControlXmlPartWalkthrough#4](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb" id="Snippet4":::
 
 ## <a name="bind-the-content-controls-to-elements-in-the-custom-xml-part"></a>Привязка элементов управления содержимым к элементам в пользовательской XML-части
  Привяжите каждый элемент управления содержимым к элементу в пользовательской XML-части с помощью свойства **XmlMapping** каждого элемента управления содержимым.
@@ -253,8 +253,8 @@ ms.locfileid: "99906624"
 
 1. Добавьте следующий метод в класс `ThisDocument`. Он привязывает каждый элемент управления содержимым к элементу в пользовательской XML-части и задает формат отображения даты <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>.
 
-     [!code-csharp[Trin_ContentControlXmlPartWalkthrough#5](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#5)]
-     [!code-vb[Trin_ContentControlXmlPartWalkthrough#5](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs" id="Snippet5":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb" id="Snippet5":::
 
 ## <a name="run-your-code-when-the-document-is-opened"></a>Выполнение кода при открытии документа
  Создайте пользовательскую XML-часть и привяжите пользовательские элементы управления к данным при открытии документа.
@@ -263,8 +263,8 @@ ms.locfileid: "99906624"
 
 1. Добавьте в метод `ThisDocument_Startup` класса `ThisDocument` следующий код. Этот код получает XML-строку из файла **employees.xml** , добавляет XML-строку в новую пользовательскую часть XML в документе и привязывает элементы управления содержимым к элементам в пользовательской XML-части.
 
-     [!code-csharp[Trin_ContentControlXmlPartWalkthrough#2](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#2)]
-     [!code-vb[Trin_ContentControlXmlPartWalkthrough#2](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb" id="Snippet2":::
 
 ## <a name="test-the-project"></a>Тестирование проекта
  При открытии документа элементы управления содержимым отображают данные из элементов в пользовательской XML-части. Можно щелкнуть, <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> чтобы выбрать одно из трех допустимых значений для `title` элемента, определенных в файле **Employees. xsd** . Если изменить данные в любом из элементов управления содержимым, новые значения сохраняются в пользовательской XML-части в документе.
@@ -279,7 +279,7 @@ ms.locfileid: "99906624"
     |-|-|
     |**Имя сотрудника**|**Karina Leal**|
     |**Дата приема на работу**|**1 апреля 1999 г.**|
-    |**Заголовок**|**Менеджер**|
+    |**Title**|**Менеджер**|
 
 3. Щелкните ячейку справа от ячейки **имя сотрудника** и введите другое имя.
 
@@ -318,7 +318,7 @@ ms.locfileid: "99906624"
 
 - Использование элементов управления содержимым для защиты частей документов. Дополнительные сведения см. [в разделе руководство. Защита частей документов с помощью элементов управления содержимым](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Автоматизация Word с помощью расширенных объектов](../vsto/automating-word-by-using-extended-objects.md)
 - [Элементы управления содержимым](../vsto/content-controls.md)
 - [Как добавить элементы управления содержимым в документы Word](../vsto/how-to-add-content-controls-to-word-documents.md)

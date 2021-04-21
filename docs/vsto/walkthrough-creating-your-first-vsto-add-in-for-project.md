@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: f35649db5f61cb545bb3550980b3d6b9a8742cd3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 48d7baf9605947818ffd79eb7312c0dbefe581ac
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966504"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824267"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-project"></a>Пошаговое руководство. Создание первой надстройки VSTO для Project
   В этом пошаговом руководстве показано, как создать надстройку VSTO для проекта Microsoft Office. Функции, создаваемые в таком решении, доступны для самого приложения независимо от того, какие проекты открыты. Дополнительные сведения см. в статье [Общие сведения о разработке решений Office &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
@@ -54,7 +54,7 @@ ms.locfileid: "99966504"
 
 1. Запустите среду [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2. В меню **Файл** укажите **Создать**, затем нажмите **Проект**.
+2. В меню **Файл** выберите пункт **Создать**, а затем команду **Проект**.
 
 3. В области шаблонов разверните узел **Visual C#** или **Visual Basic**, а затем узел **Office/SharePoint**.
 
@@ -64,7 +64,7 @@ ms.locfileid: "99966504"
 
 6. В поле **Имя** введите **FirstProjectAddIn**.
 
-7. Нажмите кнопку **OK**.
+7. Нажмите кнопку **ОК**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] создает проект **FirstProjectAddIn** и открывает файл кода **ThisAddIn** в редакторе.
 
@@ -81,8 +81,8 @@ ms.locfileid: "99966504"
 
     Когда пользователь создает проект, этот обработчик событий добавляет в него задачу.
 
-    [!code-vb[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb#1)]
-    [!code-csharp[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs" id="Snippet1":::
 
    Чтобы изменить проект, в этом примере кода используются следующие объекты:
 
@@ -92,7 +92,7 @@ ms.locfileid: "99966504"
 
 1. Если используется C#, добавьте в обработчик событий `ThisAddIn_Startup` указанный ниже код. Этот код соединяет `Application_Newproject` обработчик событий с событием NewProject.
 
-     [!code-csharp[Trin_ProjectAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs" id="Snippet2":::
 
 ## <a name="test-the-project"></a>Тестирование проекта
  Во время сборки и выполнения проекта убедитесь в том, что новая задача отображается в новом проекте.
@@ -129,7 +129,7 @@ ms.locfileid: "99966504"
 
 - Развертывание надстроек VSTO для Project: [развертывание решения Office](../vsto/deploying-an-office-solution.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
 - [Решения проекта](../vsto/project-solutions.md)
 - [Создание решений Office](../vsto/building-office-solutions.md)

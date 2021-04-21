@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: e8c88bbf529da8e07976c012d40ca59e5f1e5626
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 62a49919522c5d4a88b6f4b6876b567c8d275dec
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99920368"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826425"
 ---
 # <a name="walkthrough-collect-data-by-using-a-windows-form"></a>Пошаговое руководство. получение данных с помощью формы Windows
   В этом пошаговом руководстве показано, как открывается форма Windows Forms из настройки уровня документа для Microsoft Office Excel, выполняется сбор сведений от пользователя и запись этих сведений в ячейку листа.
@@ -95,13 +95,13 @@ ms.locfileid: "99920368"
    > [!NOTE]
    > В C# необходимо добавить обработчик событий, как показано в событии <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> ниже. Дополнительные сведения о создании обработчиков событий см. в разделе [как создавать обработчики событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-    [!code-csharp[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#1)]
-    [!code-vb[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#1)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs" id="Snippet1":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb" id="Snippet1":::
 
 3. Создайте метод с именем `WriteStringToCell` , который записывает текст в именованный диапазон. Этот метод вызывается из формы, и ввод пользователя передается в элемент управления <xref:Microsoft.Office.Tools.Excel.NamedRange> , `formInput`, в ячейку **A1**.
 
-    [!code-csharp[Trin_VstcoreProgrammingCollectingData#2](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#2)]
-    [!code-vb[Trin_VstcoreProgrammingCollectingData#2](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#2)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs" id="Snippet2":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb" id="Snippet2":::
 
    Далее добавьте в форму код для обработки события нажатия кнопки.
 
@@ -115,10 +115,10 @@ ms.locfileid: "99920368"
 
 3. Добавьте код в обработчик событий для приема входных данных из текстового поля, передачи их в функцию `WriteStringToCell`, а затем закрытия формы.
 
-     [!code-csharp[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs#3)]
-     [!code-vb[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb" id="Snippet3":::
 
-## <a name="test"></a>Тест
+## <a name="test"></a>Проверка
  Теперь можно запустить проект. Появляется форма Windows Forms, и введенные данные отображаются в листе.
 
 ### <a name="to-test-your-workbook"></a>Проверка книги
@@ -138,7 +138,7 @@ ms.locfileid: "99920368"
 
 - Изменение пользовательского интерфейса Microsoft Office приложения из настройки на уровне документа или надстройки VSTO. Дополнительные сведения см. в разделе [Настройка пользовательского интерфейса Office](../vsto/office-ui-customization.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Разработка решений Office](../vsto/developing-office-solutions.md)
 - [Написание кода в решениях Office](../vsto/writing-code-in-office-solutions.md)
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)

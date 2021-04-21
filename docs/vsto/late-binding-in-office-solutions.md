@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 455816b2e23a25ad5ef83c726b2a78e4245ed99a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e618dcd0cc699b4626f825890cf0fc8bd7ddd853
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927656"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107823890"
 ---
 # <a name="late-binding-in-office-solutions"></a>Позднее связывание в решениях Office
   Некоторые типы в объектных моделях приложений Office предоставляют функциональные возможности, доступные с помощью функций позднего связывания. Например, некоторые методы и свойства могут возвращать различные типы объектов в зависимости от контекста приложения Office, а некоторые типы могут предоставлять различные методы или свойства в разных контекстах.
@@ -43,12 +43,12 @@ ms.locfileid: "99927656"
 ### <a name="examples"></a>Примеры
  В следующем примере кода показано, как привести объект к конкретному типу в проекте Visual Basic, где **параметр Option-on** имеет значение ON. В проекте этого типа необходимо явным образом привести <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Cells%2A> свойство к типу <xref:Microsoft.Office.Interop.Excel.Range> . Для этого примера требуется проект Excel уровня документа с классом листа с именем `Sheet1` .
 
- [!code-vb[Trin_VstcoreProgramming#9](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb#9)]
+  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb" id="Snippet9":::
 
  В следующем примере кода показано, как неявно привести объект к конкретному типу в Visual Basic проекте, где **параметр Option строго** имеет значение OFF, или в проекте Visual C#, предназначенном для [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] . В проектах этих типов <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Cells%2A> свойство неявно приводится к типу <xref:Microsoft.Office.Interop.Excel.Range> . Для этого примера требуется проект Excel уровня документа с классом листа с именем `Sheet1` .
 
- [!code-vb[Trin_VstcoreProgramming#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb#10)]
- [!code-csharp[Trin_VstcoreProgramming#10](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs#10)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/Sheet1.vb" id="Snippet10":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs" id="Snippet10":::
 
 ## <a name="access-members-that-are-available-only-through-late-binding"></a>Доступ к членам, доступным только через позднее связывание
  Некоторые свойства и методы в основных сборках взаимодействия Office доступны только через позднее связывание. В Visual Basic проектах, где **параметр optioned** имеет значение OFF или в проектах Visual C#, предназначенных для [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] или [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] , можно использовать функции позднего связывания на этих языках для доступа к элементам с поздним связыванием. Для доступа к этим членам в Visual Basic проектах, где **параметр Option-on** имеет значение ON, необходимо использовать отражение.
@@ -56,14 +56,14 @@ ms.locfileid: "99927656"
 ### <a name="examples"></a>Примеры
  В следующем примере кода показано, как получить доступ к элементам с поздним связыванием в проекте Visual Basic, где **параметр optioned** имеет значение OFF, или в проекте Visual C#, предназначенном для [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] . В этом примере осуществляется доступ к свойству **имени** с поздним связыванием диалогового окна **открытия файла** в Word. Чтобы использовать этот пример, запустите его из `ThisDocument` класса или `ThisAddIn` в проекте Word.
 
- [!code-vb[Trin_VstcoreWordAutomation#122](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#122)]
- [!code-csharp[Trin_VstcoreWordAutomation#122](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#122)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet122":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet122":::
 
  В следующем примере кода показано, как использовать отражение для выполнения той же задачи в проекте Visual Basic, где **параметр Option-on** имеет значение ON.
 
- [!code-vb[Trin_VstcoreWordAutomation#102](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#102)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet102":::
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Написание кода в решениях Office](../vsto/writing-code-in-office-solutions.md)
 - [Необязательные параметры в решениях Office](../vsto/optional-parameters-in-office-solutions.md)
 - [Использование инструкции по программированию типа Dynamic &#40;C&#35;&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)

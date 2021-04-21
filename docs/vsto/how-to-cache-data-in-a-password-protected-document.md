@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: cd7efe4aa2aa14cb94a68f0729bc7fe3535888ee
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ccdb906022d4dcfc321af294eec59afa36832773
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954037"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824189"
 ---
 # <a name="how-to-cache-data-in-a-password-protected-document"></a>Пошаговое руководство. кэширование данных в документе, защищенном паролем
   При добавлении данных в кэш данных в документе или книге, защищенной паролем, изменения в кэшированных данных не сохраняются автоматически. Вы можете сохранить изменения в кэшированные данные, переопределив два метода в проекте.
@@ -45,8 +45,8 @@ ms.locfileid: "99954037"
 ### <a name="example"></a>Пример
  В следующем примере кода показано, как кэшировать данные в документе Word, защищенном паролем. Перед тем как код удалит защиту в <xref:Microsoft.Office.Tools.Word.DocumentBase.UnprotectDocument%2A> методе, он сохраняет текущее <xref:Microsoft.Office.Tools.Word.Document.ProtectionType%2A> значение, чтобы тот же тип защиты можно было повторно применить в <xref:Microsoft.Office.Tools.Word.DocumentBase.ProtectDocument%2A> методе.
 
- [!code-csharp[Trin_CachedDataProtectedDocument#1](../vsto/codesnippet/CSharp/Trin_CachedDataProtectedDocument/ThisDocument.cs#1)]
- [!code-vb[Trin_CachedDataProtectedDocument#1](../vsto/codesnippet/VisualBasic/Trin_CachedDataProtectedDocument/ThisDocument.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_CachedDataProtectedDocument/ThisDocument.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_CachedDataProtectedDocument/ThisDocument.vb" id="Snippet1":::
 
 ### <a name="compile-the-code"></a>Компиляция кода
  Добавьте этот код в `ThisDocument` класс проекта. В этом коде предполагается, что пароль хранится в поле с именем `securelyStoredPassword` .
@@ -69,13 +69,13 @@ ms.locfileid: "99954037"
 ### <a name="example"></a>Пример
  В следующем примере кода показано кэширование данных в книге Excel, защищенной паролем. Перед тем как код удалит защиту в <xref:Microsoft.Office.Tools.Excel.WorkbookBase.UnprotectDocument%2A> методе, он сохраняет текущие <xref:Microsoft.Office.Tools.Excel.Workbook.ProtectStructure%2A> значения и <xref:Microsoft.Office.Tools.Excel.Workbook.ProtectWindows%2A> , чтобы в методе можно было повторно применить тот же тип защиты <xref:Microsoft.Office.Tools.Excel.WorkbookBase.ProtectDocument%2A> .
 
- [!code-vb[Trin_CachedDataProtectedWorkbook#1](../vsto/codesnippet/VisualBasic/Trin_CachedDataProtectedWorkbook/ThisWorkbook.vb#1)]
- [!code-csharp[Trin_CachedDataProtectedWorkbook#1](../vsto/codesnippet/CSharp/Trin_CachedDataProtectedWorkbook/ThisWorkbook.cs#1)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_CachedDataProtectedWorkbook/ThisWorkbook.vb" id="Snippet1":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_CachedDataProtectedWorkbook/ThisWorkbook.cs" id="Snippet1":::
 
 ### <a name="compile-the-code"></a>Компиляция кода
  Добавьте этот код в `ThisWorkbook` класс проекта. В этом коде предполагается, что пароль хранится в поле с именем `securelyStoredPassword` .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Кэширование данных](../vsto/caching-data.md)
 - [Как кэшировать данные для использования в автономном режиме или на сервере](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)
 - [Руководство. программный кэш источника данных в документе Office](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)

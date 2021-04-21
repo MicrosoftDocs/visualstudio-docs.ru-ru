@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: f6e6b00e8e26d261aac18dd48af1d912bd6ffad1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1dc9322dd2ad3c3a2111222d7491f9e1a82cd6c4
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899547"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107825853"
 ---
 # <a name="how-to-prevent-outlook-from-displaying-a-form-region"></a>Как запретить Outlook отображать область формы
   Могут возникнуть ситуации, когда не нужно, чтобы Microsoft Office Outlook отображали область формы для определенного элемента. Например, если элемент контактного лица не содержит рабочий адрес, можно запретить отображение области формы, в которой отображается расположение компании на карте.
@@ -38,10 +38,11 @@ ms.locfileid: "99899547"
    В этом примере, если элемент Contact не содержит адрес, <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> свойство имеет значение **true**, а область формы не отображается.
 
 ## <a name="example"></a>Пример
- [!code-csharp[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#1)]
- [!code-vb[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#1)]
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet1":::
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet1":::
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 - [Создание областей формы Outlook](../vsto/creating-outlook-form-regions.md)
 - [Пошаговое руководство. Проектирование области формы Outlook](../vsto/walkthrough-designing-an-outlook-form-region.md)
 - [Как добавить область формы в проект надстройки Outlook](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)

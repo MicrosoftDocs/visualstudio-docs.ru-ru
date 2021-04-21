@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 9eaa78a04c7dfda42a82a5d5a9ff3b407e6502d8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 80c574799029f3fe8c4769d852886a625ffd93aa
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842021"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824287"
 ---
 # <a name="walkthrough-design-an-outlook-form-region"></a>Пошаговое руководство. Проектирование области формы Outlook
   Пользовательские области формы расширяют стандартные или настраиваемые формы Microsoft Office Outlook. В этом пошаговом руководстве показано, как проектировать пользовательскую область формы, которая отображается в виде новой страницы в окне инспектора элемента контактов. В этой области формы отображается карта каждого адреса, указанного для контакта, путем отправки информации об адресе на веб-сайт локального поиска Windows Live. Сведения о регионах форм см. в разделе [Создание областей формы Outlook](../vsto/creating-outlook-form-regions.md).
@@ -90,14 +90,14 @@ ms.locfileid: "99842021"
 
 8. На странице " **укажите классы сообщений, которые будут отображаться в этой области формы** " снимите флажок **почтовые сообщения**, выберите **контакт** и нажмите кнопку **Готово**.
 
-     В проект добавляется файл *MapIt.CS* или *MAPI. vb* .
+     В проект добавляется файл *MAPI. CS* или *MAPI. vb* .
 
 ## <a name="design-the-layout-of-the-form-region"></a>Разработка макета области формы
  Визуальная разработка областей форм с помощью *конструктора областей формы*. Управляемые элементы управления можно перетаскивать на поверхность конструктора областей формы. Используйте конструктор и окно **Свойства** для настройки макета и внешнего вида элемента управления.
 
 ### <a name="to-design-the-layout-of-the-form-region"></a>Порядок разработки макета области формы
 
-1. В **Обозреватель решений** разверните проект **мапитаддин** , а затем дважды щелкните *MapIt.CS* или *MAPI. vb* , чтобы открыть конструктор области формы.
+1. В **Обозреватель решений** разверните проект **мапитаддин** , а затем дважды щелкните элемент *MAPI. CS* или *MAPI. vb* , чтобы открыть конструктор области формы.
 
 2. Щелкните правой кнопкой мыши конструктор и выберите пункт **Свойства**.
 
@@ -116,9 +116,9 @@ ms.locfileid: "99842021"
 
 ### <a name="to-customize-the-behavior-of-the-form-region"></a>Порядок настройки поведения области формы
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши *MapIt.CS* или *MAPI. vb* и выберите пункт **Просмотреть код**.
+1. В **Обозреватель решений** щелкните правой кнопкой мыши элемент *MAPI. CS* или *MAPI. vb* и выберите команду **Просмотреть код**.
 
-    *MapIt.CS* или *MAPI. vb* откроется в редакторе кода.
+    В редакторе кода откроется *MAPI. CS* или *MAPI. vb* .
 
 2. Разверните область кода **фабрики области формы** .
 
@@ -126,8 +126,8 @@ ms.locfileid: "99842021"
 
 3. Добавьте следующий код в обработчик событий `MapItFactory_FormRegionInitializing`. Этот обработчик событий будет вызываться, когда пользователь открывает элемент контактов. Следующий код определяет, содержит ли элемент контактов адрес. Если элемент Contact не содержит адрес, этот код устанавливает <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> <xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs> для свойства класса **значение true** , а область формы не отображается. В противном случае надстройка VSTO выдает событие <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> и отображает область формы.
 
-    [!code-csharp[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#1)]
-    [!code-vb[Trin_Outlook_FR_Separate#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#1)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet1":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet1":::
 
 4. Добавьте следующий код в обработчик событий <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing>. Этот код выполняет следующие задачи:
 
@@ -137,8 +137,8 @@ ms.locfileid: "99842021"
 
      Веб-сайт локального поиска отображается в области формы Map It и представляет каждый адрес в тестовой области.
 
-     [!code-csharp[Trin_Outlook_FR_Separate#2](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs#2)]
-     [!code-vb[Trin_Outlook_FR_Separate#2](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet2":::
 
 ## <a name="test-the-outlook-form-region"></a>Тестирование области формы Outlook
  При запуске проекта в Visual Studio открывается Outlook. Для просмотра области формы Map It откройте элемент контактов. Область формы Map It отображается в виде страницы в форме каждого элемента контактов, содержащего адрес.
@@ -174,7 +174,7 @@ ms.locfileid: "99842021"
 
 - Дополнительные сведения о настройке ленты элемента Outlook см. в разделе [Настройка ленты для Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Доступ к области формы во время выполнения](../vsto/accessing-a-form-region-at-run-time.md)
 - [Создание областей формы Outlook](../vsto/creating-outlook-form-regions.md)
 - [Рекомендации по созданию областей формы Outlook](../vsto/guidelines-for-creating-outlook-form-regions.md)

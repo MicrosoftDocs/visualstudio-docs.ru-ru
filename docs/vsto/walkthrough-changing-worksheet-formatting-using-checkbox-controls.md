@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 908660693abce2f2adf07d98e7f2a451a8f3c8e5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6f649fad99b8d94cc650ecda57e10b423b14194e
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99956598"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826438"
 ---
 # <a name="walkthrough-change-worksheet-formatting-using-checkbox-controls"></a>Пошаговое руководство. изменение форматирования листа с помощью элементов управления CheckBox
   В этом пошаговом руководстве показаны основные принципы использования флажков на листе Excel Microsoft Office для изменения форматирования. Вы будете использовать средства разработки Office в Visual Studio для создания и добавления кода в проект. Чтобы увидеть результат как завершенный пример, см. Пример элементов управления Excel в разделе [примеры разработки Office и пошаговые руководства](../vsto/office-development-samples-and-walkthroughs.md).
@@ -85,7 +85,7 @@ ms.locfileid: "99956598"
     |Свойство|Значение|
     |--------------|-----------|
     |**Имя**|**апплюндерлинефонт**|
-    |**Text**|**Underline**|
+    |**Text**|**Начертан**|
 
 7. Установите все три элемента управления флажками, удерживая нажатой клавишу **CTRL** .
 
@@ -104,7 +104,7 @@ ms.locfileid: "99956598"
 
 2. Убедитесь, что в редактируемом текстовом поле отображается **$B $9** и выбрана ячейка **B9** . Если это не так, щелкните ячейку **B9** , чтобы выбрать ее.
 
-3. Нажмите кнопку **OK**.
+3. Нажмите кнопку **ОК**.
 
 4. Ячейка **B9** преобразуется в диапазон с именем `NamedRange1` .
 
@@ -128,22 +128,22 @@ ms.locfileid: "99956598"
 
 2. Добавьте следующий код в <xref:System.Windows.Forms.Control.Click> обработчик событий `applyBoldFont` флажка:
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#7](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#7)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#7)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet7":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet7":::
 
 3. Добавьте следующий код в <xref:System.Windows.Forms.Control.Click> обработчик событий `applyItalicFont` флажка:
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#8](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#8)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#8](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#8)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet8":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet8":::
 
 4. Добавьте следующий код в <xref:System.Windows.Forms.Control.Click> обработчик событий `applyUnderlineFont` флажка:
 
-     [!code-vb[Trin_VstcoreProgrammingControlsExcel#9](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#9)]
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#9)]
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet9":::
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet9":::
 
 5. В C# необходимо добавить обработчики событий для флажков к <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> событию, как показано ниже. Сведения о создании обработчиков событий см. в разделе [инструкции. Создание обработчиков событий в проектах Office](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
-     [!code-csharp[Trin_VstcoreProgrammingControlsExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#10)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet10":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать книгу, чтобы убедиться в том, что текст отформатирован правильно, если установить или снять флажок.
@@ -162,7 +162,7 @@ ms.locfileid: "99956598"
 - Развертывание проекта. Дополнительные сведения см. в статье [развертывание решения Office с помощью ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 - Использование кнопки для заполнения текстового поля. Дополнительные сведения см. [в разделе Пошаговое руководство. Отображение текста в текстовом поле листа с помощью кнопки](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Пошаговые руководства с использованием Excel](../vsto/walkthroughs-using-excel.md)
 - [Элемент управления NamedRange](../vsto/namedrange-control.md)
 - [Ограничения элементов управления Windows Forms в документах Office](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 31084703a581999a1f25bfc82db6c36d9e2cbf6c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 36d4da65a6cd39c53f1f9d8edf4f9d9b1fe46284
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937415"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826854"
 ---
 # <a name="walkthrough-simple-data-binding-in-a-document-level-project"></a>Пошаговое руководство. Простая привязка данных в проекте уровня документа
   В этом пошаговом руководстве демонстрируются основы привязки данных в проекте уровня документа. Одно поле данных в SQL Server базе данных привязано к именованному диапазону в Microsoft Office Excel. В этом пошаговом руководстве также показано, как добавлять элементы управления, позволяющие прокручивать все записи в таблице.
@@ -128,16 +128,16 @@ ms.locfileid: "99937415"
 
 ### <a name="to-initialize-the-controls"></a>Инициализация элементов управления
 
-1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1.CS** и выберите в контекстном меню пункт **Просмотреть код** .
+1. В **Обозреватель решений** щелкните правой кнопкой мыши **Лист1. vb** или **Sheet1. CS** и выберите в контекстном меню пункт **Просмотреть код** .
 
 2. Добавьте следующий код в метод, `Sheet1_Startup` чтобы задать текст для каждой кнопки.
 
-    [!code-csharp[Trin_VstcoreDataExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#2)]
-    [!code-vb[Trin_VstcoreDataExcel#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#2)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet2":::
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet2":::
 
 3. Для только C# добавьте обработчики событий для событий нажатия кнопки в `Sheet1_Startup` метод.
 
-    [!code-csharp[Trin_VstcoreDataExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#3)]
+    :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet3":::
 
    Теперь добавьте код для управления <xref:System.Windows.Forms.Control.Click> событиями кнопок, чтобы пользователь мог просматривать записи.
 
@@ -148,29 +148,29 @@ ms.locfileid: "99937415"
 
 1. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `Button1` кнопки и добавьте следующий код для перехода к первой записи:
 
-     [!code-csharp[Trin_VstcoreDataExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#4)]
-     [!code-vb[Trin_VstcoreDataExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#4)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet4":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet4":::
 
 ### <a name="to-move-to-the-previous-record"></a>Переход к предыдущей записи
 
 1. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `Button2` кнопки и добавьте следующий код, чтобы переместить положение обратно на одну:
 
-     [!code-csharp[Trin_VstcoreDataExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#5)]
-     [!code-vb[Trin_VstcoreDataExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#5)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet5":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet5":::
 
 ### <a name="to-move-to-the-next-record"></a>Переход к следующей записи
 
 1. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `Button3` кнопки и добавьте следующий код, чтобы переместить эту точку на одну:
 
-     [!code-csharp[Trin_VstcoreDataExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#6)]
-     [!code-vb[Trin_VstcoreDataExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#6)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet6":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet6":::
 
 ### <a name="to-move-to-the-last-record"></a>Переход к последней записи
 
 1. Добавьте обработчик событий для <xref:System.Windows.Forms.Control.Click> события `Button4` кнопки и добавьте следующий код для перехода к последней записи:
 
-     [!code-csharp[Trin_VstcoreDataExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#7)]
-     [!code-vb[Trin_VstcoreDataExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#7)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet7":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet7":::
 
 ## <a name="test-the-application"></a>Тестирование приложения
  Теперь можно протестировать книгу, чтобы убедиться, что вы можете просматривать записи в базе данных.
@@ -194,7 +194,7 @@ ms.locfileid: "99937415"
 
 - Используйте <xref:System.Windows.Forms.BindingNavigator> элемент управления для прокрутки записей. Дополнительные сведения см. [в разделе Практические руководства. Навигация по данным с помощью элемента управления Windows Forms BindingNavigator](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Привязка данных к элементам управления в решениях Office](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Данные в решениях Office](../vsto/data-in-office-solutions.md)
 - [Пошаговое руководство. сложная привязка данных в проекте уровня документа](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)

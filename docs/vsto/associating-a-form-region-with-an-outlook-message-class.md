@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 0bbbd381ff84714b780bbb817ccfea64ac05e949
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: be3b789fabf00d853d447cb3489ef07a5b494fcd
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882548"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107826997"
 ---
 # <a name="associate-a-form-region-with-an-outlook-message-class"></a>Связывание области формы с классом сообщений Outlook
   Можно указать, какие Microsoft Office элементы Outlook отображают область формы, связав область формы с классом сообщений каждого элемента. Например, если необходимо добавить область формы в нижнюю часть почтового элемента, можно связать область формы с `IPM.Note` классом Message.
@@ -41,7 +41,7 @@ ms.locfileid: "99882548"
 |дистлиститем|`IPM.DistList`|
 |жаурналитем|`IPM.Activity`|
 |MailItem|`IPM.Note`|
-|PostItem|`IPM.Post` либо `IPM.Post.RSS`|
+|PostItem|`IPM.Post` или `IPM.Post.RSS`|
 |TaskItem|`IPM.Task`|
 
  Можно также указать имена пользовательских классов сообщений. Пользовательские классы сообщений определяют пользовательские формы, определяемые в Outlook.
@@ -87,8 +87,8 @@ ms.locfileid: "99882548"
 
  В следующем примере показаны два <xref:Microsoft.Office.Tools.Outlook.FormRegionMessageClassAttribute> атрибута, которые были применены к классу фабрики области формы с именем `myFormRegion` . Первый атрибут связывает область формы со стандартным классом сообщений для формы почтового сообщения. Второй атрибут связывает область формы с пользовательским классом сообщений с именем `IPM.Task.Contoso` .
 
- [!code-vb[Trin_Outlook_FR_Attributes#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Attributes/FormRegion1.vb#1)]
- [!code-csharp[Trin_Outlook_FR_Attributes#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Attributes/FormRegion1.cs#1)]
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Attributes/FormRegion1.vb" id="Snippet1":::
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Attributes/FormRegion1.cs" id="Snippet1":::
 
  Атрибуты должны соответствовать следующим рекомендациям.
 
@@ -105,7 +105,7 @@ ms.locfileid: "99882548"
 > [!NOTE]
 > Visual Studio не проверяет правильность или допустимости предоставленных имен классов сообщений.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Доступ к области формы во время выполнения](../vsto/accessing-a-form-region-at-run-time.md)
 - [Создание областей формы Outlook](../vsto/creating-outlook-form-regions.md)
 - [Пошаговое руководство. Проектирование области формы Outlook](../vsto/walkthrough-designing-an-outlook-form-region.md)

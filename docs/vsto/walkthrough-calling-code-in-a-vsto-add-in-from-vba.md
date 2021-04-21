@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 61e729113ecfa988f424e2182662d506377d33e5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 21e0928396327911ea794c6270340c6efd27a43e
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882392"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107824605"
 ---
 # <a name="walkthrough-call-code-in-a-vsto-add-in-from-vba"></a>Пошаговое руководство. вызов кода в надстройке VSTO из VBA
   В этом пошаговом руководстве показано, как предоставить объект в надстройке VSTO другим решениям Microsoft Office, включая Visual Basic для приложений (VBA) и надстроек VSTO COM.
@@ -58,7 +58,7 @@ ms.locfileid: "99882392"
 
 1. Создайте проект надстройки VSTO для Excel с именем **ExcelImportData** с помощью шаблона проекта надстройки VSTO для Excel. Дополнительные сведения см. в разделе [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] открывает файл кода **ThisAddIn.CS** или **ThisAddIn. vb** и добавляет проект **ExcelImportData** в **Обозреватель решений**.
+     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] открывает файл кода **ThisAddIn. CS** или **ThisAddIn. vb** и добавляет проект **ExcelImportData** в **Обозреватель решений**.
 
 ## <a name="define-a-class-that-you-can-expose-to-other-office-solutions"></a>Определение класса, который можно предоставлять другим решениям Office
  В этом пошаговом руководстве описывается вызов метода `ImportData` класса с именем `AddInUtilities` в надстройке VSTO из кода VBA. Этот метод записывает строку в ячейку A1 активного листа.
@@ -75,13 +75,13 @@ ms.locfileid: "99882392"
 
 3. Добавьте следующие директивы в начало файла.
 
-     [!code-csharp[Trin_AddInInteropWalkthrough#2](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#2)]
-     [!code-vb[Trin_AddInInteropWalkthrough#2](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#2)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs" id="Snippet2":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb" id="Snippet2":::
 
 4. Замените класс `AddInUtilities` на следующий код.
 
-     [!code-csharp[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
-     [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs" id="Snippet3":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb" id="Snippet3":::
 
      Этот код делает класс `AddInUtilities` видимым для COM, а также добавляет метод `ImportData` в класс. Для предоставления интерфейса [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) класс `AddInUtilities` также содержит атрибут <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> , который реализует интерфейс, видимый для COM.
 
@@ -96,8 +96,8 @@ ms.locfileid: "99882392"
 
 3. Добавьте в класс `ThisAddIn` приведенный далее код.
 
-     [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
-     [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]
+     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs" id="Snippet1":::
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb" id="Snippet1":::
 
 4. В меню **Сборка** выберите **Собрать решение**.
 
@@ -152,7 +152,7 @@ ms.locfileid: "99882392"
 
 - Настройка ленты в надстройке VSTO. Дополнительные сведения см. в статьях [Общие сведения о ленте](../vsto/ribbon-overview.md) и [инструкции. Приступая к настройке ленты](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 - [Программирование надстроек VSTO](../vsto/programming-vsto-add-ins.md)
 - [Вызов кода в надстройках VSTO из других решений Office](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
 - [Разработка решений Office](../vsto/developing-office-solutions.md)
