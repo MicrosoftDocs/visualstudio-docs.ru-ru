@@ -5,19 +5,19 @@ ms.topic: include
 ms.assetid: 9109bf1e-f725-439d-a870-13741e0dbc90
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 04/02/2021
+ms.date: 04/20/2021
 ms.faqid: q3_2
-ms.openlocfilehash: b2f8fbed33908c16252d958d627e4d19f07c1c13
-ms.sourcegitcommit: 4bf7d82eb3a837ad5d1ae5c110039cbf74258f18
+ms.openlocfilehash: 8938ce58100630a13205b54e98515e41440b78ce
+ms.sourcegitcommit: 367a2d9df789aa617abaa09b0cd0a18db7357d0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2021
-ms.locfileid: "106283278"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107800838"
 ---
 ## <a name="how-do-i-use-my-benefits"></a>Как использовать свои преимущества?
 
 Типы преимуществ разные,  как и методы их активации и использования. Например, многие из наших преимуществ предоставляют партнеры.  Они используют самые разные процессы настройки учетных записей, установки программного обеспечения и применения сетевых ресурсов.
 
-Для всех преимуществ, доступных на портале для подписчиков, описаны содержащие их подписки и способы активации.
+На портале подписчиков приведены сведения о том, какие преимущества входят в те или иные подписки и как активировать каждое из них.
 
 Дополнительные сведения см. в [документации](https://docs.microsoft.com/visualstudio/subscriptions/about-benefits) (щелкните "Подписки" в левой области навигации и выберите "Преимущества").

@@ -6,14 +6,14 @@ ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.technology: ''
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 04/02/2021
+ms.date: 04/19/2021
 ms.faqid: q4_2
-ms.openlocfilehash: 8d8b516a7572688314d043dc7ca052d30d26dcf4
-ms.sourcegitcommit: 4bf7d82eb3a837ad5d1ae5c110039cbf74258f18
+ms.openlocfilehash: c53b866cab32270cfa10b6a8632af776ff9afd92
+ms.sourcegitcommit: 6b74cb197e59c23492722935457c7ec278cadb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2021
-ms.locfileid: "106273403"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107736989"
 ---
 ## <a name="how-do-i-renew-visual-studio-subscriptions"></a>Как продлить подписки Visual Studio? 
 
@@ -34,7 +34,7 @@ ms.locfileid: "106273403"
     - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
 > [!Note]
-> Специальная цена за продление применяется только в том случае, если вы продлите подписку в течение 30 дней с момента окончания срока ее действия.
+> Специальная цена за продление применяется только в том случае, если вы продлите подписку в течение 30 дней с момента окончания ее срока действия. Продлевать подписку в Microsoft Store нужно путем активации предоставленного вам кода 5x5, иначе дата окончания не изменится или продление не произойдет.
 
 ### <a name="how-to-renew-cloud-subscriptions"></a>Продление облачных подписок
 Облачные подписки можно купить в [Visual Studio Marketplace](https://marketplace.visualstudio.com/).  Месячные и годовые облачные подписки продлеваются до тех пор, пока вы не отмените их. Таким образом, для их продления никаких действий с вашей стороны не требуется.

@@ -6,13 +6,13 @@ ms.topic: include
 ms.assetid: c8dd39de-bf7f-40a2-a203-f2be21b87f5c
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 01/27/2021
-ms.openlocfilehash: a2dca00b1a7ebea80a883825783785c84c2352cc
-ms.sourcegitcommit: cfeffe2364275a347db0ba2dce36d8e80001c081
+ms.date: 04/20/2021
+ms.openlocfilehash: c18d855ad79bc3463e310a9fcf1c3a17ea5c6fbc
+ms.sourcegitcommit: 367a2d9df789aa617abaa09b0cd0a18db7357d0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99104446"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107800763"
 ---
 ## <a name="how-do-i-purchase-visual-studio-subscriptions"></a>Как приобрести подписки Visual Studio?
 Подписки Visual Studio доступны для приобретения по различным каналам, включая  [Корпоративное лицензирование](https://www.microsoft.com/licensing/default),  [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) и [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
@@ -26,6 +26,8 @@ ms.locfileid: "99104446"
 - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
 Каждая из этих подписок предлагает первую покупку или продление существующей подписки. Цены на продление с большой скидкой доступны только для существующих подписок. Чтобы иметь право на продление подписок по цене продления со скидкой, подписки следует продлить до истечения срока их действия. 
+
+Если вы хотите совершить разовую покупку Visual Studio без подписки или каких-либо прилагаемых преимуществ, зайдите на страницу Microsoft Store для [Visual Studio Professional 2019](https://www.microsoft.com/p/visual-studio-professional-2019/dg7gmgf0f6q1?cid=msft_web_collection&activetab=pivot%3aoverviewtab). 
 
 ### <a name="visual-studio-marketplace"></a>Visual Studio Marketplace 
 С помощью месячных подписок вы можете арендовать Visual Studio и Azure DevOps без долгосрочного контракта. Выставление счетов осуществляется в рамках подписки на Microsoft Azure. Если у вас еще нет подписки Azure, знайте — ее настройка бесплатна и может быть выполнена при первой покупке.  
