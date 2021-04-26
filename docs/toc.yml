@@ -842,7 +842,7 @@
         - name: Разработка приложений с поддержкой множества языков
           displayName: Globalization localization world-ready
           href: ide/globalizing-and-localizing-applications.md
-- name: Сборка
+- name: Построение
   items:
     - name: Обзор
       displayName: Compile build
@@ -905,15 +905,8 @@
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Отладка >>
   href: debugger/index.yml
-- name: Управление версиями
-  expanded: true
-  items:
-    - name: Новый интерфейс Git в Visual Studio
-      href: ide/git-with-visual-studio.md
-    - name: Как Visual Studio упрощает управление версиями
-      href: ide/git-visual-studio-source-control.md
-    - name: Наглядное сравнение Git и Team Explorer
-      href: ide/git-team-explorer-feature-comparison.md
+- name: "Управление версиями\_>>"
+  href: version-control/index.yml
 - name: Тестирование >>
   displayName: Unit testing
   href: test/index.yml
@@ -1213,7 +1206,7 @@
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-html-formatting.md
-                    - name: Разное
+                    - name: Прочее
                       href: ide/reference/options-text-editor-html-miscellaneous.md
                     - name: Проверка
                       href: ide/reference/options-text-editor-html-validation.md
@@ -1239,13 +1232,13 @@
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-xaml-formatting.md
-                    - name: Разное
+                    - name: Прочее
                       href: ide/reference/options-text-editor-xaml-miscellaneous.md
                 - name: XML
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-xml-formatting.md
-                    - name: Разное
+                    - name: Прочее
                       href: ide/reference/options-text-editor-xml-miscellaneous.md
             - name: Конструктор Windows Forms
               items:

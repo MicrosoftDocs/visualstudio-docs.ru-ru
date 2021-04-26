@@ -1,0 +1,48 @@
+### YamlMime:Landing
+title: Документация по управлению версиями Visual Studio
+summary: Используйте технологии управления версиями, такие как Git и GitHub, чтобы обмениваться кодом из среды Visual Studio 2019.
+metadata:
+  title: Управление версиями в Visual Studio
+  description: Технологии управления версиями, такие как Git и GitHub, доступны напрямую из Visual Studio. Вы можете обмениваться и управлять кодом, не выходя из своей базы кода.
+  ms.topic: landing-page
+  ms.date: 04/20/2021
+  author: TerryGLee
+  ms.author: tglee
+  manager: jmartens
+  ms.prod: visual-studio-windows
+  ms.technology: vs-general-ide
+  ms.openlocfilehash: a377d39b0d8184dc7aca038238f2dacb0345627d
+  ms.sourcegitcommit: 5fb684ff8729eb118aa91ce9f049c79eeb9747b1
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/23/2021
+  ms.locfileid: "107917651"
+landingContent:
+- title: Обзор
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Интерфейс GIT в Visual Studio
+      url: git-with-visual-studio.md
+  - linkListType: concept
+    links:
+    - text: Как Visual Studio упрощает управление версиями
+      url: git-visual-studio-source-control.md
+- title: Начало работы
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Начало работы с Git и GitHub в Visual Studio
+      url: /learn/modules/visual-studio-github-push/
+  - linkListType: how-to-guide
+    links:
+    - text: Наглядное сравнение Git и Team Explorer
+      url: git-team-explorer-feature-comparison.md
+- title: Новые возможности
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Улучшение работы с Git в Visual Studio (предварительная версия)
+      url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+    - text: Заметки о выпуске Visual Studio 2019
+      url: /visualstudio/releases/2019/release-notes/

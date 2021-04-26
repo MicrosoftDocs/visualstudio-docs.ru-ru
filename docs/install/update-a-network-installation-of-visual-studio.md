@@ -1,7 +1,7 @@
 ---
 title: Обновление сетевой установки
 description: Сведения об обновлении сетевой установки Visual Studio с помощью команды --layout
-ms.date: 04/06/2021
+ms.date: 04/16/2021
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 0f6e13333b6cab86f6485ddc18516039c712455a
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 0400f4be06afab2326ac738e1ac15f9d93a6ecee
+ms.sourcegitcommit: 367a2d9df789aa617abaa09b0cd0a18db7357d0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107295953"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107800777"
 ---
 # <a name="update-a-network-based-installation-of-visual-studio"></a>Обновление сетевой установки Visual Studio
 
@@ -29,9 +29,9 @@ ms.locfileid: "107295953"
 ## <a name="how-to-update-a-network-layout"></a>Обновление сетевого макета
 
 > [!IMPORTANT]
-> В этих инструкциях предполагается, что макет сетевой установки уже создан. Дополнительные сведения см. на странице [Создание сетевой установки Visual Studio](create-a-network-installation-of-visual-studio.md).
+> В этих инструкциях предполагается, что вы уже создали макет установки сети и приняли некоторые решения о том, как клиент будет получать обновления. Дополнительные сведения о том, как это сделать, см. на страницах [Создание сетевой установки Visual Studio](create-a-network-installation-of-visual-studio.md) и [Управление обновлением развертываний Visual Studio](../install/controlling-updates-to-visual-studio-deployments.md).
 
-Чтобы обновить общий ресурс сетевой установки и разместить в ней последние обновления, выполните команду `--layout` для инкрементного скачивания обновленных пакетов.
+Чтобы актуализировать общий ресурс сетевой установки, включив в него последние обновления, запустите начальный загрузчик с параметром `--layout` для скачивания обновленных пакетов.
 
 Если при [первоначальном создании сетевого макета](create-a-network-installation-of-visual-studio.md) вы выбрали частичный макет, эти параметры сохраняются. Все будущие команды макета используют прежние параметры, а также любые указанные новые параметры.
 

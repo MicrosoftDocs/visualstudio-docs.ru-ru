@@ -2,19 +2,19 @@
 title: Настройка интегрированной среды разработки
 description: Сведения о том, как персонализировать интегрированную среду разработки Visual Studio в соответствии с вашим стилем и требованиями к разработке.
 ms.custom: SEO-VS-2020
-ms.date: 11/20/2017
+ms.date: 04/12/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 550ab6449cc74d3d0d81d60a41b11f0273003c51
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9a1bcfdc9489ee59f5697f1d96de21e31a71fb17
+ms.sourcegitcommit: 5035ccb32fb5e06451337cbf9a150687082ae2af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909021"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107373171"
 ---
 # <a name="personalize-the-visual-studio-ide"></a>Персонализация интегрированной среды разработки Visual Studio
 
@@ -40,7 +40,7 @@ ms.locfileid: "99909021"
 
 ## <a name="environment-color-themes"></a>Цветовые темы среды
 
-Чтобы изменить цветовую тему на светлую, темную или синюю, введите **среда** в поле поиска и выберите **Среда > Общие**. В диалоговом окне **Параметры** измените значение настройки **Цветовая тема**.
+Чтобы изменить цветовую тему на темную, светлую или синюю (простую или с дополнительным контрастом), в поле поиска введите **тема** и выберите **Среда > Общие**. В диалоговом окне **Параметры** измените значение настройки **Цветовая тема**.
 
 Чтобы изменить параметры раскраски в редакторе, введите **среда** в поле поиска и выберите **Среда > Шрифты и цвета**. См. раздел [Практическое руководство. Изменение шрифтов и цветов](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 

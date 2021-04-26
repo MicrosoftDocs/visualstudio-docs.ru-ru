@@ -9,12 +9,12 @@ monikerRange: '>=vs-2019'
 manager: jmartens
 author: ghogen
 ms.author: ghogen
-ms.openlocfilehash: 49c3081e68baf4f2bf1d0975bcdae7ea25ab90b3
-ms.sourcegitcommit: 691d2a47f92f991241fdb132a82c53a537198d50
+ms.openlocfilehash: 1709785c63bd4fbcd702fbcacfe59dddcb71d1b3
+ms.sourcegitcommit: 0135fc6ffa38995cc9e6ab05fa265758890d2e15
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103571549"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107526159"
 ---
 # <a name="how-bridge-to-kubernetes-works"></a>Как работает Bridge to Kubernetes
 
@@ -26,6 +26,8 @@ Bridge to Kubernetes перенаправляет трафик между под
 
 > [!WARNING]
 > Функция Bridge to Kubernetes предназначена для использования только в сценариях разработки и тестирования. Он не предназначен для выполнения с рабочими кластерами или службами Live в активном использовании.
+
+Сведения о поддерживаемых сейчас функциях и будущих планах для Bridge to Kubernetes см. в [стратегии развития Bridge to Kubernetes](https://github.com/microsoft/mindaro/projects/1).
 
 ## <a name="using-bridge-to-kubernetes"></a>Использование Bridge to Kubernetes
 
@@ -53,7 +55,7 @@ Bridge to Kubernetes перенаправляет трафик между под
 
 ## <a name="additional-configuration-with-kuberneteslocalprocessconfigyaml"></a>Дополнительная настройка с помощью KubernetesLocalProcessConfig.yaml
 
-Файл `KubernetesLocalProcessConfig.yaml` позволяет реплицировать переменные среды и подключенные файлы, доступные для групп pod в кластере. Сведения о дополнительных параметрах конфигурации см. в статье [Настройка Bridge to Kubernetes][using-config-yaml].
+Файл `KubernetesLocalProcessConfig.yaml` позволяет реплицировать переменные среды и подключенные файлы, доступные для групп pod в кластере. При разработке для Bridge to Kubernetes в Visual Studio файл KubernetesLocalConfig.yaml должен находиться в том же каталоге, что и файл проекта для перенаправляемой службы. Сведения о дополнительных параметрах конфигурации см. в статье [Настройка Bridge to Kubernetes][using-config-yaml].
 
 ## <a name="using-routing-capabilities-for-developing-in-isolation"></a>Использование возможностей маршрутизации для разработки в изоляции
 

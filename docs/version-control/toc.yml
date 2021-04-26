@@ -1,0 +1,20 @@
+- name: Документация по управлению версиями
+  href: index.yml
+- name: Обзор
+  items:
+    - name: "Интерфейс GIT в Visual\_Studio"
+      href: git-with-visual-studio.md
+    - name: Как Visual Studio упрощает управление версиями
+      href: git-visual-studio-source-control.md
+- name: Начало работы
+  items:
+    - name: "Начало работы с Git и GitHub в Visual\_Studio"
+      href: /learn/modules/visual-studio-github-push/
+    - name: Наглядное сравнение Git и Team Explorer
+      href: git-team-explorer-feature-comparison.md
+- name: Новые возможности
+  items:
+    - name: "Улучшение работы с Git в Visual\_Studio (предварительная версия)"
+      href: 'https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/'
+    - name: "Заметки о выпуске Visual Studio\_2019"
+      href: /visualstudio/releases/2019/release-notes/
