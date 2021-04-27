@@ -292,7 +292,7 @@
               href: remote-debugging-errors-and-troubleshooting.md
             - name: Монитор удаленной отладки Microsoft Visual Studio на удаленном компьютере не имеет разрешения на подключение к этому компьютеру
               href: error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission.md
-            - name: При попытке обращения к удаленному компьютеру произошла непредвиденная ошибка DCOM. Отказано в доступе.
+            - name: При попытке обращения к удаленному компьютеру произошла непредвиденная ошибка DCOM. Отказано в доступе".
               href: a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md
             - name: На удаленном компьютере монитор удаленной отладки Microsoft Visual Studio выполняется в контексте другого пользователя
               href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md
@@ -688,6 +688,8 @@
       items:
         - name: Использование файлов дампа
           href: using-dump-files.md
+        - name: Отладка дампа управляемой памяти
+          href: how-to-debug-managed-memory-dump.md
         - name: API расширяемости сводки файла дампа
           href: dump-file-summary-extensibility-api.md
     - name: Безопасность отладчика
