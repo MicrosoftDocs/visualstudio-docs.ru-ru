@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: e6e7dfd0d677412ded44459c7850fa9028142c42
-ms.sourcegitcommit: be14ae4b95e289f16e9444293bb2ec997d4b4d72
+ms.openlocfilehash: 863ba91f88ee953ce7d62179ff3b50aca5500c83
+ms.sourcegitcommit: 5fb684ff8729eb118aa91ce9f049c79eeb9747b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "107031584"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107913063"
 ---
 # <a name="visual-studio-docs-whats-new-for-march-2021"></a>Документация по Visual Studio. Новые возможности выпуска за март 2021 г.
 
@@ -85,9 +85,9 @@ ms.locfileid: "107031584"
 ## <a name="ide"></a>IDE
 
 **Новые статьи**
-- [Как Visual Studio упрощает управление исходным кодом](./git-visual-studio-source-control.md) — добавление нового раздела о системе управления версиями Visual Studio
+- [Как Visual Studio упрощает управление исходным кодом](../version-control/git-visual-studio-source-control.md) — добавление нового раздела о системе управления версиями Visual Studio
 - [Командная строка разработчика и PowerShell для разработчиков](./reference/command-prompt-powershell.md) — Командная строка разработчика и PowerShell для разработчиков
-- [Параллельное сравнение Git и Team Explorer](./git-team-explorer-feature-comparison.md) — добавление новой страницы с параллельным сравнением возможностей Git и Team Explorer
+- [Параллельное сравнение Git и Team Explorer](../version-control/git-team-explorer-feature-comparison.md) — добавление новой страницы с параллельным сравнением возможностей Git и Team Explorer
 
 **Обновленные статьи**
 

@@ -14,12 +14,12 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 monikerRange: '>= vs-2019'
-ms.openlocfilehash: 0fe13030478f62f759b3eabc8e897c09a4295bad
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 267bd8567b60a66bcf9d78c3aef8f02bbc942e0d
+ms.sourcegitcommit: e12d6cdaeb37564f05361965db2ec8ad0d4f21ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99936760"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108025882"
 ---
 # <a name="javascript-and-typescript-in-visual-studio-2019"></a>JavaScript и TypeScript в Visual Studio 2019
 
@@ -46,4 +46,4 @@ Visual Studio 2019 предоставляет несколько вариант
 
 ## <a name="projects"></a>Проекты
 
-Приложения UWP на JavaScript больше не поддерживаются в Visual Studio 2019. Невозможно создать или открыть проекты UWP на JavaScript (файлы с расширением *JSPROJ*). Дополнительные сведения см. в [документации по созданию прогрессивных веб-приложений (PWA), эффективно работающих на Windows](/microsoft-edge/progressive-web-apps/get-started).
+Приложения UWP на JavaScript больше не поддерживаются в Visual Studio 2019. Невозможно создать или открыть проекты UWP на JavaScript (файлы с расширением *JSPROJ*). Дополнительные сведения см. в [документации по созданию прогрессивных веб-приложений (PWA), эффективно работающих на Windows](/microsoft-edge/progressive-web-apps-chromium).

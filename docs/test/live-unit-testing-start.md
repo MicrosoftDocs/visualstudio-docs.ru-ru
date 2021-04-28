@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: d411465869cc960631063d09752d38536af94119
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 5c965fd73f63906f7a1e055ae5ff051eebab19d5
+ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683616"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107828817"
 ---
 # <a name="get-started-with-live-unit-testing"></a>Начало работы с Live Unit Testing
 
@@ -82,7 +82,41 @@ Live Unit Testing можно использовать для тестирова�
 
 5. Замените весь существующий код, отображаемый в редакторе кода, следующим кодом:
 
-   [!code-csharp[StringLibrary source code](samples/csharp/utilitylibraries/stringlibrary/class1.cs)]
+   ```csharp
+   using System;
+
+   namespace UtilityLibraries
+   {
+       public static class StringLibrary
+       {
+           public static bool StartsWithUpper(this string s)
+           {
+               if (String.IsNullOrWhiteSpace(s))
+                   return false;
+
+               return Char.IsUpper(s[0]);
+           }
+
+           public static bool StartsWithLower(this string s)
+           {
+               if (String.IsNullOrWhiteSpace(s))
+                   return false;
+
+               return Char.IsLower(s[0]);
+           }
+
+           public static bool HasEmbeddedSpaces(this string s)
+           {
+               foreach (var ch in s.Trim())
+               {
+                   if (ch == ' ')
+                       return true;
+               }
+               return false;
+           }
+       }
+   }
+   ```
 
    StringLibrary имеет три статических метода:
 
@@ -140,7 +174,59 @@ Live Unit Testing можно использовать для тестирова�
 
 6. Замените стандартный код модульного теста, включенный в шаблон, следующим кодом:
 
-   [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest1.cs)]
+   ```csharp
+   using System;
+   using Microsoft.VisualStudio.TestTools.UnitTesting;
+   using UtilityLibraries;
+
+   namespace StringLibraryTest
+   {
+       [TestClass]
+       public class UnitTest1
+       {
+           [TestMethod]
+           public void TestStartsWithUpper()
+           {
+               // Tests that we expect to return true.
+               string[] words = { "Alphabet", "Zebra", "ABC", "Αθήνα", "Москва" };
+               foreach (var word in words)
+               {
+                   bool result = word.StartsWithUpper();
+                   Assert.IsTrue(result,
+                                 $"Expected for '{word}': true; Actual: {result}");
+               }
+           }
+
+           [TestMethod]
+           public void TestDoesNotStartWithUpper()
+           {
+               // Tests that we expect to return false.
+               string[] words = { "alphabet", "zebra", "abc", "αυτοκινητοβιομηχανία", "государство",
+                                  "1234", ".", ";", " " };
+               foreach (var word in words)
+               {
+                   bool result = word.StartsWithUpper();
+                   Assert.IsFalse(result,
+                                  $"Expected for '{word}': false; Actual: {result}");
+               }
+           }
+
+           [TestMethod]
+           public void DirectCallWithNullOrEmpty()
+           {
+               // Tests that we expect to return false.
+               string[] words = { String.Empty, null };
+               foreach (var word in words)
+               {
+                   bool result = StringLibrary.StartsWithUpper(word);
+                   Assert.IsFalse(result,
+                                  $"Expected for '{(word == null ? "<null>" : word)}': " +
+                                  $"false; Actual: {result}");
+               }
+           }
+       }
+   }
+   ```
 
 7. Сохраните проект, выбрав значок **Сохранить** на панели инструментов.
 
@@ -173,8 +259,8 @@ Live Unit Testing можно использовать для тестирова�
 
 ![Обозреватель тестов и окно редактора кода после запуска Live Unit Testing](media/lut-start/lut-results-cs.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
-По окончании выполнения **Live Unit Testing** отображает как общие результаты, так и результаты отдельных тестов. Кроме того, в окне редактора кода выводится графическое представление для результатов тестов и объема протестированного кода. Как показано на следующей иллюстрации, все три теста прошли успешно. Кроме того, видно, что наши тесты охватили все ветви кода в методе `StartsWithUpper` и все эти тесты были выполнены успешно (на что указывает зеленая галочка "✓"). Наконец, показано, что ни один из других методов в StringLibrary не имеет объем протестированного кода (на что указывает синяя линия "➖").
+::: moniker range=">=vs-2019&quot;
+По окончании выполнения **Live Unit Testing** отображает как общие результаты, так и результаты отдельных тестов. Кроме того, в окне редактора кода выводится графическое представление для результатов тестов и объема протестированного кода. Как показано на следующей иллюстрации, все три теста прошли успешно. Кроме того, видно, что наши тесты охватили все ветви кода в методе `StartsWithUpper` и все эти тесты были выполнены успешно (на что указывает зеленая галочка &quot;✓"). Наконец, показано, что ни один из других методов в StringLibrary не имеет объем протестированного кода (на что указывает синяя линия "➖").
 
 ![Обозреватель динамических тестов и окно редактора кода после запуска Live Unit Testing](media/lut-start/vs-2019/lut-results-cs.png)
 ::: moniker-end
@@ -199,11 +285,11 @@ Live Unit Testing можно использовать для тестирова�
 
 1. Добавьте следующие методы `TestStartsWithLower` и `TestDoesNotStartWithLower` в файл исходного кода теста проекта:
 
-    [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#1)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest2.cs" id="Snippet1":::
 
 1. Измените метод `DirectCallWithNullOrEmpty`, добавив следующий код сразу после вызова метода [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.isfalse).
 
-    [!code-csharp[StringLibraryTest source code](samples/snippets/csharp/lut-start/unittest2.cs#2)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest2.cs" id="Snippet2":::
 
 1. Live Unit Testing автоматически выполняет новые и измененные тесты, когда вы изменяете исходный код. Как показано на следующей иллюстрации, все тесты, включая два добавленных и один измененный, были выполнены успешно.
 
@@ -228,7 +314,7 @@ Live Unit Testing можно использовать для тестирова�
 
 1. Добавьте следующий метод в файл теста:
 
-    [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/unittest2.cs#3)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/unittest2.cs" id="Snippet3":::
 
 1. При выполнении теста Live Unit Testing указывает, что произошел сбой метода `TestHasEmbeddedSpaces`, как показано на следующей иллюстрации:
 
@@ -275,7 +361,7 @@ Live Unit Testing можно использовать для тестирова�
 
 1. Замените сравнение на равенство вызовом метода <xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName>:
 
-    [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/program2.cs#1)]
+   :::code language="csharp" source="../test/samples/snippets/csharp/lut-start/program2.cs" id="Snippet1":::
 
 1. Live Unit Testing автоматически перезапускает метод непройденного теста.
 

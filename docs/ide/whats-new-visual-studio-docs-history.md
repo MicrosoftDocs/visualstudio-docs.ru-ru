@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 05af4933569e988b35bea9763a27d8f68aae3627
-ms.sourcegitcommit: be14ae4b95e289f16e9444293bb2ec997d4b4d72
+ms.openlocfilehash: d29c8be82ba0461231d9cd02eb6799dd38a690ed
+ms.sourcegitcommit: 5fb684ff8729eb118aa91ce9f049c79eeb9747b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "107031597"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107913037"
 ---
 # <a name="history-of-whats-new-in-visual-studio-docs"></a>История новых возможностей в документации по Visual Studio
 
@@ -296,7 +296,7 @@ ms.locfileid: "107031597"
 
 **Обновленные статьи**
 
-- [Интерфейс GIT в Visual Studio](./git-with-visual-studio.md)
+- [Интерфейс GIT в Visual Studio](../version-control/git-with-visual-studio.md)
   - Обновлены замещающий текст и метаданные
   - Обновлен раздел "Содержимое нового интерфейса Git" для общедоступной версии 16.8
 - [Новые возможности Visual Studio 2019](./whats-new-visual-studio-2019.md)
@@ -482,7 +482,7 @@ ms.locfileid: "107031597"
 
 **Новые статьи**
 
-- [Новый интерфейс GIT в Visual Studio (предварительная версия)](./git-with-visual-studio.md) — добавлено содержимое о новом интерфейсе GIT (предварительная версия)
+- [Новый интерфейс GIT в Visual Studio (предварительная версия)](../version-control/git-with-visual-studio.md) — добавлено содержимое о новом интерфейсе GIT (предварительная версия)
 - [Соглашения о форматировании EditorConfig на C++](./cpp-editorconfig-properties.md) — новая статья
 - [Что такое GitHub Codespaces? (предварительная версия)](./codespaces/codespaces-overview.md) — добавлено содержимое о Codespaces (предварительная версия)
 - [Настройка codespace (предварительная версия)](./codespaces/customize-codespaces.md) — добавлено содержимое о Codespaces (предварительная версия)

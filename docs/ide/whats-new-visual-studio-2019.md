@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 60e1aca5e0f561539f3e27cf36dac67bb92c4ddf
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 9e4c432afb1a4341dbe30f023d95bfccb4689094
+ms.sourcegitcommit: 5fb684ff8729eb118aa91ce9f049c79eeb9747b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105082027"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107913102"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Новые возможности Visual Studio 2019
 
@@ -146,7 +146,7 @@ ms.locfileid: "105082027"
 
 **Новые возможности в версии 16.8:** Теперь GIT является интерфейсом системы управления версиями по умолчанию в Visual Studio 2019. Мы разработали набор функций на основе ваших отзывов за два прошлых выпуска. Теперь новый интерфейс включен по умолчанию для всех пользователей. В новом меню Git можно клонировать, создавать или открывать репозитории. Используйте интегрированные окна инструментов Git для фиксации и отправки изменений в код, управления ветвями, отслеживания изменений удаленных репозиториев и разрешения конфликтов слияния.
 
-Дополнительные сведения см. в статье [Новый интерфейс в Visual Studio](git-with-visual-studio.md).
+Дополнительные сведения см. в статье [Новый интерфейс в Visual Studio](../version-control/git-with-visual-studio.md).
 
 ### <a name="live-share"></a>Live Share
 
@@ -228,7 +228,7 @@ ms.locfileid: "105082027"
 
    Хотя новый интерфейс управления версиями Git теперь включен по умолчанию в Visual Studio 2019 [версии 16.8](/visualstudio/releases/2019/release-notes/), мы продолжаем добавлять новые функции для его совершенствования в последнем выпуске предварительной версии.
 
-   Дополнительные сведения см. в статье [Новый интерфейс в Visual Studio](git-with-visual-studio.md).
+   Дополнительные сведения см. в статье [Новый интерфейс в Visual Studio](../version-control/git-with-visual-studio.md).
 
 Дополнительные сведения о предварительном выпуске&mdash; и ссылку для скачивания, если вы хотите испытать его&mdash;, можно найти на странице **[Visual Studio Preview](https://aka.ms/vspreview/)** .
 
