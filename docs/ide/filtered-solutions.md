@@ -3,21 +3,20 @@ title: Загрузка подмножества проектов
 description: Сведения о фильтрации решений и о том, как она позволяет вам быстро загружать подмножество проектов в решение.
 ms.custom: SEO-VS-2020
 ms.date: 04/22/2019
-ms.prod: visual-studio-dev16
 ms.topic: conceptual
 helpviewer_keywords:
 - filtered solution
 - solution filtering
-author: jillre
+author: TerryGLee
 ms.author: stsu
 manager: jmartens
 monikerRange: '>= vs-2019'
-ms.openlocfilehash: eae0d02e1fff3f9ad5b35384e6ccab599805372b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ea30edbaac7248af8e1a58b76aebd66cf44befba
+ms.sourcegitcommit: a667ce8394a800906d633737f4fcbc77f0fcba7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99869392"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108298734"
 ---
 # <a name="filtered-solutions-in-visual-studio"></a>Фильтрация решений в Visual Studio
 
@@ -30,6 +29,9 @@ ms.locfileid: "99869392"
 - При повторном открытии решения Visual Studio запоминает, какие проекты были загружены в предыдущем сеансе, и загружает только эти проекты.
 
 - Можно создать файл фильтра решений, чтобы сохранить одну или несколько конфигураций загрузки проектов или поделиться ими с другими участниками команды.
+
+> [!NOTE]
+> Этот раздел относится к Visual Studio в Windows.
 
 ## <a name="open-a-filtered-solution"></a>Открытие отфильтрованного решения
 
