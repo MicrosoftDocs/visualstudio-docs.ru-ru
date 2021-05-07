@@ -49,7 +49,7 @@
             - name: Подавление нарушений анализа кода
               href: in-source-suppression-overview.md
         - name: ВОПРОСЫ И ОТВЕТЫ
-          href: analyzers-faq.md
+          href: analyzers-faq.yml
     - name: Анализ прежних версий
       items:
         - name: Обзор
@@ -92,7 +92,7 @@
             - name: Миграция с анализаторов FxCop на анализаторы .NET
               href: migrate-from-fxcop-analyzers-to-net-analyzers.md
             - name: ВОПРОСЫ И ОТВЕТЫ
-              href: net-analyzers-faq.md
+              href: net-analyzers-faq.yml
         - name: Наборы правил
           items:
             - name: Обзор

@@ -415,7 +415,7 @@
         - name: Отладка живого приложения Azure Kubernetes
           href: debug-live-azure-kubernetes.md
         - name: Ответы на часто задаваемые вопросы по отладке моментальных снимков
-          href: debug-live-azure-apps-faq.md
+          href: debug-live-azure-apps-faq.yml
         - name: Устранение неполадок отладки моментальных снимков
           href: debug-live-azure-apps-troubleshooting.md
         - name: Отладка перехода по времени работающей виртуальной машины Azure
@@ -949,6 +949,6 @@
 - name: Ресурсы
   items:
     - name: 'Часто задаваемые вопросы: поиск функции отладки'
-      href: find-your-debugging-task.md
+      href: find-your-debugging-task.yml
     - name: Новые возможности отладчика в Visual Studio
       href: what-s-new-for-the-debugger-in-visual-studio.md

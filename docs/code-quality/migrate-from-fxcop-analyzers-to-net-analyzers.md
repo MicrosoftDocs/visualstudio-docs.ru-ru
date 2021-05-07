@@ -13,12 +13,12 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.openlocfilehash: e435502587e65bd694567f4100516a91fa97cc0a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d6f9c36b1b64abe648c3aa9014c633e4e4949b1a
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99867871"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798262"
 ---
 # <a name="migrate-from-fxcop-analyzers-to-net-analyzers"></a>Миграция с анализаторов FxCop на анализаторы .NET
 
@@ -26,7 +26,7 @@ ms.locfileid: "99867871"
 
 До Visual Studio 2019 16,8 и .NET 5,0 эти анализаторы поставляются как `Microsoft.CodeAnalysis.FxCopAnalyzers` [пакет NuGet](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers).
 
-Начиная с Visual Studio 2019 16,8 и .NET 5,0, эти анализаторы [входят в состав пакета SDK для .NET](/dotnet/fundamentals/code-analysis/overview). Если вы не хотите переходить на пакет SDK для .NET 5 + или если предпочитаете использовать модель на основе пакетов NuGet, анализаторы также доступны в `Microsoft.CodeAnalysis.NetAnalyzers` [пакете NuGet](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Вы можете предпочесть модели на основе пакетов для обновления версий по требованию.
+Начиная с Visual Studio 2019 16,8 и .NET 5,0, эти анализаторы [входят в состав пакета SDK для .NET](/dotnet/fundamentals/code-analysis/overview). Если вы не хотите переходить на пакет SDK для .NET 5 + или если предпочитаете использовать модель на основе пакетов NuGet, анализаторы также доступны в `Microsoft.CodeAnalysis.NetAnalyzers` [пакете NuGet](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Возможно, вы предпочтете модель на основе пакета для обновлений версий по требованию.
 
 > [!NOTE]
 > Сторонние анализаторы .NET не зависят от платформы. То есть проект не обязан ориентироваться на конкретную платформу .NET. Анализаторы работают для проектов, предназначенных для, а также для `net5.0` более ранних версий .NET, таких как `netcoreapp` , `netstandard` и `net472` .
@@ -49,8 +49,8 @@ ms.locfileid: "99867871"
 
 ## <a name="see-also"></a>См. также раздел
 
-- [Сравнение анализа исходного кода и устаревшей функции анализа](net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
+- [Сравнение анализа исходного кода и устаревшей функции анализа](net-analyzers-faq.yml#what-s-the-difference-between-legacy-fxcop-and--net-analyzers-)
 - [Миграция с анализа прежних версий на анализаторы .NET](migrate-from-legacy-analysis-to-net-analyzers.md)
 - [Включение или установка анализаторов .NET](install-net-analyzers.md)
-- [Вопросы и ответы о анализаторах .NET](net-analyzers-faq.md)
+- [Вопросы и ответы о анализаторах .NET](net-analyzers-faq.yml)
 - [Настройка анализаторов .NET](/dotnet/fundamentals/code-analysis/code-quality-rule-options)

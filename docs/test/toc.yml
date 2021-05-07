@@ -137,7 +137,7 @@
     - name: Настройка и использование
       href: live-unit-testing.md
     - name: часто задаваемые вопросы
-      href: live-unit-testing-faq.md
+      href: live-unit-testing-faq.yml
 - name: Веб-тестирование производительности и нагрузочное тестирование
   items:
     - name: Краткое руководство. Создание проекта нагрузочного тестирования

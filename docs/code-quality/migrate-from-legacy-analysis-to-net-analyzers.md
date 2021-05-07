@@ -13,12 +13,12 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.openlocfilehash: 96a0c0b7fa1f2c703cefde31070ed98c5edddcb6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9a673e7467816e71b8240de9e5f68840c9188dcd
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99859766"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798236"
 ---
 # <a name="migrate-from-legacy-analysis-fxcop-to-source-analysis-net-analyzers"></a>Переход от традиционного анализа (FxCop) к исходному анализу (анализаторы .NET)
 
@@ -28,9 +28,9 @@ ms.locfileid: "99859766"
 
 Дополнительные сведения о различиях между анализом прежних версий и анализом исходного кода см. в следующих статьях:
 
-- [Сравнение анализа исходного кода и устаревшей функции анализа](../code-quality/net-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-net-analyzers)
+- [Сравнение анализа исходного кода и устаревшей функции анализа](../code-quality/net-analyzers-faq.yml#what-s-the-difference-between-legacy-fxcop-and--net-analyzers-)
 
-- [Вопросы и ответы о анализаторах .NET](../code-quality/net-analyzers-faq.md)
+- [Вопросы и ответы о анализаторах .NET](../code-quality/net-analyzers-faq.yml)
 
 ## <a name="migration"></a>Миграция
 

@@ -12,11 +12,11 @@ manager: jmartens
 ms.workload:
 - multiple
 ms.openlocfilehash: 6d67471027f36d0e22c055f4306ce2137d972463
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.sourcegitcommit: dd2fc6e03a789c044f8438096b8f112e4dba5557
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99843752"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108800453"
 ---
 # <a name="code-analysis-faq"></a>Анализ кода: вопросы и ответы
 
