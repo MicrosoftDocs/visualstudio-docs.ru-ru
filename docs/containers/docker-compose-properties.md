@@ -4,15 +4,15 @@ author: ghogen
 description: Узнайте, как изменить свойства сборки Docker Compose, чтобы настроить сборку и запуск приложения Docker Compose в Visual Studio.
 ms.custom: SEO-VS-2020
 ms.author: ghogen
-ms.date: 08/12/2019
+ms.date: 04/06/2021
 ms.technology: vs-azure
 ms.topic: reference
-ms.openlocfilehash: 4478656af7fff4cfd3a0fdafefe623af5811154f
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: ed4b2a0dc1dc7a0520bf8e83ab1968a3815196e0
+ms.sourcegitcommit: e12d6cdaeb37564f05361965db2ec8ad0d4f21ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105068301"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108025869"
 ---
 # <a name="docker-compose-build-properties"></a>Свойства сборки Docker Compose
 
@@ -37,16 +37,17 @@ ms.locfileid: "105068301"
 | Имя свойства | Местоположение | Описание | Значение по умолчанию  |
 |---------------|----------|-------------|----------------|
 |AdditionalComposeFilePaths|DCPROJ|Указывает дополнительные файлы Compose в списке, разделенном точкой с запятой, которые будут отправлены в docker-compose.exe для всех команд. Относительные пути от файла проекта docker-compose (DCPROJ) разрешены.|-|
-|DockerComposeBaseFilePath|DCPROJ|Указывает первую часть имен файлов docker-compose без расширения *YML*. Пример: <br>1.  DockerComposeBaseFilePath равен NULL или не определен: используется базовый путь к файлу *docker-compose*, и файлы будут называться *docker-compose.yml* и *docker-compose.override.yml*.<br>2.   DockerComposeBaseFilePath = *mydockercompose*: файлы будут называться *mydockercompose.yml* и *mydockercompose.override.yml*.<br> 3.  DockerComposeBaseFilePath = *..\mydockercompose*: файлы будут располагаться на один уровень выше. |docker-compose|
-|DockerComposeBuildArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose build`. Например: `--parallel --pull` |
-|DockerComposeDownArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose down`. Например: `--timeout 500`|-|
+|DockerComposeBaseFilePath|DCPROJ|Указывает первую часть имен файлов docker-compose без расширения *YML*. Пример: <br>1. DockerComposeBaseFilePath = null/undefined: используйте базовый путь к файлу *docker-compose*, и файлы будут называться *docker-compose.yml* и *docker-compose.override.yml*.<br>2. DockerComposeBaseFilePath = *mydockercompose*: файлы будут называться *mydockercompose.yml* и *mydockercompose.override.yml*.<br> 3. DockerComposeBaseFilePath = *..\mydockercompose*: файлы будут располагаться на уровень выше. |docker-compose|
+|DockerComposeBuildArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose build`. Например, `--parallel --pull`. |
+|DockerComposeDownArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose down`. Например, `--timeout 500`.|-|  
 |DockerComposeProjectName| DCPROJ | Если указано, переопределяет имя проекта для проекта docker-compose. | dockercompose + автоматически сгенерированный хэш |
 |DockerComposeProjectPath|CSPROJ или VBPROJ|Относительный путь к файлу проекта docker-compose (DCPROJ). Задайте это свойство при публикации проекта службы, чтобы можно было найти связанные параметры сборки образа, хранящиеся в файле docker-compose.yml.|-|
-|DockerComposeUpArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose up`. Например: `--timeout 500`|-|
-|DockerDevelopmentMode|DCPROJ| Определяет, включена ли оптимизация "сборка в узле" (отладка в быстром режиме).  Допустимые значения: **Fast** и **Regular**. | Быстрый |
-|DockerLaunchAction| DCPROJ | Указывает действие запуска, выполняемое при нажатии клавиши F5 или клавиш CTRL+F5.  Допустимые значения: None, LaunchBrowser и LaunchWCFTestClient.|Отсутствуют|
+|DockerComposeProjectsToIgnore|DCPROJ| Определяет проекты, игнорируемые средствами docker-compose во время отладки. Это свойство можно использовать для любого проекта. Пути к файлам можно указать одним из двух способов: <br> 1. Относительно DCPROJ. Например, `<DockerComposeProjectsToIgnore>path\to\AngularProject1.csproj</DockerComposeProjectsToIgnore>`. <br> 2. Абсолютные пути.<br> **Примечание.** Пути должны быть разделены с помощью символа `;`.|-|
+|DockerComposeUpArguments|DCPROJ|Указывает дополнительные параметры, передаваемые в команду `docker-compose up`. Например, `--timeout 500`.|-|
+|DockerDevelopmentMode| DCPROJ | Определяет, создан ли пользовательский проект в контейнере. Допустимые значения **Fast** или **Regular** определяют, [какие этапы создаются](https://aka.ms/containerfastmode) в Dockerfile. По умолчанию в качестве конфигурации отладки используется режим Fast, в противном случае — режим Regular. | Быстрый |
+|DockerLaunchAction| DCPROJ | Указывает действие запуска, выполняемое при нажатии клавиши F5 или клавиш CTRL+F5.  Допустимые значения: None, LaunchBrowser и LaunchWCFTestClient. | Отсутствуют |
 |DockerLaunchBrowser| DCPROJ | Указывает, следует ли запускать браузер. Игнорируется, если задано свойство DockerLaunchAction. | False |
-|DockerServiceName| DCPROJ|Если указано свойство DockerLaunchAction или DockerLaunchBrowser, DockerServiceName — это имя службы, которую следует запустить.  Используйте это свойство, чтобы указать, какой из множества проектов, на которые может ссылаться файл docker-compose, будет запущен.|-|
+|DockerServiceName| DCPROJ| Если указать DockerLaunchAction или DockerLaunchBrowser, тогда DockerServiceName определяет запускаемую службу, на которую есть ссылка в файле docker-compose.|-|
 |DockerServiceUrl| DCPROJ | URL-адрес, используемый при запуске браузера.  Допустимые токены замены: "{ServiceIPAddress}", "{ServicePort}" и "{Scheme}".  Пример: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
 |DockerTargetOS| DCPROJ | Целевая ОС, используемая при сборке образа Docker.|-|
 
@@ -93,9 +94,16 @@ services:
 > [!NOTE]
 > Свойства DockerComposeBuildArguments, DockerComposeDownArguments и DockerComposeUpArguments появились в Visual Studio 2019 версии 16.3.
 
-## <a name="docker-compose-file-labels"></a>Метки файлов Docker Compose
+## <a name="overriding-visual-studios-docker-compose-configuration"></a>Переопределение конфигурации Docker Compose в Visual Studio
 
-Некоторые параметры можно также переопределить, поместив файл *docker-compose.vs.debug.yml* (для конфигурации **отладки**) или *docker-compose.vs.release.yml* (для конфигурации **выпуска**) в один каталог с файлом *docker-compose.yml*.  В этом файле можно задать перечисленные ниже параметры.
+Некоторые параметры можно переопределить, поместив файл *docker-compose.vs.debug.yml* (для режима **Fast**) или *docker-compose.vs.release.yml* (для режима **Regular**) в один каталог с файлом *docker-compose.yml*. 
+
+>[!TIP] 
+>Чтобы узнать значения по умолчанию для любого из этих параметров, см. файл *docker-compose.vs.debug.g.yml* или *docker-compose.vs.release.g.yml*.
+
+### <a name="docker-compose-file-labels"></a>Метки файлов Docker Compose
+
+ В файле *docker-compose.vs.debug.yml* или *docker-compose.vs.release.yml* можно определить метки override-specific:
 
 ```yml
 services:
@@ -109,13 +117,26 @@ services:
 |Имени метки|Описание|
 |----------|-----------|
 |com.microsoft.visualstudio.debuggee.arguments|Аргументы, передаваемые в программу при запуске отладки. Для приложений .NET Core эти аргументы обычно представляют собой дополнительные пути поиска пакетов NuGet, за которыми следует путь к выходной сборке проекта.|
-|com.microsoft.visualstudio.debuggee.killprogram|Эта команда служит для остановки отлаживаемой программы, выполняемой в контейнере (при необходимости).|
 |com.microsoft.visualstudio.debuggee.program|Программа, запускаемая при начале отладки. Для приложений .NET Core этот параметр обычно имеет значение **dotnet**.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|Каталог, используемый в качестве начального при запуске отладки. Этот параметр обычно имеет значение */app* для контейнеров Linux или *C:\app* для контейнеров Windows.|
+|com.microsoft.visualstudio.debuggee.killprogram|Эта команда служит для остановки отлаживаемой программы, выполняемой в контейнере (при необходимости).|
 
-## <a name="customize-the-app-startup-process"></a>Настройка процесса запуска приложения
+### <a name="customize-the-docker-build-process"></a>Настройка процесса сборки Docker
 
-Вы можете выполнить команду или пользовательский скрипт перед запуском приложения с помощью параметра `entrypoint` и сделать их зависимыми от конфигурации. Например, если требуется настроить сертификат только в режиме **Отладка**, запустив `update-ca-certificates`, но не в режиме **Выпуск**, можно добавить следующий код только в *docker-compose.vs.debug.yml*:
+Вы можете объявить создаваемый этап в Dockerfile, используя параметр `target` в свойстве `build`. Это переопределение можно использовать только в файле *docker-compose.vs.debug.yml* или *docker-compose.vs.release.yml*. 
+
+```yml
+services:
+  webapplication1:
+    build:
+      target: customStage
+    labels:
+      ...
+```
+
+### <a name="customize-the-app-startup-process"></a>Настройка процесса запуска приложения
+
+Вы можете выполнить команду или пользовательский скрипт перед запуском приложения с помощью параметра `entrypoint`, создав зависимость от `DockerDevelopmentMode`. Например, если вам нужно настроить сертификат только в режиме **Fast**, запустив `update-ca-certificates`, но не в режиме **Regular**, можно добавить следующий код **только** в файл *docker-compose.vs.debug.yml*:
 
 ```yml
 services:
@@ -124,8 +145,6 @@ services:
     labels:
       ...
 ```
-
-Если опустить *docker-compose.vs.release.yml* или *docker-compose.vs.debug.yml*, Visual Studio создает его на основе параметров по умолчанию.
 
 ## <a name="next-steps"></a>Следующие шаги
 

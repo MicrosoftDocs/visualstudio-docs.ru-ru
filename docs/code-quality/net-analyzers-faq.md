@@ -12,11 +12,11 @@ manager: jmartens
 ms.workload:
 - dotnet
 ms.openlocfilehash: 951e9b951f1d90077fe29506e9c288fb19f2d5ff
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.sourcegitcommit: dd2fc6e03a789c044f8438096b8f112e4dba5557
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99867767"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108800452"
 ---
 # <a name="frequently-asked-questions-about-legacy-fxcop-and-net-analyzers"></a>Часто задаваемые вопросы о устаревших анализаторах FxCop и .NET
 

@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 993b5f61d8517d5638cb785fa2d79b47f80d1caf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f3b72db232e5e83a0d83fbab1d1223da507054d9
+ms.sourcegitcommit: 925db7adb9cb554b081c7e727d09680d4863feed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99940557"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "107941127"
 ---
 # <a name="dump-files-in-the-visual-studio-debugger"></a>Файлы дампа в отладчике Visual Studio
 
@@ -43,6 +43,10 @@ ms.locfileid: "99940557"
 ## <a name="requirements-and-limitations"></a><a name="BKMK_Requirements_and_limitations"></a> Требования и ограничения
 
 - Для отладки файлов дампа, полученных с 64-разрядных компьютеров, необходимо запустить Visual Studio на 64-разрядном компьютере.
+
+::: moniker range=">= vs-2019"
+- Visual Studio поддерживает отладку файлов дампа управляемых приложений в Linux. 
+::: moniker-end
 
 - Visual Studio поддерживает отладку файлов дампа, создаваемых приложениями в машинных кодах на устройствах ARM. Он также поддерживает отладку дампов управляемых приложений с устройств ARM, но только в отладчике машинного кода.
 
@@ -116,6 +120,7 @@ Visual Studio автоматически ищет *EXE*-файлы, не вкл
 
 ## <a name="see-also"></a>См. также
 
+- [Отладка дампа управляемой памяти с помощью диагностических анализаторов .NET](../debugger/how-to-debug-managed-memory-dump.md)
 - [JIT-отладка](../debugger/just-in-time-debugging-in-visual-studio.md)
 - [Указание файлов символов (PDB) и файлов с исходным кодом](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [IntelliTrace](../debugger/intellitrace.md)

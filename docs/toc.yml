@@ -842,7 +842,7 @@
         - name: Разработка приложений с поддержкой множества языков
           displayName: Globalization localization world-ready
           href: ide/globalizing-and-localizing-applications.md
-- name: Построение
+- name: Сборка
   items:
     - name: Обзор
       displayName: Compile build
@@ -1110,7 +1110,7 @@
                   href: ide/reference/autorecover-environment-options-dialog-box.md
                 - name: Документы
                   href: ide/reference/documents-environment-options-dialog-box.md
-                - name: Модули
+                - name: Расширения
                   href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
                 - name: Найти и заменить
                   href: ide/reference/find-and-replace-environment-options-dialog-box.md
@@ -1439,9 +1439,9 @@
       href: ide/whats-new-visual-studio-2017.md
     - name: Новые возможности Visual Studio 2019
       href: ide/whats-new-visual-studio-2019.md
-    - name: Новые возможности в документации по Visual Studio
+    - name: Что нового в документации
       href: ide/whats-new-visual-studio-docs.md
-    - name: История новых возможностей в документации по Visual Studio
+    - name: Журнал обновлений в документации
       href: ide/whats-new-visual-studio-docs-history.md
     - name: Заметки о выпуске и требования к системе
       items:

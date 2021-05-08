@@ -52,3 +52,5 @@
       href: overview-bridge-to-kubernetes.md
     - name: Настройка Bridge to Kubernetes
       href: configure-bridge-to-kubernetes.md
+    - name: Использование управляемых удостоверений Azure AD с Bridge to Kubernetes
+      href: managed-identity.md

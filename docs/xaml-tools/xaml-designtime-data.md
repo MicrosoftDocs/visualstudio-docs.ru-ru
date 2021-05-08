@@ -7,12 +7,12 @@ author: alihamie
 ms.author: tglee
 manager: jmartens
 monikerRange: vs-2019
-ms.openlocfilehash: 4bd059fa82f8a959d6e3b8a843f19cbec636fb7e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 915fe38da63f0b3994a809b20515fdc18e0790ce
+ms.sourcegitcommit: 5fb684ff8729eb118aa91ce9f049c79eeb9747b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99880415"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107913076"
 ---
 # <a name="use-design-time-data-with-the-xaml-designer-in-visual-studio"></a>Использование данных времени разработки в Конструкторе XAML в Visual Studio
 
@@ -66,7 +66,10 @@ mc:Ignorable="d"
 
 ## <a name="design-time-data-for-listviews"></a>Данные времени разработки для ListView
 
-Элемент ListView — это популярный способ отображения данных в классическом приложении. Однако его сложно визуализировать без каких-либо данных. Для создания встроенных данных времени разработки можно использовать ItemSource. В Конструкторе XAML содержимое этого массива отображается в ListView во время разработки. Ниже приведен пример для WPF .NET Core. Чтобы использовать тип system:String, необходимо включить `xmlns:system="clr-namespace:System;assembly=mscorlib` в заголовок XAML.
+Элемент ListView — это популярный способ отображения данных в классическом приложении. Однако его сложно визуализировать без каких-либо данных. С помощью этой возможности вы можете создавать встроенные данные времени разработки (ItemSource или Items). В Конструкторе XAML содержимое этого массива отображается в ListView во время разработки.
+
+### <a name="wpf-net-core--example"></a>Примеры WPF .NET Core
+Чтобы использовать тип system:String, необходимо включить `xmlns:system="clr-namespace:System;assembly=mscorlib` в заголовок XAML.
 
 ```xml
 <StackPanel>
@@ -135,6 +138,22 @@ xmlns:models="clr-namespace:Cities.Models"
 [![Фактическая модель в данных времени разработки для ListView](media\xaml-design-time-listview-models.png "Данные времени разработки фактической модели для ListView")](media\xaml-design-time-listview-models.png#lightbox)
 
 Преимущество заключается в возможности привязки элементов управления к статической версии модели времени разработки.
+
+### <a name="uwp-example"></a>Пример UWP 
+
+x:Array не поддерживается в UWP. Поэтому мы можем использовать `<d:ListView.Items>`. Чтобы использовать тип system:String, необходимо включить `http://schemas.microsoft.com/winfx/2009/xaml` в заголовок XAML.
+
+```xml
+    <StackPanel>
+        <ListView>
+            <d:ListView.Items>
+                <system:String>Item One</system:String>
+                <system:String>Item Two</system:String>
+                <system:String>Item Three</system:String>
+            </d:ListView.Items>
+        </ListView>
+    </StackPanel>
+```
 
 ## <a name="use-design-time-data-with-custom-types-and-properties"></a>Использование данных времени разработки с пользовательскими типами и свойствами
 
