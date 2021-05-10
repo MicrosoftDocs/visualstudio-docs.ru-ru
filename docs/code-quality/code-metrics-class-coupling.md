@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: f8320c460faf7532887364693080d38c0ff6baa6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0853b807d3287eb584e76d9640ac98f930edb1a7
+ms.sourcegitcommit: cc66c898ce82f9f1159bd505647f315792cac9fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99860520"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "109666813"
 ---
 # <a name="code-metrics---class-coupling"></a>Метрики кода — связь классов
 
@@ -70,8 +70,6 @@ ms.locfileid: "99860520"
 ![Правило взаимосвязей классов](media/class-coupling-maintainability-area-rules.png)
 
 Это правило выдает предупреждение при чрезмерном взаимосвязанности классов. Дополнительные сведения см. в разделе [CA1506. Избегайте чрезмерного связывания классов](/dotnet/fundamentals/code-analysis/quality-rules/ca1506).
-
-Описание этого правила см. в записи блога о архивированном анализе кода: [метрики кода в качестве политики возврата](/archive/blogs/codeanalysis/code-metrics-as-check-in-policy) и предупреждение о пороговом описании *выше 80 для класса и более 30 для метода*.  Эти значения кажутся ненормальными, но по крайней мере обеспечивают максимальный предел. Если вы выйдете это предупреждение, то что-то почти определенно не так.
 
 ## <a name="citations"></a>Цитат
 
