@@ -13,12 +13,12 @@ monikerRange: '>= vs-2019'
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 9ed85616080859cd69c44c66b442f3f46d81f51a
-ms.sourcegitcommit: d577818d3d8e365baa55c6108fa8159c46ed8b43
+ms.openlocfilehash: bdab6b3f559628506dd301d6ced449f1e69152a6
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97846953"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798496"
 ---
 # <a name="debug-live-aspnet-apps-on-azure-virtual-machines-and-azure-virtual-machine-scale-sets-using-the-snapshot-debugger"></a>Отладка динамических приложений ASP.NET на виртуальных машинах Azure и масштабируемых наборах виртуальных машин Azure с помощью Snapshot Debugger
 
@@ -110,7 +110,7 @@ ms.locfileid: "97846953"
 
 Вы можете также добавить дополнительные точки моментальных снимков в приложение и включить их с помощью кнопки **Обновить коллекцию**.
 
-**Нужна помощь?** См. статьи [Устранение неполадок и известные проблемы для отладки моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md) и [Часто задаваемые вопросы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.md).
+**Нужна помощь?** См. статьи [Устранение неполадок и известные проблемы для отладки моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md) и [Часто задаваемые вопросы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.yml).
 
 ## <a name="set-a-conditional-snappoint"></a>Настройка условной точки моментальных снимков
 
@@ -153,4 +153,4 @@ ms.locfileid: "97846953"
 В этом руководстве вы узнали, как использовать Snapshot Debugger для Виртуальных машин Azure и для Масштабируемых наборов виртуальных машин Azure. Вы можете прочитать дополнительные сведения об этой функции.
 
 > [!div class="nextstepaction"]
-> [Ответы на часто задаваемые вопросы по отладке моментальных снимков](../debugger/debug-live-azure-apps-faq.md)
+> [Ответы на часто задаваемые вопросы по отладке моментальных снимков](../debugger/debug-live-azure-apps-faq.yml)

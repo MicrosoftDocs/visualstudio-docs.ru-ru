@@ -35,19 +35,19 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: cdc0231b7c42dbdb4aca86040347ec5bfd57607d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0865c71d2893203ca3af925da1d76946d882c4c4
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99940674"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798587"
 ---
 # <a name="use-breakpoints-in-the-visual-studio-debugger"></a>Использование точек останова в отладчике Visual Studio
 
 Точки останова — это один из важнейших инструментов разработчика для выполнения отладки. Точки останова устанавливаются везде, где нужно приостановить выполнение отладчика. Например, вы хотите просмотреть состояние переменных кода или стек вызовов в определенной точке останова.  Если вы пытаетесь разрешить предупреждение или проблему при использовании точек останова, см. раздел [Устранение неполадок точек останова в отладчике Visual Studio](../debugger/troubleshooting-breakpoints.md).
 
 > [!NOTE]
-> Если вам известна задача или проблема, которую вы пытаетесь решить, но вы не знаете, какой тип точки останова следует использовать, см. статью [Часто задаваемые вопросы. Поиск нужной функции отладки в Visual Studio](../debugger/find-your-debugging-task.md#pause-running-code).
+> Если вам известна задача или проблема, которую вы пытаетесь решить, но вы не знаете, какой тип точки останова следует использовать, см. статью [Часто задаваемые вопросы. Поиск нужной функции отладки в Visual Studio](../debugger/find-your-debugging-task.yml#pause-running-code).
 
 ## <a name="set-breakpoints-in-source-code"></a><a name="BKMK_Overview"></a> Задание точек останова в исходном коде
 

@@ -13,12 +13,12 @@ manager: crdun
 ms.workload:
 - unity
 zone_pivot_groups: platform
-ms.openlocfilehash: e05a94ecf9cf690f46299684c82f2b3961a783c8
-ms.sourcegitcommit: 585547ea7363ab1b6bb9d41f6d008cbe478d1a3b
+ms.openlocfilehash: 791f25b61c86f0115c225d505bdb1edb07869961
+ms.sourcegitcommit: 69256dc47489853dc66a037f5b0c1275977540c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98912572"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109782612"
 ---
 # <a name="get-started-with-visual-studio-and-unity"></a>Начало работы с Visual Studio и Unity
 
@@ -34,7 +34,7 @@ ms.locfileid: "98912572"
 > [!NOTE]
 > Это руководства по установке для Visual Studio. Если вы используете Visual Studio Code, ознакомьтесь [с документацией по разработке Unity с VS Code](https://code.visualstudio.com/docs/other/unity).
 
-1. [Скачайте установщик Visual Studio](/visualstudio/docs/install/install-visual-studio.md)или запустите его, если он уже установлен.
+1. [Скачайте установщик Visual Studio](/visualstudio/install/install-visual-studio.md)или запустите его, если он уже установлен.
 2. Щелкните **Изменить** (если установлено) или **Установка** (для новой установки) для требуемой версии Visual Studio.
 3. На вкладке **рабочие нагрузки** перейдите к разделу **игры** и выберите рабочую нагрузку **Разработка игр с помощью Unity** .
 

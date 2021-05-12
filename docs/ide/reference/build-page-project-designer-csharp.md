@@ -16,12 +16,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 95404beb5c2be5363c9ef91e770237b453970429
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 91b254f4c075693e23d8f650356cd97e86a4c746
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836453"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798561"
 ---
 # <a name="build-page-project-designer-c"></a>Страница "Построение" в конструкторе проектов (C#)
 
@@ -119,7 +119,7 @@ ms.locfileid: "99836453"
 **Конкретные предупреждения** — обрабатывает указанные предупреждения как ошибки. Разделяйте предупреждения запятой или точкой с запятой.
 
 > [!TIP]
-> Если вы не хотите, чтобы предупреждения анализа кода обрабатывались как ошибки, см. раздел [Вопросы и ответы по анализу кода](../../code-quality/analyzers-faq.md#treat-warnings-as-errors).
+> Если вы не хотите, чтобы предупреждения анализа кода обрабатывались как ошибки, см. раздел [Вопросы и ответы по анализу кода](/visualstudio/code-quality/analyzers-faq#treat-warnings-as-errors).
 
 ## <a name="output"></a>Выходные данные
 

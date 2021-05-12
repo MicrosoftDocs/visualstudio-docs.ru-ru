@@ -10,12 +10,12 @@ author: mikejo5000
 ms.author: mikejo
 ms.workload:
 - dotnet
-ms.openlocfilehash: 82ed41514109887d32f38faf4f965c923864ae32
-ms.sourcegitcommit: 9ce13a961719afbb389fa033fbb1a93bea814aae
+ms.openlocfilehash: b9b78771c36dce26744ba74af63922cf1efa48e2
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96329358"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798626"
 ---
 # <a name="how-to-configure-and-use-live-unit-testing"></a>Настройка и использование Live Unit Testing
 
@@ -185,18 +185,18 @@ ms.locfileid: "96329358"
 
 В диалоговом окне выводится предупреждение о том, что динамическое выполнение большого количества тестов в крупных проектах может значительно ухудшить производительность. Если нажать кнопку **ОК**, Live Unit Testing выполнит все тесты в решении. Если нажать кнопку **Отменить**, можно выбрать тесты для выполнения. Подробные сведения см. в следующем разделе.
 
-## <a name="include-and-exclude-test-projects-and-test-methods"></a>Добавление и исключение тестовых проектов и методов теста
+## <a name="include-and-exclude-test-projects-and-test-methods&quot;></a>Добавление и исключение тестовых проектов и методов теста
 
 В решениях с большим количеством тестовых проектов вы можете контролировать, какие проекты и отдельные методы в проекте могут использоваться в функции Live Unit Testing. Например, если у вас есть решение с сотнями тестовых проектов, вы можете выбрать только целевой набор, который будет использоваться с этой функцией. Это можно сделать несколькими способами в зависимости от того, следует ли исключить все тесты в проекте или решении, включить или исключить большую часть тестов либо исключить отдельные тесты. Функция Live Unit Testing сохраняет состояние включения или исключения и запоминает его после закрытия и повторного открытия решения.
 
-### <a name="exclude-all-tests-in-a-project-or-solution"></a>Исключение всех тестов в проекте или решении
+### <a name=&quot;exclude-all-tests-in-a-project-or-solution&quot;></a>Исключение всех тестов в проекте или решении
 
 Чтобы выбрать отдельные проекты в модульных тестах, запустите Live Unit Testing и выполните следующие действия:
 
 1. В **обозревателе решений** щелкните решение правой кнопкой мыши и выберите **Динамическое модульное тестирование** > **Исключить**, чтобы исключить все решение.
 1. Щелкните правой кнопкой мыши каждый тестовый проект, который вы хотите добавить в тесты, и выберите **Динамическое модульное тестирование** > **Включить**.
 
-### <a name="exclude-individual-tests-from-the-code-editor-window"></a>Исключение отдельных тестов в окне редактора кода
+### <a name=&quot;exclude-individual-tests-from-the-code-editor-window&quot;></a>Исключение отдельных тестов в окне редактора кода
 
 Включать и исключать отдельные методы теста можно в окне редактора кода. В окне редактора кода щелкните сигнатуру метода теста правой кнопкой мыши и выберите один из следующих вариантов:
 
@@ -204,13 +204,13 @@ ms.locfileid: "96329358"
 - **Динамическое модульное тестирование** > **Исключить \<selected method>**
 - **Динамическое модульное тестирование** > **Исключить все, кроме \<selected method>**
 
-### <a name="exclude-tests-programmatically"></a>Исключение тестов с помощью программных средств
+### <a name=&quot;exclude-tests-programmatically&quot;></a>Исключение тестов с помощью программных средств
 
 Вы также можете отменить создание отчетов о покрытии в Live Unit Testing для некоторых методов, классов или структур, применив к ним атрибут <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute>.
 
 Чтобы исключить отдельные методы из Live Unit Testing, используйте следующие атрибуты:
 
-- Для xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
+- Для xUnit: `[Trait(&quot;Category&quot;, &quot;SkipWhenLiveUnitTesting")]`
 - Для NUnit: `[Category("SkipWhenLiveUnitTesting")]`
 - Для MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
@@ -224,5 +224,5 @@ ms.locfileid: "96329358"
 
 - [Средства тестирования кода](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Блог о функции Live Unit Testing](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
-- [Динамическое модульное тестирование: вопросы и ответы](live-unit-testing-faq.md)
+- [Динамическое модульное тестирование: вопросы и ответы](live-unit-testing-faq.yml)
 - [Видео на Channel 9. Функция Live Unit Testing в Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)

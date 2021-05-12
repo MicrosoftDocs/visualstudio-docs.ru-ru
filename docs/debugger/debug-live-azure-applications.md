@@ -13,12 +13,12 @@ manager: jmartens
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 53a7d00548e6d273e2afa2da48669b3d1f3cf827
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 94c65814572c99f95d7a6edc6769e5af0ea6e748
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99873328"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798379"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>Отладка интерактивных приложений ASP.NET Azure с использованием Snapshot Debugger
 
@@ -127,7 +127,7 @@ ms.locfileid: "99873328"
 
 Вы можете также добавить дополнительные точки моментальных снимков в приложение и включить их с помощью кнопки **Обновить коллекцию**.
 
-**Нужна помощь?** См. статьи [Устранение неполадок и известные проблемы для отладки моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md) и [Часто задаваемые вопросы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.md).
+**Нужна помощь?** См. статьи [Устранение неполадок и известные проблемы для отладки моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md) и [Часто задаваемые вопросы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.yml).
 
 ## <a name="set-a-conditional-snappoint"></a>Настройка условной точки моментальных снимков
 
@@ -170,4 +170,4 @@ ms.locfileid: "99873328"
 В этом руководстве вы узнали, как использовать Snapshot Debugger для Служб приложений. Вы можете прочитать дополнительные сведения об этой функции.
 
 > [!div class="nextstepaction"]
-> [Ответы на часто задаваемые вопросы по отладке моментальных снимков](../debugger/debug-live-azure-apps-faq.md)
+> [Ответы на часто задаваемые вопросы по отладке моментальных снимков](../debugger/debug-live-azure-apps-faq.yml)

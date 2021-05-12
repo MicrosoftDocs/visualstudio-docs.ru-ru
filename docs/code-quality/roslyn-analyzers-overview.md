@@ -14,12 +14,12 @@ ms.author: midumont
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: d6a295e4abc62a7591c98b92cad4c173c5ff507b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c3a7192ac55dc4138746e3e1e1abe4eaa6928395
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99859805"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798340"
 ---
 # <a name="overview-of-source-code-analysis"></a>Обзор анализа исходного кода
 
@@ -101,6 +101,6 @@ ms.locfileid: "99859805"
 
 ## <a name="see-also"></a>См. также
 
-- [Часто задаваемые вопросы по анализаторам](analyzers-faq.md)
+- [Часто задаваемые вопросы по анализаторам](analyzers-faq.yml)
 - [Написание собственного анализатора кода](../extensibility/getting-started-with-roslyn-analyzers.md)
 - [Пакет SDK для .NET Compiler Platform](/dotnet/csharp/roslyn-sdk/)

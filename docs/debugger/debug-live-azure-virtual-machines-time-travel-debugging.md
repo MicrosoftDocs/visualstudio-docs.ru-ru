@@ -13,12 +13,12 @@ monikerRange: '>= vs-2019'
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: eb0db0bab5295925f71a81645e64fdeb5f2077df
-ms.sourcegitcommit: 566144d59c376474c09bbb55164c01d70f4b621c
+ms.openlocfilehash: f8aabb109de02a1beec326407472a841fe16425a
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90809574"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798457"
 ---
 # <a name="record-and-replay-live-aspnet-apps-on-azure-virtual-machines-using-the-snapshot-debugger"></a>Запись и воспроизведение динамических приложений ASP.NET на виртуальных машинах Azure с помощью Snapshot Debugger
 
@@ -105,7 +105,7 @@ ms.locfileid: "90809574"
 
     Сам веб-сайт является активным, и последующие действия TTD не влияют на конечных пользователей. По умолчанию создается только один моментальный снимок для каждой точки моментальных снимков. После создания моментального снимка точка моментальных снимков отключается. Если вы хотите сделать еще один снимок в одной точке, вы можете снова включить ее, нажав **Обновить коллекцию**.
 
-**Нужна помощь?** См. статьи [Устранение неполадок и известные проблемы для отладки моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md) и [Часто задаваемые вопросы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.md).
+**Нужна помощь?** См. статьи [Устранение неполадок и известные проблемы для отладки моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md) и [Часто задаваемые вопросы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.yml).
 
 ## <a name="set-a-conditional-snappoint"></a>Настройка условной точки моментальных снимков
 
@@ -116,4 +116,4 @@ ms.locfileid: "90809574"
 В этом руководстве вы узнали, как организовать сбор записей переходов по времени для виртуальных машин Azure. Возможно, вы заходите ознакомиться с дополнительными сведениями об этой функции.
 
 > [!div class="nextstepaction"]
-> [Ответы на часто задаваемые вопросы по отладке моментальных снимков](../debugger/debug-live-azure-apps-faq.md)
+> [Ответы на часто задаваемые вопросы по отладке моментальных снимков](../debugger/debug-live-azure-apps-faq.yml)

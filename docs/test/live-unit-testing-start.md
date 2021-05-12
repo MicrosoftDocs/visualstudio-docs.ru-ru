@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 5c965fd73f63906f7a1e055ae5ff051eebab19d5
-ms.sourcegitcommit: 4b40aac584991cc2eb2186c3e4f4a7fcd522f607
+ms.openlocfilehash: 2270216e7245f20d26df580ad90dc627319adcc1
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107828817"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798639"
 ---
 # <a name="get-started-with-live-unit-testing"></a>Начало работы с Live Unit Testing
 
@@ -370,4 +370,4 @@ Live Unit Testing можно использовать для тестирова�
 ## <a name="see-also"></a>См. также
 
 - [Функция Live Unit Testing в Visual Studio](live-unit-testing.md)
-- [Часто задаваемые вопросы о функции Live Unit Testing](live-unit-testing-faq.md)
+- [Часто задаваемые вопросы о функции Live Unit Testing](live-unit-testing-faq.yml)

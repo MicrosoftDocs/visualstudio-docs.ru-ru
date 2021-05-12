@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 6c3e8220857a454dc7ab5c7cb6308650075f9577
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2c4da809455a859479d0421bffaa1b257a18c4b5
+ms.sourcegitcommit: d4887ef2ca97c55e2dad9f179eec2c9631d91c95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99887748"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108798522"
 ---
 # <a name="live-unit-testing-overview"></a>Обзор Live Unit Testing
 
@@ -34,7 +34,7 @@ Live Unit Testing сообщает о том, достаточно ли полн
 
 - Подробную документацию см. здесь: [Использование Live Unit Testing с Visual Studio Enterprise Edition](live-unit-testing.md).
 
-- Ознакомьтесь с [вопросами и ответами о Live Unit Testing](live-unit-testing-faq.md), чтобы узнать о новых возможностях Live Unit Testing, а также получить советы и рекомендации по работе.
+- Ознакомьтесь с [вопросами и ответами о Live Unit Testing](live-unit-testing-faq.yml), чтобы узнать о новых возможностях Live Unit Testing, а также получить советы и рекомендации по работе.
 
 - Просмотрите видео на канале Channel 9 с обзором функции Live Unit Testing и ее возможностей.</p>
 
