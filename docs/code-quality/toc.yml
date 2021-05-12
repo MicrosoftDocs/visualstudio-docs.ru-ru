@@ -459,6 +459,10 @@
               href: code-metrics-maintainability-index-range-and-meaning.md
             - name: Взаимозависимость классов
               href: code-metrics-class-coupling.md
+            - name: Цикломатическая сложность
+              href: code-metrics-cyclomatic-complexity.md
+            - name: Глубина наследования
+              href: code-metrics-depth-of-inheritance.md
 - name: Анализ кода C++
   items:
     - name: "Анализ кода\_C и\_C++"
