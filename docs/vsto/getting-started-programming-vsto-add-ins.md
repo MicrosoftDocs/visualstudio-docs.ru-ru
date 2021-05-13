@@ -2,7 +2,7 @@
 title: Приступая к программированию надстроек VSTO
 description: Узнайте, как можно использовать надстройки VSTO для автоматизации Microsoft Office приложений, расширения функций приложения и настройки пользовательского интерфейса приложения.
 ms.custom: SEO-VS-2020
-ms.date: 02/02/2017
+ms.date: 04/28/2021
 ms.topic: conceptual
 f1_keywords:
 - VST.ProjectItem.Outlook
@@ -17,14 +17,17 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: d7e6f891f8485d4e08734e59a11db8018eaa07b1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1757dd6042536b6a042e67a8b3dcd9b12a2ea758
+ms.sourcegitcommit: 9cb0097c33755a3e5cbadde3b0a6e9e76cee727d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99860641"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109848296"
 ---
 # <a name="get-started-programming-vsto-add-ins"></a>Приступая к программированию надстроек VSTO
+> [!IMPORTANT]
+> VSTO полагается на [платформа .NET Framework](https://docs.microsoft.com/dotnet/framework/get-started/overview). Надстройки COM также можно записать с помощью платформа .NET Framework. Надстройки Office нельзя создавать с помощью [.NET Core и .NET 5 +](https://docs.microsoft.com/dotnet/core/dotnet-five), последних версий .NET. Это связано с тем, что .NET Core/. NET 5 + не может работать вместе с платформа .NET Framework в одном процессе и может привести к сбоям при загрузке надстройки. Вы можете продолжить использовать платформа .NET Framework для написания надстроек VSTO и COM для Office. Корпорация Майкрософт не будет обновлять VSTO или платформу надстройки COM для использования .NET Core или .NET 5 +. Для создания серверной части веб-надстроек [Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)можно воспользоваться преимуществами .NET Core и .NET 5 +, включая ASP.NET Core.
+
   Надстройки VSTO можно использовать для автоматизации приложений Microsoft Office, расширения функциональных возможностей приложения и настройки пользовательского интерфейса приложения. Сведения о сравнении надстроек VSTO с другими типами решений Office, которые можно создать с помощью Visual Studio, см. в статье [Общие сведения о разработке решений office &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
@@ -35,7 +38,7 @@ ms.locfileid: "99860641"
  Дополнительные сведения о создании проекта надстройки VSTO см. в разделе [как создавать проекты Office в Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). Дополнительные сведения о шаблонах проектов см. в разделе [Общие сведения о шаблонах проектов Office](../vsto/office-project-templates-overview.md).
 
 ## <a name="develop-vsto-add-in-projects"></a>Разработка проектов надстроек VSTO
- При создании проекта надстройки VSTO Visual Studio автоматически создает файл кода *ThisAddIn. vb* (in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] ) или *ThisAddIn.CS* (в C#). Этот файл содержит `ThisAddIn` класс, предоставляющий основу для надстройки VSTO. Члены этого класса можно использовать для выполнения кода при загрузке или выгрузке надстройки VSTO, при доступе к объектной модели ведущего приложения, а также при расширении функциональных возможностей приложения. Дополнительные сведения см. в разделе [программирование VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
+ При создании проекта надстройки VSTO Visual Studio автоматически создает файл кода *ThisAddIn. vb* (в [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] ) или *ThisAddIn. CS* (в C#). Этот файл содержит `ThisAddIn` класс, предоставляющий основу для надстройки VSTO. Члены этого класса можно использовать для выполнения кода при загрузке или выгрузке надстройки VSTO, при доступе к объектной модели ведущего приложения, а также при расширении функциональных возможностей приложения. Дополнительные сведения см. в разделе [программирование VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
 ## <a name="automate-applications-by-using-the-object-models"></a>Автоматизация приложений с помощью объектных моделей
  Объектные модели приложений Microsoft Office предоставляют множество типов, которые можно использовать в надстройке VSTO. Эти типы можно использовать для автоматизации приложения. Например, можно программным образом создавать и отправлять сообщение электронной почты в Outlook или можно открыть документ и добавить контент в Word. Дополнительные сведения о том, как получить доступ к объектной модели ведущего приложения в коде, см. в разделе [программирование VSTO-надстроек](../vsto/programming-vsto-add-ins.md).

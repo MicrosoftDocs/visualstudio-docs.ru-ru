@@ -3,7 +3,7 @@ title: Создание надстроек VSTO для Office с помощью 
 description: Узнайте, как можно использовать средства разработчика Microsoft Office в Visual Studio для создания платформа .NET Framework приложений, расширяющих Office.
 titleSuffix: ''
 ms.custom: seodec18, SEO-VS-2020
-ms.date: 08/14/2019
+ms.date: 04/28/2021
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -13,14 +13,17 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 611feb69dc4c5ebdd340a61c49e76e0d7c33e713
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 990caeec642a745bec5b6e0f2d29ff5d6213d095
+ms.sourcegitcommit: 9cb0097c33755a3e5cbadde3b0a6e9e76cee727d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99947962"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109848322"
 ---
 # <a name="create-vsto-add-ins-for-office-by-using-visual-studio"></a>Создание надстроек VSTO для Office с помощью Visual Studio
+> [!IMPORTANT]
+> VSTO полагается на [платформа .NET Framework](https://docs.microsoft.com/dotnet/framework/get-started/overview). Надстройки COM также можно записать с помощью платформа .NET Framework. Надстройки Office нельзя создавать с помощью [.NET Core и .NET 5 +](https://docs.microsoft.com/dotnet/core/dotnet-five), последних версий .NET. Это связано с тем, что .NET Core/. NET 5 + не может работать вместе с платформа .NET Framework в одном процессе и может привести к сбоям при загрузке надстройки. Вы можете продолжить использовать платформа .NET Framework для написания надстроек VSTO и COM для Office. Корпорация Майкрософт не будет обновлять VSTO или платформу надстройки COM для использования .NET Core или .NET 5 +. Для создания серверной части веб-надстроек [Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)можно воспользоваться преимуществами .NET Core и .NET 5 +, включая ASP.NET Core.
+
   Вы можете использовать инструменты разработчика Microsoft Office в Visual Studio для создания приложений платформы .NET Framework, которые расширяют возможности Office. Эти приложения также называются *решениями Office*.
 
  Инструменты разработчика Office предоставляют функции, помогающие создавать решения Office в соответствии с различными бизнес-требованиями. В состав инструментов входят шаблоны проектов, помогающие создавать решения Office, используя язык программирования Visual Basic или Visual C#, и визуальные конструкторы, помогающие создавать настраиваемые пользовательские интерфейсы для решений Office.

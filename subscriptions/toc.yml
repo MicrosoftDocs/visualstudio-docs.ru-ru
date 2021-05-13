@@ -48,6 +48,8 @@
       href: subscription-expiration.md
     - name: Изменения уровня подписки
       href: subscription-level-changes.md
+    - name: Удаленные подписки
+      href: subscription-removed.md
     - name: Обратитесь к администратору подписок
       href: contact-my-admin.md
     - name: Преимущества
