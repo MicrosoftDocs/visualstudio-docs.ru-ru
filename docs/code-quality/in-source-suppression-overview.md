@@ -1,6 +1,6 @@
 ---
 title: Подавление нарушений анализа кода
-ms.date: 08/27/2020
+ms.date: 05/10/2021
 description: Сведения о подавлении нарушений анализа кода в Visual Studio. Узнайте, как использовать атрибут Суппрессмессажеаттрибуте для подавления в исходном источнике.
 ms.custom: SEO-VS-2020
 ms.topic: conceptual
@@ -16,16 +16,92 @@ dev_langs:
 - CPP
 ms.workload:
 - multiple
-ms.openlocfilehash: c61803c21832367ede01817029b8d0318ac741a4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fd177a96b8789760927933fad5c0320553a72f57
+ms.sourcegitcommit: 162be102d2c22a1c4ad2c447685abd28e0e85d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99859909"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "109973347"
 ---
 # <a name="suppress-code-analysis-violations"></a>Подавление нарушений анализа кода
 
-Часто бывает полезно указать, что предупреждение неприменимо. Это указывает членам команды, что код был проверен, и что предупреждение можно подавлять. Подавление в исходном код (ISS) использует <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибут для подавления предупреждения. Атрибут можно поместить ближе к сегменту кода, вызвавшему предупреждение. Можно добавить <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибут в исходный файл, введя его в, или можно использовать контекстное меню предупреждения в **Список ошибок** , чтобы добавить его автоматически.
+Часто бывает полезно указать, что предупреждение неприменимо. Это указывает членам команды, что код был проверен, и что предупреждение можно подавлять. В этой статье описываются различные способы отключения нарушений анализа кода с помощью интегрированной среды разработки Visual Studio.
+
+::: moniker range=">=vs-2019"
+
+## <a name="suppress-violations-using-the-editorconfig-file"></a>Подавлять нарушения с помощью файла EditorConfig
+
+В **файле EditorConfig** задайте уровень серьезности `none` , например `dotnet_diagnostic.CA1822.severity = none` . Сведения о добавлении файла EditorConfig см. в разделе [Добавление файла EditorConfig в проект](../ide/create-portable-custom-editor-options.md#add-and-remove-editorconfig-files).
+
+::: moniker-end
+
+## <a name="suppress-violations-in-source-code"></a>Подавлять нарушения в исходном коде
+
+Можно подавлять нарушения в коде с помощью директивы препроцессора, [#pragma warning (C#)](/dotnet/csharp/language-reference/preprocessor-directives.md#pragma-warning) или [Disable (Visual Basic)](/dotnet/visual-basic/language-reference/directives/disable-enable.md) , чтобы подавлять предупреждение только для определенной строки кода. Или можно использовать [атрибут SuppressMessage](#in-source-suppression-and-the-suppressmessage-attribute).
+
+- В **редакторе кода**
+
+  Поместите курсор в строку кода с нарушением и нажмите клавишу **CTRL** + **(.)** , чтобы открыть меню **быстрые действия** . Выберите **ПОДАВЛЯТЬ какскскскс**, а затем выберите **в источнике** или **в источнике (атрибут)**.
+
+  При выборе **в поле Источник** вы увидите предварительную версию директивы препроцессора, которая будет добавлена в код.
+
+  ::: moniker range="vs-2017"
+  :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Подавлять диагностику в меню быстрых действий":::
+  ::: moniker-end
+  ::: moniker range=">=vs-2019"
+  :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor.png" alt-text="Подавлять диагностику в меню быстрых действий":::
+
+  При выборе **в поле Источник (атрибут)** отображается предварительный просмотр [атрибута SuppressMessage](#in-source-suppression-and-the-suppressmessage-attribute) , который будет добавлен в код.
+
+  :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor-attribute.png" alt-text="Подавлять диагностику в меню быстрых действий с помощью атрибута":::
+  ::: moniker-end
+
+- Из **Список ошибок**
+
+  Выберите правила, которые необходимо отключить, и щелкните правой кнопкой мыши и выберите **подавлять**  >  **в источнике**.
+
+  - При подавлении **в исходном** коде открывается диалоговое окно **предварительного просмотра изменений** , в котором отображается предварительная версия C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) или Visual Basic [#Disable предупреждения](/dotnet/visual-basic/language-reference/directives/directives) , добавленные в исходный код.
+
+    ![Предварительный просмотр добавления #pragma предупреждения в файл кода](media/pragma-warning-preview.png)
+
+  В диалоговом окне **Просмотр изменений** нажмите кнопку **Применить**.
+
+  > [!NOTE]
+  > Если в **Обозреватель решений** не отображается пункт **подавить** , то, скорее всего, это произошло из-за сборки, а не для интерактивного анализа. **Список ошибок** отображает диагностические или нарушения правил, как в реальном коде, так и в сборке. Так как диагностика сборки может быть устаревшей, например, если вы изменили код, чтобы устранить нарушение, но оно не было перестроено, вы не сможете отключить эти диагностические данные от **Список ошибок**. Диагностика из интерактивного анализа или IntelliSense всегда актуальны с текущими источниками и могут быть подавлены из **Список ошибок**. Чтобы исключить диагностику *сборки* из выбора, переключите фильтр источника **Список ошибок** с **сборки + IntelliSense** на **IntelliSense**. Затем выберите диагностику, которую необходимо отключить, и продолжайте, как описано выше.
+  >
+  > ![Фильтр источника список ошибок в Visual Studio](media/error-list-filter.png)
+
+## <a name="suppress-violations-using-a-global-suppression-file"></a>Подавлять нарушения с помощью файла глобального подавления
+
+В [глобальном файле подавления](#global-level-suppressions) используется [атрибут SuppressMessage](#in-source-suppression-and-the-suppressmessage-attribute).
+
+- На **Список ошибок** выберите правила, которые необходимо отключить, а затем щелкните правой кнопкой мыши и выберите пункт **подавлять**  >  **в файле подавления**. Откроется диалоговое окно **Просмотр изменений** , в котором будет показан предварительный просмотр <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибута, добавляемого в глобальный файл подавления.
+
+  ![Предварительный просмотр добавления атрибута SuppressMessage в файл подавления](media/preview-changes-in-suppression-file.png)
+
+- В **редакторе кода** поместите курсор в строку кода с нарушением и нажмите клавиши **быстрого действия и рефакторинга** (или нажмите клавишу **CTRL** + **period (...)**), чтобы открыть меню **быстрые действия** . Выберите **ПОДАВЛЯТЬ какскскскс**, а затем выберите **в файле подавления**. Вы увидите предварительную версию [файла глобального подавления](#global-level-suppressions) , который будет создан или изменен.
+
+::: moniker range=">=vs-2019"
+
+- В меню **анализ** выберите пункт **анализировать**  >  **сборку и подавлять активные проблемы** в строке меню, чтобы отключить все текущие нарушения. Иногда это называется "задания базовых показателей".
+
+::: moniker-end
+::: moniker range="vs-2017"
+
+- В меню **анализ** выберите **анализ**  >  **выполнение анализа кода и подавление активных проблем** в строке меню, чтобы отключить все текущие нарушения. Иногда это называется "задания базовых показателей".
+::: moniker-end
+
+## <a name="suppress-violations-using-project-settings"></a>Подавлять нарушения с помощью параметров проекта
+
+В **Обозреватель решений** откройте свойства проекта (щелкните проект правой кнопкой мыши и выберите **свойства** (или нажмите клавиши **ALT + ВВОД**) и настройте параметры с помощью вкладки **анализ кода** . Например, можно отключить интерактивный анализ кода или отключить анализаторы .NET.
+
+## <a name="suppress-violations-using-a-rule-set"></a>Подавлять нарушения с помощью набора правил
+
+В **редакторе набора правил** снимите флажок рядом с его именем или **действием** задать значение **нет**.
+
+## <a name="in-source-suppression-and-the-suppressmessage-attribute"></a>Подавление в исходном код и атрибут SuppressMessage
+
+Подавление в исходном код (ISS) использует <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибут для подавления предупреждения. Атрибут можно поместить ближе к сегменту кода, вызвавшему предупреждение. Можно добавить <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибут в исходный файл, введя его в, или можно использовать контекстное меню предупреждения в **Список ошибок** , чтобы добавить его автоматически.
 
 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute>Атрибут является условным атрибутом, включенным в метаданные Il сборки управляемого кода, только если символ компиляции CODE_ANALYSIS определен во время компиляции.
 
@@ -43,21 +119,21 @@ ms.locfileid: "99859909"
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2019&quot;
 
 > [!NOTE]
 > Если вы переносите проект в Visual Studio 2019, вы можете внезапно столкнуться с большим количеством предупреждений анализа кода. Если вы не готовы устранить предупреждения, их можно отключить, выбрав пункт **анализировать**  >  **сборку и подавлять активные проблемы**.
 
 ::: moniker-end
 
-## <a name="suppressmessage-attribute"></a>SuppressMessage - атрибут
+### <a name=&quot;suppressmessage-attribute&quot;></a>SuppressMessage - атрибут
 
 При выборе параметра **подавлять** в контекстном меню или щелчке правой кнопкой мыши предупреждения анализа кода в **Список ошибок** <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибут добавляется либо в код, либо в глобальный файл подавления проекта.
 
 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute>Атрибут имеет следующий формат:
 
 ```vb
-<Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
+<Scope:SuppressMessage(&quot;Rule Category&quot;, &quot;Rule Id&quot;, Justification = &quot;Justification&quot;, MessageId = &quot;MessageId&quot;, Scope = &quot;Scope&quot;, Target = &quot;Target")>
 ```
 
 ```csharp
@@ -96,7 +172,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 При отображении предупреждений в Visual Studio можно просмотреть примеры `SuppressMessage` , [добавив подавление в глобальный файл подавления](../code-quality/use-roslyn-analyzers.md#suppress-violations). Атрибут подавления и его обязательные свойства отображаются в окне предварительного просмотра.
 
-## <a name="suppressmessage-usage"></a>Использование SuppressMessage
+### <a name="suppressmessage-usage"></a>Использование SuppressMessage
 
 Предупреждения анализа кода подавляются на уровне, к которому <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> применяется атрибут. Например, атрибут можно применить на уровне сборки, модуля, типа, члена или параметра. Целью этого является тесное связывание информации о подавлении с кодом, в котором происходит нарушение.
 
@@ -110,7 +186,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 В целях удобства обслуживания не рекомендуется указывать имя правила.
 
-## <a name="suppress-selective-violations-within-a-method-body"></a>Подавлять выборочные нарушения внутри тела метода
+### <a name="suppress-selective-violations-within-a-method-body"></a>Подавлять выборочные нарушения внутри тела метода
 
 К методу могут применяться атрибуты подавления, но они не могут быть внедрены в тело метода. Это означает, что все нарушения конкретного правила подавляются при добавлении <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> атрибута в метод.
 
@@ -151,7 +227,7 @@ public class Animal
 }
 ```
 
-## <a name="global-level-suppressions"></a>Подавления на глобальном уровне
+### <a name="global-level-suppressions"></a>Подавления на глобальном уровне
 
 Средство анализа управляемого кода проверяет `SuppressMessage` атрибуты, которые применяются на уровне сборки, модуля, типа, члена или параметра. Он также вызывает нарушения для ресурсов и пространств имен. Эти нарушения должны применяться на глобальном уровне, а их область и Целевая. Например, следующее сообщение подавляет нарушение пространства имен:
 
@@ -169,11 +245,11 @@ public class Animal
 > [!NOTE]
 > `Target` всегда содержит полное имя элемента.
 
-### <a name="global-suppression-file"></a>Файл глобального подавления
+#### <a name="global-suppression-file"></a>Файл глобального подавления
 
 В глобальном файле подавления хранятся подавленные подавления или подавления на глобальном уровне, не указывающие цель. Например, подавление для нарушений уровня сборки хранится в этом файле. Кроме того, некоторые подавления ASP.NET хранятся в этом файле, так как параметры уровня проекта недоступны для кода, который находится под формой. Файл глобального подавления создается и добавляется в проект при первом выборе параметра **в файле подавления проекта** команды **подавлять** в окне **Список ошибок** .
 
-### <a name="module-suppression-scope"></a>Область подавления модуля
+#### <a name="module-suppression-scope"></a>Область подавления модуля
 
 Нарушения качества кода для всей сборки можно отключить с помощью области **модуля** .
 
@@ -181,7 +257,7 @@ public class Animal
 
 `[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Reliability", "CA2007:Consider calling ConfigureAwait on the awaited task", Justification = "ASP.NET Core doesn't use thread context to store request context.", Scope = "module")]`
 
-## <a name="generated-code"></a>Созданный код
+### <a name="generated-code"></a>Созданный код
 
 Компиляторы управляемого кода и некоторые сторонние средства создают код для упрощения разработки кода. Созданный компилятором код, который отображается в исходных файлах, обычно отмечается `GeneratedCodeAttribute` атрибутом.
 
