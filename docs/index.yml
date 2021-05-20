@@ -4,9 +4,9 @@ summary: Изучите документацию по семейству про�
 brand: visual-studio
 metadata:
   title: Документация по семейству продуктов Visual Studio
-  description: Ознакомьтесь с документацией по семейству продуктов Visual Studio, включая интегрированные среды разработки Visual Studio для Windows и Mac, Visual Studio Code, Центр приложений Visual Studio, GitHub Codespaces и подписки Visual Studio.
+  description: "Ознакомьтесь с документацией по семейству продуктов Visual\_Studio, включая интегрированные среды разработки Visual\_Studio для Windows и Mac, Visual Studio Code, Центр приложений Visual Studio, GitHub Codespaces и подписки Visual Studio."
   ms.topic: hub-page
-  ms.custom: contperf-fy21q1, contperf-fy21q3
+  ms.custom: 'contperf-fy21q1, contperf-fy21q3'
   ms.date: 03/23/2021
   searchScope: []
   titleSuffix: ''
@@ -15,73 +15,65 @@ metadata:
   ms.manager: jillfra
   monikerRange: '>=vs-2017'
   hide_bc: true
-  ms.openlocfilehash: d9aa5ff71a4dc24b32827f24e0df219db3674df2
-  ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
-  ms.translationtype: HT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "105073746"
 productDirectory:
   items:
-  - title: Visual Studio
-    imageSrc: ./media/vs-ide-2019.svg
-    links:
-    - url: ./windows/index.yml?view=vs-2019&preserve-view=true
-      text: Visual Studio 2019 (текущая версия)
-    - url: ./windows/index.yml?view=vs-2017&preserve-view=true
-      text: Visual Studio 2017
-    - url: /previous-versions/visualstudio/
-      text: Предыдущие версии
-    - url: /visualstudio/releases/2019/release-notes
-      text: Заметки о выпуске
-    - url: https://visualstudio.microsoft.com/
-      text: Страница продукта
-  - title: Visual Studio для Mac
-    imageSrc: ./media/vs-mac-2019.svg
-    links:
-    - url: /visualstudio/mac
-      text: Visual Studio 2019 для Mac (текущая версия)
-    - url: /visualstudio/mac/?view=vsmac-2017&preserve-view=true
-      text: Visual Studio 2017 для Mac
-    - url: /visualstudio/releasenotes/vs2019-mac-relnotes
-      text: Заметки о выпуске
-    - url: https://visualstudio.microsoft.com/vs/mac/
-      text: Страница продукта
-  - title: Visual Studio Code
-    imageSrc: ./media/vs-code-logo.svg
-    links:
-    - url: https://code.visualstudio.com/docs
-      text: Документация
-    - url: https://code.visualstudio.com/updates
-      text: Заметки о выпуске
-    - url: https://code.visualstudio.com
-      text: Страница продукта
-  - title: GitHub Codespaces
-    imageSrc: https://docs.microsoft.com/media/logos/logo_octokitty.svg
-    links:
-    - url: https://docs.github.com/github/developing-online-with-codespaces/
-      text: Документация
-    - url: https://code.visualstudio.com/docs/remote/codespaces/
-      text: Использование с помощью Visual Studio Code
-    - url: ./ide/codespaces/use-visual-studio-with-codespaces.md
-      text: Использование с помощью Visual Studio
-    - url: https://github.com/features/codespaces/
-      text: Страница продукта
-  - title: Центр приложений Visual Studio
-    imageSrc: ./media/vs-mobile-center.svg
-    links:
-    - url: /appcenter
-      text: Документация
-    - url: https://visualstudio.microsoft.com/app-center/
-      text: Портал
-  - title: Подписки Visual Studio
-    imageSrc: ./media/vs-subscription-temp.svg
-    links:
-    - url: /visualstudio/subscriptions
-      text: Документация
-    - url: https://visualstudio.microsoft.com/subscriptions
-      text: Информация на сайте visualstudio.com
-    - url: https://my.visualstudio.com
-      text: Портал подписчика
-    - url: https://manage.visualstudio.com
-      text: портал Администрирование
+    - title: Visual Studio
+      imageSrc: ./media/vs-ide-2019.svg
+      links:
+        - url: ./windows/index.yml?view=vs-2019&preserve-view=true
+          text: "Visual Studio\_2019 (текущая версия)"
+        - url: ./windows/index.yml?view=vs-2017&preserve-view=true
+          text: "Visual\_Studio\_2017"
+        - url: /previous-versions/visualstudio/
+          text: Предыдущие версии
+        - url: /visualstudio/releases/2019/release-notes
+          text: Заметки о выпуске
+        - url: 'https://visualstudio.microsoft.com/'
+          text: Страница продукта
+    - title: Visual Studio для Mac
+      imageSrc: ./media/vs-mac-2019.svg
+      links:
+        - url: /visualstudio/mac
+          text: "Visual Studio\_2019 для Mac (текущая версия)"
+        - url: /visualstudio/mac/?view=vsmac-2017&preserve-view=true
+          text: "Visual Studio\_2017 для Mac"
+        - url: /visualstudio/releasenotes/vs2019-mac-relnotes
+          text: Заметки о выпуске
+        - url: 'https://visualstudio.microsoft.com/vs/mac/'
+          text: Страница продукта
+    - title: Visual Studio Code
+      imageSrc: ./media/vs-code-logo.svg
+      links:
+        - url: 'https://code.visualstudio.com/docs'
+          text: Документация
+        - url: 'https://code.visualstudio.com/updates'
+          text: Заметки о выпуске
+        - url: 'https://code.visualstudio.com'
+          text: Страница продукта
+    - title: GitHub Codespaces
+      imageSrc: 'https://docs.microsoft.com/media/logos/logo_octokitty.svg'
+      links:
+        - url: 'https://docs.github.com/github/developing-online-with-codespaces/'
+          text: Документация
+        - url: 'https://code.visualstudio.com/docs/remote/codespaces/'
+          text: Использование с помощью Visual Studio Code
+        - url: 'https://github.com/features/codespaces/'
+          text: Страница продукта
+    - title: Центр приложений Visual Studio
+      imageSrc: ./media/vs-mobile-center.svg
+      links:
+        - url: /appcenter
+          text: Документация
+        - url: 'https://visualstudio.microsoft.com/app-center/'
+          text: Портал
+    - title: Подписки Visual Studio
+      imageSrc: ./media/vs-subscription-temp.svg
+      links:
+        - url: /visualstudio/subscriptions
+          text: Документация
+        - url: 'https://visualstudio.microsoft.com/subscriptions'
+          text: Информация на сайте visualstudio.com
+        - url: 'https://my.visualstudio.com'
+          text: Портал подписчика
+        - url: 'https://manage.visualstudio.com'
+          text: портал Администрирование

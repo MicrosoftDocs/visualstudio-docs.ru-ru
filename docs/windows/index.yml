@@ -147,7 +147,7 @@ additionalContent:
               url: /visualstudio/cross-platform/
             - text: Разработка мобильных приложений на языке JavaScript
               url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017&preserve-view=true
-              note: (Только для Visual Studio 2017 и 2015)
+              note: (Visual Studio 2017 and 2015 only)
         - title: Игры
           links:
             - text: Разработка игр с помощью Unity
@@ -181,7 +181,7 @@ additionalContent:
           url: ../deployment/index.yml
         - title: Управление версиями
           summary: 'Совместное использование кода с помощью таких технологий управления версиями, как Git и GitHub.'
-          url: ../ide/git-with-visual-studio.md
+          url: ../version-control/index.yml
         - title: DevOps
           summary: "Воспользуйтесь возможностью непрерывной разработки и публикации приложений в облаке и реализуйте принципы\_Agile с помощью Azure DevOps\_Services."
           url: /azure/devops
@@ -200,4 +200,4 @@ additionalContent:
         - title: "Разработка с использованием контейнеров\_Docker"
           summary: Используйте контейнеры Docker для изоляции модульных компонентов и улучшения масштабируемости.
           url: ../containers/index.yml
-  footer: '[Блоги](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Сообщение о проблемах](../ide/feedback-options.md) - [Сообщество разработчиков](https://aka.ms/feedback/suggest?space=8) - [Устранение неполадок](/troubleshoot/visualstudio/welcome-visual-studio)'
+  footer: '[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)'

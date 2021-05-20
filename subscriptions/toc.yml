@@ -161,7 +161,7 @@
         - name: Суперадминистраторы и администраторы
           href: admin-roles.md
         - name: Настройка параметров соглашения
-          href: admin-prefs.md
+          href: admin-preferences.md
         - name: Обзор
           href: using-admin-portal.md
         - name: Добавление ежемесячных подписок
