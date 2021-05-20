@@ -16,6 +16,7 @@
   items:
     - name: Установка Visual Studio
       href: install/install-visual-studio.md
+      displayName: system requirements
     - name: Установка в автономном режиме
       items:
         - name: Создание автономной установки Visual Studio
@@ -268,16 +269,6 @@
         - name: Настройка задач сборки и отладки
           displayName: makefile tasks.vs.json
           href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-    - name: Разработка с помощью Codespaces (предварительная версия)
-      items:
-        - name: Overview
-          href: ide/codespaces/codespaces-overview.md
-        - name: Использование Visual Studio с codespace
-          href: ide/codespaces/use-visual-studio-with-codespaces.md
-        - name: Настройка codespace
-          href: ide/codespaces/customize-codespaces.md
-        - name: Поддерживаемые функции Visual Studio
-          href: ide/codespaces/supported-features-codespaces.md
     - name: Подключение к проектам в Team Explorer
       displayName: Azure DevOps VSTS
       href: ide/connect-team-project.md
@@ -1110,7 +1101,7 @@
                   href: ide/reference/autorecover-environment-options-dialog-box.md
                 - name: Документы
                   href: ide/reference/documents-environment-options-dialog-box.md
-                - name: Расширения
+                - name: Модули
                   href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
                 - name: Найти и заменить
                   href: ide/reference/find-and-replace-environment-options-dialog-box.md
@@ -1206,7 +1197,7 @@
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-html-formatting.md
-                    - name: Прочее
+                    - name: Разное
                       href: ide/reference/options-text-editor-html-miscellaneous.md
                     - name: Проверка
                       href: ide/reference/options-text-editor-html-validation.md
@@ -1232,13 +1223,13 @@
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-xaml-formatting.md
-                    - name: Прочее
+                    - name: Разное
                       href: ide/reference/options-text-editor-xaml-miscellaneous.md
                 - name: XML
                   items:
                     - name: Форматирование
                       href: ide/reference/options-text-editor-xml-formatting.md
-                    - name: Прочее
+                    - name: Разное
                       href: ide/reference/options-text-editor-xml-miscellaneous.md
             - name: Конструктор Windows Forms
               items:
@@ -1443,38 +1434,16 @@
       href: ide/whats-new-visual-studio-docs.md
     - name: Журнал обновлений в документации
       href: ide/whats-new-visual-studio-docs-history.md
-    - name: Заметки о выпуске и требования к системе
+    - name: Заметки о выпуске
       items:
         - name: График выпуска
           href: /visualstudio/productinfo/release-rhythm/
-        - name: "Visual\_Studio\_2017"
-          items:
-            - name: Заметки о текущем выпуске
-              href: /visualstudio/releasenotes/vs2017-relnotes/
-            - name: Заметки о предварительном выпуске
-              href: /visualstudio/releasenotes/vs2017-preview-relnotes/
-            - name: Журнал заметок о выпуске
-              href: /visualstudio/releasenotes/vs2017-relnotes-history/
-            - name: Распространяемый код
-              href: /visualstudio/productinfo/2017-redistribution-vs/
-            - name: Совместимость платформ
-              href: /visualstudio/productinfo/vs2017-compatibility-vs/
-            - name: Требования к системе
-              href: /visualstudio/productinfo/vs2017-system-requirements-vs/
-        - name: Visual Studio 2019
-          items:
-            - name: Заметки о текущем выпуске
-              href: /visualstudio/releases/2019/release-notes/
-            - name: Заметки о предварительном выпуске
-              href: /visualstudio/releases/2019/release-notes-preview/
-            - name: Журнал заметок о выпуске
-              href: /visualstudio/releases/2019/release-notes-history/
-            - name: Распространяемый код
-              href: /visualstudio/releases/2019/redistribution/
-            - name: Совместимость платформ
-              href: /visualstudio/releases/2019/compatibility/
-            - name: Требования к системе
-              href: /visualstudio/releases/2019/system-requirements/
+        - name: "Заметки о Visual Studio\_2019"
+          href: /visualstudio/releases/2019/release-notes/
+        - name: "Заметки о Visual Studio\_2017"
+          href: /visualstudio/releasenotes/vs2017-relnotes/
+        - name: "Заметки о Visual Studio\_2015"
+          href: vs-2015-archive.md
         - name: Условия лицензии
           href: 'https://visualstudio.microsoft.com/license-terms/'
         - name: Жизненный цикл поддержки и обслуживание
@@ -1512,8 +1481,3 @@
       href: ide/developer-community-guidelines.md
     - name: Конфиденциальность данных сообщества разработчиков
       href: ide/developer-community-privacy.md
-- name: Visual Studio 2015
-  expanded: true
-  items:
-    - name: "Документация по Visual Studio\_2015"
-      href: vs-2015-archive.md

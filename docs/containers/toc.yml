@@ -26,6 +26,8 @@
           href: deploy-app-service.md
         - name: Развертывание в Docker Hub
           href: deploy-docker-hub.md
+        - name: Управление профилями запуска (предварительная версия)
+          href: launch-profiles.md
         - name: Просмотр и диагностика контейнеров и образов
           href: view-and-diagnose-containers.md
         - name: Настройка инструментов для контейнеров
