@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 9681e01beaa9fcae3163c607290f5793bfae1cdd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: aeaaff68ab0abe85838456e8c8b69e2520295689
+ms.sourcegitcommit: a0f5e7188838c5989c9cc78d99fb29bb2813501e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945036"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109729277"
 ---
 # <a name="publish-an-application-to-iis-by-importing-publish-settings-in-visual-studio"></a>Публикация приложения в IIS посредством импорта параметров публикации в Visual Studio
 
@@ -70,7 +70,7 @@ ms.locfileid: "99945036"
 
     Visual Studio создаст проект.
 
-1. Выберите **Сборка** > **Собрать решение** для сборки проекта.
+1. Выберите **Сборка** > **Собрать решение** (или нажмите сочетание клавиш **CTRL** + **SHIFT** + **B**), чтобы выполнить сборку проекта.
 
 ## <a name="install-and-configure-web-deploy-on-windows-server"></a>Установка и настройка веб-развертывания в Windows Server
 
