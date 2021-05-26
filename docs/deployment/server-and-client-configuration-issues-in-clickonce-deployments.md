@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 469749c28acdb90e835082dd05010102ab50e52b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8040fb8028666d0dd551369b6b7f782de09058ca
+ms.sourcegitcommit: 18e7300d4878f2fcd0263a4aff31a755ae8fc289
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877620"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110449946"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>Вопросы настройки сервера и клиента в развертываниях ClickOnce
 Если в Windows Server используется службы IIS (IIS) и развертывание содержит тип файла, который не распознается Windows, например файл Microsoft Word, IIS отклоняет передачу этого файла, и развертывание не будет выполняться.
@@ -132,9 +132,9 @@ ms.locfileid: "99877620"
 
  При использовании IIS можно легко включить сжатие HTTP. Однако при включении сжатия HTTP оно включается только для определенных типов файлов — а именно, HTML и текстовых файлов. Чтобы включить сжатие для сборок (*DLL*), XML (*XML*), манифестов развертывания (*. Application*) и манифестов приложений (*. manifest*), необходимо добавить эти типы файлов в список типов для сжатия IIS. Пока вы не добавите типы файлов в развертывание, будут сжиматься только текстовые и HTML-файлы.
 
- Подробные инструкции для IIS см. [в разделе Указание дополнительных типов документов для СЖАТИЯ HTTP](https://support.microsoft.com/help/234497).
+ Подробные инструкции для IIS см. [в разделе Указание дополнительных типов документов для СЖАТИЯ HTTP](/troubleshoot/iis/content-types-http-compression.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [Устранение неполадок развертываний ClickOnce](../deployment/troubleshooting-clickonce-deployments.md)
 - [Выбор стратегии развертывания ClickOnce](../deployment/choosing-a-clickonce-deployment-strategy.md)
 - [Обязательные требования к развертыванию приложений](../deployment/application-deployment-prerequisites.md)
