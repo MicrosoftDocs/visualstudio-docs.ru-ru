@@ -10,16 +10,16 @@ user.type: subscriber, admin
 tags: no-solution
 subscription.type: vl, cloud, retail, partner
 sap.id: 34fccc61-0a31-cc35-22dd-016a1ebf1134
-ms.openlocfilehash: 47df65df2b139fa910843da3659d5a520e787d17
-ms.sourcegitcommit: 54aac5044a9853a435577acc5a134cb254494ffb
+ms.openlocfilehash: d26b75015c427d771ab91526802d9b58e3ddb5e8
+ms.sourcegitcommit: beb16d5cc31b3565ec0c8d69f819a4ec67b45aae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107589939"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110349985"
 ---
 ## <a name="sorry-we-couldnt-find-a-solution-for-you"></a>К сожалению, не удалось найти решение. 
 
-Наши специалисты готовы помочь вам. Служба поддержки Подписок Visual Studio предоставляет справку по продажам, подпискам, учетным записям и выставлению счетов. Нажмите на кнопку "Создать запрос в службу поддержки" ниже, и наши специалисты ответят вам в течение одного рабочего дня. 
+Наши специалисты готовы помочь вам. Служба поддержки Подписок Visual Studio предоставляет справку по продажам, подпискам, учетным записям и выставлению счетов. Создайте запрос в службу поддержки, нажав кнопку "Запрос по Интернету" в нижней части этого решения, и наша команда ответит вам в течение одного рабочего дня. 
 
 ## <a name="visual-studio-ide-technical-support-resources"></a>Ресурсы технической поддержки по интегрированной среде разработки Visual Studio  
 

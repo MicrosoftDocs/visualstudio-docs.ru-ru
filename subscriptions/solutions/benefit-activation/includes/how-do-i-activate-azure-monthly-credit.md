@@ -10,12 +10,12 @@ user.type: subscriber
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner
 sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
-ms.openlocfilehash: 7f1978f0d0679d94bbde3b565ff5680ce89f9063
-ms.sourcegitcommit: 54aac5044a9853a435577acc5a134cb254494ffb
+ms.openlocfilehash: bb387f9a359b6f645dd6a160ffb281375cd747a9
+ms.sourcegitcommit: beb16d5cc31b3565ec0c8d69f819a4ec67b45aae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107589982"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110349970"
 ---
 ## <a name="how-to-activate-the-monthly-azure-devtest-individual-credit-benefit"></a>Как активировать преимущество персонального ежемесячного кредита Azure для разработки и тестирования
 
@@ -30,7 +30,7 @@ ms.locfileid: "107589982"
 
 ## <a name="azure-credit-benefit-activation-errors"></a>Ошибки активации преимущества для кредита Azure
 
-Если вы используете новую подписку Visual Studio и при попытке активировать преимущество ежемесячного кредита Azure выдается сообщение об ошибке "Вы не можете активировать это преимущество Visual Studio более одного раза", то обратитесь в службу поддержки Подписок Visual Studio, нажав кнопку "Создать запрос в службу поддержки" внизу этого решения. 
+Если вы используете новую Подписку на Visual Studio и при попытке активировать преимущество ежемесячного кредита Azure выдается сообщение об ошибке "Вы не можете активировать это преимущество Visual Studio более одного раза", то обратитесь в службу поддержки Подписок на Visual Studio, нажав кнопку "Запрос по Интернету" внизу этого решения. 
 
 Если подписка назначена уже какое-то время, сначала проверьте несколько моментов.
 - Убедитесь, что вы еще не активировали это преимущество, проверив плитку ежемесячного кредита Azure на [странице преимуществ](https://my.visualstudio.com/benefits) портала подписок. 

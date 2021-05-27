@@ -3,7 +3,7 @@ title: Обзор Конструктора XAML
 description: Сведения о ПОЛЬЗОВАТЕЛЬСКОМ интерфейсе рабочей области и функциях Конструктор XAML в Blend для Visual Studio, которые предоставляют визуальный интерфейс для разработки приложений на основе XAML.
 ms.date: 03/03/2020
 ms.topic: conceptual
-ms.custom: contperf-fy21q4; SEO-VS-2020
+ms.custom: contperf-fy21q4, SEO-VS-2020
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel
@@ -14,12 +14,12 @@ ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.openlocfilehash: 3d5584380b78bba05f1596a99aa2298789df018f
-ms.sourcegitcommit: 3e1ff87fba290f9e60fb4049d011bb8661255d58
+ms.openlocfilehash: 8f022d0f27977488fb089f2cffb40aad22365b46
+ms.sourcegitcommit: 4a91c63683ba1c1832b1ba96657862a849320d81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107879360"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110565236"
 ---
 # <a name="create-a-ui-by-using-xaml-designer"></a>Создание пользовательского интерфейса с помощью конструктора XAML
 
@@ -131,7 +131,7 @@ ms.locfileid: "107879360"
 
 В основном представлении окна "Структура документа" или "Объекты и временная шкала" отображается иерархия документа в виде древовидной структуры. Иерархическую структуру документа можно использовать для просмотра документа на различных уровнях детализации, а также для блокировки и скрытия элементов по отдельности или в группе. В окне "Структура документа/Объекты и временная шкала" доступны следующие параметры:
 
-**Показать или скрыть**
+**Показать/скрыть**
 
 Отображает или скрывает элементы области рисования. При отображении выглядит как символ глаза. Можно также нажать **CTRL** + **h** , чтобы скрыть элемент, и **SHIFT** + **CTRL** + **h** , чтобы отобразить его.
 
@@ -163,7 +163,7 @@ ms.locfileid: "107879360"
 
 Дополнительные сведения об использовании свойств и обработке событий см. в статье [Введение в работу с элементами управления и шаблонами](/windows/uwp/design/controls-and-patterns/controls-and-events-intro).
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 - [Работа с элементами в конструкторе XAML](../xaml-tools/working-with-elements-in-xaml-designer.md)
 - [Практическое руководство. Создание и применение ресурса](../xaml-tools/how-to-create-and-apply-a-resource.md)
