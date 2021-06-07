@@ -2,7 +2,7 @@
 title: Журнал изменений (инструменты Visual Studio для Unity, Windows) | Документы Майкрософт
 description: Просмотр журнала изменений (инструменты Visual Studio для Unity, Windows). Знакомство с изменениями в версиях с 1.0.0.0 по 4.7.0.0 и последующих.
 ms.custom: ''
-ms.date: 3/1/2021
+ms.date: 6/2/2021
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: conceptual
@@ -12,16 +12,71 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: a03d0fc896fcbc971bc62cd9391c4f38d0aad06c
-ms.sourcegitcommit: 3e1ff87fba290f9e60fb4049d011bb8661255d58
+ms.openlocfilehash: 2ff13b017ffe0d310ddfd1b302c6436e9d708a36
+ms.sourcegitcommit: f430d014f912aa7874e1db65026dc72688b973e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107879386"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111448315"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-windows"></a>Журнал изменений (Инструменты Visual Studio для Unity, Windows)
 
 Журнал изменений в наборе средств Visual Studio для Unity
+
+## <a name="41020"></a>4.10.2.0
+Выпущено 25 мая, 2021
+
+### <a name="new-features"></a>Новые функции
+
+- **Интеграция:**
+
+  - Добавлена диагностика [`UNT0024`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0024.md). Присвойте приоритет скалярным вычислениям с использованием векторных вычислений.
+
+- **Вычисления:**
+
+  - Добавлена поддержка использования переносимых PDB-символов для правильной фильтрации видимых локальных переменных.
+
+### <a name="bug-fixes"></a>Исправления ошибок
+
+- **Интеграция:**
+
+  - Стабильность поиска ссылок на активы.
+
+  - Исправлено объявление об анализе с помощью последних версий Unity.
+
+## <a name="41010"></a>4.10.1.0
+Выпущен 11 мая, 2021
+
+### <a name="bug-fixes"></a>Исправления ошибок
+
+- **Интеграция:**
+
+  - Исправлена проблема стабильной работы с [`UNT0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0008.md) куиккфикс.
+
+  - Устранены проблемы с производительностью потоков.
+
+## <a name="41000"></a>4.10.0.0
+Выпущено 13 апреля 2021 г.
+
+### <a name="new-features"></a>Новые функции
+
+- **Интеграция:**
+
+  - Добавлена диагностика [`UNT0019`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0019.md). Ненужный вызов косвенного обращения для `GameObject.gameObject` .
+
+  - Добавлена диагностика [`UNT0020`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0020.md). `MenuItem` атрибут, используемый в методе, отличном от Static.
+
+  - Добавлена диагностика [`UNT0021`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0021.md). Сообщение Unity должно быть защищено (обязательно).
+
+  - Добавлена диагностика [`UNT0022`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0022.md). Неэффективный метод для задания расположения и вращения.
+
+  - Добавлена диагностика [`UNT0023`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0023.md). Объединение присваивания для объектов Unity.
+
+  - Добавлен подавитель [`USP0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0017.md) для `IDE0074`. Объекты Unity не должны использовать присвоение объединения.
+
+  - Добавлено обнаружение неопределенных проектов C#, предназначенных для Unity.
+
+  - Добавлен поиск ссылок на ресурс Unity в CodeLens.
 
 ## <a name="4910"></a>4.9.1.0
 Выпущено 2 марта 2021 г.

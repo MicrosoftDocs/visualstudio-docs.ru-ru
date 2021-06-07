@@ -1,18 +1,18 @@
 ---
 title: Использование демонстрационных данных времени разработки с Конструктор XAML в Visual Studio
 description: Узнайте, как использовать демонстрационные данные времени разработки в XAML.
-ms.date: 05/28/2021
+ms.date: 06/01/2021
 ms.topic: conceptual
 author: alihamie
 ms.author: tglee
 manager: jmartens
 monikerRange: vs-2019
-ms.openlocfilehash: a987435d454771bdecf078e78af089405718d261
-ms.sourcegitcommit: 5366c6bca3fb217a2fbf847998387578f51ec45c
+ms.openlocfilehash: 8303e1150db7c12c404e8f67bce52418fbd05b9d
+ms.sourcegitcommit: ab5735d64a6ad7aecabf5d6df159888e3246bff5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "110748056"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111433796"
 ---
 # <a name="use-design-time-sample-data-with-the-xaml-designer-in-visual-studio"></a>Использование демонстрационных данных времени разработки с Конструктор XAML в Visual Studio
 
@@ -23,7 +23,7 @@ ms.locfileid: "110748056"
 Образец данных предназначен только для визуализации во время разработки. Это означает, что они отображаются только в конструкторе XAML, а не в работающем приложении. Таким образом, он применяется к версии времени разработки свойства ItemsSource `d:ItemsSource` . Для работы с образцом данных требуется пространство имен времени разработки. Чтобы приступить к работе, добавьте следующие строки кода в заголовок документа XAML, если их еще нет:
 
 > [!NOTE]
-> Дополнительные сведения о свойствах времени разработки в XAML см. в статье [свойства времени разработки XAML](/xaml/xaml-tools/xaml/xaml-designtime-data.md) .
+> Дополнительные сведения о свойствах времени разработки в XAML см. в статье [свойства времени разработки XAML](../xaml-tools/xaml-designtime-data.md) .
 
 ```xml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -93,7 +93,7 @@ mc:Ignorable="d"
 
 ## <a name="see-also"></a>См. также раздел
 
-- [Свойства времени разработки XAML](/xaml/xaml-tools/xaml/xaml-designtime-data)
+- [Свойства времени разработки XAML](../xaml-tools/xaml-designtime-data.md)
 - [XAML в приложениях WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML в приложениях UWP](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML в приложениях Xamarin.Forms](/xamarin/xamarin-forms/xaml/)
