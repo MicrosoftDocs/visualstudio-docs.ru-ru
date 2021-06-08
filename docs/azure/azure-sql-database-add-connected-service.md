@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/17/2020
 ms.author: angelpe
 monikerRange: '>= vs-2019'
-ms.openlocfilehash: 9e4a695a26e17e20fbd19081b863d9f108fc16b6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 26a01bfe2a34422f9596710f832a1c4af699fd3b
+ms.sourcegitcommit: 3fe04d5b931ae459a802a1b965f84186757cbc08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99841202"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "111588492"
 ---
 # <a name="add-a-connection-to-azure-sql-database"></a>Добавление подключения к базе данных SQL Azure
 
@@ -24,7 +24,7 @@ ms.locfileid: "99841202"
 - ASP.NET Core
 - .NET Core (включая консольное приложение, WPF, Windows Forms, библиотеку классов)
 - Рабочая роль .NET Core
-- Функции Azure
+- Функции Azure
 - Приложение универсальная платформа Windows
 - Xamarin
 - Cordova
@@ -52,7 +52,7 @@ ms.locfileid: "99841202"
 
     ![Добавление службы базы данных SQL Azure](./media/azure-sql-database-add-connected-service/azure-sql-database.png)
 
-    Если вы еще не вошли в систему, войдите в свою учетную запись Azure. Если у вас нет учетной записи Azure, вы можете зарегистрироваться для получения [бесплатной пробной версии](https://azure.microsoft.com/account/free).
+    Если вы еще не вошли в систему, войдите в свою учетную запись Azure. Если у вас нет учетной записи Azure, вы можете зарегистрироваться и получить [бесплатную пробную версию](https://azure.microsoft.com/account/free).
 
 1. На экране **Настройка базы данных SQL Azure** выберите существующую базу данных SQL Azure и нажмите кнопку **Далее**.
 
