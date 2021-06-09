@@ -6,13 +6,13 @@ ms.topic: conceptual
 author: alihamie
 ms.author: tglee
 manager: jmartens
-monikerRange: vs-2019
-ms.openlocfilehash: 8303e1150db7c12c404e8f67bce52418fbd05b9d
-ms.sourcegitcommit: ab5735d64a6ad7aecabf5d6df159888e3246bff5
+monikerRange: '>=vs-2019'
+ms.openlocfilehash: 66418d351280a0c067327716766725d22488131b
+ms.sourcegitcommit: 01a411cd7ae3488b7b979a947bca92fd296a98e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111433796"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111760917"
 ---
 # <a name="use-design-time-sample-data-with-the-xaml-designer-in-visual-studio"></a>Использование демонстрационных данных времени разработки с Конструктор XAML в Visual Studio
 
