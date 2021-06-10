@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 04cbb0db729d39295ee9c608a19302a109980f10
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 007a7f42448ab8026d8acdc262ce5e0dcdd99b28
+ms.sourcegitcommit: 6aa55db5e1fe19d4d17886e0bfe140dbd186f8ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912217"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111877732"
 ---
 # <a name="create-bootstrapper-packages"></a>Создание пакетов начального загрузчика
 Программа установки — это общий установщик, который можно настроить на обнаружение и установку распространяемых компонентов, таких как файлы установщика Windows (*.MSI*) и исполняемые программы. Установщик также называется начальным загрузчиком. Он программируется с помощью набора XML манифестов, определяющих метаданные для управления установкой компонента.  Каждый распространяемый компонент или предварительные требования, которые отображаются в диалоговом окне **необходимые компоненты** для технологии ClickOnce, являются пакетом загрузчика. Пакет начальной загрузки — это группа директорий и файлов, в которых содержатся файлы манифеста, описывающие порядок установки необходимого компонента.
@@ -63,20 +63,17 @@ CustomBootstrapperPackage
 Затем скопируйте распространяемые файлы в расположение папки начального загрузчика. Дополнительные сведения см. в разделе [Практическое руководство. Создание локализованного пакета начального загрузчика](../deployment/how-to-create-a-localized-bootstrapper-package.md).
 
 ```
-*\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper*
+*\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages*
 ```
 
-или для более ранних версий Visual Studio
+или
 
 ```
-*\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*
+*<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*
 ```
 
-или диспетчер конфигурации служб
-
-```
-*\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*
-```
+>[!NOTE]
+>Путь, указанный выше в пути установки Visual Studio, работает начиная с выпуска Visual Studio 2019 с обновлением 7.
 
 Расположение папки начального загрузчика также можно найти по значению **path** в следующем разделе реестра:
 

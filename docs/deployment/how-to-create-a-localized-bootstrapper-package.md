@@ -14,19 +14,19 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 9eb06c54caceb2e9329347fb1dd0114749975e7d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2a9d1fc91dcb385a9250dde3adb47c0d9553147f
+ms.sourcegitcommit: 6aa55db5e1fe19d4d17886e0bfe140dbd186f8ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99927591"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111877719"
 ---
 # <a name="how-to-create-a-localized-bootstrapper-package"></a>Практическое руководство. Создание локализованного пакета начального загрузчика
 После создания пакета начального загрузчика можно создать локализованные версии пакета начального загрузчика, создав два дополнительных файла для каждого языкового стандарта: файл условий лицензии на программное обеспечение (например, *EULA. RTF*) и манифест пакета (*package.xml*).
 
  По умолчанию в Visual Studio 2010 локализованные пакеты начальной загрузки включены только для .NET Framework 4, .NET Framework 4 Client Profile, F# Runtime 2.0 и F# Runtime 4.0. Чтобы создать локализованные пакеты для других начальных загрузчиков, сделайте следующее.
 
-1. Создайте папку с именем в виде имени локали в *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages \\ \<BootstrapperPackageName>*.
+1. Создайте папку с именем в виде имени языкового стандарта в *\Program Files (x86) \Microsoft Сдкс\кликконце \\ \<BootstrapperPackageName> Bootstrapper\Packages*.
 
 2. Создайте файл, содержащий условия лицензионного соглашения на использование программного обеспечения, для пакета начального загрузчика и сохраните его в новую папку.
 
@@ -41,15 +41,15 @@ ms.locfileid: "99927591"
 
 1. Создайте папку с именем, соответствующим языковому стандарту.
 
-     На 32-разрядных компьютерах создайте папку в папке *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages \\ \<BootstrapperPackageName> \\* .
+     На 32-разрядных компьютерах создайте папку в папке *\Program Files\Microsoft сдкс\кликконце Bootstrapper\Packages \\ \<BootstrapperPackageName> \\* .
 
-     На 64-разрядных компьютерах создайте папку в папке *\Program Files (86) \Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages \\ \<BootstrapperPackageName> \\* .
+     На 64-разрядных компьютерах создайте папку в папке *\Program Files (x86) \Microsoft сдкс\кликконце Bootstrapper\Packages \\ \<BootstrapperPackageName> \\* .
 
      В следующей таблице показано, какие имена папок можно использовать для соотнесения с языковым стандартом.
 
     |Locale|Имя папки|
     |------------|-----------------|
-    |Китайский (упрощенное письмо)|zh-HanS|
+    |Китайский (упрощенное письмо)|zh-Hans|
     |Китайский (традиционное письмо)|zh-Hant|
     |Чешский|cs|
     |Немецкий|de|
@@ -78,19 +78,22 @@ ms.locfileid: "99927591"
 
 1. Создайте папку с именем *fr*. Имя папки должно совпадать с именем языкового стандарта.
 
-     На 32-разрядных компьютерах создайте папку в папке *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\DotNetFX35SP1 \\* .
+     На 32-разрядных компьютерах создайте папку в папке *\Program Files\Microsoft Сдкс\кликконце Bootstrapper\Packages\DotNetFX35SP1 \\* .
 
-     На 64-разрядных компьютерах — в папке *\Program Files (86)\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\DotNetFX35SP1\\*.
+     На 64-разрядных компьютерах создайте папку в папке *\Program Files (x86) \Microsoft Сдкс\кликконце Bootstrapper\Packages\DotNetFX35SP1 \\* .
 
 2. Установите локализованную версию условий лицензионного соглашения на использование программного обеспечения в папку *fr* .
 
-3. Скопируйте файл *\Program Files (x86) \Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\DotNetFX35SP1\en\package.xml* в папку *fr* и откройте его в конструкторе XML.
+3. Скопируйте файл *\Program Files (x86) \Microsoft сдкс\кликконце Bootstrapper\Packages\DotNetFX35SP1\en\package.xml* в папку *fr* и откройте его в конструкторе XML.
 
 4. Обновите раздел `<Strings>` манифеста пакета, так чтобы строки с сообщениями об ошибках были на французском языке.
 
 5. Измените `<String Name="Culture">` значение на *fr*.
 
 6. Сохраните файл *package.xml* .
+
+>[!NOTE]
+> Начиная с версии пакета обновления 7 для Visual Studio 2019 пакеты загрузчика будут также обнаружены по пути *<VS Install Path> \мсбуилд\микрософт\висуалстудио\бутстрапперпаккажес*.
 
 ## <a name="see-also"></a>См. также раздел
 - [Создание пакетов начального загрузчика](../deployment/creating-bootstrapper-packages.md)

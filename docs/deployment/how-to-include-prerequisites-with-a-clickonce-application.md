@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e7791308de670b209433708e69ec473780342858
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b41529182b7cca8cea8f94206601b7a818d35420
+ms.sourcegitcommit: 6aa55db5e1fe19d4d17886e0bfe140dbd186f8ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99900629"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111877745"
 ---
 # <a name="how-to-include-prerequisites-with-a-clickonce-application"></a>Практическое руководство. Включение необходимых компонентов в дистрибутив приложения ClickOnce
 Перед распространением программного обеспечения необходимых компонентов с приложением [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] следует загрузить на компьютер разработчика пакеты установщиков этих необходимых компонентов. Если в папке **Packages** пакеты установщиков отсутствуют, при публикации приложения и выборе команды **Загрузить необходимые компоненты с местоположения моего приложения** произойдет ошибка.
@@ -28,6 +28,9 @@ ms.locfileid: "99900629"
 1. В проводнике откройте папку **Packages**.
 
     По умолчанию путь имеет значение `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\` .
+
+>[!NOTE]
+> Начиная с версии пакета обновления 7 для Visual Studio 2019 пакеты загрузчика будут также обнаружены по пути *<VS Install Path> \мсбуилд\микрософт\висуалстудио\бутстрапперпаккажес*.
 
 2. Откройте папку необходимого компонента, который требуется добавить, а затем папку языка для установленной версии [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (например, **ru** для русского языка).
 
@@ -47,7 +50,7 @@ ms.locfileid: "99900629"
 
 6. Скопируйте файл в корневую папку необходимого компонента.
 
-    Например, для необходимого компонента установщик Windows 4,5 Скопируйте файл в папку *\паккажес\ WindowsInstaller4_5* .
+    Например, для платформа .NET Framework необходимых компонентов 4.7.2 Скопируйте файл в папку *\Packages\DotNetFX472* .
 
     Теперь можно распространить пакет установщика с приложением.
 
