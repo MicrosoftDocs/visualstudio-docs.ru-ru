@@ -14,17 +14,16 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 96269f67b11def6fa34ddd1fc7540f9a0462a73e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c7a349cb79ca22869038e46d7ee27b2425119997
+ms.sourcegitcommit: 1f27f33852112702ee35fbc0c02fba37899e4cf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99876879"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112113018"
 ---
 # <a name="create-sharepoint-solutions"></a>Создание решений SharePoint
-  Приложения SharePoint можно создавать не только в SharePoint Designer, но и в Visual Studio. Visual Studio обеспечивает быструю разработку решений SharePoint с помощью таких компонентов, как средства расширенной отладки, IntelliSense, завершение операторов и шаблоны проектов. В Visual Studio также используются преимущества дополнительных средств и языков платформы .NET Framework. Проекты SharePoint можно разрабатывать с помощью Visual Basic или Visual C#, а приложения для проектов SharePoint можно разрабатывать с помощью JavaScript.
 
- Сведения о SharePoint 2013 и надстройках SharePoint см. в разделах [SharePoint 2013](https://www.microsoft.com/microsoft-365/previous-versions/microsoft-sharepoint-2013) и [Создание приложений для SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+  Приложения SharePoint можно создавать не только в SharePoint Designer, но и в Visual Studio. Visual Studio обеспечивает быструю разработку решений SharePoint с помощью таких компонентов, как средства расширенной отладки, IntelliSense, завершение операторов и шаблоны проектов. В Visual Studio также используются преимущества дополнительных средств и языков платформы .NET Framework. Проекты SharePoint можно разрабатывать с помощью Visual Basic или Visual C#, а приложения для проектов SharePoint можно разрабатывать с помощью JavaScript.
 
 > [!NOTE]
 > Узнайте, как использовать новую [модель надстроек SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) для расширения возможностей пользователей SharePoint. Эти надстройки требуют очень мало ресурсов по сравнению с традиционными решениями SharePoint, и их можно создавать с помощью почти любой технологии веб-программирования, такой как HTML5, JavaScript, CSS3 и XML.

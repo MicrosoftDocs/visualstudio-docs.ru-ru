@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 066ae0ab9c23ebb1d55f6c0480d7aeed4255fb4f
-ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
+ms.openlocfilehash: 55f69875b06428c9bbe179e73dd6ea9b4ef40b8e
+ms.sourcegitcommit: 1f27f33852112702ee35fbc0c02fba37899e4cf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106217740"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112112446"
 ---
 # <a name="walkthrough-create-a-web-part-for-sharepoint-by-using-a-designer"></a>Пошаговое руководство: создание веб-части для SharePoint с помощью конструктора
 
@@ -52,15 +52,21 @@ ms.locfileid: "106217740"
 1. Начните с [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] использования команды **Запуск от имени администратора** .
 
 2. В строке меню выберите **Файл** > **Создать** > **Проект**.
-
-     Откроется диалоговое окно **Новый проект** .
+::: moniker range="=vs-2017"
 
 3. В диалоговом окне **Новый проект** в разделе **Visual C#** или **Visual Basic** разверните узел **Office/SharePoint** и выберите категорию **решения SharePoint** .
 
 4. В списке шаблонов выберите шаблон **веб-части SharePoint 2013-Visual** и нажмите кнопку **ОК** .
 
      Откроется **Мастер настройки SharePoint** . С помощью этого мастера можно указать сайт, который будет использоваться для отладки проекта, и уровень доверия решения.
+::: moniker-end
+::: moniker range=">=vs-2019"
+3. В диалоговом окне **Создание нового проекта** выберите *пустой проект SharePoint** для определенной версии SharePoint, которую вы установили. Например, если установлен SharePoint 2019, выберите шаблон **проекта sharepoint 2019-Empty** .
+    [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
+4. В поле **имя** введите **TestProject1**, а затем нажмите кнопку **создать** .
+
+::: moniker-end
 5. В разделе **что такое уровень доверия для этого решения SharePoint?** выберите параметр **Развернуть как решение фермы** .
 
 6. Нажмите кнопку **Готово** , чтобы принять локальный сайт SharePoint по умолчанию.
