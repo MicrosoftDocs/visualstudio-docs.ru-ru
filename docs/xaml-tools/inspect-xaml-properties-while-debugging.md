@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - uwp
-ms.openlocfilehash: 76edf9f1af414a67abd83cec3c2f597c6cdf8707
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 86310346566e8c937c2769a9fcc9f0d4e98b3ae2
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683453"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112308445"
 ---
 # <a name="inspect-xaml-properties-while-debugging"></a>Просмотр свойств XAML во время отладки
 
@@ -26,7 +26,7 @@ ms.locfileid: "101683453"
 |Тип приложения|Операционная система и средства|
 |-----------------|--------------------------------|
 |Приложения Windows Presentation Foundation (4.0 и более поздних версий)|Windows 7 и более поздних версий|
-|Универсальные приложения Windows|Windows 10 и более поздней версии с [пакетом SDK для Windows 10](https://dev.windows.com/downloads/windows-10-sdk)|
+|Универсальные приложения для Windows|Windows 10 и более поздней версии с [пакетом SDK для Windows 10](https://dev.windows.com/downloads/windows-10-sdk)|
 
 ## <a name="look-at-elements-in-the-live-visual-tree"></a>Просмотр элементов в динамическом визуальном дереве
 
@@ -34,7 +34,7 @@ ms.locfileid: "101683453"
 
 ### <a name="create-the-project"></a>Создание проекта
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Создайте новое приложение C# WPF (**файл** > **создать** > **проект**, введите "C# WPF", выберите шаблон проекта **приложения WPF** , назовите проект **тестксамл**, а затем убедитесь, что в раскрывающемся списке **Целевая платформа** отображается **.NET Core 3,1** .
 
