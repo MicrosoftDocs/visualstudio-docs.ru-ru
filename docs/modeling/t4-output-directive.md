@@ -4,17 +4,17 @@ description: Изучите, что в текстовых шаблонах Visua
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 58e7c255d767e9b35764e03a76f9cda516dbe606
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8105edc57e68aa7cedcb612ec4f6bcd0ef367d2f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899597"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386115"
 ---
 # <a name="t4-output-directive"></a>Директива Output T4
 
@@ -24,7 +24,7 @@ ms.locfileid: "99899597"
 
  `<#@output extension=".cs"#>`
 
- Затем Visual Studio создаст файл с именем **MyTemplate.CS**
+ Затем Visual Studio создаст файл с именем **митемплате. cs.**
 
  Директива `output` не требуется в текстовых шаблонах времени выполнения (предварительно обработанных). Вместо этого приложение получает созданную строку, вызывая `TextTransform()`. Дополнительные сведения см. в статье [Создание текста во время выполнения с помощью текстовых шаблонов T4](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
@@ -52,7 +52,7 @@ ms.locfileid: "99899597"
  Допустимые значения: любое допустимое расширение имени файла.
 
 ## <a name="encoding-attribute"></a>атрибут Encoding
- Задает кодировку для использования при создании выходного файла. Пример:
+ Задает кодировку для использования при создании выходного файла. Пример.
 
  `<#@ output encoding="utf-8"#>`
 

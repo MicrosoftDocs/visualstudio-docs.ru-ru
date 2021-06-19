@@ -6,23 +6,23 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, events
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a6066a40ea09698bec6caba38d5d55aa8b269e8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: d6fc8345ca90414f410dde9a089d9529ed19536b
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937944"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387584"
 ---
 # <a name="respond-to-and-propagate-changes"></a>Реагирование и распространение изменений
 
 При создании, удалении или обновлении элемента можно написать код, который распространяет изменения на другие части модели или на внешние ресурсы, такие как файлы, базы данных или другие компоненты.
 
-## <a name="reference"></a>Справочные сведения
+## <a name="reference"></a>Справка
 
 В качестве рекомендации рассмотрите следующие методы в следующем порядке:
 
@@ -54,7 +54,7 @@ ms.locfileid: "99937944"
 
 - **Передача аргументов событий в правила и события** Событиям и правилам передается `EventArgs` параметр со сведениями о том, как изменилась модель.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Практическое руководство. Перехват щелчка фигуры или декоратора](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)
 - [Написание кода для настройки языка Domain-Specific](../modeling/writing-code-to-customise-a-domain-specific-language.md)

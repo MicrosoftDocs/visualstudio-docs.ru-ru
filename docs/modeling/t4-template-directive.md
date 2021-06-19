@@ -4,17 +4,17 @@ description: Изучите, что текстовый шаблон T4 в Visual
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ccb5a216aa9a43581327b04d4b6b56f49f9b2bae
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 622a6392df2608048a3ac24fda0f4dffc8e43dd4
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924649"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386141"
 ---
 # <a name="t4-template-directive"></a>Директива Template T4
 
@@ -32,7 +32,7 @@ ms.locfileid: "99924649"
 
 ## <a name="compileroptions-attribute"></a>атрибут compilerOptions
 
-Пример.
+Пример
 
 `compilerOptions="optimize+"`
 
@@ -46,7 +46,7 @@ ms.locfileid: "99924649"
 
 ## <a name="culture-attribute"></a>атрибут culture
 
-Пример.
+Пример
 
 `culture="de-CH"`
 
@@ -60,7 +60,7 @@ ms.locfileid: "99924649"
 
 ## <a name="debug-attribute"></a>атрибут debug
 
-Пример.
+Пример
 
 ```
 debug="true"
@@ -80,7 +80,7 @@ debug="true"
 
 ## <a name="hostspecific-attribute"></a>атрибут hostspecific
 
-Пример.
+Пример
 
 ```
 hostspecific="true"
@@ -98,7 +98,7 @@ hostspecific="true"
 
 Поскольку тип данного свойства зависит от типа основного приложения, оно полезно, только если пишется текстовый шаблон, работающий с конкретным основным приложением. Он применим к [шаблонам времени разработки](../modeling/design-time-code-generation-by-using-t4-text-templates.md), но не к [шаблонам времени выполнения](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
-Если `hostspecific` используется `true` Visual Studio, для `this.Host` доступа к функциям Visual Studio можно привести к использованию функции IServiceProvider. Кроме того, можно воспользоваться `Host.ResolvePath(filename)` для получения абсолютного пути к файлу в проекте. Пример:
+Если `hostspecific` используется `true` Visual Studio, для `this.Host` доступа к функциям Visual Studio можно привести к использованию функции IServiceProvider. Кроме того, можно воспользоваться `Host.ResolvePath(filename)` для получения абсолютного пути к файлу в проекте. Пример.
 
 ```csharp
 <#@ template debug="false" hostspecific="true" language="C#" #>
@@ -124,7 +124,7 @@ Content of myFile is:
 
 ## <a name="language-attribute"></a>атрибут language
 
-Пример.
+Пример
 
 `language="VB"`
 
@@ -136,7 +136,7 @@ Content of myFile is:
 
 `language`Атрибут задает язык ( [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] или), [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] используемый для исходного кода в блоках операторов и выражений. Этот язык будет использоваться в промежуточном файле кода, из которого создаются выходные данные. Этот язык не связан с языком, создаваемым шаблоном, который может быть представлен любым видом текста.
 
-Пример:
+Пример.
 
 ```vb
 <#@ template language="VB" #>
@@ -241,7 +241,7 @@ This is the common footer.
 
 ## <a name="linepragmas-attribute"></a>атрибут Линепрагмас
 
-Пример.
+Пример
 
 `linePragmas="false"`
 
@@ -257,7 +257,7 @@ This is the common footer.
 
 ## <a name="visibility-attribute"></a>атрибут видимости
 
-Пример.
+Пример
 
 `visibility="internal"`
 

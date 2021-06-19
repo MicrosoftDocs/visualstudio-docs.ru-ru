@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 - Domain-Specific Language, rules
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 7062feddf00194e4633435655b5e11f5fefd38ee
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: bde67bd8375e3752370b3b815f8ed155d3123741
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99916948"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387597"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>Правила распространяют изменения в пределах модели
 Вы можете создать правило хранения, чтобы распространить изменения с одного элемента на другой в пакете SDK визуализации и моделирования (VMSDK). Когда происходит изменение в любом элементе хранилища, запланировано выполнение правил, обычно при фиксации самой внешней транзакции. Существуют различные типы правил для различных типов событий, например добавление элемента или его удаление. Правила можно присоединять к конкретным типам элементов, фигур или диаграмм. Многие встроенные функции определяются правилами. Например, правила обеспечивают обновление схемы при изменении модели. Вы можете настроить доменный язык, добавив собственные правила.
@@ -209,6 +209,6 @@ namespace Company.TaskRuleExample
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Обработчики событий распространяют изменения за пределы модели](../modeling/event-handlers-propagate-changes-outside-the-model.md)

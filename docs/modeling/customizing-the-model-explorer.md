@@ -8,17 +8,17 @@ f1_keywords:
 - vs.dsltools.dsldesigner.explorerbehavior
 helpviewer_keywords:
 - Domain-Specific Language Tools, Domain-Specific Language Explorer
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b3ae5ea3c24ea72c911f686c7a0a92191785d9d5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c842988f3e5c9f1bbed5a859e73680cb109ecd43
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935382"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385907"
 ---
 # <a name="customizing-the-model-explorer"></a>Настройка обозревателя моделей
 Внешний вид и поведение обозревателя для проектировщика доменного языка можно изменить следующим образом:
@@ -35,7 +35,7 @@ ms.locfileid: "99935382"
  Чтобы изменить заголовок окна созданного обозревателя, выберите **поведение обозревателя** в **обозревателе DSL**, а затем в окне **Свойства** задайте для свойства **заголовок** нужное название.
 
 ## <a name="changing-the-tab-icon"></a>Изменение значка вкладки
- Чтобы изменить значок вкладки для обозревателя, используйте значок размером 16x16 пикселей в BMP-файле. Вставьте файл значка в папку \Дслпаккаже\ресаурцес\, а затем измените имя файла на **ModelExplorerToolWindowBitmaps.bmp**. Например, вы можете изменить файл значка Setup. ico для Visual Studio на формат. bmp и переименовать его в **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. Созданный конструктор отобразит этот значок на вкладке обозревателя, когда он закрепляется вместе с **Обозреватель решений**.
+ Чтобы изменить значок вкладки для обозревателя, используйте значок размером 16x16 пикселей в файле .bmp. Вставьте файл значка в папку \Дслпаккаже\ресаурцес\, а затем измените имя файла на **ModelExplorerToolWindowBitmaps.bmp**. Например, можно изменить файл значка Setup. ico в Visual Studio, чтобы .bmp формат и переименовать его в **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. Созданный конструктор отобразит этот значок на вкладке обозревателя, когда он закрепляется вместе с **Обозреватель решений**.
 
 ## <a name="setting-custom-icons-on-explorer-nodes"></a>Настройка пользовательских значков на узлах обозревателя
  Вы можете настроить узлы в обозревателе, используя параметры узла обозревателя. В следующей процедуре показано, как добавить значок в узел.
@@ -44,7 +44,7 @@ ms.locfileid: "99935382"
 
 1. Создайте [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] решение с помощью шаблона решения для потока задач.
 
-2. Вставьте BMP-файл, содержащий значок размером 16x16 пикселей в папку **дсл\ресаурцес** в решении.
+2. Добавьте .bmp файл, содержащий значок 16x16 пикселей в папке **дсл\ресаурцес** в решении.
 
 3. В **обозревателе DSL** щелкните правой кнопкой мыши **поведение обозревателя** и выберите команду **Добавить новые параметры узла обозревателя**.
 
@@ -113,6 +113,6 @@ ms.locfileid: "99935382"
 
      Обозреватель должен показывать только узел **актеров** и не должен отображать узел **Комментарии** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))

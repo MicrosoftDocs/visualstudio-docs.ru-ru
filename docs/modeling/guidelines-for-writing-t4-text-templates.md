@@ -4,17 +4,17 @@ description: Ознакомьтесь с общими рекомендациям
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 5418013898f24b15cf51926022d974d23f4a7215
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4f043e95ef477558028e634bf6b48aded2960ec2
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99966361"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386661"
 ---
 # <a name="guidelines-for-writing-t4-text-templates"></a>Рекомендации по написанию текстовых шаблонов T4
 
@@ -111,7 +111,7 @@ MyProject
 
 `The total is: <#= ComputeTotal() #>`
 
-В **MyReportText-Methods.CS**:
+В **мирепорттекст-Methods. CS**:
 
 `private string ComputeTotal() { ... }`
 
@@ -153,7 +153,7 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
 
 Рассмотрите возможность использования типизированных моделей.
 
-Несмотря на то, что можно создать схему XML или базы данных для моделей, может быть полезно создать доменный язык (DSL). Преимущество DSL заключается в том, что он создает класс для представления каждого узла в схеме и свойства для представления атрибутов. Это означает, что вы можете программировать с точки зрения бизнес-модели. Пример:
+Несмотря на то, что можно создать схему XML или базы данных для моделей, может быть полезно создать доменный язык (DSL). Преимущество DSL заключается в том, что он создает класс для представления каждого узла в схеме и свойства для представления атрибутов. Это означает, что вы можете программировать с точки зрения бизнес-модели. Пример.
 
 ```
 Team Members:
@@ -171,7 +171,7 @@ Team Members:
 
 Вы также можете разработать собственный тип схемы в качестве доменного языка (DSL). Код может быть создан как на основе UML, так и на DSL. Дополнительные сведения см. в разделе [Анализ архитектуры и моделирования](../modeling/analyze-and-model-your-architecture.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание кода во время разработки с помощью текстовых шаблонов T4](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
 - [Создание текста во время выполнения с помощью текстовых шаблонов T4](../modeling/run-time-text-generation-with-t4-text-templates.md)

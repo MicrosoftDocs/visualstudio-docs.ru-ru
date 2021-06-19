@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, custom directive processors
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: dc839d4d859a8dd1dcc82774c466d6d103e4e7a6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 30233bf34f523ef53d95cef153fd604cef0b6447
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935343"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112384906"
 ---
 # <a name="deploying-a-custom-directive-processor"></a>Развертывание пользовательского обработчика директив
 
@@ -68,7 +68,7 @@ ms.locfileid: "99935343"
 
     2. Выберите его в обозревателе решений и задайте его свойства следующим образом:
 
-         **Действие сборки**  =  **Содержимое**
+         **Build Action** = **Content** (Действие при сборке > Содержимое);
 
          **Копировать в выходной каталог**  =  **Всегда копировать**
 
@@ -162,7 +162,7 @@ ms.locfileid: "99935343"
 
 #### <a name="to-register-a-directive-processor-by-setting-a-registry-key"></a>Регистрация процессора директив путем создания раздела реестра
 
-1. Выполните `regedit`.
+1. Выполните команду `regedit`.
 
 2. В программе regedit перейдите следующему разделу:
 
@@ -198,6 +198,6 @@ ms.locfileid: "99935343"
 |Class|REG_SZ|\<**Your Fully Qualified Class Name**>|
 |Сборка|REG_SZ|\<**Your Assembly Name in the GAC**>|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание пользовательских обработчиков директив для текстовых шаблонов T4](../modeling/creating-custom-t4-text-template-directive-processors.md)

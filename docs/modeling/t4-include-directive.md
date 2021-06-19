@@ -4,17 +4,17 @@ description: 'Сведения о том, как использовать тек
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ed43ff63eb6605a27885eb1030ebc8689fa37a93
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7361d92b05fd6838d20b32ea9f0b3b14530266fa
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99899631"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386310"
 ---
 # <a name="t4-include-directive"></a>Директива Include T4
 
@@ -32,7 +32,7 @@ ms.locfileid: "99899631"
 
    Эти дополнительные папки включения могут зависеть от расширения включающего файла. Например, папка включения DSL Tools доступна только для включающих файлов с расширением `.tt`.
 
-- `filePath` может включать переменные среды, отделенные знаком "%". Пример:
+- `filePath` может включать переменные среды, отделенные знаком "%". Пример.
 
   ```
   <#@ include file="%HOMEPATH%\MyIncludeFile.t4" #>

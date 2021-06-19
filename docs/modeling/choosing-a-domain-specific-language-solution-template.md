@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language Tools, solution templates
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 23629c2503fd14a758cf3f68f2576db601dd39cc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c1c638c5a45427fd474f085ff58c9d38682ee054
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861859"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385439"
 ---
 # <a name="choosing-a-domain-specific-language-solution-template"></a>Выбор шаблона решения на доменном языке
 Чтобы создать решение доменного языка, выберите один из шаблонов решений, доступных в мастере конструктора языков Domain-Specific. Выбрав шаблон, который наиболее похож на тот, который требуется создать, можно максимально ограничить изменения, которые необходимо внести в начальное решение.

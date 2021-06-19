@@ -1,7 +1,7 @@
 ---
 title: Приступая к работе с инструментами Visual Studio для Unity | Документы Майкрософт
 description: Узнайте, как установить и настроить Visual Studio для разработки Unity.
-ms.custom: ''
+ms.custom: acquisition
 ms.date: 01/27/2021
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
@@ -13,12 +13,12 @@ manager: crdun
 ms.workload:
 - unity
 zone_pivot_groups: platform
-ms.openlocfilehash: 791f25b61c86f0115c225d505bdb1edb07869961
-ms.sourcegitcommit: 69256dc47489853dc66a037f5b0c1275977540c0
+ms.openlocfilehash: 8eea998731c4d29e533d1e6bf21d4a2870a81ff5
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109782612"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386700"
 ---
 # <a name="get-started-with-visual-studio-and-unity"></a>Начало работы с Visual Studio и Unity
 
@@ -101,6 +101,6 @@ ms.locfileid: "109782612"
 
 :::zone-end
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
  Чтобы узнать, как работать с проектом Unity и выполнить его отладку в Visual Studio, перейдите по адресу [инструменты Visual Studio для Unity](using-visual-studio-tools-for-unity.md).

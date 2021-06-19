@@ -4,17 +4,17 @@ description: Узнайте, как определить политику для
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: aa7590689b4d7acdb7a7ebe501584ed6a8bd41bf
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6bb8e05ffc030716f32ab7e79233ca9e02ef2e11
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935421"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385790"
 ---
 # <a name="defining-a-locking-policy-to-create-read-only-segments"></a>Определение политики блокировки для создания сегментов, доступных только для чтения
 API неизменности пакета SDK визуализации и моделирования Visual Studio позволяет программе заблокировать часть или всю модель доменного языка (DSL), чтобы ее можно было читать, но не изменять. Этот параметр доступен только для чтения, например, чтобы пользователь мог попросить коллег закомментировать и проверить модель DSL, но может запретить им изменять исходное значение.
@@ -79,7 +79,7 @@ partition.SetLocks(Locks.Delete);
 
 |Значение|Значение `IsLocked(Value)` , если имеет значение true|
 |-|-|
-|Отсутствуют|Без ограничений.|
+|Нет|Без ограничений.|
 |Свойство|Свойства домена элементов не могут быть изменены. Это не относится к свойствам, создаваемым ролью доменного класса в связи.|
 |Добавить|Новые элементы и ссылки не могут быть созданы в разделе или хранилище.<br /><br /> Неприменимо к `ModelElement` .|
 |Переместить|Невозможно переместить элемент между секциями `element.IsLocked(Move)` , если имеет значение true, или `targetPartition.IsLocked(Move)` значение true.|
@@ -115,7 +115,7 @@ public interface ILockingPolicy
 
  Эти методы вызываются при вызове метода `SetLocks()` в хранилище, секции или ModelElement. В каждом методе предоставляется предложенный набор блокировок. Вы можете вернуть предложенный набор или добавить и вычесть блокировки.
 
- Пример:
+ Пример.
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;

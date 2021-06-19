@@ -8,17 +8,17 @@ helpviewer_keywords:
 - tracking properties [Domain-Specific Language Tools], walkthrough
 - Domain-Specific Language Tools, walkthroughs
 - walkthroughs [Domain-Specific Language Tools]
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: c58e01fa5da5608b183827e366c115c214aa483d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 546636ec3de4656bf0f6480dfaa5141d38e963d6
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99862015"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112384919"
 ---
 # <a name="add-a-tracking-property-to-a-domain-specific-language-definition"></a>Добавление свойства отслеживания в определение предметно-ориентированного языка
 
@@ -44,7 +44,7 @@ ms.locfileid: "99862015"
 
 - В окне **Свойства** , когда свойство отслеживания находится в состоянии Обновлено пользователем, его значение отображается полужирным шрифтом.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Обязательные условия
 
 Перед началом работы с этим пошаговым руководством необходимо сначала установить следующие компоненты:
 
@@ -153,7 +153,7 @@ ms.locfileid: "99862015"
 
 3. Выберите шаблон **файл кода** , задайте для него **имя** `NamespaceTrackingProperty.cs` и нажмите кнопку **ОК**.
 
-     Файл NamespaceTrackingProperty.cs создается и открывается для редактирования.
+     Файл Намеспацетраккингпроперти. CS создается и открывается для редактирования.
 
 4. В папке создайте следующие файлы кода: `ExampleModel.cs,``HelperClasses.cs` , `Serialization.cs` и `TypeDescriptor.cs` .
 
@@ -161,9 +161,9 @@ ms.locfileid: "99862015"
 
 ## <a name="add-helper-classes-to-support-tracking-properties"></a>Добавление вспомогательных классов для поддержки свойств отслеживания
 
-В файл HelperClasses.cs добавьте `TrackingHelper` классы и, `CriticalException` как показано ниже. Далее в этом пошаговом руководстве вы будете ссылаться на эти классы.
+В файл Хелперклассес. cs добавьте `TrackingHelper` классы и, `CriticalException` как показано ниже. Далее в этом пошаговом руководстве вы будете ссылаться на эти классы.
 
-1. Добавьте следующий код в файл HelperClasses.cs.
+1. Добавьте следующий код в файл Хелперклассес. cs.
 
     ```csharp
     using System;
@@ -249,7 +249,7 @@ ms.locfileid: "99862015"
 
 ### <a name="to-modify-the-type-descriptor-for-the-examplemodel-domain-class"></a>Изменение дескриптора типа для доменного класса пространстве ExampleModel
 
-1. Добавьте следующий код в файл TypeDescriptor.cs.
+1. Добавьте следующий код в файл TypeDescriptor. cs.
 
     ```csharp
     using System;
@@ -311,7 +311,7 @@ ms.locfileid: "99862015"
 
 Созданный код определяет поставщик описания типа для доменного класса Ексамплилемент. Однако необходимо добавить код, чтобы указать DSL использовать поставщик описания типа.
 
-1. Добавьте следующий код в файл Package.cs.
+1. Добавьте следующий код в файл Package. cs.
 
     ```csharp
     using System.ComponentModel;
@@ -349,7 +349,7 @@ ms.locfileid: "99862015"
 
 ### <a name="to-modify-the-property-handler-for-the-tracked-property"></a>Изменение обработчика свойства для свойства Tracked
 
-1. Добавьте следующий код в файл ExampleModel.cs.
+1. Добавьте следующий код в файл пространстве ExampleModel. cs.
 
     ```csharp
     using System.Linq;
@@ -425,7 +425,7 @@ ms.locfileid: "99862015"
 
 ### <a name="to-add-the-method-for-the-custom-type-descriptor"></a>Добавление метода для пользовательского дескриптора типа
 
-1. Добавьте следующий код в файл NamespaceTrackingProperty.cs.
+1. Добавьте следующий код в файл Намеспацетраккингпроперти. cs.
 
     ```csharp
     using System;
@@ -592,7 +592,7 @@ ms.locfileid: "99862015"
 
 ### <a name="to-add-code-to-support-the-custom-post-load-behavior"></a>Добавление кода для поддержки пользовательского поведения после загрузки
 
-1. Добавьте следующий код в файл Serialization.cs.
+1. Добавьте следующий код в файл Serialization. cs.
 
     ```csharp
     using System;
@@ -752,11 +752,11 @@ ms.locfileid: "99862015"
 
 10. Сохраните решение, а затем закройте экспериментальную сборку.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Если планируется использовать несколько свойств отслеживания или реализовать свойства отслеживания более чем в одном DSL, можно создать текстовый шаблон для создания общего кода для поддержки каждого свойства отслеживания. Дополнительные сведения о текстовых шаблонах см. в разделе [Создание кода и текстовые шаблоны T4](../modeling/code-generation-and-t4-text-templates.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>
 - <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>

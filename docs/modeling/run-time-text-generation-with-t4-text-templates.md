@@ -12,17 +12,17 @@ helpviewer_keywords:
 - TextTemplatingFilePreprocessor custom tool
 - text templates, TransformText() method
 - text templates, generating files at run time
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 5c64dd1c8ee25f2e0a3c2b94caa8026438b32286
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 96d37bc586f9e8d6134377244c3181a52ec11a84
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937957"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387558"
 ---
 # <a name="run-time-text-generation-with-t4-text-templates"></a>Создание текста во время выполнения с помощью текстовых шаблонов T4
 
@@ -64,7 +64,7 @@ This report is Company Confidential.
     > [!NOTE]
     > Имя файла шаблона будет использоваться в качестве имени класса в созданном коде. Поэтому в нем не должно быть пробелов или знаков препинания.
 
-4. Выберите **Добавить**.
+4. Нажмите кнопку **Добавить**.
 
     Будет создан новый файл с расширением **. TT**. Его свойство **Custom Tool** имеет значение **тексттемплатингфилепрепроцессор**. Он содержит следующие строки:
 
@@ -109,7 +109,7 @@ This report is Company Confidential.
 
 ### <a name="plain-content"></a>Простое содержимое
 
-Измените **TT** файл, чтобы он содержал текст, который должен быть создан приложением. Пример:
+Измените **TT** файл, чтобы он содержал текст, который должен быть создан приложением. Пример.
 
 ```html
 <html><body>
@@ -121,7 +121,7 @@ This report is Company Confidential.
 
 ### <a name="embedded-program-code"></a>Встроенный код программы
 
-Программный код можно вставлять между `<#` и `#>` . Пример:
+Программный код можно вставлять между `<#` и `#>` . Пример.
 
 ```csharp
 <table>
@@ -184,7 +184,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent)
 
 Обычно шаблон должен импортировать некоторые данные из других частей приложения. Чтобы сделать это простым, код, созданный с помощью шаблона, является разделяемым классом. Можно создать другую часть того же класса в другом файле в проекте. Этот файл может включать конструктор с параметрами, свойствами и функциями, доступ к которым можно получить с помощью кода, внедренного в шаблон, и остальной части приложения.
 
-Например, можно создать отдельный файл **MyWebPageCode.CS**:
+Например, можно создать отдельный файл **мивебпажекоде. CS**:
 
 ```csharp
 partial class MyWebPage
@@ -338,7 +338,7 @@ begin 1
 end 1
 ```
 
-**MyProgram.cs:**
+**MyProgram. cs:**
 
 ```csharp
 ...
@@ -435,7 +435,7 @@ End material for DerivedTemplate1.
 
 Шаблоны времени выполнения можно использовать в любом приложении, где шаблоны и их содержимое определяются во время компиляции. Но если вы хотите написать расширение Visual Studio, которое создает текст из шаблонов, которые изменяются во время выполнения, см. раздел [вызов преобразования текста в расширении VS](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание кода и текстовые шаблоны T4](../modeling/code-generation-and-t4-text-templates.md)
 - [Написание текстового шаблона T4](../modeling/writing-a-t4-text-template.md)

@@ -6,18 +6,18 @@ ms.topic: how-to
 titleSuffix: ''
 helpviewer_keywords:
 - dependency diagrams, adding custom validation
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
-ms.openlocfilehash: bd5f17e7e8c12da1d4e01738c26650a3df4760fa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cc00f86bafebd14177400ffa0ee596a733e9fb28
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99919321"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112384633"
 ---
 # <a name="add-custom-architecture-validation-to-dependency-diagrams"></a>Добавление пользовательской проверки архитектуры в схемы зависимостей
 
@@ -110,7 +110,7 @@ ms.locfileid: "99919321"
 
 6. Вернитесь в проект проверки слоев и добавьте указанные ниже ссылки на проект.
 
-    |**Ссылки**|**Возможности**|
+    |**Ссылка**|**Возможности**|
     |-|-|
     |Microsoft.VisualStudio.GraphModel.dll|Чтение графа архитектуры|
     |Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema.dll|Чтение кода DOM, связанного со слоями|
@@ -290,6 +290,6 @@ namespace Validator3
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Расширение схем зависимостей](../modeling/extend-layer-diagrams.md)

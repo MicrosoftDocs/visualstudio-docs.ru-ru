@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain properties
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c0874302a7cae4b7a2a3c02edade3ef88fd402a
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f98dca6759b9e4a77e71139b6d9ec9b394d99b04
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861846"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385426"
 ---
 # <a name="calculated-and-custom-storage-properties"></a>Вычисляемые и пользовательские свойства хранилища
 Все свойства домена в доменном языке (DSL) могут отображаться для пользователя на схеме и в обозревателе языка, и к ним можно получить доступ программный код. Однако свойства отличаются способом хранения их значений.
@@ -49,7 +49,7 @@ ms.locfileid: "99861846"
 
 5. Дважды щелкните сообщение об ошибке.
 
-     Откроется Дсл\женератедкоде\домаинклассес.КС или DomainRelationships.cs. Над выделенным вызовом метода комментарий предложит предоставить реализацию Get *YourProperty*().
+     Откроется Дсл\женератедкоде\домаинклассес.КС или Домаинрелатионшипс. cs. Над выделенным вызовом метода комментарий предложит предоставить реализацию Get *YourProperty*().
 
     > [!NOTE]
     > Этот файл создается из DslDefinition. DSL. Если изменить этот файл, изменения будут потеряны при следующем нажатии кнопки **преобразовать все шаблоны**. Вместо этого добавьте требуемый метод в отдельный файл.
@@ -68,7 +68,7 @@ ms.locfileid: "99861846"
     }  }
     ```
 
-8. Если для параметра **тип** выбрать значение **настраиваемое хранилище**, то также потребуется предоставить `Set` метод. Пример:
+8. Если для параметра **тип** выбрать значение **настраиваемое хранилище**, то также потребуется предоставить `Set` метод. Пример.
 
     ```
     void SetAgeValue(int value)
@@ -92,7 +92,7 @@ ms.locfileid: "99861846"
 
 - Однако он должен обновлять все внешние ресурсы, такие как база данных или содержимое файлов, или объекты, находящиеся за пределами хранилища. Это позволит убедиться, что они хранятся в синчронисм со значениями в магазине.
 
-  Пример:
+  Пример.
 
 ```
 void SetAgeValue(int value)
@@ -109,7 +109,7 @@ void SetAgeValue(int value)
 
  Дополнительные сведения о транзакциях см. [в разделе Навигация и обновление модели в программном коде](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Перемещение по модели и обновление модели в коде программы](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Свойства доменных свойств](../modeling/properties-of-domain-properties.md)

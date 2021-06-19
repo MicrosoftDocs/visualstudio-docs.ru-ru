@@ -4,17 +4,17 @@ description: Узнайте, как пакет SDK визуализации и �
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b9393c8e01cb304b6a89ac9b400f3efc29d8c056
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9603ace5751443c04d0a7503a43e08c044269817
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861920"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385465"
 ---
 # <a name="api-reference-for-modeling-sdk-for-visual-studio"></a>Справка по API SDK моделирования для Visual Studio
 
@@ -44,6 +44,6 @@ ms.locfileid: "99861920"
 |<xref:Microsoft.VisualStudio.Modeling.Shell.ExtensionEnablement?displayProperty=fullName>|Позволяет определять команды контекстного меню.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation?displayProperty=fullName>|Позволяет определять ограничения проверки.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Настройка преобразования текста T4](../modeling/customizing-t4-text-transformation.md)

@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Domain-Specific Language, accessing the current selection
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 83903c8ff911fdd1d4900714137a7f6976513dad
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 28d0f99743535965b3cf203d461fac5d0193607c
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890569"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386609"
 ---
 # <a name="how-to-access-and-constrain-the-current-selection"></a>Практическое руководство. Предоставление и ограничение доступа к текущему выделению
 
@@ -38,10 +38,10 @@ ms.locfileid: "99890569"
     |Метод <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.IsDiagramSelected%2A>|Возвращает `true` , если схема выбрана в конструкторе моделей; в противном случае — значение `false` .|
     |Метод <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.IsSingleDocumentSelection%2A>|Возвращает `true` , если в конструкторе моделей выбран ровно один элемент; в противном случае — значение `false` .|
     |Метод <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.IsSingleSelection%2A>|Возвращает `true` , если в активном окне выбран ровно один элемент; в противном случае — значение `false` .|
-    |Свойство<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.CurrentDocumentSelection%2A>|Возвращает доступную только для чтения коллекцию элементов, выбранных в конструкторе моделей.|
-    |Свойство<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.CurrentSelection%2A>|Возвращает доступную только для чтения коллекцию элементов, выбранных в активном окне.|
-    |Свойство<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.SingleDocumentSelection%2A>|Возвращает первичный элемент выбранного элемента в конструкторе моделей.|
-    |Свойство<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.SingleSelection%2A>|Возвращает первичный элемент выделенного фрагмента в активном окне.|
+    |Свойство <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.CurrentDocumentSelection%2A>|Возвращает доступную только для чтения коллекцию элементов, выбранных в конструкторе моделей.|
+    |Свойство <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.CurrentSelection%2A>|Возвращает доступную только для чтения коллекцию элементов, выбранных в активном окне.|
+    |Свойство <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.SingleDocumentSelection%2A>|Возвращает первичный элемент выбранного элемента в конструкторе моделей.|
+    |Свойство <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.SingleSelection%2A>|Возвращает первичный элемент выделенного фрагмента в активном окне.|
 
 2. <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet.CurrentDocView%2A>Свойство <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> класса предоставляет доступ к <xref:Microsoft.VisualStudio.Modeling.Shell.DiagramDocView> объекту, который представляет окно конструктора моделей и предоставляет дополнительный доступ к выбранным элементам в конструкторе моделей.
 
@@ -103,7 +103,7 @@ ms.locfileid: "99890569"
 
 4. Добавьте определение разделяемого класса для класса ClassDiagram в файл пользовательского кода.
 
-     `ClassDiagram`Класс является производным от <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> класса и определяется в созданном файле кода Diagram.cs в проекте DSL.
+     `ClassDiagram`Класс является производным от <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> класса и определяется в созданном файле кода Diagram. cs в проекте DSL.
 
 5. Переопределите <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.SelectionRules%2A> свойство класса, `ClassDiagram` чтобы оно возвращало настраиваемое правило выбора.
 
@@ -211,7 +211,7 @@ namespace CompanyName.ProductName.GroupingDsl
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>
 - <xref:Microsoft.VisualStudio.Modeling.Shell.ModelingPackage>

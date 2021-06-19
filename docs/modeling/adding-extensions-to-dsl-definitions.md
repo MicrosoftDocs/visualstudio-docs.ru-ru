@@ -4,17 +4,17 @@ description: Узнайте, как расширение определения 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 1208c152534206a0ed2894fc0e41d844e0b77d47
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4d9f1c92ebb879517d497af41fe98cec4492bd95
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861963"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112384893"
 ---
 # <a name="add-extensions-to-dsl-definitions"></a>Добавление расширений в определения предметно-ориентированных языков
 
@@ -36,6 +36,6 @@ ms.locfileid: "99861963"
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Связанные записи в блогах](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)

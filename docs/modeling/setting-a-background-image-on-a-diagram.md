@@ -4,17 +4,17 @@ description: Узнайте, что в пакете SDK визуализации
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ca83bd9f6ac88e26247f6c9beea9c242a505887c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9304117932b92408f12a23747253de66dfd767d1
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99873779"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385673"
 ---
 # <a name="setting-a-background-image-on-a-diagram"></a>Задание фонового изображения схемы
 В пакете SDK визуализации и моделирования Visual Studio можно задать фоновое изображение для созданного конструктора с помощью пользовательского кода.
@@ -43,7 +43,7 @@ ms.locfileid: "99873779"
 
 10. Убедитесь, что файл Dsl\Properties\Resources.resx существует и под ним есть файл Resources.Designer.cs.
 
-11. Если Resources.Designer.cs отсутствует, щелкните файл Resources. resx в **Обозреватель решений**.
+11. Если Resources. Designer. CS отсутствует, щелкните файл Resources. resx в **Обозреватель решений**.
 
 12. В окне **Свойства** присвойте свойству `Custom Tool` значение `ResXFileCodeGenerator`.
 
@@ -102,7 +102,7 @@ ms.locfileid: "99873779"
 
      Дополнительные сведения о настройке модели с помощью программного кода см. [в разделе Навигация и обновление модели в программном коде](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Определение фигур и соединителей](../modeling/defining-shapes-and-connectors.md)
 - [Настройка полей с текстом и изображениями](../modeling/customizing-text-and-image-fields.md)

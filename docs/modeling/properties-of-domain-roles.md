@@ -4,17 +4,17 @@ description: Сведения о свойствах, связанных с ро�
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 9edee5f8128933b2ecb36434a64d39c40d3d799f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 670704a86f0c149d26c7c869259c0f2f6bb75881
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941311"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385152"
 ---
 # <a name="properties-of-domain-roles"></a>Свойства доменных ролей
 Свойства в следующей таблице связаны с ролью домена. Сведения о ролях домена см. в разделе [Основные сведения о моделях, классах и связях](../modeling/understanding-models-classes-and-relationships.md). Дополнительные сведения об использовании этих свойств см. [в разделе Настройка и расширение языка Domain-Specific](../modeling/customizing-and-extending-a-domain-specific-language.md).
@@ -43,6 +43,6 @@ ms.locfileid: "99941311"
 > [!NOTE]
 > Значение по умолчанию для отображаемого имени основано на значении связанного свойства путем вставки пробелов перед каждым символом верхнего регистра, которому предшествует символ в нижнем регистре и за которым не следует другой символ верхнего регистра.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Свойства доменных связей](../modeling/properties-of-domain-relationships.md)

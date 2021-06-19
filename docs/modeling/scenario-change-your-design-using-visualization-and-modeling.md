@@ -11,25 +11,25 @@ helpviewer_keywords:
 - walkthrough [Visual Studio ALM], visualizing code
 - walkthrough [Visual Studio ALM], modeling software
 - walkthroughs [Visual Studio ALM], modeling software
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 ms.custom: SEO-VS-2020
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 79f131276172a9df91dd8408149fae66a2f28ca9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 05cdd769a59c4101fbc05a7e51893752e2532f42
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99938048"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385829"
 ---
 # <a name="scenario-change-your-design-using-visualization-and-modeling"></a>Сценарий: изменение проекта с помощью визуализации и моделирования
 
 Инструменты визуализации и моделирования в Visual Studio позволяют контролировать соответствие системы требованиям пользователей.
 Используйте такие средства, как карты кода, схемы зависимостей и схемы классов для решения следующих задач:
 
-Чтобы узнать, какие версии Visual Studio поддерживают каждую функцию, см. раздел [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие версии Visual Studio поддерживают каждую функцию, см. раздел [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 - Уточнение требований пользователей и бизнес-процессов.
 
@@ -112,7 +112,7 @@ ms.locfileid: "99938048"
 - [Проверка кода по схемам зависимостей](../modeling/validate-code-with-layer-diagrams.md)
 
 > [!NOTE]
-> Некоторые версии Visual Studio поддерживают проверку зависимостей, а также версии карт кода для визуализации и моделирования, доступные только для чтения. Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+> Некоторые версии Visual Studio поддерживают проверку зависимостей, а также версии карт кода для визуализации и моделирования, доступные только для чтения. Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## <a name="understand-and-communicate-information-about-the-system"></a>Выяснение и передача сведений о системе
 

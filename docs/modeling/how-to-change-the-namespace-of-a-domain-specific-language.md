@@ -6,18 +6,18 @@ ms.topic: how-to
 titleSuffix: ''
 helpviewer_keywords:
 - Domain-Specific Language, namespace
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
-ms.openlocfilehash: 29835e993d287c981ad1c4014af3dc276891af5d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: db9043c2a4c5abd19c839d2586709412d7607019
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99890504"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387311"
 ---
 # <a name="how-to-change-the-namespace-of-a-domain-specific-language"></a>Как изменить пространство имен для предметно-ориентированного языка
 
@@ -55,6 +55,6 @@ ms.locfileid: "99890504"
 
 11. В меню **Сборка** выберите пункт **Перестроить решение**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Глоссарий для средств доменного языка](/previous-versions/bb126564(v=vs.100))

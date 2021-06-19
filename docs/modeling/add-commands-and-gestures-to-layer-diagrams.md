@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - dependency diagrams, adding custom commands
 - dependency diagrams, adding custom gestures
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 9da8272f115efe4c6708bcc4d5cd0203697bfdd6
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 43d6cf5410aed3d79814d5304705a424bcc71e89
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99908886"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387454"
 ---
 # <a name="add-commands-and-gestures-to-dependency-diagrams"></a>Добавление команд и жестов в схемы зависимостей
 
@@ -89,7 +89,7 @@ ms.locfileid: "99908886"
 
 5. Вернитесь к проекту команды или обработчика жестов и добавьте следующие ссылки на проект:
 
-   |**Ссылки**|**Возможности**|
+   |**Ссылка**|**Возможности**|
    |-|-|
    |Program Files\Microsoft Visual Studio [версия]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.dll|Создание и редактирование слоев|
    |Microsoft.VisualStudio.Uml.Interfaces|Создание и редактирование слоев|
@@ -248,7 +248,7 @@ namespace MyLayerExtensions // change to your preference
 
      **OnDragDrop** — вызывается, когда пользователь перетаскивает элемент на схему.
 
-- Первым аргументом каждого метода является `IShape`, из которого можно получить элемент слоя. Пример:
+- Первым аргументом каждого метода является `IShape`, из которого можно получить элемент слоя. Пример.
 
     ```csharp
     public void OnDragDrop(IShape target, IDataObject data)
@@ -263,6 +263,6 @@ namespace MyLayerExtensions // change to your preference
 
 - Обработчики для некоторых типов перетаскиваемых элементов уже определены. Например, пользователь может перетаскивать элементы из обозреватель решений на схему зависимостей. Для этих типов элементов нельзя определить обработчик перетаскивания. В этих случаях ваши методы `DragDrop` не вызываются.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Добавление пользовательской проверки архитектуры в схемы зависимостей](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)
