@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - text templates, API
 - text templates, custom hosts
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 4565e710d1b3172507cb3f966cd2a920d3b3aaa8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 35942b5f87458d1ccaf4892d33b5bba1dcdbb8a0
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935408"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389362"
 ---
 # <a name="customize-t4-text-transformation"></a>Настройка преобразования текста T4
 
@@ -35,6 +35,6 @@ ms.locfileid: "99935408"
 
  При написании расширения Visual Studio рассмотрите возможность использования существующей службы преобразования текста вместо написания собственного узла. Дополнительные сведения см. [в разделе вызов преобразования текста в расширении VS](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
-## <a name="reference"></a>Справочные сведения
+## <a name="reference"></a>Справка
 
 - [Написание текстового шаблона T4](../modeling/writing-a-t4-text-template.md) предоставляет синтаксис директив и управляющих блоков текстового шаблона.

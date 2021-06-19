@@ -16,17 +16,17 @@ helpviewer_keywords:
 - MSBuild, tasks
 - MSBuild, dependency diagrams
 - MSBuild, validating code
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e330b95d2de6da53d9d1bd0f3d553ab8319bdd04
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 1f2d62433d150f61e9a7e21cceb20eb715a0767a
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924321"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388364"
 ---
 # <a name="validate-code-with-dependency-diagrams"></a>Проверка кода по схемам зависимостей
 
@@ -44,7 +44,7 @@ ms.locfileid: "99924321"
 
    Найти код или зависимости, с которыми потребуется выполнить определенные действия даже после перемещения кода в другую архитектуру.
 
-**Requirements**
+**Требования**
 
 - Visual Studio
 
@@ -52,7 +52,7 @@ ms.locfileid: "99924321"
 
 - Решение, имеющее проект моделирования с диаграммой зависимостей. Эта схема зависимостей должна быть связана с артефактами в проектах C# или Visual Basic, которые необходимо проверить. См. раздел [Создание схем зависимостей из кода](../modeling/create-layer-diagrams-from-your-code.md).
 
-Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 Код можно проверить вручную с помощью открытой схемы зависимостей в Visual Studio или из командной строки. Вы также можете проверить код автоматически при выполнении локальных сборок или сборок Azure Pipelines. См. [видео Channel 9: проектирование и проверка архитектуры с помощью схем зависимостей](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
 
@@ -236,7 +236,7 @@ ms.locfileid: "99924321"
 | DV3001: **отсутствует ссылка** | Слой "*Имя_слоя*" ссылается на "*артефакт*", который не удается найти. Отсутствует ссылка на сборку? |
 | DV9001: **Анализ архитектуры обнаружил внутренние ошибки** | Результат может быть неполным. Для получения дополнительных сведений см. подробный журнал событий построения или окно вывода. |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Динамическая проверка зависимостей в Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Проверка системы в ходе разработки](../modeling/validate-your-system-during-development.md)

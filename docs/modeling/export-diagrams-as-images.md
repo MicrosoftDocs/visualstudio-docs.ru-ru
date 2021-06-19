@@ -8,23 +8,23 @@ helpviewer_keywords:
 - modeling diagrams, saving
 - diagrams - modeling, saving modeling diagrams
 - UML diagrams, saving
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: df0ecb55e72683a09bb68ec61410271b8c6a8774
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5aa5a1d5d1e64dbb5fbbe5a7ab1c0bb6968351b8
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935109"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388897"
 ---
 # <a name="export-diagrams-as-images"></a>Экспорт схем в виде изображений
 
 В Visual Studio можно сохранять схемы моделирования в форматах только для чтения, чтобы иметь возможность совместно использовать их с заинтересованными лицами, пользователями или членами проектной группы, использующими другие версии Visual Studio.
 
-Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## <a name="copy-a-diagram-or-part-of-a-diagram-to-another-application"></a>Копирование диаграммы или части диаграммы в другое приложение
 
@@ -42,7 +42,7 @@ ms.locfileid: "99935109"
 
 3. В диалоговом окне **Сохранение файла как** сохраните файл в формате XPS- **\* документа** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание моделей для приложения](../modeling/create-models-for-your-app.md)
 - [Общий доступ к моделям и экспорт схем](../modeling/share-models-and-exporting-diagrams.md)

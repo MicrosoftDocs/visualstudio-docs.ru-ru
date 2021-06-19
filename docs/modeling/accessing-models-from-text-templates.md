@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, accessing models
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 13cae79908e3a760c37ac590ca61f43001d384d1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 05e21dacfe56f41f1d2c0da51659ab55203db1a0
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99908932"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389167"
 ---
 # <a name="access-models-from-text-templates"></a>Доступ к моделям из текстовых шаблонов
 
@@ -102,7 +102,7 @@ Here is a list of elements in the model:
 > [!NOTE]
 > Этот метод позволяет считывать несколько моделей в одном шаблоне, но не поддерживает ссылки ModelBus. Сведения о чтении моделей, связанных ссылками ModelBus, см. [в разделе использование Visual Studio ModelBus в текстовом шаблоне](../modeling/using-visual-studio-modelbus-in-a-text-template.md).
 
- Если требуется получить доступ к нескольким моделям из одного и того же текстового шаблона, необходимо вызвать созданный обработчик директив один раз для каждой модели. Необходимо указать имя файла каждой модели в `requires` параметре. Необходимо указать имена, которые будут использоваться для корневого класса домена в `provides` параметре. Необходимо указать разные значения для `provides` параметров в каждом вызове директивы. Например, предположим, что у вас есть три файла модели с именами Library. XYZ, School. XYZ и "Рабочий. XYZ". Для доступа к ним из одного и того же текстового шаблона необходимо написать три вызова директивы, которые похожи на следующие.
+ Если требуется получить доступ к нескольким моделям из одного и того же текстового шаблона, необходимо вызвать созданный обработчик директив один раз для каждой модели. Необходимо указать имя файла каждой модели в `requires` параметре. Необходимо указать имена, которые будут использоваться для корневого класса домена в `provides` параметре. Необходимо указать разные значения для `provides` параметров в каждом вызове директивы. Например, предположим, что у вас есть три файла модели с именами Library.xyz, School.xyz и Work.xyz. Для доступа к ним из одного и того же текстового шаблона необходимо написать три вызова директивы, которые похожи на следующие.
 
 ```
 <#@ ExampleModel processor="<YourLanguageName>DirectiveProcessor" requires="fileName='Library.xyz'" provides="ExampleModel=LibraryModel" #>

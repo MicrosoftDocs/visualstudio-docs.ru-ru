@@ -18,23 +18,23 @@ helpviewer_keywords:
 - diagrams - modeling, layer
 - software, designing
 - software, modeling
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 9adf4445ca4b52e23fce91bb1f574e55fbab4f1d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a4642c73279340c710ed82d57563bdc3b84aff4f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945387"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389518"
 ---
 # <a name="create-models-for-your-app"></a>Создание моделей для приложения
 
 Схемы моделирования помогают понять, уточнить и передать другим сведения о коде и пользовательских требованиях, которым должна удовлетворять ваша программная система.
 
-Чтобы узнать, какие версии Visual Studio поддерживают каждый тип схемы, см. раздел [Поддержка версий для инструментов архитектуры и моделирования](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие версии Visual Studio поддерживают каждый тип схемы, см. раздел [Поддержка версий для инструментов архитектуры и моделирования](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 Для визуализации архитектуры системы или имеющегося кода создайте следующие схемы:
 

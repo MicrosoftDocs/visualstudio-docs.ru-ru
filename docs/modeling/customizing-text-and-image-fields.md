@@ -4,17 +4,17 @@ description: Сведения о настройке текстовых и гра
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 42819379aa2b21788686bf0917b1523bf77e6c64
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f52c4deda5b934a9b55c5ecfeec95ca633edf15e
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935369"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389271"
 ---
 # <a name="customizing-text-and-image-fields"></a>Настройка полей с текстом и изображениями
 При определении декоратора текста в фигуре он представляется объектом TextField. Примеры инициализации TextField и других ShapeFields см. в подсистеме Дсл\женератедкоде\шапес.КС в решении DSL.
@@ -263,7 +263,7 @@ partial class ExampleShape
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Определение фигур и соединителей](../modeling/defining-shapes-and-connectors.md)
 - [Задание фонового изображения схемы](../modeling/setting-a-background-image-on-a-diagram.md)

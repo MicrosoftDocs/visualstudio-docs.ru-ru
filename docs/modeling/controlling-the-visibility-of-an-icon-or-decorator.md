@@ -4,17 +4,17 @@ description: Узнайте, как можно управлять видимос
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 23df6dc45d1d96997a18942e7878a84a5d9f60a7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9c60d66188364ddd18be1d60a92b51ee5d7a9fc8
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99942806"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389622"
 ---
 # <a name="controlling-the-visibility-of-an-icon-or-decorator"></a>Управление видимостью значка или декоратора
 *Декоратор* — это значок или строка текста, отображаемая на фигуре в доменном языке (DSL). Вы можете сделать декоратор отображаемым и исчезать в зависимости от состояния свойств в модели. Например, для фигуры, представляющей человека, могут отображаться различные значки в зависимости от пола, числа детей и т. д.
@@ -90,7 +90,7 @@ ms.locfileid: "99942806"
 
 6. Обратите внимание на отсутствующие пространство имен, класс и метод.  Например, Company. FamilyTree. Person. Жетдекораторконтролвалуе ().
 
-7. В отдельном файле кода напишите определение разделяемого класса, содержащего отсутствующий метод. Пример:
+7. В отдельном файле кода напишите определение разделяемого класса, содержащего отсутствующий метод. Пример.
 
     ```
     namespace Company.FamilyTree
@@ -105,7 +105,7 @@ ms.locfileid: "99942806"
 
 8. Перестройте и запустите решение.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Определение фигур и соединителей](../modeling/defining-shapes-and-connectors.md)
 - [Задание фонового изображения схемы](../modeling/setting-a-background-image-on-a-diagram.md)

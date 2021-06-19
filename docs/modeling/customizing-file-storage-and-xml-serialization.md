@@ -8,17 +8,17 @@ f1_keywords:
 - vs.dsltools.dsldesigner.xmlbehavior
 helpviewer_keywords:
 - Domain-Specific Language, serialization
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 019f77320e9118d5f3d31e647a59c71bb474d204
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: be19b3026010e37108ca1b19096d48a3c8d88ab6
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935539"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389375"
 ---
 # <a name="customize-file-storage-and-xml-serialization"></a>Настройка хранилища файлов и сериализации XML
 
@@ -103,7 +103,7 @@ ms.locfileid: "99935539"
 
 Моникеры используются для представления перекрестных ссылок между различными частями файлов модели и схемы. Они также используются в `.diagram` файле для ссылки на узлы в файле модели. Существует две формы моникера:
 
-- *Моникеры идентификаторов* цитата. идентификатор GUID целевого элемента. Пример:
+- *Моникеры идентификаторов* цитата. идентификатор GUID целевого элемента. Пример.
 
     ```xml
     <personShapeMoniker Id="f79734c0-3da1-4d72-9514-848fa9e75157" />
@@ -246,7 +246,7 @@ ms.locfileid: "99935539"
 
 Можно заменить части или все алгоритмы сериализации.
 
-Рекомендуется изучить код в **Дсл\женератед коде\сериализер.КС** и **SerializationHelper.CS**.
+Рекомендуется изучить код в **Дсл\женератед коде\сериализер.КС** и **сериализатионхелпер. CS**.
 
 ### <a name="to-customize-the-serialization-of-a-particular-class"></a>Настройка сериализации определенного класса
 
@@ -306,7 +306,7 @@ ms.locfileid: "99935539"
 |Имя элемента роли|Задает имя XML-элемента, производного от исходной роли. Значение по умолчанию — имя свойства роли.|
 |Использовать полную форму|Если значение — true, каждый целевой элемент или моникер заключен в XML-узел, представляющий связь. Это свойство должно иметь значение true, если связь имеет собственные свойства домена.|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Перемещение по модели и обновление модели в коде программы](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Создание кода из доменного языка](../modeling/generating-code-from-a-domain-specific-language.md)

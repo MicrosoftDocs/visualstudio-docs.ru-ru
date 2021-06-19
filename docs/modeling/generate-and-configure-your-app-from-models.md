@@ -4,17 +4,17 @@ description: Узнайте, что представляет собой моде
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 9299880c2d06cf323351a234239bed71597072a4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 68339159ed9926490f22a82cd30ce69f45ab6a30
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902716"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388871"
 ---
 # <a name="generate-and-configure-your-app-from-models"></a>Создание и настройка приложения на основе моделей
 Вы можете создавать или настраивать части приложения на основе модели.
@@ -72,7 +72,7 @@ ms.locfileid: "99902716"
 
      Например, схема классов UML представляет собой набор прямоугольников и стрелок. Теоретически с помощью этой нотации можно определить все что угодно. Однако схему классов рекомендуется использовать только в том случае, если вы действительно описываете набор типов. Например, можно адаптировать схемы классов для описания различных типов веб-страниц.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание кода из доменного языка](../modeling/generating-code-from-a-domain-specific-language.md)
 - [Практическое руководство. Открытие модели из файла в коде программы](../modeling/how-to-open-a-model-from-file-in-program-code.md)

@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - text templates, utility methods
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: fcc879a19d3dfcd9e1e8e1bcd79f0488a312e96c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b45bf6418562da5315c986a64a1295c137e982d6
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924573"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388689"
 ---
 # <a name="text-template-utility-methods"></a>Служебные методы для текстовых шаблонов
 
@@ -121,7 +121,7 @@ Hello
 
 `<#@template ... hostspecific="true" #>`
 
-Тип `this.Host` зависит от типа узла, в котором выполняется шаблон. В шаблоне, который выполняется в Visual Studio, можно выполнить приведение к, чтобы `this.Host` `IServiceProvider` получить доступ к службам, таким как интегрированная среда разработки. Пример:
+Тип `this.Host` зависит от типа узла, в котором выполняется шаблон. В шаблоне, который выполняется в Visual Studio, можно выполнить приведение к, чтобы `this.Host` `IServiceProvider` получить доступ к службам, таким как интегрированная среда разработки. Пример.
 
 ```
 EnvDTE.DTE dte = (EnvDTE.DTE) ((IServiceProvider) this.Host)

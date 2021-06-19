@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3363857d9a953b61e18eb4b0cb891b20dbed1eb5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2231ef94bee01558e2c26899a5d9a0c855489e94
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923956"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388052"
 ---
 # <a name="write-code-to-customize-a-domain-specific-language"></a>Написание специализированного кода в предметно-ориентированном языке
 
@@ -74,6 +74,6 @@ ms.locfileid: "99923956"
 
 - **Сериализация**. Хранилище предоставляет стандартный способ сериализации объектов, содержащихся в нем, в файл. Можно настроить правила сериализации и десериализации. Дополнительные сведения см. в разделе [Настройка хранилища файлов и XML-сериализации](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Настройка и расширение доменного языка](../modeling/customizing-and-extending-a-domain-specific-language.md)

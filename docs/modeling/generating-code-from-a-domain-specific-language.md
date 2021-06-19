@@ -4,17 +4,17 @@ description: Узнайте, как средства языка Domain-Specific 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 0f74a08f5bc4e2a5baded0ac4830b60406289661
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6eee4fe2400bac1534bdc9c208fa60d9af8d3cfd
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902729"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388845"
 ---
 # <a name="generating-code-from-a-domain-specific-language"></a>Создание кода из доменного языка
 
@@ -50,7 +50,7 @@ ms.locfileid: "99902729"
 [Команда Дслтексттрансформ](../modeling/the-dsltexttransform-command.md)\
 Описание командного файла, выполняющего исполняемый файл TextTransform в командной строке для текстовых шаблонов, которые ссылаются на языки, относящиеся к домену.
 
-## <a name="reference"></a>Справочные сведения
+## <a name="reference"></a>Справка
 
 [Написание текстового шаблона T4](../modeling/writing-a-t4-text-template.md)\
 Предоставляет синтаксис директив и управляющих блоков текстового шаблона.

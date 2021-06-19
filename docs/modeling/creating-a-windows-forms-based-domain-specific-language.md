@@ -3,18 +3,18 @@ title: Создание предметно-ориентированного яз
 description: Содержит сведения об использовании Windows Forms для отображения состояния модели предметно-ориентированного языка.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
-ms.openlocfilehash: 41c3ba299df1e6f9ce0e2848f7ffad59e5b3fbea
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9a77a22b7ed888b28f12154974d735213952899c
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945413"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389544"
 ---
 # <a name="create-a-windows-forms-based-domain-specific-language"></a>Создание языка Domain-Specific на основе Windows Forms
 
@@ -141,7 +141,7 @@ Windows Forms можно использовать для отображения 
 
     Оставьте параметры по умолчанию для других свойств.
 
-4. Откройте FarmControl.cs в режиме конструктора.
+4. Откройте Фармконтрол. cs в режиме конструктора.
 
     Перетащите **ферму** из окна Источники данных на фармконтрол.
 
@@ -237,7 +237,7 @@ Windows Forms можно использовать для отображения 
 
 ### <a name="make-the-properties-update-immediately"></a>Сделать свойства немедленно обновленными
 
-1. В представлении конструирования FarmControl.cs выберите простое поле, например Name, Size или.
+1. В представлении конструирования Фармконтрол. CS выберите простое поле, например имя, размер или подмножество.
 
 2. В окно свойств разверните элемент **DataBindings** и откройте **(дополнительно)**.
 
@@ -249,7 +249,7 @@ Windows Forms можно использовать для отображения 
 
 ### <a name="provide-add-buttons"></a>Укажите кнопки добавления
 
-1. В представлении конструирования FarmControl.cs используйте панель элементов, чтобы создать кнопку в форме.
+1. В представлении конструирования Фармконтрол. cs с помощью панели элементов создайте кнопку в форме.
 
     Измените имя и текст кнопки, например, на `New Sheep` .
 
@@ -323,7 +323,7 @@ private void NewSheepButton_Click(object sender, EventArgs e)
 
 Поэтому рекомендуется использовать <xref:Microsoft.VisualStudio.Modeling.ElementOperations> для создания новых элементов. Дополнительные сведения см. в разделе [Настройка создания и перемещения элементов](../modeling/customizing-element-creation-and-movement.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Определение языка Domain-Specific](../modeling/how-to-define-a-domain-specific-language.md)
 - [Написание кода для настройки языка Domain-Specific](../modeling/writing-code-to-customise-a-domain-specific-language.md)

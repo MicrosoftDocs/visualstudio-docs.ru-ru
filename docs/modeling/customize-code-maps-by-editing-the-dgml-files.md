@@ -17,17 +17,17 @@ helpviewer_keywords:
 - dependency graphs, customizing
 - graph documents, grouping nodes
 - dependency graphs, assigning categories and properties
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 47613a2f74ce1c89a6b032e46fa18b978c1c5f0f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5b7c94834aeb6aa82efdb53dead97e26daa667c0
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99945296"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389492"
 ---
 # <a name="customize-code-maps-by-editing-the-dgml-files"></a>Customize code maps by editing the DGML files
 
@@ -49,7 +49,7 @@ ms.locfileid: "99945296"
 
     Чтобы добавить новую группу, найдите раздел `<Nodes>`. Добавьте новый элемент `<Node/>`.
 
-3. В элементе `<Node/>` добавьте атрибут `Group`, чтобы указать разворачивать группу при отображении или нет. Пример:
+3. В элементе `<Node/>` добавьте атрибут `Group`, чтобы указать разворачивать группу при отображении или нет. Пример.
 
    ```xml
    <Nodes>
@@ -66,7 +66,7 @@ ms.locfileid: "99945296"
 
    - Атрибут `Category`, который определяет отношение `Contains` между кодовой точкой группы и ее дочерней кодовой точкой
 
-     Пример:
+     Пример.
 
    ```xml
    <Links>
@@ -98,7 +98,7 @@ ms.locfileid: "99945296"
     Stroke="StrokeValue"
     ```
 
-     Пример:
+     Пример.
 
     ```xml
     <DirectedGraph Background="Green" xmlns="http://schemas.microsoft.com/vs/2009/dgml" >
@@ -195,7 +195,7 @@ ms.locfileid: "99945296"
     Style="Plain"
     ```
 
-     Фигура
+     Фигурная
 
      Чтобы заменить фигуру на значок, задайте для свойства `Shape` значение `None`, а для свойства `Icon` — путь к файлу значка.
 
@@ -203,7 +203,7 @@ ms.locfileid: "99945296"
     Shape="ShapeFilePathLocation"
     ```
 
-     Пример:
+     Пример.
 
     ```xml
     <Nodes>
@@ -238,7 +238,7 @@ ms.locfileid: "99945296"
     StrokeDashArray="StrokeArrayValues"
     ```
 
-     Пример:
+     Пример.
 
     ```xml
     <Links>
@@ -268,7 +268,7 @@ ms.locfileid: "99945296"
 
 2. В элементе `<Style/>` добавьте элемент `<Condition/>`, который содержит атрибут `Expression`, чтобы указать выражение, возвращающее логическое значение.
 
-    Пример:
+    Пример.
 
    ```xml
    <Condition Expression="MyCategory"/>
@@ -316,7 +316,7 @@ ms.locfileid: "99945296"
 
 3. В следующей строке после элемента `<Condition/>` добавьте один или несколько элементов `<Setter/>`, чтобы указать атрибут `Property` и фиксированный атрибут `Value` или вычисляемый атрибут `Expression`, чтобы применить к карте, кодовым точкам или связям, удовлетворяющим условию.
 
-    Пример:
+    Пример.
 
    ```xml
    <Setter Property="BackGround" Value="Green"/>
@@ -373,7 +373,7 @@ ms.locfileid: "99945296"
 
  Задайте цвет фона кодовой точки на основании свойства `Coverage`. Стили выполняются в порядке их появления, аналогично операторам `if-else`.
 
- В этом примере:
+ В данном примере:
 
 1. Если `Coverage` имеет значение > 80, задайте `Background` для свойства значение Green.
 
@@ -444,7 +444,7 @@ ms.locfileid: "99945296"
 
 1. Откройте DGML-файл в текстовом редакторе или редакторе XML.
 
-2. Найдите элемент `<Node/>` для этой кодовой точки. Укажите имя свойства и его значение. Пример:
+2. Найдите элемент `<Node/>` для этой кодовой точки. Укажите имя свойства и его значение. Пример.
 
     ```xml
     <Nodes>
@@ -466,7 +466,7 @@ ms.locfileid: "99945296"
 
 2. Найдите элемент `<Link/>`, содержащий имена исходной и целевой кодовых точек.
 
-3. В элементе `<Node/>` укажите имя свойства и его значение. Пример:
+3. В элементе `<Node/>` укажите имя свойства и его значение. Пример.
 
     ```xml
     <Links>
@@ -491,7 +491,7 @@ ms.locfileid: "99945296"
 
 - Найдите элемент `<Node/>` для нужной кодовой точки.
 
-- В элементе `<Node/>` добавьте атрибут `Category`, чтобы указать имя категории. Пример:
+- В элементе `<Node/>` добавьте атрибут `Category`, чтобы указать имя категории. Пример.
 
     ```xml
     <Nodes>
@@ -513,7 +513,7 @@ ms.locfileid: "99945296"
 
 2. Найдите элемент `<Link/>`, содержащий имена исходной и целевой кодовых точек.
 
-3. В элементе `<Link/>` добавьте атрибут `Category`, чтобы указать имя категории. Пример:
+3. В элементе `<Link/>` добавьте атрибут `Category`, чтобы указать имя категории. Пример.
 
     ```xml
     <Links>
@@ -535,7 +535,7 @@ ms.locfileid: "99945296"
 
 2. Добавьте элемент `<Category/>` для родительской категории, затем добавьте атрибут `BasedOn` к элементу дочерней категории `<Category/>`.
 
-     Пример:
+     Пример.
 
     ```xml
     <Nodes>
@@ -584,7 +584,7 @@ ms.locfileid: "99945296"
      > [!NOTE]
      > У элемента может быть только один атрибут `Reference`.
 
-     Пример:
+     Пример.
 
    ```xml
    <Nodes>
@@ -609,7 +609,7 @@ ms.locfileid: "99945296"
 
       4. Используйте `Label` атрибут, чтобы указать отображаемый текст в контекстном меню **Перейти к ссылке** на элемент кода.
 
-      Пример:
+      Пример.
 
    ```xml
    <Nodes>

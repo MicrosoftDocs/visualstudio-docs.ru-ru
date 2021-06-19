@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, constraints
 - Domain-Specific Language, validation
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 44ee0d9e10a4f96979362d8613dc6ca949ff2fd7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6de3a8940c845b29d2d0c7454b7c585f4676dba0
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924261"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388338"
 ---
 # <a name="validation-in-a-domain-specific-language"></a>Проверка в доменных языках
 Автор доменного языка может определить ограничения проверки, позволяющие контролировать полноценность созданной пользователем модели. Например, если доменный язык позволяет рисовать генеалогическое дерево людей и их предков, можно написать ограничения, согласно которым даты рождения детей должны быть позже дат рождения родителей.
@@ -84,7 +84,7 @@ ms.locfileid: "99924261"
 
     ValidationCategories указывается, когда метод выполняется.
 
-   Пример:
+   Пример.
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;
@@ -179,7 +179,7 @@ public partial class Person
 
  Недостатком является то, что объединенным методом сложнее управлять, а все ограничения должны иметь один и тот же `ValidationCategories`. В связи с этим рекомендуется по возможности хранить каждое ограничение в отдельном методе.
 
- **Передача значений в кэш контекста.** Параметр контекста имеет словарь, в который можно поместить произвольные значения. Словарь существует в течение времени работы проверки. Определенный метод проверки может, например, хранить счетчик ошибок в контексте и использовать его во избежание переполнения окна ошибок повторяющимися сообщениями. Пример:
+ **Передача значений в кэш контекста.** Параметр контекста имеет словарь, в который можно поместить произвольные значения. Словарь существует в течение времени работы проверки. Определенный метод проверки может, например, хранить счетчик ошибок в контексте и использовать его во избежание переполнения окна ошибок повторяющимися сообщениями. Пример.
 
 ```csharp
 List<ParentsHaveChildren> erroneousLinks;
@@ -215,7 +215,7 @@ partial class MyLanguageCommandSet
 
  Дополнительные сведения см. в разделе [инструкции. Добавление команды в контекстное меню](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).
 
- Также можно создать отдельный контроллер проверки и управлять ошибками самостоятельно. Пример:
+ Также можно создать отдельный контроллер проверки и управлять ошибками самостоятельно. Пример.
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;
@@ -336,7 +336,7 @@ validationController.ValidateCustom
 > [!WARNING]
 > Обеспечьте уведомление пользователя о том, что изменения были отрегулированы и произведен откат. Например, используйте `System.Windows.Forms.MessageBox.Show("message").`.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Перемещение по модели и обновление модели в коде программы](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Обработчики событий распространяют изменения за пределы модели](../modeling/event-handlers-propagate-changes-outside-the-model.md)

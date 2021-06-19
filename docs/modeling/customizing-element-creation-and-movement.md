@@ -8,17 +8,17 @@ f1_keywords:
 - vs.dsltools.dsldesigner.elementmergedirective
 helpviewer_keywords:
 - Domain-Specific Language, element merge directives
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 01867bf4c5d3e9c60ad4a2ba0ed76c45eca055c1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 42339c532db3442d5fb5c5da3b51d94801a0907d
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935590"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389401"
 ---
 # <a name="customizing-element-creation-and-movement"></a>Настройка создания и перемещения элементов
 
@@ -232,7 +232,7 @@ ms.locfileid: "99935590"
 
 5. Проверьте содержимое **Дсл\женератед филес\домаинклассес.КС**. Поиск методов с именем `MergeRelate` и изучение их содержимого. Это позволит вам создавать собственные версии.
 
-6. В новом файле кода напишите разделяемый класс для принимающего класса и переопределите `MergeRelate` метод. Не забудьте вызвать базовый метод. Пример:
+6. В новом файле кода напишите разделяемый класс для принимающего класса и переопределите `MergeRelate` метод. Не забудьте вызвать базовый метод. Пример.
 
     ```csharp
     partial class ExampleModel
@@ -318,7 +318,7 @@ ms.locfileid: "99935590"
 
      Не отображается указатель недоступен, и вы можете удалить новый **входной порт** для существующего. Выберите новый **порт ввода** и перетащите его в другую точку **компонента**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Перемещение по модели и обновление модели в коде программы](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Настройка элементов и панели элементов](../modeling/customizing-tools-and-the-toolbox.md)

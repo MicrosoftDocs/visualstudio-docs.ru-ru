@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, generated code
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 330a2a8f4173ddb22303064ee7f97ee025d05758
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 84f75298bc2854172eb7ec63bd6412e5703cfad7
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924478"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388585"
 ---
 # <a name="understanding-the-dsl-code"></a>Общие сведения о коде доменных языков
 
@@ -72,7 +72,7 @@ ms.locfileid: "99924478"
 
  (В примере решения компонента один из построителей подключений называется ConnectionBuilder. Это совпадение, поскольку доменная связь называется Connection.)
 
- Связь создается в  `Builder.Connect()` методе Relationship. Версия по умолчанию проверяет приемлемость элементов исходной и целевой модели, а затем создает экземпляр отношения. Пример:
+ Связь создается в  `Builder.Connect()` методе Relationship. Версия по умолчанию проверяет приемлемость элементов исходной и целевой модели, а затем создает экземпляр отношения. Пример.
 
  `CommentReferencesSubject(sourceAccepted, targetAccepted);`
 

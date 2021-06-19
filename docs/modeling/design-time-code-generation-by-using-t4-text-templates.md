@@ -12,17 +12,17 @@ helpviewer_keywords:
 - text templates, getting started
 - Text Template project item
 - text templates, generating code for your application
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ec309be7fbeb81951af73517412f36f7b28bc82f
-ms.sourcegitcommit: 20f546a0b13b56e7b0da21abab291d42a5ba5928
+ms.openlocfilehash: f8b7bc48a5c409dbecbb313fd277a31ad1cec287
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104884152"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389141"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>Создание кода во время разработки с помощью текстовых шаблонов T4
 
@@ -64,9 +64,9 @@ ms.locfileid: "104884152"
 
 5. Сохраните файл.
 
-    Может появиться окно сообщения **системы безопасности** с предложением подтвердить, что вы хотите запустить шаблон. Нажмите кнопку **ОК**.
+    Может появиться окно сообщения **системы безопасности** с предложением подтвердить, что вы хотите запустить шаблон. Нажмите кнопку **OK**.
 
-6. В **Обозреватель решений** разверните узел файла шаблона, и вы увидите файл с расширением **txt**. Файл содержит текст, созданный на основе шаблона.
+6. В **Обозреватель решений** разверните узел файла шаблона, и вы увидите файл с расширением **.txt**. Файл содержит текст, созданный на основе шаблона.
 
    > [!NOTE]
    > Если проект является Visual Basic проектом, необходимо щелкнуть **Показать все файлы** , чтобы увидеть выходной файл.
@@ -125,7 +125,7 @@ ms.locfileid: "104884152"
 
 Отладка текстового шаблона
 
-- Вставьте строку `debug="true"` в директиву `template`. Пример:
+- Вставьте строку `debug="true"` в директиву `template`. Пример.
 
    `<#@ template debug="true" hostspecific="false" language="C#" #>`
 
@@ -274,7 +274,7 @@ ms.locfileid: "104884152"
 
 ### <a name="getting-data-from-visual-studio"></a>Получение данных из Visual Studio
 
-Чтобы использовать службы, предоставляемые в Visual Studio, установите `hostSpecific` атрибут и загрузите `EnvDTE` сборку. Импорт `Microsoft.VisualStudio.TextTemplating` , содержащий `GetCOMService()` метод расширения.  Затем можно использовать метод IServiceProvider.GetCOMService() для получения доступа к DTE и другим службам. Пример:
+Чтобы использовать службы, предоставляемые в Visual Studio, установите `hostSpecific` атрибут и загрузите `EnvDTE` сборку. Импорт `Microsoft.VisualStudio.TextTemplating` , содержащий `GetCOMService()` метод расширения.  Затем можно использовать метод IServiceProvider.GetCOMService() для получения доступа к DTE и другим службам. Пример.
 
 ```src
 <#@ template hostspecific="true" language="C#" #>
@@ -355,7 +355,7 @@ Warning("A warning message");
    |Свойство. |Параметр |
    |-|-|
    | **Пользовательский инструмент =** | **TextTemplatingFileGenerator** |
-   | **Действие построения =** | **Нет** |
+   | **Действие построения =** | **None** |
 
 5. Вставьте следующие строки в начало файла:
 
@@ -380,7 +380,7 @@ Warning("A warning message");
 
 Ознакомьтесь с [рекомендациями по написанию текстовых шаблонов T4](../modeling/guidelines-for-writing-t4-text-templates.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 |Следующий шаг|Раздел|
 |-|-|
@@ -390,6 +390,6 @@ Warning("A warning message");
 |Преобразование данных в форме доменного языка.|[Создание кода из доменного языка](../modeling/generating-code-from-a-domain-specific-language.md)|
 |Написание процессоров директив для преобразования собственных источников данных.|[Настройка преобразования текста T4](../modeling/customizing-t4-text-transformation.md)|
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 - [Рекомендации по написанию текстовых шаблонов T4](../modeling/guidelines-for-writing-t4-text-templates.md)

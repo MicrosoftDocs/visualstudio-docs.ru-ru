@@ -4,17 +4,17 @@ description: Узнайте, что на предметно-ориентиров
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 57f3785fe232b20123475bd85be2be7148e5b87e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6439a01de2a02361914ce227c43d903f1b24b405
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924354"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388572"
 ---
 # <a name="update-shapes-and-connectors-to-reflect-the-model"></a>Изменение фигур и соединителей в соответствии с моделью
 
@@ -86,7 +86,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
 ## <a name="use-onchildconfigured-to-initialize-a-shapes-properties"></a>Использование Ончилдконфигуред для инициализации свойств фигуры
 
-Чтобы задать свойства фигуры при ее первоначальном создании, переопределение `OnChildConfigured()` в частичном определении класса схемы. Класс схемы указан в определении DSL, а созданный код — в **Дсл\женератед коде\диаграм.КС**. Пример:
+Чтобы задать свойства фигуры при ее первоначальном создании, переопределение `OnChildConfigured()` в частичном определении класса схемы. Класс схемы указан в определении DSL, а созданный код — в **Дсл\женератед коде\диаграм.КС**. Пример.
 
 ```csharp
 partial class MyLanguageDiagram

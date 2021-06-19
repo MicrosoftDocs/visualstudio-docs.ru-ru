@@ -6,23 +6,23 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - UML, using models
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 73b0d46e1e293d0713cf7e71706fa0188aaea269
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 095a6f17691d3265320a7b77905f70903bec1cb5
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959068"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388507"
 ---
 # <a name="use-models-in-your-development-process"></a>Использование моделей в процессе разработки
 
 В Visual Studio можно использовать модель для изучения и изменения системы, приложения или компонента. Модель может помочь визуализировать среду, в которой работает система, уточнить требования пользователей, определить архитектуру системы, проанализировать код и убедиться, что код удовлетворяет этим требованиям. См. [видео Channel 9: улучшение архитектуры с помощью моделирования](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Improving-architecture-through-modeling).
 
-Чтобы узнать, какие версии Visual Studio поддерживают каждый тип модели, см. раздел [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие версии Visual Studio поддерживают каждый тип модели, см. раздел [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 Модели можно использовать несколькими способами:
 
@@ -136,9 +136,9 @@ ms.locfileid: "99959068"
 |**Видео**|![Ссылка на видео видео ](../data-tools/media/playvideo.gif) [практические руководства MSDN: создание и использование моделей и схем UML (Visual Studio 2010 Ultimate)](/previous-versions/visualstudio/visual-studio-2010/dd831853(v=vs.100))<br /><br /> ![Ссылка на видео- ](../data-tools/media/playvideo.gif) [канал 9: UML с Visual Studio 2010](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-1-brainstorming-a-project)<br /><br /> ![Ссылка на видео ](../data-tools/media/playvideo.gif) [серия "практические руководства" MSDN: средства и расширяемость UML (Visual Studio 2010 Ultimate)](/previous-versions/visualstudio/visual-studio-2010/dd831853(v=vs.100))|
 |**Форумы**|- [Средства моделирования и визуализации Visual Studio](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Пакет SDK для моделирования и визуализации в Visual Studio (инструменты DSL)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
 |**Блоги**|[Microsoft DevOps](https://devblogs.microsoft.com/devops/)|
-|**Технические статьи и журналы**|[Центр архитекторов на MSDN](/previous-versions/dn630665(v=msdn.10))<br /><br /> [Руководство по средствам проектирования архитектуры Visual Studio](../modeling/visual-studio-architecture-tooling-guidance.md)|
+|**Технические статьи и журналы**|[Центр архитекторов на MSDN](/previous-versions/dn630665(v=msdn.10))|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Использование моделей в гибкой разработке](/previous-versions/ff398061(v=vs.140))
 - [Создание моделей для приложения](../modeling/create-models-for-your-app.md)

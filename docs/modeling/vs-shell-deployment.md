@@ -4,17 +4,17 @@ description: Узнайте, как изолированная оболочка 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 1293593e71aa57d8e74b9035320b3da5108aba09
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 946cbf99fa7836fa8d7ec5aa1d921e7cda93bf46
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924214"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388312"
 ---
 # <a name="vs-shell-deployment"></a>Развертывание VS Shell
 

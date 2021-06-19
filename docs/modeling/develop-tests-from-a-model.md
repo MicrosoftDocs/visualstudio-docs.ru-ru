@@ -6,22 +6,22 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - tests and requirements
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e4884ec4eb3e316e22e4ba54cd8defe71d4b8018
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: dadffd0a2950d55145b24d3172564eb572f98d70
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935174"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389154"
 ---
 # <a name="develop-tests-from-a-model"></a>Разработка тестов на основе модели
 Чтобы организовать тесты системы и компонентов, можно использовать требования и модели архитектуры. Такой подход позволяет обеспечить проверку требований, важных для пользователей и других заинтересованных лиц, и помогает быстро обновлять тесты при изменении требований. Если вы используете [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], также поддерживаются ссылки между моделями и тестами.
 
- Чтобы узнать, какие версии Visual Studio поддерживают эти функции, см. раздел [Поддержка версий для инструментов архитектуры и моделирования](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ Чтобы узнать, какие версии Visual Studio поддерживают эти функции, см. раздел [Поддержка версий для инструментов архитектуры и моделирования](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## <a name="system-and-subsystem-testing"></a>Тестирование системы и подсистемы
  *Тестирование системы,* также известное как *приемочное тестирование*, означает проверку соответствия требованиям пользователей. В ходе таких тестов проверяется видимое извне поведение системы, а не ее внутреннее строение.
@@ -133,7 +133,7 @@ Assert (countAfter == countBefore = 1);
 ## <a name="attaching-test-cases-to-model-elements"></a><a name="Attaching"></a> Присоединение тестовых случаев к элементам модели
  Если в проекте используется [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], вы можете связать тесты с элементами модели. Это позволяет быстро находить тесты, на которые влияет изменение требований, и помогает отслеживать, в какой степени было удовлетворено требование.
 
- Тесты можно связать со всеми видами элементов. Ниже приводится несколько примеров.
+ Тесты можно связать со всеми видами элементов. Ниже приведены некоторые примеры:
 
 - Свяжите вариант использования с выполняющими его тестами.
 
@@ -157,7 +157,7 @@ Assert (countAfter == countBefore = 1);
 
 3. Добавьте в набор тестов тестовые случаи, проверяющие требование, которое выражено в элементе модели.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание моделей для приложения](../modeling/create-models-for-your-app.md)
 - [Моделирование требований пользователей](../modeling/model-user-requirements.md)

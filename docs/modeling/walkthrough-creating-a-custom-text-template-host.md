@@ -7,20 +7,20 @@ ms.topic: how-to
 helpviewer_keywords:
 - walkthroughs [text templates], custom host
 - text templates, custom host walkthrough
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 3e24c46e576ab6125c3152989c568a704a33b2d2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4ef237bf3fc90708192a37014c15c0a15dea127e
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924138"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388260"
 ---
 # <a name="walkthrough-create-a-custom-text-template-host"></a>Пошаговое руководство. Создание пользовательского основного приложения для текстовых шаблонов
 
@@ -37,7 +37,7 @@ ms.locfileid: "99924138"
 
 - Тестирование пользовательского ведущего приложения.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Обязательные условия
 
 Для выполнения данного пошагового руководства необходимо следующее:
 
@@ -819,10 +819,10 @@ ms.locfileid: "99924138"
     This is a test
     ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 В этом пошаговом руководстве вы создали ведущее приложение преобразования текстовых шаблонов, поддерживающее базовые функциональные возможности преобразования. Можно расширить это ведущее приложение для поддержки текстовых шаблонов, которые вызывают пользовательские или сгенерированные процессоры директив. Дополнительные сведения см. в разделе [Пошаговое руководство. подключение узла к созданному обработчику директив](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [итексттемплатинженгинехост](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))

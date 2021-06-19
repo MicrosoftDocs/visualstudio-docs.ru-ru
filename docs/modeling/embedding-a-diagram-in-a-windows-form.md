@@ -4,17 +4,17 @@ description: Сведения о внедрении схемы DSL в элеме
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 084de14a9a73e8f9f884c31da1e1ef9a5d8496b3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 4db60267b835882a69a08c990af644b902697bad
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99935122"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388988"
 ---
 # <a name="embed-a-diagram-in-a-windows-form"></a>Внедрение схемы в Windows-форму
 
@@ -143,7 +143,7 @@ ms.locfileid: "99935122"
 
      Обратите внимание, что в списке отображается список элементов в модели и они верны после добавления или удаления, а также после операций отмены и повтора.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Перемещение по модели и обновление модели в коде программы](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Написание кода для настройки доменного языка](../modeling/writing-code-to-customise-a-domain-specific-language.md)

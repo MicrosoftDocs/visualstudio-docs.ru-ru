@@ -7,17 +7,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - text templates, TextTransform utility
 - TextTransform.exe
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 741e7625d301e250daa28a93f18a82193675e068
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 743b7deb118bb3506773ec1a82d2331633afa7bc
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99902698"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388832"
 ---
 # <a name="generate-files-with-the-texttransform-utility"></a>Создание файлов с помощью служебной программы TextTransform
 
@@ -72,16 +72,16 @@ TextTransform [<options>] <templateName>
 
 |**Параметр**|**Описание**|
 |-|-|
-|**-out** \<filename>|Файл, в который записывается выходные данные преобразования.|
+|**-out**\<filename>|Файл, в который записывается выходные данные преобразования.|
 |**-r**\<assembly>|Сборка, используемая для компиляции и выполнения текстового шаблона.|
 |**-u**\<namespace>|Пространство имен, используемое для компиляции шаблона.|
 |**-I**\<includedirectory>|Каталог, содержащий текстовые шаблоны, содержащиеся в указанном текстовом шаблоне.|
 |**-P**\<referencepath>|Каталог для поиска сборок, указанных в текстовом шаблоне, или для использования параметра **-r** .<br /><br /> Например, чтобы включить сборки, используемые для Visual Studio API, используйте<br /><br /> `-P "%VSSHELLFOLDER%\Common7\IDE\PublicAssemblies"`|
 |**-DP** \<processorName> ! \<className>\<assemblyName&#124;codeBase>|Имя, полное имя типа и сборка обработчика директив, которые могут использоваться для обработки пользовательских директив в текстовом шаблоне.|
-|**-a** [процессорнаме]! [Директивенаме]! \<parameterName> !\<parameterValue>|Укажите значение параметра для обработчика директив. Если указать только имя и значение параметра, параметр будет доступен для всех процессоров директив. Если указан процессор директив, параметр доступен только для указанного процессора. Если указать имя директивы, параметр будет доступен только при обработке указанной директивы.<br /><br /> Чтобы получить доступ к значениям параметров из обработчика директив или текстового шаблона, используйте [итексттемплатинженгинехост. ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)). В текстовом шаблоне включите `hostspecific` в директиву шаблона и вызовите сообщение в `this.Host` . Пример:<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> Всегда вводите метки "!", даже если опустить необязательные имена процессора и директивы. Пример:<br /><br /> `-a !!param!value`|
+|**-a** [процессорнаме]! [Директивенаме]! \<parameterName> !\<parameterValue>|Укажите значение параметра для обработчика директив. Если указать только имя и значение параметра, параметр будет доступен для всех процессоров директив. Если указан процессор директив, параметр доступен только для указанного процессора. Если указать имя директивы, параметр будет доступен только при обработке указанной директивы.<br /><br /> Чтобы получить доступ к значениям параметров из обработчика директив или текстового шаблона, используйте [итексттемплатинженгинехост. ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)). В текстовом шаблоне включите `hostspecific` в директиву шаблона и вызовите сообщение в `this.Host` . Пример:<br /><br /> `<#@template language="c#" hostspecific="true"#> [<#= this.Host.ResolveParameterValue("", "", "parameterName") #>]`.<br /><br /> Всегда вводите метки "!", даже если опустить необязательные имена процессора и директивы. Пример.<br /><br /> `-a !!param!value`|
 |**-h**|Предоставляет справку.|
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 |Задача|Раздел|
 |-|-|

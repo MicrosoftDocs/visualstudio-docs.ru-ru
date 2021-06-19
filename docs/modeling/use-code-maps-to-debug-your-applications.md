@@ -13,17 +13,17 @@ helpviewer_keywords:
 - mapping code relationships
 - code maps
 - mapping relationships in code
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b422c6c7857ca1baaa5bd1d8a7d6955e8b6751b3
-ms.sourcegitcommit: c3713f284c4fe10b10996d5eb67077ddd8641424
+ms.openlocfilehash: 23d05240208c6160968ae0013acfdb9f2a25c973
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "112375803"
+ms.locfileid: "112388559"
 ---
 # <a name="use-code-maps-to-debug-your-applications"></a>Использование карт кода для отладки приложений
 

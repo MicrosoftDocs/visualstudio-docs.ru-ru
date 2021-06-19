@@ -7,17 +7,17 @@ ms.topic: how-to
 helpviewer_keywords:
 - walkthroughs [text templates], generating application code
 - walkthroughs [text templates]
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e6b824d53c37ef922b8c9580c87a478aef93586
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 22940fb86ab0cfd7262a3ca7845521847add2dff
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924069"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388130"
 ---
 # <a name="walkthrough-generate-code-by-using-text-templates"></a>Пошаговое руководство. Формирование кода с помощью текстовых шаблонов
 
@@ -105,7 +105,7 @@ foreach (XmlNode artist in catalog.SelectNodes("artist"))
 
 ### <a name="add-a-test-code-file"></a>Добавление файла кода тестирования
 
-Добавьте в проект файл C# и напишите в нем пример кода, который вы хотите иметь возможность записать. Пример:
+Добавьте в проект файл C# и напишите в нем пример кода, который вы хотите иметь возможность записать. Пример.
 
 ```csharp
 using System;
@@ -430,7 +430,7 @@ namespace MyProject
 
 Если при преобразовании или компиляции шаблона в **списке ошибок** появились ошибки или выходной файл был создан неправильно, эти неполадки текстового шаблона можно устранить с помощью методов, описанных в статье [Создание файлов с помощью служебной программы TextTransform](../modeling/generating-files-with-the-texttransform-utility.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Создание кода во время разработки с помощью текстовых шаблонов T4](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
 - [Написание текстового шаблона T4](../modeling/writing-a-t4-text-template.md)

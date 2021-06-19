@@ -10,17 +10,17 @@ helpviewer_keywords:
 - code analysis, dependency graphs
 - dependency graphs, analyzing code
 - graph documents, analyzing
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 77e5d8f6241f6f1978f24b9ebb5ad49aa9f24331
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8817e50ae96a27f6b3b76e28262390271c1fdf4c
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99934992"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388858"
 ---
 # <a name="find-potential-problems-using-code-map-analyzers"></a>Поиск потенциальных проблем с помощью анализаторов карт кода
 
@@ -36,7 +36,7 @@ ms.locfileid: "99934992"
 
 На панели инструментов Map выберите   >  **анализаторы** макетов, а затем анализатор, который необходимо запустить.
 
-|**Analyzer**|**Для выявления следующих узлов**|
+|**Анализатор**|**Для выявления следующих узлов**|
 |-|-|
 |**Анализатор циклических ссылок**|Узлы, которые содержат циклические зависимости друг от друга. **Примечание.**  Циклические зависимости, которые находятся в группе **универсальных шаблонов** , не отображаются на карте при развертывании группы.|
 |**Анализатор "Найти концентраторы"**|Узлы, входящие в 25 % узлов, имеющих больше всего соединений.<br /><br /> **Скрытие всех узлов на карте**<br /><br /> — Откройте контекстное меню для схемы, выберите **Дополнительно**, **выберите**, **Скрыть невыбранные**.<br />     Невыбранные узлы карты скрываются, и анализатор определяет новые узлы как концентраторы.|

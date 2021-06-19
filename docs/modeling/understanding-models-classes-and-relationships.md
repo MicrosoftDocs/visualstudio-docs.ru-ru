@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, models
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: da5817711c7131868c4bad22bbe93447119d19d8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b086f21b466863c3498ce15c15f7077b358c6d39
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924515"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388624"
 ---
 # <a name="understanding-models-classes-and-relationships"></a>Сведения о моделях, классах и отношениях
 Доменный язык (DSL) определяется файлом определения DSL, а также любым пользовательским программным кодом, который можно написать. Большая часть программного кода в решении DSL создается из этого файла.
@@ -150,6 +150,6 @@ ms.locfileid: "99924515"
 
  Производная связь специализирует базовую связь. Классы домена, на которые он ссылается, должны быть производными классов или совпадать с классами, связанными с базовой связью. Если в модели создается ссылка на производную связь, то она является экземпляром производных и базовых связей. В программном коде можно переходить к противоположному концу ссылки с помощью свойств, созданных либо базовым, либо производным классом.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))

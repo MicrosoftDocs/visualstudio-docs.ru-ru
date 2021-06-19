@@ -6,23 +6,23 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - dependency diagrams
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: bac26664a2ef98cffbd60eee0647b39dd1108675
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ae85c7f98aab3e852a810976cc1cecbd83b65307
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924306"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388377"
 ---
 # <a name="validate-your-system-during-development"></a>Проверка системы в ходе разработки
 
 Visual Studio поможет обеспечить соответствие программного обеспечения требованиям пользователей и архитектуры системы.
 
-Чтобы узнать, какие версии Visual Studio поддерживают каждую функцию, см. раздел [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие версии Visual Studio поддерживают каждую функцию, см. раздел [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## <a name="key-tasks"></a>Ключевые задачи
 
@@ -40,7 +40,7 @@ Visual Studio поможет обеспечить соответствие пр�
 |**Видео**|![Ссылка на видео ](../data-tools/media/playvideo.gif) [Channel 9: Дуг семь: понимание кода и проектирование систем с помощью Visual Studio 2010](https://channel9.msdn.com/shows/VS2010Launch/Doug-Seven-Code-Understanding-and-Systems-Design-with-Visual-Studio-2010)<br /><br /> ![Ссылка на видео ](../data-tools/media/playvideo.gif) - [канал 9: создание архитектуры приложения](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-5-architecting-an-application))|
 |**Форумы**|- [Средства моделирования и визуализации Visual Studio](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Расширяемость Visual Studio](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Моделирование требований пользователей](../modeling/model-user-requirements.md)
 - [Анализ и моделирование архитектуры](../modeling/analyze-and-model-your-architecture.md)

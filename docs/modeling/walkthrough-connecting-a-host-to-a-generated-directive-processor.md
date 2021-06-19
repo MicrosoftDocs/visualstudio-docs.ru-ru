@@ -7,20 +7,20 @@ ms.topic: how-to
 helpviewer_keywords:
 - walkthroughs [text templates], connecting host to processor
 - text templates, custom directive hosts
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: a815718f099b024708b86658e10fc0e85c087b4c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ed51688e5b65e34d7067963dbf7b839b1f022768
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924126"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388325"
 ---
 # <a name="walkthrough-connect-a-host-to-a-generated-directive-processor"></a>Пошаговое руководство. Подключение основного приложения к созданному обработчику директив
 
@@ -39,7 +39,7 @@ ms.locfileid: "99924126"
 
 - Тестирование пользовательского узла с помощью созданного обработчика директив.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Обязательные условия
 
 Для определения доменного языка необходимо установить следующие компоненты.
 
@@ -110,7 +110,7 @@ ms.locfileid: "99924126"
 
     - Microsoft. VisualStudio. TextTemplating. VSHost. 11.0
 
-4. В верхней части Program.cs или Module1. vb добавьте следующую строку кода:
+4. В верхней части программы Program. cs или Module1. vb добавьте следующую строку кода:
 
     ```csharp
     using Microsoft.Win32;
@@ -320,7 +320,7 @@ ms.locfileid: "99924126"
 
 ### <a name="test-the-custom-host"></a>Тестирование пользовательского узла
 
-1. Откройте окно командной строки.
+1. Откройте окно командной строки и
 
 2. Введите путь к исполняемому файлу пользовательского ведущего приложения, но пока не нажимайте клавишу ВВОД.
 
@@ -362,6 +362,6 @@ ms.locfileid: "99924126"
     Linked from: ExampleElement1
     ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Пошаговое руководство. Создание пользовательского хост-класса для текстовых шаблонов](../modeling/walkthrough-creating-a-custom-text-template-host.md)

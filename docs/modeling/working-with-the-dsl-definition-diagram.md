@@ -13,17 +13,17 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, Show Map Lines
 - Domain-Specific Language Tools, Show As Class
 - Domain-Specific Language Tools, Bring Tree Here
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 705134b5dfa31bb317360073e336abebcefdb13d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f401fe0509fc425fff873a7dc224c69359156861
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99923971"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388078"
 ---
 # <a name="working-with-the-dsl-definition-diagram"></a>Работа со схемой определений доменных языков
 Схема [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] определения является важным инструментом для определения доменного языка. Вы можете добавлять элементы в модель домена, определять отношения на схеме и изменять макет схемы, чтобы сделать ее более удобной для чтения.
@@ -72,6 +72,6 @@ ms.locfileid: "99923971"
 ### <a name="show-as-class"></a>Show As Class
  Если доменная связь имеет производные отношения или если она содержит связи внедрения или ссылки с другими доменными отношениями, можно отобразить связь в виде класса, щелкнув правой кнопкой мыши связь и выбрав пункт **Показать как класс**. Связь будет отображаться с ячейкой **свойств домена** и будет показывать деревья наследования и связей.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))
