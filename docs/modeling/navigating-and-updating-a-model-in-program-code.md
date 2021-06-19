@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: a7e3d7ba31778c5d5a94f77b52f13bfe8fff8473
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: be19b34c51744c6bab1c6021a006f7ec9b4da0f4
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897855"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390975"
 ---
 # <a name="navigate-and-update-a-model-in-program-code"></a>Работа с моделями и изменение их в коде программы
 
@@ -59,7 +59,7 @@ ms.locfileid: "99897855"
 
  Если в определении DSL **вычисляется** **тип** свойства, его нельзя задать. Дополнительные сведения см. в разделе [вычисляемые и настраиваемые свойства хранилища](../modeling/calculated-and-custom-storage-properties.md).
 
-### <a name="relationships"></a>Отношения
+### <a name="relationships"></a>Связи
  Доменные отношения, определяемые в определении DSL, становятся парами свойств, по одному в классе на каждом конце связи. Имена свойств отображаются в диаграмме DslDefinition как метки для ролей на каждой стороне связи. В зависимости от кратности роли тип свойства является либо классом на другом конце связи, либо коллекцией этого класса.
 
  `foreach (Person child in henry.Children) { ... }`
@@ -86,7 +86,7 @@ ms.locfileid: "99897855"
 
  `foreach (ParentsHaveChildren link in ParentsHaveChildren.GetLinks(henry, edward)) { ... }`
 
- Существуют также другие методы доступа к ссылкам. Пример:
+ Существуют также другие методы доступа к ссылкам. Пример.
 
  `foreach (ParentsHaveChildren link in     ParentsHaveChildren.GetLinksToChildren(henry)) { ... }`
 
@@ -110,7 +110,7 @@ ms.locfileid: "99897855"
  `store.ElementDirectory.GetElement(elementId);`
 
 ## <a name="accessing-class-information"></a><a name="metadata"></a> Доступ к сведениям о классе
- Вы можете получить сведения о классах, связях и других аспектах определения DSL. Пример:
+ Вы можете получить сведения о классах, связях и других аспектах определения DSL. Пример.
 
  `DomainClassInfo personClass = henry.GetDomainClass();`
 
@@ -201,13 +201,13 @@ using (Transaction t =
 
  Существует три способа, с помощью которых можно создать экземпляр связи. Каждый из этих трех методов имеет одинаковый результат:
 
-- Задайте свойство исходного исполнителя роли. Пример:
+- Задайте свойство исходного исполнителя роли. Пример.
 
   - `familyTree.People.Add(edward);`
 
   - `edward.Parents.Add(henry);`
 
-- Задайте свойство целевого исполнителя роли. Пример:
+- Задайте свойство целевого исполнителя роли. Пример.
 
   - `edward.familyTreeModel = familyTree;`
 
@@ -217,7 +217,7 @@ using (Transaction t =
 
        Кратность этой роли — `0..*` , поэтому мы добавляем в коллекцию.
 
-- Явным образом создайте экземпляр связи. Пример:
+- Явным образом создайте экземпляр связи. Пример.
 
   - `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`
 
@@ -329,7 +329,7 @@ using (Transaction t = targetDiagram.Store.
 |-|-|
 |Доменный класс|<xref:Microsoft.VisualStudio.Modeling.ModelElement>|
 |Доменная связь|<xref:Microsoft.VisualStudio.Modeling.ElementLink>|
-|Фигура|<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|
+|Фигурная|<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|
 |Соединитель|<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>|
 |Схема|<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>|
 
@@ -484,7 +484,7 @@ partial class MyDiagram
 ## <a name="store-partitions"></a>Хранение секций
  При загрузке модели соответствующая схема загружается в то же время. Как правило, модель загружается в Store. Дефаултпартитион, а содержимое схемы загружается в другую секцию. Как правило, содержимое каждой секции загружается и сохраняется в отдельный файл.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - <xref:Microsoft.VisualStudio.Modeling.ModelElement>
 - [Проверка в доменных языках](../modeling/validation-in-a-domain-specific-language.md)

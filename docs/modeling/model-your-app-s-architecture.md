@@ -6,22 +6,22 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - UML, modeling architecture
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e78e88884801b7aa7fcbcfe1147afd6fad653fd8
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fa2be8f4da963c21d9f7f68939421dd7d2d72d0b
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954375"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390116"
 ---
 # <a name="model-your-app39s-architecture"></a>Моделирование архитектуры приложения&#39;s
 Чтобы обеспечить соответствие программной системы или приложения потребностям пользователей, в Visual Studio можно создавать модели в рамках описания общей структуры и поведения программной системы или приложения. С помощью моделей также можно описывать шаблоны, используемые при разработке. Такие модели помогают понять существующую архитектуру, обсуждать изменения и четко формулировать свои намерения.
 
- Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
  Модель предназначена для уменьшения числа неоднозначностей, возникающих в описаниях на естественном языке, а также для того, чтобы помочь вам и вашим коллегам визуализировать проект и обсудить другие возможные варианты. Модель следует использовать совместно с другими документами или обсуждениями. Сама по себе модель не представляет полную спецификацию архитектуры.
 

@@ -4,17 +4,17 @@ description: Изучите, что транзакции позволяют га
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: fe892269d0e02d1f8e0aca2e943993ebb03cea41
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e91e569573076d1614a9fa946b67f3bda01e6fba
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99922587"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390546"
 ---
 # <a name="how-to-use-transactions-to-update-the-model"></a>Практическое руководство. Обновление модели с помощью транзакций
 Транзакции убедитесь, что изменения, внесенные в хранилище, обрабатываются как группа. Сгруппированные изменения можно зафиксировать или откатить как единое целое.

@@ -7,23 +7,23 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - models, versions of Visual Studio
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: a8049471e9e172496381df016c6155410f3bc244
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 95fbf6451a3f07581ff2bdb098428f41904d4276
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99882938"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389908"
 ---
 # <a name="read-models-and-diagrams-in-other-visual-studio-editions"></a>Чтение моделей и схем в других выпусках Visual Studio
 
 При открытии модели в версии Visual Studio, которая не поддерживает создание моделей, она открывается в режиме "только для чтения". В этом режиме можно изменить структуру схемы, но невозможно изменить модель.
 
-Сведения о том, какие версии Visual Studio поддерживают создание моделей, см. в разделе [Поддержка версий для инструментов архитектуры и моделирования](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Сведения о том, какие версии Visual Studio поддерживают создание моделей, см. в разделе [Поддержка версий для инструментов архитектуры и моделирования](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## <a name="obtaining-access-to-a-model-and-diagrams"></a>Получение доступа к модели и схемам
 
@@ -57,7 +57,7 @@ ms.locfileid: "99882938"
 
 Эти изменения можно сохранить. Если вы хотите сделать изменения видимыми для других пользователей, необходимо по крайней мере отправить обновленные файлы **макета** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Схемы зависимостей: справочные материалы](../modeling/layer-diagrams-reference.md)
 - [Создание моделей для приложения](../modeling/create-models-for-your-app.md)

@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Domain-Specific Language, decorators
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e29dcda43fdbb7b60567ff0aa0627b41ca3ca299
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2f3436bb800142e7c85594f4b05cef6fb45c4489
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99873792"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390806"
 ---
 # <a name="properties-of-decorators"></a>Свойства декораторов
 Декораторы — это значки, текст или шевроны развертывания и свертывания, которые могут отображаться на фигурах или соединителях на схеме. В следующих таблицах показаны свойства для трех видов декораторов. Некоторые свойства отображаются только для декораторов фигур или только для декораторов соединителя.
@@ -66,6 +66,6 @@ ms.locfileid: "99873792"
 |оффсетфромшапе|Смещение декоратора от фигуры относительно его положения по умолчанию в дюймах. (Только для соединителей.)|0|
 |Положение|Расположение декоратора по умолчанию.|TargetBottom|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))

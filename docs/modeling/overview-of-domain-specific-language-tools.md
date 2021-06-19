@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
 - Domain-Specific Language
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: dbae3a1b36e6a948766c7dc31d4a8ea8af6d70c9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 004c9929b33878359fa23735189d60939953755a
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897766"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390910"
 ---
 # <a name="overview-of-domain-specific-language-tools"></a>Обзор средств доменных языков
 Средства предметно-ориентированных языков (средства DSL), которые размещаются в Visual Studio, позволяют проектировать предметно-ориентированный язык, а затем создавать все, что нужно, пользователям для создания моделей на базе этого языка.

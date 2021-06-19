@@ -9,23 +9,23 @@ helpviewer_keywords:
 - dependency diagrams
 - diagrams - modeling, layer
 - constraints, architectural
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 06f4baed4851681065f3f7ccafecd3af339398f9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f46e2b774cd4da2ef9cdb9ddef7efd19f731ade7
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99957378"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112391027"
 ---
 # <a name="dependency-diagrams-guidelines"></a>Схемы зависимостей: рекомендации
 
 Опишите архитектуру приложения на высоком уровне, создавая *схемы зависимостей* в Visual Studio. Убедитесь, что код остается согласованным с этим дизайном, проверив код с помощью схемы зависимостей. В процесс сборки также можно включить проверку слоев. См. [видео Channel 9: проектирование и проверка архитектуры с помощью схем зависимостей](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
 
-Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие выпуски Visual Studio поддерживают эту функцию, см. раздел [Поддержка инструментов моделирования и архитектуры в различных выпусках](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 > [!NOTE]
 > Схемы зависимостей для проектов .NET Core поддерживаются начиная с Visual Studio 2019 версии 16,2.
@@ -174,7 +174,7 @@ ms.locfileid: "99957378"
 
 Чтобы обеспечить соответствие будущих изменений в коде схемам зависимостей, включите проверку слоев в стандартный процесс сборки решения. Каждый раз, когда другие члены команды создают решение, любые различия между зависимостями в коде и схемой зависимостей будут отображаться как ошибки сборки. Дополнительные сведения о включении проверки слоев в процесс сборки см. в разделе [Проверка кода с помощью схем зависимостей](../modeling/validate-code-with-layer-diagrams.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Схемы зависимостей: справочные материалы](../modeling/layer-diagrams-reference.md)
 - [Создание схем зависимостей на основе кода](../modeling/create-layer-diagrams-from-your-code.md)

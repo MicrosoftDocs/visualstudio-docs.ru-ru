@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Domain-Specific Language, domain properties
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: f9cca8468e99d41d879bee02dded8538e5fa9c5c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f2f026f62c5440b48b04d05e080515c47dd11979
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941363"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390650"
 ---
 # <a name="properties-of-domain-properties"></a>Свойства доменных свойств
 *Свойство предметной области* — это функция элемента модели, которая может содержать значение. Например, класс домена `Person` может иметь свойства `Name` и `BirthDate`. В определении доменного языка свойства домена перечислены в поле класса домена на схеме и в разделе класса домена в Обозревателе доменного языка. Дополнительные сведения см. [в разделе Определение языка Domain-Specific](../modeling/how-to-define-a-domain-specific-language.md).
@@ -50,6 +50,6 @@ ms.locfileid: "99941363"
 |**Задание модификатора доступа**|Модификатор доступа для задания. Управляет областью, в которой код программы может задавать свойство.|`public`|
 |**Тип**|Тип свойства. Чтобы добавить в список доступных типов, щелкните правой кнопкой мыши корень DSL в обозревателе DSL и выберите команду **добавить внешний тип**.|`String`|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))

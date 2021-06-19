@@ -7,23 +7,23 @@ ms.topic: conceptual
 helpviewer_keywords:
 - requirements
 - stories
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: d55e549d2dccdc047cbf4449392cc090a569f85c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 381395eb0b9dabde0e94c479cb43033bc8443c8f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99970586"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390155"
 ---
 # <a name="model-user-requirements"></a>Моделирование требований пользователей
 
 Visual Studio помогает понимать и обсуждать потребности пользователей, а также информировать о них других. Для этого можно составлять схемы о деятельности пользователей и о том, как система помогает им в достижении целей. Модель требований — это набор этих схем, каждая из которых иллюстрирует отдельный аспект потребностей пользователей. Демонстрационные видеоматериалы см. в разделе [Моделирование бизнес-среды](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-3-modeling-the-business-domain).
 
-Чтобы узнать, какие версии Visual Studio поддерживают каждый тип модели, см. раздел [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+Чтобы узнать, какие версии Visual Studio поддерживают каждый тип модели, см. раздел [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 Модель требований помогает:
 
@@ -62,7 +62,7 @@ Visual Studio помогает понимать и обсуждать потре
 
 Бизнес-правило — это требование, не связанное с определенным вариантом использования, которое необходимо соблюдать во всех частях системы.
 
-Многие бизнес-правила представляют собой ограничения отношений между концептуальными классами. Эти *статические бизнес-правила* можно записать в виде комментариев, связанных с соответствующими классами на концептуальной схеме классов. Пример:
+Многие бизнес-правила представляют собой ограничения отношений между концептуальными классами. Эти *статические бизнес-правила* можно записать в виде комментариев, связанных с соответствующими классами на концептуальной схеме классов. Пример.
 
 ![Правило в комментарии, вложенном в класс Order.](../modeling/media/uml_reqmcd2.png)
 
@@ -88,7 +88,7 @@ Visual Studio помогает понимать и обсуждать потре
 
 - Удобство использования
 
-- Надежность
+- надежность;
 
 - Устойчивость
 
@@ -98,7 +98,7 @@ Visual Studio помогает понимать и обсуждать потре
 
 Сведения о разработке кода, который соответствует требованиям к качеству обслуживания, см. в статье [Моделирование архитектуры приложения](../modeling/model-your-app-s-architecture.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Использование моделей в процессе разработки](../modeling/use-models-in-your-development-process.md)
 - [Моделирование архитектуры приложения](../modeling/model-your-app-s-architecture.md)

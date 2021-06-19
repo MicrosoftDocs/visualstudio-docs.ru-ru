@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Domain-Specific Language, domain class
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: cc86f04841a819423bc45c9220d6de80a5340b2d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: eaaae0028d574a521319ae045cdb4f7f1bdafaa2
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99915996"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390012"
 ---
 # <a name="properties-of-domain-classes"></a>Свойства доменных классов
 Классы домена имеют свойства, приведенные в следующей таблице. Дополнительные сведения о доменных классах см. в разделе [Основные сведения о моделях, классах и связях](../modeling/understanding-models-classes-and-relationships.md). Дополнительные сведения об использовании этих свойств см. [в разделе Настройка и расширение языка Domain-Specific](../modeling/customizing-and-extending-a-domain-specific-language.md).
@@ -36,6 +36,6 @@ ms.locfileid: "99915996"
 |Отображаемое имя|Имя, которое будет отображаться в созданном конструкторе для этого доменного класса.|\<none>|
 |Ключевое слово Help|Необязательное ключевое слово, используемое для индексации справки F1 для данного доменного класса.|\<none>|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))

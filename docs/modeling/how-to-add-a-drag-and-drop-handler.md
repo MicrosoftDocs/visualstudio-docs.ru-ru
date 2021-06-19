@@ -4,17 +4,17 @@ description: Узнайте, как добавлять обработчики д
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: c9e6960cdd84e518b2d58eb77c25278bd52475d7
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 79b58ee6ebd4db3ee9727bf59b260f281ba00275
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941441"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390415"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>Практическое руководство. Добавление обработчика перетаскивания
 
@@ -130,7 +130,7 @@ MEF (Managed Extensibility Framework) позволяет определять к
 
   - Диаграмевентаргс. Data. Жетдатаформатс () — содержит список форматов, в которых можно декодировать перетаскиваемый объект. Например, если пользователь перетаскивает файл с рабочего стола, доступные форматы включают имя файла ("`FileNameW`").
 
-  - `diagramEventArgs.Data.GetData(format)` — Декодирует перетаскиваемый объект в указанном формате. Приведите объект в соответствующий тип. Пример:
+  - `diagramEventArgs.Data.GetData(format)` — Декодирует перетаскиваемый объект в указанном формате. Приведите объект в соответствующий тип. Пример.
 
     `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
@@ -571,7 +571,7 @@ namespace Company.CompartmentDrag  // EDIT.
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Настройка функции копирования](../modeling/customizing-copy-behavior.md)
 - [Развертывание решений на доменных языках](msi-and-vsix-deployment-of-a-dsl.md)

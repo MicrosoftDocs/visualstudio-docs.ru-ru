@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Domain-Specific Language, definition file
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ef8f49e46c554efca89862c787fbfbe97c48c8f4
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6212dfcb9e93110a97e7143e5b1c946efebee89f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959120"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390845"
 ---
 # <a name="properties-of-a-dsl-definition"></a>Свойства определения доменного языка
 Свойства DslDefinition определяют свойства определения *доменного языка* , такие как нумерация версий. Свойства DslDefinition отображаются в окне **Свойства** при щелчке открытой области диаграммы в *конструктор предметно-ориентированных языков*.

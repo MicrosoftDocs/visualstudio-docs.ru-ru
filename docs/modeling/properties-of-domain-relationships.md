@@ -6,17 +6,17 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Domain-Specific Language, domain relationships
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 6fb50018dccbe03512c8ab6e5f07c17dbcee307d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: fc92bbc32a454208f3d455734b7697a2e69037b4
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99941337"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390663"
 ---
 # <a name="properties-of-domain-relationships"></a>Свойства доменных связей
 Свойства в следующей таблице связаны с доменной связью. Сведения о доменных отношениях см. в разделе [Основные сведения о моделях, классах и связях](../modeling/understanding-models-classes-and-relationships.md). Дополнительные сведения об использовании этих свойств см. [в разделе Настройка и расширение языка Domain-Specific](../modeling/customizing-and-extending-a-domain-specific-language.md).
@@ -38,6 +38,6 @@ ms.locfileid: "99941337"
 |Отображаемое имя|Имя, отображаемое в созданном конструкторе для доменной связи.|\<none>|
 |Ключевое слово Help|Необязательное ключевое слово, используемое для индексации справки F1 для доменной связи.|\<none>|
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Глоссарий средств предметно-ориентированных языков](/previous-versions/bb126564(v=vs.100))
