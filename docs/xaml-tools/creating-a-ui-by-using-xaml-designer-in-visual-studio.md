@@ -1,5 +1,5 @@
 ---
-title: Обзор Конструктора XAML
+title: Создание пользовательского интерфейса с помощью Visual Studio Конструктор XAML
 description: Сведения о ПОЛЬЗОВАТЕЛЬСКОМ интерфейсе рабочей области и функциях Конструктор XAML в Blend для Visual Studio, которые предоставляют визуальный интерфейс для разработки приложений на основе XAML.
 ms.date: 03/03/2020
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.openlocfilehash: 8f022d0f27977488fb089f2cffb40aad22365b46
-ms.sourcegitcommit: 4a91c63683ba1c1832b1ba96657862a849320d81
+ms.openlocfilehash: ef7d94acbb558ef2a8a3c557051e6dea16be916c
+ms.sourcegitcommit: 809fff25b7701882c899c639eeb6da38ad4fb88a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110565236"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112550692"
 ---
 # <a name="create-a-ui-by-using-xaml-designer"></a>Создание пользовательского интерфейса с помощью конструктора XAML
 
@@ -163,7 +163,7 @@ ms.locfileid: "110565236"
 
 Дополнительные сведения об использовании свойств и обработке событий см. в статье [Введение в работу с элементами управления и шаблонами](/windows/uwp/design/controls-and-patterns/controls-and-events-intro).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Работа с элементами в конструкторе XAML](../xaml-tools/working-with-elements-in-xaml-designer.md)
 - [Практическое руководство. Создание и применение ресурса](../xaml-tools/how-to-create-and-apply-a-resource.md)
