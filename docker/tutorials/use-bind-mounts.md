@@ -9,12 +9,12 @@ ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
 - azure
-ms.openlocfilehash: 57cb56d0d9a93d0f11e4047f6e25b64841c47e93
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6a4aa7623f69f9b02f9649a1a66ade010a823669
+ms.sourcegitcommit: 98d187abd9352d2255348b84d99d015e65caa0ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99841683"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112574117"
 ---
 # <a name="use-bind-mounts"></a>Использование подключения BIND
 
@@ -49,14 +49,15 @@ ms.locfileid: "99841683"
 
     ```bash
     docker run -dp 3000:3000 \
-        -w /app -v ${PWD}:/app \
+        -w /app \
+        -v "%cd%:/app" \
         node:12-alpine \
         sh -c "yarn install && yarn run dev"
     ```
 
     - `-dp 3000:3000` — то же, что и раньше. Выполните команду в отключенном (фоновом) режиме и создайте сопоставление портов
     - `-w /app` — определяет "рабочий каталог" или текущий каталог, из которого будет выполняться команда
-    - `-v ${PWD}:/app` — BIND подключает текущий каталог из узла в контейнере к каталогу `/app`
+    - `-v "%cd%:/app"` — BIND подключает текущий каталог из узла в контейнере к каталогу `/app`
     - `node:12-alpine` — используемый образ. Обратите внимание на то, что это базовый образ для вашего приложения из Dockerfile
     - `sh -c "yarn install && yarn run dev"` — команда. Запустите оболочку с помощью `sh` (alpine не имеет `bash`) и выполните `yarn install`, чтобы установить *все* зависимости, а затем запустите `yarn run dev`. Если вы посмотрите на `package.json`, то увидите, что сценарий `dev` запускает `nodemon`.
 
