@@ -3,7 +3,7 @@ title: Элемент strings | Документация Майкрософт
 description: Элемент strings содержит дочерний элемент ButtonText и другие необязательные дочерние элементы. Амперсанд в текстовой строке указывает сочетание клавиш.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Strings element (VSCT XML schema)
 - VSCT XML schema elements, Strings
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a0bd9ad9b8059eb7fd566c1e0c26a938af6d18b2
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 27a649c7d3a8bb808153c280921d2304de59c379
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105089905"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899411"
 ---
 # <a name="strings-element"></a>Элемент Strings
 Элемент strings должен содержать по крайней мере дочерний элемент **ButtonText** . Все остальные дочерние элементы являются необязательными. Недопустимые XML-символы, такие как "&" и "<", должны быть закодированы как сущности (" &amp; " и " &lt; " и т. д.).
@@ -41,7 +41,7 @@ ms.locfileid: "105089905"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Язык|Необязательный параметр. Language = ".".|
+|Язык|Необязательный элемент. Language = ".".|
 
 ### <a name="child-elements"></a>Дочерние элементы
 

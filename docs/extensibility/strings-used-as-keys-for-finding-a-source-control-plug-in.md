@@ -3,7 +3,7 @@ title: Строки, используемые в качестве ключей �
 description: Сведения о строках, которые являются ключами для доступа к реестру, чтобы найти сведения о подключаемом модуле системы управления версиями.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, strings used for finding
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b61c13973ac6668814fbc3ba076b373d6e0b1e44
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: f25a105c442fa4a1ff8ed0f95b9c49272d751932
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056302"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899390"
 ---
 # <a name="strings-used-as-keys-for-finding-a-source-control-plug-in"></a>Строки, используемые в качестве ключей поиска подключаемого модуля системы управления версиями
 Следующие строки являются ключами для доступа к реестру для поиска сведений о подключаемом модуле системы управления версиями.
@@ -28,7 +28,7 @@ ms.locfileid: "105056302"
 
 ## <a name="string-keys-and-values"></a>Строковые ключи и значения
 
-|Ключ|Значение|
+|Key|Значение|
 |---------|-----------|
 |`STR_SCC_PROVIDER_REG_LOCATION`|софтваре\саурцекодеконтролпровидер|
 |`STR_PROVIDERREGKEY`|провидеррегкэй|

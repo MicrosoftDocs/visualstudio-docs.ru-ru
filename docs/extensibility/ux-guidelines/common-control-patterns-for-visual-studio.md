@@ -3,19 +3,19 @@ title: Общие шаблоны элементов управления для 
 description: Узнайте о том, как общие элементы управления Visual Studio следуют правилам взаимодействия с Windows Desktop, а также о специальных ситуациях, которые дополняют эти рекомендации.
 ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e55bb5f4473971f99ce04f9e48b7e05ec13f94c6
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 12d514bdc0aa37598ad57e0466bf57ba75ed2601
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105090113"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899307"
 ---
 # <a name="common-control-patterns-for-visual-studio"></a>Шаблоны распространенных элементов управления для Visual Studio
 ## <a name="common-controls"></a><a name="BKMK_CommonControls"></a> Стандартные элементы управления
@@ -309,7 +309,7 @@ ms.locfileid: "105090113"
 | Удалить все | ![Графическая кнопка "Переместить все"](../../extensibility/ux-guidelines/media/070703-11_buttonremoveall.png "070703 — 11_ButtonRemoveAll") |
 | вверх | ![Графическая кнопка "Вверх"](../../extensibility/ux-guidelines/media/070703-12_buttonmoveup.png "070703 — 12_ButtonMoveUp") |
 | Вниз | ![Графическая кнопка "Вниз"](../../extensibility/ux-guidelines/media/070703-13_buttonmovedown.png "070703 — 13_ButtonMoveDown") |
-| Удалить | ![Графическая кнопка "Удалить"](../../extensibility/ux-guidelines/media/070703-14_buttondelete.png "070703 — 14_ButtonDelete") |
+| DELETE | ![Графическая кнопка "Удалить"](../../extensibility/ux-guidelines/media/070703-14_buttondelete.png "070703 — 14_ButtonDelete") |
 
 ##### <a name="sizing-and-spacing"></a>Размер и пространство
 Изменение размера для графических кнопок аналогично сокращенной версии кнопки **[обзор...]** (26x23 пикселей):

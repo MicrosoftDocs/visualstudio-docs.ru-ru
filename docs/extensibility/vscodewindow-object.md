@@ -3,7 +3,7 @@ title: Объект Вскодевиндов | Документация Майк
 description: Сведения о окнах кода, которые являются специализированными окнами документов, которые могут содержать одно или несколько текстовых представлений, обычно это объект Встекствиев.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - VSCodeWindow
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 77839bf80f30de3177f647795ffb89aa3e103d58
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 9803132605ee81c67785c8c0154861b26730ca5f
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062425"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905336"
 ---
 # <a name="vscodewindow-object"></a>Объект Вскодевиндов
 Окно кода — это специализированное окно документа, которое может содержать одно или несколько текстовых представлений, обычно это <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> объект.

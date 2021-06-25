@@ -3,7 +3,7 @@ title: Элемент CommandPlacement | Документация Майкрос
 description: Элемент CommandPlacement позволяет включать кнопки, группы и меню в более чем одну группу или меню.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - CommandPlacements element (VSCT XML schema)
 - VSCT XML schema elements, CommandPlacements
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 73d97e32314de0b01bf26025c1fee412de7d9795
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 69be89fb2773be9de632b8059cf217303daaede7
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105089619"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901998"
 ---
 # <a name="commandplacement-element"></a>CommandPlacement, элемент
 Элемент CommandPlacement позволяет включать кнопки, группы и меню в более чем одну группу или меню. С помощью элемента CommandPlacement не нужно полностью переопределять эти элементы, чтобы изменить внешний вид пользовательского интерфейса.
@@ -43,7 +43,7 @@ ms.locfileid: "105089619"
 |guid|Обязательный. Идентификатор GUID набора команд, как определено в [элементе Symbols](../extensibility/symbols-element.md).|
 |идентификатор|Обязательный. Идентификатор меню, группы или команды, которые необходимо разместить, как определено в `Symbols Element` .|
 |priority|Обязательный. Определяет визуальную позицию элемента в его родительском элементе.|
-|Условие|Необязательный параметр. См. раздел [Conditional ааттрибутес](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. См. раздел [Conditional ааттрибутес](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 

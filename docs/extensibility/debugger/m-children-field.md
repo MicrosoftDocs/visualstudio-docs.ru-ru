@@ -2,7 +2,7 @@
 description: Список дочерних задач, зарегистрированных в этой задаче.
 title: m_children поле | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - m_children field, ContingentProperties class [.NET Framework debug engines]
 ms.assetid: 0a3b5653-7bc0-4a7a-8963-9020bc52b9cb
@@ -11,12 +11,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 90394afd982f22977d3d3ed74850032bfb5634c8
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 311ab164551e46fbe1c30b5a6045a7993a900a67
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105094696"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901374"
 ---
 # <a name="m_children-field"></a>m_children поле
 Список дочерних задач, зарегистрированных в этой задаче.

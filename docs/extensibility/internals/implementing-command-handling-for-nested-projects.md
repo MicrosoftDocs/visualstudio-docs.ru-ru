@@ -3,7 +3,7 @@ title: Реализация обработки команд для вложен�
 description: Узнайте, как реализовать обработку команд для вложенных проектов в интегрированной среде разработки Visual Studio (IDE).
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - nested projects, implementing command handling
 ms.assetid: 48a9d66e-d51c-4376-a95a-15796643a9f2
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fad154fd3739369b0ccf7e5d896d1b9f1728c68e
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 4324e207d7b424295137f9523ed0bed538b3d806
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105085784"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899990"
 ---
 # <a name="implementing-command-handling-for-nested-projects"></a>Реализация обработки команд для вложенных проектов
 Интегрированная среда разработки может передавать команды, передаваемые через <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> интерфейс и в <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> вложенные проекты, или же родительские проекты могут фильтровать или переопределять команды.

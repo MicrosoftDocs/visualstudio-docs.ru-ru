@@ -3,7 +3,7 @@ title: Диспетчер отладки сеансов | Документаци
 description: Сведения о диспетчере отладки сеансов, который управляет несколькими программами отладки модулей отладки в нескольких процессах на любом количестве компьютеров.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - session debug manager, unifying session views
 - session debug manager, broadcasting
@@ -17,12 +17,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e5a206b8ece21b14758dfeb02563d4d323dcf60
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 217a2d401e61c58a58d958bb754265a19a2a367d
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105079466"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902089"
 ---
 # <a name="session-debug-manager"></a>Диспетчер отладки сеансов
 Диспетчер отладки сеансов (SDM) управляет любым количеством модулей отладки (DE), которые отлаживать любое количество программ в нескольких процессах на любом количестве компьютеров. В дополнение к мультиплексору модуля отладки, модель SDM предоставляет унифицированное представление сеанса отладки в интегрированной среде разработки.

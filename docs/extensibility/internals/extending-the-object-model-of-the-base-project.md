@@ -3,7 +3,7 @@ title: Расширение объектной модели базового п�
 description: Узнайте, как расширить объектную модель автоматизации базового проекта в Visual Studio с помощью подтипа проекта.
 ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - automation object model, extending
 - project subtypes, extending automation object model
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f220d1e0c97647162c621bc565147bc74f40103
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 175571b374c6a54999b212b316301f3f775891ff
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105069625"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899346"
 ---
 # <a name="extend-the-object-model-of-the-base-project"></a>Расширение объектной модели базового проекта
 

@@ -3,7 +3,7 @@ title: ОПТНАМЕЧАНЖЕПФН | Документация Майкрос�
 description: Сведения о функции обратного вызова ОПТНАМЕЧАНЖЕПФН, которая передает изменения имен из подключаемого модуля системы управления версиями в интегрированную среду разработки Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - OPTNAMECHANGEPFN
 helpviewer_keywords:
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4e6cb58aebbe76eff5c66dc29ecfad8c77c8717c
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 340012663ad7d21c0b5c2ef81283f5d780d6011c
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105090373"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901530"
 ---
 # <a name="optnamechangepfn"></a>OPTNAMECHANGEPFN
 Это функция обратного вызова, указанная в вызове [скксетоптион](../extensibility/sccsetoption-function.md) (с использованием параметра `SCC_OPT_NAMECHANGEPFN` ) и используемая для передачи изменений имени, сделанных подключаемым модулем системы управления версиями, обратно в интегрированную среду разработки.

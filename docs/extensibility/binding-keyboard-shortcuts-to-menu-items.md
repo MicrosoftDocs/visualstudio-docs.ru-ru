@@ -3,7 +3,7 @@ title: Привязка сочетаний клавиш к пунктам мен
 description: Сведения о сопоставлении сочетаний клавиш в Visual Studio с пользовательской кнопкой, пунктом меню или командой панели инструментов для редактора по умолчанию или пользовательского редактора.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - keyboard command
 - keyboards
@@ -16,12 +16,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 88cc7d91ee8cd24daae278efdbfd35271412af40
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 6a9591a7412b0bcaf506483a16a6660790df5f40
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105097309"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900438"
 ---
 # <a name="bind-keyboard-shortcuts-to-menu-items"></a>Привязка сочетаний клавиш к пунктам меню
 Чтобы привязать сочетание клавиш к команде пользовательского меню, просто добавьте запись в файл *. vsct* для пакета. В этом разделе объясняется, как сопоставить сочетание клавиш с пользовательской кнопкой, пунктом меню или командой панели инструментов, а также как применить сочетание клавиш в редакторе по умолчанию или ограничить его настраиваемым редактором.

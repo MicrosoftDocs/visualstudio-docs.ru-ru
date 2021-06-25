@@ -3,7 +3,7 @@ title: Добавление команд Visual Studio на начальную �
 description: Узнайте о различных способах привязки команд Visual Studio к объектам XAML на настраиваемой начальной странице в Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - start page commands
 - vs:VSCommands
@@ -14,12 +14,12 @@ manager: jmartens
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 4e2ec238d3cb8c2e7d843018fc45e97207c6d5f4
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 0bf0f9a3db21dd93b1a497731bca9142a4377acc
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105097530"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901517"
 ---
 # <a name="add-visual-studio-commands-to-a-start-page"></a>Добавление команд Visual Studio на начальную страницу
 

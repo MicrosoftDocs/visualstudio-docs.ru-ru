@@ -3,7 +3,7 @@ title: Поля и интерфейсы окна свойств | Докумен
 description: Сведения о выборе, который определяет, какие сведения отображаются в окно свойств на основе окна, имеющего фокус в интегрированной среде разработки Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Properties window, fields and interfaces
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9f445d31fe995321ad6ec334a5b6eb93570b8875
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 7a74e82480d1a4c71179c0e0b0671bac4ae97191
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105061034"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899632"
 ---
 # <a name="properties-window-fields-and-interfaces"></a>Properties Window Fields and Interfaces
 Модель выбора позволяет определить, какие сведения отображаются в окне **Свойства** , на основе окна, имеющего фокус в интегрированной среде разработки. Для каждого окна и объекта в выбранном окне может быть отправлен объект контекста выбора в глобальный контекст выбора. Среда обновляет глобальный контекст выделения значениями из рамки окна, когда это окно находится в фокусе. При изменении фокуса, поэтому выполняет контекст выбора.

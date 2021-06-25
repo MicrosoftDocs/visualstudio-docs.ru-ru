@@ -2,7 +2,7 @@
 description: Эта функция отображает (или при необходимости просто проверяет) различия между текущим файлом (на локальном диске) и последней возвращенной версией в системе управления версиями.
 title: Функция Сккдифф | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccDiff
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 151620a81af515bd8cd74938a1006d4a98959dd9
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 484d8b5e988ede9b50099e3c0376f2c3afce8317
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073993"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904660"
 ---
 # <a name="sccdiff-function"></a>Функция Сккдифф
 Эта функция отображает (или при необходимости просто проверяет) различия между текущим файлом (на локальном диске) и последней возвращенной версией в системе управления версиями.

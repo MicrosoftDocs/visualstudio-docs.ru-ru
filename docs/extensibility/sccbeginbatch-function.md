@@ -2,7 +2,7 @@
 description: Эта функция запускает пакетную последовательность операций системы управления версиями.
 title: Функция Сккбегинбатч | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccBeginBatch
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5af4d8fb1d8524f16493603bb5d46ee4bdbd03ba
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 08b9199b98e566a71bfeb95124ebd85781e69950
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105060449"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904764"
 ---
 # <a name="sccbeginbatch-function"></a>Функция Сккбегинбатч
 Эта функция запускает пакетную последовательность операций системы управления версиями. Для завершения пакета будет вызван [скцендбатч](../extensibility/sccendbatch-function.md) . Эти пакеты не могут быть вложенными.

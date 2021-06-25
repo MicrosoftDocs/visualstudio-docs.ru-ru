@@ -3,7 +3,7 @@ title: Условные атрибуты схемы XML VSCT | Документ�
 description: Узнайте, как применять условные атрибуты для VSCT списков и элементов XML-схемы. Атрибуты оцениваются как true или false, контролируя результирующие выходные данные.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, conditional attributes
 - conditional attributes (VSCT XML schema)
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5bc1bcb9d80474b467e90de6262e797087589065
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: e91207016ed6e1baab80b323680d10a40e0331d8
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062360"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905258"
 ---
 # <a name="vsct-xml-schema-conditional-attributes"></a>Условные атрибуты схемы XML VSCT
 Условные атрибуты можно применять ко всем спискам и элементам. Логические операторы и выражения расширения символов имеют значение true или false. Если значение — true, связанный список или элемент включается в результирующие выходные данные.

@@ -3,7 +3,7 @@ title: Регистрация и Отмена регистрации пакет�
 description: Сведения о регистрации и отмене регистрации пакетов VSPackage, в том числе используемых атрибутов и файла pkgdef.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c5238ef7d544bcdeb3dd68a4741791262aaa77c0
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 48067ed883a44870b3b753cb5e3d6943eca91ca5
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056549"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900308"
 ---
 # <a name="register-and-unregister-vspackages"></a>Регистрация и Отмена регистрации пакетов VSPackage
 Для регистрации VSPackage используются атрибуты, но

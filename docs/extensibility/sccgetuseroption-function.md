@@ -2,7 +2,7 @@
 description: Эта функция получает разнообразные параметры, относящиеся к пользователю.
 title: Функция Сккжетусероптион | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetUserOption
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 262a15069f840c048f574396d5a7ec076760d77e
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 622abc04609edf410214af6b8acf795f969e2fbc
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105063959"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901114"
 ---
 # <a name="sccgetuseroption-function"></a>Функция SccGetUserOption
 Эта функция получает разнообразные параметры, относящиеся к пользователю.

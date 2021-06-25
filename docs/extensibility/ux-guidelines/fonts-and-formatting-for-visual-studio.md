@@ -3,19 +3,19 @@ title: Шрифты и форматирование для Visual Studio | До�
 description: Сведения о шрифтах и форматировании для новых функций, разработанных для Visual Studio, включая использование шрифта среды.
 ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a55ad867e91a79689a1983837f5ba0030e10a35
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: e6e26b18c838fc240d7fab398f8626890eed0d31
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105089931"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901686"
 ---
 # <a name="fonts-and-formatting-for-visual-studio"></a>Шрифты и форматирование для Visual Studio
 ## <a name="the-environment-font"></a><a name="BKMK_TheEnvironmentFont"></a> Шрифт среды
@@ -391,7 +391,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 #### <a name="italics"></a>Курсив
  Visual Studio не использует курсивный или полужирный текст курсивом.
 
-#### <a name="color"></a>Color
+#### <a name="color"></a>Цвет
 
 - Синий цвет зарезервирован для гиперссылок (навигации и команд) и никогда не должен использоваться для ориентации.
 

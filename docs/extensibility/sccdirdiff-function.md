@@ -2,7 +2,7 @@
 description: Эта функция отображает различия между текущим локальным каталогом на клиентском диске и соответствующим проектом в системе управления версиями.
 title: Функция Сккдирдифф | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccDirDiff
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 974d0aa22ff3940472be34b691a61632dc742223
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: e938cdaedf8541d787673371cfce3d07e005711f
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073980"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904647"
 ---
 # <a name="sccdirdiff-function"></a>Функция Сккдирдифф
 Эта функция отображает различия между текущим локальным каталогом на клиентском диске и соответствующим проектом в системе управления версиями.

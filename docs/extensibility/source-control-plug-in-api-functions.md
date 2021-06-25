@@ -3,7 +3,7 @@ title: Функции API подключаемого модуля системы
 description: Сведения о функциях, предоставляемых API подключаемого модуля системы управления версиями, который должен быть реализован с помощью подключаемого модуля системы управления версиями.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, functions
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c28c175d53fb37cf890dad4240a84fb132f6af35
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 4f93ddff78aa151218d0b46d017e4631d9489e44
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105090126"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899606"
 ---
 # <a name="source-control-plug-in-api-functions"></a>Функции API подключаемого модуля системы управления версиями
 Интерфейс API подключаемого модуля системы управления версиями предоставляет следующие функции, которые должны быть реализованы с помощью подключаемого модуля системы управления версиями в соответствии с этим API. Сигнатуры каждой функции и семантики, связанные с битовыми флагами и другими параметрами, подробно описаны в этом справочнике.

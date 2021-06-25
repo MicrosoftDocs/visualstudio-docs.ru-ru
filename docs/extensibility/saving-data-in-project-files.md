@@ -3,7 +3,7 @@ title: Сохранение данных в файлах проекта | Док
 description: Сведения о интерфейсах, предоставляемых управляемой платформой пакетов для сохранения и извлечения данных, относящихся к подтипу, в файле проекта.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], saving in project files
 - project files
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 24f3f0b84f22532187537c31ba6e47a823eef8f7
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 5859fc9286a3e584c04ccacc1d8b8a35d98dea89
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105060501"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904998"
 ---
 # <a name="save-data-in-project-files"></a>Сохранение данных в файлах проекта
 Подтип проекта может сохранять и извлекать данные, относящиеся к подтипу, в файле проекта. Платформа управляемого пакета (MPF) предоставляет два интерфейса для выполнения этой задачи:

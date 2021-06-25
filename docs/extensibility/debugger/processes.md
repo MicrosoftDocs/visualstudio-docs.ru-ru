@@ -3,7 +3,7 @@ title: Процессы | Документация Майкрософт
 description: В этой статье описывается определение и роль процесса в архитектуре отладчика в Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], processes
 ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 46e25ddfbe60e1b9ee456e586c6f424fc489f626
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: f3cadf314b189c72320da3f54488af8560cf3fd8
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105067716"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901257"
 ---
 # <a name="processes"></a>Процессы
 *Процесс* в архитектуре отладчика:

@@ -3,7 +3,7 @@ title: Перечислитель кода состояния файла | До�
 description: Перечислитель Сккстатус содержит постоянные значения, указывающие состояние файла в системе управления версиями и используемое Скккуеринфо и ПОПЛИСТФУНК.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - named constants, SccStatus enumerator
 - source control plug-ins, file status enumeration
@@ -15,12 +15,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: af2ff3293a55dc76925aedd7a029e1bfdd367186
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 95de8a29efcd56880cdaf452c9f21b90bba1c5c9
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105074955"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900971"
 ---
 # <a name="file-status-code-enumerator"></a>Перечислитель кода состояния файла
 `SccStatus`Перечислитель содержит именованные постоянные значения, которые определяют состояние файла в системе управления версиями. Это перечисление используется [скккуеринфо](../extensibility/sccqueryinfo-function.md) и `POPLISTFUNC` функцией обратного вызова (Дополнительные сведения см. в разделе [поплистфунк](../extensibility/poplistfunc.md) ).

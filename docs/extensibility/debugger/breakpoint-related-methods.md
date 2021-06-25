@@ -3,7 +3,7 @@ title: Методы Breakpoint-Related | Документация Майкрос
 description: Отладка Visual Studio поддерживает привязанные точки останова, которые успешно привязаны к расположению в коде, и ожидающие точки останова, которые еще не привязаны.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], breakpoint methods
 - breakpoints, methods
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 06494b5ed6c1826e665f42e180ad8c71de596e30
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: ec218cea05dffc1c558cabdef47895da9ad7ba9c
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105055247"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901504"
 ---
 # <a name="breakpoint-related-methods"></a>Методы, связанные с точкой останова
 Модуль отладки (DE) должен поддерживать настройку точек останова. Отладка Visual Studio поддерживает следующие типы точек останова:
@@ -27,7 +27,7 @@ ms.locfileid: "105055247"
 
      Запрашивается через пользовательский интерфейс и успешно привязан к указанному расположению кода
 
-- Ожидает
+- Не завершен
 
      Запрашивается через пользовательский интерфейс, но еще не привязан к фактическим инструкциям
 

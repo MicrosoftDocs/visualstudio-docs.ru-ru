@@ -3,7 +3,7 @@ title: Элемент Symbols | Документация Майкрософт
 description: Элемент Symbols определяет идентификаторы GUID и идентификаторы, используемые другими элементами VSCT. В этой статье содержится пример.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Symbols element (VSCT XML schema)
 - VSCT XML schema elements, Symbols
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9a013bbe438d1e4dd1f6b5149dcb7da78835fd09
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: b593f353714f2fbb6f5b726fa2bbc0da449043ea
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056055"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901738"
 ---
 # <a name="symbols-element"></a>Элемент Symbols
 Определяет идентификаторы GUID и идентификаторы, используемые другими элементами VSCT. Для неуправляемого кода эти сведения обычно поступают из файлов заголовков, которые задаются с помощью [внешнего элемента](../extensibility/extern-element.md). Для определения этих сведений управляемый код использует дочерние элементы элемента Symbols.
@@ -43,7 +43,7 @@ ms.locfileid: "105056055"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Отсутствуют||
+|Нет||
 
 ### <a name="child-elements"></a>Дочерние элементы
 

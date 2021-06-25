@@ -1,9 +1,9 @@
 ---
-title: Структура файла [Content_types]. XML | Документация Майкрософт
+title: Структура файла .xml [Content_types] | Документация Майкрософт
 description: Сведения о структуре файла типов содержимого, которая содержит сведения о типах содержимого в пакете VSIX.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - content_types
 - content types
@@ -15,18 +15,18 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5dea58176269536ae7f0e5857c938c60f76c5c6b
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 96d4d0eeea34300894674a2105d080e8a6abb607
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105055899"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900425"
 ---
 # <a name="the-structure-of-the-content_typesxml-file"></a>Структура файла [типы_содержимого].xml
-Содержит сведения о типах содержимого в пакете VSIX. Visual Studio использует файл [Content_Types]. XML для установки пакета, но не устанавливает сам файл.
+Содержит сведения о типах содержимого в пакете VSIX. Visual Studio использует файл [Content_Types] .xml для установки пакета, но не устанавливает сам файл.
 
 > [!NOTE]
-> Хотя этот раздел применим только к файлам [Content_Type]. XML, которые используются в пакетах VSIX, тип файла [Content_Types]. XML является частью стандарта *Open Packaging Conventions (OPC)* . Дополнительные сведения см. в статье [OPC: новый стандарт для упаковки данных](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) на веб-сайте MSDN.
+> Хотя этот раздел применим только к файлам [Content_Type] .xml, которые используются в пакетах VSIX, тип файла .xml [Content_Types] является частью стандарта *Open Packaging Conventions (OPC)* . Дополнительные сведения см. в статье [OPC: новый стандарт для упаковки данных](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) на веб-сайте MSDN.
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
  В следующих разделах описывается корневой элемент, его атрибуты и дочерние элементы.
@@ -41,7 +41,7 @@ ms.locfileid: "105055899"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|`Xmlns`|(Обязательно.) Расположение схемы, используемой для этого файла [Content_Types]. XML.|
+|`Xmlns`|(Обязательно.) Расположение схемы, используемой для этого файла .xml [Content_Types].|
 
 ### <a name="attribute-name-attribute"></a>{Имя атрибута} Версию
 
@@ -86,7 +86,7 @@ ms.locfileid: "105055899"
 ## <a name="example"></a>Пример
 
 ### <a name="description"></a>Описание
- Следующий файл [Content_Types]. XML описывает типичный пакет VSIX.
+ Следующий файл [Content_Types] .xml описывает типичный пакет VSIX.
 
 ### <a name="code"></a>Код
 

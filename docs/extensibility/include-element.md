@@ -3,7 +3,7 @@ title: Включить элемент | Документация Майкрос
 description: Элемент include указывает файл, который можно найти по указанному пути поиска включаемых файлов для вставки в текущий файл.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - Include
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: fd64f897dc2a089a2e94f5e0c53e3ef116f7b385
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: d0005626c7fbb276775661a7cfb73d17f5e20d62
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105082105"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899360"
 ---
 # <a name="include-element"></a>Включить элемент
 Элемент include указывает файл, который можно найти по указанному пути поиска включаемых файлов для вставки в текущий файл.  Все определенные символы и типы станут частью скомпилированного результата.
@@ -39,7 +39,7 @@ ms.locfileid: "105082105"
 |Атрибут|Описание|
 |---------------|-----------------|
 |href|Обязательный. Путь к файлу заголовка:<br /><br /> href = "стдидкмд. h"|
-|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 

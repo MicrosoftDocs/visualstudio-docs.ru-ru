@@ -3,7 +3,7 @@ title: Окна документов | Документация Майкросо
 description: Сведения о окнах документов в Visual Studio, в том числе о способах их реализации и о том, как выполняемая таблица документов (РДТ) отслеживает свое состояние.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 79706c98e98be55e69aaeeed7320c8b13bfd2a9c
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: df7a797c0b4587698197412f49eef6bfab183a7a
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105061281"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899918"
 ---
 # <a name="document-windows"></a>Окна документов
 В Visual Studio *окно документа* является дочерним окном с фреймами, связанным с окном многодокументного интерфейса (MDI). Окна документов обычно используются для просмотра и изменения исходного кода или текста, но они также могут содержать другие функциональные типы. Окна документов:

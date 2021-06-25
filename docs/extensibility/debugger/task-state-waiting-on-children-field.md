@@ -2,7 +2,7 @@
 description: Задача завершила выполнение своего делегата и неявно ожидает завершения присоединенных дочерних задач.
 title: TASK_STATE_WAITING_ON_CHILDREN поле | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - TASK_STATE_WAITING_ON_CHILDREN field, Task class [.NET Framework debug engines]
 ms.assetid: 6f26b098-84ad-4f6e-ba27-6136581ba630
@@ -11,12 +11,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 955523b58703023add8b4bf312a98df8f792d3ef
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: b795a20ba19b1309b3f3bf972beed70549d72d88
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105075293"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900165"
 ---
 # <a name="task_state_waiting_on_children-field"></a>TASK_STATE_WAITING_ON_CHILDREN поле
 Задача завершила выполнение своего делегата и неявно ожидает завершения присоединенных дочерних задач.

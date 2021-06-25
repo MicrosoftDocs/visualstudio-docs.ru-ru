@@ -2,7 +2,7 @@
 description: Эта функция переименовывает файл в системе управления версиями.
 title: Функция Сккренаме | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccRename
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9d42e796f1ec2176e9de79ca392aab070581324
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: fb3fa392cd4ed31d907fe5913f8d7965a20df05b
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073837"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900464"
 ---
 # <a name="sccrename-function"></a>Функция SccRename
 Эта функция переименовывает файл в системе управления версиями.

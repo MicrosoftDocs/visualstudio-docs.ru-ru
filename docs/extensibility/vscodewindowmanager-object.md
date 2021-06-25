@@ -3,7 +3,7 @@ title: Объект Вскодевиндовманажер | Документа�
 description: Сведения об объекте Вскодевиндовманажер, который отвечает за управление декоративными элементами, например с помощью раскрывающейся панели.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - VSCodeWindowManager
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 60093d237ed2aa7a14e5695efc66fe8edd515f4a
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 76ab3d2a72c957b20a79850dc312f5c16de98afc
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062399"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905298"
 ---
 # <a name="vscodewindowmanager-object"></a>Объект Вскодевиндовманажер
 

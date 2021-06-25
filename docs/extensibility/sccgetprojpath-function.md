@@ -2,7 +2,7 @@
 description: Эта функция запрашивает у пользователя путь к проекту, который представляет собой строку, осмысленную только для подключаемого модуля системы управления версиями.
 title: Функция Сккжетпрожпас | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetProjPath
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 07c6b8f865d8b1b1d87c9c9468d74e2208265290
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 93266464249b8de037a618bab55ede31988384cb
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105063972"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901075"
 ---
 # <a name="sccgetprojpath-function"></a>Функция Сккжетпрожпас
 Эта функция запрашивает у пользователя путь к проекту, который представляет собой строку, осмысленную только для подключаемого модуля системы управления версиями. Он вызывается, когда пользователь:
@@ -79,12 +79,12 @@ SCCRTN SccGetProjPath (
 
 |Входящий|Интерпретация|
 |--------------|--------------------|
-|true|Пользователь может создать новый проект.|
+|TRUE|Пользователь может создать новый проект.|
 |FALSE|Пользователь не может создать новый проект.|
 
 |Исходящий|Интерпретация|
 |--------------|--------------------|
-|true|Создан новый проект.|
+|TRUE|Создан новый проект.|
 |FALSE|Выбран существующий проект.|
 
 ## <a name="return-value"></a>Возвращаемое значение

@@ -3,7 +3,7 @@ title: Пользовательские параметры решения (. Suo
 description: Сведения о файле параметров пользователя решения (. suo), содержащем параметры решения "на пользователя" в структурированном файле хранилища, который хранится в двоичном формате.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - .suo files, VSPackages
 - suo files, VSPackages
@@ -16,12 +16,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 92e755053d3519212c27fd2567610baf189db309
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 1a38eb865cf003f7a2f9bafde7b6e527ce24f2bd
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105069365"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899619"
 ---
 # <a name="solution-user-options-suo-file"></a>Файл параметров пользователя решения (SUO-файл)
 Файл параметров пользователя решения (. suo) содержит параметры решения "на пользователя". Этот файл не должен быть возвращен в систему управления исходным кодом.
