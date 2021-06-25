@@ -3,7 +3,7 @@ title: Подписывание пакетов VSIX | Документация �
 description: Сведения о сборках расширения подписи. Установщик VSIX отображает сообщение о том, что VSIX подписан, и сведения о самой сигнатуре.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - signature
 - signing
@@ -16,12 +16,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c2a2c9703eb41c1a3e5baa023d8240b56ccbb13b
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: d481c75754c7bc49369987d4bf6dc3aa33e96fdc
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056367"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899164"
 ---
 # <a name="signing-vsix-packages"></a>Подписывание пакетов VSIX
 Сборки расширений не обязательно должны быть подписаны, прежде чем они смогут работать в Visual Studio, но это рекомендуется сделать.

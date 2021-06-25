@@ -3,19 +3,19 @@ title: Меню и команды для Visual Studio | Документаци�
 description: Сведения о том, как панели команд обеспечивают гибкость пользовательского интерфейса при создании новых функций для Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1061de343ae24dce163dd0a7665d58ec7aac3a3a
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: ef66123e1a4d62f89fc1c69b81bcb780d0b294f0
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105068392"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902102"
 ---
 # <a name="menus-and-commands-for-visual-studio"></a>Меню и команды для Visual Studio
 ## <a name="command-usage"></a>Использование команды
@@ -105,7 +105,7 @@ ms.locfileid: "105068392"
 
 - Тест
 
-- Архитектура
+- Architecture
 
 - Анализ
 

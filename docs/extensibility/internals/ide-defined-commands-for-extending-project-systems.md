@@ -3,7 +3,7 @@ title: IDE-Defined команды для расширения систем пр�
 description: Сведения о командах и группах команд, определенных в интегрированной среде разработки Visual Studio (IDE), которые используются для расширения систем проектов.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - commands, project systems
 - project systems, environment-defined commands
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6fedca7081c531fef257e20e64426f8b35e88e87
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 4525802bf308d740ea5c468fac171e74bff2b34e
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105086005"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112901166"
 ---
 # <a name="ide-defined-commands-for-extending-project-systems"></a>Команды, определенные в интегрированной среде разработки, для расширения систем проектов
 При необходимости расширить системы проектов можно использовать команды и группы команд, предоставляемые [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] интегрированной средой разработки.

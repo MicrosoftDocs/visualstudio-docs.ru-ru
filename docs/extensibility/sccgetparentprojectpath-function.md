@@ -2,7 +2,7 @@
 description: Эта функция определяет родительский путь к проекту для указанного проекта.
 title: Функция Сккжетпарентпрожектпас | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetParentProjectPath
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 305f226117bbb9cf906231a0b9bbaa24c1d87a8e
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 13a0a77808004c7bc8f408bbf34a3ed4f0715b36
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105063985"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900139"
 ---
 # <a name="sccgetparentprojectpath-function"></a>Функция Сккжетпарентпрожектпас
 Эта функция определяет родительский путь к проекту для указанного проекта. Эта функция вызывается, когда пользователь добавляет проект Visual Studio в систему управления версиями.

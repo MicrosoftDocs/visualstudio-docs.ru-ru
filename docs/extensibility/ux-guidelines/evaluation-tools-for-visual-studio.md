@@ -3,19 +3,19 @@ title: Средства оценки для Visual Studio | Документац
 description: Используйте этот контрольный список, чтобы оценить качество взаимодействия с пользователем для визуальных элементов и сведений о взаимодействии для новых функций, разрабатываемых для Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 94e0e9a3-440c-4943-ad7b-772ed742e034
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6f23521763e73ef65b9c5a2f17acb54b85b71d63
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: baee9f3e2eaefcd659f8428bd566711949d0fe90
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105089892"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900763"
 ---
 # <a name="evaluation-tools-for-visual-studio"></a>Средства оценки для Visual Studio
 ## <a name="craftsmanship-checklist-for-visual-studio"></a>Контрольный список ремесленника для Visual Studio

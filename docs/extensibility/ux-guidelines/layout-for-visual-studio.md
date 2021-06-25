@@ -3,19 +3,19 @@ title: Макет для Visual Studio | Документация Майкрос
 description: Сведения о макете для диалоговых окон Visual Studio, в том числе диалоговых окон и новых диалоговых окнах, имеющих вид темы.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1c15b7458bfd18314015bbb9228c212a06fcd82f
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: e52b7b3fd620080b73e8d3de80672003ecb8fcf7
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105072979"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112900535"
 ---
 # <a name="layout-for-visual-studio"></a>Макет для Visual Studio
 Большинство диалоговых окон Visual Studio — это [Макет диалогового окна программы, который является неструктурированными](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout)диалогами, которые следуют стандартным [принципам макета диалогового окна Windows Desktop](/windows/desktop/uxguide/win-dialog-box). Когда Visual Studio переходит на обновление пользовательского интерфейса, некоторые из более заметных диалоговых окон имеют новую структуру, которая устанавливает их как возможности определения продукта. В этих [макетах диалогового окна](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) есть тематический вид.

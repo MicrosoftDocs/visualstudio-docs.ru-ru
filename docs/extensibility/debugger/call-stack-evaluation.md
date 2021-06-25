@@ -3,7 +3,7 @@ title: Вычисление стека вызовов | Документация
 description: Узнайте о методе Енумфрамеинфо и о том, как его реализовать для просмотра кадров стека вызовов в режиме приостановки выполнения.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], call stack evaluation
 - call stacks, evaluation
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c7e7180301965e43e6757340019c3506fe1a5e1f
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 059c42349c7f8e681709d69104cf65a6fc245206
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105055093"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898543"
 ---
 # <a name="call-stack-evaluation"></a>Оценка стека вызовов
 Чтобы просмотреть кадры стека стека вызовов в режиме приостановки выполнения, необходимо реализовать метод [енумфрамеинфо](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) .

@@ -3,7 +3,7 @@ title: Идентификаторы GUID и идентификаторы ком�
 description: Узнайте, как определять идентификаторы GUID и ИДЕНТИФИКАТОРы команд, входящих в интегрированную среду разработки (IDE) Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - commands
 - id
@@ -16,12 +16,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d2f25853f8f1ece583b460d39550af680001b3d4
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 8442e6430ead8f28d2afc7f51d14968b6999fcd9
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105069599"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898283"
 ---
 # <a name="guids-and-ids-of-visual-studio-commands"></a>Идентификаторы GUID и идентификаторы команд Visual Studio
 Идентификаторы GUID и ИДЕНТИФИКАТОРы команд, включенных в интегрированную среду разработки (IDE) Visual Studio, определяются в vsct-файлах, которые устанавливаются в составе пакета SDK для Visual Studio. Дополнительные сведения см. в разделе [команды, меню и группы, определяемые интегрированной средой разработки](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
