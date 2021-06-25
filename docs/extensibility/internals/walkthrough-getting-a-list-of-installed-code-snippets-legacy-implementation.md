@@ -3,7 +3,7 @@ title: Получение списка установленных фрагмен
 description: Узнайте, как получить все фрагменты кода для определенного идентификатора GUID языка. Сочетания клавиш для этих фрагментов можно вставить в список завершения IntelliSense.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - snippets, retrieving list
 - code snippets, retrieving list
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5f94d481a2884c64cb42b170d9d1abfa25c913a9
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 051f356e7b6b6f1a92ba475617f48e5c6074f402
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105069144"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898878"
 ---
 # <a name="walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation"></a>Пошаговое руководство. Получение списка установленных фрагментов кода (реализация прежних версий)
 Фрагмент кода — это фрагмент кода, который можно вставить в исходный буфер с помощью команды меню (которая позволяет выбрать из списка установленных фрагментов кода) или выбрать ярлык фрагмента из списка завершения IntelliSense.

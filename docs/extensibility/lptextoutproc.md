@@ -3,7 +3,7 @@ title: ЛПТЕКСТАУТПРОК | Документация Майкросо�
 description: Сведения о указателе на функцию ЛПТЕКСТАУТПРОК. В интегрированной среде разработки Visual Studio реализована функция для отображения ошибок и состояния.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - LPTEXTOUTPROC
 helpviewer_keywords:
@@ -18,12 +18,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e014d72fb3ae2b691f4a6eed28f14ff21656ef64
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: c313375efe8afd17dd5d76f55de4cdaf016bab40
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073187"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903103"
 ---
 # <a name="lptextoutproc"></a>LPTEXTOUTPROC
 

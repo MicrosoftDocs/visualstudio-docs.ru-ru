@@ -3,7 +3,7 @@ title: Элемент GuidSymbol | Документация Майкрософт
 description: 'Элемент GuidSymbol содержит GUID пары GUID: ID, представляющей меню, группу или команду.'
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, GuidSymbol
 - GuidSymbol element (VSCT XML schema)
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: eb683c99614797fa8b05eae87c758ec33f675c99
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 7c30c7a48b03b5deed3267e106e926d3cb5114c1
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105057459"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902765"
 ---
 # <a name="guidsymbol-element"></a>GuidSymbol, элемент
 `GuidSymbol`Элемент содержит GUID пары GUID: ID, представляющей меню, группу или команду. Идентификатор берется из `IDSymbol` элемента в `GuidSymbol` элементе. `GuidSymbol`Элемент имеет `name` атрибут, предоставляющий понятное имя GUID, которое содержится в `value` атрибуте.

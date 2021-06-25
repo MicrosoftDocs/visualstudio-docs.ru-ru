@@ -3,7 +3,7 @@ title: Страницы свойств | Документация Майкрос
 description: Сведения о работе со страницами свойств нового типа проектов в пакете SDK для Visual Studio, позволяющих пользователям просматривать и изменять свойства проекта.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - configuration options, changing properties
 - property pages
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f3e36960b35119434e56f075f622ae2513454dd6
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 88ebf99ef2361a232c4a5c4c02b9a140155d66e9
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105061021"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903415"
 ---
 # <a name="property-pages"></a>Страницы свойств
 Пользователи могут просматривать и изменять свойства, зависящие от конфигурации проекта, с помощью страниц свойств. Кнопка **страницы свойств** доступна в окне **свойства** или на панели инструментов Обозреватель решений для объектов, предоставляющих представление страницы свойств выбранного объекта. Страницы свойств создаются средой и доступны для решений и проектов. Однако они также могут быть доступны для элементов проекта, которые используют свойства, зависящие от конфигурации. Эта возможность может использоваться, если для правильной сборки файлов в проекте требуются различные параметры коммутатора компилятора.

@@ -3,7 +3,7 @@ title: Добавление каталогов в диалоговое окно 
 description: Сведения о добавлении каталогов в диалоговое окно Добавление нового элемента в Visual Studio с помощью сценария реестра для регистрации каталогов.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Add New Item dialog box, extending
 ms.assetid: 67ae8af6-3752-49e8-8ce3-007aca5f7982
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 131c04d1025885c59a884220a61098b2c85dd5a1
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: dab135f8e8632755674d7b3ddf5972592f74d315
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105079154"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904364"
 ---
 # <a name="add-directories-to-the-add-new-item-dialog-box"></a>Добавление каталогов в диалоговое окно "Добавление нового элемента"
 В следующем примере кода показано, как зарегистрировать новый набор каталогов для диалогового окна " **Добавление нового элемента** ". Каталоги для диалогового окна « **Добавление нового элемента** » для каждого проекта различаются. Поэтому каталоги регистрируются в подразделе " **проекты** ", который находится в **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\Projects**.

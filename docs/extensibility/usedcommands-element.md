@@ -3,7 +3,7 @@ title: Элемент Уседкоммандс | Документация Май
 description: Элемент Уседкоммандс группирует элементы Уседкомманд и другие группирования Уседкоммандс. Элемент Уседкоммандс является необязательным.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - UsedCommands
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b05c9571c0ca8252789f0e07ebfce66926fb19ff
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 21233527c9fcfb97fd45a8eeed60c04927df8ba1
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105060215"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903038"
 ---
 # <a name="usedcommands-element"></a>Элемент UsedCommands
 Элемент Уседкоммандс группирует элементы Уседкомманд и другие группирования Уседкоммандс.
@@ -42,7 +42,7 @@ ms.locfileid: "105060215"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 

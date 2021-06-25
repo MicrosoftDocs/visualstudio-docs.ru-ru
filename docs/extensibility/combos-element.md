@@ -3,7 +3,7 @@ title: Элемент КомБОС | Документация Майкрософ
 description: Элементы КомБОС группы элементов списка, определяющие команды, которые отображаются в поле со списком. В этой статье содержится пример.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Combos element (VSCT XML schema)
 - VSCT XML schema elements, Combos
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: be9135e2f863f3ab277e6c7408579d7ef8242bce
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 77c293fa827187461c5a6b84333c503a2f5cc231
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105089723"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903922"
 ---
 # <a name="combos-element"></a>КомБОС, элемент
 Группирует элементы [элемента списка](../extensibility/combo-element.md) .
@@ -39,7 +39,7 @@ ms.locfileid: "105089723"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "105089723"
 
 |Элемент|Описание|
 |-------------|-----------------|
-|[Commands, элемент](../extensibility/commands-element.md)|Представляет коллекцию команд на панели инструментов VSPackage.|
+|[Элемент Commands](../extensibility/commands-element.md)|Представляет коллекцию команд на панели инструментов VSPackage.|
 
 ## <a name="example"></a>Пример
 

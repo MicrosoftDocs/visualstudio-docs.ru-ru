@@ -3,7 +3,7 @@ title: Интерфейсы языковой службы прежних вер�
 description: Сведения о интерфейсах, доступных в пакете SDK для Visual Studio, которые предоставляют функции устаревшей языковой службы.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - IVsLanguageInfo interface
 - language services, objects
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 77647daeae2cf6e3bc76f9b0f2a58608b5bb28a4
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 75697e1d212b24b743fed62284b384985749fe7b
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105074521"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898608"
 ---
 # <a name="legacy-language-service-interfaces"></a>Интерфейсы языковой службы прежних версий
 Для любого конкретного языка программирования в каждый момент времени может существовать только один экземпляр языковой службы. Однако одна языковая служба может обслуживать несколько редакторов.

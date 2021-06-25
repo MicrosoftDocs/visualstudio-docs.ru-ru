@@ -3,7 +3,7 @@ title: Поставщики портов | Документация Майкро
 description: В этой статье описывается определение и роль поставщика порта в архитектуре отладчика в Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - port suppliers
 - debugging [Debugging SDK], port suppliers
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7ace9a7072287fa26aee3fa2abd083cc9f7f1314
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 0526135f706a42c622617a069e501297570e3b49
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105067807"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899125"
 ---
 # <a name="port-suppliers"></a>Поставщики портов
 В архитектуре отладчика *поставщик порта*:

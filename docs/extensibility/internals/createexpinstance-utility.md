@@ -3,7 +3,7 @@ title: Служебная программа CreateExpInstance | Докумен�
 description: Сведения о служебной программе CreateExpInstance, которая позволяет создавать, сбрасывать и удалять экспериментальные экземпляры Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - experimental builds
 - experimental hive
@@ -16,12 +16,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d0010c4a98d0ea50ec7feb2f7a379f3c84bc3d53
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: cce9bc25cb2ed820d3291ab65d94a868bb401ec9
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056991"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898140"
 ---
 # <a name="createexpinstance-utility"></a>Служебная программа CreateExpInstance
 Используйте служебную программу **CreateExpInstance** для создания, сброса или удаления экспериментального экземпляра Visual Studio. Экспериментальный экземпляр можно использовать для отладки и тестирования расширений Visual Studio без изменения базового продукта.

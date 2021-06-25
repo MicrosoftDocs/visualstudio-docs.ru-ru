@@ -3,7 +3,7 @@ title: Операционные режимы | Документация Майк
 description: Сведения о трех режимах, в которых может работать интегрированная среда разработки, в режиме конструктора, режиме выполнения и режиме приостановки.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debug engines, modes
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 563db644069731c5d74088dadf296933c36b0cc1
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 559df92545f4c14eb0575e7ef758e73028349b76
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105067846"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112899112"
 ---
 # <a name="operational-modes"></a>Операционные режимы
 Существует три режима работы интегрированной среды разработки, как показано ниже.

@@ -2,7 +2,7 @@
 description: Эта функция инициализирует подключаемый модуль системы управления версиями и предоставляет возможности и ограничения интегрированной среде разработки (IDE).
 title: Функция СкЦинитиализе | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccInitialize
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9f266fbe27cb509d2d6dca47a913261eea7f937c
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 633e8909febd758df455a9375f735a93e3407c77
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105063829"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902531"
 ---
 # <a name="sccinitialize-function"></a>Функция SccInitialize
 Эта функция инициализирует подключаемый модуль системы управления версиями и предоставляет возможности и ограничения интегрированной среде разработки (IDE).

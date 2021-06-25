@@ -3,7 +3,7 @@ title: Идентификаторы GUID и идентификаторы пан�
 description: Просмотрите список идентификаторов GUID и ИДЕНТИФИКАТОРов для панелей инструментов и содержащихся в них групп, которые включены в интегрированную среду разработки (IDE) Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - visual studio groups
 - toolbars
@@ -18,12 +18,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8ca3a2ec0b9d0eef7821641eaf05e93f83f94f40
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 3d2ba6c92a2913ec63a59751a4181454aa67fa67
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105082079"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898114"
 ---
 # <a name="guids-and-ids-of-visual-studio-toolbars"></a>Идентификаторы GUID и идентификаторы панелей инструментов Visual Studio
 В этом разделе перечисляются идентификаторы GUID и ИДЕНТИФИКАТОРы панелей инструментов, которые включены в интегрированную среду разработки (IDE) Visual Studio, и группы, которые они содержат. Эти значения определены в файлах *. vsct* , которые устанавливаются в составе пакета SDK для Visual Studio. Дополнительные сведения см. в разделе [команды, меню и группы, определяемые интегрированной средой разработки](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
@@ -114,7 +114,7 @@ ms.locfileid: "105082079"
 
 |Окно инструментов|Панель инструментов|Группы|
 |-----------------|-------------|------------|
-|обозреватель решений|IDM_VS_TOOL_PROJWIN|IDG_VS_PROJ_TOOLBAR1.. 5.0|
+|Обозреватель решений|IDM_VS_TOOL_PROJWIN|IDG_VS_PROJ_TOOLBAR1.. 5.0|
 |Обозреватель серверов|guid_SE_MenuGroup: IDM_SE_TOOLBAR_SERVEREXPLORER|IDG_SE_TOOLBAR_REFRESH|
 |Свойства|IDM_VS_TOOL_PROPERTIES|IDG_VS_PROPERTIES_SORT<br /><br /> IDG_VS_PROPERTIES_PAGES|
 |Представление классов|IDM_VS_TOOL_CLASSVIEW|IDG_VS_CLASSVIEW_FOLDERS<br /><br /> IDG_VS_CLASSVIEW_SEARCH<br /><br /> IDG_VS_CLASSVIEW_SETTINGS|

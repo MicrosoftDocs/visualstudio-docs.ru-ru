@@ -2,19 +2,19 @@
 title: Общие цвета для Visual Studio | Документация Майкрософт
 description: Узнайте, как использовать общие элементы и темы оболочки Visual Studio для проектирования собственного пользовательского интерфейса, который согласуется с средой Visual Studio.
 ms.date: 04/26/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8edd16744a6c094ece00ee5e4b8239f3d4f5a92e
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 262f90fb8d03a9404cdbba8b942e90f6fe6fd3aa
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105054040"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903974"
 ---
 # <a name="shared-colors-for-visual-studio"></a>Общие цвета для Visual Studio
 При проектировании пользовательского интерфейса, использующего общие элементы оболочки Visual Studio, или необходимости соответствия элемента интерфейса аналогичным функциям, используйте существующие имена токенов в файлах определения пакета для выбора и назначения цветов. Таким образом можно обеспечить согласованность пользовательского интерфейса со всей средой Visual Studio и его автоматическое обновление при добавлении или обновлении тем.
@@ -111,7 +111,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.CheckBoxBackground` |
+| Фон | `CommonControls.CheckBoxBackground` |
 | Рамка | `CommonControls.CheckBoxBorder` |
 | Текст | `CommonControls.CheckBoxText` |
 | Глиф | `CommonControls.CheckBoxGlyph` |
@@ -122,7 +122,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.CheckBoxBackgroundDisabled` |
+| Фон | `CommonControls.CheckBoxBackgroundDisabled` |
 | Рамка | `CommonControls.CheckBoxBorderDisabled` |
 | Текст | `CommonControls.CheckBoxTextDisabled` |
 | Глиф | `CommonControls.CheckBoxGlyphDisabled` |
@@ -133,7 +133,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.CheckBoxBackgroundHover` |
+| Фон | `CommonControls.CheckBoxBackgroundHover` |
 | Рамка | `CommonControls.CheckBoxBorderHover` |
 | Текст | `CommonControls.CheckBoxTextHover` |
 | Глиф | `CommonControls.CheckBoxGlyphHover` |
@@ -144,7 +144,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.CheckBoxBackgroundPressed` |
+| Фон | `CommonControls.CheckBoxBackgroundPressed` |
 | Рамка | `CommonControls.CheckBoxBorderPressed` |
 | Текст | `CommonControls.CheckBoxTextPressed` |
 | Глиф | `CommonControls.CheckBoxGlyphPressed` |
@@ -155,7 +155,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.CheckBoxBackgroundFocused` |
+| Фон | `CommonControls.CheckBoxBackgroundFocused` |
 | Рамка | `CommonControls.CheckBoxBorderFocused` |
 | Текст | `CommonControls.CheckBoxTextFocused` |
 | Глиф | `CommonControls.CheckBoxGlyphFocused` |
@@ -174,7 +174,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.ComboBoxBackground` |
+| Фон | `CommonControls.ComboBoxBackground` |
 | Рамка | `CommonControls.ComboBoxBorder` |
 | Текст | `CommonControls.ComboBoxText` |
 | Separator | `CommonControls.ComboBoxSeparator` |
@@ -187,7 +187,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.ComboBoxBackgroundDisabled` |
+| Фон | `CommonControls.ComboBoxBackgroundDisabled` |
 | Рамка | `CommonControls.ComboBoxBorderDisabled` |
 | Текст | `CommonControls.ComboBoxTextDisabled` |
 | Separator | `CommonControls.ComboBoxSeparatorDisabled` |
@@ -200,7 +200,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.ComboBoxBackgroundHover` |
+| Фон | `CommonControls.ComboBoxBackgroundHover` |
 | Рамка | `CommonControls.ComboBoxBorderHover` |
 | Текст | `CommonControls.ComboBoxTextHover` |
 | Separator | `CommonControls.ComboBoxSeparatorHover` |
@@ -213,7 +213,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.ComboBoxBackgroundPressed` |
+| Фон | `CommonControls.ComboBoxBackgroundPressed` |
 | Рамка | `CommonControls.ComboBoxBorderPressed` |
 | Текст | `CommonControls.ComboBoxTextPressed` |
 | Separator | `CommonControls.ComboBoxSeparatorPressed` |
@@ -226,7 +226,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.ComboBoxListBackground`<br />`CommonControls.ComboBoxListBackgroundHover`<br />`CommonControls.ComboBoxListItemBackgroundPressed`<br />`CommonControls.ComboBoxListItemBackgroundFocused` |
+| Фон | `CommonControls.ComboBoxListBackground`<br />`CommonControls.ComboBoxListBackgroundHover`<br />`CommonControls.ComboBoxListItemBackgroundPressed`<br />`CommonControls.ComboBoxListItemBackgroundFocused` |
 | Рамка | `CommonControls.ComboBoxListBorder`<br />`CommonControls.ComboBoxListBorderHover`<br />`CommonControls.ComboBoxListBorderPressed`<br />`CommonControls.ComboBoxListBorderFocused` |
 | Текст элемента | `CommonControls.ComboBoxListItemText`<br /> `CommonControls.ComboBoxListItemTextHover`<br />`CommonControls.ComboBoxListItemTextPressed`<br />`CommonControls.ComboBoxListItemTextFocused` |
 | Фон с тенью | `CommonControls.ComboBoxListBackgroundShadow` |
@@ -237,7 +237,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.ComboBoxBackgroundFocused` |
+| Фон | `CommonControls.ComboBoxBackgroundFocused` |
 | Рамка | `CommonControls.ComboBoxBorderFocused` |
 | Текст | `CommonControls.ComboBoxTextFocused` |
 | Separator | `CommonControls.ComboBoxSeparatorFocused` |
@@ -268,7 +268,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Header.Default` |
+| Фон | `Header.Default` |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
 | Передний план (глиф) | `Header.Glyph` |
 | Рамка | `Header.SeparatorLine` |
@@ -277,7 +277,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Header.MouseOver` |
+| Фон | `Header.MouseOver` |
 | Передний план (текст) | `Environment.CommandBarTextHover` |
 | Передний план (глиф) | `Header.MouseOverGlyph` |
 | Рамка | `Header.SeparatorLine` |
@@ -286,7 +286,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `CommonControls.CheckBoxBackgroundPressed` |
+| Фон | `CommonControls.CheckBoxBackgroundPressed` |
 | Передний план (текст) | `CommonControls.CheckBoxBorderPressed` |
 | Передний план (глиф) | `CommonControls.CheckBoxTextPressed` |
 | Рамка | `CommonControls.CheckBoxGlyphPressed` |
@@ -298,25 +298,25 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Прозрачный |
+| Фон | Прозрачный |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Элементы представления списка: активное состояние**
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemActive` |
+| Фон | `TreeView.SelectedItemActive` |
 | Передний план (текст) | `TreeView.SelectedItemActiveText` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Элементы представления списка: неактивное состояние**
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemInactive` |
+| Фон | `TreeView.SelectedItemInactive` |
 | Передний план (текст) | `TreeView.SelectedItemInactiveText` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 ### <a name="ui-text"></a>Текст пользовательского интерфейса
 
@@ -356,7 +356,7 @@ ms.locfileid: "105054040"
 | Элемент | Имя токена: Category.color |
 | --- | --- |
 | Передний план (текст) | `Environment.ControlRequiredHintText` |
-| Историческая справка | `Environment.ControlRequiredBackground` |
+| Фон | `Environment.ControlRequiredBackground` |
 
 **Текст элемента управления "поле поиска"**
 
@@ -424,7 +424,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.InfoBarBackground` |
+| Фон | `InfoBar.InfoBarBackground` |
 | Передний план (текст) | `InfoBar.InfoBar` |
 | Рамка | `InfoBar.InfoBarBorder` |
 
@@ -434,7 +434,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.CloseButton` |
+| Фон | `InfoBar.CloseButton` |
 | Рамка | `InfoBar.CloseButtonBorder` |
 | Глиф | `InfoBar.CloseButtonGlyph` |
 
@@ -444,7 +444,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.CloseButtonHover` |
+| Фон | `InfoBar.CloseButtonHover` |
 | Рамка | `InfoBar.CloseButtonHoverBorder` |
 | Глиф | `InfoBar.CloseButtonHoverGlyph` |
 
@@ -454,7 +454,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.CloseButtonDown` |
+| Фон | `InfoBar.CloseButtonDown` |
 | Рамка | `InfoBar.CloseButtonDownBorder` |
 | Глиф | `InfoBar.CloseButtonDownGlyph` |
 
@@ -512,7 +512,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.Button` |
+| Фон | `InfoBar.Button` |
 | Передний план (текст) | `InfoBar.Button` |
 | Рамка | `InfoBar.ButtonBorder` |
 
@@ -522,7 +522,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.ButtonMouseOver` |
+| Фон | `InfoBar.ButtonMouseOver` |
 | Передний план (текст) | `InfoBar.ButtonMouseOver` |
 | Рамка | `InfoBar.ButtonMouseOverBorder` |
 
@@ -532,7 +532,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.ButtonMouseDown` |
+| Фон | `InfoBar.ButtonMouseDown` |
 | Передний план (текст) | `InfoBar.ButtonMouseDown` |
 | Рамка | `InfoBar.ButtonMouseDownBorder` |
 
@@ -542,7 +542,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.ButtonDisabled` |
+| Фон | `InfoBar.ButtonDisabled` |
 | Передний план (текст) | `InfoBar.ButtonDisabled` |
 | Рамка | `InfoBar.ButtonDisabledBorder` |
 
@@ -552,7 +552,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `InfoBar.ButtonFocus` |
+| Фон | `InfoBar.ButtonFocus` |
 | Передний план (текст) | `InfoBar.ButtonFocus` |
 | Рамка | `InfoBar.ButtonFocusBorder` |
 
@@ -598,7 +598,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ScrollBarArrowBackground`<br />(Задайте тот же цвет, что и полоса прокрутки.) |
+| Фон | `Environment.ScrollBarArrowBackground`<br />(Задайте тот же цвет, что и полоса прокрутки.) |
 | Передний план (глиф) | `Environment.ScrollBarArrowGlyph` |
 
 **Стрелка полосы прокрутки: состояние наведения**
@@ -607,7 +607,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ScrollBarArrowMouseOverBackground`<br />(Задайте тот же цвет, что и полоса прокрутки.) |
+| Фон | `Environment.ScrollBarArrowMouseOverBackground`<br />(Задайте тот же цвет, что и полоса прокрутки.) |
 | Передний план (глиф) | `Environment.ScrollBarArrowGlyphMouseOver` |
 
 **Стрелка полосы прокрутки: нажатое состояние**
@@ -616,7 +616,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ScrollBarArrowPressedBackground`<br />(Задайте тот же цвет, что и полоса прокрутки.) |
+| Фон | `Environment.ScrollBarArrowPressedBackground`<br />(Задайте тот же цвет, что и полоса прокрутки.) |
 | Передний план (глиф) | `Environment.ScrollBarArrowGlyphPressed` |
 
 ### <a name="search-boxes"></a><a name="BKMK_SearchBoxes"></a>Поля поиска
@@ -645,7 +645,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.FocusedBackground` |
+| Фон | `SearchControl.FocusedBackground` |
 | Передний план (текст) | `SearchControl.FocusedBackground` |
 | Рамка | `SearchControl.FocusedBorder` |
 | Separator | `SearchControl.FocusedDropDownSeparator` |
@@ -656,7 +656,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.SearchActiveBackground` |
+| Фон | `SearchControl.SearchActiveBackground` |
 | Передний план (текст) | `SearchControl.SearchActiveBackground` |
 | Рамка | `SearchControl.UnfocusedBorder` |
 | Separator | `SearchControl.DropDownSeparator` |
@@ -667,7 +667,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.Unfocused` |
+| Фон | `SearchControl.Unfocused` |
 | Передний план (текст) | `SearchControl.Unfocused` |
 | Рамка | `SearchControl.UnfocusedBorder` |
 | Separator | `SearchControl.DropDownSeparator` |
@@ -678,9 +678,9 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.Selection` |
+| Фон | `SearchControl.Selection` |
 | Передний план (текст) | `SearchControl.FocusedBackground` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 | Separator | `SearchControl.FocusedDropDownSeparator` |
 
 **Отключенное поле ввода для поиска**
@@ -689,7 +689,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.Disabled` |
+| Фон | `SearchControl.Disabled` |
 | Передний план (текст) | `SearchControl.Disabled` |
 | Рамка | `SearchControl.DisabledBorder` |
 | Separator | `SearchControl.DropDownSeparator` |
@@ -700,11 +700,11 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (глиф поиска) | `SearchControl.SearchGlyph` |
 | Передний план (глиф остановки) | `SearchControl.StopGlyph` |
 | Передний план (глиф очистки) | `SearchControl.ClearGlyph` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 **Кнопка "действие поиска нефокуса"**
 
@@ -712,11 +712,11 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (глиф поиска) | `SearchControl.SearchGlyph` |
 | Передний план (глиф остановки) | `SearchControl.StopGlyph` |
 | Передний план (глиф очистки) | `SearchControl.ClearGlyph` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 **Кнопка "действие поиска" нажата**
 
@@ -724,7 +724,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.ActionButtonMouseDown` |
+| Фон | `SearchControl.ActionButtonMouseDown` |
 | Передний план (глиф) | `SearchControl.ActionButtonMouseDownGlyph` |
 | Рамка | `SearchControl.ActionButtonMouseDownBorder` |
 
@@ -734,9 +734,9 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (глиф) | `SearchControl.ActionButtonDisabledGlyph` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Кнопка раскрывающегося списка поиска с сортировкой**
 
@@ -744,7 +744,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.FocusedDropDownButton` |
+| Фон | `SearchControl.FocusedDropDownButton` |
 | Передний план (глиф) | `SearchControl.FocusedDropDownButtonGlyph` |
 | Рамка | `SearchControl.FocusedDropDownButtonBorder` |
 
@@ -754,7 +754,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.UnfocusedDropDownButton` |
+| Фон | `SearchControl.UnfocusedDropDownButton` |
 | Передний план (глиф) | `SearchControl.UnfocusedDropDownButtonGlyph` |
 | Рамка | `SearchControl.UnfocusedDropDownButtonBorder` |
 
@@ -764,7 +764,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.MouseDownDropDownButton` |
+| Фон | `SearchControl.MouseDownDropDownButton` |
 | Передний план (глиф) | `SearchControl.MouseDownDropDownButtonGlyph` |
 | Рамка | `SearchControl.MouseDownDropDownButtonBorder` |
 
@@ -774,9 +774,9 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (глиф) | `SearchControl.DisabledDownButtonGlyph` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 #### <a name="search-drop-down-lists"></a>Раскрывающиеся списки поиска
 Раскрывающееся меню поля поиска может быть несколько более сложным, чем другие раскрывающиеся меню в Visual Studio. Разделы "предлагаемые поиски" и "Параметры поиска" могут содержаться в меню отдельно или вместе, и каждый из них окрашен раздельно. Если имеются оба этих раздела, они разделяются линией, а все раскрывающееся меню окружено границей.
@@ -802,7 +802,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.PopupItemsListBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `SearchControl.PopupItemsListBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `SearchControl.PopupItemText` |
 
 **Предлагаемые поиски: состояние наведения**
@@ -811,7 +811,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.PopupControlMouseOverBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `SearchControl.PopupControlMouseOverBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `SearchControl.PopupMouseOverItemText` |
 | Рамка | `SearchControl.PopupControlMouseOverBorder` |
 
@@ -823,7 +823,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.PopupSectionBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `SearchControl.PopupSectionBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст флажка) | `SearchControl.PopupCheckboxText` |
 | Передний план (текст ссылки) | `SearchControl.PopupButtonText` |
 | Фон заголовка | `SearchControl.PopupSectionHeaderGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
@@ -837,7 +837,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `SearchControl.PopupControlMouseOverBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `SearchControl.PopupControlMouseOverBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст флажка) | `SearchControl.PopupCheckboxMouseDownText` |
 | Передний план (текст ссылки) | `SearchControl.PopupButtonMouseDownText` |
 | Рамка | `SearchControl.PopupControlMouseOverBorder` |
@@ -871,10 +871,10 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.Background` |
+| Фон | `TreeView.Background` |
 | Передний план (текст) | `TreeView.Background` |
 | Передний план (глиф) | `TreeView.Glyph` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Элемент представления в виде дерева: состояние наведения**
 
@@ -882,10 +882,10 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.Background` |
+| Фон | `TreeView.Background` |
 | Передний план (текст) | `TreeView.Background` |
 | Передний план (глиф) | `TreeView.GlyphMouseOver` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Элемент представления в виде дерева: перетаскивать по состоянию**
 
@@ -893,10 +893,10 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.DragOverItem` |
+| Фон | `TreeView.DragOverItem` |
 | Передний план (текст) | `TreeView.DragOverItem` |
 | Передний план (глиф) | `TreeView.DragOverItemGlyph` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Элемент представления в виде дерева: выбрано, состояние с сортировкой**
 
@@ -904,7 +904,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemActive` |
+| Фон | `TreeView.SelectedItemActive` |
 | Передний план (текст) | `TreeView.SelectedItemActive` |
 | Передний план (глиф) | `TreeView.SelectedItemActiveGlyph` |
 | Рамка | `TreeView.FocusVisualBorder` |
@@ -915,10 +915,10 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemInactive` |
+| Фон | `TreeView.SelectedItemInactive` |
 | Передний план (текст) | `TreeView.SelectedItemInactive` |
 | Передний план (глиф) | `TreeView.SelectedItemInactiveGlyph` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Элемент представления в виде дерева: с наведением, выбрано и с состоянием "упор"**
 
@@ -926,7 +926,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemActive` |
+| Фон | `TreeView.SelectedItemActive` |
 | Передний план (текст) | `TreeView.SelectedItemActive` |
 | Передний план (глиф) | `TreeView.SelectedItemActiveGlyphMouseOver` |
 | Рамка | `TreeView.FocusVisualBorder` |
@@ -937,14 +937,14 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemInactive` |
+| Фон | `TreeView.SelectedItemInactive` |
 | Передний план (текст) | `TreeView.SelectedItemInactive` |
 | Передний план (глиф) | `TreeView.SelectedItemActiveGlyphMouseOver` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 ## <a name="shell-appearance"></a>Внешний вид оболочки
 
-### <a name="background"></a>Историческая справка
+### <a name="background"></a>Фон
 Фон среды состоит из двух слоев. Нижний слой представляет собой сплошной цвет, который охватывает всю интегрированную среду разработки. Верхний слой используется под командной полкой и между каналами автоматического скрытия окон инструментов по левому и правому краям интегрированной среды разработки. Верхние и нижние фоновые слои устанавливаются на один и тот же цвет в светлых и темных темах.
 
 ![Фон оболочки Visual Studio (красная линия)](../../extensibility/ux-guidelines/media/0303-187_shellbackgroundredline.png "0303 — 187_ShellBackgroundRedline")<br />Фон оболочки Visual Studio (красная линия)
@@ -958,7 +958,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.EnvironmentBackground` |
+| Фон | `Environment.EnvironmentBackground` |
 
 **Внешний вид оболочки верхнего слоя**
 
@@ -966,7 +966,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.EnvironmentBackgroundGradientBegin`<br />`Environment.EnvironmentBackgroundGradientEnd`<br />`Environment.EnvironmentBackgroundGradientMiddle1`<br />`Environment.EnvironmentBackgroundGradientMiddle2` |
+| Фон | `Environment.EnvironmentBackgroundGradientBegin`<br />`Environment.EnvironmentBackgroundGradientEnd`<br />`Environment.EnvironmentBackgroundGradientMiddle1`<br />`Environment.EnvironmentBackgroundGradientMiddle2` |
 
 ### <a name="command-shelf"></a>Командная полка
 Для фона командной полки используются два набора имен токенов: один для области размещения строки меню, а другой — для области размещения панелей команд. Отдельные группы на панели команд имеют собственные значения цветов фона, которые более подробно рассматриваются в разделе, посвященном панели команд. Цвета текста строки меню и панели команд рассматриваются в разделах, посвященных меню и панели команд.
@@ -984,7 +984,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandShelfHighlightGradientBegin`<br /><br />`Environment.CommandShelfHighlightGradientMiddle`<br />`Environment.CommandShelfHighlightGradientEnd` |
+| Фон | `Environment.CommandShelfHighlightGradientBegin`<br /><br />`Environment.CommandShelfHighlightGradientMiddle`<br />`Environment.CommandShelfHighlightGradientEnd` |
 
 **Панель команд полки команды**
 
@@ -992,7 +992,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandShelfBackgroundGradientBegin`<br />`Environment.CommandShelfBackgroundGradientMiddle`<br />`Environment.CommandShelfBackgroundGradientEnd` |
+| Фон | `Environment.CommandShelfBackgroundGradientBegin`<br />`Environment.CommandShelfBackgroundGradientMiddle`<br />`Environment.CommandShelfBackgroundGradientEnd` |
 
 ## <a name="manifest-designer"></a>Конструктор манифеста
 Конструктор манифеста призван упростить редактирование файла манифеста в проектах Windows 8 и Windows Phone 8. Хотя общего готового шаблона нет, рекомендуется обеспечивать соответствие макету и цветам вкладок ориентации и навигации, а также общей структуре. Дополнительные сведения о макете см. в разделе [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md).
@@ -1008,33 +1008,33 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `ManifestDesigner.TabActive` |
-| Рамка | Отсутствуют |
+| Фон | `ManifestDesigner.TabActive` |
+| Рамка | Нет |
 
 **Выбранная панель описания конструктора манифестов: состояние по умолчанию**
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `ManifestDesigner.DescriptionPane` |
+| Фон | `ManifestDesigner.DescriptionPane` |
 
 **Конструктор манифестов выбранная страница содержимого: состояние по умолчанию**
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `ManifestDesigner.Background` |
+| Фон | `ManifestDesigner.Background` |
 | Текст подсказки для диалогового окна | `ManifestDesigner.WatermarkText`<br />(Это имя токена не соответствует его функции.) |
 
 **Вкладка "Конструктор манифестов": невыбранное состояние**
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `ManifestDesigner.Tab.Inactive` |
+| Фон | `ManifestDesigner.Tab.Inactive` |
 
 **Вкладка "Конструктор манифестов": состояние наведения**
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `ManifestDesigner.Tab.Mouseover` |
+| Фон | `ManifestDesigner.Tab.Mouseover` |
 
 ## <a name="command-structures"></a>Структура команд
 
@@ -1066,10 +1066,10 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
 | Передний план (глиф) | `Environment.CommandBarMenuGlyph` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 **Заголовок меню: состояние наведения**
 
@@ -1079,7 +1079,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextHover` |
 | Передний план (глиф) | `Environment.CommandBarMenuMouseOverGlyph` |
 | Рамка | `Environment.CommandBarBorder` |
@@ -1092,7 +1092,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMenuBackgroundGradientBegin`<br/>(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMenuBackgroundGradientBegin`<br/>(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
 | Передний план (глиф) | `Environment.CommandBarMenuMouseDownGlyph` |
 | Рамка | `Environment.CommandBarMenuBorder`<br />(Только левые, верхняя и правая стороны.) |
@@ -1103,10 +1103,10 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (текст) | `Environment.CommandBarTextInactive` |
 | Передний план (глиф) | `Environment.CommandBarTextInactive` |
-| Рамка | Отсутствуют |
+| Рамка | Нет |
 
 #### <a name="menu-items"></a>Пункты меню
 Отдельный пункт меню состоит из текста и необязательных значка, флажка или глифа подменю. Его цвета фона и текста меняются при наведении указателя. Этот токен цвета представляет собой пару, состоящую из цвета фона и цвета переднего плана.
@@ -1124,7 +1124,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMenuBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMenuBackgroundGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
 | Передний план (глиф подменю) | `Environment.CommandBarMenuSubmenuGlyph` |
 | Рамка | `Environment.CommandBarMenuBorder` |
@@ -1155,7 +1155,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMenuItemMouseOver` |
+| Фон | `Environment.CommandBarMenuItemMouseOver` |
 | Передний план (текст) | `Environment.CommandBarMenuItemMouseOverText` |
 | Передний план (глиф подменю) | `Environment.CommandBarMenuMouseOverSubmenuGlyph` |
 | Флажок | `Environment.CommandBarCheckBoxMouseOver` |
@@ -1204,7 +1204,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Рамка | `Environment.CommandBarToolBarBorder` |
 | Маркер перетаскивания | `Environment.CommandBarDragHandle` |
 | Separator | `Environment.CommandBarToolBarSeparator`<br />`Environment.CommandBarToolBarSeparatorHighlight` |
@@ -1225,9 +1225,9 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д (наследуется от фона панели команд) |
+| Фон | Н/Д (наследуется от фона панели команд) |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 **Значок команды: состояние по умолчанию, выбрано**
 
@@ -1235,7 +1235,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarSelected` |
+| Фон | `Environment.CommandBarSelected` |
 | Передний план (текст) | `Environment.CommandBarTextSelected` |
 | Рамка | `Environment.CommandBarSelectedBorder` |
 
@@ -1245,7 +1245,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextHover` |
 | Рамка | `Environment.CommandBarBorder` |
 
@@ -1255,7 +1255,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarHoverOverSelected` |
+| Фон | `Environment.CommandBarHoverOverSelected` |
 | Передний план (текст) | `Environment.CommandBarTextHoverOverSelected` |
 | Рамка | `Environment.CommandBarHoverOverSelectedIconBorder` |
 
@@ -1265,7 +1265,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMouseDownBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMouseDownBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextMouseDown` |
 | Рамка | `Environment.CommandBarBorder` |
 
@@ -1275,9 +1275,9 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д (наследуется от фона панели команд) |
+| Фон | Н/Д (наследуется от фона панели команд) |
 | Передний план (текст) | `Environment.CommandBarTextInactive` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 #### <a name="command-bar-combo-boxes"></a><a name="BKMK_CommandComboBox"></a> Поля со списком для панели команд
 
@@ -1297,7 +1297,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxBackground` |
+| Фон | `Environment.ComboBoxBackground` |
 | Передний план (текст) | `Environment.ComboBoxText` |
 | Рамка | `Environment.ComboBoxBorder` |
 | Separator | Без разделителя |
@@ -1308,7 +1308,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д (наследуется от фона панели команд) |
+| Фон | Н/Д (наследуется от фона панели команд) |
 | Передний план (глиф) | `Environment.ComboBoxGlyph` |
 
 **Раскрывающийся список панели команд: состояние по умолчанию**
@@ -1317,7 +1317,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxPopupBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.ComboBoxPopupBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.ComboBoxItemText` |
 | Рамка | `Environment.ComboBoxPopupBorder` |
 
@@ -1327,7 +1327,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.ComboBoxMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.ComboBoxMouseOverText` |
 | Рамка | `Environment.ComboBoxMouseOverBorder` |
 | Separator | `Environment.ComboBoxMouseOverSeparator` |
@@ -1338,7 +1338,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxButtonMouseOverBackground` |
+| Фон | `Environment.ComboBoxButtonMouseOverBackground` |
 | Передний план (глиф) | `Environment.ComboBoxMouseOverGlyph` |
 
 **Раскрывающийся список панели команд: состояние наведения**
@@ -1357,7 +1357,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxFocusedBackground` |
+| Фон | `Environment.ComboBoxFocusedBackground` |
 | Передний план (текст) | `Environment.ComboBoxFocusedText` |
 | Рамка | `Environment.ComboBoxFocusedBorder` |
 | Separator | `Environment.ComboBoxFocusedButtonSeparator` |
@@ -1368,7 +1368,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxFocusedButtonBackground` |
+| Фон | `Environment.ComboBoxFocusedButtonBackground` |
 | Передний план (глиф) | `Environment.ComboBoxFocusedGlyph` |
 
  **Поле ввода поля со списком для панели команд: состояние "нажато"**
@@ -1377,7 +1377,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxMouseDownBackground` |
+| Фон | `Environment.ComboBoxMouseDownBackground` |
 | Передний план (текст) | `Environment.ComboBoxMouseDownText` |
 | Рамка | `Environment.ComboBoxMouseDownBorder` |
 | Separator | `Environment.ComboBoxMouseDownSeparator` |
@@ -1388,7 +1388,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxButtonMouseDownBackground` |
+| Фон | `Environment.ComboBoxButtonMouseDownBackground` |
 | Передний план (глиф) | `Environment.ComboBoxMouseDownGlyph` |
 
 **Поле ввода поля со списком для панели команд: отключенное состояние**
@@ -1397,7 +1397,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ComboBoxDisabledBackground` |
+| Фон | `Environment.ComboBoxDisabledBackground` |
 | Передний план (текст) | `Environment.ComboBoxDisabledText` |
 | Рамка | `Environment.ComboBoxDisabledBorder` |
 | Separator | Без разделителя |
@@ -1408,7 +1408,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (глиф) | `Environment.ComboBoxDisabledGlyph` |
 
 #### <a name="command-bar-drop-downs"></a><a name="BKMK_CommandDropDown"></a> Раскрывающиеся панели команд
@@ -1429,7 +1429,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownBackground` |
+| Фон | `Environment.DropDownBackground` |
 | Передний план (текст) | `DropDownText` |
 | Рамка | `DropDownBorder` |
 | Separator | Без разделителя |
@@ -1440,7 +1440,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (глиф) | `Environment.DropDownGlyph` |
 
 **Раскрывающийся список панели команд: состояние по умолчанию**
@@ -1449,7 +1449,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownPopupBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.DropDownPopupBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.ComboBoxItemText` |
 | Рамка | `Environment.DropDownPopupBorder` |
 | Shadow | `Environment.DropShadowBackground` |
@@ -1460,7 +1460,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.DropDownMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.DropDownMouseOverText` |
 | Рамка | `Environment.DropDownMouseOverBorder` |
 | Separator | `Environment.DropDownButtonMouseOverSeparator` |
@@ -1471,7 +1471,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownButtonMouseOverBackground` |
+| Фон | `Environment.DropDownButtonMouseOverBackground` |
 | Передний план (глиф) | `Environment.DropDownMouseOverGlyph` |
 
 **Раскрывающийся список панели команд: состояние наведения**
@@ -1490,7 +1490,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownMouseDownBackground` |
+| Фон | `Environment.DropDownMouseDownBackground` |
 | Передний план (текст) | `Environment.DropDownMouseDownText` |
 | Рамка | `Environment.DropDownMouseDownBorder` |
 | Separator | `Environment.DropDownButtonMouseDownSeparator` |
@@ -1501,7 +1501,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownButtonMouseDownBackground` |
+| Фон | `Environment.DropDownButtonMouseDownBackground` |
 | Передний план (глиф) | `Environment.DropDownMouseDownGlyph` |
 
 **Раскрывающееся поле выбора панели команд: отключенное состояние**
@@ -1510,7 +1510,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DropDownDisabledBackground` |
+| Фон | `Environment.DropDownDisabledBackground` |
 | Передний план (текст) | `Environment.DropDownDisabledText` |
 | Рамка | `Environment.DropDownDisabledBorder` |
 | Separator | Без разделителя |
@@ -1521,7 +1521,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (глиф) | `Environment.DropDownDisabledGlyph` |
 
 #### <a name="command-bar-split-buttons"></a>Кнопки разделения панели команд
@@ -1540,11 +1540,11 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Отсутствуют |
+| Фон | Нет |
 | Передний план (текст) | `Environment.CommandBarTextActive` |
 | Передний план (глиф) | `Environment.CommandBarSplitButtonGlyph` |
-| Рамка | Н/Д |
-| Separator | Н/Д |
+| Рамка | Недоступно |
+| Separator | Недоступно |
 
 **Кнопка разделения панели команд: состояние наведения**
 
@@ -1552,7 +1552,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextHover` |
 | Передний план (глиф) | `Environment.CommandBarSplitButtonMouseOverGlyph` |
 | Рамка | `Environment.CommandBarBorder` |
@@ -1564,11 +1564,11 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarMouseDownBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarMouseDownBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.CommandBarTextMouseDown` |
 | Передний план (глиф) | `Environment.CommandBarSplitButtonMouseDownGlyph` |
 | Рамка | `Environment.CommandBarBorder` |
-| Separator | Н/Д |
+| Separator | Недоступно |
 
 **Кнопка разделения панели команд: отключенное состояние**
 
@@ -1576,11 +1576,11 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (текст) | `Environment.ComboBoxItemTextInactive` |
 | Передний план (глиф) | `Environment.CommandBarTextInactive` |
-| Рамка | Н/Д |
-| Separator | Н/Д |
+| Рамка | Недоступно |
+| Separator | Недоступно |
 
 #### <a name="command-bar-more-options-and-overflow-buttons"></a>Кнопки "Дополнительные параметры" и "переполнение" в командной строке
 Кнопка "Дополнительно" используется, если группа панели команд может настраиваться путем добавления или удаления связанных кнопок. Кнопка "Переполнение" появляется, если панель команд усекается из-за отсутствия места по горизонтали. При ее нажатии открывается меню, содержащее кнопки, которые не поместились на панели команд. Цвета этих двух кнопок определяются одним и тем же набором имен токенов.
@@ -1599,7 +1599,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarOptionsBackground` |
+| Фон | `Environment.CommandBarOptionsBackground` |
 | Передний план (глиф) | `Environment.CommandBarOptionsGlyph` |
 
 **Кнопки "Дополнительные параметры" и "переполнение" в командной строке: состояние наведения**
@@ -1610,7 +1610,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarOptionsMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarOptionsMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (глиф) | `Environment.CommandBarOptionsMouseDownGlyph` |
 
 **Кнопки "Дополнительные параметры" и "переполнение" в командной строке: состояние "нажато"**
@@ -1621,7 +1621,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.CommandBarOptionsMouseDownBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.CommandBarOptionsMouseDownBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (глиф) | `Environment.CommandBarOptionsMouseDownGlyph` |
 
 ## <a name="document-windows"></a>Окна документов
@@ -1644,7 +1644,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Зависит от типа документа |
+| Фон | Зависит от типа документа |
 | Передний план (текст) | Зависит от типа документа |
 | Рамка | `Environment.ToolWindowBorder` |
 
@@ -1654,7 +1654,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowFloatingFrame` |
+| Фон | `Environment.ToolWindowFloatingFrame` |
 | Передний план (текст) | `Environment.ToolWindowFloatingFrame` |
 | Передний план (глиф) | `Environment.RaftedWindowButtonActiveGlyph` |
 | Рамка | `Environment.MainWindowActiveDefaultBorder` |
@@ -1666,7 +1666,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowFloatingFrameInactive` |
+| Фон | `Environment.ToolWindowFloatingFrameInactive` |
 | Передний план (текст) | `Environment.ToolWindowFloatingFrameInactive` |
 | Передний план (глиф) | `Environment.RaftedWindowButtonInactiveGlyph` |
 | Рамка | `Environment.MainWindowInactiveBorder` |
@@ -1731,7 +1731,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabSelectedGradientTop`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.FileTabSelectedGradientTop`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.FileTabSelectedText` |
 | Рамка | `Environment.FileTabSelectedBorder`<br />(Задайте тот же цвет, что и фон.) |
 | Граница документа | `Environment.FileTabDocumentBorderBackground` |
@@ -1742,7 +1742,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabInactiveGradientTop`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.FileTabInactiveGradientTop`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.FileTabInactiveText` |
 | Рамка | `Environment.FileTabInactiveBorder`<br />(Задайте тот же цвет, что и фон.) |
 | Граница документа | `Environment.FileTabInactiveDocumentBorderBackground` |
@@ -1753,7 +1753,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabBackground` |
+| Фон | `Environment.FileTabBackground` |
 | Передний план (текст) | `Environment.FileTabText` |
 | Рамка | `Environment.FileTabBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -1763,7 +1763,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabHotGradientTop`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.FileTabHotGradientTop`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.FileTabHotText` |
 | Рамка | `Environment.FileTabHotBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -1783,7 +1783,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabProvisionalSelectedActive` |
+| Фон | `Environment.FileTabProvisionalSelectedActive` |
 | Передний план (текст) | `Environment.FileTabProvisionalSelectedActiveForeground` |
 | Рамка | `Environment.FileTabProvisionalSelectedActiveBorder`<br />(Задайте тот же цвет, что и фон.) |
 | Граница документа | `Environment.FileTabProvisionalSelectedActiveBorder` |
@@ -1794,7 +1794,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabProvisionalSelectedInactive` |
+| Фон | `Environment.FileTabProvisionalSelectedInactive` |
 | Передний план (текст) | `Environment.FileTabProvisionalSelectedInactiveForeground` |
 | Рамка | `Environment.FileTabProvisionalSelectedInactiveBorder` |
 | Граница документа | `Environment.FileTabProvisionalSelectedInactiveBorder` |
@@ -1805,7 +1805,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabProvisionalInactive` |
+| Фон | `Environment.FileTabProvisionalInactive` |
 | Передний план (текст) | `Environment.FileTabProvisionalInactiveForeground` |
 | Рамка | `Environment.FileTabProvisionalInactiveBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -1815,7 +1815,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.FileTabProvisionalHover` |
+| Фон | `Environment.FileTabProvisionalHover` |
 | Передний план (текст) | `Environment.FileTabProvisionalHoverForeground` |
 | Рамка | `Environment.FileTabProvisionalHoverBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -1835,9 +1835,9 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DocWellOverflowButtonBackground` |
+| Фон | `Environment.DocWellOverflowButtonBackground` |
 | Передний план (глиф) | `Environment.DocWellOverflowButtonGlyph` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 **Кнопка переполнения документа: состояние наведения**
 
@@ -1845,7 +1845,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DocWellOverflowButtonMouseOverBackground` |
+| Фон | `Environment.DocWellOverflowButtonMouseOverBackground` |
 | Передний план (глиф) | `Environment.DocWellOverflowButtonMouseOverGlyph` |
 | Рамка | `Environment.DocWellOverflowButtonMouseOverBorder` |
 
@@ -1855,7 +1855,7 @@ ms.locfileid: "105054040"
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.DocWellOverflowButtonMouseDownBackground` |
+| Фон | `Environment.DocWellOverflowButtonMouseDownBackground` |
 | Передний план (глиф) | `Environment.DocWellOverflowButtonMouseDownGlyph` |
 | Рамка | `Environment.DocWellOverflowButtonMouseDownBorder` |
 
@@ -1876,7 +1876,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.Background` |
+| Фон | `Tag.Background` |
 | Передний план (текст) | `Tag.Background` |
 
 **Тег: состояние наведения**
@@ -1885,7 +1885,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.HoverBackground` |
+| Фон | `Tag.HoverBackground` |
 | Передний план (текст) | `Tag.HoverBackgroundText` |
 
 **Тег: состояние "нажато"**
@@ -1894,7 +1894,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.PressedBackground` |
+| Фон | `Tag.PressedBackground` |
 | Передний план (текст) | `Tag.PressedBackgroundText` |
 
 **Тег: выбранное состояние**
@@ -1903,7 +1903,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.SelectedBackground` |
+| Фон | `Tag.SelectedBackground` |
 | Передний план (текст) | `Tag.SelectedBackgroundText` |
 
 #### <a name="close-times-tag-glyph"></a>Закрыть ( &times; ) глиф тега
@@ -1914,7 +1914,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (глиф) | `Tag.TagHoverGlyph` |
 
 **Close ( &times; ) глиф тега: состояние наведения**
@@ -1923,7 +1923,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.TagHoverGlyphHoverBackground` |
+| Фон | `Tag.TagHoverGlyphHoverBackground` |
 | Передний план (глиф) | `Tag.TagHoverGlyphHover` |
 | Рамка | `Tag.TagHoverGlyphHoverBorder` |
 
@@ -1933,7 +1933,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.TagHoverGlyphPressedBackground` |
+| Фон | `Tag.TagHoverGlyphPressedBackground` |
 | Передний план (глиф) | `Tag.TagHoverGlyphPressed` |
 | Рамка | `Tag.TagHoverGlyphPressedBorder` |
 
@@ -1943,7 +1943,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (глиф) | `Tag.TagSelectedGlyph` |
 
 **Выбранный тег с закрывающим ( &times; ) глифом: состояние наведения**
@@ -1952,7 +1952,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.TagSelectedGlyphHoverBackground` |
+| Фон | `Tag.TagSelectedGlyphHoverBackground` |
 | Передний план (глиф) | `Tag.TagSelectedGlyphHover` |
 | Рамка | `Tag.TagSelectedGlyphHoverBorder` |
 
@@ -1962,7 +1962,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Tag.TagSelectedGlyphPressedBackground` |
+| Фон | `Tag.TagSelectedGlyphPressedBackground` |
 | Передний план (глиф) | `Tag.TagSelectedGlyphPressed` |
 | Рамка | `Tag.TagSelectedGlyphPressedBorder` |
 
@@ -1990,7 +1990,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowBackground` |
+| Фон | `Environment.ToolWindowBackground` |
 | Рамка | `Environment.ToolWindowBorder` |
 
 **Перемещаемое окно инструментов с плавающей точкой**
@@ -1999,7 +1999,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowBackground` |
+| Фон | `Environment.ToolWindowBackground` |
 | Рамка | `Environment.MainWindowActiveDefaultBorder` |
 
 **Плавающее окно инструментов без фокуса**
@@ -2008,7 +2008,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowBackground` |
+| Фон | `Environment.ToolWindowBackground` |
 | Рамка | `Environment.MainWindowInactiveBorder` |
 
 ### <a name="toolbox-like-windows"></a>Панель элементов, как и окна
@@ -2028,9 +2028,9 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolboxContent`<br />Заголовки |
-| Историческая справка | `Environment.ToolWindowBackground`<br />(Отдельные элементы или все окно, если нет доступных элементов управления) |
-| Рамка | Отсутствуют |
+| Фон | `Environment.ToolboxContent`<br />Заголовки |
+| Фон | `Environment.ToolWindowBackground`<br />(Отдельные элементы или все окно, если нет доступных элементов управления) |
+| Рамка | Нет |
 | Передний план (глиф) | `Environment.ToolboxContent` |
 | Передний план (текст) | `Environment.ToolboxContent` |
 
@@ -2040,8 +2040,8 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolboxContentMouseOver`<br />(Только для отдельных элементов) |
-| Рамка | Отсутствуют |
+| Фон | `Environment.ToolboxContentMouseOver`<br />(Только для отдельных элементов) |
+| Рамка | Нет |
 | Передний план (текст) | `Environment.ToolboxContentMouseOver`<br />(Только для отдельных элементов) |
 
 **Выбранные узлы панели элементов: состояние с сортировкой**
@@ -2052,7 +2052,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemActive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
+| Фон | `TreeView.SelectedItemActive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
 | Рамка | `TreeView.FocusVisualBorder`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
 | Передний план (глиф) | `TreeView.SelectedItemActive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
 | Передний план (текст) | `TreeView.SelectedItemActive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
@@ -2065,8 +2065,8 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `TreeView.SelectedItemInactive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
-| Рамка | Отсутствуют |
+| Фон | `TreeView.SelectedItemInactive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
+| Рамка | Нет |
 | Передний план (глиф) | `TreeView.SelectedItemInactive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
 | Передний план (текст) | `TreeView.SelectedItemInactive`<br />Из категории [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) |
 
@@ -2085,7 +2085,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.TitleBarActiveGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.TitleBarActiveGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.TitleBarActiveText` |
 | Рамка | `Environment.TitleBarActiveBorder`<br />(Задайте тот же цвет, что и фон.) |
 | Маркер перетаскивания | `Environment.TitleBarDragHandleActive` |
@@ -2096,9 +2096,9 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.TitleBarInactiveGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.TitleBarInactiveGradientBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.TitleBarInactiveText` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 | Маркер перетаскивания | `Environment.TitleBarDragHandle` |
 
 #### <a name="tool-window-title-bar-buttons"></a>Кнопки в заголовке окна инструментов
@@ -2115,9 +2115,9 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (глиф) | `Environment.ToolWindowButtonActiveGlyph` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 **Кнопки в строке заголовка без фокуса: состояние по умолчанию**
 
@@ -2125,9 +2125,9 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | Н/Д |
+| Фон | Недоступно |
 | Передний план (глиф) | `Environment.ToolWindowButtonInactiveGlyph` |
-| Рамка | Н/Д |
+| Рамка | Недоступно |
 
 **Кнопки в строке заголовка с упором: состояние наведения**
 
@@ -2135,7 +2135,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowButtonHoverActive` |
+| Фон | `Environment.ToolWindowButtonHoverActive` |
 | Передний план (глиф) | `Environment.ToolWindowButtonHoverActiveGlyph` |
 | Рамка | `Environment.ToolWindowButtonHoverActiveBorder` |
 
@@ -2145,7 +2145,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowButtonHoverInactive` |
+| Фон | `Environment.ToolWindowButtonHoverInactive` |
 | Передний план (глиф) | `Environment.ToolWindowButtonHoverInactiveGlyph` |
 | Рамка | `Environment.ToolWindowButtonHoverInactiveBorder` |
 
@@ -2155,7 +2155,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowButtonDown` |
+| Фон | `Environment.ToolWindowButtonDown` |
 | Передний план (глиф) | `Environment.ToolWindowButtonDownActiveGlyph` |
 | Рамка | `Environment.ToolWindowButtonDownBorder` |
 
@@ -2165,7 +2165,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowButtonDown` |
+| Фон | `Environment.ToolWindowButtonDown` |
 | Передний план (глиф) | `Environment.ToolWindowButtonDownInactiveGlyph` |
 | Рамка | `Environment.ToolWindowButtonDownBorder` |
 
@@ -2182,7 +2182,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowTabSelectedTab` |
+| Фон | `Environment.ToolWindowTabSelectedTab` |
 | Передний план (текст) | `Environment.ToolWindowTabSelectedActiveText` |
 | Рамка | `Environment.ToolWindowTabSelectedBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -2192,7 +2192,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowTabSelectedTab` |
+| Фон | `Environment.ToolWindowTabSelectedTab` |
 | Передний план (текст) | `Environment.ToolWindowTabSelectedText` |
 | Рамка | `Environment.ToolWindowTabSelectedBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -2202,7 +2202,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowTabGradientBegin`<br />`Environment.ToolWindowTabGradientEnd`<br />(Для ограничителей градиента задано то же значение цвета, что и в Visual Studio 2013.) |
+| Фон | `Environment.ToolWindowTabGradientBegin`<br />`Environment.ToolWindowTabGradientEnd`<br />(Для ограничителей градиента задано то же значение цвета, что и в Visual Studio 2013.) |
 | Передний план (текст) | `Environment.ToolWindowTabText` |
 | Рамка | `Environment.ToolWindowTabBorder` |
 
@@ -2212,7 +2212,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.ToolWindowTabMouseOverBackgroundBegin`<br />`Environment.ToolWindowTabMouseOverBackgroundEnd`<br />(Для ограничителей градиента задано то же значение цвета, что и в Visual Studio 2013.) |
+| Фон | `Environment.ToolWindowTabMouseOverBackgroundBegin`<br />`Environment.ToolWindowTabMouseOverBackgroundEnd`<br />(Для ограничителей градиента задано то же значение цвета, что и в Visual Studio 2013.) |
 | Передний план (текст) | `Environment.ToolWindowTabMouseOverText` |
 | Рамка | `Environment.ToolWindowTabMouseOverBorder`<br />(Задайте тот же цвет, что и фон.) |
 
@@ -2230,7 +2230,7 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.AutoHideTabBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.AutoHideTabBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.AutoHideTabText` |
 | Рамка | `Environment.AutoHideTabBorder` |
 
@@ -2240,6 +2240,6 @@ Visual Studio поддерживает добавление тегов, что �
 
 | Элемент | Имя токена: Category.color |
 | --- | --- |
-| Историческая справка | `Environment.AutoHideTabMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
+| Фон | `Environment.AutoHideTabMouseOverBackgroundBegin`<br />(Ограничения градиента для этого маркера не используются в пользовательском интерфейсе с темой.) |
 | Передний план (текст) | `Environment.AutoHideTabMouseOverText` |
 | Рамка | `Environment.AutoHideTabMouseOverBorder` |

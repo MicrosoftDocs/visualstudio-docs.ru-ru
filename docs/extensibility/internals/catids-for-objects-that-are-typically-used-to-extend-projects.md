@@ -3,7 +3,7 @@ title: CATID для объектов, обычно используемых дл
 description: Изучите CATID для объектов, используемых для расширения проектов и объектов автоматизации проектов для Visual Basic, Visual C# и Visual C++.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSPackages, CATIDs
 - GUIDs, VSPackages
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 276e7f146858c2de166c0ba20063a0bf4d8b88a0
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: abc0df47c243cff4bf80ab18b15f1cbaa9526cdd
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105086096"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898676"
 ---
 # <a name="catids-for-objects-that-are-typically-used-to-extend-projects"></a>CATID для объектов, которые обычно используются для расширения проектов
 В следующей таблице перечислены CATID, используемые для расширения `Project` и `ProjectItem` автоматизации объектов для [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] проектов, [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] и [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] . Эти CATID определены в *VSLangProj. olb*.

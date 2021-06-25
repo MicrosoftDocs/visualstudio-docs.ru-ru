@@ -3,7 +3,7 @@ title: Поддерживаемые типы событий | Документа
 description: Сведения о типах событий, поддерживаемых отладкой Visual Studio, включая асинхронные события, синхронные события и события остановки.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], supported events
 ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 883c9fd51cc4dfc4f2cc2f996d24c0722478505f
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: fff86a142f541c1b17012b6190dd68e8d5628a3c
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105079414"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902908"
 ---
 # <a name="supported-event-types"></a>Поддерживаемые типы событий
 В настоящее время отладка Visual Studio поддерживает следующие типы событий:

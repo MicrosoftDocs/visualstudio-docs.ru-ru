@@ -3,7 +3,7 @@ title: Класс Task-внутренние элементы | Документ�
 description: Сведения о внутренних членах класса System. Threading. Tasks. Task, которые помогают реализовать пользовательский отладчик.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debug engines, Task class [.NET Framework]
 - Task class [.NET Framework debug engines]
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: bfa57329b3f321d2703683639644783be60d651f
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 37691714d0168594b61a1a3849f7b65264e9999e
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105079375"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902895"
 ---
 # <a name="task-class---internal-members"></a>Класс Task — внутренние элементы
 В этой статье описываются внутренние члены <xref:System.Threading.Tasks.Task?displayProperty=fullName> класса, помогающие реализовать пользовательский отладчик. Общие сведения об этом классе см <xref:System.Threading.Tasks.Task> . в справочной статье.
@@ -51,7 +51,7 @@ ms.locfileid: "105079375"
 
 ### <a name="fields"></a>Поля
 
-|name|Описание|
+|Имя|Описание|
 |----------|-----------------|
 |[m_action](../../extensibility/debugger/m-action-field.md)|Делегат, представляющий код для выполнения в <xref:System.Threading.Tasks.Task> объекте.|
 |[m_contingentProperties](../../extensibility/debugger/m-contingentproperties-field.md)|Хранит дополнительные свойства <xref:System.Threading.Tasks.Task> объекта.|

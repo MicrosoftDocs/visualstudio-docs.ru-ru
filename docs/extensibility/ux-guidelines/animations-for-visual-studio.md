@@ -3,19 +3,19 @@ title: Анимация для Visual Studio | Документация Майк
 description: Сведения о правилах, позволяющих обеспечить единообразные и удобные для пользователя стили анимации в интегрированной среде разработки Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 85ebfd4f396a5ae0e04ff5e7cc0f52bba1825ec5
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: f1e8e61e5decea326fcb7f670ed2ab58f0137530
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105060267"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902791"
 ---
 # <a name="animations-for-visual-studio"></a>Анимация для Visual Studio
 ## <a name="animation-fundamentals"></a>Основы анимации
@@ -108,7 +108,7 @@ ms.locfileid: "105060267"
 
 - Представление изменений с течением времени с помощью ползунков времени, регистрацию и выбора и элементов управления транспорта (воспроизведение, остановка и пауза)
 
-##### <a name="relationships"></a>Отношения
+##### <a name="relationships"></a>Связи
 
 - Иллюстрация того, как элементы связаны друг с другом или какие элементы связаны с данным элементом.
 
@@ -144,7 +144,7 @@ ms.locfileid: "105060267"
 
 - Зеркальное отображение изображений
 
-##### <a name="time"></a>Время
+##### <a name="time"></a>Time
 
 - Показывать изменения со временем, промежуток времени и ролик
 
@@ -157,7 +157,7 @@ ms.locfileid: "105060267"
 
 Как правило, последний элемент перемещения на экране аттрактс внимание пользователя.  В ряде анимированных элементов внимание пользователя будет следовать за последним объектом перемещения.
 
-##### <a name="alert"></a>Предупреждение
+##### <a name="alert"></a>Оповещение
 
 - Оповещение пользователя, получение внимания, отображение хода выполнения
 

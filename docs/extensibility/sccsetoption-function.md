@@ -2,7 +2,7 @@
 description: Эта функция задает параметры, управляющие поведением подключаемого модуля системы управления версиями.
 title: Функция Скксетоптион | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccSetOption
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 031de256b231bbd95e7535af80448db5140cba7e
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 18e33cbb8dbee9b332456826ed33e46e4d2e76de
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105090152"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904104"
 ---
 # <a name="sccsetoption-function"></a>Функция SccSetOption
 Эта функция задает параметры, управляющие поведением подключаемого модуля системы управления версиями.
@@ -67,7 +67,7 @@ SCCRTN SccSetOption(
 |`SCC_OPT_HASCANCELMODE`|`SCC_OPT_HCM_NO`<br /><br /> `SCC_OPT_HCM_YES`|Указывает, поддерживает ли IDE в настоящее время отмену операции.|
 |`SCC_OPT_NAMECHANGEPFN`|Указатель на функцию обратного вызова [оптнамечанжепфн](../extensibility/optnamechangepfn.md)|Задает указатель на функцию обратного вызова изменения имени.|
 |`SCC_OPT_SCCCHECKOUTONLY`|`SCC_OPT_SCO_NO`<br /><br /> `SCC_OPT_SCO_YES`|Указывает, допускает ли интегрированная среда разработки извлечение файлов вручную (через пользовательский интерфейс системы управления версиями) или они должны извлекаться только через подключаемый модуль системы управления версиями.|
-|`SCC_OPT_SHARESUBPROJ`|Н/Д|Если подключаемый модуль системы управления версиями позволяет интегрированной среде разработки указать локальную папку проекта, подключаемый модуль возвращает `SCC_I_SHARESUBPROJOK` .|
+|`SCC_OPT_SHARESUBPROJ`|Недоступно|Если подключаемый модуль системы управления версиями позволяет интегрированной среде разработки указать локальную папку проекта, подключаемый модуль возвращает `SCC_I_SHARESUBPROJOK` .|
 
 ## <a name="scc_opt_eventqueue"></a>SCC_OPT_EVENTQUEUE
  Если `nOption` имеет значение `SCC_OPT_EVENTQUEUE` , интегрированная среда разработки отключает (или повторно включает) фоновую обработку. Например, во время компиляции в интегрированной среде разработки может быть указано, что подключаемый модуль системы управления версиями должен останавливаться на неактивной обработке любого типа. После компиляции будет повторно включен режим фоновой обработки для обновления очереди событий подключаемого модуля. В соответствии со `SCC_OPT_EVENTQUEUE` значением `nOption` , существует два возможных значения для `dwVal` , `SCC_OPT_EQ_ENABLE` а именно и `SCC_OPT_EQ_DISABLE` .

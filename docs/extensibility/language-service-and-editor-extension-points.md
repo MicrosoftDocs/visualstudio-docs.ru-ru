@@ -3,7 +3,7 @@ title: Точки расширения языковой службы и реда
 description: Узнайте о точках расширения в редакторе кода Visual Studio, которые можно расширить, включая большинство функций языковой службы.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extension points
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: a8d71e6c7cd7569c9e73134345584a8237337bc7
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 293851f1f3e72508a9bc119fb7551b0118ab2a9b
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073304"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903151"
 ---
 # <a name="language-service-and-editor-extension-points"></a>Точки расширения языковой службы и редактора
 Редактор предоставляет точки расширения, которые можно расширять как компоненты Managed Extensibility Framework (MEF), включая большинство функций языковой службы. Ниже приведены основные категории точек расширения.
@@ -36,9 +36,9 @@ ms.locfileid: "105073304"
 
 - Удалить обработчики
 
-- Варианты
+- Параметры
 
-- IntelliSense
+- технология IntelliSense
 
 ## <a name="extend-content-types"></a>Расширение типов содержимого
  Типы содержимого — это определения типов текста, обрабатываемых редактором, например "Text", "Code" или "CSharp". Новый тип содержимого определяется путем объявления переменной типа <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> и присвоения новому типу уникального имени. Чтобы зарегистрировать тип содержимого в редакторе, экспортируйте его вместе со следующими атрибутами:

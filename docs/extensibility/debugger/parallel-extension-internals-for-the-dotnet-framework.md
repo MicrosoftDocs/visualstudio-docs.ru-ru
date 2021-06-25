@@ -3,7 +3,7 @@ title: Внутренние модули параллельного расшир
 description: Эти ресурсы описывают внутренние типы, методы и поля классов, используемых для реализации пользовательского отладчика для параллельных расширений платформа .NET Framework.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debug engines, internals [.NET Framework]
 ms.assetid: 93e07cfa-91fa-464c-b866-8bf5570411df
@@ -12,17 +12,17 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9aec52f354043dabb3bf816bbd35352f0c3a28bb
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 858bf85e65cd761e7f881856286578495db6143a
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105067833"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903012"
 ---
 # <a name="parallel-extension-internals-for-the-net-framework"></a>Внутренние модули параллельного расширения для платформа .NET Framework
 В этом разделе описываются внутренние типы, методы и поля классов, которые помогают реализовать пользовательский отладчик для параллельных расширений платформа .NET Framework.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
  [Класс Task](../../extensibility/debugger/task-class-internal-members.md) Описывает внутренние элементы данных <xref:System.Threading.Tasks.Task?displayProperty=fullName> класса.
 
  [Класс TaskScheduler](../../extensibility/debugger/taskscheduler-class-internal-members.md) Описывает внутренние элементы данных <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> класса.

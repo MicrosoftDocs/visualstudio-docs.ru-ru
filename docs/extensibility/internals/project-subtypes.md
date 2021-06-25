@@ -3,7 +3,7 @@ title: Подтипы проектов | Документация Майкрос
 description: Узнайте, как подтипы проектов позволяют настраивать поведение систем проектов Visual Studio. Пакеты VSPackage реализуют подтипы проектов с помощью агрегирования COM.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - projects [Visual Studio SDK], subtypes
 - project subtypes [Visual Studio SDK]
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: e1695bc79e38c7a9ebbda7736e57116123343f30
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: cd0f959d300fdc797d9e42d581a163b8b0892591
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105064336"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903597"
 ---
 # <a name="project-subtypes"></a>Подтипы проектов
 Подтипы проектов позволяют настраивать или изменять поведение систем проектов [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] . Настройки включают сохранение дополнительных данных в файле проекта, добавление или фильтрацию элементов в диалоговом окне **Добавление нового элемента** , управление отладкой и развертыванием сборок, а также расширение диалогового окна « **страницы свойств** проекта». Пакеты VSPackage реализуют подтипы проектов с помощью агрегирования COM.
@@ -26,7 +26,7 @@ ms.locfileid: "105064336"
 > [!NOTE]
 > Система проектов Visual C++ не поддерживает подтипы проектов. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] сам по себе использует подтипы проектов для реализации SQL Server и проектов смарт-устройств.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 - [Разработка подтипов проекта](../../extensibility/internals/project-subtypes-design.md)
 

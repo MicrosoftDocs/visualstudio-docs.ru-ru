@@ -2,7 +2,7 @@
 description: Эта функция извлекает копию одного или нескольких файлов для просмотра и компиляции, но не для редактирования.
 title: Функция Сккжет | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGet
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 172e0ec5fdba4b91c3cf86ea964b4a98a23a5fa8
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 805c19b0c326e8389b4e1905edf370ad042aac92
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105060345"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904556"
 ---
 # <a name="sccget-function"></a>Функция Сккжет
 Эта функция извлекает копию одного или нескольких файлов для просмотра и компиляции, но не для редактирования. В большинстве систем файлы помечаются как доступные только для чтения.

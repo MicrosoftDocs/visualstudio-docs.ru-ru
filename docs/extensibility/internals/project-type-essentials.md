@@ -3,7 +3,7 @@ title: Основные сведения о типе проекта | Докум
 description: Сведения о том, когда необходимо создать тип проекта, а также при расширении существующего типа проекта с помощью подтипов проекта.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - project types [Visual Studio SDK]
 ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 86ed1c1098fe13cd19ce686782e18b190f455f8c
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 051e7b76edd4559914307459fdcbdf1b7c0b600e
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105064297"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903563"
 ---
 # <a name="project-type-essentials"></a>Основные компоненты типа проекта
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] включает несколько типов проектов для таких языков, как [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] или [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] . [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] также позволяет создавать собственные типы проектов.
@@ -56,7 +56,7 @@ ms.locfileid: "105064297"
 
 - Для разработчиков на C++ классы в библиотеке Хиерутил работают аналогичным образом. Дополнительные сведения см. [в разделе не в сборке. Использование классов проектов HierUtil7 для реализации типа проекта (C++)](/previous-versions/bb166212(v=vs.100)).
 
-- Типы проектов могут поддерживать данные, отличные от обычных файлов исходного кода, которые создаются в сборке exe или DLL. Например, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] проекты баз данных содержат ссылки на файлы скриптов и запросов, хранящиеся на диске, и добавляют команды для **Обозреватель решений** для выполнения скриптов и запросов к базе данных, но проекты не поддерживают поведение сборки. Дополнительные сведения см. в разделе [Открытие и сохранение элементов проекта](../../extensibility/internals/opening-and-saving-project-items.md).
+- Типы проектов могут поддерживать данные, отличные от обычных файлов исходного кода, которые создаются в .exe или .dll сборки. Например, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] проекты баз данных содержат ссылки на файлы скриптов и запросов, хранящиеся на диске, и добавляют команды для **Обозреватель решений** для выполнения скриптов и запросов к базе данных, но проекты не поддерживают поведение сборки. Дополнительные сведения см. в разделе [Открытие и сохранение элементов проекта](../../extensibility/internals/opening-and-saving-project-items.md).
 
 - Тип проекта не обязательно должен использовать файлы. Например, тип проекта может хранить все его данные в базе данных. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Типы проектов дают полный контроль над тем, как они сохраняют данные для проектов и элементов проектов. Дополнительные сведения см. в разделе [решения по проектированию типов проектов](../../extensibility/internals/project-type-design-decisions.md).
 

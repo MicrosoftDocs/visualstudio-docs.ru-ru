@@ -2,7 +2,7 @@
 description: Возвращает объект, который может использоваться для уникальной идентификации этого построителя в отладчике.
 title: AsyncTaskMethodBuilder. ObjectIdForDebugger, свойство | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - ObjectForDebugger property, AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: 78338537-b451-4655-9f04-a21f6fe197a3
@@ -11,12 +11,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 672b1012512e2c430b6b854e735d9e62c3db3701
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 2873b0e1ff5d89ba7da8f346ebfa3307d14c5385
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105055548"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903857"
 ---
 # <a name="asynctaskmethodbuilderobjectidfordebugger-property"></a>AsyncTaskMethodBuilder. ObjectIdForDebugger, свойство
 Возвращает объект, который может использоваться для уникальной идентификации этого построителя в отладчике.

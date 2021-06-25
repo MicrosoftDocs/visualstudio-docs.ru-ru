@@ -2,7 +2,7 @@
 description: Эта функция отменяет предыдущую операцию извлечения, тем самым восстанавливая содержимое выбранного файла или файлов в состояние до извлечения.
 title: Функция Сккунчеккаут | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccUncheckout
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0144755d18bbabee47f7aad25337e3c41588ebe5
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 3a382a112b5a11acc36c52735c949ebef71052ec
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105090165"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904091"
 ---
 # <a name="sccuncheckout-function"></a>Функция SccUncheckout
 Эта функция отменяет предыдущую операцию извлечения, тем самым восстанавливая содержимое выбранного файла или файлов в состояние до извлечения. Все изменения, внесенные в файл с момента извлечения, теряются.

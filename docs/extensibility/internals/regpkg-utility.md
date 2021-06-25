@@ -3,7 +3,7 @@ title: Служебная программа RegPkg | Документация �
 description: Узнайте, как служебная программа RegPkg.exe регистрирует пакет VSPackage в Visual Studio и готовит его к развертыванию.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - regpkg, registration utility
 - registration, regpkg utility
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ffef522cb85816c36bee1cb623810fb254d1ddec
-ms.sourcegitcommit: f50bbdb15c4f9fca0fa245ca765183c378960cc5
+ms.openlocfilehash: b605d251b2e516a468401805fc0e125801129c16
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "111351946"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903363"
 ---
 # <a name="regpkg-utility"></a>Служебная программа RegPkg
 > [!NOTE]
@@ -54,6 +54,6 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 
  с/regfile или/вргфиле или/ргсфиле или/виксфиле.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 - [VSPackages](../../extensibility/internals/vspackages.md)
 - [Устранение неполадок регистрации пакета RegPkg](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)

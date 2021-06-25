@@ -3,7 +3,7 @@ title: Определение элемента | Документация Май
 description: Элемент define определяет пару "имя символа" и "значение". Этот символ может быть вычислен с помощью условных атрибутов.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Define
 - Define element (VSCT XML schema)
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 83a8ee40205cafcaff29399ead4036374f798abf
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 409621410db727f933e41bae894f125dc877b4c2
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105082274"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898049"
 ---
 # <a name="define-element"></a>Определение элемента
 Определяет пару "имя символа" и "значение". Этот символ может быть вычислен с помощью условных атрибутов. Дополнительные сведения см. в разделе [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md). См. также [элемент Symbols](../extensibility/symbols-element.md).
@@ -38,7 +38,7 @@ ms.locfileid: "105082274"
 |---------------|-----------------|
 |name|Обязательный. Имя символа:<br /><br /> Name = "Mode"|
 |значение|Обязательный. Значение символа:<br /><br /> value = "Standard"|
-|Условие|Необязательный параметр. Дополнительные сведения см. в разделе [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. Дополнительные сведения см. в разделе [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
  Отсутствует.

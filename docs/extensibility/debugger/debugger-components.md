@@ -3,7 +3,7 @@ title: Компоненты отладчика | Документация Май
 description: Сведения об элементах, составляющих сеанс отладки, который управляется отладчиком Visual Studio и реализуется в виде VSPackage.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Visual Studio], components
 - components [Visual Studio SDK], debugging
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b7c558d20d24acd65ece4c4df43eb8f474c20447
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 8c246bc00ee4f6fcead8404b3174da39f7b5ca2d
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105094956"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903987"
 ---
 # <a name="debugger-components"></a>Компоненты отладчика
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]Отладчик реализуется как VSPackage и управляет всем сеансом отладки. Сеанс отладки состоит из следующих элементов:
@@ -40,7 +40,7 @@ ms.locfileid: "105094956"
 
   ![Обзор компонентов отладки](../../extensibility/debugger/media/dbugcompovrview.gif "дбугкомповрвиев")
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
  [Пакет отладки](../../extensibility/debugger/debug-package.md) Обсуждается пакет отладки, который выполняется в [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] оболочке и обрабатывает весь пользовательский интерфейс.
 
  [Диспетчер отладки процессов](../../extensibility/debugger/process-debug-manager.md) Содержит общие сведения о функциях PDM, которые являются руководителем процессов, которые могут быть отлажены.

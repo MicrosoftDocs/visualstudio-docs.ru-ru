@@ -2,7 +2,7 @@
 description: Эта функция отображает свойства системы управления версиями для файла или проекта.
 title: Функция Сккпропертиес | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccProperties
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 56306bb7c248ea500e16964c0929f34a27187298
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: cd50353ab29c05e5e5db2dc2b3f363af46ca8aa7
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056523"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904195"
 ---
 # <a name="sccproperties-function"></a>Функция SccProperties
 Эта функция отображает свойства системы управления версиями для файла или проекта.

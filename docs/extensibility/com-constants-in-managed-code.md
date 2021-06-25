@@ -3,7 +3,7 @@ title: Константы COM в управляемом коде | Докуме�
 description: Сведения о платформе управляемых пакетов, которая делает некоторые стандартные константы COM доступными для управляемого кода.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - managed VSPackages, COM constants and macros
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8aed8ec62278850d0b091320c12ece484778eb15
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: bb259d754befa3596e1dff1e49931c8ee81c665b
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105089736"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904325"
 ---
 # <a name="com-constants-in-managed-code"></a>Константы COM в управляемом коде
 Платформа управляемого пакета (MPF) делает некоторые стандартные константы COM доступными для управляемого кода. Эти константы перечислены ниже для справки.

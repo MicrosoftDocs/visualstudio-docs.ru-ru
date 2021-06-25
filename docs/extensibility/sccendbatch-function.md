@@ -2,7 +2,7 @@
 description: Эта функция завершает пакет операций системы управления версиями.
 title: Функция Скцендбатч | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccEndBatch
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b3bad3604c57661d0e0e091299cef127d9215d56
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 11ff596f19d3a98b929f9346bbf579e0ad1258c5
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105090217"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904595"
 ---
 # <a name="sccendbatch-function"></a>Функция Скцендбатч
 Эта функция завершает пакет операций системы управления версиями. Эти пакеты не могут быть вложенными.

@@ -3,7 +3,7 @@ title: Добавление элементов в диалоговые окна 
 description: Узнайте, как добавлять элементы в диалоговое окно Добавление нового элемента в Visual Studio, чтобы можно было отображать шаблоны и элементы проектов для использования в проектах.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Add New Item dialog box, adding items
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 574cc5384018d14fdc05a834876002bbcbdbaaf7
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 70bc1a0c4d90d8cab0b2193550773745fc2dd47e
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105079104"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904413"
 ---
 # <a name="add-items-to-the-add-new-item-dialog-box"></a>Добавление элементов в диалоговое окно "Добавление нового элемента"
 Процесс добавления элементов в диалоговое окно **Добавление нового элемента** начинается с разделов реестра. Как показано в следующих записях реестра, раздел **аддитемтемплатес** содержит путь и имя каталога, в котором помещаются элементы, доступные в диалоговом окне **Добавление нового элемента** .

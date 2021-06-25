@@ -3,7 +3,7 @@ title: Объекты контекста выделения | Документа
 description: Узнайте о внутренних функциях, с помощью которых интегрированная среда разработки Visual Studio использует объект контекста глобального выделения, чтобы определить, что должно отображаться в интегрированной среде разработки.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - selection, tracking
 - selection, context objects
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca6239264ca1fa42edb0b73e8a96f523cb450857
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: b0c97108eaba426a4def4c1052d3adc7348eb88b
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105080844"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898491"
 ---
 # <a name="selection-context-objects"></a>Объекты контекста выбора
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]Интегрированная среда разработки (IDE) использует объект контекста глобального выделения, чтобы определить, что должно отображаться в интегрированной среде разработки. Каждое окно в интегрированной среде разработки может иметь собственный объект контекста выбора, отправленный в глобальный контекст выбора. Интегрированная среда разработки обновляет глобальный контекст выделения значениями из окна, когда это окно находится в фокусе. Дополнительные сведения см. в статье [отзыв пользователю](../../extensibility/internals/feedback-to-the-user.md).

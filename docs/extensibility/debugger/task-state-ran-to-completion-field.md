@@ -2,7 +2,7 @@
 description: Задача успешно завершена.
 title: TASK_STATE_RAN_TO_COMPLETION поле | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - TASK_STATE_RAN_TO_COMPLETION field, Task class [.NET Framework debug engines]
 ms.assetid: 0f4830af-fe0c-4141-b768-817f4e426b8c
@@ -11,12 +11,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: f87eca3ec0d10413593e870fc2cf8fa4dc946e3a
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 4d168fe7e878471af4f70f2e58aab9748060c99e
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105075397"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902817"
 ---
 # <a name="task_state_ran_to_completion-field"></a>TASK_STATE_RAN_TO_COMPLETION поле
 Задача успешно завершена.

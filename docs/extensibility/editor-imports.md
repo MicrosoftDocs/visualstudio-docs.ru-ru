@@ -3,7 +3,7 @@ title: Редактор импортирует | Документация Май
 description: Узнайте, как импортировать службы редактора, фабрики и брокеры, которые предоставляют расширение с различными видами доступа к основному редактору.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - services
 ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0587ed6487ec3a1bb833a804bb5ffa76cbc101f9
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 7f2fa91b41017512b3f38ad61b800b293e0abaa1
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105070158"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898348"
 ---
 # <a name="editor-imports"></a>Импорт в редактор
 Можно импортировать несколько служб редактора, фабрик и брокеров, которые предоставляют расширение с разными видами доступа к основному редактору. Например, можно импортировать, <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> чтобы предоставить <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator> для определенного типа содержимого. (Этот Навигатор позволяет выполнять различные виды поиска в текстовом буфере.)
@@ -71,7 +71,7 @@ internal SVsServiceProvider ServiceProvider = null;
 ## <a name="services"></a>Службы
  Службы редактора обычно являются отдельными сущностями, которые предоставляют службу и являются общими для нескольких компонентов.
 
-|Импорт|Предоставляет|
+|Используя режим Import|Предоставляет|
 |------------|--------------|
 |<xref:Microsoft.VisualStudio.Utilities.IFileExtensionRegistryService>|Отношение между расширениями файлов и <xref:Microsoft.VisualStudio.Utilities.IContentType> объектами.|
 |<xref:Microsoft.VisualStudio.Utilities.IContentTypeRegistryService>|Коллекция объектов <xref:Microsoft.VisualStudio.Utilities.IContentType>.|
@@ -113,7 +113,7 @@ internal SVsServiceProvider ServiceProvider = null;
 ## <a name="other-imports"></a>Другие операции импорта
  Фабрики поставщиков и брокеры — это обычно сущности, которые могут иметь несколько экземпляров в нескольких компонентах.
 
-|Импорт|Предоставляет|
+|Используя режим Import|Предоставляет|
 |------------|--------------|
 |<xref:Microsoft.VisualStudio.Text.Adornments.IErrorProviderFactory>|Объект <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger%601> типа <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag> ) для заданного буфера.|
 |<xref:Microsoft.VisualStudio.Text.Adornments.ITextMarkerProviderFactory>|Средство создания тегов текстовых меток ( <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger%601> типа <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag> ).|

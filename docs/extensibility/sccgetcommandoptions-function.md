@@ -2,7 +2,7 @@
 description: Эта функция запрашивает у пользователя дополнительные параметры для данной команды.
 title: Функция SccGetCommandOptions | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetCommandOptions
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: b6fc53f806989062a306260840a8f324a26d4669
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 7972d874668649b8bb86adc15008880c5fc4152e
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105068379"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903935"
 ---
 # <a name="sccgetcommandoptions-function"></a>Функция SccGetCommandOptions
 Эта функция запрашивает у пользователя дополнительные параметры для данной команды.

@@ -4,18 +4,18 @@ description: Узнайте, как запустить Visual Studio с помо
 ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 549575d85de9fc1c37ebc4aa34c05e29837885df
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 253c7f106f1d139f694fea3d469385f200c84029
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105060585"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903116"
 ---
 # <a name="launch-visual-studio-using-dte"></a>Запуск Visual Studio с помощью DTE
 
@@ -37,7 +37,7 @@ ms.locfileid: "105060585"
 
 5. Нажмите клавишу **F5** , чтобы запустить программу. Перед выходом из программы вы увидите Visual Studio 2019 Open.
 
-## <a name="example-code"></a>пример кода
+## <a name="example-code"></a>Пример кода
 
 ```csharp
 using Microsoft.VisualStudio.Setup.Configuration;

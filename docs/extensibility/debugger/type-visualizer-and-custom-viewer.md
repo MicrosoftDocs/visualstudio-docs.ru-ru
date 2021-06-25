@@ -3,7 +3,7 @@ title: Визуализатор типов и пользовательское �
 description: Сведения о компонентах визуализатора типа и пользовательских средствах просмотра, отображающих данные в определенном формате и различиях между ними.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 869f0997ee166b9b7eb29c1a313854437d670ee4
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: c18bb49c740362d42a4a54bf52f6998629acb0c0
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105057823"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904426"
 ---
 # <a name="type-visualizer-and-custom-viewer"></a>Визуализатор типов и пользовательское средство просмотра
 Визуализатор типов — это компонент, отображающий фрагмент данных в определенном формате. Формат полностью зависит от того, кто реализует визуализатор, является ли он конечным пользователем или сторонним поставщиком визуализаторов.
@@ -33,7 +33,7 @@ ms.locfileid: "105057823"
 
 ## <a name="see-also"></a>См. также
 - [Компоненты отладчика](../../extensibility/debugger/debugger-components.md)
-- [Средство оценки выражений](../../extensibility/debugger/expression-evaluator.md)
+- [Вычислитель выражений](../../extensibility/debugger/expression-evaluator.md)
 - [Модуль отладки](../../extensibility/debugger/debug-engine.md)
 - [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md)
 - [IEEVisualizerService](../../extensibility/debugger/reference/ieevisualizerservice.md)

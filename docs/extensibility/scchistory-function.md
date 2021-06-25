@@ -2,7 +2,7 @@
 description: Эта функция отображает журнал указанных файлов.
 title: Функция Скчистори | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccHistory
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 11a3056e34d15e2e04b687a518e86041dc270997
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 1208bd0cb13661f1aa60bb9f97c9e4502e517e6d
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105063855"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902544"
 ---
 # <a name="scchistory-function"></a>Функция SccHistory
 Эта функция отображает журнал указанных файлов.

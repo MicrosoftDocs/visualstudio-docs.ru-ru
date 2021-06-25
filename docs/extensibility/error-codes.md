@@ -3,7 +3,7 @@ title: Коды ошибок | Документация Майкрософт
 description: Эта статья содержит список кодов ошибок, значений и описаний для функций API подключаемого модуля системы управления версиями.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - error codes, source control plug-ins
 - source control plug-ins, error codes
@@ -14,12 +14,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 32557b2a476be9f662decc9992771fe359967a94
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: eedc9311bcafdd4241e065b40079abed3977dcef
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105070171"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898309"
 ---
 # <a name="error-codes"></a>Коды ошибок
 Когда функция API подключаемого модуля системы управления версиями возвращает ошибку, ожидается один из следующих кодов ошибок. Все ошибки отрицательны, предупреждения или информационные коды ошибок являются положительными, а успешно — 0.

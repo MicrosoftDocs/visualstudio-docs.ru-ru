@@ -3,7 +3,7 @@ title: Перечислитель кода состояния каталога |
 description: Перечислитель Сккдирстатус содержит именованные постоянные значения, указывающие состояние каталога в системе управления версиями и используемое Сккдиркуеринфо.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - directory status code enumerator
 - source control plug-ins, directory status enumeration
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e995fb1dcb879645f59d6d8750852a790c99e90
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: a504c6c080c34b4506cf4078b64465a3bd6c7d97
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105091257"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904234"
 ---
 # <a name="directory-status-code-enumerator"></a>Перечислитель кода состояния каталога
 `SccDirStatus`Перечислитель содержит именованные постоянные значения, указывающие состояние каталога в системе управления версиями. Это перечисление используется [сккдиркуеринфо](../extensibility/sccdirqueryinfo-function.md). Это было представлено в версии 1,2 API подключаемого модуля системы управления версиями.

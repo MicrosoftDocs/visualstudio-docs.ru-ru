@@ -2,7 +2,7 @@
 description: Эта функция открывает существующий проект системы управления версиями или создает новый.
 title: Функция Сккопенпрожект | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccOpenProject
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: baada63e84e95fd466e0e5640c592dfe303d8e1a
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 1326319b483aa707b77e0d7142d816b01fc7d3b1
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105063764"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902401"
 ---
 # <a name="sccopenproject-function"></a>Функция SccOpenProject
 Эта функция открывает существующий проект системы управления версиями или создает новый.

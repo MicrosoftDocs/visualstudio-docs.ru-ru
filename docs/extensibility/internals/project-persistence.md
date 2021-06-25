@@ -3,7 +3,7 @@ title: Сохраняемость проекта | Документация Ма
 description: Узнайте о хранении в проекте проекта, включая использование IPersistFileFormat для сохранения как файловых, так и нефайловых объектов проекта.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - persistence, projects
 - projects [Visual Studio SDK], persistance
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ffaeb6d43597e93586db79c305b654b42bf6dbb
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 17b9fc40a93a926fde5edc28e93f7751b919611c
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062802"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112903650"
 ---
 # <a name="project-persistence"></a>Сохранение проекта
 Сохраняемость — это ключевой аспект разработки проекта. В большинстве проектов используются элементы проекта, представляющие файлы. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] также поддерживает проекты, данные которых не основаны на файлах. Файлы, принадлежащие проекту и файлу проекта, должны быть сохранены. Интегрированная среда разработки предписывает проекту сохранить себя или элемент проекта.

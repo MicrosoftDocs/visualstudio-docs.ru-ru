@@ -1,9 +1,9 @@
 ---
 title: Служебная программа CreatePkgDef | Документация Майкрософт
-description: Узнайте о служебной программе CreatePkgDef, которая принимает DLL-файл для расширения Visual Studio в качестве параметра и создает pkgdef-файл для библиотеки DLL-файла.
+description: Узнайте о служебной программе CreatePkgDef, которая принимает файл .dll для расширения Visual Studio в качестве параметра и создает pkgdef-файл, сопровождающий файл .dll.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - package definition
 - create pkgdef
@@ -15,15 +15,15 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 519cc251a245e1eeb65ddb1fcd34b0fa1af8f686
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: bfbd4b42d9ceddd40e08c28926a59aecba719fe9
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105056887"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112898127"
 ---
 # <a name="createpkgdef-utility"></a>Служебная программа CreatePkgDef
-Принимает DLL-файл для расширения Visual Studio в качестве параметра и создает *pkgdef* -файл, сопровождающий *DLL* -файл. Файл *pkgdef* содержит все данные, которые в противном случае были бы записаны в системный реестр при установке расширения.
+Принимает файл .dll для расширения Visual Studio в качестве параметра и создает *pkgdef* -файл, сопровождающий файл *.dll* . Файл *pkgdef* содержит все данные, которые в противном случае были бы записаны в системный реестр при установке расширения.
 
 > [!NOTE]
 > Большинство шаблонов проектов, включенных в пакет SDK для Visual Studio, автоматически создают файлы *pkgdef* в рамках процесса сборки. Этот документ предназначен для тех, кто хочет создавать пакеты вручную, или преобразовать существующие пакеты для развертывания *. pkgdef*  .
@@ -39,13 +39,13 @@ CreatePkgDef /out=<FileName> [/codebase] [/assembly] <AssemblyPath>
 Обязательный. Задает имя файла выходных данных *. pkgdef* &lt; &gt; .
 
 **/CodeBase**\
-Необязательный параметр. Принудительная регистрация с помощью служебной программы **CodeBase** .
+Необязательный элемент. Принудительная регистрация с помощью служебной программы **CodeBase** .
 
 **/Assembly**\
 Принудительная регистрация с помощью служебной программы **сборки** .
 
 **&lt;AssemblyPath&gt;**\
-Путь к *DLL* -файлу, из которого нужно создать *pkgdef*-файл.
+Путь к файлу *.dll* , из которого необходимо создать *pkgdef*.
 
 ## <a name="remarks"></a>Remarks
 Развертывание расширения с помощью файлов *pkgdef* заменяет требования к реестру в более ранних версиях Visual Studio.
