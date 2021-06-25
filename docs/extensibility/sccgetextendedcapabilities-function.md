@@ -2,7 +2,7 @@
 description: Эта функция возвращает дополнительные возможности, поддерживаемые подключаемым модулем системы управления версиями.
 title: Функция Сккжетекстендедкапабилитиес | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetExtendedCapabilities
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca2f2f77c586c5c71658a8f0cab32385eb3f73d3
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: cc047fee2c92f47c181aef455b8175a4e7998176
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073005"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905596"
 ---
 # <a name="sccgetextendedcapabilities-function"></a>Функция Сккжетекстендедкапабилитиес
 Эта функция возвращает дополнительные возможности, поддерживаемые подключаемым модулем системы управления версиями.

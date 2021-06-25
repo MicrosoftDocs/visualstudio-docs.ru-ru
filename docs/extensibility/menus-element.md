@@ -3,7 +3,7 @@ title: Элемент menus | Документация Майкрософт
 description: Элемент Menus определяет все меню и панели инструментов, которые реализует VSPackage. В этой статье содержится пример.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Menus
 - Menus element (VSCT XML schema)
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c5b6010945bd176f0663c7b0d57c3991470fff07
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 59c8cb242322cbb52aa90b821e14698ace6d0534
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105064011"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905583"
 ---
 # <a name="menus-element"></a>Элемент menus
 Определяет все меню и панели инструментов, реализуемые пакетом VSPackage.
@@ -39,7 +39,7 @@ ms.locfileid: "105064011"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "105064011"
 
 |Элемент|Описание|
 |-------------|-----------------|
-|[Commands, элемент](../extensibility/commands-element.md)|Представляет коллекцию команд в VSPackage.|
+|[Элемент Commands](../extensibility/commands-element.md)|Представляет коллекцию команд в VSPackage.|
 
 ## <a name="example"></a>Пример
 

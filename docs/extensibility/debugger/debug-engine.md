@@ -3,7 +3,7 @@ title: Модуль отладки | Документация Майкрософ
 description: Узнайте, как модуль отладки работает с интерпретатором или операционной системой для предоставления таких служб, как управление выполнением, точки останова и вычисление выражений.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debug engines
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: c13dd7165a5f85dc0122f97aaee838c528207f96
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 87c4648ed37ef4fad0d79b7048593ff0c5b7d6d0
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105067950"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905713"
 ---
 # <a name="debug-engine"></a>Модуль отладки
 Модуль отладки (DE) работает с интерпретатором или операционной системой для предоставления служб отладки, таких как управление выполнением, точки останова и вычисление выражений. DE отвечает за наблюдение за состоянием отлаживаемой программы. Чтобы сделать это, метод DE использует все доступные для него методы в поддерживаемой среде выполнения, будь то из ЦП или из API, предоставляемых средой выполнения.
@@ -41,5 +41,5 @@ ms.locfileid: "105067950"
 
 ## <a name="see-also"></a>См. также
 - [Компоненты отладчика](../../extensibility/debugger/debugger-components.md)
-- [Средство оценки выражений](../../extensibility/debugger/expression-evaluator.md)
+- [Вычислитель выражений](../../extensibility/debugger/expression-evaluator.md)
 - [Поставщик символов](../../extensibility/debugger/symbol-provider.md)

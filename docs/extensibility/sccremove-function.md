@@ -2,7 +2,7 @@
 description: Эта функция удаляет файлы из системы управления версиями.
 title: Функция Сккремове | Документация Майкрософт
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccRemove
 helpviewer_keywords:
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d80daf83458c9e05ef0a081348080579e7fafef4
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: f4a608b3556040033d9f51535ad29d0abf5d4e35
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105073876"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112904130"
 ---
 # <a name="sccremove-function"></a>Функция SccRemove
 Эта функция удаляет файлы из системы управления версиями.

@@ -3,7 +3,7 @@ title: Элемент Висибилитиконстраинтс | Докуме�
 description: Элемент Висибилитиконстраинтс определяет статическую видимость групп команд и панелей инструментов.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - VisibilityConstraints
 helpviewer_keywords:
@@ -15,12 +15,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d97f72e7a29f3cbb23c775df8454952f5ffac928
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 160a3950e31567aafc2d675971fd7263adb2ad5b
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062568"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905466"
 ---
 # <a name="visibilityconstraints-element"></a>Висибилитиконстраинтс, элемент
 Элемент Висибилитиконстраинтс определяет статическую видимость групп команд и панелей инструментов. Видимость сначала контролируется [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] интегрированной средой разработки (IDE) без загрузки VSPackage.
@@ -41,7 +41,7 @@ ms.locfileid: "105062568"
 
 |Атрибут|Описание|
 |---------------|-----------------|
-|Условие|Необязательный параметр. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Условие|Необязательный элемент. См. раздел [Условные атрибуты](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### <a name="child-elements"></a>Дочерние элементы
 

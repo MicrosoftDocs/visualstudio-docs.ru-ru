@@ -3,7 +3,7 @@ title: Пакет отладки | Документация Майкрософт
 description: Узнайте, как пакет отладки выполняется в оболочке Visual Studio и обрабатывает пользовательский интерфейс, используя интерфейсы отладки и взаимодействующие с диспетчером отладки сеанса.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], packages
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
@@ -12,12 +12,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 90c4c82895f7a30d4df9126a280c6c9ffa7ffa76
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 8be920ae352067a6e77593ca0a922474d68851d9
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105067911"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905674"
 ---
 # <a name="debug-package"></a>Пакет отладки
 Пакет отладки выполняется в оболочке Visual Studio и обрабатывает весь пользовательский интерфейс. Он использует интерфейсы отладки Visual Studio и взаимодействует с диспетчером отладки сеансов (SDM).

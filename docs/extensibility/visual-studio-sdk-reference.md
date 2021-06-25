@@ -3,7 +3,7 @@ title: Справочник по пакету SDK для Visual Studio | Док�
 description: В этих статьях содержатся сведения о пространствах имен Visual Studio, связанных пространствах имен и других областях, представляющих интерес для разработчиков, использующих пакет SDK для Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Visual Studio SDK, reference
 - reference, Visual Studio SDK
@@ -13,18 +13,18 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: d07a1148911347d4ff8bdb94e1de4625877872d3
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 72ee3a1567f2f0c3de3a266af04e20d1354b96a7
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062542"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905401"
 ---
 # <a name="visual-studio-sdk-reference"></a>Справочник по Visual Studio SDK
 
 В этом разделе содержатся сведения о пространствах имен Visual Studio, связанных пространствах имен и других областях, представляющих интерес для разработчиков, использующих пакет SDK для Visual Studio.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 - <xref:Microsoft.VisualStudio.TextManager.Interop> Устаревшие интерфейсы взаимодействия, используемые для редактора и языковых служб.
 

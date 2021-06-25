@@ -3,7 +3,7 @@ title: Справочник по XML-схеме VSCT | Документация 
 description: Справочные статьи по XML-схеме VSCT описывают элементы схемы компилятора командной таблицы с допустимыми дочерними элементами и атрибутами для каждого.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Visual Studio command table configuration files (VSCT), XML schema
 - VSCT XML schema elements
@@ -13,12 +13,12 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9f24d11c9458b56b5b66de495a18ec75491d3ac0
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
+ms.openlocfilehash: 7d82cda9c91642b094deea50eda02676f9bb73f3
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105062308"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112905232"
 ---
 # <a name="vsct-xml-schema-reference"></a>Справочник по XML-схеме VSCT
 Предоставляет таблицу элементов схемы компилятора командной таблицы с допустимыми дочерними элементами и атрибутами для каждого из них.
@@ -52,7 +52,7 @@ ms.locfileid: "105062308"
 
 - [Определение элемента](../extensibility/define-element.md)
 
-- [Commands, элемент](../extensibility/commands-element.md)
+- [Элемент Commands](../extensibility/commands-element.md)
 
 - [CommandPlacements, элемент](../extensibility/commandplacements-element.md)
 
