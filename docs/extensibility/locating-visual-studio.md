@@ -7,16 +7,16 @@ ms.topic: conceptual
 helpviewer_keywords:
 - deployment, VSIX
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636
-ms.author: heaths
-manager: jmartens
+author: leslierichardson95
+ms.author: lerich
 ms.workload:
 - vssdk
-ms.openlocfilehash: 175623723b8f7b59a644a439afd10246eab01c95
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: cd0fcd294983d6a6567676f06703b4bd1dd376c4
+ms.sourcegitcommit: b4cc3dee59421f7089112becf128a369acadaf61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893598"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "112990510"
 ---
 # <a name="locate-visual-studio"></a>Расположение Visual Studio
 
@@ -24,7 +24,7 @@ ms.locfileid: "99893598"
 
 Это быстрый API-интерфейс только для чтения с пакетами NuGet, доступными для машинного и управляемого кода.
 
-| Код | Пакет |
+| Код | Package |
 | ---- | --- |
 | Собственный | https://nuget.org/packages/Microsoft.VisualStudio.Setup.Configuration.Native |
 | Управляемые | https://nuget.org/packages/Microsoft.VisualStudio.Setup.Configuration.Interop |
@@ -41,7 +41,7 @@ ms.locfileid: "99893598"
 | [Командлеты VSSetup](https://github.com/Microsoft/vssetup.powershell) | Командлеты PowerShell поддерживают 2,0 и более поздние версии, возвращающие подробные сведения в виде объектов, которые можно использовать для поиска экземпляров на основе тех же условий, что и _vswhere_ , а также для обнаружения еще более свойств экземпляров. Примеры см. на [вики-сайте](https://github.com/Microsoft/vssetup.powershell/wiki) . |
 | [всиксбутстраппер](https://github.com/Microsoft/vsixbootstrapper) | Автоматически находит _всиксинсталлер_ и передает командную строку, чтобы установить *VSIX* -файл. Эта функция может быть полезна в установщиках, которые не поддерживают прямую поддержку интерфейсов API запросов. Примеры см. на [вики-сайте](https://github.com/Microsoft/vsixbootstrapper/wiki) . |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Изменения в программе установки Visual Studio 2017](https://devblogs.microsoft.com/setup/changes-to-visual-studio-15-setup/)
 * [Запуск Visual Studio с помощью DTE](launch-visual-studio-dte.md)
