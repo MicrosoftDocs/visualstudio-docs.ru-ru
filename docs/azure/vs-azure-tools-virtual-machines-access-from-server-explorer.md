@@ -7,14 +7,26 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
-ms.openlocfilehash: a40434845187490ee4f8437f8e15963bddd1998f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: ab67a81d761f2e17c82b75fb59a201188cf80986
+ms.sourcegitcommit: b770b99034e65c91b29bea87bc6f5fa02348515b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99843791"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "112997635"
 ---
 # <a name="accessing-azure-virtual-machines-from-server-explorer"></a>Доступ к виртуальным машинам Azure из обозревателя сервера
+
+::: moniker range=">=vs-2022"
+> [!Important]
+> Узел Azure обозреватель сервера был прекращен в Visual Studio 2022. Вы можете использовать портал Azure или продолжить использовать узел Azure обозреватель сервера в предыдущих версиях Visual Studio.
+>
+> Кроме того, [Обозреватель службы хранилища Microsoft Azure](/azure/vs-azure-tools-storage-manage-with-storage-explorer) — это бесплатное автономное приложение от корпорации Майкрософт. Оно обеспечивает визуализацию данных из хранилища Azure в Windows, macOS и Linux.
+>
+> Дополнительные сведения о Visual Studio 2022 см. в [заметках о выпуске](/visualstudio/releases/2022/release-notes-preview/).
+
+::: moniker-end
+
+::: moniker range="<=vs-2017"
 
 Виртуальные машины, размещенные в Azure, можно открыть в обозревателе сервера. Чтобы просмотреть мобильные службы, войдите в свою подписку Azure. Для этого откройте контекстное меню узла Azure в обозревателе сервера и выберите пункт **Подключиться к Microsoft Azure**.
 
@@ -39,3 +51,5 @@ ms.locfileid: "99843791"
    | Закрытый порт |Порт для доступа к сети, являющийся внутренним для приложения. |
    | Протокол |Протокол, используемый на транспортном уровне для этой конечной точки (TCP или UDP). |
    | Общий порт |Порт, используемый для общего доступа к приложению. |
+
+::: moniker-end

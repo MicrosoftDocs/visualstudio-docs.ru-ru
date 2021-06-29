@@ -8,12 +8,12 @@ ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
 ms.technology: vs-ide-debug
-ms.openlocfilehash: 39d151528c5fda1bd4700fecd0d5c8843ced50a1
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 8669e4636be28d6462c6658a54fc818bae577905
+ms.sourcegitcommit: b770b99034e65c91b29bea87bc6f5fa02348515b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683239"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "112997674"
 ---
 # <a name="debugging-an-azure-cloud-service-or-virtual-machine-in-visual-studio"></a>Отладка облачной службы или виртуальной машины Azure в Visual Studio
 
@@ -183,7 +183,7 @@ Visual Studio предоставляет разнообразные вариан
 
 10. Выберите процессы, которые требуется отладить на виртуальной машине, а затем нажмите кнопку **присоединить**. Например, можно выбрать процесс w3wp.exe, если требуется выполнить отладку веб-приложения на виртуальной машине. Дополнительные сведения см. в статье [Отладка одного или нескольких процессов в Visual Studio](../debugger/debug-multiple-processes.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 * Используйте **IntelliTrace** , чтобы получить журнал вызовов и событий с сервера выпуска. Ознакомьтесь со статьей [Отладка опубликованной облачной службы с помощью IntelliTrace и Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md).
 
