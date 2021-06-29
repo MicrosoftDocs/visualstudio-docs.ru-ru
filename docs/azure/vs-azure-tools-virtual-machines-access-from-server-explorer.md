@@ -7,12 +7,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
-ms.openlocfilehash: ab67a81d761f2e17c82b75fb59a201188cf80986
-ms.sourcegitcommit: b770b99034e65c91b29bea87bc6f5fa02348515b
+ms.openlocfilehash: f95542c79e6f8cde83866caa082b8e025b069589
+ms.sourcegitcommit: 690bfc20744e4b543ee81030a60c8fc6d0d6610f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "112997635"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113038581"
 ---
 # <a name="accessing-azure-virtual-machines-from-server-explorer"></a>Доступ к виртуальным машинам Azure из обозревателя сервера
 
@@ -26,7 +26,7 @@ ms.locfileid: "112997635"
 
 ::: moniker-end
 
-::: moniker range="<=vs-2017"
+::: moniker range="<=vs-2019"
 
 Виртуальные машины, размещенные в Azure, можно открыть в обозревателе сервера. Чтобы просмотреть мобильные службы, войдите в свою подписку Azure. Для этого откройте контекстное меню узла Azure в обозревателе сервера и выберите пункт **Подключиться к Microsoft Azure**.
 
