@@ -9,12 +9,12 @@ manager: jmartens
 monikerRange: vs-2022
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e7c4990d513bfb276984611b2d38f3e35a825eb
-ms.sourcegitcommit: a7a4c5545a269ca74a7291966ff77afb3b57f5ce
+ms.openlocfilehash: 512e9a71cde5ca29c737c1623aa0c8f9c37dd60d
+ms.sourcegitcommit: 0499d813d5c24052c970ca15373d556a69507250
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "112424657"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113046135"
 ---
 # <a name="update-a-visual-studio-extension-for-visual-studio-2022"></a>Обновление расширения Visual Studio для Visual Studio 2022
 
@@ -105,7 +105,7 @@ ms.locfileid: "112424657"
    >-<Reference Include="Microsoft.VisualStudio.OLE.Interop" />
    >-<Reference Include="Microsoft.VisualStudio.Interop" />
    >-<Reference Include="Microsoft.VisualStudio.Interop.8.0" />
-   >+<PackageReference Include="Microsoft.VisualStudio.Sdk" >Version="..." />
+   >+<PackageReference Include="Microsoft.VisualStudio.Sdk" Version="..." />
    >```
 
    Не забудьте выбрать версии пакета, которые соответствуют минимальным целевым версиям Visual Studio.
@@ -333,6 +333,6 @@ ms.locfileid: "112424657"
 
 Ответ. **на** [шаге 2,4](samples.md#step-2---refactor-source-code-into-a-shared-project) примера оптимизатора изображений показано, как добавить VSCT файлы в качестве связанных элементов, чтобы они были скомпилированы в файл VSCT.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Следующие шаги
 
 Выполните пошаговый пример, [имажеоптимизер](samples.md), со ссылками на проект и изменения кода для каждого шага.
