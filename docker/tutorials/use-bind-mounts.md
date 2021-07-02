@@ -5,16 +5,15 @@ ms.date: 08/04/2020
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
 - azure
-ms.openlocfilehash: 6a4aa7623f69f9b02f9649a1a66ade010a823669
-ms.sourcegitcommit: 98d187abd9352d2255348b84d99d015e65caa0ea
+ms.openlocfilehash: ad3737ccfa4b0dae8ad427bd79e4adeb2756795b
+ms.sourcegitcommit: 8b75524dc544e34d09ef428c3ebbc9b09f14982d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112574117"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "113222764"
 ---
 # <a name="use-bind-mounts"></a>Использование подключения BIND
 
