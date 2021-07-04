@@ -1,7 +1,7 @@
 ---
 title: Параметры проекта для конфигурации отладки C# | Документация Майкрософт
 description: Сведения о том, как изменить параметры проекта для конфигурации отладки C# в Visual Studio с помощью вкладок "Отладка" и "Сборка" на странице свойств проекта.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/21/2018
 ms.topic: reference
 dev_langs:
@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 1adc574241ba34f8170f1c8b1f38c198e3b6ff58
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3377187412f95e090c7403ddd6f898a18f6cec9f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842699"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386505"
 ---
 # <a name="project-settings-for--c-debug-configurations"></a>Параметры проекта для конфигураций отладки C#
 

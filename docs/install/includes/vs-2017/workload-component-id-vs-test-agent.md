@@ -3,19 +3,19 @@ title: Идентификаторы рабочих нагрузок и комп�
 titleSuffix: ''
 description: Идентификаторы рабочих нагрузок и компонентов Visual Studio можно использовать для удаленного выполнения автоматических и нагрузочных тестов.
 keywords: ''
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.date: 2/12/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
-ms.openlocfilehash: 01e339f3f9efc14c68e88fa9e9a422914284f2f9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f6bc7bd8bd629ea50606136af863220edb9b04ac
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99937992"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "110449614"
 ---
 ## <a name="test-agent"></a>Test Agent
 
@@ -35,4 +35,4 @@ Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Основные ф�
 
 Идентификатор компонента | name | Version
 --- | --- | ---
-Н/Д | Н/Д | Н/Д
+Н/Д | Недоступно | Н/Д

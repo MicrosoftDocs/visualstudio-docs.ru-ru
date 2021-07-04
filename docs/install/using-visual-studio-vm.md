@@ -17,16 +17,16 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 339b3661760ee539bb4135c59863e7e9fdae5afc
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 41247c13e8b35fd6e6cd26ac0ad0ea82f742fbb0
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107295823"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112306700"
 ---
-# <a name="visual-studio-images-on-azure"></a><a id="top"> </a> Образы Visual Studio в Azure
+# <a name="visual-studio-images-on-azure"></a>Образы Visual Studio в Azure
 
-Применение Visual Studio на предварительно настроенной виртуальной машине Azure — это простой и быстрый способ использования налаженной среды разработки. Образы системы с различными конфигурациями Visual Studio доступны в [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/compute?filters=virtual-machine-images%3Bmicrosoft%3Bwindows&page=1&subcategories=application-infrastructure).
+Запуск Visual Studio на предварительно настроенной виртуальной машине Azure — простой и быстрый способ получить "с нуля" готовую к работе среду разработки. Образы системы с различными конфигурациями Visual Studio доступны в [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/compute?filters=virtual-machine-images%3Bmicrosoft%3Bwindows&page=1&subcategories=application-infrastructure).
 
 Впервые работаете с Azure? [Создайте бесплатную учетную запись Azure](https://azure.microsoft.com/free).
 
@@ -34,12 +34,12 @@ ms.locfileid: "107295823"
 
 В Azure Marketplace можно найти образы самых последних основных версий: Visual Studio 2019, Visual Studio 2017 и Visual Studio 2015.  Для каждой выпущенной основной версии доступны изначально выпущенная версия для Интернета (RTW) и последние обновленные версии.  Для каждой из этих версий доступны выпуски Visual Studio Enterprise и Visual Studio Community.  Эти образы обновляются по крайней мере раз в месяц для включения последних обновлений Visual Studio и Windows.  Хотя имена образов не меняются, описание каждого образа содержит версию установленного продукта и дату выпуска образа.
 
-| Версия выпуска                                                                                                                                          | Выпуски              |    Версия продукта    |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|:-----------------------:|
-| [Visual Studio 2019. Последняя (версия 16.8)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Версия 16.8.0    |
-| [Visual Studio 2019. RTW](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019?tab=Overview)                         | Предприятие            | Версия 16.0.20    |
-| [Visual Studio 2017. Последняя версия (версия 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Версия 15.9.29   |
-| [Visual Studio 2017. RTW](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)                             | Enterprise, Community | Версия 15.0.28   |
+| Версия выпуска                                                                                                                                                | Выпуски              | Версия продукта       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
+| [Visual Studio 2019. Последняя (версия 16.8)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Версия 16.8.0        |
+| [Visual Studio 2019. RTW](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019?tab=Overview)                         | Предприятие            | Версия 16.0.20       |
+| [Visual Studio 2017. Последняя версия (версия 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Версия 15.9.29       |
+| [Visual Studio 2017. RTW](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)                             | Enterprise, Community | Версия 15.0.28       |
 | [Visual Studio 2015. Последняя версия (обновление 3)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)               | Enterprise, Community | Версия 14.0.25431.01 |
 
 > [!NOTE]
@@ -92,8 +92,9 @@ Azure предлагает широкий диапазон размеров ви
 ## <a name="after-the-vm-is-running-whats-next"></a>Что делать после запуска виртуальной машины?
 
 Visual Studio реализует модель использования собственной лицензии в Azure. Как и при установке закрытого оборудования, одним из первых шагов является лицензирование установленного экземпляра Visual Studio. Чтобы разблокировать Visual Studio, выполните одно из следующих действий:
-- выполните вход с учетной записью Майкрософт, связанной с подпиской Visual Studio;
-- введите ключ продукта, полученный при покупке Visual Studio.
+
+* выполните вход с учетной записью Майкрософт, связанной с подпиской Visual Studio;
+* введите ключ продукта, полученный при покупке Visual Studio.
 
 Дополнительные сведения см. в разделах [Выполните вход в Visual Studio](../ide/signing-in-to-visual-studio.md) и [Практическое руководство. Разблокирование Visual Studio](../ide/how-to-unlock-visual-studio.md).
 

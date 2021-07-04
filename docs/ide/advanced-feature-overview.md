@@ -1,7 +1,7 @@
 ---
 title: Дополнительные функции
 description: Сведения о расширенных функциях, которые могут оказаться более полезны опытным разработчикам или тем, кто уже знаком с Visual Studio.
-ms.custom: SEO-VS-2020
+ms.custom: vs-acquisition
 ms.date: 06/01/2018
 ms.topic: conceptual
 author: TerryGLee
@@ -9,12 +9,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 04b048250b2529e21dd30738821b273c268e3498
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 6cc6604816921b054b0c909177c8e641493920a8
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99862087"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386200"
 ---
 # <a name="features-of-visual-studio"></a>Возможности Visual Studio
 
@@ -82,13 +82,9 @@ Visual Studio предлагает набор инструментов, позв
 
 - Создавайте мобильные приложения для устройств iOS, Android и Windows на C# и F# с помощью [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
-- Используйте стандартные веб-технологии&mdash;HTML, CSS и JavaScript&mdash;, чтобы создавать мобильные приложения для устройств iOS, Android и Windows с помощью [Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/).
-
 - Создавайте игры в форматах 2D и 3D на C# с помощью [средств Visual Studio для Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md).
 
 - Создавайте собственные приложения C++ для устройств iOS, Android и Windows. Предоставляйте доступ к общему коду в библиотеках, созданных для iOS, Android и Windows, с помощью [C++ для кроссплатформенной разработки](/cpp/cross-platform/visual-cpp-for-cross-platform-mobile-development).
-
-- Выполняйте развертывание, тестирование и отладку приложений Android с помощью [эмулятора Android](../cross-platform/visual-studio-emulator-for-android.md).
 
 ## <a name="connect-to-databases"></a>Подключение к базам данных
 

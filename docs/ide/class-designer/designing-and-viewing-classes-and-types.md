@@ -19,16 +19,19 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 236efe20ee652e2690cedf36843d539bf8a9cc46
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 85921343ac52c066735d607ce32635e953cf2e6a
+ms.sourcegitcommit: 4908561809ad397c99cf204f52d5e779512e502c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99850299"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112254790"
 ---
 # <a name="design-and-view-classes-and-types-with-class-designer"></a>Разработка и просмотр классов и типов в конструкторе классов
 
 Разрабатывайте, отображайте классы и другие типы, а также выполняйте их рефакторинг в коде с помощью **конструктора классов** в Visual Studio. Используйте диаграммы классов для создания и изменения классов в проекте C#, Visual Basic или C++. Диаграммы классов также позволяют лучше понимать структуру проекта или реорганизовывать код.
+
+>[!NOTE]
+>Конструктор классов пока недоступен в проектах .NET Core.
 
 ## <a name="what-you-can-do-with-class-diagrams"></a>Сведения о применении диаграмм классов
 

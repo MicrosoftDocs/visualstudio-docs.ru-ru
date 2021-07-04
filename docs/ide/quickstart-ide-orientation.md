@@ -1,7 +1,7 @@
 ---
 title: Краткое руководство. Обзор интегрированной среды разработки (IDE) в Visual Studio
 description: Сведения о некоторых окнах, меню и других функциях пользовательского интерфейса в интегрированной среде разработки Visual Studio.
-ms.custom: SEO-VS-2020
+ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 03/02/2021
 ms.topic: quickstart
@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 237b3384d6bec010a760c4bc193b9a95f33febeb
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 0e3a0c62c1ec13ba6fec464a2903512b2acf33ad
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683966"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386297"
 ---
 # <a name="quickstart-first-look-at-the-visual-studio-ide"></a>Краткое руководство. Знакомство с интегрированной средой разработки Visual Studio
 
@@ -209,7 +209,7 @@ ms.locfileid: "101683966"
 > [!div class="nextstepaction"]
 > [Сведения о проектах и решениях](../get-started/tutorial-projects-solutions.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Общие сведения об интегрированной среде разработки (IDE) в Visual Studio](../get-started/visual-studio-ide.md)
 - [Дополнительные возможности Visual Studio](../ide/advanced-feature-overview.md)

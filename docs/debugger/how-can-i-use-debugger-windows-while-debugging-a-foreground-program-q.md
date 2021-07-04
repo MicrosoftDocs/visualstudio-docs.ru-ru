@@ -1,7 +1,7 @@
 ---
 title: Использование окон отладчика при отладке активной программы | Документация Майкрософт
 description: При отладке программы, которая должна оставаться в активном режиме, используйте удаленную отладку, чтобы не помещать программу в фоновый режим.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 03a143ee2d04227171895bf2b14dff92545b9952
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: fce51a1a28a8e03692faeee3ed723627864f4031
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102155098"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386830"
 ---
 # <a name="how-can-i-use-debugger-windows-while-debugging-a-foreground-program"></a>Как использовать окна отладчика при отладке активной программы?
 ## <a name="problem-description"></a>Описание проблемы

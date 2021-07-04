@@ -8,19 +8,19 @@ helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 0d8441b0a4b8acba3f24f60d5ea8dc7030b79253
-ms.sourcegitcommit: 22789927ec8e877b7d2b67a555d6df97d84103e0
+ms.openlocfilehash: 6dc4137157e2fa5136a0b8c86c5cf72f284a9eb7
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105981294"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112307380"
 ---
 # <a name="install-certificates-required-for-visual-studio-offline-installation"></a>Установка сертификатов, необходимых для установки Visual Studio в автономном режиме
 
@@ -42,7 +42,7 @@ Visual Studio рассчитана в основном на установку �
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 При создании [схемы сети](../install/create-a-network-installation-of-visual-studio.md) или [локального автономного кэша](../install/create-an-offline-installation-of-visual-studio.md) необходимые сертификаты скачиваются в папку Certificates. Вы можете вручную установить сертификаты, щелкнув правой кнопкой мыши каждый файл сертификата, выбрав действие "Установить сертификат" и выполнив инструкции в диалоговых окнах мастера "Диспетчер сертификатов". Если он предложит ввести пароль, оставьте это поле пустым.
 
@@ -60,7 +60,7 @@ Visual Studio рассчитана в основном на установку �
 
 2. С помощью следующих команд создайте пакетный файл сценария:
 
-   ```cmd
+   ```shell
    certmgr.exe -add [layout path]\certificates\manifestRootCertificate.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
 
    certmgr.exe -add [layout path]\certificates\manifestCounterSignRootCertificate.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
@@ -70,7 +70,7 @@ Visual Studio рассчитана в основном на установку �
    
    Или создайте пакетный файл, который использует certutil.exe, входящий в состав Windows, со следующими командами:
    
-      ```cmd
+      ```shell
    certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer"
 
    certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestCounterSignRootCertificate.cer"

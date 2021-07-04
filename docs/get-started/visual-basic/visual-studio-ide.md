@@ -4,6 +4,7 @@ description: Сведения об использовании Visual Studio дл
 ms.date: 03/02/2021
 ms.technology: vs-ide-general
 ms.custom:
+- vs-acquisition
 - get-started
 - SEO-VS-2020
 ms.topic: conceptual
@@ -14,12 +15,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 398070e0214e36f696bb69614bb6a51b3462a551
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 486201d61f6bd2d149c9aea66efee1814ce667e7
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101682918"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386635"
 ---
 # <a name="welcome-to-the-visual-studio-ide--visual-basic"></a>Введение в интегрированную среду разработки Visual Studio (Visual Basic)
 
@@ -355,7 +356,7 @@ ms.locfileid: "101682918"
 
    Выберите шаблон **Консольное приложение** и щелкните **Далее**.
 
-    :::image type="content" source="media/vs-2019/create-new-project.png" alt-text="Снимок экрана: окно &quot;Создание нового проекта&quot; в Visual Studio 2019, где вы можете выбрать требуемый шаблон.":::
+    :::image type="content" source="media/vs-2019/create-new-project.png" alt-text="Снимок экрана: окно &quot;Создание нового проекта&quot; в Visual Studio 2019, где вы можете выбрать нужный шаблон.":::
 
 1. В окне **Настройка нового проекта** введите **HelloWorld** в поле **Имя проекта**, при необходимости измените расположение каталога для вашего проекта (по умолчанию используется путь `C:\Users\<name>\source\repos`) и щелкните **Далее**.
 
@@ -363,7 +364,7 @@ ms.locfileid: "101682918"
 
 1. В окне **Дополнительные сведения** убедитесь, что в раскрывающемся меню **Целевая платформа** указано **.NET Core 3.1**, а затем щелкните **Создать**.
 
-    :::image type="content" source="media/vs-2019/create-project-additional-info.png" alt-text="Снимок экран: окно &quot;Дополнительные сведения&quot; в Visual Studio 2019, где вы можете выбрать требуемую версию платформы .NET Core.":::
+    :::image type="content" source="media/vs-2019/create-project-additional-info.png" alt-text="Снимок экран: окно &quot;Дополнительные сведения&quot; в Visual Studio 2019, где можно выбрать требуемую версию платформы .NET Core.":::
 
    Visual Studio создаст проект. Это простейший вариант приложения "Hello World", в котором вызывается метод <xref:System.Console.WriteLine?displayProperty=nameWithType> для вывода литеральной строки "Hello World!" в окне консоли (выходных данных программы).
 
@@ -432,7 +433,7 @@ ms.locfileid: "101682918"
 
    Переменная переименовывается во всем проекте, то есть в нашем случае только в двух местах.
 
-4. Теперь рассмотрим возможности IntelliSense. После строки `Console.WriteLine("Hello " + username + "!")` напишите следующий фрагмент кода:
+4. Теперь рассмотрим возможности IntelliSense. После строки `Console.WriteLine("Hello &quot; + username + &quot;!")` напишите следующий фрагмент кода:
 
     ```vb
    Dim now = Date.
@@ -481,13 +482,13 @@ ms.locfileid: "101682918"
 
 ::: moniker-end
 
-## <a name="debug-code"></a>Отладка кода
+## <a name="debug-code&quot;></a>Отладка кода
 
 При написании кода требуется запустить его и проверить на ошибки. Система отладки Visual Studio позволяет просматривать код с шагом в одну инструкцию, проверяя значения переменных. Можно задать *точки останова*, которые останавливают выполнение кода на определенной строке. Вы увидите, как значение переменной изменяется по мере выполнения кода, и многое другое.
 
 Зададим точку останова, чтобы увидеть значение переменной `username` во время выполнения программы.
 
-1. Найдите строку кода "`Console.WriteLine("Hello " + username + "!")`". Чтобы задать точку останова в этой строке кода, то есть чтобы приостановить выполнение программы в этой строке, щелкните в крайнем левом поле редактора. Кроме того, можно щелкнуть в любом месте строки кода и нажать клавишу **F9**.
+1. Найдите строку кода &quot;`Console.WriteLine(&quot;Hello &quot; + username + &quot;!")`". Чтобы задать точку останова в этой строке кода, то есть чтобы приостановить выполнение программы в этой строке, щелкните в крайнем левом поле редактора. Кроме того, можно щелкнуть в любом месте строки кода и нажать клавишу **F9**.
 
    В крайнем левом поле отображается красный кружок, и код выделяется красным цветом.
 

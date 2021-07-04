@@ -8,12 +8,12 @@ manager: markl
 ms.workload:
 - cplusplus
 author: corob-msft
-ms.openlocfilehash: d20bcdef769d8cd751230000b0e4d4319b10e46f
-ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
+ms.openlocfilehash: 877c9163d05f458ce45a46d6b3e6d14e354df591
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106217467"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112042891"
 ---
 # <a name="write-unit-tests-for-cc-in-visual-studio"></a>Написание модульных тестов для C/C++ в Visual Studio
 
@@ -51,7 +51,7 @@ ms.locfileid: "106217467"
 
 В следующих разделах описываются основные действия по началу модульного тестирования для C++. Базовая настройка для платформ Майкрософт и Google Test схожа. Boost.Test требует создать тестовый проект вручную.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ### <a name="create-a-test-project-in-visual-studio-2019"></a>Создание тестового проекта в Visual Studio 2019
 

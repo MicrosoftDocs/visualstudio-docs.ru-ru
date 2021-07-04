@@ -9,12 +9,12 @@ manager: jmartens
 ms.workload:
 - uwp
 author: corob-msft
-ms.openlocfilehash: 5117ffb8731ef06f054b0ecbfc651aef2563078e
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f1981b3876d2e42e992ef261738da2443edfc114
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99962630"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112042916"
 ---
 # <a name="how-to-test-a-c-dll"></a>Тестирование Библиотеки DLL C++
 
@@ -26,7 +26,7 @@ ms.locfileid: "99962630"
 
 ## <a name="create-the-solution-and-the-unit-test-project"></a><a name="Create_the_solution_and_the_unit_test_project"></a> Создание решения и проекта модульного теста
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Начнем с создания нового тестового проекта. В меню **Файл** последовательно выберите пункты **Создать** > **Проект**. В диалоговом окне **Создание нового проекта** в поле поиска введите "тест" и задайте **Язык** как C++. В списке шаблонов проектов выберите **Приложение модульного тестирования (универсальное приложение Windows)** .
 
@@ -81,7 +81,7 @@ ms.locfileid: "99962630"
 
 ## <a name="add-the-dll-project-to-the-solution"></a><a name="Add_the_DLL_project_to_the_solution"></a> Добавление в решение проекта библиотеки DLL
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 В **обозревателе решений** выберите имя решения. В контекстном меню выберите команду **Добавить**, а затем — пункт **Новый проект**. В диалоговом окне **Добавление нового проекта** задайте **Язык** как C++ и введите "DLL" в поле поиска. В списке результатов выберите **Приложение модульного тестирования (универсальная платформа Windows — C++ или CX)** .
 

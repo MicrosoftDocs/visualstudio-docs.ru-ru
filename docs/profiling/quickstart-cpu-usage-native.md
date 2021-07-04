@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 86b5e44f5b9e2fec07fef4e54a48ff89ebb2ff74
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8c68cc67d768dbe2b1c42671a02360e5cef2b56b
+ms.sourcegitcommit: 01a411cd7ae3488b7b979a947bca92fd296a98e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861639"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111760943"
 ---
 # <a name="quickstart-analyze-cpu-usage-data-in-visual-studio-c"></a>Краткое руководство. Анализ данных по использованию ЦП в Visual Studio (C++)
 
@@ -39,7 +39,7 @@ Visual Studio предоставляет множество эффективны
 
    Если шаблон проекта **Приложение консоли Windows** отсутствует, щелкните ссылку **Открыть Visual Studio Installer** в левой области диалогового окна **Создать проект**. Запускается Visual Studio Installer. Выберите рабочую нагрузку **Разработка классических приложений на C++** , а затем нажмите **Изменить**.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    Если окно запуска не открыто, выберите **Файл** > **Окно запуска**.
 
    На начальном экране выберите **Создать проект**.

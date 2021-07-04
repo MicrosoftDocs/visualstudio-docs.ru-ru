@@ -8,15 +8,16 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
   ms.topic: landing-page
-  author: jillre
-  ms.author: jillfra
-  ms.date: 09/24/2019
-  ms.openlocfilehash: a97cdc17a9e71520d34437e8897f3301de58fb5e
-  ms.sourcegitcommit: 566144d59c376474c09bbb55164c01d70f4b621c
+  author: j-martens
+  ms.author: jmartens
+  ms.date: 06/14/2021
+  ms.custom: vs-acquisition
+  ms.openlocfilehash: a8f0b61e9978accf1af7142271b66f84ec5cbdb4
+  ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/19/2020
-  ms.locfileid: "90809665"
+  ms.lasthandoff: 06/19/2021
+  ms.locfileid: "112385166"
 landingContent:
 - title: Начало работы
   linkLists:
@@ -74,9 +75,11 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Заметки о выпуске
+      url: /visualstudio/releases/2019/release-notes
     - text: Новые возможности Visual Studio 2019
       url: ../ide/whats-new-visual-studio-2019.md
     - text: Новые возможности Visual Studio 2017
       url: ../ide/whats-new-visual-studio-2017.md
-    - text: Новые возможности в документации по Visual Studio
+    - text: Что нового в документации
       url: ../ide/whats-new-visual-studio-docs.md

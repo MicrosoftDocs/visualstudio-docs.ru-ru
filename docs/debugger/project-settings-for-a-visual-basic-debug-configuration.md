@@ -1,7 +1,7 @@
 ---
 title: Параметры проекта для конфигурации отладки VB | Документация Майкрософт
 description: Сведения об изменении параметров проекта для конфигурации отладки Visual Basic в окне "Страницы свойств" в Visual Studio.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -24,12 +24,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 7a1f0e7aa0e6ee7523f8ff7ae1f3c8e34745a3af
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f16d0dde62a23d8272cb89aec46f2ce952f18979
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99842712"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385216"
 ---
 # <a name="project-settings-for-a-visual-basic-debug-configuration"></a>Project Settings for a Visual Basic Debug Configuration
 Можно изменять параметры проекта для настройки отладки [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] в окне **Страницы свойств**, как описано в разделе [Настройка отладки и выпуска](../debugger/how-to-set-debug-and-release-configurations.md). В следующих таблицах показано, в каком месте окна **Страницы свойств** можно найти параметры, связанные с отладчиком.

@@ -1,7 +1,7 @@
 ---
 title: Просмотр значений регистров в отладчике | Документация Майкрософт
 description: Просмотр значений регистров в окне "Регистры" в Visual Studio. Во время отладки, при выполнении кода в приложении, значения регистров меняются.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/19/2018
 ms.topic: how-to
 f1_keywords:
@@ -25,12 +25,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ea0275a5186b58c9b9a07934b95351b597a816f3
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e2648f74453f51cd8d655ccb0c2344eb1030c1ed
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99845013"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385400"
 ---
 # <a name="view-register-values-in-the-registers-window-c-c-visual-basic-f"></a>Просмотр значений регистров в окне "Регистры" (C#, C++, Visual Basic, F#)
 

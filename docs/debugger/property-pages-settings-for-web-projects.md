@@ -1,7 +1,7 @@
 ---
 title: Параметры свойств для веб-проектов | Документация Майкрософт
 description: Сведения об изменении параметров проекта для конфигурации отладки веб-сайта в диалоговом окне "Страницы свойств" в Visual Studio.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 83e90b5843731a274bd5cb0913b5e498ce48b067
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3e8a99e2c42ff14aba4bb31f087e55a0f1ebf3ae
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99908379"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386518"
 ---
 # <a name="property-pages-settings-for-web-projects"></a>Параметры страниц свойств для веб-проектов
 Можно изменить значения свойств для конфигурации отладки веб-узла в диалоговом окне **Окна свойств**, как описано в разделе [Конфигурации отладки и выпуска](../debugger/how-to-set-debug-and-release-configurations.md). В следующих таблицах показано, где в диалоговом окне **Страницы свойств** можно найти параметры, связанные с отладчиком.

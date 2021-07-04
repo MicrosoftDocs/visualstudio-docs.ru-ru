@@ -9,12 +9,12 @@ ms.reviewer: karthiknadig
 manager: jmartens
 ms.workload:
 - data-science
-ms.openlocfilehash: 01048bc9b21287eb62693096b34a1ea8305e0ee9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 3aefba3880443269dbdb1c933e2c12b2f8001469
+ms.sourcegitcommit: fc05a763b59e212c86350d117a1900a1f2686ec8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99851872"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "111551284"
 ---
 # <a name="use-docker-containers-with-r-tools-for-visual-studio"></a>Использование контейнеров Docker с инструментами R для Visual Studio
 
@@ -22,7 +22,7 @@ ms.locfileid: "99851872"
 
 ## <a name="create-a-container"></a>Создание контейнера
 
-1. Нажмите кнопку **Контейнеры** в правой части окна **Рабочие области** (**Инструменты R** > **Windows** > **Рабочие области**). Если у вас не установлено решение Docker для Windows, окно сообщит вам об этом и предоставит ссылку для загрузки. Установка Docker может потребовать перезагрузки компьютера.
+1. Нажмите кнопку **Контейнеры** в правой части окна **Рабочие области** (**Инструменты R** > **Windows** > **Рабочие области**). Если у вас не установлено решение Docker для Windows, окно сообщит вам об этом и предоставит ссылку для загрузки. Для установки Docker может потребоваться перезагрузка компьютера.
 
     ![Окно "Рабочие области" в инструментах R для Visual Studio (VS2017) с командой "Контейнеры"](media/container-workspaces-window.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "99851872"
 RTVS поддерживает обнаружение и управление для контейнеров, созданных с помощью пользовательских образов, например образа microsoft/rtvs, описываемого в файле Docker ниже. Используемый здесь базовый образ содержит предустановленные rtvs-daemon, R 3.4.2 и общие пакеты R. **Примечание**. Измените показанные здесь имя пользователя и пароль.
 
 ```docker
-FROM microsoft/rtvs:1.3-ub1604-r3.4.2
+FROM mcr.microsoft.com/rtvs:1.3-ub1604-r3.4.2
 RUN useradd --create-home ruser1
 RUN echo "ruser1:foobar" | chpasswd
 

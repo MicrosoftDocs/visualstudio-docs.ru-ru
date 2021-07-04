@@ -3,21 +3,21 @@ title: Восстановление Visual Studio
 titleSuffix: ''
 description: Сведения о восстановлении установки Visual Studio 2017
 ms.date: 10/12/2020
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.topic: how-to
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 09f167866d03b29530f4845aa958198215289555
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 55ebb7c44b44a14154cc54f54885455821f9ee68
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99959302"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386791"
 ---
 # <a name="repair-visual-studio"></a>Восстановление Visual Studio
 
@@ -59,7 +59,7 @@ ms.locfileid: "99959302"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Найдите **Visual Studio Installer** на своем компьютере.
 

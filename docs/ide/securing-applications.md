@@ -13,12 +13,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: c3d5fe8755450fd5068688064bf36b08c741c862
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f3dcd034a76fbc371c95a2bbf386687830e3b63d
+ms.sourcegitcommit: 63cb90e8cea112aa2ce8741101b309dbc709e393
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99878647"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110687659"
 ---
 # <a name="secure-applications"></a>Защита приложений
 
@@ -45,6 +45,6 @@ ms.locfileid: "99878647"
 - [Безопасность в .NET](/dotnet/standard/security/index)
 - [Безопасность в Azure](/azure/security/)
 - [Руководство по безопасности системы Windows 10 Mobile](/windows/security/threat-protection/windows-10-mobile-security-guide)
-- [Функции безопасности платформы Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017&preserve-view=true)
+- [Функции безопасности платформы Apache Cordova](/previous-versions/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017&preserve-view=true)
 - [Безопасность ASP.NET Core](/aspnet/core/security/?view=aspnetcore-2.1&preserve-view=true)
 - [Безопасность Windows Forms](/dotnet/framework/winforms/windows-forms-security)

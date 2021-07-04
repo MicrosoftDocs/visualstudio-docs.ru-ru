@@ -10,19 +10,19 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 0b86d8bc6d3533d2ed50eb4e87330a81f1028f13
-ms.sourcegitcommit: 56060e3186086541d9016d4185e6f1bf3471e958
+ms.openlocfilehash: ba41c545c2af2e0490ef0410fde7849706123940
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106547418"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112306713"
 ---
 # <a name="visual-studio-administrator-guide"></a>Руководство администратора Visual Studio
 
@@ -34,7 +34,7 @@ ms.locfileid: "106547418"
 
 Перед развертыванием Visual Studio в вашей организации нужно принять определенные решения и выполнить задачи:
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * Убедитесь, что каждый конечный компьютер отвечает [минимальным требованиям к установке](/visualstudio/releases/2019/system-requirements/).
 
@@ -60,7 +60,7 @@ ms.locfileid: "106547418"
 
   Для компьютеров, не подключенных к Интернету, создание минимального макета — самый простой и быстрый способ обновления автономных экземпляров Visual Studio. Дополнительные сведения см. в статье [Обновление Visual Studio с использованием минимального автономного макета](update-minimal-layout.md).
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 * Решите, какой набор [рабочих нагрузок и компонентов](workload-and-component-ids.md?view=vs-2019&preserve-view=true) отвечает потребностям вашей компании.
 
@@ -78,7 +78,7 @@ ms.locfileid: "106547418"
 
 * Решите, нужно ли включение групповой политики и хотите ли вы отключить в Visual Studio отправку отзывов пользователей с отдельных компьютеров.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## <a name="step-1---download-visual-studio-product-files"></a>Шаг 1.Скачивание файлов продукта Visual Studio
 

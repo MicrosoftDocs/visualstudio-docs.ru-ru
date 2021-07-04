@@ -10,12 +10,12 @@ helpviewer_keywords:
 - editor
 ms.workload:
 - dotnet
-ms.openlocfilehash: a3ac2e91ed9166a2eb8bdc4a19f2143c4fc71640
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 09a33db9df8e1309792cd6a3722bb82333348d84
+ms.sourcegitcommit: 690bfc20744e4b543ee81030a60c8fc6d0d6610f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102161317"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113038659"
 ---
 # <a name="visual-studio-productivity-guide-for-c-developers"></a>Руководство по повышению производительности работы в Visual Studio для разработчиков на платформе C#
 
@@ -64,7 +64,7 @@ ms.locfileid: "102161317"
 > [!NOTE]
 > Некоторые расширения отменяют привязку настраиваемых сочетаний клавиш по умолчанию в Visual Studio. Чтобы использовать вышеприведенные команды, восстановите заданные по умолчанию сочетания клавиш в Visual Studio, выбрав пункты меню **Сервис** > **Импорт и экспорт параметров** > **Сбросить все параметры** или **Сервис** > **Параметры** > **Клавиатура** > **Сброс**.
 
-Дополнительные сведения о сочетаниях клавиш и командах см. в статьях [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md) (Подсказки по сочетаниям клавиш для Visual Studio) и [Сочетания клавиш по умолчанию для часто используемых команд в Visual Studio](default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md).
+Дополнительные сведения о сочетаниях клавиш и командах см. в статьях [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md) (Подсказки по сочетаниям клавиш для Visual Studio) и [Сочетания клавиш по умолчанию для часто используемых команд в Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
 
 ## <a name="navigate-quickly-to-files-or-types"></a>Быстрый переход к файлам или типам
 
@@ -152,7 +152,7 @@ ms.locfileid: "102161317"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
 - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2019)

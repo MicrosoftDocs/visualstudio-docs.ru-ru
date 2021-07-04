@@ -12,12 +12,12 @@ ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 4b4d500eb808e5a4f5d4c49cde9a84e740dc54d0
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: ed4c6b3c65cc7a4c68288c01964388bbf8ec54a0
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107296616"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112306427"
 ---
 # <a name="step-1-create-a-project-and-add-a-table-to-your-form"></a>Шаг 1. Создание проекта и добавление таблицы в форму
 
@@ -40,7 +40,7 @@ ms.locfileid: "107296616"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. На начальном экране выберите **Создать проект**.
 

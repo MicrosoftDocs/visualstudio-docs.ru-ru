@@ -1,7 +1,7 @@
 ---
 title: Просмотр значений переменных в подсказках по данным | Документация Майкрософт
 description: Использование удобных подсказок по данным для просмотра сведений о переменных, включая массивы и структуры, при отладке. Вы также можете изменять значения.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/21/2018
 ms.topic: conceptual
 dev_langs:
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b5c9d0449fca38371e07ddaca6cef8758f53a2aa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a84c3379c04799aa1faea5b0e62afe0ef1aa11e9
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904926"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386479"
 ---
 # <a name="view-data-values-in-datatips-in-the-code-editor"></a>Просмотр значений данных в подсказках по данным в редакторе кода
 

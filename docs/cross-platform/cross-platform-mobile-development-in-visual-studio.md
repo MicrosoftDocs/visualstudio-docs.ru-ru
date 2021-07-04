@@ -12,12 +12,12 @@ ms.author: crdun
 manager: crdun
 ms.workload:
 - multiple
-ms.openlocfilehash: b50edfe91a9b497760c44d3fd548eb6d2a15a049
-ms.sourcegitcommit: f4b49f1fc50ffcb39c6b87e2716b4dc7085c7fb5
+ms.openlocfilehash: 2f3c611ae157be4f2ea89254856bdd3b6fba448d
+ms.sourcegitcommit: 63cb90e8cea112aa2ce8741101b309dbc709e393
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93399381"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "110687676"
 ---
 # <a name="cross-platform-mobile-development-in-visual-studio"></a>Кроссплатформенная разработка для мобильных устройств в Visual Studio
 
@@ -110,7 +110,7 @@ ms.locfileid: "93399381"
 |**Дополнительные сведения**|
 |--------------------|
 |[Установка Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
-|[Начало работы со средствами Visual Studio для Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
+|[Начало работы со средствами Visual Studio для Apache Cordova](/previous-versions/visualstudio/cross-platform/tools-for-cordova/)|
 |[Сведения об эмуляторе Visual Studio для Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/) (VisualStudio.com)|
 
 ::: moniker-end
@@ -152,7 +152,7 @@ ms.locfileid: "93399381"
 
 ## <a name="build-a-cross-platform-game-for-android-ios-and-windows-by-using-visual-studio-tools-for-unity"></a>Создание кросс-платформенной игры для устройств Android, iOS и Windows с использованием инструментов Visual Studio для Unity
 
- Инструменты Visual Studio для Unity представляют собой бесплатное расширение Visual Studio, которое интегрирует мощные функции редактирования кода, повышения продуктивности и средства отладки в составе Visual Studio с *Unity* , популярной кроссплатформенной системой и средой разработки для игр и мощных графических приложений на платформах Windows, iOS, Android и других платформах, включая веб-приложения.
+ Инструменты Visual Studio для Unity представляют собой бесплатное расширение Visual Studio, которое интегрирует мощные функции редактирования кода, повышения продуктивности и средства отладки в составе Visual Studio с *Unity*, популярной кроссплатформенной системой и средой разработки для игр и мощных графических приложений на платформах Windows, iOS, Android и других платформах, включая веб-приложения.
 
  ![Среда разработки VSTU](../cross-platform/media/vstu_overview.png "Обзор набора средств Visual Studio для Unity")
 

@@ -1,7 +1,7 @@
 ---
 title: Создание визуализатора на Visual Basic | Документация Майкрософт
 description: Пошаговое руководство по созданию простого визуализатора на Visual Basic. Вы также создадите тестовое окружение для тестирования визуализатора.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 05/27/2020
 ms.topic: conceptual
 dev_langs:
@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 49d730fe6fef116577f26acabd72440950a6e192
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: b1a4fc7d6f33d1bdfd469ec352674b08dd2495e6
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99884056"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385010"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-visual-basic"></a>Пошаговое руководство. Написание визуализатора на Visual Basic
 

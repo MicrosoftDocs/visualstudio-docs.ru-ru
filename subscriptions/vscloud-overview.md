@@ -7,12 +7,12 @@ ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
 ms.date: 02/19/2021
 ms.topic: overview
 description: Вы можете арендовать Visual Studio Professional или Visual Studio Enterprise на помесячной основе или на год, не заключая долгосрочный контракт.
-ms.openlocfilehash: 56988001272fb11252b85cb60bdcae109edf8e29
-ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
+ms.openlocfilehash: 5e6346b640415b7888826669427512a75427f0cc
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104672547"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112043111"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Купить облачные подписки на Visual Studio Professional и Visual Studio Enterprise
 Вы можете купить [подписки на Visual Studio Professional и Visual Studio Enterprise](https://visualstudio.microsoft.com/subscriptions/) в [Visual Studio Marketplace](https://marketplace.visualstudio.com). Это так называемые **облачные подписки**.
@@ -57,11 +57,11 @@ ms.locfileid: "104672547"
 Если вы купили несколько подписок, перейдите на [портал администрирования Подписок Visual Studio](https://manage.visualstudio.com), чтобы назначить подписки другим пользователям.  Вам может потребоваться [добавить новые подписки](add-monthly-subs.md) на портал администрирования, если вы купили их впервые.
 
 > [!div class="mx-imgBorder"]
-> ![Назначение подписок другим пользователям](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Щелкните "Назначить пользователям", чтобы предоставить подписки пользователям.")
+> ![Назначение подписок другим пользователям](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Щелкните &quot;Назначить пользователям&quot;, чтобы предоставить подписки пользователям.")
 
 
 > [!div class="mx-imgBorder"]
-> ![Просмотр подписок](_img/buy-vs-subscriptions/assign-subscriptions.png "Щелкните "Добавить", чтобы назначить подписки пользователям.")
+> ![Просмотр подписок](_img/buy-vs-subscriptions/assign-subscriptions.png "Щелкните &quot;Добавить&quot;, чтобы назначить подписки пользователям.")
 
 ## <a name="cancel-renewals-of-cloud-subscriptions-youve-purchased"></a><a name="manage-subscriptions"></a>Отмена продления приобретенных облачных подписок
 
@@ -76,7 +76,7 @@ ms.locfileid: "104672547"
 1. Измените количество на нуль (0). Ваши подписки будут действовать до запланированной даты выставления счетов, но не будут продлены в начале следующего расчетного периода.   
 
 > [!div class="mx-imgBorder"]
-> ![Управление подписками](_img/buy-vs-subscriptions/manage-subscriptions.png "Нажатие кнопки "Изменить количество" для отмены подписок")
+> ![Управление подписками](_img/buy-vs-subscriptions/manage-subscriptions.png "Нажатие кнопки &quot;Изменить количество&quot; для отмены подписок")
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -125,7 +125,7 @@ ms.locfileid: "104672547"
 
 ## <a name="related-resources"></a>Связанные ресурсы
 - [Портал администрирования Подписок Visual Studio](https://manage.visualstudio.com/)
-- [Вопросы и ответы о выставлении счетов за облачные подписки Visual Studio](vscloud-billing-faq.md)
+- [Вопросы и ответы о выставлении счетов за облачные подписки Visual Studio](vscloud-billing-faq.yml)
 - [Приобретение облачных подписок Visual Studio для поставщиков облачных решений](vscloud-csp.md)
 - - По вопросам продаж, использования подписок, учетных записей и выставления счетов для подписок Visual Studio обратитесь в [службу поддержки подписок Visual Studio](https://visualstudio.microsoft.com/subscriptions/support/).
 

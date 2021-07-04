@@ -9,12 +9,12 @@ manager: markl
 ms.workload:
 - cplusplus
 author: corob-msft
-ms.openlocfilehash: 06ad7bd437fca98c7be92a1e12ce31234d876b28
-ms.sourcegitcommit: cc8547eb211c43b67b8123d1211b80b5642e3b18
+ms.openlocfilehash: 6e8df96c6345d84531ef04eae56f7f60dcc3eefe
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100563429"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112042877"
 ---
 # <a name="write-unit-tests-for-c-dlls-in-visual-studio"></a>Написание модульных тестов для библиотек DLL на C++ в Visual Studio
 
@@ -58,7 +58,7 @@ ms.locfileid: "100563429"
 
   1. Создание проекта машинного модульного теста
 
-      ::: moniker range="vs-2019"
+      ::: moniker range=">=vs-2019"
 
       1. В меню **Файл** последовательно выберите пункты **Создать** > **Проект**. В диалоговом окне **Добавление нового проекта** задайте **Язык** как C++ и введите "тест" в поле поиска. Выберите шаблон **Проект машинного модульного теста**.
 
@@ -90,7 +90,7 @@ ms.locfileid: "100563429"
 
   1. Создание проекта машинного модульного теста
 
-      ::: moniker range="vs-2019"
+      ::: moniker range=">=vs-2019"
 
       1. В меню **Файл** последовательно выберите пункты **Создать** > **Проект**. В диалоговом окне **Добавление нового проекта** задайте **Язык** как C++ и введите "тест" в поле поиска. Выберите шаблон **Проект машинного модульного теста**.
 

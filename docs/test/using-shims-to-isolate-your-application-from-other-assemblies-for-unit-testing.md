@@ -10,12 +10,12 @@ author: mikejo5000
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: f15af6958c7f5855b5005fc0a6aa4c821346ccb5
-ms.sourcegitcommit: e262f4c2a147c3fa2d27de666aae3a0497317867
+ms.openlocfilehash: 72a976ccd487abdfa2c6501c0dcafee07dc5f4ae
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "100006407"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112042864"
 ---
 # <a name="use-shims-to-isolate-your-app-for-unit-testing"></a>Использование оболочек совместимости для изоляции приложения при модульном тестировании
 
@@ -429,7 +429,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 Каждый созданный тип оболочки содержит экземпляр интерфейса `IShimBehavior` через свойство `ShimBase<T>.InstanceBehavior`. Это поведение используется, когда клиент вызывает член экземпляра, для которого оболочка не создана явно.
 
-Если поведение не задано явно, будет использоваться экземпляр, возвращаемый статическим свойством `ShimsBehaviors.Current`. По умолчанию это свойство возвращает поведение, вызывающее исключение `NotImplementedException`.
+Если поведение не задано явно, будет использоваться экземпляр, возвращаемый статическим свойством `ShimBehaviors.Current`. По умолчанию это свойство возвращает поведение, вызывающее исключение `NotImplementedException`.
 
 Это поведение можно изменить в любой момент, задав свойство `InstanceBehavior` для любого экземпляра оболочки совместимости. Например, в следующем фрагменте кода изменяется поведение оболочки, которое ничего не делает или возвращает значение по умолчанию возвращаемого типа, то есть `default(T)`:
 
@@ -437,26 +437,26 @@ public class ShimMyClass : ShimBase<MyClass> {
 // unit test code
 var shim = new ShimMyClass();
 //return default(T) or do nothing
-shim.InstanceBehavior = ShimsBehaviors.DefaultValue;
+shim.InstanceBehavior = ShimBehaviors.DefaultValue;
 ```
 
-Поведение также можно изменить глобально для всех экземпляров с оболочками совместимости, для которых свойство `InstanceBehavior` не было задано явно, путем задания статического свойства `ShimsBehaviors.Current`.
+Поведение также можно изменить глобально для всех экземпляров с оболочками совместимости, для которых свойство `InstanceBehavior` не было задано явно, путем задания статического свойства `ShimBehaviors.Current`.
 
 ```csharp
 // unit test code
 // change default shim for all shim instances
 // where the behavior has not been set
-ShimsBehaviors.Current = ShimsBehaviors.DefaultValue;
+ShimBehaviors.Current = ShimBehaviors.DefaultValue;
 ```
 
 ## <a name="detect-environment-accesses"></a>Обнаружение событий доступа к среде
 
-Можно назначить поведение всем членам (включая статические методы) определенного типа, назначив поведение `ShimsBehaviors.NotImplemented` статическому свойству `Behavior` соответствующего типа оболочки.
+Можно назначить поведение всем членам (включая статические методы) определенного типа, назначив поведение `ShimBehaviors.NotImplemented` статическому свойству `Behavior` соответствующего типа оболочки.
 
 ```csharp
 // unit test code
 // assigning the not implemented behavior
-ShimMyClass.Behavior = ShimsBehaviors.NotImplemented;
+ShimMyClass.Behavior = ShimBehaviors.NotImplemented;
 // shorthand
 ShimMyClass.BehaveAsNotImplemented();
 ```

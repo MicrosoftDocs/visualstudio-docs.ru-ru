@@ -1,7 +1,7 @@
 ---
 title: Просмотр библиотек DLL и исполняемых файлов
 description: Просмотр используемых приложением библиотек DLL и исполняемых файлов (EXE-файлы) в окне "Модули" во время сеанса отладки в Visual Studio.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 titleSuffix: Visual Studio Modules window
 ms.date: 11/04/2018
 ms.topic: how-to
@@ -26,12 +26,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 8add274d74d9d8d7d72f2808a2b0100c66a19717
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f82b8a5051cf1c338c4b1aab6e78209fb2bc08b0
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912204"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385413"
 ---
 # <a name="view-dlls-and-executables-in-the-modules-window-c-c-visual-basic-f"></a>Просмотр библиотек DLL и исполняемых файлов в окне "Модули" (C#, C++, Visual Basic, F#)
 

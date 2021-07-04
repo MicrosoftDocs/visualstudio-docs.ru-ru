@@ -3,19 +3,19 @@ title: Идентификаторы рабочих нагрузок и комп�
 titleSuffix: ''
 description: Идентификаторы рабочих нагрузок и компонентов позволяют устанавливать Visual Studio с помощью командной строки. Также их можно указать в качестве зависимости в манифесте VSIX.
 keywords: ''
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.date: 2/12/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
-ms.openlocfilehash: d250a1b00c65c24d38a47f7a9a2791f9ef7a2e82
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 977c50d42a5c3b59a397714a656f6fd84d94de36
+ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99881853"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "110449870"
 ---
 ## <a name="visual-studio-core-editor-included-with-visual-studio-enterprise-2017"></a>Основной редактор Visual Studio (включен в Visual Studio Enterprise 2017)
 
@@ -137,10 +137,10 @@ Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation 
 Идентификатор компонента | name | Version | Тип зависимости
 --- | --- | --- | ---
 Component.Microsoft.VisualStudio.RazorExtension | Службы языка Razor | 15.0.26720.2 | Рекомендованное
-Component.Microsoft.Web.LibraryManager | Диспетчер библиотек | 15.8.27705.0 | Рекомендуемая
-Component.Redgate.ReadyRoll | Redgate ReadyRoll Core | 1.17.18155.10346 | Рекомендуемая
-Component.Redgate.SQLPrompt.VsPackage | Redgate SQL Prompt Core | 9.2.0.5601 | Рекомендуемая
-Component.Redgate.SQLSearch.VSExtension | Поиск Redgate SQL | 3.1.7.2062 | Рекомендуемая
+Component.Microsoft.Web.LibraryManager | Диспетчер библиотек | 15.8.27705.0 | Рекомендуется
+Component.Redgate.ReadyRoll | Redgate ReadyRoll Core | 1.17.18155.10346 | Рекомендуется
+Component.Redgate.SQLPrompt.VsPackage | Redgate SQL Prompt Core | 9.2.0.5601 | Рекомендуется
+Component.Redgate.SQLSearch.VSExtension | Поиск Redgate SQL | 3.1.7.2062 | Рекомендуется
 Component.WebSocket | WebSocket4Net | 15.0.26606.0 | Рекомендованное
 Microsoft.Component.Azure.DataLake.Tools | Средства Azure Data Lake и Stream Analytics | 15.9.28107.0 | Рекомендованное
 Microsoft.Component.ClickOnce | Компонент для публикации ClickOnce | 15.8.27825.0 | Рекомендованное
@@ -169,7 +169,7 @@ Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 15.0.26208.0 | Ре
 Microsoft.VisualStudio.Component.JavaScript.Diagnostics | Диагностика JavaScript | 15.8.27729.1 | Рекомендованное
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка языков JavaScript и TypeScript | 15.9.28125.51 | Рекомендованное
 Microsoft.VisualStudio.Component.ManagedDesktop.Core | Основные средства рабочей нагрузки управляемого рабочего стола | 15.8.27729.1 | Рекомендованное
-Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 15.9.28016.0 | Рекомендуемая
+Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 15.9.28016.0 | Рекомендуется
 Microsoft.VisualStudio.Component.PortableLibrary | Пакет нацеливания переносимой библиотеки .NET | 15.6.27309.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Roslyn.Compiler | Компиляторы Roslyn для C# и Visual Basic | 15.6.27309.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# и Visual Basic | 15.8.27729.1 | Рекомендованное
@@ -182,7 +182,7 @@ Microsoft.VisualStudio.Component.SQL.NCLI | собственный клиент 
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 15.9.28107.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Static.Analysis.Tools | Инструменты статического анализа | 15.0.26208.0 | Рекомендованное
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 15.0.26208.0 | Рекомендованное
-Microsoft.VisualStudio.Component.TypeScript.3.1 | Пакет SDK для TypeScript 3.1 | 15.0.28218.60 | Рекомендуемая
+Microsoft.VisualStudio.Component.TypeScript.3.1 | Пакет SDK для TypeScript 3.1 | 15.0.28218.60 | Рекомендуется
 Microsoft.VisualStudio.Component.VisualStudioData | Источники данных и ссылки на службы | 15.6.27406.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Web | ASP.NET и средства веб-разработки | 15.8.27825.0 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.Web | Предварительные требования для ASP.NET и средств веб-разработки | 15.9.28219.51 | Рекомендованное
@@ -199,7 +199,7 @@ Microsoft.VisualStudio.Component.FSharp.Desktop | Поддержка языка�
 
 Идентификатор компонента | name | Version | Тип зависимости
 --- | --- | --- | ---
-Component.Anaconda3.x64 | 64-разрядная версия Anaconda3 (5.2.0) | 5.2.0 | Рекомендуемая
+Component.Anaconda3.x64 | 64-разрядная версия Anaconda3 (5.2.0) | 5.2.0 | Рекомендуется
 Microsoft.Component.CookiecutterTools | Поддержка шаблонов Cookiecutter | 15.0.26621.2 | Рекомендованное
 Microsoft.Component.PythonTools | Поддержка языка Python | 15.0.26823.1 | Рекомендованное
 Microsoft.Component.PythonTools.Web | Поддержка веб-приложений Python | 15.9.28107.0 | Рекомендованное
@@ -207,7 +207,7 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 Targeting Pac
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Средства подключения и публикации | 15.9.28107.0 | Рекомендованное
 Microsoft.VisualStudio.Component.FSharp.Desktop | Поддержка языка F# для классических приложений | 15.8.27825.0 | Рекомендованное
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка языков JavaScript и TypeScript | 15.9.28125.51 | Рекомендованное
-Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 15.9.28016.0 | Рекомендуемая
+Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 15.9.28016.0 | Рекомендуется
 Microsoft.VisualStudio.Component.R.Open | Microsoft R Client (3.3.2) | 15.6.27406.0 | Рекомендованное
 Microsoft.VisualStudio.Component.RHost | Поддержка средств разработки R в среде выполнения | 15.6.27406.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Roslyn.Compiler | Компиляторы Roslyn для C# и Visual Basic | 15.6.27309.0 | Рекомендованное
@@ -215,7 +215,7 @@ Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# и Visual Basic | 
 Microsoft.VisualStudio.Component.RTools | Поддержка языка R | 15.0.26919.1 | Рекомендованное
 Microsoft.VisualStudio.Component.SQL.CLR | Типы данных среды CLR для SQL Server | 15.0.26208.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Static.Analysis.Tools | Инструменты статического анализа | 15.0.26208.0 | Рекомендованное
-Microsoft.VisualStudio.Component.TypeScript.3.1 | Пакет SDK для TypeScript 3.1 | 15.0.28218.60 | Рекомендуемая
+Microsoft.VisualStudio.Component.TypeScript.3.1 | Пакет SDK для TypeScript 3.1 | 15.0.28218.60 | Рекомендуется
 Microsoft.VisualStudio.Component.VisualStudioData | Источники данных и ссылки на службы | 15.6.27406.0 | Рекомендованное
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 15.8.27729.1 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 15.8.27825.0 | Рекомендованное
@@ -608,7 +608,7 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | Компиляторы Roslyn
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# и Visual Basic | 15.8.27729.1 | Обязательное значение
 Microsoft.VisualStudio.Component.Static.Analysis.Tools | Инструменты статического анализа | 15.0.26208.0 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions.TemplateEngine | Модуль создания шаблонов ASP.NET | 15.8.27729.1 | Обязательное значение
-Component.Android.SDK27 | Программа установки пакета SDK для Android (уровень API 27) | 15.9.28016.0 | Рекомендуемая
+Component.Android.SDK27 | Программа установки пакета SDK для Android (уровень API 27) | 15.9.28016.0 | Рекомендуется
 Component.Google.Android.Emulator.API27 | Google Android Emulator (уровень API 27) | 15.9.28307.421 | Рекомендованное
 Component.HAXM | Intel Hardware Accelerated Execution Manager (HAXM), глобальная установка | 15.9.28307.421 | Рекомендованное
 Component.OpenJDK | Дистрибутив OpenJDK от Майкрософт | 15.9.28125.51 | Рекомендованное
@@ -833,13 +833,13 @@ Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 15.8.277
 Идентификатор компонента | name | Version | Тип зависимости
 --- | --- | --- | ---
 Microsoft.Component.PythonTools | Поддержка языка Python | 15.0.26823.1 | Обязательное значение
-Component.CPython3.x64 | 64-разрядная версия Python 3 (3.6.6) | 3.6.6 | Рекомендуемая
+Component.CPython3.x64 | 64-разрядная версия Python 3 (3.6.6) | 3.6.6 | Рекомендуется
 Microsoft.Component.CookiecutterTools | Поддержка шаблонов Cookiecutter | 15.0.26621.2 | Рекомендованное
 Microsoft.Component.PythonTools.Web | Поддержка веб-приложений Python | 15.9.28107.0 | Рекомендованное
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Средства подключения и публикации | 15.9.28107.0 | Рекомендованное
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка языков JavaScript и TypeScript | 15.9.28125.51 | Рекомендованное
 Microsoft.VisualStudio.Component.SQL.CLR | Типы данных среды CLR для SQL Server | 15.0.26208.0 | Рекомендованное
-Microsoft.VisualStudio.Component.TypeScript.3.1 | Пакет SDK для TypeScript 3.1 | 15.0.28218.60 | Рекомендуемая
+Microsoft.VisualStudio.Component.TypeScript.3.1 | Пакет SDK для TypeScript 3.1 | 15.0.28218.60 | Рекомендуется
 Microsoft.VisualStudio.Component.VisualStudioData | Источники данных и ссылки на службы | 15.6.27406.0 | Рекомендованное
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 15.8.27729.1 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 15.8.27825.0 | Рекомендованное

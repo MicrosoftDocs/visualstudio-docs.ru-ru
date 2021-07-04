@@ -7,16 +7,17 @@ author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
 ms.custom: seodec18
+monikerRange: vs-2017
 ms.workload:
 - python
 - data-science
 - azure
-ms.openlocfilehash: a40745b19bde57f7f0ca52e04a11a89ad1ca69ea
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2de0f255da54d5bd8abf865f6534041d88bbbca3
+ms.sourcegitcommit: 4908561809ad397c99cf204f52d5e779512e502c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99912424"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112254840"
 ---
 # <a name="azure-cloud-service-projects-for-python"></a>Проекты облачных служб Azure для Python
 
@@ -93,11 +94,11 @@ PIP и его зависимости, а также указанные в фай
 
 Если веб-роль или рабочая роль неправильно работают после развертывания, проверьте следующее.
 
-- Проект Python содержит папку *bin\\* , где содержатся по меньшей мере следующие файлы:
+- Проект Python содержит папку *bin\\*, где содержатся по меньшей мере следующие файлы:
 
-  - *ConfigureCloudService.ps1*;
+  - *ConfigureCloudService.ps1*
   - *LaunchWorker.ps1* (для рабочих ролей);
-  - *ps.cmd*.
+  - *Файл ps.cmd*
 
 - Проект Python должен содержать файл *requirements.txt* со списком всех зависимостей (или набор файлов колеса).
 - Включите удаленный рабочий стол для облачной службы и проверьте файлы журнала.

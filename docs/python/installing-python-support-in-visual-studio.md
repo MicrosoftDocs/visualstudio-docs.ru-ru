@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: e0c1cf29c7579978d5992de46b14c01fee0799c5
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 09fb452d579130cdf6597ada3af509b35f24ff43
+ms.sourcegitcommit: 4908561809ad397c99cf204f52d5e779512e502c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99881650"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112254814"
 ---
 # <a name="how-to-install-python-support-in-visual-studio-on-windows"></a>Как установить поддержку Python в Visual Studio под управлением Windows
 
@@ -88,7 +88,6 @@ ms.locfileid: "99881650"
     | **Поддержка шаблонов Cookiecutter** | Устанавливает графический пользовательский интерфейс Cookiecutter для поиска шаблонов, ввода их параметров и создания проектов и файлов. См. раздел [Использование расширения Cookiecutter](using-python-cookiecutter-templates.md). |
     | **Поддержка веб-приложений Python** | Устанавливает средства для разработки веб-приложений, включая поддержку редактирования кода HTML, CSS и JavaScript, а также шаблоны проектов на основе платформ Bottle, Flask и Django. См. статью [Шаблоны веб-проектов Python](python-web-application-project-templates.md). |
     | **Встроенные средства разработки Python** | Устанавливает компилятор C++ и другие компоненты, необходимые для разработки собственных расширений для Python. См. статью [Создание расширения C++ для Python](working-with-c-cpp-python-in-visual-studio.md). Чтобы обеспечить полную поддержку С++, установите рабочую нагрузку **Разработка классических приложений на C++** . |
-    | **Основные инструменты облачных служб Azure** | Обеспечивает дополнительную поддержку для разработки облачных служб Azure на Python. См. статью [Проекты облачных служб Azure](python-azure-cloud-service-project-template.md). |
     ::: moniker-end
 
 1. После установки в установщике предлагаются команды для изменения, запуска, восстановления и удаления Visual Studio. Если доступны обновления для установленных компонентов Visual Studio, кнопка **Изменить** меняется на **Обновить**. (Команду **Изменить** в этом случае можно выбрать в раскрывающемся меню.) Запускать среду Visual Studio и установщик можно также из меню **Пуск** в Windows. Для этого выполните поиск по запросу "Visual Studio".

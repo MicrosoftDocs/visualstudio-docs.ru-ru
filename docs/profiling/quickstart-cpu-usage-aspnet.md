@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - aspnet
-ms.openlocfilehash: fa8601b6fe625c5cab2aa1f5de8a69f2d550ee2a
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: aa0c95e3a9f3598cd6399b565adb75faccac22a8
+ms.sourcegitcommit: 01a411cd7ae3488b7b979a947bca92fd296a98e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683628"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111761151"
 ---
 # <a name="quickstart-analyze-cpu-usage-data-in-visual-studio-aspnet-core"></a>Краткое руководство. Анализ данных по использованию ЦП в Visual Studio (ASP.NET Core)
 
@@ -41,7 +41,7 @@ Visual Studio предоставляет множество эффективны
 
    В открывшемся диалоговом окне выберите в средней области **MVC**, а затем нажмите кнопку **ОК**.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    На начальном экране Visual Studio 2019 выберите **Создать проект**. Если окно запуска не открывается, выберите пункт **Файл** > **Окно запуска** и щелкните **Создать новый проект**.
 
    В поле поиска введите **веб-приложение**, укажите **C#** в качестве языка, выберите **ASP.NET Core Web Application (Model-View-Controller)** (Веб-приложение ASP.NET Core (модель — представление — контроллер)) и щелкните **Далее**. На следующем экране присвойте проекту имя *MyProfilingApp_MVC* и нажмите кнопку **Далее**.
@@ -169,7 +169,7 @@ Visual Studio предоставляет множество эффективны
     ```
 
     ::: moniker-end
-    ::: moniker range="vs-2019"
+    ::: moniker range=">=vs-2019"
 
     ```csharp
     public IActionResult Privacy()
@@ -215,7 +215,7 @@ Visual Studio предоставляет множество эффективны
    ::: moniker range="vs-2017"
    В Visual Studio 2017 щелкните ссылку **Сведения**, чтобы выполнить код.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    В Visual Studio 2019 щелкните ссылку **Конфиденциальность**, чтобы выполнить код.
    ::: moniker-end
 

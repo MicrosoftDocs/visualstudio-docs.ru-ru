@@ -12,12 +12,12 @@ ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 75019a9f292a07c1dffe6cce5118ef6502014ce6
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 0400c29e53c45ad9a98e7edca78fd2cf9741fcf0
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107296603"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112307756"
 ---
 # <a name="step-1-create-a-project-and-add-labels-to-your-form"></a>Шаг 1. Создание проекта и добавление в форму элементов управления Label
 
@@ -43,7 +43,7 @@ ms.locfileid: "107296603"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. На начальном экране выберите **Создать проект**.
 
