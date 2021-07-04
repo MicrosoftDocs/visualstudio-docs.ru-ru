@@ -50,7 +50,7 @@
       href: add-new-data-sources.md
     - name: Инструменты LINQ to SQL
       items:
-        - name: Общие сведения
+        - name: Обзор
           displayName: LINQ to SQL tools
           href: linq-to-sql-tools-in-visual-studio2.md
         - name: Изменения типа возвращаемого значения метода DataContext
@@ -105,7 +105,7 @@
           href: validate-data-in-datasets.md
         - name: Сохранение данных обратно в базу данных
           items:
-            - name: Общие сведения
+            - name: Обзор
               displayName: Save data to database
               href: save-data-back-to-the-database.md
             - name: Вставка новых записей в базу данных
@@ -209,9 +209,7 @@
           href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
     - name: Обновление MDF-файлов
       href: upgrade-dot-mdf-files.md
-    - name: Устранение ошибок доступа к данным
-      href: additional-resources-for-troubleshooting-data-access-errors.md
-- name: Ссылка
+- name: Справочник
   items:
     - name: Реляционный конструктор объектов (Linq to SQL)
       items:

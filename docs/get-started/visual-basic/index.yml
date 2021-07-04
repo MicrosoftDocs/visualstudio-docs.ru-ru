@@ -4,22 +4,22 @@ summary: Создавайте приложения на Visual Basic в сре�
 metadata:
   title: Разработка на Visual Basic в Visual Studio
   description: Создавайте приложения на Visual Basic с использованием Visual Studio.
-  ms.custom: seodec18
+  ms.custom: vs-acquisition
   ms.topic: landing-page
-  ms.date: 11/19/2019
+  ms.date: 06/19/2021
   ms.author: ghogen
   author: ghogen
-  manager: jillfra
+  manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-acquisition
   dev_langs:
   - VB
-  ms.openlocfilehash: 3462f85ea571e163617c6c5f315a28c98342acab
-  ms.sourcegitcommit: 6cfffa72af599a9d667249caaaa411bb28ea69fd
+  ms.openlocfilehash: 9ec157a13fc03b5e8d73eefd359e7d05652a1208
+  ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/02/2020
-  ms.locfileid: "74188614"
+  ms.lasthandoff: 06/19/2021
+  ms.locfileid: "112389921"
 landingContent:
 - title: Начало работы
   linkLists:

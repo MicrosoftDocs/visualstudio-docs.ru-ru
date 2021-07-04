@@ -1,7 +1,7 @@
 ---
 title: Использование кода дизассемблирования в отладчике | Документация Майкрософт
 description: В окне "Дизассемблированный код" в Visual Studio отображается код сборки, соответствующий созданным компилятором инструкциям.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 10/30/2018
 ms.topic: how-to
 f1_keywords:
@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b7d772ed757b231ce68fe27b74123f7f5878d0ef
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: c8cc67b2f8136ea426eb56c25fb3c345198701f1
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99845052"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387467"
 ---
 # <a name="view-disassembly-code-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Просмотр кода дизассемблирования в отладчике Visual Studio (C#, C++, Visual Basic, F#)
 

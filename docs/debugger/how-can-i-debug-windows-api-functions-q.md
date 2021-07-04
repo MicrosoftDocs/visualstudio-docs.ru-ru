@@ -1,7 +1,7 @@
 ---
 title: Отладка функций Windows API | Документация Майкрософт
 description: Узнайте, как отладить функцию Windows API с загруженными символами NT. В 32-разрядном коде для настройки точки останова используется декорированная форма имени функции.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 06/03/2020
 ms.topic: how-to
 f1_keywords:
@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: d84bdc20ab4601798e1f967c1352468e750fa9bd
-ms.sourcegitcommit: 4b323a8a8bfd1a1a9e84f4b4ca88fa8da690f656
+ms.openlocfilehash: 89fdbcf9d18a7794e1fb2520384db0f9bcec3147
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102155217"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386947"
 ---
 # <a name="how-can-i-debug-windows-api-functions"></a>Как отладить функции Windows API?
 Если нужно отладить функцию Windows API с загруженными символами NT, необходимо выполнить следующие действия.

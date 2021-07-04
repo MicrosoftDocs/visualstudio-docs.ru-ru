@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 7fc8eeccdb020d07ff48965d9eb3d5df1dafa7da
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 056996782d2b38adb96ee53250cc3ea0c0f75596
+ms.sourcegitcommit: 01a411cd7ae3488b7b979a947bca92fd296a98e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683543"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111761164"
 ---
 # <a name="quickstart-analyze-cpu-usage-data-in-visual-studio-c-visual-basic"></a>Краткое руководство. Анализ данных по загрузке ЦП в Visual Studio (C#, Visual Basic)
 
@@ -38,7 +38,7 @@ Visual Studio предоставляет множество эффективны
 
    Если шаблона проекта **Console App (.NET Core)** (Консольное приложение (.NET Core)) нет, выберите ссылку **Открыть Visual Studio Installer** в левой области диалогового окна **Новый проект**. Запускается Visual Studio Installer. Выберите рабочую нагрузку **Кроссплатформенная разработка .NET Core** и затем элемент **Изменить**.
    ::: moniker-end
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    Если окно запуска не открыто, выберите **Файл** > **Окно запуска**.
 
    На начальном экране выберите **Создать проект**.

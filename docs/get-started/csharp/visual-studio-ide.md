@@ -4,6 +4,7 @@ description: Сведения об интегрированной среде р�
 ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.custom:
+- vs-acquisition
 - get-started
 - SEO-VS-2020
 ms.topic: overview
@@ -14,12 +15,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: eb34f9dbf0c4778431bbf1eed31b20bc3cd4833b
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0e3625e272f6279fa06a863c4feb12adab8c016f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99924992"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390585"
 ---
 # <a name="welcome-to-the-visual-studio-ide--c"></a>Введение в интегрированную среду разработки Visual Studio | C\#
 

@@ -1,7 +1,7 @@
 ---
 title: Учебник. Открытие проекта из репозитория в Visual Studio 2019
 description: Узнайте, как открывать проекты из репозитория Git или Azure DevOps с помощью Visual Studio 2019.
-ms.custom: get-started
+ms.custom: vs-acquisition, get-started
 ms.date: 03/18/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -15,12 +15,12 @@ ms.workload:
 - dotnet
 - dotnetcore
 monikerRange: vs-2019
-ms.openlocfilehash: 76dcd5061e2e12688f5119598071c3235e620967
-ms.sourcegitcommit: 3fc099cdc484344c781f597581f299729c6bfb10
+ms.openlocfilehash: b6f7cd57a1753ca5926ac73a9bb4c8c918d1bd10
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104671717"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389947"
 ---
 # <a name="tutorial-open-a-project-from-a-repo"></a>Учебник. Открытие проекта из репозитория
 

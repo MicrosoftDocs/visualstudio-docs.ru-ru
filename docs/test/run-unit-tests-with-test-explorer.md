@@ -3,19 +3,17 @@ title: Выполнение модульных тестов с помощью о
 description: Узнайте, как выполнять тесты с помощью обозревателя тестов в Visual Studio. В этом разделе описывается, как включить автоматический запуск тестов после сборки, просматривать результаты тестов, группировать и фильтровать список тестов, создавать списки воспроизведения и использовать сочетания клавиш.
 ms.date: 07/14/2020
 ms.topic: how-to
-f1_keywords:
-- vs.unittesting.testexplorer.overview
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 05a850b0c88a39366805ff892fb698f637b3bbe1
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 26dbed25f42f40614597075ad26c855398b56025
+ms.sourcegitcommit: d3658667e768d7516cbf4461ec47bf24c8fcb7e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836336"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112925128"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>Выполнение модульных тестов с помощью обозревателя тестов
 

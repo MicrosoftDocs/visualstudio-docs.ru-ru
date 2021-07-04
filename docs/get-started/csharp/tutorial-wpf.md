@@ -1,7 +1,7 @@
 ---
 title: Создание приложения Hello World с помощью WPF на C#
 description: Создание простого приложения Windows Desktop .NET на языке C# в Visual Studio с помощью платформы пользовательского интерфейса Windows Presentation Foundation (WPF).
-ms.custom: seodec18, get-started
+ms.custom: vs-acquisition, get-started
 ms.date: 02/10/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -14,12 +14,12 @@ ms.author: jmartens
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: 419fa05ae510f3dc22ce82c3805f9f54b4e53b27
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 268797369fbd878d99028303fa17ba71626a07fb
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107295576"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390272"
 ---
 # <a name="tutorial-create-a-simple-application-with-c"></a>Учебник. Создание простого приложения на C\#
 
@@ -72,9 +72,9 @@ ms.locfileid: "107295576"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Запустите Visual Studio 2019.
+1. Запустите Visual Studio.
 
 1. На начальном экране выберите **Создать проект**.
 

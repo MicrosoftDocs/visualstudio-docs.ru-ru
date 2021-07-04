@@ -1,7 +1,7 @@
 ---
 title: Руководство по выборке циклов ЦП для начинающих
 description: Сведения о том, как средства профилирования в Visual Studio позволяют узнать о времени использования функциями в приложении, а также ускорить работу приложения.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 02/27/2017
 ms.topic: how-to
 f1_keywords:
@@ -17,12 +17,12 @@ manager: jmartens
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: c9368ca0bf2c10afb86f61683bf58b631c4ba5f9
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 07a0593e5139479c1b2d82f7b2f4cd78fde8a884
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99954388"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387987"
 ---
 # <a name="beginners-guide-to-cpu-sampling"></a>Руководство по выборке циклов ЦП для начинающих
 Средства профилирования Visual Studio можно использовать для анализа проблем с производительностью в приложении. Эта процедура показывает, как использовать данные **выборки**.

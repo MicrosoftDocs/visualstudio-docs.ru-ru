@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: edb257f6e5e0b74ef7f60a8447b7c89053a04e24
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5e9579e4969cb53ed2f1bcf749e8114386af85d0
+ms.sourcegitcommit: 674d3fafa7c9e0cb0d1338027ef419a49c028c36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99896476"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112602137"
 ---
 # <a name="tell-the-debugger-what-to-show-using-the-debuggerdisplay-attribute-c-visual-basic-f-ccli"></a>Информирование отладчика о том, что отображать, с помощью атрибута DebuggerDisplay (C#, Visual Basic, F#, C++/CLI)
 
@@ -96,7 +96,7 @@ public sealed class MyClass
 Суффикс ",nq" указывает средству оценки выражений, что при отображении окончательного значения нужно удалить кавычки (nq = no quotes, без кавычек).
 
 ## <a name="example"></a>Пример
-Следующий пример демонстрирует способ использования атрибута `DebuggerDisplay`совместно с атрибутами `DebuggerBrowseable` и `DebuggerTypeProxy`. При работе данного кода в окна переменных отладчика, например в окно **Контрольные значения** , выводится расширенная информация, а именно:
+Следующий пример демонстрирует способ использования атрибута `DebuggerDisplay`совместно с атрибутами `DebuggerBrowsable` и `DebuggerTypeProxy`. При работе данного кода в окна переменных отладчика, например в окно **Контрольные значения** , выводится расширенная информация, а именно:
 
 |**Name**|**Значение**|**Type**|
 |--------------|---------------|--------------|

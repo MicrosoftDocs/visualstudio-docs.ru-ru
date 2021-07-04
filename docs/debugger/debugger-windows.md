@@ -1,7 +1,7 @@
 ---
 title: Проверка данных с помощью окон отладчика | Документация Майкрософт
 description: Отладчик выводит информацию с использованием различных окон. В этой статье описываются существующие типы окон. Воспользовавшись представленными ссылками, вы можете просмотреть дополнительные сведения о каждом из них.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 04/25/2018
 ms.topic: conceptual
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 0e626302e4ec311aeaccef77af2870ae69ee76aa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9959c73802e15ca25dcce62631e4faa81391d47a
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99872915"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112389895"
 ---
 # <a name="inspect-data-using-debugger-windows-in-visual-studio"></a>Проверка данных с помощью окон отладчика в Visual Studio
 

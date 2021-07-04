@@ -7,16 +7,16 @@ ms.topic: tutorial
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jmartens
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 74259a6e15446d8ca0b07f3b694d0285427f8d9f
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 927faad404e50a4cf31579c56882bf50208bbb21
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99861560"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390702"
 ---
 # <a name="tutorial-work-with-python-in-visual-studio"></a>Руководство. Работа с Python в Visual Studio
 
@@ -30,7 +30,7 @@ Visual Studio обеспечивает первоклассную поддерж
 - [Шаг 3. Создание дополнительного кода в интерактивном окне REPL](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md).
 - [Шаг 4. Выполнение готовой программы в отладчике Visual Studio](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 - [Шаг 5. Установка пакетов и управление средами Python](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md).
-- [Шаг 6. Работа с Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md).
+- [Шаг 6. Работа с Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
 [!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 

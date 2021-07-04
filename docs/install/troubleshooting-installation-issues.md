@@ -2,7 +2,7 @@
 title: Устранение ошибок установки или обновления
 description: Иногда возникают проблемы. Если происходит сбой установки или обновления Visual Studio, эта страница может помочь решить проблему.
 ms.date: 06/24/2020
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: dc6d01d213e3966e364516c4a432dfdd978275c0
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 802e4cfb78a9302bd24bca55cda1bf9eab79f9ef
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107295979"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387831"
 ---
 # <a name="troubleshoot-visual-studio-installation-and-upgrade-issues"></a>Устранение неполадок при установке и обновлении Visual Studio
 
@@ -41,7 +41,7 @@ ms.locfileid: "107295979"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Существуют несколько известных проблем с Visual Studio Installer, и корпорация Майкрософт работает над их устранением. Чтобы найти способ обойти эту проблему, проверьте [раздел известных проблем в заметках о выпуске](/visualstudio/releases/2019/release-notes#-known-issues).
 
@@ -71,7 +71,7 @@ ms.locfileid: "107295979"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Закройте Visual Studio Installer.
 2. Удалите каталог Visual Studio Installer. Как правило, это каталог `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
@@ -94,7 +94,7 @@ ms.locfileid: "107295979"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Соберите файлы журналов установки. Подробные сведения см. в разделе [Как получить журналы установки Visual Studio](#installation-logs).
 2. Откройте Visual Studio Installer и нажмите кнопку **Сообщить о проблеме**, чтобы открыть средство обратной связи Visual Studio.

@@ -7,12 +7,12 @@ ms.date: 02/22/2021
 ms.prod: visual-studio-dev16
 ms.technology: vs-azure
 ms.topic: include
-ms.openlocfilehash: 3a2c0d9ac31857fb2389455b0262373414981c5b
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 35beb1bb67dbfe4d0d1707c499b605f6ff698956
+ms.sourcegitcommit: 674d3fafa7c9e0cb0d1338027ef419a49c028c36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101750325"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112908036"
 ---
 В Visual Studio можно легко выполнять сборку, отлаживать и запускать контейнерные приложения .NET, ASP.NET и ASP.NET Core и публиковать их в реестре контейнеров Azure (ACR), Docker Hub, службе приложений Azure или собственном реестре контейнеров. В этой статье рассматривается публикация приложения ASP.NET Core в реестре контейнеров Azure (ACR).
 
@@ -43,12 +43,12 @@ ms.locfileid: "101750325"
 *Dockerfile* с инструкциями по созданию окончательного образа Docker создается в проекте. См. [справочник по Dockerfile](https://docs.docker.com/engine/reference/builder/) для получения сведений о других доступных в нем командах.
 
 ```dockerfile
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-nanoserver-1903 AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
 COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
 RUN dotnet restore "WebApplication1/WebApplication1.csproj"

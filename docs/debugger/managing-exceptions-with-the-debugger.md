@@ -1,7 +1,7 @@
 ---
 title: Управление исключениями с помощью отладчика | Документация Майкрософт
 description: Сведения о том, как указать для каких исключений отладчик будет выполнять останов, в каких случаях отладчик будет выполнять прерывание, и как обрабатываются перерывы.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 10/09/2018
 ms.topic: how-to
 f1_keywords:
@@ -34,12 +34,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b594857b00ee233c186008efc9d0fba7d968a9bc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 89795df3a4c6b87c6a878cd07a072027f880e660
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99893169"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390428"
 ---
 # <a name="manage-exceptions-with-the-debugger-in-visual-studio"></a>Управление исключениями с помощью отладчика в Visual Studio
 

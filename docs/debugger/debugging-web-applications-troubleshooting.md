@@ -1,7 +1,7 @@
 ---
 title: 'Отладка веб-приложений: устранение неполадок | Документация Майкрософт'
 description: Ссылки на стандартные процедуры, которые можно использовать для отладки и устранения ошибок в веб-приложениях.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e256e62152d774eb5e296784d934f205a1003d2d
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 01b298d84bd626a73c0b21526281dc788f7e2f8b
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99872291"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387727"
 ---
 # <a name="debugging-web-applications-troubleshooting"></a>Отладка веб-приложений: Устранение неполадок
 В этом подразделе содержатся общие процедуры, используемые для разрешения ошибок.

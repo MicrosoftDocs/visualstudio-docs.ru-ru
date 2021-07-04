@@ -1,7 +1,7 @@
 ---
 title: Пошаговое руководство. Отладка ошибок отрисовки, возникающих из-за заливки | Документация Майкрософт
 description: Проведите анализ для обнаружения ошибки шейдера. В этом руководстве показано, как использовать диагностику графики в Visual Studio, включая журнал пикселей графики и отладчик HLSL.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 01875b05-cc7b-4add-afba-f2b776f86974
@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 491a2c5ab0bcb923d9999bd55249150d33a650ae
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 218b263d7e971a0d2bdaa72020bb7cb58c31e000
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99891869"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387090"
 ---
 # <a name="walkthrough-debugging-rendering-errors-due-to-shading"></a>Пошаговое руководство. Отладка ошибок отрисовки, возникающих из-за заливки
 В данном пошаговом руководстве показано, как с помощью средств диагностики графики [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] исследовать объект, который имеет неверный цвет из-за ошибки шейдера.

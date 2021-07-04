@@ -1,7 +1,7 @@
 ---
 title: Просмотр стека вызовов в отладчике | Документация Майкрософт
 description: Использование окна "Стек вызовов" для просмотра вызовов функций и процедур, которые в данный момент находятся в стеке, в Visual Studio.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: how-to
 f1_keywords:
@@ -30,12 +30,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: adb56ddfa53356c00224082c2460137b3f2b3751
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5e905a509443cd5fd30e860a887dd895c5ee21a6
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99841020"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387480"
 ---
 # <a name="view-the-call-stack-and-use-the-call-stack-window-in-the-debugger"></a>Просмотр стека вызовов и использование окна "Стек вызовов" в отладчике
 

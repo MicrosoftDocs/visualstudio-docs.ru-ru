@@ -1,7 +1,7 @@
 ---
 title: Подготовка к отладке проектов консоли | Документация Майкрософт
 description: Сведения о подготовке к отладке консольных проектов (C#, C++, Visual Basic, F#) в Visual Studio.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 66610eef4419b71cd41c8a7708b43b30bff4cc80
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 4d1610919667fdaf1a752ca56aef5358c0bd34f3
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101683039"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387818"
 ---
 # <a name="debugging-preparation-console-projects-c-c-visual-basic-f"></a>Подготовка к отладке: Проекты консоли (C#, C++, Visual Basic, F#)
 

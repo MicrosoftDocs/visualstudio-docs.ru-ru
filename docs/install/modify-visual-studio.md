@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Сведения о поэтапном изменении среды Visual Studio.
 ms.date: 10/12/2020
 ms.topic: how-to
-ms.custom: contperf-fy21q2
+ms.custom: vs-acquisition
 helpviewer_keywords:
 - modify Visual Studio
 - change visual studio
@@ -18,16 +18,16 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 30b28af562e5dbaa8c05624f6cc9d531cf652419
-ms.sourcegitcommit: 8d3d51042261df603487169a7a008fe8f71404ec
+ms.openlocfilehash: 435ee6ad72141453e89aadcfd4ac3310bde0d538
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "109501776"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112391079"
 ---
 # <a name="modify-visual-studio-workloads-components-and-language-packs"></a>Изменение рабочих нагрузок, компонентов и языковых пакетов Visual Studio
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Visual Studio можно легко изменить таким образом, чтобы она включала только необходимые компоненты и в нужное время. Для этого откройте Visual Studio Installer для добавления или удаления рабочих нагрузок и компонентов.
 
@@ -71,7 +71,7 @@ Visual Studio можно легко изменить таким образом, 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Найдите **Visual Studio Installer** на своем компьютере.
 
@@ -119,12 +119,11 @@ Visual Studio можно легко изменить таким образом, 
 
 1. При необходимости перейдите на вкладку **Рабочие нагрузки**, а затем выберите или отмените выбор нужных рабочих нагрузок.
 
-
 1. После установки новых рабочих нагрузок выберите команду **Запуск** в Visual Studio Installer, чтобы открыть Visual Studio.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
  Рабочие нагрузки содержат функции, которые требуются для используемого языка программирования или платформы. С помощью рабочих нагрузок можно изменить среду Visual Studio так, чтобы она поддерживала выполнение нужных задач в любое время.
 
@@ -147,7 +146,6 @@ Visual Studio можно легко изменить таким образом, 
 
 ::: moniker-end
 
-
 >[!TIP]
 > Сведения о компоненте SQL Server Data Tools (SSDT) см. в разделе [Скачивание и установка SSDT для Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15&preserve-view=true).
 
@@ -156,9 +154,10 @@ Visual Studio можно легко изменить таким образом, 
 По умолчанию при первом запуске установщик использует язык операционной системы. Однако вы можете изменить язык при необходимости. 
 
 Для этого сделайте следующее:
+
 1. Перейдите на вкладку **Языковые пакеты** в Visual Studio Installer.
-2. Выберите нужный язык.
-3. Следуйте инструкциям.
+1. Выберите нужный язык.
+1. Следуйте инструкциям.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
