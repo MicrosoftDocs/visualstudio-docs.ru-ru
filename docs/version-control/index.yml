@@ -2,21 +2,21 @@
 title: Документация по управлению версиями Visual Studio
 summary: Используйте технологии управления версиями, такие как Git и GitHub, чтобы обмениваться кодом из среды Visual Studio 2019.
 metadata:
-  title: Управление версиями в Visual Studio
-  description: Технологии управления версиями, такие как Git и GitHub, доступны напрямую из Visual Studio. Вы можете обмениваться и управлять кодом, не выходя из своей базы кода.
+  title: Управление версиями и система управления версиями с использованием Git в Visual Studio
+  description: Используйте технологии управления версиями в Visual Studio. Вы можете обмениваться версиями кода, интегрировать их и управлять ими в Git и GitHub, не выходя из базы кода.
   ms.topic: landing-page
-  ms.date: 04/20/2021
+  ms.date: 07/02/2021
   author: TerryGLee
   ms.author: tglee
   manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
-  ms.openlocfilehash: 50226243cc698391d79a52371262ec6202b45ad9
-  ms.sourcegitcommit: a0f5e7188838c5989c9cc78d99fb29bb2813501e
+  ms.openlocfilehash: 9bdd994d5fe1d5f54251ce49047feaf75145dcda
+  ms.sourcegitcommit: 8fb1500acb7e6314fbb6b78eada78ef5d61d39bf
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "109729230"
+  ms.lasthandoff: 07/03/2021
+  ms.locfileid: "113280397"
 landingContent:
 - title: Обзор
   linkLists:
@@ -24,6 +24,8 @@ landingContent:
     links:
     - text: Интерфейс GIT в Visual Studio
       url: git-with-visual-studio.md
+    - text: Параметры и настройки Git
+      url: git-settings.md
   - linkListType: concept
     links:
     - text: Как Visual Studio упрощает управление версиями

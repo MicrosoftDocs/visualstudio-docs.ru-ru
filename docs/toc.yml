@@ -151,32 +151,33 @@
       href: ide/quickstart-ide-orientation.md
     - name: 'C++: Создание консольного приложения'
       href: /cpp/get-started/tutorial-console-cpp
-    - name: 'Python: Создание веб-приложения'
-      href: ide/quickstart-python.md
-    - name: 'Node.js: Создание веб-приложения'
-      href: ide/quickstart-nodejs.md
-    - name: 'F#: Создание веб-службы'
-      href: ide/quickstart-fsharp.md
     - name: 'C#: Создание веб-приложения'
       href: ide/quickstart-aspnet-core.md
     - name: 'C#: Создание консольного приложения'
       href: ide/quickstart-csharp-console.md
     - name: 'Visual Basic: Создание консольного приложения'
       href: ide/quickstart-visual-basic-console.md
+    - name: 'Node.js: Создание веб-приложения'
+      href: ide/quickstart-nodejs.md
+    - name: 'Python: Создание веб-приложения'
+      href: ide/quickstart-python.md
+    - name: 'F#: Создание веб-службы'
+      href: ide/quickstart-fsharp.md
 - name: Учебники
+  expanded: true
   items:
-    - name: C#
-      href: get-started/csharp/
-    - name: F#
-      href: /dotnet/fsharp/
-    - name: Visual Basic
-      href: get-started/visual-basic/
-    - name: C++
+    - name: C++ >>
       href: /cpp/get-started/tutorial-console-cpp
-    - name: Python
-      href: python/
-    - name: Node.js
+    - name: C#  >>
+      href: get-started/csharp/
+    - name: Visual Basic  >>
+      href: get-started/visual-basic/
+    - name: Node.js  >>
       href: javascript/
+    - name: Python  >>
+      href: python/
+    - name: F#  >>
+      href: /dotnet/fsharp/
 - name: Разработка
   items:
     - name: Организация и редактирование кода
@@ -199,6 +200,8 @@
           href: get-started/tutorial-open-project-from-repo-visual-studio-2019.md
         - name: 'Перенос, миграция и обновление проектов'
           href: porting/port-migrate-and-upgrade-visual-studio-projects.md
+        - name: Использование окна инструментов Обозревателя решений
+          href: ide/use-solution-explorer.md
         - name: Управление свойствами проектов и решений
           href: ide/managing-project-and-solution-properties.md
         - name: Ссылки на проекты
@@ -443,6 +446,8 @@
                   href: ide/reference/regex-completion-through-intellisense.md
                 - name: Удаление недостижимого кода
                   href: ide/reference/remove-unreachable-code.md
+                - name: Удаление неиспользуемых ссылок
+                  href: ide/reference/remove-unused-references.md
                 - name: Переименовать
                   href: ide/reference/rename.md
                 - name: Упрощение условного выражения
@@ -897,6 +902,7 @@
 - name: Отладка >>
   href: debugger/index.yml
 - name: "Управление версиями\_>>"
+  displayName: 'git, github, source control, source, versioning, clone, integrate, release'
   href: version-control/index.yml
 - name: Тестирование >>
   displayName: Unit testing
@@ -977,14 +983,9 @@
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: Справочник
   items:
-    - name: Сочетания клавиш
-      items:
-        - name: Популярные команды
-          displayName: keyboard shortcuts
-          href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-        - name: Все команды
-          displayName: keyboard commands
-          href: ide/default-keyboard-shortcuts-in-visual-studio.md
+    - name: Сочетания клавиш и команды
+      displayName: 'keyboard, shortcuts, short cuts, ctrl, short-cut'
+      href: ide/default-keyboard-shortcuts-in-visual-studio.md
     - name: Команды Visual Studio
       items:
         - name: Справочник
@@ -1426,14 +1427,12 @@
 - name: Ресурсы
   expanded: true
   items:
-    - name: Новые возможности Visual Studio 2017
+    - name: "Новые возможности Visual Studio\_2017"
       href: ide/whats-new-visual-studio-2017.md
-    - name: Новые возможности Visual Studio 2019
+    - name: "Новые возможности Visual Studio\_2019"
       href: ide/whats-new-visual-studio-2019.md
-    - name: Что нового в документации
+    - name: Новые возможности в Документации Майкрософт
       href: ide/whats-new-visual-studio-docs.md
-    - name: Журнал обновлений в документации
-      href: ide/whats-new-visual-studio-docs-history.md
     - name: Заметки о выпуске
       items:
         - name: График выпуска
@@ -1450,12 +1449,14 @@
           href: /visualstudio/productinfo/vs-servicing-vs/
     - name: Программа улучшения качества программного обеспечения
       items:
-        - name: Обзор
+        - name: О программе
           displayName: Customer Experience Improvement Program
           href: ide/visual-studio-experience-improvement-program.md
         - name: 'Журналы, созданные системой'
           href: ide/diagnostic-data-collection.md
-    - name: Ресурсы для устранения неполадок интегрированной среды разработки
+    - name: Подключенные возможности в Visual Studio
+      href: ide/reference/connected-experiences.md
+    - name: Устранение ошибок IDE
       href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Отправка отзывов
   items:
@@ -1463,7 +1464,7 @@
       href: ide/feedback-options.md
     - name: Сообщите о проблеме
       items:
-        - name: Сообщение о проблеме
+        - name: Сообщите о проблеме
           href: ide/how-to-report-a-problem-with-visual-studio.md
         - name: Отправка сообщения о проблеме с состоянием и часто задаваемые вопросы
           href: ide/report-a-problem.md

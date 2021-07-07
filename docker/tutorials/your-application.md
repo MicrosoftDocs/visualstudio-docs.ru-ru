@@ -5,16 +5,15 @@ ms.date: 08/04/2020
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
 - azure
-ms.openlocfilehash: 1b92792cf9db0090c52f583754e56c306e6d7234
-ms.sourcegitcommit: 155d5f0fd54ac1d20df2f5b0245365924faa3565
+ms.openlocfilehash: 9229c3717b686a3f08ef49e7912ac0515864d793
+ms.sourcegitcommit: 8b75524dc544e34d09ef428c3ebbc9b09f14982d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106082582"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "113222816"
 ---
 # <a name="build-and-run-the-todo-sample-app"></a>Сборка и запуск примера приложения Todo
 
@@ -30,7 +29,9 @@ ms.locfileid: "106082582"
 
 1. Убедитесь, что на локальном компьютере установлен Docker для Windows или Docker Community Edition. См. [документацию по установке Docker для Windows](https://docs.docker.com/docker-for-windows/install/). Процесс установки создает ZIP-файл, содержащий пример, доступный по адресу localhost.
 
-1. [Скачайте ZIP-файл](https://github.com/docker/getting-started/tree/master/app). Откройте ZIP-файл и извлеките его содержимое.
+1. Скачайте исходный код для приложения из репозитория [Docker](https://github.com/docker/getting-started). Вы можете скачать для репозитория ZIP-файл. Чтобы скачать ZIP-файл, нажмите зеленую кнопку **Code** (Код) и выберите **Download ZIP** (Скачать ZIP). Откройте ZIP-файл и выберите "Извлечь все", чтобы извлечь исходный код приложения из папки *app* (приложение) в папку на жестком диске.
+
+   ![Снимок экрана с зеленой кнопкой Code и функцией скачивания ZIP-файла](media/download-zip.png)
 
 1. После извлечения используйте любой редактор кода, чтобы открыть проект. Если вам требуется редактор, можно использовать [Visual Studio Code](https://code.visualstudio.com/). Вы должны увидеть `package.json` и два подкаталога (`src` и `spec`).
 

@@ -17,17 +17,18 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 109cf2fe5661f23ae7fb051829ec1c9e9a6d2329
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a710d71b80f8aa64efef52b891a8c8a760b92c10
+ms.sourcegitcommit: 1f27f33852112702ee35fbc0c02fba37899e4cf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99876632"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112112884"
 ---
 # <a name="get-started-sharepoint-development-in-visual-studio"></a>Приступая к работе (разработка решений SharePoint в Visual Studio)
-  Этот раздел поможет начать работу с [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] для разработки решений SharePoint, которые используют преимущества [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] и [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].
 
- Сведения о SharePoint 2013 и надстройках SharePoint см. в разделах [SharePoint 2013](https://www.microsoft.com/microsoft-365/previous-versions/microsoft-sharepoint-2013) и [Сборка надстроек SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+  Этот раздел поможет начать работу с [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] для разработки решений SharePoint, которые используют преимущества [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] и [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].
+
+ См. дополнительные сведения о сборке [Надстроек SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
  SharePoint предоставляет платформу для совместной работы в Интернете. В[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] имеется множество шаблонов проектов для создания сайтов SharePoint и содержимого для них, включая определения списков, рабочие процессы, модели подключения к бизнес-данным и определения сайтов. Кроме того можно создавать расширения для проектов и инструментов SharePoint в [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 

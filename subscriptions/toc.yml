@@ -13,7 +13,7 @@
             - name: Обзор
               href: vscloud-overview.md
             - name: Вопросы и ответы по выставлению счетов
-              href: vscloud-billing-faq.md
+              href: vscloud-billing-faq.yml
             - name: Покупка для поставщиков облачных решений
               href: vscloud-csp.md
         - name: "Microsoft Partner\_Network"
@@ -56,16 +56,22 @@
       items:
         - name: Сведения о преимуществах
           href: about-benefits.md
+        - name: Предложения Azure для разработки и тестирования
+          items:
+            - name: Для частных лиц (кредиты)
+              items:
+                - name: Индивидуальный кредит Azure DevTest
+                  href: vs-azure.md
+            - name: Для организаций
+              items:
+                - name: Azure DevTest с оплатой по мере использования
+                  href: vs-azure-payg.md
+                - name: Azure EA DevTest
+                  href: azure-ea-devtest.md
         - name: Инструменты
           items:
-            - name: Индивидуальный кредит Azure DevTest
-              href: vs-azure.md
             - name: Azure DevOps
               href: vs-azure-devops.md
-            - name: Azure DevTest с оплатой по мере использования
-              href: vs-azure-payg.md
-            - name: Azure EA DevTest
-              href: azure-ea-devtest.md
             - name: "CAST\_Highlight"
               href: vs-cast.md
             - name: CloudPilot

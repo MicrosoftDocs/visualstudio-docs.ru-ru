@@ -1,9 +1,9 @@
 ---
-title: Пример реализации локальных переменных | Документация Майкрософт
-description: Узнайте, как Visual Studio получает локальные переменные для метода из средства оценки выражений в этой статье.
+title: Пример реализации локальных переменных | Документация Майкрософт
+description: В этой статье вы узнаете, как Visual Studio получает для метода локальные переменные от вычислителя выражений.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: sample
 helpviewer_keywords:
 - debugging [Debugging SDK], local variables
 - expression evaluation, local variables
@@ -13,54 +13,54 @@ ms.author: lerich
 manager: jmartens
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4bf07dc6f47391af14c878021c742c2cb461bc85
-ms.sourcegitcommit: f2916d8fd296b92cc402597d1d1eecda4f6cccbf
-ms.translationtype: MT
+ms.openlocfilehash: ac52f1524c4be2e4a7afcbd21fb437977fb663e3
+ms.sourcegitcommit: bab002936a9a642e45af407d652345c113a9c467
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105070418"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112902284"
 ---
 # <a name="sample-implementation-of-locals"></a>Пример реализации локальных переменных
 > [!IMPORTANT]
-> В Visual Studio 2015 такой способ реализации оценивающих выражений является устаревшим. Дополнительные сведения о реализации вычислителей выражений CLR см. в разделе средства [оценки выражений CLR](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) и [Пример управляемого средства оценки выражений](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> В Visual Studio 2015 такая реализация вычислителя выражений была сделана нерекомендуемой. Сведения о реализации вычислителей выражений в среде CLR см. на страницах [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) (Вычислители выражений CLR) и [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample) (Пример управляемого вычислителя выражений).
 
- Ниже приведены общие сведения о том, как Visual Studio получает локальные переменные для метода из средства оценки выражений (EE):
+ Ниже приведен обзор того, каким образом Visual Studio получает для метода локальные переменные от вычислителя выражений.
 
-1. Visual Studio вызывает [жетдебугпроперти](../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) модуля отладки (de) для получения объекта [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) , который представляет все свойства кадра стека, включая локальные переменные.
+1. Visual Studio вызывает метод модуля отладки [GetDebugProperty](../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) и получает объект [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md), который представляет все свойства кадра стека, в том числе локальные переменные.
 
-2. `IDebugStackFrame2::GetDebugProperty` вызывает [жетмесодпроперти](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) , чтобы получить объект, описывающий метод, в котором произошла точка останова. В параметре DE предоставляется поставщик символов ([идебугсимболпровидер](../../extensibility/debugger/reference/idebugsymbolprovider.md)), адрес ([идебугаддресс](../../extensibility/debugger/reference/idebugaddress.md)) и связыватель ([идебугбиндер](../../extensibility/debugger/reference/idebugbinder.md)).
+2. `IDebugStackFrame2::GetDebugProperty` вызывает метод [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) и получает объект, описывающий метод, в котором сработала точка останова. Модуль отладки предоставляет поставщик символов ([IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)), адрес ([IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)) и модуль привязки ([IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)).
 
-3. `IDebugExpressionEvaluator::GetMethodProperty` вызывает [жетконтаинерфиелд](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md) с переданным `IDebugAddress` объектом для получения [идебугконтаинерфиелд](../../extensibility/debugger/reference/idebugcontainerfield.md) , представляющего метод, содержащий указанный адрес.
+3. `IDebugExpressionEvaluator::GetMethodProperty` вызывает [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md) и предоставляет объект `IDebugAddress`, чтобы получить интерфейс [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md), который представляет метод, содержащий указанный адрес.
 
-4. `IDebugContainerField`Интерфейс запрашивает интерфейс [идебугмесодфиелд](../../extensibility/debugger/reference/idebugmethodfield.md) . Это интерфейс, предоставляющий доступ к локальным переменным метода.
+4. Интерфейс `IDebugContainerField` запрашивается для получения интерфейса [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md), который и предоставляет доступ к локальным переменным анализируемого метода.
 
-5. `IDebugExpressionEvaluator::GetMethodProperty` создает экземпляр класса (вызываемого `CFieldProperty` в примере), который запускает `IDebugProperty2` интерфейс для представления локальных переменных метода. `IDebugMethodField`Объект помещается в этот `CFieldProperty` объект вместе с `IDebugSymbolProvider` объектами, `IDebugAddress` и `IDebugBinder` .
+5. `IDebugExpressionEvaluator::GetMethodProperty` создает экземпляр класса (называемого в примере `CFieldProperty`), который использует интерфейс `IDebugProperty2` для представления локальных переменных метода. Объект `IDebugMethodField` помещается в объект `CFieldProperty` вместе с объектами `IDebugSymbolProvider`, `IDebugAddress` и `IDebugBinder`.
 
-6. При `CFieldProperty` инициализации объекта вызывается [](../../extensibility/debugger/reference/idebugfield-getinfo.md) метод `IDebugMethodField` GetObject для объекта, чтобы получить структуру [FIELD_INFO](../../extensibility/debugger/reference/field-info.md) , содержащую все сведения о самом методе.
+6. После инициализации объекта `CFieldProperty` вызывается метод [GetInfo](../../extensibility/debugger/reference/idebugfield-getinfo.md) для объекта `IDebugMethodField`, чтобы получить структуру [FIELD_INFO](../../extensibility/debugger/reference/field-info.md), содержащую все доступные для отображения сведения непосредственно о методе.
 
-7. `IDebugExpressionEvaluator::GetMethodProperty` Возвращает `CFieldProperty` объект в виде `IDebugProperty2` объекта.
+7. `IDebugExpressionEvaluator::GetMethodProperty` возвращает объект `CFieldProperty` в виде объекта `IDebugProperty2`.
 
-8. Visual Studio вызывает [енумчилдрен](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) для возвращенного `IDebugProperty2` объекта с фильтром `guidFilterLocalsPlusArgs` , который возвращает объект [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) , содержащий локальные переменные метода. Это перечисление заполняется вызовами [енумлокалс](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) и [енумаргументс](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md).
+8. Visual Studio вызывает для возвращенного объекта `IDebugProperty2` метод [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) с фильтром `guidFilterLocalsPlusArgs`, который возвращает объект [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md), содержащий локальные переменные метода. Это перечисление заполняется вызовами [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) и [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md).
 
-9. Visual Studio вызывает [Next](../../extensibility/debugger/reference/ienumdebugpropertyinfo2-next.md) , чтобы получить структуру [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) для каждого локального элемента. Эта структура содержит указатель на `IDebugProperty2` интерфейс для локального объекта.
+9. Visual Studio вызывает метод [Next](../../extensibility/debugger/reference/ienumdebugpropertyinfo2-next.md), чтобы получить структуру [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) для каждой локальной переменной. Эта структура содержит для локальной переменной указатель на интерфейс `IDebugProperty2`.
 
-10. Visual Studio вызывает [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) для каждого локального объекта, чтобы получить имя, значение и тип локального компьютера. Эти сведения отображаются в окне **локальные** .
+10. Visual Studio вызывает для каждой локальной переменной метод [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) и получает ее имя, значение и тип. Эти сведения отображаются в окне **Локальные переменные**.
 
-## <a name="in-this-section"></a>Содержание раздела
- [Реализация жетмесодпроперти](../../extensibility/debugger/implementing-getmethodproperty.md) Описывает реализацию [жетмесодпроперти](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md).
+## <a name="in-this-section"></a>В этом разделе
+ [Реализация GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md) — описывает реализацию метода [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md).
 
- [Перечислить локальные переменные](../../extensibility/debugger/enumerating-locals.md) Описывает, как модуль отладки (DE) выполняет вызов для перечисления локальных переменных или аргументов.
+ [Перечисление локальных переменных](../../extensibility/debugger/enumerating-locals.md) — описывает, как модуль отладки совершает вызов для перечисления локальных переменных или аргументов.
 
- [Получить локальные свойства](../../extensibility/debugger/getting-local-properties.md) Описывает, как DE вызывает метод, чтобы получить имя, тип и значение одной или нескольких локальных переменных.
+ [Получение свойств локальных элементов](../../extensibility/debugger/getting-local-properties.md) — описывает, как модуль отладки совершает вызов для получения имени, типа и значений локальных переменных.
 
- [Получить локальные значения](../../extensibility/debugger/getting-local-values.md) Обсуждается получение значения Local, для которого требуются службы объекта связывателя, заданные контекстом оценки.
+ [Получение значений локальных переменных](../../extensibility/debugger/getting-local-values.md) — описывает получение значения локальной переменной с помощью объекта модуля привязки, предоставляемого контекстом вычислений.
 
- [Оценка локальных переменных](../../extensibility/debugger/evaluating-locals.md) Объясняет, как оцениваются локальные переменные.
+ [Вычисление локальных переменных](../../extensibility/debugger/evaluating-locals.md) — поясняет принципы вычисления локальных переменных.
 
 ## <a name="related-sections"></a>Связанные разделы
- [Контекст оценки](../../extensibility/debugger/evaluation-context.md) Предоставляет аргументы, которые передаются, когда метод DE вызывает средство оценки выражений (EE).
+ [Контекст вычислений](../../extensibility/debugger/evaluation-context.md) — указывает аргументы, передаваемые при вызове вычислителя выражений из модуля отладки.
 
- [Пример мицее](/previous-versions/) Демонстрируется один подход к реализации для создания средства оценки выражений для языка Мик.
+ [Пример для MyCEE](/previous-versions/) — демонстрирует один из подходов к реализации создания вычислителя выражений на языке MyC.
 
 ## <a name="see-also"></a>См. также
 - [Отображение локальных переменных](../../extensibility/debugger/displaying-locals.md)

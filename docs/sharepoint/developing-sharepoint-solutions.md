@@ -17,24 +17,27 @@ ms.author: johnhart
 manager: jmartens
 ms.workload:
 - office
-ms.openlocfilehash: 2f085f5679db2c5c4a1e3cf0cc8d7bbf7cad58eb
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: f839f4148054b4e10a7fc1703aa8f03549bdbf36
+ms.sourcegitcommit: 1f27f33852112702ee35fbc0c02fba37899e4cf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99948834"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "112112906"
 ---
 # <a name="develop-sharepoint-solutions"></a>Разработка решений SharePoint
+
   В [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] имеется несколько шаблонов типов проектов SharePoint для создания сайтов SharePoint и элементов сайтов. Список доступных типов проектов см. в разделе [Шаблоны проектов и элементов проектов SharePoint](../sharepoint/sharepoint-project-and-project-item-templates.md). Далее следует описание элементов и свойств проекта SharePoint.
 
- Сведения о SharePoint 2013 и надстройках SharePoint см. в разделах [SharePoint 2013](https://www.microsoft.com/microsoft-365/previous-versions/microsoft-sharepoint-2013) и [Сборка надстроек SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+ См. дополнительные сведения о сборке [Надстроек SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 ## <a name="elements-of-a-sharepoint-project"></a>Элементы проекта SharePoint
+
  Узлы в проекте SharePoint называются *элементами SharePoint*. Элементы SharePoint также могут содержать один или несколько вложенных файлов, называемых *файлами элементов SharePoint*, например файлы конфигурации [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] , формы ASPX и другие.
 
  Вместо создания проекта с помощью шаблона с уже имеющимися файлами элементов проекта можно воспользоваться шаблоном **Пустой проект** , чтобы создать новый проект SharePoint и затем добавить элементы проекта вручную. Проекты SharePoint могут также дополнительно содержать один или несколько файлов функций (для активации в SharePoint) и файл пакета для распространения проекта.
 
 ### <a name="special-nodes"></a>Специальные узлы
+
  Каждый проект SharePoint содержит два узла, которые нельзя переименовывать, удалять, вырезать, копировать и перетаскивать из проекта. Это узлы:
 
 - Компоненты
@@ -43,6 +46,7 @@ ms.locfileid: "99948834"
   Оба эти узла всегда присутствуют в проекте SharePoint, даже если никакие другие компоненты и пакеты не определены в проекте.
 
 #### <a name="features-node"></a>Узел "Функции"
+
  Узел **Функции** содержит одну или несколько функций проекта SharePoint. Функция — это контейнер расширений для SharePoint. После развертывания функции на сервере SharePoint она может быть включена в список определений сайтов или активирована индивидуально администраторами SharePoint на сайтах SharePoint. Дополнительные сведения см. в разделе [Работа с компонентами](/previous-versions/office/developer/sharepoint-2010/ms460318(v=office.14)).
 
  При добавлении элемента, например типа содержимого или экземпляра списка, в проект SharePoint он добавляется в функцию в узле **Функции** . Область элемента определяет, куда добавляется элемент: в новую или существующую функцию. Если область нового элемента совпадает с областью существующей функции, он добавляется в эту функцию. В противном случае элемент добавляется в новую функцию.
@@ -52,11 +56,13 @@ ms.locfileid: "99948834"
  Когда функция добавляется в проект SharePoint, она появляется в **обозревателе решений** в виде узла с заданным по умолчанию именем Feature *x*.feature, где *x* — уникальный номер. После развертывания функции на сервере SharePoint администратор SharePoint может активировать ее, тем самым сделав ее доступной для пользователей сайта SharePoint.
 
 #### <a name="package-node"></a>Узел "Пакет"
+
  Узел **Пакет** содержит один файл, который реализует механизм распространения проекта SharePoint. Этот файл, называемый *пакетом решения*, основан на формате CAB и имеет расширение WSP. Пакет решения является файлом развертывания и повторного использования, который содержит набор функций, определений сайтов и сборок, применимых к сайтам SharePoint, которые можно включать и отключать индивидуально. Узел **Пакет** также всегда содержит файл с именем Package.wspdef — файл определения [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] для пакета. После развертывания пакета на сервере, где выполняется SharePoint, администратор SharePoint может установить его и активировать его функции.
 
  Вы можете просмотреть или изменить содержимое пакета в конструкторе пакетов, дважды щелкнув узел пакета или выбрав в контекстном меню команду **Открыть**. Дополнительные сведения см. в статье [Создание пакетов решений SharePoint](../sharepoint/creating-sharepoint-solution-packages.md).
 
 ## <a name="sharepoint-project-and-project-item-properties"></a>Свойства проектов и элементов проектов SharePoint
+
  Свойства проектов SharePoint, так же как и свойства других проектов [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] , отображаются в окне «Свойства» и на странице свойств. Отображаемые свойства зависят от того, какой узел выбран.
 
  При выборе проекта SharePoint, элемента проекта или узла файла элемента проекта в **обозревателе решений** в окне «Свойства» или на странице свойств отображаются следующие свойства:
@@ -131,6 +137,7 @@ ms.locfileid: "99948834"
 |[Диалоговое окно "Выбор URL-адреса" (разработка приложений SharePoint в Visual Studio)](../sharepoint/url-picker-dialog-box-sharepoint-development-in-visual-studio.md)|Описание диалогового окна, которое можно использовать для добавления ссылок в виде путей к ресурсам в проекте или на локальном сервере SharePoint.|
 
 ## <a name="see-also"></a>См. также раздел
+
 - [Приступая к работе (разработка решений SharePoint в Visual Studio)](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)
 - [Просмотр подключений SharePoint с помощью обозревателя сервера](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)
 - [Сборка и отладка решений SharePoint](../sharepoint/building-and-debugging-sharepoint-solutions.md)

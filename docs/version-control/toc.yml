@@ -4,6 +4,8 @@
   items:
     - name: "Интерфейс GIT в Visual\_Studio"
       href: git-with-visual-studio.md
+    - name: Параметры и настройки Git
+      href: git-settings.md
     - name: Как Visual Studio упрощает управление версиями
       href: git-visual-studio-source-control.md
 - name: Начало работы

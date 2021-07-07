@@ -9,6 +9,20 @@
       href: starting-to-develop-visual-studio-extensions.md
     - name: 'Создание первого расширения: Hello World'
       href: extensibility-hello-world.md
+    - name: "Обновление расширений для Visual Studio\_2022 (предварительная версия)"
+      items:
+        - name: Обновление расширения
+          href: migration/update-visual-studio-extension.md
+        - name: 'Пример: ImageOptimizer'
+          href: migration/samples.md
+        - name: Выбор предыдущих версий в качестве целевой платформы
+          href: migration/target-previous-versions.md
+        - name: Список критических API
+          href: migration/breaking-api-list.md
+        - name: Список удаленных API
+          href: migration/removed-api-list.md
+        - name: Перенесенная PIA
+          href: migration/migrated-assemblies.md
     - name: "Новые возможности пакета SDK для Visual Studio\_2019"
       items:
         - name: "Новые возможности пакета SDK для Visual Studio\_2019"

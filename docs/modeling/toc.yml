@@ -2,13 +2,15 @@
   href: analyze-and-model-your-architecture.md
 - name: Новые возможности разработки в Visual Studio 2017
   href: what-s-new-for-design-in-visual-studio.md
+- name: Установка средств для архитектуры
+  href: install-architecture-tools.md
 - name: Изменение проекта с помощью визуализации и моделирования
   href: scenario-change-your-design-using-visualization-and-modeling.md
 - name: Карты кода и схемы зависимостей
   items:
     - name: Визуализация кода
       href: visualize-code.md
-    - name: Карты кода для представления зависимостей
+    - name: Сопоставление зависимостей с картами кода
       href: map-dependencies-across-your-solutions.md
     - name: Совместное использование карт кода
       href: share-code-maps.md
@@ -58,8 +60,6 @@
       href: generate-and-configure-your-app-from-models.md
     - name: Разработка структуры решения моделирования
       href: structure-your-modeling-solution.md
-    - name: Руководство по средствам проектирования архитектуры Visual Studio
-      href: visual-studio-architecture-tooling-guidance.md
 - name: Проверка системы в ходе разработки
   items:
     - name: Проверка задач и ресурсов
