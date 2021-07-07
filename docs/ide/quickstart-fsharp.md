@@ -3,6 +3,7 @@ title: Краткое руководство. Создание веб-служб
 description: Пошаговые инструкции по созданию веб-службы ASP.NET Core в Visual Studio на F#.
 ms.date: 08/24/2018
 ms.topic: quickstart
+ms.custom: vs-acquisition
 author: cartermp
 ms.author: phcart
 manager: andrehal
@@ -11,12 +12,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 990106f7f3ca97ae38a20170ca6ed2e1d699d4e4
-ms.sourcegitcommit: 2975d722a6d6e45f7887b05e9b526e91cffb0bcf
+ms.openlocfilehash: 298b55120a5e4d0efea1ec5eeeacc2dfa3da274f
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2020
-ms.locfileid: "70180323"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112386440"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-service-in-f"></a>Краткое руководство. Создание первой веб-службы ASP.NET Core на F\# с помощью Visual Studio
 
@@ -31,6 +32,12 @@ ms.locfileid: "70180323"
 ::: moniker range="vs-2019"
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 
@@ -50,7 +57,7 @@ ms.locfileid: "70180323"
 
      ![Рабочая нагрузка ASP.NET в установщике Visual Studio](../ide/media/quickstart-aspnet-workload.png)
 
-4. В верхнем раскрывающемся меню диалогового окна **Создать веб-приложение ASP.NET Core** выберите **ASP.NET Core 2.1**. (Если вы не видите **ASP.NET Core 2.1** в списке, установите его, пройдя по ссылке **скачивание**, которая должна появиться на желтой панели в верхней части диалогового окна.) Нажмите кнопку **ОК**.
+4. В верхнем раскрывающемся меню диалогового окна **Создать веб-приложение ASP.NET Core** выберите **ASP.NET Core 2.1**. (Если вы не видите **ASP.NET Core 2.1** в списке, установите его, пройдя по ссылке **скачивание**, которая должна появиться на желтой панели в верхней части диалогового окна.) Выберите **OK**.
 
 ::: moniker-end
 
@@ -89,7 +96,7 @@ ms.locfileid: "70180323"
 
 ![Измененный член Get](../ide/media/hello-world-fs-get-member.png)
 
-## <a name="run-the-application"></a>Запуск приложения
+## <a name="run-the-application"></a>Выполнение приложения
 
 1. Нажмите клавиши **CTRL**+**F5**, чтобы запустить приложение и открыть его в веб-браузере.
 
@@ -97,7 +104,7 @@ ms.locfileid: "70180323"
 
 В веб-браузере отобразится JSON, соответствующий введенному вами ранее коду.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Поздравляем с завершением этого краткого руководства! Надеемся, что вы узнали что-то новое о F#, ASP.NET Core и интегрированной среде разработки Visual Studio. Чтобы просмотреть приложение, работающее на общедоступном сервере, нажмите указанную ниже кнопку.
 

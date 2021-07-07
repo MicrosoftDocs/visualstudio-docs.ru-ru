@@ -1,7 +1,7 @@
 ---
 title: Учебник. Отладка кода C++
 description: Узнайте о возможностях отладчика Visual Studio и о том, как запустить отладчик, пошагово пройти код и проверить данные в приложении C++.
-ms.custom: debug-experiment, seodec18, get-started
+ms.custom: debug-experiment,  get-started
 ms.date: 02/04/2020
 ms.technology: vs-ide-debug
 ms.topic: tutorial
@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: af974731fac6842c38f2a0e4ccbc9f32748e29b2
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 8abb517103254aa1e0c89a02b0dc81b38af3ecee
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99874799"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112385257"
 ---
 # <a name="tutorial-learn-to-debug-c-code-using-visual-studio"></a>Учебник. Сведения об отладке кода C++ с помощью Visual Studio
 
@@ -54,9 +54,15 @@ ms.locfileid: "99874799"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 
@@ -82,7 +88,7 @@ ms.locfileid: "99874799"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Запустите Visual Studio 2019.
 

@@ -1,7 +1,7 @@
 ---
 title: Учебник. Отладка кода Visual Basic
 description: Узнайте о возможностях отладчика Visual Studio и о том, как запустить отладчик, пошагово пройти код и проверить данные в приложении Visual Basic.
-ms.custom: debug-experiment, seodec18, get-started
+ms.custom: debug-experiment, vs-acquisition, get-started
 ms.date: 02/03/2020
 ms.technology: vs-ide-debug
 ms.topic: tutorial
@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: a6bc1cd4dd994a744e814ab893bfe67e24f110bb
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 48e6b383b0dfdee3a3cb0cc355ffa5900d4dc428
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101682673"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390220"
 ---
 # <a name="tutorial-learn-to-debug-visual-basic-code-using-visual-studio"></a>Руководство. Отладка кода Visual Basic с помощью Visual Studio
 
@@ -61,6 +61,12 @@ ms.locfileid: "101682673"
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
+
+::: moniker-end
+
 Если вам нужно установить рабочую нагрузку, но вы уже используете Visual Studio, выберите пункт **Средства** > **Получить средства и компоненты...** , после чего запустится Visual Studio Installer. Запускается Visual Studio Installer. Выберите рабочую нагрузку **Кроссплатформенная разработка .NET Core** и затем элемент **Изменить**.
 
 ## <a name="create-a-project"></a>Создание проекта
@@ -81,9 +87,9 @@ ms.locfileid: "101682673"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Запустите Visual Studio 2019.
+1. Запустите Visual Studio.
 
    Если окно запуска не открыто, выберите **Файл** > **Окно запуска**.
 

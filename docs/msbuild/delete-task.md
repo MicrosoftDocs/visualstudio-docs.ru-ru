@@ -20,12 +20,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: b49ba26cc1e88ab3241094e1fd92be0907e8dd60
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 09945306a2260bed5b264d380dcea745ff3f7c07
+ms.sourcegitcommit: 8fb1500acb7e6314fbb6b78eada78ef5d61d39bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99877347"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113280429"
 ---
 # <a name="delete-task"></a>Delete - задача
 
@@ -50,7 +50,7 @@ ms.locfileid: "99877347"
 
 ## <a name="example"></a>Пример
 
-В следующем примере рассматривается удаление файла *MyApp.pdb* при выполнении сборки целевого объекта `DeleteDebugSymbolFile`.
+В следующем примере удаляется файл *ConsoleApp1.pdb* при выполнении сборки целевого объекта `DeleteDebugSymbolFile`.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">

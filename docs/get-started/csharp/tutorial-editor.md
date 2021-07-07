@@ -1,7 +1,7 @@
 ---
-title: Общие сведения о редактировании для разработчиков C#
+title: Учебник. Редактирование для разработчиков C#
 description: В этом 10-минутном вводном руководстве по редактору кода Visual Studio мы продемонстрируем несколько методов, которые упрощают написание, понимание кода C# и навигацию по нему в Visual Studio.
-ms.custom: seodec18, get-started
+ms.custom: vs-acquisition, get-started
 ms.date: 11/20/2018
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -12,12 +12,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8724fcb717953f3897bab092eb3895e228e10c60
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 2a6b01e9c26ea816e05a1d2186d904bdb080f098
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99909226"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390259"
 ---
 # <a name="learn-to-use-the-code-editor-with-c"></a>Узнайте, как использовать редактор кода с C\#
 
@@ -32,8 +32,13 @@ ms.locfileid: "99909226"
 
 ::: moniker range="vs-2019"
 
-> [!TIP]
-> Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+Если вы еще не установили предварительную версию Visual Studio 2022, перейдите на страницу [загрузок предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), чтобы установить ее бесплатно.
 
 ::: moniker-end
 

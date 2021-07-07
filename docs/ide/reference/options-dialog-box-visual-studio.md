@@ -17,12 +17,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 16c2c6a1d5f9f9b673e7ae12661c4681f713c2fa
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 79bd2d95a12aa7c42705d106cf71b4061a020431
+ms.sourcegitcommit: 113b7df611583307d3965984233a33355d6b0318
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99910812"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112126545"
 ---
 # <a name="options-dialog-box-visual-studio"></a>Диалоговое окно "Параметры" (Visual Studio)
 
@@ -44,3 +44,4 @@ ms.locfileid: "99910812"
 ## <a name="see-also"></a>См. также раздел
 
 - [Настройка редактора](../how-to-change-text-case-in-the-editor.md)
+- [Параметры и настройки Git](../../version-control/git-settings.md)

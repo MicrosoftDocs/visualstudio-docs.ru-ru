@@ -6,12 +6,12 @@ ms.author: ghogen
 ms.date: 08/15/2019
 ms.technology: vs-azure
 ms.topic: reference
-ms.openlocfilehash: 24a36bdbe0d3c6ac57b7595883301841ffa138e1
-ms.sourcegitcommit: d577818d3d8e365baa55c6108fa8159c46ed8b43
+ms.openlocfilehash: e50935145913bcd1f3c4457f4704376a0ac0f6ef
+ms.sourcegitcommit: 162be102d2c22a1c4ad2c447685abd28e0e85d15
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "97846707"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "109973243"
 ---
 # <a name="container-tools-launch-settings"></a>Параметры запуска инструментов для работы с контейнерами
 
@@ -89,4 +89,5 @@ ms.locfileid: "97846707"
 
 ## <a name="see-also"></a>См. также
 
-[Свойства сборки Docker Compose](docker-compose-properties.md)
+- [Свойства сборки Docker Compose](docker-compose-properties.md)
+- [Управление профилями запуска для Docker Compose](launch-profiles.md)

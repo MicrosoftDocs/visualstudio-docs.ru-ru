@@ -2,19 +2,19 @@
 title: Интерфейс GIT в Visual Studio 2019
 titleSuffix: ''
 description: Узнайте, как повысить продуктивность с помощью нового интегрированного интерфейса GIT в Visual Studio 2019.
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.topic: overview
 ms.author: tglee
 author: TerryGLee
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.manager: jmartens
-ms.openlocfilehash: 7ca09edada7715b9e7be754dbec22e1654288df8
-ms.sourcegitcommit: a0f5e7188838c5989c9cc78d99fb29bb2813501e
+ms.openlocfilehash: ae5d17bfe09f2ebac5abb37c6d6ceed59c5398d3
+ms.sourcegitcommit: a9526ab1556c47570286c7a7d3314af67fd1dcf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "109729316"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "112365460"
 ---
 # <a name="git-experience-in-visual-studio"></a>Интерфейс GIT в Visual Studio
 
@@ -184,15 +184,19 @@ Visual Studio также позволяет выполнить фиксацию 
 
 ## <a name="personalize-your-git-settings"></a>Настройка параметров GIT
 
-Чтобы настроить параметры GIT на уровне репозитория, а также на глобальном уровне, выберите в строке меню пункты **GIT** > **Параметры** или **Сервис** > **Параметры** > **Управление исходным кодом**. Затем выберите нужные параметры.
+Чтобы настроить параметры GIT на уровне репозитория, а также на глобальном уровне, выберите в строке меню пункты **GIT** > **Параметры** или **Сервис** > **Параметры** > **Управление исходным кодом**. Затем выберите нужные [параметры](git-settings.md).
 
 :::image type="content" source="media/git-options-settings.png" alt-text="Диалоговое окно &quot;Параметры&quot; в интегрированной среде разработки Visual Studio, в котором можно выбрать параметры персонализации и настройки.":::
+
+::: moniker range="vs-2019"
 
 ## <a name="how-to-use-the-full-team-explorer-experience-in-visual-studio"></a>Использование всех возможностей Team Explorer в Visual Studio
 
 Новый интерфейс GIT — это система контроля версий по умолчанию в Visual Studio 2019 начиная с [версии 16.8](/visualstudio/releases/2019/release-notes/). Однако при желании этот интерфейс можно отключить. Чтобы вернуться в Team Explorer для Git, выберите **Средства** > **Параметры** > **Среда** > **Функции предварительной версии** и снимите флажок **Новый пользовательский интерфейс Git**.
 
 :::image type="content" source="media/git-opt-new-user-experience.png" alt-text="Раздел &quot;Функции предварительной версии&quot; диалогового окна &quot;Параметры&quot; в Visual Studio.":::
+
+::: moniker-end
 
 ## <a name="whats-next"></a>Что дальше?
 

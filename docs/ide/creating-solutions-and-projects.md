@@ -1,13 +1,12 @@
 ---
-title: Работа с решениями и проектами
+title: Создание и использование проектов и решений Visual Studio
 description: Сведения о различиях между решениями и проектами и о том, как использовать их в Visual Studio.
 ms.custom: SEO-VS-2020, contperf-fy21q2
-ms.date: 12/23/2020
+ms.date: 06/14/2021
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
 - VS.ToolsOptionsPages.Projects.General
-- SolutionItemsProject
 helpviewer_keywords:
 - solutions [Visual Studio], creating
 - projects [Visual Studio], creating
@@ -16,14 +15,16 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 2f702908c60b08ac1eaae5aa1f941a2f56eaf8fd
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 713d320767bd329cc53b536bdad058a5db592b3f
+ms.sourcegitcommit: d3658667e768d7516cbf4461ec47bf24c8fcb7e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99956806"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112924933"
 ---
-# <a name="work-with-solutions-and-projects"></a>Работа с решениями и проектами
+# <a name="create-work-with-and-delete-visual-studio-projects-and-solutions"></a>Создавайте проекты и решения Visual Studio, работайте с ними и удаляйте их
+
+Из этой статьи вы узнаете, как создавать с нуля и использовать проекты Visual Studio для хранения артефактов, необходимых для создания приложений.  Если вы не знакомы с проектами в Visual Studio, см. этот обзор [Проектов и решений](solutions-and-projects-in-visual-studio.md).  Сведения о том, как быстро создать проект на основе шаблона, см. в разделе [Создание проекта на основе шаблона](create-new-project.md).
 
 *Проекты* содержат объекты, необходимые для создания приложения в Visual Studio, например файлы исходного кода, растровые изображения, значки, а также ссылки на компоненты и службы. Когда вы создаете проект, Visual Studio создает *решение*, в котором будут содержаться проекты. После этого в решение при необходимости можно добавить другие новые или существующие проекты. Решения также могут содержать файлы, не связанные с определенным проектом.
 

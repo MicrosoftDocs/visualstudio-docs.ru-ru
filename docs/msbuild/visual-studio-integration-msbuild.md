@@ -21,12 +21,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: ff8f195b6d77aeab9a01a6f3f6262f4024de1153
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 63e78d935d515ccafda461a8f7af77623387940b
+ms.sourcegitcommit: 674d3fafa7c9e0cb0d1338027ef419a49c028c36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99951658"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112602159"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Интеграция Visual Studio (MSBuild)
 
@@ -67,6 +67,8 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
     <AvailableItemName Include="JScript"/>
 </ItemGroup>
 ```
+
+Добавление имен типов элементов в тип элемента `AvailableItemName` приведет к появлению элементов этого типа в **Обозревателе решений**.
 
 > [!NOTE]
 > Некоторые имена типов элементов являются особыми для Visual Studio, но их нет в раскрывающемся меню.

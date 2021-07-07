@@ -9,12 +9,12 @@ monikerRange: '>=vs-2019'
 manager: jmartens
 author: ghogen
 ms.author: ghogen
-ms.openlocfilehash: 1709785c63bd4fbcd702fbcacfe59dddcb71d1b3
-ms.sourcegitcommit: 0135fc6ffa38995cc9e6ab05fa265758890d2e15
+ms.openlocfilehash: 838589e0dd81232de25b88989d621a07fb22f972
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "107526159"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112043059"
 ---
 # <a name="how-bridge-to-kubernetes-works"></a>Как работает Bridge to Kubernetes
 
@@ -52,6 +52,9 @@ Bridge to Kubernetes перенаправляет трафик между под
 
 > [!NOTE]
 > На протяжении всего сеанса подключения к кластеру (и еще 15 минут) функция Bridge to Kubernetes выполняет на локальном компьютере процесс *EndpointManager* с разрешениями администратора.
+
+> [!NOTE]
+> Можно выполнять отладку параллельно для нескольких служб, но необходимо запустить столько же экземпляров Visual Studio сколько имеется служб, которых нужно отладить. Убедитесь, что службы прослушивают разные порты локально, а затем настройте и отлаживайте их отдельно. Изоляция в этом сценарии не поддерживается.
 
 ## <a name="additional-configuration-with-kuberneteslocalprocessconfigyaml"></a>Дополнительная настройка с помощью KubernetesLocalProcessConfig.yaml
 

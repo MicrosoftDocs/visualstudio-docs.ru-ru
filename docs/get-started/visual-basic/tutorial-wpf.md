@@ -1,7 +1,7 @@
 ---
 title: Создание приложения Hello World с помощью WPF на Visual Basic
 description: Создание простого приложения Windows Desktop .NET на Visual Basic в Visual Studio с помощью платформы пользовательского интерфейса Windows Presentation Foundation (WPF).
-ms.custom: seodec18, get-started
+ms.custom: vs-acquisition, seodec18, get-started
 ms.date: 04/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -14,12 +14,12 @@ ms.author: jmartens
 manager: jmartens
 ms.workload:
 - dotnet
-ms.openlocfilehash: f337551c16aa63b606c10492bab9956a92cbe141
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: e757dc25fe094b1ffa745cd43ad251abbc9448a7
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107295433"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390129"
 ---
 # <a name="tutorial-create-a-simple-application-with-visual-basic"></a>Учебник. Создание простого приложения с помощью Visual Basic
 
@@ -31,9 +31,15 @@ ms.locfileid: "107295433"
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 
@@ -77,9 +83,9 @@ Visual Studio создает решение и проект HelloWPFApp, а в *
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Запустите Visual Studio 2019.
+1. Запустите Visual Studio.
 
 2. На экране **Создание нового проекта** задайте в поиске WPF, в результатах выберите **Приложение WPF (.NET Framework)** и щелкните **Далее**.
 
@@ -327,6 +333,12 @@ IsChecked="True"
 ::: moniker range="vs-2019"
 
 - [Новые возможности Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
+- [Советы по повышению производительности](../../ide/productivity-features.md)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
 - [Советы по повышению производительности](../../ide/productivity-features.md)
 
 ::: moniker-end

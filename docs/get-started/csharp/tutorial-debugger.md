@@ -1,7 +1,7 @@
 ---
 title: Учебник. Отладка кода C#
 description: Узнайте о возможностях отладчика Visual Studio и о том, как запустить отладчик, поэтапно выполнить код и проверить данные в приложении C#.
-ms.custom: debug-experiment, seodec18, get-started
+ms.custom: debug-experiment, vs-acquisition, get-started
 ms.date: 04/23/2020
 ms.technology: vs-ide-debug
 ms.topic: tutorial
@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 6eac51637b3f3b732f1293337080ef851f34c459
-ms.sourcegitcommit: 5654b7a57a9af111a6f29239212d76086bc745c9
+ms.openlocfilehash: 8fe0c698ce1263713a758bd98fba49433b3ff511
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101682746"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390285"
 ---
 # <a name="tutorial-learn-to-debug-c-code-using-visual-studio"></a>Учебник. Сведения об отладке кода C# с помощью Visual Studio
 
@@ -61,6 +61,12 @@ ms.locfileid: "101682746"
 
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+Если вы еще не установили предварительную версию Visual Studio 2022, перейдите на страницу [загрузок предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), чтобы установить ее бесплатно.
+
+::: moniker-end
+
 Если вам нужно установить рабочую нагрузку, но вы уже используете Visual Studio, выберите пункт **Средства** > **Получить средства и компоненты...** , после чего запустится Visual Studio Installer. Запускается Visual Studio Installer. Выберите рабочую нагрузку **Кроссплатформенная разработка .NET Core** и затем элемент **Изменить**.
 
 ## <a name="create-a-project"></a>Создание проекта
@@ -81,9 +87,9 @@ ms.locfileid: "101682746"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-1. Запустите Visual Studio 2019.
+1. Запустите Visual Studio.
 
    Если окно запуска не открыто, выберите **Файл** > **Окно запуска**.
 

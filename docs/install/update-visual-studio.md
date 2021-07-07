@@ -3,7 +3,7 @@ title: Обновление Visual Studio
 titleSuffix: ''
 description: Узнайте, как обновить Visual Studio до последней версии.
 ms.date: 04/06/2021
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
@@ -12,17 +12,17 @@ helpviewer_keywords:
 - change [Visual Studio]
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ProductUpdates
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 02beb43dede8e38f290ff02febb3b84c53b90f9e
-ms.sourcegitcommit: 56060e3186086541d9016d4185e6f1bf3471e958
+ms.openlocfilehash: 8414d745b63eb0e9145208dca97ce9f117c5cf2c
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106547509"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387961"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Обновление до последнего выпуска Visual Studio
 
@@ -164,9 +164,9 @@ ms.locfileid: "106547509"
 
 ::: moniker range="vs-2019"
 
-Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2019/release-notes/) Visual Studio 2019, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
+Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2019/release-notes/) Visual Studio, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
 
-Установите Visual Studio 2019 бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого. Если в настоящее время используется другая версия Visual Studio, можно либо [установить версии Visual Studio параллельно](../install/install-visual-studio-versions-side-by-side.md), либо [удалить предыдущие версии Visual Studio](../install/uninstall-visual-studio.md).
+Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого. Если в настоящее время используется другая версия Visual Studio, можно либо [установить версии Visual Studio параллельно](../install/install-visual-studio-versions-side-by-side.md), либо [удалить предыдущие версии Visual Studio](../install/uninstall-visual-studio.md).
 
 > [!IMPORTANT]
 > Чтобы установить, обновить или изменить среду Visual Studio, необходимо войти в учетную запись с правами администратора. Дополнительные сведения см. в разделе [Разрешения пользователей и Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -287,9 +287,133 @@ ms.locfileid: "106547509"
 
 ::: moniker-end
 
-## <a name="administrator-updates"></a>Обновления администратора 
+::: moniker range=">=vs-2022"
 
-Если вы входите в организацию с централизованным управлением установленными версиями программного обеспечения, администратор предприятия может выполнить обновление Visual Studio на вашем компьютере. Дополнительные сведения о том, как администрировать и настраивать типы обновлений, которые поддерживаются на компьютере, см. в разделе [Использование Configuration Manager для развертывания обновлений Visual Studio](../install/applying-administrator-updates.md#using-configuration-manager-to-deploy-visual-studio-updates). 
+Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2022/release-notes/) Visual Studio, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
+
+Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого. Если в настоящее время используется другая версия Visual Studio, можно либо [установить версии Visual Studio параллельно](../install/install-visual-studio-versions-side-by-side.md), либо [удалить предыдущие версии Visual Studio](../install/uninstall-visual-studio.md).
+
+> [!IMPORTANT]
+> Чтобы установить, обновить или изменить среду Visual Studio, необходимо войти в учетную запись с правами администратора. Дополнительные сведения см. в разделе [Разрешения пользователей и Visual Studio](../ide/user-permissions-and-visual-studio.md).
+>
+> [!NOTE]
+> Этот раздел относится к Visual Studio в Windows. Для Visual Studio для Mac см. раздел [Обновление Visual Studio для Mac](/visualstudio/mac/update).
+
+Ниже описано, как можно обновить Visual&nbsp;Studio&nbsp;2022.
+
+## <a name="use-the-visual-studio-installer"></a>Использование Visual Studio Installer
+
+1. Найдите **Visual Studio Installer** на своем компьютере.
+
+   В меню "Пуск" Windows можно выполнить поиск по слову "установщик".
+
+   ![Visual Studio Installer](media/vs-2019/visual-studio-installer.png "Поиск установщика Visual Studio Installer")
+
+   Для продолжения работы может потребоваться обновление самого установщика. Если это так, следуйте инструкциям на экране.
+
+1. В установщике найдите установленный у вас выпуск Visual Studio.
+
+   Например, если вы ранее установили Visual&nbsp;Studio Community&nbsp;2022 и для этого выпуска есть обновление, в установщике будет отображаться сообщение **Доступно обновление**.
+
+     ![Выбор выпуска Visual Studio 2019, который необходимо обновить](media/vs-2019/vs-installer-update-visual-studio-community.png "Выбор выпуска Visual Studio 2019, который необходимо обновить")
+
+1. Чтобы установить обновления, нажмите кнопку **Обновить**.
+
+    ![Нажатие кнопки "Обновить" для установки обновлений](media/vs-2019/vs-installer-choose-update-visual-studio-community.png "Нажатие кнопки &quot;Обновить&quot; для установки обновлений")
+
+1. Когда обновление завершится, может появиться запрос на перезагрузку компьютера. В таком случае перезагрузите компьютер, а затем запустите Visual Studio, как обычно.
+
+   Если вам не будет предложено перезагрузить компьютер, выберите **Запуск**, чтобы запустить Visual Studio из установщика.
+
+    ![Нажатие кнопки "Запуск" для запуска Visual Studio](media/vs-2019/choose-launch-visual-studio-community.png "Нажатие кнопки &quot;Запуск&quot; для запуска Visual Studio")
+
+## <a name="use-the-ide"></a>Использование интегрированной среды разработки
+
+Можно проверить наличие обновлений и установить их, используя строку меню или поле поиска в Visual Studio 2022.
+
+### <a name="open-visual-studio"></a>Запустите Visual Studio
+
+1. В меню Windows **Пуск** выберите **Visual Studio 2022**.
+
+    ![Открытие Visual Studio 2022](media/vs-2019/vs-installer-visual-studio-2019.png "Открытие Visual Studio 2019 в Windows")
+
+1. В разделе **Приступая к работу** выберите любой параметр, чтобы открыть интегрированную среду разработки.
+
+    ![Открытие Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Открытие Visual Studio Installer")
+
+    Открывается Visual Studio. В интегрированной среде разработки отображается сообщение **Обновление Visual Studio 2022**.
+
+    ![Сообщение "Обновление Visual Studio 2019" в интегрированной среде разработки](media/vs-2019/update-visual-studio-ide-message.png "Сообщение &quot;Обновление Visual Studio 2019&quot; в интегрированной среде разработки")
+
+1. В сообщении **Обновление Visual Studio 2022** выберите **Просмотреть подробности**.
+
+   ![Нажатие кнопки "Просмотреть сведения" в сообщении "Обновление IDE Visual Studio 2019"](media/vs-2019/update-visual-studio-ide-view-details.png "Нажатие кнопки &quot;Просмотреть сведения&quot; в сообщении &quot;Обновление Visual Studio 2019&quot;")
+
+1. В диалоговом окне **Обновление скачано и готово к установке** выберите **Обновить**.
+
+     ![Нажатие кнопки "Обновить" в диалоговом окне "Обновление скачано и готово к установке"](media/vs-2019/update-ready-install-visual-studio-community-from-ide.png "Нажатие кнопки &quot;Обновить&quot; в диалоговом окне &quot;Обновление скачано и готово к установке&quot;")
+
+   Visual Studio обновляется, закрывается и снова открывается.
+
+### <a name="in-visual-studio"></a>В Visual Studio
+
+1. В строке меню выберите **Help**, а затем выберите **Проверить наличие обновлений**.
+
+     ![Выбор параметра "Проверить наличие обновлений" в меню "Справка"](media/vs-2019/vs-ide-check-updates-help-menu.png "Выбор параметра &quot;Проверить наличие обновлений&quot; в меню &quot;Справка&quot;")
+
+    > [!NOTE]
+    > Для проверки наличия обновлений вы также можете использовать окно поиска в IDE. Нажмите **Ctrl**+**Q**, введите "проверить наличие обновлений" и выберите соответствующий результат поиска.
+
+1. В диалоговом окне **Доступно обновление** нажмите кнопку **Обновить**.
+
+     ![Нажмите кнопку "Обновить" в диалоговом окне "Доступно обновление"](media/vs-2019/update-visual-studio-community-from-ide.png "Нажмите кнопку &quot;Обновить&quot; в диалоговом окне &quot;Доступно обновление&quot;")
+
+   Visual Studio обновляется, закрывается и снова открывается.
+
+## <a name="use-the-notifications-hub"></a>Использование центра уведомлений
+
+1. Сохраните все изменения в Visual Studio.
+
+1. Чтобы открыть центр **Уведомления**, выберите значок уведомления в правом нижнем углу IDE Visual Studio.
+
+   ![Значок уведомления в IDE Visual Studio](media/vs-2019/notification-bar.png "Значок уведомления в IDE Visual Studio")
+
+1. В **Центре уведомлений** выберите обновление, которое вы хотите установить, а затем **Показать сведения**.
+
+     ![Центр уведомлений в Visual Studio 2019](media/vs-2019/notification-hub-update.png "Центр уведомлений в Visual Studio 2019")
+
+      > [!TIP]
+      > Обновление для выпуска Visual Studio 2022 является накопительным, поэтому всегда выбирайте для установки то, у которого новейший номер версии.
+
+1. В диалоговом окне **Доступно обновление** нажмите кнопку **Обновить**.
+
+   Visual Studio обновляется, закрывается и снова открывается.
+
+## <a name="customize-update-settings"></a>Настройка параметров обновления
+
+В Visual Studio параметры обновления можно настроить несколькими способами, например изменив режим установки или выбрав автоматическое скачивание.
+
+Доступно два режима установки:
+
+* **Установить при скачивании**;
+* **Скачать все и установить**.
+
+Вы также можете выбрать параметр **автоматического скачивания обновлений**, чтобы скачивать обновления, когда компьютером не пользуются.
+
+Вот как это сделать.
+
+1. В строке меню выберите **Сервис** > **Параметры**.
+
+2. Разверните пункт **Среда** и выберите элемент **Обновления продукта**.
+
+    ![Настройки обновлений в Visual Studio](media/vs-2019/update-settings-options.png)
+
+3. Выберите режим установки и требуемые параметры автоматического скачивания обновлений для Visual Studio.
+::: moniker-end
+
+## <a name="administrator-updates"></a>Обновления администратора
+
+Если вы входите в организацию с централизованным управлением установленными версиями программного обеспечения, администратор предприятия может выполнить обновление Visual Studio на вашем компьютере. Дополнительные сведения о том, как администрировать и настраивать типы обновлений, которые поддерживаются на компьютере, см. в разделе [Использование Configuration Manager для развертывания обновлений Visual Studio](../install/applying-administrator-updates.md#using-configuration-manager-to-deploy-visual-studio-updates).
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

@@ -13,16 +13,16 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 97d585f8c484f1ef8b4cbd0514585d6f328af67c
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 05cfb7cf053a3275b49b76b46bec8054fb105078
+ms.sourcegitcommit: 529e1716924c3e1ac8a750550b996ad3c79f353b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99956884"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112066960"
 ---
 # <a name="create-a-new-project-in-visual-studio"></a>Создание проекта в Visual Studio
 
-В этой статье мы расскажем, как быстро создать новый проект в Visual Studio.
+В этой статье мы расскажем, как быстро создать новый проект из шаблона в Visual Studio.
 
 ::: moniker range="vs-2017"
 

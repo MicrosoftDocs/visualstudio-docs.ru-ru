@@ -4,32 +4,30 @@ titleSuffix: ''
 description: Узнайте, как экспортировать конфигурацию установки в VSCONFIG-файл, чтобы поделиться с другими пользователями, а также импортировать его, чтобы клонировать.
 ms.date: 05/18/2019
 ms.topic: how-to
-f1_keywords:
-- vs.about
 helpviewer_keywords:
 - import installation configuration
 - export installation configuration
 - install Visual Studio
 - Visual Studio installer
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 043622d08b5389db8bf4cce80450f62c070a0ace
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 33ee25da51d5243daa67be53f68c50ede76219b2
+ms.sourcegitcommit: d3658667e768d7516cbf4461ec47bf24c8fcb7e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99949471"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112925232"
 ---
 # <a name="import-or-export-installation-configurations"></a>Импорт или экспорт конфигураций установки
 
 Вы можете настроить Visual Studio в своей организации с помощью файлов конфигурации установки. Для этого просто экспортируйте сведения о рабочей нагрузке и компоненте в файл .vsconfig с помощью установщика Visual Studio. Затем вы сможете импортировать конфигурацию в новые или существующие установки или поделиться с другими пользователями.
 
-Ниже описывается порядок действий.
+Вот как это сделать.
 
 ::: moniker range="vs-2017"
 
@@ -66,11 +64,11 @@ ms.locfileid: "99949471"
 
 1. Убедитесь, что выбраны нужные рабочие нагрузки и компоненты, и нажмите кнопку **Закрыть**.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## <a name="automatically-install-missing-components"></a>Автоматическая установка недостающих компонентов
 
-**Новые возможности Visual Studio 2019:** Если вы сохранили файл .vsconfig в корневом каталоге решения, при открытии решения Visual Studio автоматически определит недостающие компоненты и предложит установить их.
+**Новые возможности Visual Studio 2019**: если вы сохранили файл .vsconfig в корневом каталоге решения, при открытии решения Visual Studio автоматически определит недостающие компоненты и предложит установить их.
 
 ![Обозреватель решений предлагает дополнительные компоненты](../install/media/vs-2019/solution-explorer-config-file.png)
 
@@ -91,7 +89,7 @@ ms.locfileid: "99949471"
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 * [Создание сетевой установки Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Обновление сетевой установки Visual Studio](update-a-network-installation-of-visual-studio.md)

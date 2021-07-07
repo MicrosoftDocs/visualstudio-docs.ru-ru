@@ -2,30 +2,30 @@
 title: Выбор места установки
 description: Узнайте, как уменьшить пространство, занимаемое установкой Visual Studio на системном диске, переместив кэш загрузки, общие компоненты, пакеты SDK и средства на разные диски. Например, переместите некоторые файлы с диска C на диск D.
 ms.date: 03/30/2019
-ms.custom: seodec18
+ms.custom: vs-acquisition
 ms.topic: how-to
 helpviewer_keywords:
 - change installation locations for Visual Studio
 - select an installation location for Visual Studio files
 - move installation files to different drives
 - use the D drive
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 4db3a31c8baa578a17d14b3a740ff40a444ba208
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5ad065a780a16420727d90605d95038cc5f4080a
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99868638"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112387571"
 ---
 # <a name="select-the-installation-locations-in-visual-studio"></a>Выбор расположения установки в Visual Studio
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Вы можете уменьшить место, занимаемое установкой Visual Studio на системном диске, изменив расположение ее файлов. В частности, можно использовать другое расположение для кэша загрузки, общих компонентов, пакетов SDK и файлов средств.
 
@@ -33,14 +33,14 @@ ms.locfileid: "99868638"
 
 ::: moniker range="vs-2017"
 
-**Новые возможности в версии 15.7**: Вы можете уменьшить место, занимаемое установкой Visual Studio на системном диске, изменив расположение ее файлов. В частности, можно использовать другое расположение для кэша загрузки, общих компонентов, пакетов SDK и файлов средств.
+**Новая возможность в версии 15.7**. Вы можете уменьшить место, занимаемое установкой Visual Studio на системном диске, изменив расположение ее файлов. В частности, можно использовать другое расположение для кэша загрузки, общих компонентов, пакетов SDK и файлов средств.
 
 ::: moniker-end
 
    > [!NOTE]
    > Некоторые средства и пакеты SDK имеют другие правила расположения установки. Эти средства и пакеты SDK устанавливаются на системном диске, даже если вы выбрали другое расположение.
 
-Готовы начать работу? Ниже описывается порядок действий.
+Вы готовы начать работу? Вот как это сделать.
 
 ::: moniker range="vs-2017"
 
@@ -76,7 +76,7 @@ ms.locfileid: "99868638"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. При установке Visual Studio откройте вкладку **Расположения установки**.
 

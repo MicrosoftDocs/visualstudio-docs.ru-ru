@@ -1,18 +1,15 @@
 ---
-title: Узнайте о решениях и проектах
+title: Что такое решения и проекты Visual Studio?
 description: Узнайте о проектах и решениях Visual Studio, а также о создании проектов на основе шаблона и о том, как просматривать проекты и управлять ими в Обозревателе решений.
 ms.custom: SEO-VS-2020, contperf-fy21q2
 ms.date: 12/31/2020
 ms.topic: conceptual
 f1_keywords:
-- vs.addnewitem
-- vs.addnewsolutionitem
 - vs.openproject
 - vs.addexistingitem
 - vs.addexistingsolutionitem
 - vs.environment.projects
 - vs.environment.solutions
-- VS.SolutionExplorer
 - VS.SolutionExplorer.Solutions
 helpviewer_keywords:
 - solutions [Visual Studio]
@@ -22,16 +19,16 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 473c3ca0e4a9998d6a320e384bf39b4b5e037085
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 0a186c63cf695184b74780eeb6ab16b85c8aef5e
+ms.sourcegitcommit: d3658667e768d7516cbf4461ec47bf24c8fcb7e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99878504"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112924972"
 ---
-# <a name="solutions-and-projects-in-visual-studio"></a>Решения и проекты в Visual Studio
+# <a name="what-are-solutions-and-projects-in-visual-studio"></a>Что такое решения и проекты в Visual Studio?
 
-В этой статье описываются понятия *проекта* и *решения* в Visual Studio. В ней также кратко рассматривается создание проекта и окно инструментов "Обозреватель решений".
+В этой статье вы узнаете, что такое *проект* и *решение* в Visual Studio. В ней также кратко рассматривается создание проекта и окно инструментов "Обозреватель решений".
 
 > [!NOTE]
 > Этот раздел относится к Visual Studio в Windows. Информацию о Visual Studio для Mac см. в статье [Проекты и решения в Visual Studio для Mac](/visualstudio/mac/projects-and-solutions).
@@ -92,9 +89,9 @@ Visual Studio использует [MSBuild](../msbuild/msbuild.md) для со�
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-![Снимок экрана: Обозреватель решений с двумя проектами в Visual Studio 2019.](../ide/media/solution-explorer.png)
+![Снимок экрана: Обозреватель решений с двумя проектами в Visual Studio.](../ide/media/solution-explorer.png)
 
 На панели инструментов в верхней части **Обозревателя решений** есть кнопки для переключения из представления решения в представление папки, фильтрации ожидающих изменений, отображения всех файлов, свертывания всех узлов, просмотра страниц [свойств](managing-project-and-solution-properties.md), просмотра кода в [редакторе кода](writing-code-in-the-code-and-text-editor.md) и т. д.
 

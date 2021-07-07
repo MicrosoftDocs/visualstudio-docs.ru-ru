@@ -1,7 +1,7 @@
 ---
 title: Присоединение к выполняемым процессам с использованием отладчика
 description: Узнайте, как подключить отладчик Visual Studio к запущенному процессу на локальном или удаленном компьютере.
-ms.custom: SEO-VS-2020, seodec18
+ms.custom: SEO-VS-2020
 ms.date: 06/12/2020
 ms.topic: conceptual
 f1_keywords:
@@ -29,12 +29,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a76aff1c17988f61b5f89e2e8d20ef7129efcae
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 9774878b8d8862fca0b8b35de924b7bc1ab45656
+ms.sourcegitcommit: 8fb1500acb7e6314fbb6b78eada78ef5d61d39bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99866012"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113280509"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Присоединение к выполняемым процессам с использованием отладчика Visual Studio
 
@@ -159,6 +159,12 @@ ms.locfileid: "99866012"
 В некоторых случаях при отладке в сеансе удаленного рабочего стола (службы терминалов) в списке **Доступные процессы** не отображаются все доступные процессы. При работе с Visual Studio в качестве пользователя с ограниченным доступом в списке **Доступные процессы** не будут отображаться процессы, запущенные в сеансе 0, который используется для служб и других серверных процессов, включая *w3wp.exe*. Можно устранить эту проблему, запустив [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] под учетной записью администратора или запустив [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] с консоли сервера вместо сеанса служб терминалов.
 
 Если ни один из этих обходных путей использовать невозможно, третий вариант — присоединение к процессу путем запуска `vsjitdebugger.exe -p <ProcessId>` из командной строки Windows. Можно определить идентификатор процесса с помощью *tlist.exe*. Чтобы получить файл *tlist.exe*, скачайте и установите средства отладки для Windows, которые доступны на странице [скачиваемых файлов WDK и WinDbg](/windows-hardware/drivers/download-the-wdk).
+
+## <a name="attach-to-a-net-core-process-running-on-azure-app-service-windows"></a>Подключение к процессу .NET Core, выполняемому в Службе приложений Azure (Windows)
+
+Если вы выполняете публикацию в Службе приложений Azure (Windows), параметр **Подключить отладчик** можно найти в меню **...** в разделе **Размещение**. Visual Studio пытается подключить удаленный отладчик к экземпляру Службы приложений Azure (Windows), в котором публикуется профиль.
+
+:::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Снимок экрана: параметр &quot;Подключить отладчик&quot; на странице сводки публикации.":::
 
 ## <a name="attach-to-a-net-core-process-running-on-linux-using-ssh"></a>Подключение к процессу .NET Core под управлением Linux с помощью SSH
 

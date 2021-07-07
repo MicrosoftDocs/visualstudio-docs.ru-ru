@@ -1,7 +1,7 @@
 ---
 title: Учебник. Начало работы с Visual Basic
 description: Ознакомьтесь с пошаговыми инструкциями по созданию простого консольного приложения на Visual Basic в Visual Studio.
-ms.custom: seodec18, get-started
+ms.custom: vs-acquisition,  get-started
 ms.date: 02/10/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -14,12 +14,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 075c84433e5784106bbe1f9c6ac6f58d9613bfdb
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 8d34fef6251da95b6c3ac99430b87d853d4b5ba7
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107295498"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112390715"
 ---
 # <a name="tutorial-get-started-with-visual-basic-in-visual-studio"></a>Руководство. Начало работы с Visual Basic в Visual Studio
 
@@ -34,6 +34,12 @@ ms.locfileid: "107295498"
 ::: moniker range="vs-2019"
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+Если вы еще не установили предварительную версию Visual Studio 2022, перейдите на страницу [загрузок предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), чтобы установить ее бесплатно.
 
 ::: moniker-end
 
@@ -73,12 +79,12 @@ ms.locfileid: "107295498"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 > [!NOTE]
 > На некоторых снимках экрана в этом учебнике используется темная тема. Если вы не используете темную тему, но хотите переключиться на нее, см. страницу [Персонализация интегрированной среды разработки и редактора Visual Studio](../../ide/quickstart-personalize-the-ide.md).
 
-1. Запустите Visual Studio 2019.
+1. Запустите Visual Studio.
 
 1. На начальном экране выберите **Создать проект**.
 
@@ -146,7 +152,7 @@ ms.locfileid: "107295498"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. В проекте *WhatIsYourName* введите следующий код Visual Basic между первой открывающей скобкой после строки `Sub Main(args As String())` и строкой `End Sub`:
 
@@ -208,7 +214,7 @@ ms.locfileid: "107295498"
 
 ::: moniker-end 
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. На начальном экране выберите **Создать проект**. 
 

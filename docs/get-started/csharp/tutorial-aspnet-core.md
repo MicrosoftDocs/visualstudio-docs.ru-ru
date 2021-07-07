@@ -2,8 +2,8 @@
 title: Учебник. Начало работы с C# и ASP.NET Core
 titleSuffix: ''
 description: Пошаговые инструкции по созданию веб-приложения ASP.NET Core в Visual Studio на C#.
-ms.custom: seodec18, get-started
-ms.date: 02/12/2021
+ms.custom: vs-acquisition, get-started
+ms.date: 06/12/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -16,40 +16,41 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: a86b7273a123a5c9ed0519caf2166127c090d16f
-ms.sourcegitcommit: 6d88913a8b5a9e5eda01d3f95205b4d138f440f8
+ms.openlocfilehash: 25840b820a92925c3d7434d0c76b0138b533b2dc
+ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107296928"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112388117"
 ---
 # <a name="tutorial-get-started-with-c-and-aspnet-core-in-visual-studio"></a>Учебник. Начало работы с C# и ASP.NET Core в Visual Studio
 
 В этом руководстве по разработке на языке C# с помощью ASP.NET Core в Visual Studio вы создадите веб-приложение ASP.NET Core на C#, внесете в него изменения, изучите некоторые возможности интегрированной среды разработки, после чего запустите приложение.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="prerequisites"></a>Предварительные требования
 
-### <a name="install-visual-studio"></a>Установка Visual Studio
+1. Установка Visual Studio
+   ::: moniker range="vs-2017"
+   
+   Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download), если еще не сделали этого.
+   
+   ::: moniker-end
+   
+   ::: moniker range="vs-2019"
+   
+   Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+   
+   ::: moniker-end
 
-::: moniker range="vs-2017"
+   ::: moniker range="vs-2022"
 
-Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download), если еще не сделали этого.
+   Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="vs-2019"
+1. Обновите Visual Studio: если вы уже установили Visual Studio, убедитесь, что используется самый последний выпуск среды. Дополнительные сведения об обновлении установки см. на странице [Обновление до последнего выпуска Visual Studio](../../install/update-visual-studio.md).
 
-Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
-
-::: moniker-end
-
-### <a name="update-visual-studio"></a>Обновление Visual Studio
-
-Если вы уже установили Visual Studio, убедитесь, что используется самый последний выпуск среды. Дополнительные сведения об обновлении установки см. на странице [Обновление до последнего выпуска Visual Studio](../../install/update-visual-studio.md).
-
-### <a name="choose-your-theme-optional"></a>Выбор темы (необязательно)
-
-В этом руководстве содержатся снимки экрана, использующие темную тему. Если вы не используете темную тему, но хотите переключиться на нее, см. страницу [Персонализация интегрированной среды разработки и редактора Visual Studio](../../ide/quickstart-personalize-the-ide.md).
+1. Выберите тему (необязательно): в этом учебнике содержатся снимки экрана, в которых используется темная тема. Вы можете [персонализировать страницу интегрированной среды разработки и редактора Visual Studio](../../ide/quickstart-personalize-the-ide.md), чтобы узнать, как это сделать.
 
 ## <a name="create-a-project"></a>Создание проекта
 
@@ -102,7 +103,7 @@ ms.locfileid: "107296928"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. На начальном экране выберите **Создать проект**.
 

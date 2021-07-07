@@ -2,7 +2,7 @@
 title: Новые возможности Visual Studio 2019
 titleSuffix: ''
 description: Сведения о новых возможностях Visual Studio 2019.
-ms.date: 03/19/2021
+ms.date: 06/17/2021
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,16 +15,16 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 9e4c432afb1a4341dbe30f023d95bfccb4689094
-ms.sourcegitcommit: 5fb684ff8729eb118aa91ce9f049c79eeb9747b1
+ms.openlocfilehash: d34c3a3b4d808b1f4e24051763f1c0876a175a3a
+ms.sourcegitcommit: a9526ab1556c47570286c7a7d3314af67fd1dcf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "107913102"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "112365473"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Новые возможности Visual Studio 2019
 
-**Обновлено для [выпуска 16.9](/visualstudio/releases/2019/release-notes/)**
+**Обновлено для выпуска 16.10.** См. [полные заметки о выпуске](/visualstudio/releases/2019/release-notes/) | Просмотр [стратегии развития продукта](/visualstudio/productinfo/vs-roadmap)
 
 >[!div class="button"]
 >[Скачивание Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -220,17 +220,19 @@ ms.locfileid: "107913102"
 
 ## <a name="whats-next"></a>Дальнейшие действия
 
-Мы часто добавляем в Visual Studio 2019 новые функции, облегчающие разработку. Узнать подробнее о последних новшествах можно из [блога о Visual Studio](https://devblogs.microsoft.com/visualstudio/). Ретроспективный список нововведений, появившихся в предварительных версиях, можно посмотреть в разделе [Заметки о предварительных выпусках](/visualstudio/releases/2019/release-notes-preview/). Список планируемых к выпуску возможностей см. в разделе [Стратегия развития Visual Studio](/visualstudio/productinfo/vs-roadmap).
+Мы часто добавляем в Visual Studio новые функции, облегчающие разработку. Узнать подробнее о последних новшествах можно из [блога о Visual Studio](https://devblogs.microsoft.com/visualstudio/). Ретроспективный список нововведений, появившихся в предварительных версиях, можно посмотреть в разделе [Заметки о предварительных выпусках](/visualstudio/releases/2019/release-notes-preview/). Список планируемых к выпуску возможностей см. в разделе [Стратегия развития Visual Studio](/visualstudio/productinfo/vs-roadmap).
 
-В то же время, вот новая функция, которая сейчас находится в работе.
+Между тем, вот над чем идет работа сейчас:
 
 - **Улучшенный интерфейс Git в Visual Studio 2019 (предварительная версия)**
 
-   Хотя новый интерфейс управления версиями Git теперь включен по умолчанию в Visual Studio 2019 [версии 16.8](/visualstudio/releases/2019/release-notes/), мы продолжаем добавлять новые функции для его совершенствования в последнем выпуске предварительной версии.
+   Несмотря на то что средство управления версиями Git используется по умолчанию в Visual Studio 2019 [версии 16.8](/visualstudio/releases/2019/release-notes-history/) и более поздних версиях, мы продолжаем добавлять функции для улучшения работы в новейшей предварительной версии Visual Studio 2019, [версии 16.11](/visualstudio/releases/2019/release-notes-preview/).
 
-   Дополнительные сведения см. в статье [Новый интерфейс в Visual Studio](../version-control/git-with-visual-studio.md).
+   Дополнительные сведения см. на странице [Управление версиями в Visual Studio](/visualstudio/version-control/).
 
-Дополнительные сведения о предварительном выпуске&mdash; и ссылку для скачивания, если вы хотите испытать его&mdash;, можно найти на странице **[Visual Studio Preview](https://aka.ms/vspreview/)** .
+- **Уже вышел первый общедоступный выпуск Visual Studio 2022 (предварительная версия)**
+
+    Уже вышла общедоступная предварительная версия нашего нового основного выпуска, [Visual Studio 2022](/visualstudio/releases/2022/release-notes-preview/). Новая версия быстрее, удобнее в работе и проще. Кроме того, впервые Visual Studio стала 64-битной. Ссылку для скачивания и дополнительные сведения см. в **[Доступна предварительная версия 1 Visual Studio 2022!](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)** .
 
 ## <a name="give-us-feedback"></a>Обратная связь
 

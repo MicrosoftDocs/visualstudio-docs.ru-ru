@@ -3,35 +3,39 @@ title: Установка Visual Studio
 titleSuffix: ''
 description: Сведения о поэтапной установке среды Visual Studio.
 ms.date: 12/13/2019
-ms.custom: contperf-fy21q1
+ms.custom: vs-acquisition
 ms.topic: conceptual
-f1_keywords:
-- vs.about
 helpviewer_keywords:
 - install Visual Studio
 - dev15
 - set up Visual Studio
 - Visual Studio setup
 - Visual Studio installer
-author: ornellaalt
-ms.author: ornella
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 97e354dfb1208ec7306cb797049cd8ca82d0d8db
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 7bf44f9333a65ea821c0cd9936ee1f3fa051d4fe
+ms.sourcegitcommit: d3658667e768d7516cbf4461ec47bf24c8fcb7e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99852129"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112925089"
 ---
 # <a name="install-visual-studio"></a>Установка Visual Studio
 
 ::: moniker range="vs-2019"
 
 Вас приветствует Visual Studio 2019! В этой версии можно легко выбрать и установить только необходимые компоненты. Поскольку она занимает меньше памяти, она быстро устанавливается и при установке меньше влияет на систему.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Вас приветствует Visual Studio 2022! В этой версии можно легко выбрать и установить только необходимые компоненты. Поскольку она занимает меньше памяти, она быстро устанавливается и при установке меньше влияет на систему.
 
 ::: moniker-end
 
@@ -47,6 +51,12 @@ ms.locfileid: "99852129"
 ::: moniker range="vs-2019"
 
 Хотите ознакомиться с другими новыми возможностями этой версии? Обратитесь к [заметкам о выпуске](/visualstudio/releases/2019/release-notes/).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Хотите ознакомиться с другими новыми возможностями этой версии? Обратитесь к [заметкам о выпуске](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 
@@ -86,6 +96,18 @@ ms.locfileid: "99852129"
 
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+1. Проверьте [требования к системе](/visualstudio/releases/2022/system-requirements). Так вы узнаете, может ли ваш компьютер поддерживать Visual Studio 2022.
+
+1. Примените актуальные обновления Windows. Эти обновления гарантируют, что на компьютере установлены последние обновления для системы безопасности и необходимые системные компоненты для Visual Studio.
+
+1. Перезагрузите систему. Перезагрузка гарантирует, что ожидающие установки или обновления компоненты не будут препятствовать установке Visual Studio.
+
+1. Освободите место. Удалите ненужные файлы и приложения с системного диска. Например, запустите приложение очистки диска.
+
+::: moniker-end
+
 ::: moniker range="vs-2017"
 
 Сведения об использовании предыдущих версий Visual Studio параллельно с Visual Studio 2017 см. в разделе [Совместимость с предыдущими версиями](/visualstudio/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
@@ -95,6 +117,12 @@ ms.locfileid: "99852129"
 ::: moniker range="vs-2019"
 
 Сведения об использовании предыдущих версий Visual Studio параллельно с Visual Studio 2019 см. в разделе [Целевая платформа и совместимость для Visual Studio 2019](/visualstudio/releases/2019/compatibility/).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Сведения об использовании предыдущих версий Visual Studio параллельно с Visual Studio 2022 см. в разделе [Целевая платформа и совместимость для Visual Studio 2022](/visualstudio/releases/2019/compatibility/).
 
 ::: moniker-end
 
@@ -108,7 +136,7 @@ ms.locfileid: "99852129"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Для этого нажмите кнопку ниже, выберите нужный выпуск Visual Studio, щелкните **Сохранить**, а затем **Открыть папку**.
 
@@ -135,13 +163,13 @@ ms.locfileid: "99852129"
 
 ## <a name="step-4---choose-workloads"></a>Шаг 4. Выбор рабочих нагрузок
 
-Когда завершится установка программы установки, вы можете с ее помощью выбрать нужные наборы функций (рабочих нагрузок). Ниже описывается порядок действий.
+Когда завершится установка программы установки, вы можете с ее помощью выбрать нужные наборы функций (рабочих нагрузок). Вот как это сделать.
 
  ::: moniker range="vs-2017"
 
 1. Найдите нужную рабочую нагрузку в **Visual Studio Installer**.
 
-   ![Visual Studio 2017: Установка рабочей нагрузки](../install/media/vs-installer-installing-workloads.png)
+   ![Visual Studio 2017: установка рабочей нагрузки](../install/media/vs-installer-installing-workloads.png)
 
      Например, выберите рабочую нагрузку "Разработка классических приложений .NET". В нее входит основной редактор кода по умолчанию, который предоставляет базовую поддержку редактирования кода для более чем 20 языков, возможность открывать и изменять код в любой папке без наличия проекта и интегрированное управление исходным кодом.
 
@@ -151,7 +179,7 @@ ms.locfileid: "99852129"
 
  ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Найдите нужную рабочую нагрузку в **Visual Studio Installer**.
 
@@ -178,7 +206,7 @@ ms.locfileid: "99852129"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
   ![Visual Studio 2019 — установка отдельных компонентов](media/vs-2019/vs-installer-individual-components.png "Установка отдельных компонентов Visual Studio")
 
@@ -194,7 +222,7 @@ ms.locfileid: "99852129"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
   ![Visual Studio 2019 — установка языковых пакетов](media/vs-2019/vs-installer-language-packs.png "Установка языковых пакетов Visual Studio")
 
@@ -214,7 +242,7 @@ ms.locfileid: "99852129"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Вы можете уменьшить место, занимаемое установкой Visual Studio на системном диске. Вы можете переместить кэш загрузки, общие компоненты, пакеты SDK и средства на другие диски и оставить Visual Studio на самом быстром диске.
 
@@ -237,13 +265,13 @@ ms.locfileid: "99852129"
 
 3. Выберите тип проекта.
 
-   Например, чтобы [создать приложение C++](/cpp/get-started/tutorial-console-cpp), нажмите **Установленные**, разверните узел **Visual C++** , а затем выберите тип проекта C++, который нужно создать.
+   Например, чтобы [создать приложение C++](/cpp/get-started/tutorial-console-cpp), нажмите **Установленные**, разверните узел **Visual C++**, а затем выберите тип проекта C++, который нужно создать.
 
-   Чтобы [создать приложение C#](../get-started/csharp/tutorial-console.md), нажмите **Установленные**, разверните узел **Visual C#** , а затем выберите тип проекта C#, который нужно создать.
+   Чтобы [создать приложение C#](../get-started/csharp/tutorial-console.md), нажмите **Установленные**, разверните узел **Visual C#**, а затем выберите тип проекта C#, который нужно создать.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Когда установка Visual Studio завершится, нажмите кнопку **Запустить**, чтобы приступить к разработке в Visual Studio.
 

@@ -5,15 +5,16 @@ ms.date: 08/04/2020
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.topic: conceptual
 ms.workload:
 - azure
-ms.openlocfilehash: 9229c3717b686a3f08ef49e7912ac0515864d793
-ms.sourcegitcommit: 8b75524dc544e34d09ef428c3ebbc9b09f14982d
+ms.openlocfilehash: 00eb3a7cff3ffeaac783b929a000d9258fae7e63
+ms.sourcegitcommit: 4b2b6068846425f6964c1fd867370863fc4993ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "113222816"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "112042952"
 ---
 # <a name="build-and-run-the-todo-sample-app"></a>Сборка и запуск примера приложения Todo
 

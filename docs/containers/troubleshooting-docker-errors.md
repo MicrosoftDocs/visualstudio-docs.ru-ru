@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.workload: multiple
 ms.date: 01/27/2020
 ms.author: ghogen
-ms.openlocfilehash: f16ecd899bc1dddd7383ef1a815ed6197b799a19
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 5f48b5c06e91b9c05e6edc7e2a1738aeb677a7ba
+ms.sourcegitcommit: 69456d802203d21dabc3ae8662547a3241c24f47
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99859532"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "110235915"
 ---
 # <a name="troubleshoot-visual-studio-development-with-docker"></a>Устранение неполадок при разработке с Docker в Visual Studio
 
@@ -29,7 +29,7 @@ ms.locfileid: "99859532"
 1. Щелкните правой кнопкой мыши **Docker for Windows** (Docker для Windows) в области уведомлений, а затем выберите **Параметры**.
 1. Выберите **Ресурсы** > **Общий доступ к файлам** и предоставьте общий доступ к нужной папке. Вы также можете предоставить доступ ко всему системному диску, однако мы не рекомендуем делать это.
 
-    ![общие диски](media/troubleshooting-docker-errors/docker-settings-image.png)
+    :::image type="content" source="media//troubleshooting-docker-errors/docker-settings-image.png" alt-text="Общие диски":::
 
 > [!TIP]
 > В версиях позднее Visual Studio 2017 15.6 выдается предупреждение, если **Общие диски** не настроены.
@@ -86,7 +86,7 @@ net localgroup docker-users DOMAIN\username /add
     "graph": "D:\\mypath\\images"
 ```
 
-![Снимок экрана: общий доступ к файлам в Docker](media/troubleshooting-docker-errors/docker-daemon-settings.png)
+:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Снимок экрана: общий доступ к файлам в Docker":::
 
 Нажмите **Применить и перезагрузить**. Эти действия изменяют файл конфигурации: *%ProgramData%\docker\config\daemon.json*. Ранее созданные образы не перемещаются.
 
@@ -94,7 +94,7 @@ net localgroup docker-users DOMAIN\username /add
 
 При добавлении в проект поддержки Docker выберите контейнер Windows или Linux. Если узел сервера Docker не настроен на запуск того же типа контейнера, что и целевой объект проекта, то, скорее всего, появится сообщение об ошибке, аналогичное приведенному ниже:
 
-![Снимок экрана: несоответствие узла Docker и проекта](media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png)
+:::image type="content" source="media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png" alt-text="Снимок экрана: несоответствие узла Docker и проекта":::
 
 Для разрешения этой проблемы:
 
