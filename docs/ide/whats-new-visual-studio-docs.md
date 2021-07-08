@@ -1,7 +1,7 @@
 ---
-title: Документация Visual Studio. Обновления за июнь 2021 г.
+title: Документация Visual Studio. Обновления за июнь 2021 г.
 titleSuffix: ''
-description: Обновления документации Visual Studio за июнь 2021 г.
+description: Обновления документации Visual Studio за июнь 2021 г.
 ms.date: 06/30/2021
 helpviewer_keywords:
 - Visual Studio, what's new, docs
@@ -22,62 +22,62 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/03/2021
 ms.locfileid: "113280469"
 ---
-# <a name="visual-studio-docs-whats-new-for-june-2021"></a>Документация Visual Studio. Обновления за июнь 2021 г.
+# <a name="visual-studio-docs-whats-new-for-june-2021"></a>Документация Visual Studio. Обновления за июнь 2021 г.
 
-Узнайте, что изменилось в документации Visual Studio за июнь 2021 г. В этой статье перечислены основные изменения, внесенные в документацию в течение этого периода. Сведения об изменениях за предыдущие месяцы см. в [журнале изменений](#whats-new-history).
+Узнайте, что изменилось в документации Visual Studio за июнь 2021 г. В этой статье перечислены основные изменения, внесенные в документацию в течение этого периода. Сведения об изменениях за предыдущие месяцы см. в [журнале изменений](#whats-new-history).
 
 ## <a name="azure"></a>Azure
 
 **Обновленные статьи**
 
-- [Управление ресурсами, связанными с учетными записями Azure, в Visual Studio Cloud Explorer](../azure/vs-azure-tools-resources-managing-with-cloud-explorer.md) — узел Azure обозревателя сервера и Cloud Explorer объявлен нерекомендуемым
-- [Доступ к виртуальным машинам Azure из обозревателя сервера](../azure/vs-azure-tools-virtual-machines-access-from-server-explorer.md)— узел Azure обозревателя сервера и Cloud Explorer объявлен нерекомендуемым
+- [Управление ресурсами, связанными с учетными записями Azure, в Visual Studio Cloud Explorer](../azure/vs-azure-tools-resources-managing-with-cloud-explorer.md) — узел Azure обозревателя сервера и Cloud Explorer объявлен нерекомендуемым
+- [Доступ к виртуальным машинам Azure из обозревателя сервера](../azure/vs-azure-tools-virtual-machines-access-from-server-explorer.md) — узел Azure обозревателя сервера и Cloud Explorer объявлен нерекомендуемым
 
 ## <a name="containers"></a>Контейнеры
 
 **Обновленные статьи**
 
-- [Краткое руководство. Использование Docker с одностраничным приложением React в Visual Studio](../containers/container-tools-react.md) — удалены ссылки на EOL Windows 10, версия 1903
+- [Краткое руководство. Использование Docker с одностраничным приложением React в Visual Studio](../containers/container-tools-react.md) — удалены ссылки на EOL Windows 10, версия 1903
 
 ## <a name="data-tools"></a>Data Tools
 
 **Обновленные статьи**
 
-- [Создание формы Windows Forms для поиска данных](../data-tools/create-a-windows-form-to-search-data.md) — Windows Forms Data Tools: обновление и добавление примечания о .NET Core
+- [Создание формы Windows Forms для поиска данных](../data-tools/create-a-windows-form-to-search-data.md) — Windows Forms Data Tools: обновление и добавление примечания о .NET Core
 
 ## <a name="ide"></a>IDE
 
 **Новые статьи**
 
-- [Подключенные возможности в Visual Studio](./reference/connected-experiences.md) — добавлена новая статья
+- [Подключенные возможности в Visual Studio](./reference/connected-experiences.md) — добавлена новая статья
 - [Использование Обозревателя решений](./use-solution-explorer.md) — добавлена новая статья
 - [Удаление неиспользуемых ссылок](./reference/remove-unused-references.md) — добавлена новая статья
 
 **Обновленные статьи**
 
-- ["Параметры", "Текстовый редактор", C#, "Дополнительно"](./reference/options-text-editor-csharp-advanced.md) — добавлена документация для некоторых новых функций повышения производительности .NET 16.10
-- [Краткое руководство. Создание первого приложения Node.js в Visual Studio](./quickstart-nodejs.md) — статья обновлена
+- ["Параметры", "Текстовый редактор", C#, "Дополнительно"](./reference/options-text-editor-csharp-advanced.md) — добавлена документация для некоторых новых функций повышения производительности .NET 16.10
+- [Краткое руководство. Создание первого приложения Node.js в Visual Studio](./quickstart-nodejs.md) — статья обновлена
 
 ## <a name="install"></a>Установка
 
 **Обновленные статьи**
 
-- [Установка Build Tools в контейнер](../install/build-tools-container.md) — обновлен способ установки Build Tools VS
+- [Установка Build Tools в контейнер](../install/build-tools-container.md) — обновлен способ установки Build Tools VS
 
 ## <a name="modeling"></a>Моделирование
 
 **Новые статьи**
 
-- [Установка карты кода и динамической проверки зависимостей](../modeling/install-architecture-tools.md) — написана новая статья
+- [Установка карты кода и динамической проверки зависимостей](../modeling/install-architecture-tools.md) — новая статья
 
 ## <a name="msbuild"></a>MSBuild
 
 **Новые статьи**
 
-- [MSB3270: обнаружено несоответствие между архитектурой процессора проекта, для которого строится "Arch", и архитектурой процессора ссылки "Reference", "Arch"](../msbuild/errors/msb3270.md) — написана новая статья
-- [MSB3577: два имени выходных файлов разрешаются в один и тот же выходной путь: "путь"](../msbuild/errors/msb3577.md) — написана новая статья
-- [MSB4181: задача "Task" вернула значение false, но ошибка не регистрируется](../msbuild/errors/msb4181.md) — написана новая статья
-- [MSB6003: не удалось запустить исполняемый файл "исполняемый файл" указанной задачи](../msbuild/errors/msb6003.md) — написана новая статья
+- [MSB3270: обнаружено несоответствие между архитектурой процессора проекта, для которого строится Arch, и архитектурой процессора ссылки Reference, Arch](../msbuild/errors/msb3270.md) — новая статья
+- [MSB3577: два имени выходных файлов разрешаются в один и тот же выходной путь: "путь"](../msbuild/errors/msb3577.md) — новая статья
+- [MSB4181: задача Task вернула значение false, но ошибка не регистрируется](../msbuild/errors/msb4181.md) — новая статья
+- [MSB6003: не удалось запустить исполняемый файл "исполняемый файл" указанной задачи](../msbuild/errors/msb6003.md) — новая статья
 
 **Обновленные статьи**
 
@@ -88,7 +88,7 @@ ms.locfileid: "113280469"
 
 **Обновленные статьи**
 
-- [Проекты Python в Visual Studio](../python/managing-python-projects-in-visual-studio.md) — разрешенные проблемы GitHub в содержимом Python
+- [Проекты Python в Visual Studio](../python/managing-python-projects-in-visual-studio.md) — разрешенные проблемы GitHub в содержимом Python
 - [Работа с Интерактивным окном Python](../python/python-interactive-repl-in-visual-studio.md) — разрешенные проблемы GitHub в содержимом Python
 - [Шаблоны проектов веб-приложений Python](../python/python-web-application-project-templates.md) — разрешенные проблемы GitHub в содержимом Python
 
@@ -104,13 +104,13 @@ ms.locfileid: "113280469"
 
 **Обновленные статьи**
 
-- [Сценарии установки набора средств Visual Studio для среды выполнения Office](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md) — документация обновлена, добавлены новые версии Office
+- [Сценарии установки набора средств Visual Studio для среды выполнения Office](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md) — документация обновлена, добавлены новые версии Office
 
 ## <a name="xaml-tools"></a>Средства XAML
 
 **Новые статьи**
 
-- [Использование данных времени разработки в Конструкторе XAML в Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) — написана новая статья
+- [Использование данных времени разработки в Конструкторе XAML в Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) — новая статья
 
 ## <a name="community-contributors-in-june"></a>Участники сообщества в июне
 
@@ -127,7 +127,7 @@ ms.locfileid: "113280469"
 
 ## <a name="whats-new-history"></a>Журнал изменений
 
-В следующих разделах приведены изменения в документации Visual Studio за предыдущие три месяца.
+В следующих разделах приведены изменения в документации Visual Studio за предыдущие три месяца.
 
 * [Май 2021 г.](#may-2021)
 * [Апрель 2021 г.](#april-2021)
@@ -152,14 +152,14 @@ ms.locfileid: "113280469"
 
 **Новые статьи**
 
-- [Управление профилями запуска для Docker Compose (предварительная версия)](../containers/launch-profiles.md) — параметры запуска инструментов для работы с контейнерами
+- [Управление профилями запуска для Docker Compose (предварительная версия)](../containers/launch-profiles.md) — параметры запуска инструментов для работы с контейнерами
 
 #### <a name="debugger"></a>Отладчик
 
 **Новые статьи**
 
-- [Вопросы и ответы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.yml) — FAQ.md преобразован в yml
-- [Вопросы и ответы. Поиск нужной функции отладки в Visual Studio](../debugger/find-your-debugging-task.yml) — FAQ.md преобразован в yml
+- [Вопросы и ответы по отладке моментальных снимков в Visual Studio](../debugger/debug-live-azure-apps-faq.yml) — FAQ.md преобразован в yml
+- [Вопросы и ответы. Поиск нужной функции отладки в Visual Studio](../debugger/find-your-debugging-task.yml) — FAQ.md преобразован в yml
 
 **Обновленные статьи**
 
@@ -170,7 +170,7 @@ ms.locfileid: "113280469"
 **Обновленные статьи**
 
 - [/ResetSettings (devenv.exe)](./reference/resetsettings-devenv-exe.md) — дополнительные исправления
-- [Краткое руководство. Создание первого приложения Node.js в Visual Studio](./quickstart-nodejs.md) — предлагаемые исправления
+- [Краткое руководство. Создание первого приложения Node.js в Visual Studio](./quickstart-nodejs.md) — предлагаемые исправления
 
 #### <a name="install"></a>Установка
 
@@ -178,21 +178,21 @@ ms.locfileid: "113280469"
 
 - [Обновление Visual Studio с использованием минимального автономного макета](../install/update-minimal-layout.md)
   - Добавлено несколько примеров продуктов в документацию MinLayout
-  - Удаление параметра "--productId" отражено в документации VS 2017 и всех примерах
-  - Удаление параметра "--productId" отражено в документации MinimalLayout
-- [Изменение рабочих нагрузок, компонентов и языковых пакетов Visual Studio](../install/modify-visual-studio.md) — упрощены инструкции для повышения производительности
+  - Удаление параметра --productId отражено в документации VS 2017 и всех примерах
+  - Удаление параметра --productId отражено в документации MinimalLayout
+- [Изменение рабочих нагрузок, компонентов и языковых пакетов Visual Studio](../install/modify-visual-studio.md) — упрощены инструкции для повышения производительности
 
 #### <a name="msbuild"></a>MSBuild
 
 **Новые статьи**
 
-- [MSB8006: недопустимая платформа для проекта "Project-Name. vcxproj".](../msbuild/errors/msb8006.md) — обновлено содержимое F1 MSB8xxx
-- [MSB8013: этот проект не содержит заданное сочетание конфигурации и платформы.](../msbuild/errors/msb8013.md) — обновлено содержимое F1 MSB8xxx
-- [MSB8027: не менее двух файлов с именем "filename" будут создавать выходные данные в одном и том же расположении.](../msbuild/errors/msb8027.md) — обновлено содержимое F1 MSB8xxx
-- [MSB8037: не найдена версия Windows SDK для приложений C++ для настольных систем.](../msbuild/errors/msb8037.md) — обновлено содержимое F1 MSB8xxx
-- [MSB8042: для этого проекта требуются библиотеки ATL или MFC с устранением рисков Spectre.](../msbuild/errors/msb8042.md) — обновлено содержимое F1 MSB8xxx
-- [MSB3721: работа команды "command" завершена с кодом "error-code"](../msbuild/errors/msb3721.md) — страницы ошибок MSBuild
-- [MSB3821: не удалось обработать файл "path", так как он находится в Интернете или ограниченной зоне либо имеет веб-метку](../msbuild/errors/msb3821.md) — страницы ошибок MSBuild
+- [MSB8006: недопустимая платформа для проекта project-name.vcxproj](../msbuild/errors/msb8006.md) — обновлено содержимое F1 MSB8xxx
+- [MSB8013: этот проект не содержит заданное сочетание конфигурации и платформы](../msbuild/errors/msb8013.md) — обновлено содержимое F1 MSB8xxx
+- [MSB8027: не менее двух файлов с именем filename будут создавать выходные данные в одном и том же расположении](../msbuild/errors/msb8027.md) — обновлено содержимое F1 MSB8xxx
+- [MSB8037: не найдена версия Windows SDK для приложений C++ для настольных систем](../msbuild/errors/msb8037.md) — обновлено содержимое F1 MSB8xxx
+- [MSB8042: для этого проекта требуются библиотеки ATL или MFC с устранением рисков Spectre](../msbuild/errors/msb8042.md) — обновлено содержимое F1 MSB8xxx
+- [MSB3721: работа команды command завершена с кодом error-code](../msbuild/errors/msb3721.md) — страницы ошибок MSBuild
+- [MSB3821: не удалось обработать файл path, так как он находится в Интернете или ограниченной зоне либо имеет веб-метку](../msbuild/errors/msb3821.md) — страницы ошибок MSBuild
 
 **Обновленные статьи**
 
@@ -203,20 +203,20 @@ ms.locfileid: "113280469"
 
 **Обновленные статьи**
 
-- [Шаг2. Создание приложения Django с представлениями и шаблонами страниц](../python/learn-django-in-visual-studio-step-02-create-an-app.md) — разделены сведения для Visual Studio 2017 и 2019
+- [Шаг2. Создание приложения Django с представлениями и шаблонами страниц](../python/learn-django-in-visual-studio-step-02-create-an-app.md) — разделены сведения для Visual Studio 2017 и 2019
 - [Создание расширения C++ для Python](../python/working-with-c-cpp-python-in-visual-studio.md) — статья пересмотрена и обновлена
 
 #### <a name="test"></a>Тест
 
 **Новые статьи**
 
-- [Вопросы и ответы по Live Unit Testing](../test/live-unit-testing-faq.yml) — FAQ.md преобразован в yml
+- [Вопросы и ответы по Live Unit Testing](../test/live-unit-testing-faq.yml) — FAQ.md преобразован в yml
 
 #### <a name="xaml-tools"></a>Средства XAML
 
 **Новые статьи**
 
-- [Использование демонстрационных данных времени разработки в Конструкторе XAML в Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) — добавлена документация по демонстрационным данным времени разработки XAML
+- [Использование демонстрационных данных времени разработки в Конструкторе XAML в Visual Studio](../xaml-tools/xaml-design-time-sample-data.md) — добавлена документация по демонстрационным данным времени разработки XAML
 
 ### <a name="april-2021"></a>Апрель 2021 г.
 

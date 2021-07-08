@@ -160,11 +160,11 @@ ms.locfileid: "113280509"
 
 Если ни один из этих обходных путей использовать невозможно, третий вариант — присоединение к процессу путем запуска `vsjitdebugger.exe -p <ProcessId>` из командной строки Windows. Можно определить идентификатор процесса с помощью *tlist.exe*. Чтобы получить файл *tlist.exe*, скачайте и установите средства отладки для Windows, которые доступны на странице [скачиваемых файлов WDK и WinDbg](/windows-hardware/drivers/download-the-wdk).
 
-## <a name="attach-to-a-net-core-process-running-on-azure-app-service-windows"></a>Подключение к процессу .NET Core, выполняемому в Службе приложений Azure (Windows)
+## <a name="attach-to-a-net-core-process-running-on-azure-app-service-windows"></a>Подключение к процессу .NET Core, выполняемому в Службе приложений Azure (Windows)
 
-Если вы выполняете публикацию в Службе приложений Azure (Windows), параметр **Подключить отладчик** можно найти в меню **...** в разделе **Размещение**. Visual Studio пытается подключить удаленный отладчик к экземпляру Службы приложений Azure (Windows), в котором публикуется профиль.
+Если вы выполняете публикацию в Службе приложений Azure (Windows), параметр **Подключить отладчик** можно найти в меню **...** в разделе **Размещение**. Visual Studio пытается подключить удаленный отладчик к экземпляру Службы приложений Azure (Windows), в котором публикуется профиль.
 
-:::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Снимок экрана: параметр &quot;Подключить отладчик&quot; на странице сводки публикации.":::
+:::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Снимок экрана: параметр &quot;Подключить отладчик&quot; на странице сводки публикации":::
 
 ## <a name="attach-to-a-net-core-process-running-on-linux-using-ssh"></a>Подключение к процессу .NET Core под управлением Linux с помощью SSH
 

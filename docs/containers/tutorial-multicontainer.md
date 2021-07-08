@@ -7,12 +7,12 @@ ms.author: ghogen
 ms.date: 03/15/2021
 ms.technology: vs-azure
 ms.topic: tutorial
-ms.openlocfilehash: 412156894658cdb2160574e77ea052e4b194d386
-ms.sourcegitcommit: c875360278312457f4d2212f0811466b4def108d
+ms.openlocfilehash: 78af96eaa8f340129b2b445dd92419f84cf91ab1
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107315983"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112307821"
 ---
 # <a name="tutorial-create-a-multi-container-app-with-docker-compose"></a>Учебник. Создание многоконтейнерного приложения с помощью Docker Compose
 
@@ -21,15 +21,25 @@ ms.locfileid: "107315983"
 ## <a name="prerequisites"></a>Предварительные требования
 
 ::: moniker range="vs-2017"
+
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) с установленной рабочей нагрузкой **Веб-разработка**, **Инструменты Azure** или **Кроссплатформенная разработка .NET Core**.
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
+
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) с рабочей нагрузкой **Веб-разработка**, **Средства Azure** и (или) **Кроссплатформенная разработка .NET Core**.
 * [Средства разработки .NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) для разработки с использованием .NET Core 2.2.
 * [Средства разработки .NET Core 3](https://dotnet.microsoft.com/download/dotnet-core/3.1) для разработки с использованием .NET Core 3.1.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Предварительная версия Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022) с рабочей нагрузкой **Веб-разработки**, **Средств Azure** и (или) **Кроссплатформенной разработки .NET Core**.
+* [Средства разработки .NET Core 3](https://dotnet.microsoft.com/download/dotnet-core/3.1) для разработки с использованием .NET Core 3.1.
+* [Средства разработки .NET 5](https://dotnet.microsoft.com/download/dotnet-core/5.0) для разработки с использованием .NET 5.
 ::: moniker-end
 
 ## <a name="create-a-web-application-project"></a>Создание проекта веб-приложения
@@ -44,7 +54,7 @@ ms.locfileid: "107315983"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ![Создание проекта для веб-приложения ASP.NET Core](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
@@ -61,7 +71,7 @@ ms.locfileid: "107315983"
 ::: moniker range="vs-2017"
    ![Снимок экрана: создание проекта веб-API](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
    ![Снимок экрана: создание проекта веб-API](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
 
@@ -192,6 +202,8 @@ ms.locfileid: "107315983"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь с вариантами развертывания [контейнеров в Azure](/azure/containers).
+
+Чтобы лучше контролировать, какие службы запускаются во время сеанса отладки, узнайте, как использовать профили запуска Docker Compose для настройки служб, запускаемых при отладке. См. раздел [Управление профилями запуска для Docker Compose](launch-profiles.md)
 
 ## <a name="see-also"></a>См. также раздел
   

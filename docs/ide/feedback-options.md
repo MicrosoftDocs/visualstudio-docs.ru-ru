@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.openlocfilehash: 38e5f612c6a9b39874c952560627e04c26fafc25
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 349483a672b8240f7ca622638221766d6da4864c
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99897982"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112308159"
 ---
 # <a name="visual-studio-feedback-options"></a>Параметры обратной связи Visual Studio
 
@@ -28,11 +28,11 @@ ms.locfileid: "99897982"
 
 ## <a name="report-a-problem"></a>Сообщите о проблеме
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 При возникновении проблем с Visual Studio &mdash; сбоев, снижения производительности или непредвиденного поведения &mdash; свяжитесь с нами с помощью средства **Report a Problem** (Сообщить о проблеме). В Visual Studio выберите значок отзыва в правом верхнем углу или выберите в строке меню пункты **Справка** > **Отправить отзыв** > **Сообщить о проблеме**.
 
-![Значок "Отправить отзыв" в интегрированной среде разработки Visual Studio 2019](./media/vs-2019/send-feedback-icon.png)
+![Значок "Отправить отзыв" в интегрированной среде разработки Visual Studio](./media/vs-2019/send-feedback-icon.png)
 
 После этого Visual Studio откроет в браузере страницу [Сообщество разработчиков](https://aka.ms/feedback/suggest?space=8), где можно сообщить о проблеме. Дополнительные сведения см. в статье [Как сообщить о проблеме с Visual Studio 2017](how-to-report-a-problem-with-visual-studio.md).
 
@@ -50,7 +50,7 @@ ms.locfileid: "99897982"
 
 ## <a name="suggest-a-feature"></a>Предложение функции
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Если у вас есть идея или предложение в отношении того, как можно улучшить Visual Studio, воспользуйтесь средством **Предложить функцию**. В Visual Studio выберите значок отзыва в правом верхнем углу или выберите в строке меню пункты **Справка** > **Отправить отзыв** > **Предложить функцию**.
 
@@ -96,7 +96,7 @@ ms.locfileid: "99897982"
 
 Вы можете просматривать код других разработчиков и делиться собственными примерами на странице с [примерами кода](/samples/browse/).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Устранение ошибок установки или обновления](../install/troubleshooting-installation-issues.md)
 * [Конфиденциальность данных в сообществе разработчиков](developer-community-privacy.md)

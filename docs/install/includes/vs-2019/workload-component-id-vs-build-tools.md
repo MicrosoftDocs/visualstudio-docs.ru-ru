@@ -35,7 +35,7 @@ Microsoft.VisualStudio.Component.Azure.ClientLibs | Библиотеки Azure �
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Средства сборки облачных служб Azure | 16.10.31205.252 | Обязательное значение
 Microsoft.VisualStudio.Component.DockerTools.BuildTools | Средства разработки для контейнеров — средства сборки | 16.0.28625.61 | Обязательное значение
 Microsoft.VisualStudio.Component.NuGet.BuildTools | Цели и задачи построения NuGet | 16.1.28829.92 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.Wcf.BuildTools.ComponentGroup | Средства сборки Windows Communication Foundation | 16.10.31205.180 | Обязательное значение
 Microsoft.VisualStudio.Web.BuildTools.ComponentGroup | Средства сборки для веб-разработчиков | 16.10.31205.180 | Обязательное значение
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 Targeting Pack | 16.0.28517.75 | Рекомендованное
@@ -140,7 +140,7 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | Компиляторы Roslyn
 
 **Идентификатор:** Microsoft.VisualStudio.Workload.NetCoreBuildTools
 
-**Описание.** Средства сборки приложений с помощью .NET, ASP.NET Core, HTML/JavaScript и контейнеров.
+**Описание.** Средства сборки приложений с помощью .NET, ASP.NET Core, HTML/JavaScript и контейнеров.
 
 ### <a name="components-included-by-this-workload"></a>Компоненты, используемые этой рабочей нагрузкой
 
@@ -164,7 +164,7 @@ Microsoft.Net.Core.Component.SDK.2.1 | Среда выполнения .NET Core
 Идентификатор компонента | name | Version | Тип зависимости
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.Node.Build | Поддержка MSBuild в Node.js | 16.0.28517.75 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 
 ## <a name="officesharepoint-build-tools"></a>Средства сборки Office и SharePoint
 
@@ -320,7 +320,7 @@ Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 Targeting Pac
 Microsoft.Net.Component.4.8.SDK | Пакет SDK для .NET Framework 4.8 | 16.4.29313.120 | Обязательное значение
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | Средства разработки для .NET Framework 4.7.2 | 16.3.29207.166 | Обязательное значение
 Microsoft.VisualStudio.Component.NuGet.BuildTools | Цели и задачи построения NuGet | 16.1.28829.92 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.Web.BuildTools.ComponentGroup | Средства сборки для веб-разработчиков | 16.10.31205.180 | Обязательное значение
 Microsoft.Component.ClickOnce.MSBuild | Средства сборки ClickOnce | 16.0.28625.61 | Рекомендованное
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 Targeting Pack | 16.0.28517.75 | Рекомендованное

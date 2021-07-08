@@ -20,12 +20,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: a3787d5aa21e029ab4900bdd89c88f1cc60f3489
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 10a63b114379f56ca5f253f853a1ff6bdd6c60dc
+ms.sourcegitcommit: 3fe04d5b931ae459a802a1b965f84186757cbc08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99901344"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "111588479"
 ---
 # <a name="csc-task"></a>Csc - задача
 
@@ -50,6 +50,7 @@ ms.locfileid: "99901344"
 | `Deterministic` | Необязательный параметр `Boolean`.<br/><br/> Если задано значение `true`, компилятор будет выдавать сборку, чье двоичное содержимое идентично в разных компиляциях, если входные данные идентичны.<br/><br/>Дополнительные сведения см. в разделе [-deterministic (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/deterministic-compiler-option). |
 | `DisabledWarnings` | Необязательный параметр `String`.<br /><br /> Задает список предупреждений, которые следует отключить. Дополнительные сведения см. в разделе [-nowarn (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/nowarn-compiler-option). |
 | `DocumentationFile` | Необязательный параметр `String`.<br /><br /> Обрабатывает комментарии к документации в XML-файл. Дополнительные сведения см. в разделе [-doc (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/doc-compiler-option). |
+| `EmbedAllSources` | Необязательный параметр `Boolean`.<br /><br /> Внедрение всех исходных файлов в PDB-файл. Дополнительные сведения см. в разделе [-embed (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/listed-alphabetically). |
 | `EmitDebugInformation` | Необязательный параметр `Boolean`.<br /><br /> Если этот параметр равен `true`, задача генерирует отладочную информацию и помещает ее в файл базы данных программы (PDB-файл). Если задано значение `false`, задача не генерирует отладочную информацию. Значение по умолчанию — `false`. Дополнительные сведения см. в разделе [-debug (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option). |
 | `ErrorReport` | Необязательный параметр `String`.<br /><br /> Предоставляет удобный способ для сообщения о внутренней ошибке C# в корпорацию Майкрософт. Этот параметр может иметь значение `prompt`, `send` или `none`. Если установлено значение `prompt`, в случае внутренней ошибки компилятора будет выведено сообщение с предложением отправить электронный отчет об ошибке в корпорацию Майкрософт. Если установлено значение `send`, сообщение об ошибке отправляется автоматически. Если установлено значение `none`, отчет об ошибке выводится только в текстовых выходных данных компилятора. Значение по умолчанию — `none`. Дополнительные сведения см. в разделе [-errorreport (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option). |
 | `FileAlignment` | Необязательный параметр `Int32`.<br /><br /> Задает размер разделов в выходном файле. Дополнительные сведения см. в разделе [-filealign (параметры компилятора C#)](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option). |

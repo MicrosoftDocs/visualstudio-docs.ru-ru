@@ -36,9 +36,9 @@ ms.locfileid: "112925011"
 
 * Укажите в методе любой другой тип кода, кроме метода получения свойств и метода ToString, и проблема исчезнет.
   -или-
-* (Для ToString) Определите для типа атрибут [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md), чтобы отладчик мог вычислить другое значение, кроме ToString.
+* (Для ToString.) Определите для типа атрибут [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md), чтобы отладчик мог вычислить другое значение, кроме ToString.
   -или-
-* (Для метода получения свойства) Установите для свойства атрибут [System.Diagnostics.DebuggerBrowsable(DebuggerBrowsableState.Never)](/dotnet/api/system.diagnostics.debuggerbrowsableattribute). Это может быть полезно, если какой-то из ваших методов должен оставаться свойством для обеспечения совместимости с API, хотя по сути является настоящим методом.
+* (Для метода получения свойства.) Установите для свойства атрибут [System.Diagnostics.DebuggerBrowsable(DebuggerBrowsableState.Never)](/dotnet/api/system.diagnostics.debuggerbrowsableattribute). Это может быть полезно, если какой-то из ваших методов должен оставаться свойством для обеспечения совместимости с API, хотя по сути является настоящим методом.
 
 ## <a name="solution-2-have-the-target-code-ask-the-debugger-to-abort-the-evaluation"></a>Решение 2. Запрос на прерывание вычисления отладчиком в целевом коде
 

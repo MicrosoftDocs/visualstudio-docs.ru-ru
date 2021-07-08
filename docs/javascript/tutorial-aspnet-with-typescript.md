@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: ce27b8fdd73c1fcc001861a9b1fb7c2e9e4f4058
-ms.sourcegitcommit: 00e16b9afe6b22ba0591e4d0d92690544e6d4357
+ms.openlocfilehash: 0728011c05d47996a313c11a18f31a196ec08e10
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105616991"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112306503"
 ---
 # <a name="tutorial-create-an-aspnet-core-app-with-typescript-in-visual-studio"></a>Учебник. Создание приложения ASP.NET Core с помощью TypeScript в Visual Studio
 
@@ -28,9 +28,15 @@ ms.locfileid: "105616991"
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 
@@ -220,7 +226,7 @@ Visual Studio управляет файлами для отдельного пр
 1. Следуйте инструкциям в разделе по [управлению пакетом npm](../javascript/npm-package-management.md#aspnet-core-projects), чтобы добавить файл `package.json` в проект. В результате в проект будет добавлена поддержка npm.
 
    >[!NOTE]
-   > Для установки клиентских файлов JavaScript и CSS в проектах ASP.NET Core вместо npm можно также использовать [диспетчер библиотек](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1&preserve-view=true) или yarn.
+   > Для установки клиентских файлов JavaScript и CSS в проектах ASP.NET Core вместо npm можно также использовать [диспетчер библиотек](/aspnet/core/client-side/libman/) или yarn.
 
 1. В этом примере в проект добавляется файл определения TypeScript для jQuery. Включите в файл *package.json* следующий код.
 

@@ -34,7 +34,7 @@ Microsoft.VisualStudio.Component.StartPageExperiment.Cpp | Начальная с
 
 **Идентификатор:** Microsoft.VisualStudio.Workload.Azure
 
-**Описание:** пакеты SDK Azure, средства и проекты для разработки облачных приложений и создания ресурсов с помощью .NET и .NET Framework. Также включает в себя средства для упаковки приложения в контейнер, включая поддержку Docker.
+**Описание:** пакеты SDK Azure, средства и проекты для разработки облачных приложений и создания ресурсов с помощью .NET и .NET Framework. Также включает в себя средства для упаковки приложения в контейнер, включая поддержку Docker.
 
 ### <a name="components-included-by-this-workload"></a>Компоненты, используемые этой рабочей нагрузкой
 
@@ -81,7 +81,7 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Источники данны
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | LocalDB для экспресс-выпуска SQL Server 2016 | 16.0.28625.61 | Обязательное значение
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 16.3.29207.166 | Обязательное значение
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 16.0.28625.61 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.Component.Web | ASP.NET и средства веб-разработки | 16.10.31205.252 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.Azure.Prerequisites | Необходимые компоненты для разработки на базе Azure | 16.10.31303.231 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.AzureFunctions | Средства веб-заданий Azure | 16.10.31205.180 | Обязательное значение
@@ -168,7 +168,7 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Источники данны
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | LocalDB для экспресс-выпуска SQL Server 2016 | 16.0.28625.61 | Рекомендованное
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 16.3.29207.166 | Рекомендованное
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 16.0.28625.61 | Рекомендованное
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
 Microsoft.VisualStudio.Component.Web | ASP.NET и средства веб-разработки | 16.10.31205.252 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.Web | Предварительные требования для ASP.NET и средств веб-разработки | 16.10.31205.180 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 16.10.31205.180 | Рекомендованное
@@ -186,7 +186,7 @@ Microsoft.VisualStudio.Component.FSharp.Desktop | Поддержка языка�
 Идентификатор компонента | name | Version | Тип зависимости
 --- | --- | --- | ---
 Microsoft.Component.PythonTools | Поддержка языка Python | 16.10.31313.127 | Рекомендованное
-Microsoft.Component.PythonTools.Minicondax64 | Python Miniconda (поддержка прекращена) | 16.10.31313.127 | Рекомендованное
+Microsoft.Component.PythonTools.Minicondax64 | Python Miniconda (не поддерживается) | 16.10.31313.127 | Рекомендованное
 Microsoft.Component.PythonTools.Web | Поддержка веб-приложений Python | 16.10.31205.252 | Рекомендованное
 Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 Targeting Pack | 16.0.28517.75 | Рекомендованное
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Средства подключения и публикации | 16.4.29409.204 | Рекомендованное
@@ -195,7 +195,7 @@ Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка яз
 Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 16.1.28829.92 | Рекомендованное
 Microsoft.VisualStudio.Component.Roslyn.Compiler | Компиляторы Roslyn для C# и Visual Basic | 16.0.28714.129 | Рекомендованное
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# и Visual Basic | 16.10.31205.252 | Рекомендуется
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 16.0.28517.75 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 16.10.31205.180 | Рекомендованное
 Microsoft.ComponentGroup.PythonTools.NativeDevelopment | Встроенные средства разработки Python | 16.10.31205.180 | Необязательный
@@ -210,7 +210,7 @@ Microsoft.VisualStudio.Component.Windows10SDK.19041 | Пакет SDK для Wind
 
 **Идентификатор:** Microsoft.VisualStudio.Workload.ManagedDesktop
 
-**Описание:** создание приложений WPF, Windows Forms и консольных приложений с использованием C#, Visual Basic и F# в .NET и .NET Framework.
+**Описание:** создание приложений WPF, Windows Forms и консольных приложений с использованием C#, Visual Basic и F# в .NET и .NET Framework.
 
 ### <a name="components-included-by-this-workload"></a>Компоненты, используемые этой рабочей нагрузкой
 
@@ -249,7 +249,7 @@ Microsoft.VisualStudio.Component.FSharp | Поддержка языка F# | 16.
 Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 16.10.31305.154 | Рекомендованное
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка языков JavaScript и TypeScript | 16.10.31303.231 | Рекомендованное
 Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 16.1.28829.92 | Рекомендованное
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 16.10.31205.180 | Рекомендованное
 Component.Dotfuscator | PreEmptive Protection — Dotfuscator | 16.10.31205.252 | Необязательный
 Component.Microsoft.VisualStudio.RazorExtension | Службы языка Razor | 16.10.31205.252 | Необязательный
@@ -340,7 +340,7 @@ Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 16.10.31305.154 | �
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка языков JavaScript и TypeScript | 16.10.31303.231 | Рекомендованное
 Microsoft.VisualStudio.Component.NuGet | Диспетчер пакетов NuGet | 16.1.28829.92 | Рекомендованное
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# и Visual Basic | 16.10.31205.252 | Рекомендуется
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Рекомендованное
 Microsoft.VisualStudio.Component.VC.ASAN | C++ AddressSanitizer | 16.10.31205.252 | Рекомендованное
 Microsoft.VisualStudio.Component.VC.ATL | ATL C++ для средств сборки последней версии 142 (x86 и x64) | 16.4.29313.120 | Рекомендованное
 Microsoft.VisualStudio.Component.VC.CMake.Project | Средства CMake C++ для Windows | 16.3.29103.31 | Рекомендованное
@@ -351,7 +351,7 @@ Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC версии 142 — 
 Microsoft.VisualStudio.Component.Windows10SDK.19041 | Пакет SDK для Windows 10 (10.0.19041.0) | 16.10.31205.252 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 16.10.31205.180 | Рекомендованное
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions.CMake | Редактор JSON | 16.10.31205.180 | Рекомендованное
-Component.Incredibuild | IncrediBuild — ускорение сборки | 16.10.31205.252 | Необязательный
+Component.Incredibuild | IncrediBuild — ускорение сборки | 16.10.31205.252 | Необязательный
 Component.IncredibuildMenu | IncrediBuildMenu | 1.5.0.13 | Необязательный
 Microsoft.Component.VC.Runtime.UCRTSDK | Пакет SDK для Windows Universal CRT | 16.0.28625.61 | Необязательный
 Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 Targeting Pack | 16.0.28517.75 | Необязательный
@@ -394,7 +394,7 @@ Component.Android.NDK.R16B | NDK для Android (R16B) | 16.10.31320.204 | Не�
 Component.Android.SDK25.Private | Установка пакета SDK для Android (уровень API 25) (локальная установка для разработки мобильных приложений на C++) | 16.0.28625.61 | Необязательный
 Component.Ant | Apache Ant (1.9.3) | 1.9.3.8 | Необязательный
 Component.Cocos | Cocos | 16.0.28315.86 | Необязательный
-Component.Incredibuild | IncrediBuild — ускорение сборки | 16.10.31205.252 | Необязательный
+Component.Incredibuild | IncrediBuild — ускорение сборки | 16.10.31205.252 | Необязательный
 Component.IncredibuildMenu | IncrediBuildMenu | 1.5.0.13 | Необязательный
 Component.MDD.Android | Средства разработки на C++ для Android | 16.0.28517.75 | Необязательный
 Component.OpenJDK | OpenJDK (дистрибутив от Майкрософт) | 16.10.31303.311 | Необязательный
@@ -438,7 +438,7 @@ Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 16.10.31305.154 | �
 Component.Android.NDK.R16B_3264 | NDK для Android (R16B) (32-разрядный) | 16.10.31320.204 | Необязательный
 Component.Google.Android.Emulator.API25.Private | Google Android Emulator (уровень API 25), локальная установка | 16.1.28810.153 | Необязательный
 Component.HAXM.Private | Intel Hardware Accelerated Execution Manager (HAXM), локальная установка | 16.0.28528.71 | Необязательный
-Component.Incredibuild | IncrediBuild — ускорение сборки | 16.10.31205.252 | Необязательный
+Component.Incredibuild | IncrediBuild — ускорение сборки | 16.10.31205.252 | Необязательный
 Component.IncredibuildMenu | IncrediBuildMenu | 1.5.0.13 | Необязательный
 Component.MDD.IOS | Средства разработки C++ для iOS | 16.0.28517.75 | Необязательный
 
@@ -487,7 +487,7 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Источники данны
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | LocalDB для экспресс-выпуска SQL Server 2016 | 16.0.28625.61 | Обязательное значение
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 16.3.29207.166 | Обязательное значение
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 16.0.28625.61 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.Web | Предварительные требования для ASP.NET и средств веб-разработки | 16.10.31205.180 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 16.10.31205.180 | Обязательное значение
 Component.Microsoft.VisualStudio.LiveShare | Live Share | 1.0.4062 | Рекомендованное
@@ -589,7 +589,7 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Источники данны
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | LocalDB для экспресс-выпуска SQL Server 2016 | 16.0.28625.61 | Обязательное значение
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 16.3.29207.166 | Обязательное значение
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 16.0.28625.61 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.Component.Web | ASP.NET и средства веб-разработки | 16.10.31205.252 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.Web | Предварительные требования для ASP.NET и средств веб-разработки | 16.10.31205.180 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.Web.Client | ASP.NET и средства веб-разработки | 16.10.31205.180 | Обязательное значение
@@ -642,7 +642,7 @@ Microsoft.VisualStudio.ComponentGroup.IISDevelopment | Поддержка вре
 Microsoft.VisualStudio.Component.JavaScript.Diagnostics | Диагностика JavaScript | 16.0.28517.75 | Обязательное значение
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | Поддержка языков JavaScript и TypeScript | 16.10.31303.231 | Обязательное значение
 Microsoft.VisualStudio.Component.Node.Tools | Средства разработки для Node.js | 16.5.29515.121 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET и веб-разработка | 16.10.31205.180 | Обязательное значение
 Component.Microsoft.VisualStudio.LiveShare | Live Share | 1.0.4062 | Рекомендованное
 Microsoft.VisualStudio.Component.Debugger.JustInTime | JIT-отладчик | 16.0.28517.75 | Рекомендованное
@@ -699,7 +699,7 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Источники данны
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | LocalDB для экспресс-выпуска SQL Server 2016 | 16.0.28625.61 | Обязательное значение
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 16.3.29207.166 | Обязательное значение
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 16.0.28625.61 | Обязательное значение
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Обязательное значение
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 16.0.28625.61 | Обязательное значение
 Microsoft.VisualStudio.Component.Web | ASP.NET и средства веб-разработки | 16.10.31205.252 | Обязательное значение
 Microsoft.VisualStudio.Component.Workflow | Windows Workflow Foundation | 16.0.28315.86 | Обязательное значение
@@ -731,8 +731,8 @@ Microsoft.VisualStudio.ComponentGroup.Sharepoint.WIF | Windows Identity Foundati
 --- | --- | --- | ---
 Microsoft.Component.PythonTools | Поддержка языка Python | 16.10.31313.127 | Обязательное значение
 Component.CPython3.x64 | 64-разрядная версия Python 3 (3.7.8) | 3.7.8 | Рекомендованное
-Component.CPython2.x64 | Python 2 64-разрядный (2.7.18) (не поддерживается) | 2.7.18.2 | Необязательный
-Component.CPython2.x86 | Python 2 32-разрядный (2.7.18) (не поддерживается) | 2.7.18.2 | Необязательный
+Component.CPython2.x64 | Python 2 64-разрядный (2.7.18) (не поддерживается) | 2.7.18.2 | Необязательный
+Component.CPython2.x86 | Python 2 32-разрядный (2.7.18) (не поддерживается) | 2.7.18.2 | Необязательный
 Component.CPython3.x86 | 32-разрядная версия Python 3 (3.7.8) | 3.7.8 | Необязательный
 Component.Microsoft.VisualStudio.LiveShare | Live Share | 1.0.4062 | Необязательный
 Component.Microsoft.VisualStudio.RazorExtension | Службы языка Razor | 16.10.31205.252 | Необязательный
@@ -740,7 +740,7 @@ Component.Microsoft.Web.LibraryManager | Диспетчер библиотек |
 Component.Microsoft.WebTools.BrowserLink.WebLivePreview | Динамический просмотр веб-содержимого | 0.7.22.39845 | Необязательный
 Microsoft.Component.IronPython | IronPython (не поддерживается) | 16.10.31303.231 | Необязательный
 Microsoft.Component.MSBuild | MSBuild | 16.5.29515.121 | Необязательный
-Microsoft.Component.PythonTools.Minicondax64 | Python Miniconda (не поддерживается) | 16.10.31313.127 | Необязательный
+Microsoft.Component.PythonTools.Minicondax64 | Python Miniconda (не поддерживается) | 16.10.31313.127 | Необязательный
 Microsoft.Component.PythonTools.Web | Поддержка веб-приложений Python | 16.10.31205.252 | Необязательный
 Microsoft.ComponentGroup.PythonTools.NativeDevelopment | Встроенные средства разработки Python | 16.10.31205.180 | Необязательный
 Microsoft.Net.Component.4.5.2.TargetingPack | .NET Framework 4.5.2 Targeting Pack | 16.0.28517.75 | Необязательный
@@ -776,7 +776,7 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Источники данны
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | LocalDB для экспресс-выпуска SQL Server 2016 | 16.0.28625.61 | Необязательный
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 16.3.29207.166 | Необязательный
 Microsoft.VisualStudio.Component.TextTemplating | Преобразование текстовых шаблонов | 16.0.28625.61 | Необязательный
-Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Необязательный
+Microsoft.VisualStudio.Component.TypeScript.4.2 | Пакет SDK TypeScript 4.2 | 16.0.31303.231 | Необязательный
 Microsoft.VisualStudio.Component.VC.CoreIde | Основные компоненты C++ | 16.10.31205.252 | Необязательный
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | Средства профилирования C++ | 16.5.29515.121 | Необязательный
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC версии 142 — средства сборки C++ для VS 2019 для x64/x86 (последняя версия) | 16.10.31205.252 | Необязательный

@@ -222,17 +222,17 @@ ms.locfileid: "112365473"
 
 Мы часто добавляем в Visual Studio новые функции, облегчающие разработку. Узнать подробнее о последних новшествах можно из [блога о Visual Studio](https://devblogs.microsoft.com/visualstudio/). Ретроспективный список нововведений, появившихся в предварительных версиях, можно посмотреть в разделе [Заметки о предварительных выпусках](/visualstudio/releases/2019/release-notes-preview/). Список планируемых к выпуску возможностей см. в разделе [Стратегия развития Visual Studio](/visualstudio/productinfo/vs-roadmap).
 
-Между тем, вот над чем идет работа сейчас:
+Между тем, вот над чем идет работа сейчас.
 
 - **Улучшенный интерфейс Git в Visual Studio 2019 (предварительная версия)**
 
-   Несмотря на то что средство управления версиями Git используется по умолчанию в Visual Studio 2019 [версии 16.8](/visualstudio/releases/2019/release-notes-history/) и более поздних версиях, мы продолжаем добавлять функции для улучшения работы в новейшей предварительной версии Visual Studio 2019, [версии 16.11](/visualstudio/releases/2019/release-notes-preview/).
+   Несмотря на то что средство управления версиями Git используется по умолчанию в Visual Studio 2019 [версии 16.8](/visualstudio/releases/2019/release-notes-history/) и более поздних версиях, мы продолжаем добавлять функции для улучшения работы в новейшей предварительной версии Visual Studio 2019, [версии 16.11](/visualstudio/releases/2019/release-notes-preview/).
 
-   Дополнительные сведения см. на странице [Управление версиями в Visual Studio](/visualstudio/version-control/).
+   Дополнительные сведения см. на странице [Управление версиями в Visual Studio](/visualstudio/version-control/).
 
-- **Уже вышел первый общедоступный выпуск Visual Studio 2022 (предварительная версия)**
+- **Уже вышел первый общедоступный выпуск Visual Studio 2022 (предварительная версия)**
 
-    Уже вышла общедоступная предварительная версия нашего нового основного выпуска, [Visual Studio 2022](/visualstudio/releases/2022/release-notes-preview/). Новая версия быстрее, удобнее в работе и проще. Кроме того, впервые Visual Studio стала 64-битной. Ссылку для скачивания и дополнительные сведения см. в **[Доступна предварительная версия 1 Visual Studio 2022!](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)** .
+    Уже вышла общедоступная предварительная версия нашего нового основного выпуска, [Visual Studio 2022](/visualstudio/releases/2022/release-notes-preview/). Новая версия быстрее, удобнее в работе и проще. Кроме того, впервые Visual Studio стала 64-битной. Ссылку для скачивания и дополнительные сведения см. в документе **[Доступна предварительная версия 1 Visual Studio 2022!](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)** .
 
 ## <a name="give-us-feedback"></a>Обратная связь
 

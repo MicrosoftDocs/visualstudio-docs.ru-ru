@@ -2,17 +2,18 @@
 title: Подключение к проектам в Team Explorer
 description: Сведения о том, как использовать Team Explorer в Visual Studio для взаимодействия с членами команды при разработке проектов и управлении ими.
 ms.custom: SEO-VS-2020
-ms.date: 03/31/2021
+ms.date: 06/11/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
 ms.manager: jillfra
-ms.openlocfilehash: 78a71911bb4334e04a085d91ff51238d34981beb
-ms.sourcegitcommit: 80fc9a72e9a1aba2d417dbfee997fab013fc36ac
+monikerRange: <=vs-2019
+ms.openlocfilehash: b45399f7a4115ce5946a67caca22ca92148e7434
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106216609"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112308250"
 ---
 # <a name="connect-to-projects-in-team-explorer"></a>Подключение к проектам в Team Explorer
 
@@ -27,7 +28,7 @@ ms.locfileid: "106216609"
 Team Explorer обеспечивает подключение Visual Studio к репозиториям системы управления версиями Team Foundation (TFVC), а также проектам, размещенным в экземпляре [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) или в локальном экземпляре [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (ранее — TFS). Можно управлять исходным кодом, рабочими элементами и сборками.
 
 > [!IMPORTANT]
-> В последнем выпуске Visual Studio 2019 [**версии 16.8**](/visualstudio/releases/2019/release-notes/) новый интерфейс управления версиями Git включен по умолчанию. Дополнительные сведения о сравнении с Team Explorer см. в статье [**Параллельное сравнение Git и Team Explorer**](git-team-explorer-feature-comparison.md).
+> В выпуске Visual Studio 2019 [**версии 16.8**](/visualstudio/releases/2019/release-notes-history) интерфейс управления версиями Git включен по умолчанию. Дополнительные сведения о сравнении с Team Explorer см. в статье [**Параллельное сравнение Git и Team Explorer**](../version-control/git-team-explorer-feature-comparison.md).
 >
 > Но если вы предпочитаете и дальше использовать Team Explorer, выберите **Средства**>**Параметры**>**Среда**>**Функции предварительной версии** и снимите флажок **Новый пользовательский интерфейс Git**.
 

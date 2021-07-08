@@ -41,7 +41,7 @@ ms.locfileid: "112308315"
 
 ::: moniker range="vs-2022"
 
-Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 > [!NOTE]
 > На некоторых снимках экрана в этом учебнике используется темная тема. Если вы не используете темную тему, но хотите переключиться на нее, см. страницу [Персонализация интегрированной среды разработки и редактора Visual Studio](../ide/quickstart-personalize-the-ide.md).

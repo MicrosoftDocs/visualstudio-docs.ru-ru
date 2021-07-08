@@ -23,7 +23,7 @@ ms.locfileid: "113279983"
 
 ::: moniker range=">=vs-2019"
 
-:::image type="content" source="../media/vs-2019/ide-overview.png" alt-text="Снимок экрана: интегрированная среда разработки Visual Studio с выносками, указывающими, где находятся ключевые функции и возможности." lightbox="../media/vs-2019/ide-overview.png":::
+:::image type="content" source="../media/vs-2019/ide-overview.png" alt-text="Снимок экрана: интегрированная среда разработки Visual Studio с выносками, указывающими, где находятся ключевые функции и возможности" lightbox="../media/vs-2019/ide-overview.png":::
 
 ::: moniker-end
 

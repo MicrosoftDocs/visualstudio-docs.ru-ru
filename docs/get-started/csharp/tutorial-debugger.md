@@ -63,7 +63,7 @@ ms.locfileid: "112390285"
 
 ::: moniker range="vs-2022"
 
-Если вы еще не установили предварительную версию Visual Studio 2022, перейдите на страницу [загрузок предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), чтобы установить ее бесплатно.
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 

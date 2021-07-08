@@ -1,5 +1,5 @@
 ---
-title: Учебник. Создание консольного приложения C# в Visual Studio
+title: Учебник. Создание консольного приложения C# в Visual Studio
 titleSuffix: ''
 description: Ознакомьтесь с пошаговыми инструкциями по созданию простого консольного приложения "Hello World" на C# в Visual Studio.
 ms.custom: vs-acquisition
@@ -40,7 +40,7 @@ ms.locfileid: "112387623"
 
 ::: moniker range="vs-2022"
 
-Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 

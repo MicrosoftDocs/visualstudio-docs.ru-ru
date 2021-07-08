@@ -15,16 +15,16 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: c7a5b8bacaa7d78be0c7b88bba8e20b416a3c076
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: e523738ff23b40c80b5df21d90b582d94c59087f
+ms.sourcegitcommit: a8031c1387d2090129ed33e063744f9f31653dcd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99958002"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "110724542"
 ---
 # <a name="resetsettings-devenvexe"></a>/ResetSettings (devenv.exe)
 
-Восстанавливает параметры по умолчанию Visual Studio и автоматически запускает интегрированную среду разработки Visual Studio. При необходимости выполняет сброс параметров в соответствии с указанным файлом параметров.
+Восстанавливает параметры по умолчанию Visual Studio и автоматически запускает интегрированную среду разработки Visual Studio. При необходимости выполняет сброс параметров в соответствии с указанным файлом параметров (`*.vssettings`).
 
 Параметры определяются профилем, который был выбран при первом запуске Visual Studio.
 
@@ -41,7 +41,7 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 - *SettingsFile*
 
-  Необязательный параметр. Полный путь и имя файла параметров, применяемого к Visual Studio.
+  Необязательный параметр. Полный путь и имя файла `.vssettings`, применяемого к Visual Studio.
 
 - *DefaultCollectionSpecifier*
 
@@ -59,7 +59,8 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 ## <a name="remarks"></a>Комментарии
 
-Если файл *SettingsFile* не указан, интегрированная среда разработки открывается с использованием существующих параметров.
+Если файл *SettingsFile* не указан, интегрированная среда разработки открывается с использованием существующих параметров. 
+
 
 ## <a name="example"></a>Пример
 
@@ -67,10 +68,14 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 Второй пример восстанавливает профиль Visual C# по умолчанию.
 
-```shell
-devenv /resetsettings "%USERPROFILE%\MySettings.vssettings"
+Третий пример также будет закрывать Visual Studio после применения параметров. Можно добавить `/Command "File.Exit"`.
 
-devenv /resetsettings CSharp
+```shell
+devenv /ResetSettings "%USERPROFILE%\MySettings.vssettings"
+
+devenv /ResetSettings CSharp
+
+devenv /NoSplash /ResetSettings General /Command Exit 
 ```
 
 ## <a name="see-also"></a>См. также раздел

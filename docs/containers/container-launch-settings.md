@@ -90,4 +90,4 @@ ms.locfileid: "109973243"
 ## <a name="see-also"></a>См. также
 
 - [Свойства сборки Docker Compose](docker-compose-properties.md)
-- [Управление профилями запуска для Docker Compose](launch-profiles.md)
+- [Управление профилями запуска для Docker Compose](launch-profiles.md)

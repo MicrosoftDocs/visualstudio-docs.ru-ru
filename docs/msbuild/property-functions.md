@@ -12,12 +12,12 @@ ms.author: ghogen
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b4dce707d51d7a2840aeef78f4d70392c884275
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: a47ff76c98c5788fdfca3d633c87664b6802de70
+ms.sourcegitcommit: 8b75524dc544e34d09ef428c3ebbc9b09f14982d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99932023"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "113222959"
 ---
 # <a name="property-functions"></a>Функции свойств
 
@@ -342,9 +342,11 @@ Output:
 -->
 ```
 
+<a name="TargetFramework"></a>
+
 ## <a name="msbuild-targetframework-and-targetplatform-functions"></a>Функции MSBuild TargetFramework и TargetPlatform
 
-MSBuild определяет несколько функций для обработки [свойств TargetFramework и TargetPlatform](msbuild-target-framework-and-target-platform.md).
+MSBuild версии 16.7 и последующих определяет несколько функций для обработки [свойств TargetFramework и TargetPlatform](msbuild-target-framework-and-target-platform.md).
 
 |Сигнатура функции|Описание|
 |------------------------|-----------------|
@@ -384,6 +386,39 @@ Value3 = windows
 Value4 = 7.0
 Value5 = True
 ```
+
+## <a name="msbuild-version-comparison-functions"></a>Функции сравнения версий MSBuild
+
+MSBuild 16.5 и выше определяет несколько функций для сравнения строк, представляющих версии.
+
+> [!Note]
+> Операторы сравнения в условиях [могут сравнивать строки, которые могут быть проанализированы как объекты `System.Version`](msbuild-conditions.md#comparing-versions), но сравнение может привести к непредвиденным результатам. Предпочитать функции свойств.
+
+|Сигнатура функции|Описание|
+|------------------------|-----------------|
+|VersionEquals(строка a, строка б)|Возвращает `true`, если версии `a` и `b` эквивалентны, согласно указанным ниже правилам.|
+|VersionGreaterThan(строка a, строка б)|Возвращает `true`, если версия `a` выше версии `b`, согласно указанным ниже правилам.|
+|VersionGreaterThanOrEquals(строка a, строка b)|Возвращает `true`, если версия `a` выше или равна версии `b`, согласно указанным ниже правилам.|
+|VersionLessThan(строка a, строка b)|Возвращает `true`, если версия `a` ниже версии `b`, согласно указанным ниже правилам.|
+|VersionLessThanOrEquals(строка a, строка b)|Возвращает `true`, если версия `a` ниже или равна версии `b`, согласно указанным ниже правилам.|
+|VersionNotEquals(строка a, строка b)|Возвращает `false`, если версии `a` и `b` эквивалентны, согласно указанным ниже правилам.|
+
+В этих методах синтаксический анализ версий выполняется так же <xref:System.Version?displayProperty=fullName>, за следующими исключениями:
+
+* `v` или `V` в начале игнорируются, что позволяет выполнять сравнение с `$(TargetFrameworkVersion)`.
+
+* Все от первого "-" или "+" до конца строки версии игнорируется. Это позволяет передавать семантические версии (semver), хотя порядок отличается от semver. Вместо этого спецификаторы предварительного выпуска и метаданные сборки не имеют веса сортировки. Это может быть полезно, например, чтобы включить функцию `>= x.y`, которая будет срабатывать на `x.y.z-pre`.
+
+* Неопределенные части совпадают с частями, имеющими нулевое значение. (`x == x.0 == x.0.0 == x.0.0.0`).
+
+* Пробелы не допускаются в целочисленных компонентах.
+
+* Допустима только основная версия (`3` равно `3.0.0.0` )
+
+* `+` не допускается в качестве знака положительного числа в целочисленных компонентах (он обрабатывается как метаданные semver и игнорируется)
+
+> [!TIP]
+> Сравнения [свойств TargetFramework](msbuild-target-framework-and-target-platform.md) обычно должны использовать [IsTargetFrameworkCompatible](#TargetFramework) вместо извлечения и сравнения версий. Это позволяет сравнивать `TargetFramework`, которые имеют разные `TargetFrameworkIdentifier`, помимо версии.
 
 ## <a name="msbuild-condition-functions"></a>Функции условий MSBuild
 

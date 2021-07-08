@@ -1,31 +1,40 @@
 ---
-title: Использование Bridge to Kubernetes с Visual Studio
-titleSuffix: ''
+title: Учебник. Подключение компьютеров разработки к Bridge to Kubernetes
 ms.technology: vs-azure
 ms.date: 03/24/2021
-ms.topic: quickstart
+ms.topic: tutorial
 description: Узнайте, как использовать функцию Bridge to Kubernetes в Visual Studio для подключения компьютера разработчика к кластеру Kubernetes.
 keywords: Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, контейнеры
 monikerRange: '>=vs-2019'
 ms.author: ghogen
 author: ghogen
 manager: jmartens
-ms.openlocfilehash: fdcf31d062fe2be72709979f0892e6a7f535024a
-ms.sourcegitcommit: 2049ec99f1439ec91d002853226934b067b1ee70
+ms.openlocfilehash: b8d6c98d2e2146ad57871b74cd2d522ed2b04259
+ms.sourcegitcommit: 0499d813d5c24052c970ca15373d556a69507250
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105635048"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113046122"
 ---
-# <a name="use-bridge-to-kubernetes"></a>Использование Bridge to Kubernetes
+# <a name="tutorial-use-bridge-to-kubernetes-to-connect-your-clusters-and-your-development-computers"></a>Учебник. Использование Bridge to Kubernetes для подключения кластеров к компьютерам разработки
 
-Вы можете использовать функцию Bridge to Kubernetes для перенаправления трафика между кластером Kubernetes и кодом, выполняемым на компьютере разработки. В нем также приводится скрипт для развертывания большого примера приложения с несколькими микрослужбами в кластере Kubernetes.
+В этом учебнике вы узнаете, как использовать функцию Bridge to Kubernetes для перенаправления трафика между кластером Kubernetes и кодом, выполняемом на компьютере разработки. 
 
-## <a name="before-you-begin"></a>Подготовка к работе
+В нем также приводится скрипт для развертывания большого примера приложения с несколькими микрослужбами в кластере Kubernetes.
 
-Для демонстрации подключения компьютера разработки к кластеру Kubernetes в этом руководстве используется [пример приложения TODO][todo-app-github]. Если у вас уже есть свое приложение в кластере Kubernetes, вы можете выполнить описанные ниже инструкции, используя имена собственных служб.
+Дополнительные сведения о Bridge to Kubernetes см. в статье [как работает Bridge to Kubernetes](overview-bridge-to-kubernetes.md).
 
-В этом примере показано, как можно использовать Bridge to Kubernetes для разработки версии микрослужбы простого приложения TODO в любом кластере Kubernetes. Этот пример с использованием Visual Studio был адаптирован из кода, предоставленного [TodoMVC](http://todomvc.com). Эти шаги должны быть применимы к любому кластеру Kubernetes.
+## <a name="prerequisites"></a>Предварительные требования
+
+- Кластер Kubernetes.
+- [Visual Studio 2019][visual-studio] версии 16.7 (предварительная версия 4) или более поздней версии в Windows 10.
+- [Установленное расширение Bridge to Kubernetes][btk-extension].
+
+## <a name="about-the-data"></a>О данных
+
+Этот учебник использует Bridge to Kubernetes для разработки версии микрослужбы простого приложения TODO в любом кластере Kubernetes. Этот [образец приложения TODO App][todo-app-github] с использованием Visual Studio был адаптирован из кода, предоставленного [TodoMVC](http://todomvc.com). 
+
+ Эти шаги должны быть применимы к любому кластеру Kubernetes. Так что если у вас уже есть свое приложение в кластере Kubernetes, вы можете выполнить описанные ниже инструкции, используя имена собственных служб.
 
 Пример приложения TODO состоит из внешнего интерфейса и серверной части, обеспечивающей постоянное хранилище. В этом расширенном примере добавлен компонент статистики и приложение разбито на несколько микрослужб, а именно:
 
@@ -37,15 +46,10 @@ ms.locfileid: "105635048"
 
 В целом это расширенное приложение TODO состоит из шести взаимосвязанных компонентов.
 
-### <a name="prerequisites"></a>Предварительные требования
-
-- Кластер Kubernetes.
-- [Visual Studio 2019][visual-studio] версии 16.7 (предварительная версия 4) или более поздней версии в Windows 10.
-- [Установленное расширение Bridge to Kubernetes][btk-extension].
 
 ## <a name="check-the-cluster"></a>Проверка кластера
 
-Откройте командную строку и убедитесь, что средство kubectl установлено в пути, кластер, который вы хотите использовать, доступен и готов, и задайте контекст для этого кластера,
+Откройте командную строку и убедитесь, что средство `kubectl` установлено в пути, кластер, который вы хотите использовать, доступен и готов, и задайте контекст для этого кластера.
 
 ```cmd
 kubectl cluster-info

@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
 ms.locfileid: "112386440"
 ---
-# <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-service-in-f"></a>Краткое руководство. Создание первой веб-службы ASP.NET Core на F\# с помощью Visual Studio
+# <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-service-in-f"></a>Краткое руководство. Создание первой веб-службы ASP.NET Core на F\# с помощью Visual Studio
 
 В этом кратком руководстве по F# в Visual Studio рассматривается создание веб-приложения ASP.NET Core на F#.
 
@@ -37,7 +37,7 @@ ms.locfileid: "112386440"
 
 ::: moniker range="vs-2022"
 
-Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
+Установите Visual Studio 2022 бесплатно со страницы [скачиваемых материалов предварительной версии Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022), если еще не сделали этого.
 
 ::: moniker-end
 

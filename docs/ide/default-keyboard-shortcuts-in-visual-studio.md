@@ -64,7 +64,7 @@ Download and print our Visual Studio shortcut cheatsheet.
 |Debug.BreakAll|**CTRL+ALT+BREAK**|
 |Debug.DeleteAllBreakpoints|**CTRL+SHIFT+F9**|
 |Debug.Exceptions|**CTRL+ALT+E**|
-|Debug.QuickWatch|**CTRL+ALT+Q**<br /><br />или **Shift+F9**|
+|Debug.QuickWatch|**CTRL+ALT+Q**<br /><br />или **Shift + F9**|
 |Debug.Restart|**CTRL+SHIFT+F5**|
 |Debug.RunToCursor|**CTRL+F10**|
 |Debug.SetNextStatement|**CTRL+SHIFT+F10**|
@@ -84,8 +84,8 @@ Download and print our Visual Studio shortcut cheatsheet.
 |Edit.CollapseToDefinitions|**CTRL+M**, **CTRL+O** [текстовый редактор]|
 |Edit.CommentSelection|**CTRL+K**, **CTRL+C** [текстовый редактор]|
 |Edit.CompleteWord|**ALT+СТРЕЛКА ВПРАВО** [текстовый редактор, конструктор рабочих процессов]<br /><br />или **CTRL+ПРОБЕЛ** [текстовый редактор, конструктор рабочих процессов]<br /><br />или **CTRL+K**, **W** [конструктор рабочих процессов]<br /><br />или **CTRL+K, CTRL+W** [конструктор рабочих процессов]|
-|Edit.Copy|**CTRL+C**<br /><br />или **Ctrl+Insert**|
-|Edit.Cut|**CTRL+X**<br /><br />или **SHIFT + DELETE**|
+|Edit.Copy|**CTRL+C**<br /><br />или **Ctrl + Insert**|
+|Edit.Cut|**CTRL+X**<br /><br />или **SHIFT + DELETE**|
 |Edit.Delete|**DELETE** [Team Explorer]<br /><br />или **SHIFT+DELETE** [схема последовательностей, схема действий UML, схема слоев]<br /><br />или **CTRL+DELETE** [схема классов]|
 |Edit.Find|**CTRL+F**|
 |Edit.FindAllReferences|**SHIFT+F12**|
@@ -99,7 +99,7 @@ Download and print our Visual Studio shortcut cheatsheet.
 |Edit.GoToDefinition|**F12**|
 |Edit.GoToFindCombo|**CTRL+D**|
 |Edit.GoToNextLocation|**F8**|
-|Edit.InsertSnippet|**Ctrl+K**, **Ctrl+X**|
+|Edit.InsertSnippet|**Ctrl + K**, **Ctrl + X**|
 |Edit.InsertTab|**TAB** [конструктор отчетов, конструктор Windows Forms, текстовый редактор]|
 |Edit.LineCut|**CTRL+L** [текстовый редактор]|
 |Edit.LineDownExtendColumn|**SHIFT+ALT+СТРЕЛКА ВНИЗ** [текстовый редактор]|
@@ -109,9 +109,9 @@ Download and print our Visual Studio shortcut cheatsheet.
 |Edit.OpenFile|**CTRL+SHIFT+G**|
 |Edit.OvertypeMode|**INSERT** [текстовый редактор]|
 |Edit.ParameterInfo|**CTRL+SHIFT+ПРОБЕЛ** [текстовый редактор, конструктор рабочих процессов]<br /><br />или **CTRL+K, CTRL+P** [конструктор рабочих процессов]<br /><br />или **CTRL+K, P** [конструктор рабочих процессов]|
-|Edit.Paste|**CTRL+V**<br /><br />или **SHIFT+INSERT**|
+|Edit.Paste|**CTRL+V**<br /><br />или **SHIFT + INSERT**|
 |Edit.PeekDefinition|**ALT+F12** [текстовый редактор]|
-|Edit.Redo|**CTRL+Y**<br /><br />или **SHIFT+ALT+BACKSPACE**<br /><br />или **CTRL+SHIFT+Z**|
+|Edit.Redo|**CTRL+Y**<br /><br />или **SHIFT + ALT + BACKSPACE**<br /><br />или **CTRL + SHIFT + Z**|
 |Edit.Replace|**CTRL+H**|
 |Edit.SelectAll|**CTRL+A**|
 |Edit.SelectCurrentWord|**CTRL+W** [текстовый редактор]|
@@ -123,7 +123,7 @@ Download and print our Visual Studio shortcut cheatsheet.
 |Edit.ToggleCompletionMode|**CTRL+ALT+ПРОБЕЛ** [текстовый редактор]|
 |Edit.ToggleOutliningExpansion|**CTRL+M, CTRL+M** [текстовый редактор]|
 |Edit.UncommentSelection|**CTRL+K, CTRL+U** [текстовый редактор]|
-|Edit.Undo|**CTRL+Z**<br /><br />или **ALT+BACKSPACE**|
+|Edit.Undo|**CTRL+Z**<br /><br />или **ALT + BACKSPACE**|
 |Edit.WordDeleteToEnd|**CTRL+DELETE** [текстовый редактор]|
 |Edit.WordDeleteToStart|**CTRL+BACKSPACE** [текстовый редактор]|
 
@@ -168,7 +168,7 @@ Download and print our Visual Studio shortcut cheatsheet.
 |--------------| - |
 |View.ClassView|**CTRL+SHIFT+C**|
 |View.EditLabel|**F2**|
-|View.ErrorList|**CTRL+\\, CTRL+E**<br /><br />или **CTRL+\\, E**|
+|View.ErrorList|**CTRL+\\, CTRL+E**<br /><br />или **CTRL +\\, E**|
 |View.NavigateBackward|**CTRL+-**|
 |View.NavigateForward|**CTRL+SHIFT+-**|
 |View.ObjectBrowser|**CTRL+ALT+J**|
@@ -176,7 +176,7 @@ Download and print our Visual Studio shortcut cheatsheet.
 |View.PropertiesWindow|**F4**|
 |View.Refresh|**F5** [Team Explorer]|
 |View.ServerExplorer|**CTRL+ALT+S**|
-|View.ShowSmartTag|**CTRL+.**<br /><br />или **SHIFT+ALT+F10** [HTML-редактор в конструкторе]|
+|View.ShowSmartTag|**CTRL+.**<br /><br />или **SHIFT + ALT + F10** [HTML-редактор в конструкторе]|
 |View.SolutionExplorer|**CTRL+ALT+L**|
 |View.TfsTeamExplorer|**CTRL+\\, CTRL+M**|
 |View.Toolbox|**CTRL+ALT+X**|

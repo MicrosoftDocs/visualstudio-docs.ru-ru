@@ -19,12 +19,12 @@ ms.author: tglee
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: e9a90198ce4cf3dc54eedbf80bbf4ffbad634cbc
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 007e82ee7c1c2839ba266794432605f1f92a1669
+ms.sourcegitcommit: 5fb4a67a8208707e79dc09601e8db70b16ba7192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99836492"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112307795"
 ---
 # <a name="autorecover-environment-options-dialog-box"></a>Страница "Автовосстановление", папка "Среда", диалоговое окно "Параметры"
 
@@ -35,6 +35,12 @@ ms.locfileid: "99836492"
 :::image type="content" source="media/autorecover-options.png" alt-text="Снимок экрана: раздел &quot;Автовосстановление&quot; в диалоговом окне &quot;Параметры&quot;":::
 
 **Сохранять данные автовосстановления каждые [n] мин**
+
+::: moniker range=">=vs-2022"
+
+Используйте этот параметр, чтобы настроить периодичность автоматического сохранения файла в редакторе. Что касается ранее сохраненных файлов, Visual Studio сохраняет копию файла в папке ***%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]***. Если этот файл новый и еще не был сохранен, Visual Studio автоматически сохраняет его, используя случайно созданное имя файла.
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 

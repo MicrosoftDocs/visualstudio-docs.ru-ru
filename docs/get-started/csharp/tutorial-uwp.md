@@ -1,5 +1,5 @@
 ---
-title: Учебник. Создание приложений UWP в Visual Studio и C#
+title: Учебник. Создание приложений UWP в Visual Studio и C#
 description: Создание приложения UWP в Visual Studio с помощью XAML и C#
 titleSuffix: ''
 ms.custom: vs-acquisition, get-started, SEO-VS-2020

@@ -156,6 +156,6 @@ services:
 
 [Параметры запуска инструментов для работы с контейнерами](container-launch-settings.md)
 
-[Управление профилями запуска для Docker Compose в Visual Studio](launch-profiles.md)
+[Управление профилями запуска для Docker Compose в Visual Studio](launch-profiles.md)
 
 [Зарезервированные и стандартные свойства MSBuild](../msbuild/msbuild-reserved-and-well-known-properties.md)

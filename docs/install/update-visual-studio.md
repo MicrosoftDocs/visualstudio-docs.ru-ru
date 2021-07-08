@@ -164,7 +164,7 @@ ms.locfileid: "112387961"
 
 ::: moniker range="vs-2019"
 
-Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2019/release-notes/) Visual Studio, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
+Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2019/release-notes/) Visual Studio, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого. Если в настоящее время используется другая версия Visual Studio, можно либо [установить версии Visual Studio параллельно](../install/install-visual-studio-versions-side-by-side.md), либо [удалить предыдущие версии Visual Studio](../install/uninstall-visual-studio.md).
 
@@ -289,7 +289,7 @@ ms.locfileid: "112387961"
 
 ::: moniker range=">=vs-2022"
 
-Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2022/release-notes/) Visual Studio, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
+Мы рекомендуем выполнить обновление до [последнего выпуска](/visualstudio/releases/2022/release-notes/) Visual Studio, чтобы иметь доступ к новым компонентам, исправлениям и улучшениям.
 
 Установите Visual Studio бесплатно со страницы [скачиваемых материалов Visual Studio](https://visualstudio.microsoft.com/downloads), если еще не сделали этого. Если в настоящее время используется другая версия Visual Studio, можно либо [установить версии Visual Studio параллельно](../install/install-visual-studio-versions-side-by-side.md), либо [удалить предыдущие версии Visual Studio](../install/uninstall-visual-studio.md).
 
@@ -329,23 +329,23 @@ ms.locfileid: "112387961"
 
 ## <a name="use-the-ide"></a>Использование интегрированной среды разработки
 
-Можно проверить наличие обновлений и установить их, используя строку меню или поле поиска в Visual Studio 2022.
+Можно проверить наличие обновлений и установить их, используя строку меню или поле поиска в Visual Studio 2022.
 
 ### <a name="open-visual-studio"></a>Запустите Visual Studio
 
-1. В меню Windows **Пуск** выберите **Visual Studio 2022**.
+1. В меню Windows **Пуск** выберите **Visual Studio 2022**.
 
-    ![Открытие Visual Studio 2022](media/vs-2019/vs-installer-visual-studio-2019.png "Открытие Visual Studio 2019 в Windows")
+    ![Открытие Visual Studio 2022](media/vs-2019/vs-installer-visual-studio-2019.png "Открытие Visual Studio 2019 в Windows")
 
 1. В разделе **Приступая к работу** выберите любой параметр, чтобы открыть интегрированную среду разработки.
 
     ![Открытие Visual Studio Installer](media/vs2019-choose-option-from-get-started.png "Открытие Visual Studio Installer")
 
-    Открывается Visual Studio. В интегрированной среде разработки отображается сообщение **Обновление Visual Studio 2022**.
+    Открывается Visual Studio. В интегрированной среде разработки отображается сообщение **Обновление Visual Studio 2022**.
 
     ![Сообщение "Обновление Visual Studio 2019" в интегрированной среде разработки](media/vs-2019/update-visual-studio-ide-message.png "Сообщение &quot;Обновление Visual Studio 2019&quot; в интегрированной среде разработки")
 
-1. В сообщении **Обновление Visual Studio 2022** выберите **Просмотреть подробности**.
+1. В сообщении **Обновление Visual Studio 2022** выберите **Просмотреть подробности**.
 
    ![Нажатие кнопки "Просмотреть сведения" в сообщении "Обновление IDE Visual Studio 2019"](media/vs-2019/update-visual-studio-ide-view-details.png "Нажатие кнопки &quot;Просмотреть сведения&quot; в сообщении &quot;Обновление Visual Studio 2019&quot;")
 
@@ -383,7 +383,7 @@ ms.locfileid: "112387961"
      ![Центр уведомлений в Visual Studio 2019](media/vs-2019/notification-hub-update.png "Центр уведомлений в Visual Studio 2019")
 
       > [!TIP]
-      > Обновление для выпуска Visual Studio 2022 является накопительным, поэтому всегда выбирайте для установки то, у которого новейший номер версии.
+      > Обновление для выпуска Visual Studio 2022 является накопительным, поэтому всегда выбирайте для установки то, у которого новейший номер версии.
 
 1. В диалоговом окне **Доступно обновление** нажмите кнопку **Обновить**.
 

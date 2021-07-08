@@ -1,6 +1,6 @@
 ---
-title: Пример ImageOptimizer для обновления расширений Visual Studio
-description: Выполните пример, чтобы узнать, как обновить расширение Visual Studio для работы с предварительной версией Visual Studio 2022.
+title: Пример ImageOptimizer для обновления расширений Visual Studio
+description: Выполните пример, чтобы узнать, как обновить расширение Visual Studio для работы с предварительной версией Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: sample
 author: leslierichardson95
@@ -16,11 +16,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/24/2021
 ms.locfileid: "112602221"
 ---
-# <a name="imageoptimizer---update-a-visual-studio-extension-step-by-step"></a>ImageOptimizer — пошаговое обновление расширения Visual Studio
+# <a name="imageoptimizer---update-a-visual-studio-extension-step-by-step"></a>ImageOptimizer — пошаговое обновление расширения Visual Studio
 
 [!INCLUDE [preview-note](../includes/preview-note.md)]
 
-В этом руководстве будут показаны все действия, необходимые для добавления поддержки Visual Studio 2022 при сохранении поддержки Visual Studio 2019 с использованием расширения Image Optimizer в качестве примера.  
+В этом руководстве будут показаны все действия, необходимые для добавления поддержки Visual Studio 2022 при сохранении поддержки Visual Studio 2019 с использованием расширения Image Optimizer в качестве примера.  
 Это подробное руководство с ссылками на git commit в каждом шаге, но вы также можете посмотреть окончательный PR здесь: [https://github.com/madskristensen/ImageOptimizer/pull/46](https://github.com/madskristensen/ImageOptimizer/pull/46).
 
 Кроме того, в конце этого руководства приводятся [дополнительные примеры](#other-samples).
@@ -31,11 +31,11 @@ ms.locfileid: "112602221"
 
 [git commit e052465](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/e052465f30e6bed37e6d76eac016047095e8e18b)
 
-Сначала мы переносим VSIX и проект модульного теста в .NET 4.7.2 на странице свойств проектов:
+Сначала мы переносим VSIX и проект модульного теста в .NET 4.7.2 на странице свойств проектов.
 
    ![Перенос версии платформы](media/samples/framework-bump.png)
 
-Image Optimizer ссылался на некоторые старые специальные пакеты 14.* и 15.*. Вместо этого мы установим [пакет NuGet `Microsoft.VisualStudio.Sdk`](https://www.nuget.org/packages/microsoft.visualstudio.sdk), который консолидирует все необходимые ссылки.
+Image Optimizer ссылался на некоторые старые специальные пакеты 14.* и 15.*. Вместо этого мы установим [пакет NuGet `Microsoft.VisualStudio.Sdk`](https://www.nuget.org/packages/microsoft.visualstudio.sdk), который консолидирует все необходимые ссылки.
 
 ```Diff
 -  <ItemGroup>
@@ -62,7 +62,7 @@ Image Optimizer ссылался на некоторые старые специ
 
 См. [Общие проекты](update-visual-studio-extension.md#use-shared-projects-for-multi-targeting).
 
-Для поддержки Visual Studio 2022 необходимо добавить новый общий проект, содержащий исходный код расширения, которое будет совместно использоваться в проектах VSIX Visual Studio 2019 и Visual Studio 2022.
+Для поддержки Visual Studio 2022 необходимо добавить новый общий проект, содержащий исходный код расширения, которое будет совместно использоваться в проектах VSIX Visual Studio 2019 и Visual Studio 2022.
 
 1. Добавление нового общего проекта в решение
 
@@ -94,15 +94,15 @@ Image Optimizer ссылался на некоторые старые специ
    [git commit d5e36b2 — добавление внешних инструментов и библиотек](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d5e36b2d047290d38ffc977511510bc03e257f13)
 
    1. Для этого проекта необходимо переместить значок расширения, VSCT-файл и внешние инструменты в новую папку `ImageOptimizer\Resources`. Скопируйте их в эту общую папку и удалите из проекта VSIX.
-   1. Снова добавьте их в качестве связанных элементов, и если какие-то элементы уже связаны, их можно оставить в том же виде (например, лицензию).
-   1. Убедитесь, что действие сборки и другие свойства в добавленных связанных файлах заданы правильно, выбирая каждый файл и проверяя окно инструментов "Свойства". Для нашего проекта нам нужно было установить следующее:
+   1. Снова добавьте их в качестве связанных элементов, и, если какие-то элементы уже связаны, их можно оставить в том же виде (например, лицензию).
+   1. Убедитесь, что действие сборки и другие свойства в добавленных связанных файлах заданы правильно, выбирая каждый файл и проверяя окно инструментов "Свойства". Для нашего проекта нам нужно было сделать следующее:
        - задать для действия сборки `icon.png` значение `Content` и установить "Включить в VSIX" как `true`;
        - задать для действия сборки `ImageOptimizer.vsct` значение `VSCTComplile` и установить "Включить в VSIX" как `false`;
        - задать для всех действий сборки для файлов в `Resources\Tools` значение `Content` и установить "Включить в VSIX" как `true`.
 
            ![Добавление связанных файлов в проект VSIX](media/samples/add-linked-files.png)
 
-       - Кроме того, `ImageOptimizer.cs` является зависимостью `ImageOptimizer.vsct`. Для этого нам нужно вручную добавить эту зависимость в CSPROJ-файл:
+       - Кроме того, `ImageOptimizer.cs` является зависимостью `ImageOptimizer.vsct`. Для этого нам нужно вручную добавить эту зависимость в CSPROJ-файл.
 
           ```diff  
           - <Content Include="..\SharedFiles\ImageOptimizer.vsct">
@@ -124,13 +124,13 @@ Image Optimizer ссылался на некоторые старые специ
           + </Compile>
           ```
 
-       - Если окно инструментов "Свойства" не позволяет задать конкретное действие сборки, можно вручную изменить CSPROJ-файл, как делалось выше, и задать действие сборки как необходимо.
+       - Если окно инструментов "Свойства" не позволяет задать конкретное действие сборки, можно вручную изменить CSPROJ-файл, как делалось выше, и задать действие сборки, как необходимо.
 
 1. Выполните сборку проекта, чтобы проверить внесенные изменения и исправить все ошибки. Описание распространенных проблем см. в разделе [Вопросы и ответы](update-visual-studio-extension.md#q--a).
 
-## <a name="step-3---add-a-visual-studio-2022-vsix-project"></a>Шаг 3. Добавление проекта VSIX Visual Studio 2022
+## <a name="step-3---add-a-visual-studio-2022-vsix-project"></a>Шаг 3. Добавление проекта VSIX Visual Studio 2022
 
-См. раздел [Добавление целевого объекта Visual Studio 2022](update-visual-studio-extension.md#add-a-visual-studio-2022-target).
+См. раздел [Добавление целевого объекта Visual Studio 2022](update-visual-studio-extension.md#add-a-visual-studio-2022-target).
 
 1. Добавьте новый проект VSIX в решение.
 1. Удалите весь дополнительный исходный код в новом проекте, за исключением `source.extension.vsixmanifest.`
@@ -143,13 +143,13 @@ Image Optimizer ссылался на некоторые старые специ
 
    :::image type="content" source="media/update-visual-studio-extension/add-shared-project-reference.png" alt-text="Добавление ссылки на общий проект" lightbox="media/update-visual-studio-extension/add-shared-project-reference.png":::
 
-1. Добавьте связанные файлы из проекта VSIX Visual Studio 2019 и проверьте соответствие свойств "Действие сборки" и "Включить в VSIX". Также скопируйте файл `source.extension.vsixmanifest`, который позднее мы изменим для поддержки Visual Studio 2022.
+1. Добавьте связанные файлы из проекта VSIX Visual Studio 2019 и проверьте соответствие свойств "Действие сборки" и "Включить в VSIX". Также скопируйте файл `source.extension.vsixmanifest`, который позднее мы изменим для поддержки Visual Studio 2022.
 
    [git commit 98c43ee](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/98c43ee6fbe912c38a1275542c44c65e11d7dbd9)
 
    ![Добавление связанных файлов в проект VSIX](media/samples/visual-studio-2022-add-linked-files.png)
 
-1. Попытка сборки показывает, что отсутствует ссылка на `System.Windows.Forms`. Просто добавьте ее в проект Visual Studio 2022 и перестройте его.
+1. Попытка сборки показывает, что отсутствует ссылка на `System.Windows.Forms`. Просто добавьте ее в проект Visual Studio 2022 и перестройте его.
 
    [git commit de71ccd](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/de71ccd9baff703aa6679392ad41a2cfe7bd7d72)
 
@@ -157,7 +157,7 @@ Image Optimizer ссылался на некоторые старые специ
    + <Reference Include="System.Windows.Forms" />
    ```
 
-1. Обновите ссылки на пакеты `Microsoft.VisualStudio.SDK` и `Microsoft.VSSDK.BuildTools`, указав версии Visual Studio 2022.
+1. Обновите ссылки на пакеты `Microsoft.VisualStudio.SDK` и `Microsoft.VSSDK.BuildTools`, указав версии Visual Studio 2022.
 
    [git commit d581fc3](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/d581fc3c954974124dc7e31e5ecc85f78f7828ab)
 
@@ -171,10 +171,10 @@ Image Optimizer ссылался на некоторые старые специ
    > +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-Visual Studio 2022-g3f11f5ab" />
    > ```
 
-1. Измените файл `source.extension.vsixmanifest`, чтобы он указывал целевой объект Visual Studio 2022.
+1. Измените файл `source.extension.vsixmanifest`, чтобы он указывал целевой объект Visual Studio 2022.
 
    [git commit 9d393c7](https://github.com/madskristensen/ImageOptimizer/pull/46/commits/9d393c708c04ac4af48d1eb9ce3da4470db5d5cc)
-   1. Задайте тег `<InstallationTarget>`, чтобы в нем были указаны Visual Studio 2022 и полезные данные amd64:
+   1. Задайте тег `<InstallationTarget>`, чтобы в нем были указаны Visual Studio 2022 и полезные данные amd64.
 
       ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
@@ -182,7 +182,7 @@ Image Optimizer ссылался на некоторые старые специ
       </InstallationTarget>
       ```
 
-   1. Измените Prerequisite, включив только Visual Studio 2022 и более поздние версии:
+   1. Измените Prerequisite, включив только Visual Studio 2022 и более поздние версии.
 
       ```Diff
       - <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
@@ -191,7 +191,7 @@ Image Optimizer ссылался на некоторые старые специ
 
 Теперь все готово.
 
-В результате сборка создает VSIX-файлы Visual Studio 2019 и Visual Studio 2022.
+В результате сборка создает VSIX-файлы Visual Studio 2019 и Visual Studio 2022.
 
 ## <a name="other-samples"></a>Другие примеры
 

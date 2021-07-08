@@ -22,7 +22,7 @@ ms.locfileid: "112066960"
 ---
 # <a name="create-a-new-project-in-visual-studio"></a>Создание проекта в Visual Studio
 
-В этой статье мы расскажем, как быстро создать новый проект из шаблона в Visual Studio.
+В этой статье мы расскажем, как быстро создать новый проект из шаблона в Visual Studio.
 
 ::: moniker range="vs-2017"
 
