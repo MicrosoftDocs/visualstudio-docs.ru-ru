@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Документация по управлению версиями Visual Studio
-summary: Используйте технологии управления версиями, такие как Git и GitHub, чтобы обмениваться кодом из среды Visual Studio 2019.
+summary: Используйте технологии управления версиями, такие как Git и GitHub, чтобы обмениваться кодом из среды Visual Studio.
 metadata:
   title: Управление версиями и система управления версиями с использованием Git в Visual Studio
   description: Используйте технологии управления версиями в Visual Studio. Вы можете обмениваться версиями кода, интегрировать их и управлять ими в Git и GitHub, не выходя из базы кода.
@@ -11,12 +11,12 @@ metadata:
   manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
-  ms.openlocfilehash: 9bdd994d5fe1d5f54251ce49047feaf75145dcda
-  ms.sourcegitcommit: 8fb1500acb7e6314fbb6b78eada78ef5d61d39bf
+  ms.openlocfilehash: 8143a897914a0b9c2ca3adcdc5093c89852a2f53
+  ms.sourcegitcommit: 4b19d18874a5d3c3dbea67a8e478dc7d3a813769
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/03/2021
-  ms.locfileid: "113280397"
+  ms.lasthandoff: 07/07/2021
+  ms.locfileid: "113363993"
 landingContent:
 - title: Обзор
   linkLists:
@@ -44,7 +44,9 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Улучшение работы с Git в Visual Studio (предварительная версия)
+    - text: Улучшение работы с Git в Visual Studio
       url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
+    - text: Заметки о выпуске Visual Studio 2022 (предварительная версия)
+      url: /visualstudio/releases/2022/release-notes-preview/
     - text: Заметки о выпуске Visual Studio 2019
       url: /visualstudio/releases/2019/release-notes/
