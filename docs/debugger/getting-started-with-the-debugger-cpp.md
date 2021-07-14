@@ -1,7 +1,7 @@
 ---
 title: Учебник. Отладка кода C++
 description: Узнайте о возможностях отладчика Visual Studio и о том, как запустить отладчик, пошагово пройти код и проверить данные в приложении C++.
-ms.custom: debug-experiment,  get-started
+ms.custom: debug-experiment,  vs-acquisition, get-started
 ms.date: 02/04/2020
 ms.technology: vs-ide-debug
 ms.topic: tutorial
@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 8abb517103254aa1e0c89a02b0dc81b38af3ecee
-ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
+ms.openlocfilehash: e5d3b4e277fc7ab2c97ccf72b7b1dd7898160c8d
+ms.sourcegitcommit: 15821c790d6498210f30b3268402ffad6bb70c7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112385257"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "113725564"
 ---
 # <a name="tutorial-learn-to-debug-c-code-using-visual-studio"></a>Учебник. Сведения об отладке кода C++ с помощью Visual Studio
 
