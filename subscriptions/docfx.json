@@ -54,6 +54,15 @@
       ]
     },
     "template": [],
-    "dest": "subscriptions"
+    "dest": "subscriptions",
+    "fileMetadata": {},
+    "rules": {
+      "docs-link-absolute": {
+        "exclude": [
+          "**/*.md",
+          "**/*.yml"
+        ]
+      }
+    }
   }
 }
