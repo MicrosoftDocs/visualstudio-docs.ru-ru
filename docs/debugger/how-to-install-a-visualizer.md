@@ -2,7 +2,7 @@
 title: Установка визуализатора | Документация Майкрософт
 description: Сведения о том, как установить визуализатор, чтобы он был доступен для отладки в Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 06/10/2020
+ms.date: 07/02/2021
 ms.topic: how-to
 dev_langs:
 - CSharp
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 2521983a797b676b9136ca14b733eb7afd054e27
-ms.sourcegitcommit: ae6d47b09a439cd0e13180f5e89510e3e347fd47
+ms.openlocfilehash: 611347acfe48e561653d644097d56d029b6a4fa6
+ms.sourcegitcommit: 4cd3eb514e9fa48e586279e38fe7c2e111ebb304
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99904276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "113298261"
 ---
 # <a name="how-to-install-a-visualizer"></a>Практическое руководство. Установка визуализатора
 После создания визуализатора необходимо установить его так, чтобы он стал доступен в [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Установка визуализатора — это простой процесс.
@@ -38,6 +38,9 @@ ms.locfileid: "99904276"
 1. Найдите библиотеку DLL, содержащую построенный визуализатор.
 
    Как правило, лучше всего, если DLL-библиотека на стороне отладчика и библиотека DLL отлаживаемой стороны указывают **любой ЦП** в качестве целевой платформы. DLL-библиотека на стороне отладчика должна быть либо **любым ЦП**, либо **32-битным**. Целевая платформа для библиотеки DLL на стороне отлаживаемого объекта должна соответствовать процессу отладки.
+
+   >[!NOTE]
+   > Визуализатор на стороне отладчика загружается в процесс Visual Studio, поэтому это должна быть библиотека DLL платформы .NET Framework. В качестве стороны отладчика может выступать как .NET Framework, так и .NET Standard, в зависимости от того, отладка какого процесса выполняется в Visual Studio.
 
 2. Скопируйте DLL [стороны отлаживаемого объекта](create-custom-visualizers-of-data.md#to-create-the-debugger-side) (и все библиотеки DLL, от которых она зависит) в одно из следующих расположений:
 

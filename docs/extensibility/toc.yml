@@ -42,7 +42,7 @@
         - name: Перенос регистрации отладчика COM
           href: migrate-debugger-com-registration.md
         - name: Вопросы и ответы
-          href: faq-2017.md
+          href: faq-2017.yml
     - name: "Перенос проектов расширяемости в Visual Studio\_2017"
       href: how-to-migrate-extensibility-projects-to-visual-studio-2017.md
     - name: Расширение перехода для Visual Studio
