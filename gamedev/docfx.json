@@ -1,49 +1,49 @@
 {
-    "build": {
-      "content": [
-        {
-          "src": "./",
-          "files": [
-            "**/*.md",
-            "**/*.yml"
-          ],
-          "exclude": [
-            "**/obj/**",
-            "**/includes/**",
-            "**/docfx.json"
-          ]
-        }
-      ],
-      "resource": [
-        {
-          "src": "./",
-          "files": [
-            "**/*.png",
-            "**/*.jpg",
-            "**/*.gif",
-            "**/*.svg"
-          ],
-          "exclude": [
-            "**/obj/**",
-            "**/includes/**",
-            "**/docfx.json"
-          ]
-        }
-      ],
-      "overwrite": [],
-      "externalReference": [],
-      "globalMetadata": {
-	    "bilingual_type": "hover over",
-        "breadcrumb_path": "/gamedev/breadcrumb/toc.json",
-        "extendBreadcrumb": true,
-        "feedback_system": "None",
-        "feedback_github_repo": "",
-        "feedback_product_url": "",
-        "zone_pivot_group_filename": "gamedev/zone-pivot-groups.json"
-      },
-      "fileMetadata": {},
-      "template": [],
-      "dest": "gamedev",
-      "markdownEngineName": "markdig"
-    }
+  "build": {
+    "content": [
+      {
+        "src": "./",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/docfx.json"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "src": "./",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/docfx.json"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "bilingual_type": "hover over",
+      "breadcrumb_path": "/gamedev/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "feedback_github_repo": "",
+      "feedback_product_url": "",
+      "zone_pivot_group_filename": "gamedev/zone-pivot-groups.json"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "gamedev",
+    "markdownEngineName": "markdig"
   }
+}
