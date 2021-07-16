@@ -1,6 +1,6 @@
 ---
 title: Войти
-description: Узнайте, как войти в Visual Studio.
+description: Вход в Visual Studio, чтобы продлить пробный период Visual Studio, разблокировка Visual Studio и многое другое
 ms.custom: contperf-fy21q1
 ms.date: 09/11/2020
 ms.topic: how-to
@@ -10,16 +10,16 @@ ms.author: jmartens
 manager: jmartens
 ms.workload:
 - multiple
-ms.openlocfilehash: 1335ab3d8f679f00fb7f52420d378baa1f2bd905
-ms.sourcegitcommit: 8b75524dc544e34d09ef428c3ebbc9b09f14982d
+ms.openlocfilehash: 4b4c91a2ff4693b62ce8ac4d40d493995c52b81b
+ms.sourcegitcommit: 4e09130bcd55bb9cb8ad157507c23b67aa209fad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "113222998"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549476"
 ---
-# <a name="sign-in-to-visual-studio-on-windows"></a>Вход в Visual Studio в Windows
+# <a name="sign-in-to-visual-studio-on-windows"></a>Вход в Visual Studio в Windows 
 
-Хотя входить в систему не обязательно, это дает много преимуществ. В случае входа вы можете персонализировать, оптимизировать и расширить возможности Visual Studio. 
+Хотя входить в систему не обязательно, это дает много преимуществ. В этой статье вы узнаете, [как выполнить вход](#how-to-sign-in), как [обновить профиль](#update-your-profile) и какие преимущества дает использование Visual Studio. 
 
 > [!NOTE]
 > Этот раздел относится к Visual Studio в Windows. Информацию о Visual Studio для Mac см. в статье [Вход в Visual Studio для Mac](/visualstudio/mac/signing-in).
@@ -31,8 +31,6 @@ ms.locfileid: "113222998"
 > Использование Visual Studio 2017 для доступа к ресурсам, настроенным для условного доступа, может вызвать проблему с проверкой подлинности, когда в течение одного сеанса Visual Studio будут появляться повторные запросы на аутентификацию. 
 > 
 ::: moniker-end
-
-## <a name="benefits"></a>Преимущества
 
 Ниже приведен полный список возможностей, которые вы получаете после входа:
 

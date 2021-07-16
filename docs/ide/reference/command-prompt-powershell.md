@@ -14,12 +14,12 @@ helpviewer_keywords:
 - Visual Studio terminal
 ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
-ms.openlocfilehash: 858845ca5629f64e282e3864daa0201935316062
-ms.sourcegitcommit: b4cc3dee59421f7089112becf128a369acadaf61
+ms.openlocfilehash: fef783475304bb1faa1788bde591a22ed610d528
+ms.sourcegitcommit: e7629e132a4d2fad6bb5869e4d68d9dbeeae9631
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "112990523"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113649163"
 ---
 # <a name="visual-studio-developer-command-prompt-and-developer-powershell"></a>Командная строка разработчика и PowerShell для разработчиков в Visual Studio
 
@@ -28,7 +28,6 @@ ms.locfileid: "112990523"
 - **Командная строка разработчика для Visual Studio** — стандартная командная строка с определенными переменными среды, упрощающая работу с инструментами разработки. Доступно с версии Visual Studio 2015.
 
 - **PowerShell для разработчиков Visual Studio** — более функциональное средство, чем командная строка. Например, в нем можно передать результат одной команды (называемой *cmdlet* ) в другой cmdlet. В этой оболочке доступны те же переменные среды, что и в Командной строке разработчика. Доступно с версии Visual Studio 2019.
-
 
 :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Командная строка разработчика для Visual Studio с информацией об инструменте Clrver":::
 
@@ -43,8 +42,8 @@ ms.locfileid: "112990523"
 |Популярные команды|Описание|
 |--|--|
 |[`MSBuild`](../../msbuild/msbuild-command-line-reference.md)|Сборка проекта или решения|
-|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| [Инструменты .NET Framework](/dotnet/framework/tools/index) для CLR.|
-|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|[Инструменты .NET Framework](/dotnet/framework/tools/index) для дизассемблера.|
+|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| [Инструмент .NET Framework](/dotnet/framework/tools/index) для CLR|
+|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|[Инструменты .NET Framework](/dotnet/framework/tools/index) для дизассемблера|
 |[`dotnet`](/dotnet/core/tools/dotnet)|[Команда CLI .NET](/dotnet/core/tools/index)|
 |[`dotnet run`](/dotnet/core/tools/dotnet-run)|[Команда CLI .NET](/dotnet/core/tools/index)|
 |[`CL`](/cpp/build/reference/compiler-command-line-syntax)|Средство компиляции C/C++|
@@ -135,9 +134,7 @@ ms.locfileid: "112990523"
 
 ## <a name="see-also"></a>См. также
 
-- [PowerShell для разработчиков](https://devblogs.microsoft.com/visualstudio/the-powershell-you-know-and-love-now-with-a-side-of-visual-studio/)
-- [Новый терминал Visual Studio](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/)
 - [Терминал Windows](/windows/terminal/)
 - [Инструменты .NET Framework](/dotnet/framework/tools/index)
-- [Управление внешними инструментами](../managing-external-tools.md)
 - [Использование набора инструментов C++ Microsoft из командной строки](/cpp/build/building-on-the-command-line)
+- [Пользователи Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-msvc#:~:text=To%20open%20the%20Developer%20Command,item%20to%20open%20the%20prompt.)
