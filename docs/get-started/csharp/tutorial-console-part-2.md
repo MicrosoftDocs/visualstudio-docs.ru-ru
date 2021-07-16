@@ -1,5 +1,5 @@
 ---
-title: Учебник. Расширение простого консольного приложения C#
+title: Учебник 2. Расширение консольного приложения C#
 description: Ознакомьтесь с пошаговыми инструкциями по разработке консольного приложения на C# в Visual Studio.
 ms.custom: vs-acquisition, get-started
 ms.date: 04/15/2021
@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: ghogen
-ms.author: ghogen
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 monikerRange: '>=vs-2019'
 dev_langs:
@@ -16,20 +16,33 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: c7c38ed40143064090535735b2050dd31904d608
-ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
+ms.openlocfilehash: f7d1ae7d0d5f045c0772243c7fc4011a9f31088e
+ms.sourcegitcommit: e7629e132a4d2fad6bb5869e4d68d9dbeeae9631
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112390181"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113649160"
 ---
-# <a name="tutorial-extend-a-simple-c-console-app"></a>Учебник. Расширение простого консольного приложения C#
+# <a name="tutorial-extend-c-console-app-and-debug-in-visual-studio-part-2-of-2"></a>Учебник. Расширение консольного приложения C# и отладка в Visual Studio (часть 2 из 2)
 
-В этом руководстве вы узнаете, как использовать Visual Studio для расширения консольного приложения, созданного в первой части. Вы узнаете о некоторых функциях Visual Studio, необходимых для повседневной разработки, таких как управление несколькими проектами и создание ссылок на сторонние пакеты.
+В части 2 этой серии учебников вы узнаете чуть больше о функциях сборки и отладки в Visual Studio, необходимых для повседневных задач разработки, например об управлении несколькими проектами, отладке и ссылках на сторонние пакеты. Вы запустите консольное приложение C#, созданное в части 1 этого учебника (tutorial-console.md), и изучите некоторые функции интегрированной среды разработки (IDE) Visual Studio. Этот учебник представляет собой вторую часть серии, состоящей из двух частей.
 
-Если вы только что завершили [первую часть](tutorial-console.md) этой серии, у вас уже есть консольное приложение калькулятора.  Чтобы пропустить первую часть, можно открыть проект из репозитория GitHub. Приложение калькулятора на C# находится в репозитории [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples), поэтому просто следуйте инструкциям в разделе [Учебник. Открытие проекта из репозитория](../tutorial-open-project-from-repo.md), чтобы начать работу.
+В этом руководстве рассмотрены следующие задачи:
 
-## <a name="add-a-new-project"></a>Добавление нового проекта
+> [!div class="checklist"]
+> * Добавление еще одного проекта к первому
+> * Ссылка на библиотеки и добавление пакетов
+> * Отладка
+> * Проверка готового кода
+
+
+## <a name="prerequisites"></a>Предварительные требования
+
+Необходимо:
++ Использовать [консольное приложение калькулятора из части 1 этой серии учебников](tutorial-console.md). 
++ Использовать приложение калькулятора на C# из [репозитория vs-tutorial-samples](https://github.com/MicrosoftDocs/vs-tutorial-samples), которое можно [открыть в репозитории](../tutorial-open-project-from-repo.md), чтобы начать работу.
+
+## <a name="add-another-project"></a>Добавление еще одного проекта
 
 Реальный код связан со множеством проектов, объединенных в решение. Давайте добавим еще один проект в приложение калькулятора. Это будет библиотека классов, предоставляющая некоторые функции калькулятора.
 
@@ -749,15 +762,12 @@ namespace CalculatorProgram
 
 ## <a name="next-steps"></a>Следующие шаги
 
-Поздравляем с завершением этого учебника! Для получения дополнительных сведений перейдите к следующим руководствам.
+Поздравляем с завершением этого учебника! Для получения дополнительных сведений изучите следующие ресурсы.
 
-> [!div class="nextstepaction"]
-> [Продолжайте изучение учебников по C#](/dotnet/csharp/tutorials/)
-
-> [!div class="nextstepaction"]
-> [Продолжайте обзор интегрированной среды разработки Visual Studio](/../visual-studio-ide.md)
-
-## <a name="see-also"></a>См. также
-
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Продолжайте изучение учебников по C#](/dotnet/csharp/tutorials/)
+- [Краткое руководство. Создание веб-приложения ASP.NET Core](../../ide/quickstart-aspnet-core.md)
 - [Сведения об отладке кода C# в Visual Studio](tutorial-debugger.md)
+- Пошаговое руководство по [созданию и запуску модульных тестов](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Запуск программы C#](run-program.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Продолжайте обзор интегрированной среды разработки Visual Studio](/../visual-studio-ide.md)

@@ -1,5 +1,5 @@
 ---
-title: Учебник. Создание простого консольного приложения C#
+title: 'Учебник. Создание простого консольного приложения C# '
 description: Ознакомьтесь с пошаговыми инструкциями по созданию консольного приложения на C# в Visual Studio.
 ms.custom: vs-acquisition, get-started
 ms.date: 02/10/2021
@@ -15,16 +15,31 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 5f155c2477c97b6f0d18a4cfd3d54386aee68dd9
-ms.sourcegitcommit: e3a364c014ccdada0860cc4930d428808e20d667
+ms.openlocfilehash: 20732b0d7fb09de6079b0c1b7b06d2ae89802a5b
+ms.sourcegitcommit: e7629e132a4d2fad6bb5869e4d68d9dbeeae9631
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112390376"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113649176"
 ---
-# <a name="tutorial-create-a-simple-c-console-app-in-visual-studio"></a>Учебник. Создание простого консольного приложения C# в Visual Studio
+# <a name="tutorial-create-a-simple-c-console-app-in-visual-studio-part-1-of-2"></a>Учебник. Создание простого консольного приложения C# в Visual Studio (часть 1 из 2)
 
-В этом учебнике по C# вы создадите и запустите консольное приложение с помощью Visual Studio, а также ознакомитесь с некоторыми возможностями интегрированной среды разработки (IDE) Visual Studio.
+В этом учебнике вы создадите и запустите консольное приложение C# с помощью Visual Studio, а также ознакомитесь с некоторыми возможностями интегрированной среды разработки (IDE) Visual Studio. Этот учебник представляет собой первую часть серии, состоящей из двух частей.
+
+В этом руководстве рассмотрены следующие задачи:
+
+> [!div class="checklist"]
+> * Создание проекта Visual Studio
+> * Создание консольного приложения C#
+> * Запустите отладку приложения.
+> * Закрытие приложения
+> * Проверка готового кода
+
+[В части 2](tutorial-console-part-2.md) вы дополните это приложение другими проектами, узнаете о некоторых приемах отладки и укажете ссылки на сторонние пакеты.
+
+## <a name="prerequisites"></a>Предварительные требования
+
+Необходимо установить Visual Studio.
 
 ::: moniker range="vs-2017"
 
@@ -486,7 +501,7 @@ ms.locfileid: "112390376"
 
 1. Закройте Visual Studio.
 
-## <a name="code-complete"></a>Полный код
+## <a name="review-code-complete"></a>Проверка: завершение кодирования
 
 В этом руководстве мы внесли много изменений в приложение "Калькулятор". Теперь оно более эффективно использует вычислительные ресурсы и обрабатывает большинство ошибок во входных данных.
 
@@ -627,10 +642,15 @@ namespace Calculator
 Перейдите ко второй части этого руководства:
 
 > [!div class="nextstepaction"]
-> [Продолжение. Часть 2](tutorial-console-part-2.md)
+> [Учебник, часть 2. Использование нескольких проектов и пакетов сторонних разработчиков](tutorial-console-part-2.md)
 :::moniker-end
 
-## <a name="see-also"></a>См. также
+Полезные ресурсы
 
-* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
-* [Сведения об отладке кода C# в Visual Studio](tutorial-debugger.md)
+- [Продолжайте изучение учебников по C#](/dotnet/csharp/tutorials/)
+- [Краткое руководство. Создание веб-приложения ASP.NET Core](../../ide/quickstart-aspnet-core.md)
+- [Сведения об отладке кода C# в Visual Studio](tutorial-debugger.md)
+- Пошаговое руководство по [созданию и запуску модульных тестов](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Запуск программы C#](run-program.md)
+- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Продолжайте обзор интегрированной среды разработки Visual Studio](/../visual-studio-ide.md)
