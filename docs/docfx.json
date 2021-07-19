@@ -96,7 +96,8 @@
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
-        "ai/**/**.md": "AI tools for Visual Studio"
+        "ai/**/**.md": "AI tools for Visual Studio",
+        "msbuild/**/**.md": "MSBuild"
       },
       "feedback_system": {
         "vs-2015/**/*": "None",
@@ -105,6 +106,9 @@
       "searchScope": {
         "extensibility/**/*.md": [
           "VS Extensibility"
+        ],
+        "msbuild/**/*.md": [
+          "MSBuild"
         ]
       }
     },
